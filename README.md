@@ -2,9 +2,44 @@
 
 Agent-powered theoretical physicist: describe a topic in one phrase, pull papers, preprocess the library, and run multi-round expert sessions with optional LaTeX output.
 
+Example run : 
+py -3 main.py --phrase "look for a theory of QM on non continous fields instead of C, maybe Q or finite fields, explore building constraints and testable predictions"
+
+Outputs : 
+  [1/4] Planning session (prompt, agents, arXiv query)...
+
+  Title: Quantum Mechanics over Discrete Algebraic Fields: Foundations, Constraints, and Phenomenology
+  Refined question (1051 chars) — preview:
+
+    Can a physically consistent and empirically distinguishable formulation of quantum mechanics be constructed over a non-continuous number field — specifically the rationals Q, p-adic fields Q_p, or finite fields F_q (with q = p^n) — replacing the standard Hilbert space H over C? Concretely: (1) What algebraic and structural constraints (inner-product positivity, spectral theorems, Born-rule analogs...
+
+  Built-in + dynamic agents:
+    + dynamic: padic_expert — p-adic & Non-Archimedean Analysis Expert
+    + dynamic: finite_field_expert — Finite Field & Algebraic Geometry Specialist
+    + dynamic: phenomenology_expert — Quantum Foundations Phenomenologist
+    + dynamic: algebra_structures_expert — Operator Algebras & Representation Theory Expert
+
+  Rounds (agent keys per round):
+    Round 1: algebra_structures_expert, padic_expert, finite_field_expert, math
+    Round 2: padic_expert, finite_field_expert, qft, verifier
+    Round 3: algebra_structures_expert, qm, padic_expert, wild
+    Round 4: phenomenology_expert, qm, verifier, finite_field_expert
+    Round 5: devil, phenomenology_expert, algebra_structures_expert, padic_expert
+    Round 6: lit, meaning, wild, phenomenology_expert
+
+  arXiv: abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational field Hilbert space) OR t...
+  Categories: ['quant-ph', 'hep-th', 'math-ph']  |  max papers: 28
+
+  [2/4] Searching arXiv and saving abstracts to papers/...
+
+Searching arXiv: (abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational fiel...
+
+and running
+
 ## 1. API key setup
 
-Create **`.claude/settings.json`** yourself under the project root (this file is gitignored; do not commit it). Put your Anthropic API key under `env`:
+Create **`.claude/settings.json`** yourself under the project root. 
+Put your Anthropic API key under `env`:
 
 ```json
 {
@@ -17,13 +52,9 @@ Create **`.claude/settings.json`** yourself under the project root (this file is
 }
 ```
 
-Alternatively, set the environment variable `ANTHROPIC_API_KEY` in your shell or system. The app reads the environment variable first, then `.claude/settings.json` if the variable is unset.
-
-If you need a starting shape only, the repo may ship a `.claude/settings.example.json` with a placeholder `your-api-key`—copy it to `settings.json` and replace the value with your real key.
-
 ## 2. Running `main.py`
 
-In practice: *“write in main what you want”* means: give **one short phrase** that states your goal, then run:
+As given in the example above
 
 ```bash
 py -3 main.py --phrase "what you want to explore"
@@ -34,10 +65,6 @@ Or start interactive mode and type the phrase when prompted:
 ```bash
 py -3 main.py -i
 ```
-
-On Windows you can also use `run.bat`, which invokes `main.py`.
-
-That is the main workflow: **say what you want**, **execute** `main.py` with `--phrase` or `-i`. Optional flags (see `py -3 main.py --help`) let you skip paper download, skip preprocessing, only print the planner JSON (`--plan-only`), cap rounds, etc.
 
 ### Concrete examples
 
@@ -53,8 +80,6 @@ py -3 main.py --phrase "What is the most promising path to a theory of quantum g
 py -3 main.py --phrase "Discrete-time quantum mechanics that stays unitary and compatible with special relativity, with testable Planck-scale effects"
 ```
 
-Shorter phrases work too (e.g. `"covariant MOND and cluster lensing"`). The planner fills in scope, literature search, and roster.
-
 ## Example outputs (two saved sessions)
 
 These runs were produced in this project before the universal `main.py` pipeline; they use the same **output layout** as current sessions: LaTeX under `output/<session_id>/`, full state in `sessions/session_<id>.json`.
@@ -64,23 +89,17 @@ These runs were produced in this project before the universal `main.py` pipeline
 | `74f0fded` | Quantum gravity — most promising path, nature of spacetime | [output/74f0fded/final_paper.tex](output/74f0fded/final_paper.tex) | `round_01_checkpoint.tex` … `round_03_checkpoint.tex` |
 | `969486d9` | Discrete-time QM — unitarity, Lorentz covariance, dispersion | [output/969486d9/final_paper.tex](output/969486d9/final_paper.tex) | `round_01_checkpoint.tex` … `round_04_checkpoint.tex` |
 
-**PDFs:** During a run, if `pdflatex` or `latexmk` is available on your `PATH`, the tool also writes `final_paper.pdf` (and checkpoint PDFs) next to the `.tex` files. **This repository only stores the `.tex` sources** for those two sessions—no PDFs are committed. To build a PDF locally, from the project root:
-
-```bash
-cd output/74f0fded
-pdflatex -interaction=nonstopmode final_paper.tex
-pdflatex -interaction=nonstopmode final_paper.tex
-```
-
-Repeat for `output/969486d9/`, or use `latexmk -pdf final_paper.tex`. See [LaTeX / PDF post-processing](#latex--pdf-post-processing) below.
+Each run always writes **`.tex`** files under `output/<session_id>/` (final paper and round checkpoints). You can copy those elsewhere and compile with your own TeX setup. A **PDF** is produced in that same folder **only if** `pdflatex` or `latexmk` is on your `PATH` when the session runs (via `latex_tools/`); otherwise you only get the sources. The examples above are checked in as `.tex` only.
 
 ## 3. What the pipeline does (concise)
 
-1. **Plan** — A planner model turns your short phrase into a structured plan: a precise research question, an arXiv search query, categories, how many papers to pull, which built-in experts to use, optional **new** specialist agents (custom system prompts), and which experts speak in each round.
+1. **Plan** — A planner model turns your short phrase into a structured plan: a precise research question, an arXiv search query, categories, how many papers to pull, which **built-in** experts (GR, QM, QFT, math, literature, etc.) join each round, and how the discussion is staged. **Experts are also created on the fly when needed:** if your topic calls for niche skills (e.g. p-adic analysis, finite fields, a specific phenomenology), the planner invents one or more **dynamic specialists** for that run only—each gets its own system prompt and participates like any other agent. You do not configure them by hand.
 
-2. **Papers** — arXiv is searched; abstracts (and optionally PDFs) are saved under `papers/` and merged into `papers/index.json`.
+2. **Papers (in `main.py`)** — Only the **arXiv API** is called: a relevance search using the planned query and categories. Results are merged into `papers/index.json` with metadata and the **abstract** text (also saved as sidecar `.txt` files). **INSPIRE-HEP** and **Semantic Scholar** are *not* invoked by `main.py`; optional helpers live under **`paper_tools/`** (e.g. `inspire_downloader`, `semantic_scholar`, `main_preprocessing`; use `--help` on each module). If you run those *before* a session, merged hits land in the same `index.json`, so the expert step can still benefit from a larger library. You do **not** need any of that for a normal run—`main.py` already performs arXiv fetch and preprocessing when papers are not skipped.
 
-3. **Preprocess** — Each new abstract is summarized and tagged (for library search and filtering).
+   By default, **PDFs are not** downloaded. Use `main.py --pdf` if you also want arXiv PDFs on disk (slower, larger).
+
+3. **Preprocess** — `paper_tools.preprocess_papers` walks everything in `papers/index.json` that is not yet in `processed_index.json`. For each paper it uses **title + abstract only** (Claude Haiku) to build summaries, keywords, and simple tags—not the full PDF. If a PDF file exists for an entry, the script can optionally **extract full text** into a cached `.fulltext.txt` (for agents that read the library); that path is separate from the Haiku pass.
 
 4. **Discussion** — Multiple rounds: specialists answer the refined question with shared context from prior round syntheses; an orchestrator synthesizes after each round; LaTeX checkpoints and a final write-up go under `output/<session_id>/`. Session state is stored in `sessions/session_<id>.json`.
 
@@ -91,28 +110,6 @@ Repeat for `output/969486d9/`, or use `latexmk -pdf final_paper.tex`. See [LaTeX
 
 Use `--plan-only` to preview the plan without papers or the expert session. Use `--skip-papers` / `--skip-preprocess` if you already have a library and only want the discussion.
 
-## Paper download / preprocess (CLI)
-
-Scripts live under the **`paper_tools/`** package. Run them from the project root with `-m`, for example:
-
-```bash
-py -3 -m paper_tools.arxiv_downloader --list
-py -3 -m paper_tools.main_preprocessing --quick
-py -3 -m paper_tools.preprocess_papers
-```
-
-`download_papers.bat` is updated to call these modules.
-
-## LaTeX / PDF post-processing
-
-PDF compilation lives in **`latex_tools/`** (used by `agents/latex_formatter.py` after each checkpoint and final paper):
-
-```bash
-py -3 -m latex_tools.compile_latex   # prints whether pdflatex/latexmk is on PATH
-```
-
-Install [MiKTeX](https://miktex.org) or TeX Live and ensure `pdflatex` or `latexmk` is available if you want `.tex` outputs compiled to PDF automatically.
-
-## 6. Todos / future work
+## 5. Todos / future work
 
 - **Better paper integration** — Wire the literature reviewer and sessions more tightly to `papers/index.json` / `processed_index.json` (e.g. inject top-matching abstracts or summaries into context, retrieval by keywords, optional full-text snippets from PDFs). Today, papers are fetched and preprocessed mainly to grow the local library; deeper RAG-style use is still to be improved.
