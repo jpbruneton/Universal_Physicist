@@ -180,25 +180,42 @@ def get_excerpt(pdf_path: str, query: str = "", max_chars: int = 12000) -> str:
 
 # ── Batch extraction ──────────────────────────────────────────────────────────
 
-def extract_library(papers_dir: str, force: bool = False, verbose: bool = True) -> int:
+def extract_pdf_paths(pdf_paths: list[str], force: bool, verbose: bool) -> int:
     """
-    Extract and cache full text for all PDFs in papers_dir.
-    Returns count of newly extracted files.
+    Extract and cache full text only for the given PDF paths (not the whole directory).
+    Returns count of newly created cache files.
     """
     count = 0
-    for pdf in Path(papers_dir).glob("*.pdf"):
-        cache = fulltext_cache_path(str(pdf))
+    seen: set[str] = set()
+    for pdf_path_str in pdf_paths:
+        pdf_path = Path(pdf_path_str)
+        key = str(pdf_path.resolve())
+        if key in seen:
+            continue
+        seen.add(key)
+        if not pdf_path.is_file():
+            continue
+        cache = fulltext_cache_path(str(pdf_path))
         if cache.exists() and not force:
             continue
         if verbose:
-            print(f"  Extracting: {pdf.name[:60]}")
-        text = extract_raw_text(str(pdf))
+            print(f"  Extracting: {pdf_path.name[:60]}")
+        text = extract_raw_text(str(pdf_path))
         if text:
             cache.write_text(text, encoding="utf-8", errors="ignore")
             count += 1
         elif verbose:
             print(f"    (empty — possible scanned PDF)")
     return count
+
+
+def extract_library(papers_dir: str, force: bool = False, verbose: bool = True) -> int:
+    """
+    Extract and cache full text for all PDFs in papers_dir.
+    Returns count of newly extracted files.
+    """
+    paths = [str(p) for p in Path(papers_dir).glob("*.pdf")]
+    return extract_pdf_paths(paths, force, verbose)
 
 
 if __name__ == "__main__":

@@ -83,10 +83,24 @@ def save_processed_index(processed: dict) -> None:
 
 
 def extract_pdfs(papers_dir: str = PAPERS_DIR, force: bool = False) -> int:
-    """Extract and cache full text for all downloaded PDFs."""
+    """Extract and cache full text for all downloaded PDFs in the library directory."""
     try:
         from .pdf_reader import extract_library
         n = extract_library(papers_dir, force=force)
+        print(f"Full-text extraction: {n} new files created.")
+        return n
+    except ImportError:
+        print("pymupdf not installed — run: pip install pymupdf")
+        return 0
+
+
+def extract_pdfs_for_paths(pdf_paths: list[str], force: bool) -> int:
+    """Extract full text only for the listed PDFs (e.g. papers touched in this preprocess run)."""
+    if not pdf_paths:
+        return 0
+    try:
+        from .pdf_reader import extract_pdf_paths
+        n = extract_pdf_paths(pdf_paths, force, True)
         print(f"Full-text extraction: {n} new files created.")
         return n
     except ImportError:
@@ -104,10 +118,12 @@ def process_all(force: bool = False) -> None:
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     new_count = 0
+    touched_ids: list[str] = []
     for paper in raw_papers:
         pid = paper["id"]
         if pid in processed and not force:
             continue
+        touched_ids.append(pid)
 
         title = paper.get("title", "")
         abstract = paper.get("abstract", "")
@@ -154,12 +170,21 @@ def process_all(force: bool = False) -> None:
     pdf_count = sum(1 for p in processed.values() if p.get("pdf_file") and Path(p["pdf_file"]).exists())
     print(f"\nDone. {new_count} papers processed.")
     print(f"Library: {included} included, {excluded_count} excluded.")
-    print(f"PDFs available: {pdf_count} (run with --extract-pdfs to cache full text)")
+    print(f"PDFs available: {pdf_count} (run with --extract-pdfs to cache full text for the whole folder)")
     print(f"Index saved to: {PROCESSED_INDEX}")
 
-    # Auto-extract full text for any PDFs
-    if pdf_count:
-        extract_pdfs(force=False)
+    # Full-text only for PDFs whose metadata entries were processed in this run — not every PDF
+    # left in papers/ from older projects (extract_library would scan the whole directory).
+    touched = set(touched_ids)
+    pdf_paths_this_run: list[str] = []
+    for paper in raw_papers:
+        if paper["id"] not in touched:
+            continue
+        pdf = paper.get("pdf_file")
+        if pdf and Path(pdf).exists():
+            pdf_paths_this_run.append(pdf)
+    if pdf_paths_this_run:
+        extract_pdfs_for_paths(pdf_paths_this_run, force=False)
 
 
 def show_index() -> None:

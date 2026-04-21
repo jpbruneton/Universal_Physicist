@@ -5,12 +5,14 @@ Pipeline:
   1) You describe what you want in a simple phrase
   2) A planner expands it into a detailed question, arXiv query, agent roster,
      and optional new specialist agents (dynamic experts)
-  3) arXiv search downloads abstracts into papers/
+  3) Paper fetch: arXiv (required), then optional INSPIRE + Semantic Scholar supplements from config
   4) paper_tools.preprocess_papers enriches the library
   5) Multi-round discussion with built-in + dynamic agents, orchestrator, LaTeX output
 
 Usage:
     py -3 main.py --phrase "explore entropic gravity and black hole information"
+    py -3 main.py --use-instructions
+    py -3 main.py --use-instructions --instructions path/to/instructions.json
     py -3 main.py -i
     py -3 main.py --phrase "..." --skip-papers
     py -3 main.py --phrase "..." --skip-preprocess
@@ -32,7 +34,17 @@ if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR
+from config import (
+    ANTHROPIC_API_KEY,
+    MAX_ARXIV_PAPERS,
+    MAX_EXPERT_CONTEXT_CHARS,
+    MIN_ARXIV_PAPERS,
+    OUTPUT_DIR,
+    PAPERS_ARXIV_PDF,
+    PAPERS_INSPIRE,
+    PAPERS_SEMANTIC_SCHOLAR,
+    SESSIONS_DIR,
+)
 
 if not ANTHROPIC_API_KEY:
     print(
@@ -59,6 +71,12 @@ from agents import (
 from agents import dynamic_expert
 from agents import session_planner
 from agents.context_limits import truncate_tail
+from research_instructions import (
+    instructions_summary,
+    load_instructions_file,
+    merge_arxiv_search_query,
+)
+from topic_project_writer import write_topic_project_file
 
 TOPIC = "universal-pipeline"
 
@@ -86,6 +104,15 @@ BASE_AGENT_REGISTRY = {
 
 def _session_path(session_id: str) -> Path:
     return Path(SESSIONS_DIR) / f"session_{session_id}.json"
+
+
+def _supplemental_topic_from_plan(plan: dict) -> str:
+    """Short topic string for INSPIRE / S2 single-topic sweeps in main.py."""
+    title = (plan.get("session_title") or "").strip()
+    if len(title) >= 8:
+        return title[:280]
+    q = (plan.get("refined_research_question") or "").strip()
+    return q[:280] if q else "quantum gravity"
 
 
 def _pacing_sleep(seconds: float, after_what: str) -> None:
@@ -263,6 +290,17 @@ def main() -> None:
         help="Short description of what you want to explore",
     )
     parser.add_argument(
+        "--use-instructions",
+        action="store_true",
+        help="Load structured instructions from JSON (query, keywords, authors) instead of --phrase",
+    )
+    parser.add_argument(
+        "--instructions",
+        type=str,
+        default=None,
+        help="Path to instructions JSON (default: instructions.json next to main.py)",
+    )
+    parser.add_argument(
         "-i",
         "--interactive",
         action="store_true",
@@ -296,32 +334,89 @@ def main() -> None:
         "--max-papers",
         type=int,
         default=None,
-        help="Override planner max_papers for arXiv download",
+        help=f"Override planner max_papers for arXiv download (clamped to {MIN_ARXIV_PAPERS}–{MAX_ARXIV_PAPERS}; raise MAX_ARXIV_PAPERS in config.py for a higher ceiling)",
     )
     parser.add_argument(
         "--pdf",
         action="store_true",
-        help="Also download PDFs from arXiv (slow)",
+        help="Download arXiv PDFs for this search (overrides config papers.arxiv_pdf)",
+    )
+    parser.add_argument(
+        "--no-pdf",
+        action="store_true",
+        help="Do not download arXiv PDFs (overrides config papers.arxiv_pdf)",
+    )
+    parser.add_argument(
+        "--no-topic-project",
+        action="store_true",
+        help="Do not write <slug>_project.py with the frozen plan (default: write after planning)",
     )
     args = parser.parse_args()
 
-    phrase = args.phrase
-    if args.interactive or not phrase:
-        print("\nDescribe what you want in one short phrase (Enter to abort):\n")
-        phrase = input("> ").strip()
-        if not phrase:
-            print("Aborted.")
-            sys.exit(0)
+    if args.pdf and args.no_pdf:
+        parser.error("Use either --pdf or --no-pdf, not both.")
+
+    if args.use_instructions and args.phrase:
+        parser.error("Use either --phrase or --use-instructions, not both.")
+    if args.use_instructions and args.interactive:
+        parser.error("--interactive applies to --phrase mode; do not combine with --use-instructions.")
+
+    root_dir = Path(__file__).resolve().parent
+    instructions_path = (
+        Path(args.instructions)
+        if args.instructions is not None
+        else root_dir / "instructions.json"
+    )
+
+    phrase_for_project: str
+    instr: dict | None = None
+
+    if args.use_instructions:
+        try:
+            instr = load_instructions_file(instructions_path)
+        except (FileNotFoundError, json.JSONDecodeError, ValueError) as e:
+            print(f"ERROR: Could not load instructions ({e}).")
+            sys.exit(1)
+        phrase_for_project = instructions_summary(instr)
+    else:
+        phrase = args.phrase
+        if args.interactive or not phrase:
+            print("\nDescribe what you want in one short phrase (Enter to abort):\n")
+            phrase = input("> ").strip()
+            if not phrase:
+                print("Aborted.")
+                sys.exit(0)
+        phrase_for_project = phrase
 
     print("\n  [1/4] Planning session (prompt, agents, arXiv query)...\n")
     try:
-        plan = session_planner.plan_session(phrase)
+        if instr is not None:
+            plan = session_planner.plan_session_from_instructions(
+                instr["query"],
+                instr["keywords"],
+                instr["authors"],
+            )
+            plan["arxiv_search_query"] = merge_arxiv_search_query(
+                plan["arxiv_search_query"],
+                instr["keywords"],
+                instr["authors"],
+            )
+        else:
+            plan = session_planner.plan_session(phrase_for_project)
     except (json.JSONDecodeError, ValueError) as e:
         print(f"ERROR: Session planner failed ({e}). Try a slightly different phrase or run again.")
         sys.exit(1)
 
     if args.max_papers is not None:
-        plan["max_papers"] = max(8, min(40, args.max_papers))
+        plan["max_papers"] = max(MIN_ARXIV_PAPERS, min(MAX_ARXIV_PAPERS, args.max_papers))
+
+    if not args.no_topic_project:
+        root = Path(__file__).resolve().parent
+        try:
+            gen_path = write_topic_project_file(plan, phrase_for_project, root)
+            print(f"\n  Wrote session replay script: {gen_path.name}")
+        except OSError as e:
+            print(f"\n  WARNING: Could not write topic project file: {e}")
 
     print(f"  Title: {plan['session_title']}")
     print(f"  Refined question ({len(plan['refined_research_question'])} chars) — preview:\n")
@@ -343,12 +438,43 @@ def main() -> None:
         print("\n  [2/4] Searching arXiv and saving abstracts to papers/...\n")
         from paper_tools.arxiv_downloader import search_and_download
 
+        if args.pdf:
+            download_pdfs = True
+        elif args.no_pdf:
+            download_pdfs = False
+        else:
+            download_pdfs = PAPERS_ARXIV_PDF
+
         search_and_download(
             query=plan["arxiv_search_query"],
             categories=plan["arxiv_categories"],
             max_results=plan["max_papers"],
-            download_pdfs=args.pdf,
+            download_pdfs=download_pdfs,
         )
+
+        topic_extra = _supplemental_topic_from_plan(plan)
+        if PAPERS_INSPIRE:
+            print("\n  [2b/4] INSPIRE-HEP supplement (session topic, top-cited)...\n")
+            try:
+                from paper_tools.inspire_downloader import fetch_and_download_topic as inspire_fetch
+
+                inspire_fetch(topic_extra, 40, 15, download_pdfs)
+            except Exception as e:
+                print(f"  WARNING: INSPIRE supplement failed ({e}). Continuing.\n")
+        else:
+            print("\n  [2b/4] Skipped INSPIRE (papers.inspire is false in config).\n")
+
+        if PAPERS_SEMANTIC_SCHOLAR:
+            print("\n  [2c/4] Semantic Scholar supplement (session topic)...\n")
+            try:
+                from paper_tools.semantic_scholar import fetch_and_download_topic as s2_fetch
+
+                s2_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
+                s2_fetch(topic_extra, 40, 15, download_pdfs, s2_key)
+            except Exception as e:
+                print(f"  WARNING: Semantic Scholar supplement failed ({e}). Continuing.\n")
+        else:
+            print("\n  [2c/4] Skipped Semantic Scholar (papers.semantic_scholar is false in config).\n")
     else:
         print("\n  [2/4] Skipped (--skip-papers).\n")
 

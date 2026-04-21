@@ -30,7 +30,13 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 
-from config import PAPERS_DIR, ANTHROPIC_API_KEY
+from config import (
+    ANTHROPIC_API_KEY,
+    PAPERS_ARXIV_PDF,
+    PAPERS_DIR,
+    PAPERS_INSPIRE,
+    PAPERS_SEMANTIC_SCHOLAR,
+)
 
 
 def _banner(msg: str) -> None:
@@ -229,11 +235,15 @@ if __name__ == "__main__":
         epilog=__doc__,
     )
     parser.add_argument("--pdf",           action="store_true",
-                        help="Also download full PDFs (slow, ~5-10MB each)")
+                        help="Download arXiv PDFs (overrides config papers.arxiv_pdf)")
+    parser.add_argument("--no-pdf",        action="store_true",
+                        help="Skip arXiv PDF downloads (overrides config papers.arxiv_pdf)")
     parser.add_argument("--min-citations", "-c", type=int, default=None,
                         help="Minimum citation count for INSPIRE/S2 sweeps")
-    parser.add_argument("--skip-inspire",  action="store_true")
-    parser.add_argument("--skip-semantic", action="store_true")
+    parser.add_argument("--skip-inspire",  action="store_true",
+                        help="Skip INSPIRE (also off if papers.inspire is false in config)")
+    parser.add_argument("--skip-semantic", action="store_true",
+                        help="Skip Semantic Scholar (also off if papers.semantic_scholar is false in config)")
     parser.add_argument("--quick",         action="store_true",
                         help="Core papers only — no INSPIRE/S2 sweeps")
     parser.add_argument("--force",         action="store_true",
@@ -244,14 +254,25 @@ if __name__ == "__main__":
                         help="Show library status and exit")
     args = parser.parse_args()
 
+    if args.pdf and args.no_pdf:
+        parser.error("Use either --pdf or --no-pdf, not both.")
+
     if args.status:
         show_status()
     else:
+        if args.pdf:
+            download_pdfs = True
+        elif args.no_pdf:
+            download_pdfs = False
+        else:
+            download_pdfs = PAPERS_ARXIV_PDF
+        skip_inspire = args.skip_inspire or not PAPERS_INSPIRE
+        skip_semantic = args.skip_semantic or not PAPERS_SEMANTIC_SCHOLAR
         run_pipeline(
-            download_pdfs  = args.pdf,
+            download_pdfs  = download_pdfs,
             min_citations  = args.min_citations,
-            skip_inspire   = args.skip_inspire,
-            skip_semantic  = args.skip_semantic,
+            skip_inspire   = skip_inspire,
+            skip_semantic  = skip_semantic,
             quick          = args.quick,
             force_preproc  = args.force,
             s2_api_key     = args.s2_key,

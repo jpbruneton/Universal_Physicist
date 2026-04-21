@@ -57,7 +57,9 @@ Put your Anthropic API key under `env`:
 
 ## 2. Running `main.py`
 
-As given in the example above
+### Phrase mode (default)
+
+As given in the example above:
 
 ```bash
 py -3 main.py --phrase "what you want to explore"
@@ -68,6 +70,30 @@ Or start interactive mode and type the phrase when prompted:
 ```bash
 py -3 main.py -i
 ```
+
+### Structured instructions (JSON)
+
+For a **fixed research brief** with an explicit **literature focus**, copy [`instructions.example.json`](instructions.example.json) to `instructions.json` in the project root (or pass a path with `--instructions`) and edit all fields:
+
+| Field | Role in the pipeline |
+|--------|----------------------|
+| `query` | Sent to the **session planner** as the main research question. Drives `session_title`, `refined_research_question`, agent roster, and rounds (same role as a long `--phrase`). |
+| `keywords` | **Planner** must fold each term into `arxiv_search_query`; then `main.py` **merges** them again into the final arXiv query so every keyword appears in the string passed to the arXiv API. |
+| `authors` | **Planner** must use each name with an `au:` clause in `arxiv_search_query`; **merge** step adds an `au:` group again so author filters are always present in the downloaded search. |
+
+Run:
+
+```bash
+py -3 main.py --use-instructions
+```
+
+Custom file path:
+
+```bash
+py -3 main.py --use-instructions --instructions C:\path\to\my_instructions.json
+```
+
+Requirements: `query` is a non-empty string; `keywords` and `authors` are non-empty lists of strings (or a single comma-separated string per field). You cannot combine `--use-instructions` with `--phrase` or `-i`.
 
 ### Concrete examples
 
@@ -104,9 +130,9 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
 1. **Plan** — A planner model turns your short phrase into a structured plan: a precise research question, an arXiv search query, categories, how many papers to pull, which **built-in** experts (GR, QM, QFT, math, literature, etc.) join each round, and how the discussion is staged. **Experts are also created on the fly when needed:** if your topic calls for niche skills (e.g. p-adic analysis, finite fields, a specific phenomenology), the planner invents one or more **dynamic specialists** for that run only—each gets its own system prompt and participates like any other agent. You do not configure them by hand.
 
-2. **Papers (in `main.py`)** — Only the **arXiv API** is called: a relevance search using the planned query and categories. Results are merged into `papers/index.json` with metadata and the **abstract** text (also saved as sidecar `.txt` files). **INSPIRE-HEP** and **Semantic Scholar** are *not* invoked by `main.py`; optional helpers live under **`paper_tools/`** (e.g. `inspire_downloader`, `semantic_scholar`, `main_preprocessing`; use `--help` on each module). If you run those *before* a session, merged hits land in the same `index.json`, so the expert step can still benefit from a larger library. You do **not** need any of that for a normal run—`main.py` already performs arXiv fetch and preprocessing when papers are not skipped.
+2. **Papers (in `main.py`)** — Step **arXiv**: relevance search using the planned query and categories; results merge into `papers/index.json` with **abstract** text and sidecar `.txt` files. If **`papers.inspire`** / **`papers.semantic_scholar`** are true in `config` (see `config.default.yaml`), `main.py` then runs a **single-topic** supplement on each: INSPIRE (top-cited) and Semantic Scholar, using the session title (or the refined question if the title is too short). That is **not** the same as `py -3 -m paper_tools.main_preprocessing`, which runs long **multi-topic** sweeps; turn off the YAML flags if you want arXiv only.
 
-   By default, **PDFs are not** downloaded. Use `main.py --pdf` if you also want arXiv PDFs on disk (slower, larger).
+   PDF downloads follow **`papers.arxiv_pdf`** and `main.py --pdf` / `--no-pdf` (see config comments).
 
 3. **Preprocess** — `paper_tools.preprocess_papers` walks everything in `papers/index.json` that is not yet in `processed_index.json`. For each paper it uses **title + abstract only** (Claude Haiku) to build summaries, keywords, and simple tags—not the full PDF. If a PDF file exists for an entry, the script can optionally **extract full text** into a cached `.fulltext.txt` (for agents that read the library); that path is separate from the Haiku pass.
 

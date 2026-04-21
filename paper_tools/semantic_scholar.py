@@ -149,6 +149,31 @@ def load_existing_arxiv_ids() -> set[str]:
         return set()
 
 
+def fetch_and_download_topic(
+    topic: str,
+    max_results: int,
+    min_citations: int,
+    download_pdfs: bool,
+    api_key: str | None,
+) -> None:
+    """
+    Single-topic Semantic Scholar search + download abstracts via arXiv.
+    Used by main.py when config papers.semantic_scholar is true.
+    """
+    print(f"Semantic Scholar (single topic): {topic[:120]}...")
+    ids = fetch_topic(topic, max_results, min_citations, api_key, dry_run=False)
+    existing = load_existing_arxiv_ids()
+    new_ids = [i for i in ids if i not in existing]
+    print(f"  -> {len(ids)} S2 hits, {len(new_ids)} not yet in library")
+    if not new_ids:
+        return
+    batch_size = 20
+    for i in range(0, len(new_ids), batch_size):
+        batch = new_ids[i : i + batch_size]
+        download_by_id(batch, download_pdfs=download_pdfs)
+        time.sleep(0.5)
+
+
 def run_all_sweeps(
     min_citations=None,      # int | None
     topics=None,             # list[str] | None

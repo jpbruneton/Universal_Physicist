@@ -6,6 +6,8 @@ optional new specialist agents, and per-round agent groups.
 import json
 import re
 
+from config import MAX_ARXIV_PAPERS, MIN_ARXIV_PAPERS
+
 from .base import call_agent
 
 # Built-in specialists the model may assign (no deepread here — needs paper IDs).
@@ -13,35 +15,35 @@ ALLOWED_BASE_KEYS = frozenset(
     {"gr", "qm", "qft", "math", "lqg", "bh", "wild", "verifier", "meaning", "devil", "lit"}
 )
 
-PLANNER_SYSTEM = """You are a scientific session planner for a theoretical-physics think tank.
+PLANNER_SYSTEM = f"""You are a scientific session planner for a theoretical-physics think tank.
 
 The user will give a SHORT phrase describing what they want to explore. Your job is to design ONE coherent research session.
 
 Reply with ONLY a single JSON object (no markdown fences, no commentary) using exactly this schema:
-{
+{{
   "session_title": "<short academic title>",
   "refined_research_question": "<detailed, precise research question the experts will answer>",
   "arxiv_search_query": "<arXiv API query string: use field prefixes like ti:, abs:, all: and OR/AND as needed>",
   "arxiv_categories": ["<category>", ...],
-  "max_papers": <integer 8-40>,
+  "max_papers": <integer {MIN_ARXIV_PAPERS}-{MAX_ARXIV_PAPERS}>,
   "dynamic_agent_specs": [
-    {
+    {{
       "id": "<unique_snake_case_id like plasma_expert>",
       "display_name": "<human-readable name>",
       "system_prompt": "<full system prompt: You are an expert in ...>"
-    }
+    }}
   ],
   "round_agent_groups": [
     ["<agent_key>", ...],
     ...
   ]
-}
+}}
 
 Rules:
 - refined_research_question must be self-contained and technically pointed (equations welcome in plain text/LaTeX).
 - arxiv_search_query must target papers directly relevant to the phrase; prefer abs: or all: with key technical terms.
 - arxiv_categories: choose from gr-qc, hep-th, hep-ph, quant-ph, astro-ph, cond-mat, math-ph as appropriate (1-4 categories).
-- max_papers: pick based on breadth (narrow topic ~12, broad ~30).
+- max_papers: pick based on breadth (narrow topic ~12, medium ~24, very broad literature sweeps up to ~{MAX_ARXIV_PAPERS}).
 - dynamic_agent_specs: 0 to 4 entries. Add NEW specialists ONLY when the topic needs expertise not covered by built-ins (e.g. plasma astrophysics, lattice QCD, biophysics). Each system_prompt must be 4-12 sentences, concrete.
 - round_agent_groups: 3 to 6 rounds. Each round is a list of 2-5 agents. Use built-in keys and/or ids from dynamic_agent_specs.
 - Built-in agent keys you may use: gr, qm, qft, math, lqg, bh, wild, verifier, meaning, devil, lit
@@ -89,6 +91,39 @@ def plan_session(user_phrase: str) -> dict:
     return _validate_plan(plan)
 
 
+def plan_session_from_instructions(
+    query: str,
+    keywords: list[str],
+    authors: list[str],
+) -> dict:
+    """
+    Same as plan_session, but the user message carries structured query, keywords,
+    and authors so the model must fold all of them into refined_research_question
+    and arxiv_search_query.
+    """
+    kw_block = "\n".join(f"- {k}" for k in keywords)
+    au_block = "\n".join(f"- {a}" for a in authors)
+    messages = [
+        {
+            "role": "user",
+            "content": (
+                "Structured research instructions (every field must be reflected in your JSON output):\n\n"
+                f"Main query (foundation for session_title and refined_research_question):\n{query}\n\n"
+                f"Keywords (each must appear in arxiv_search_query using abs:, ti:, or all: as appropriate):\n"
+                f"{kw_block}\n\n"
+                f"Authors (each must appear in arxiv_search_query using the arXiv au: prefix):\n"
+                f"{au_block}\n\n"
+                "Produce the JSON plan. The refined_research_question must align with the main query. "
+                "arxiv_search_query must be relevant to the topic and must incorporate every keyword and every author."
+            ),
+        }
+    ]
+    raw = call_agent(PLANNER_SYSTEM, messages, max_tokens=8192)
+    blob = _extract_json_object(raw)
+    plan = json.loads(blob)
+    return _validate_plan(plan)
+
+
 def _validate_plan(plan: dict) -> dict:
     required = [
         "session_title",
@@ -107,7 +142,7 @@ def _validate_plan(plan: dict) -> dict:
         plan["arxiv_categories"] = ["gr-qc", "hep-th"]
 
     n = int(float(plan["max_papers"]))
-    plan["max_papers"] = max(8, min(40, n))
+    plan["max_papers"] = max(MIN_ARXIV_PAPERS, min(MAX_ARXIV_PAPERS, n))
 
     specs = plan["dynamic_agent_specs"]
     if not isinstance(specs, list):

@@ -1,0 +1,35 @@
+# Universal Physicist — default configuration
+#
+# Override: copy to `config.yaml` (gitignored) and adjust.
+# API key: ANTHROPIC_API_KEY or `.claude/settings.json` — never commit secrets.
+
+agent:
+  model: claude-sonnet-4-6
+
+arxiv:
+  min_papers: 8
+  max_papers: 120
+
+context:
+  max_expert_chars: 45000
+  max_orchestrator_agent_response_chars: 14000
+  max_final_round_synthesis_chars: 16000
+  max_final_all_rounds_chars: 90000
+  large_request_warn_input_chars: 120000
+
+session:
+  max_rounds: 3
+
+paths:
+  papers: papers
+  output: output
+  sessions: sessions
+
+# Paper sources and downloads (defaults: all enabled)
+# - arxiv_pdf: used by main.py and *_project.py replay (download PDFs from arXiv)
+# - inspire / semantic_scholar: used by main.py (single-topic supplement after arXiv)
+#   and by paper_tools.main_preprocessing (full multi-topic sweeps)
+papers:
+  arxiv_pdf: true
+  inspire: true
+  semantic_scholar: true

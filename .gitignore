@@ -11,6 +11,12 @@ __pycache__/
 venv/
 env/
 
+# Local YAML overrides (defaults live in config.default.yaml)
+config.yaml
+
+# Local session instructions (copy from instructions.example.json)
+instructions.json
+
 # Env files
 .env
 .env.*

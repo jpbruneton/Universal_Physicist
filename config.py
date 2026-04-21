@@ -1,12 +1,79 @@
+import json
 import os
 import sys
-import json
+
+_PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+_DEFAULT_YAML = os.path.join(_PROJECT_ROOT, "config.default.yaml")
+_LOCAL_YAML = os.path.join(_PROJECT_ROOT, "config.yaml")
+
+
+def _deep_merge(base: dict, override: dict) -> dict:
+    out = dict(base)
+    for key, val in override.items():
+        if (
+            key in out
+            and isinstance(out[key], dict)
+            and isinstance(val, dict)
+        ):
+            out[key] = _deep_merge(out[key], val)
+        else:
+            out[key] = val
+    return out
+
+
+def _load_yaml_config() -> dict:
+    try:
+        import yaml
+    except ImportError:
+        return {}
+    data: dict = {}
+    if os.path.isfile(_DEFAULT_YAML):
+        try:
+            with open(_DEFAULT_YAML, encoding="utf-8") as f:
+                loaded = yaml.safe_load(f)
+                if isinstance(loaded, dict):
+                    data = loaded
+        except (OSError, yaml.YAMLError):
+            pass
+    if os.path.isfile(_LOCAL_YAML):
+        try:
+            with open(_LOCAL_YAML, encoding="utf-8") as f:
+                local = yaml.safe_load(f)
+                if isinstance(local, dict):
+                    data = _deep_merge(data, local)
+        except (OSError, yaml.YAMLError):
+            pass
+    return data
+
+
+_YAML = _load_yaml_config()
+
+
+def _y(*keys, default=None):
+    d = _YAML
+    for k in keys:
+        if not isinstance(d, dict) or k not in d:
+            return default
+        d = d[k]
+    return d
+
+
+def _as_bool(val, default: bool) -> bool:
+    """YAML booleans; treat missing as default."""
+    if val is None:
+        return default
+    if isinstance(val, bool):
+        return val
+    if isinstance(val, str):
+        return val.strip().lower() in ("1", "true", "yes", "on")
+    return bool(val)
+
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
 # If not in environment, try loading from .claude/settings.json
 if not ANTHROPIC_API_KEY:
-    settings_path = os.path.join(os.path.dirname(__file__), ".claude", "settings.json")
+    settings_path = os.path.join(_PROJECT_ROOT, ".claude", "settings.json")
     if os.path.exists(settings_path):
         try:
             with open(settings_path) as f:
@@ -25,44 +92,68 @@ if not ANTHROPIC_API_KEY:
         file=sys.stderr,
     )
 
-# Model for all agents — Sonnet 4.6 is the default; swap to opus for deeper reasoning
-AGENT_MODEL = "claude-sonnet-4-6"
+AGENT_MODEL = _y("agent", "model", default="claude-sonnet-4-6")
 
-# Bound prompt size (characters) per call site. Long sessions otherwise send huge
-# cumulative context and spike tokens-per-minute (429 risk). Truncation keeps the tail.
-MAX_EXPERT_CONTEXT_CHARS = 45000
-MAX_ORCHESTRATOR_AGENT_RESPONSE_CHARS = 14000
-MAX_FINAL_ROUND_SYNTHESIS_CHARS = 16000
-MAX_FINAL_ALL_ROUNDS_CHARS = 90000
-# Warn once per call_agent when estimated input exceeds this (characters, rough).
-LARGE_REQUEST_WARN_INPUT_CHARS = 120000
+MIN_ARXIV_PAPERS = int(_y("arxiv", "min_papers", default=8))
+MAX_ARXIV_PAPERS = int(_y("arxiv", "max_papers", default=120))
 
-# How many rounds of debate the orchestrator runs before synthesizing
-MAX_ROUNDS = 3
+MAX_EXPERT_CONTEXT_CHARS = int(_y("context", "max_expert_chars", default=45000))
+MAX_ORCHESTRATOR_AGENT_RESPONSE_CHARS = int(
+    _y("context", "max_orchestrator_agent_response_chars", default=14000)
+)
+MAX_FINAL_ROUND_SYNTHESIS_CHARS = int(
+    _y("context", "max_final_round_synthesis_chars", default=16000)
+)
+MAX_FINAL_ALL_ROUNDS_CHARS = int(_y("context", "max_final_all_rounds_chars", default=90000))
+LARGE_REQUEST_WARN_INPUT_CHARS = int(
+    _y("context", "large_request_warn_input_chars", default=120000)
+)
 
-# Papers directory
-PAPERS_DIR = os.path.join(os.path.dirname(__file__), "papers")
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
-SESSIONS_DIR = os.path.join(os.path.dirname(__file__), "sessions")
+MAX_ROUNDS = int(_y("session", "max_rounds", default=3))
 
-# ArXiv categories relevant to quantum gravity
-ARXIV_CATEGORIES = ["gr-qc", "hep-th", "quant-ph", "math-ph"]
+_papers_rel = _y("paths", "papers", default="papers")
+_output_rel = _y("paths", "output", default="output")
+_sessions_rel = _y("paths", "sessions", default="sessions")
+PAPERS_DIR = os.path.join(_PROJECT_ROOT, _papers_rel)
+OUTPUT_DIR = os.path.join(_PROJECT_ROOT, _output_rel)
+SESSIONS_DIR = os.path.join(_PROJECT_ROOT, _sessions_rel)
 
-# Keywords that mark a paper as excluded (string theory heavy, not relevant to our QG approach).
-# A paper is excluded only if it matches >=2 exclude keywords AND zero safelist keywords.
-EXCLUDE_KEYWORDS = [
-    "string compactification", "flux compactification", "Calabi-Yau",
-    "moduli stabilization", "KKLT", "landscape of string vacua",
-    "supersymmetry breaking", "brane inflation", "D-brane phenomenology",
-    "Type IIA phenomenology", "Type IIB phenomenology",
+# Default arXiv category filter / search terms for paper_tools (not in YAML — edit here if needed).
+ARXIV_CATEGORIES = [
+    "gr-qc",
+    "hep-th",
+    "quant-ph",
+    "math-ph",
 ]
 
-# If ANY of these appear, the paper is KEPT regardless of exclude matches.
+# String-theory-heavy paper filter in preprocess_papers (not in YAML).
+EXCLUDE_KEYWORDS = [
+    "string compactification",
+    "flux compactification",
+    "Calabi-Yau",
+    "moduli stabilization",
+    "KKLT",
+    "landscape of string vacua",
+    "supersymmetry breaking",
+    "brane inflation",
+    "D-brane phenomenology",
+    "Type IIA phenomenology",
+    "Type IIB phenomenology",
+]
 EXCLUDE_SAFELIST = [
-    "AdS/CFT", "Anti-de Sitter", "holograph", "black hole entropy",
-    "Bekenstein", "entanglement entropy", "Ryu-Takayanagi",
-    "ER=EPR", "firewall", "information paradox", "holographic entanglement",
-    "spacetime emergence", "quantum information",
+    "AdS/CFT",
+    "Anti-de Sitter",
+    "holograph",
+    "black hole entropy",
+    "Bekenstein",
+    "entanglement entropy",
+    "Ryu-Takayanagi",
+    "ER=EPR",
+    "firewall",
+    "information paradox",
+    "holographic entanglement",
+    "spacetime emergence",
+    "quantum information",
 ]
 
 ARXIV_SEARCH_TERMS = [
@@ -89,3 +180,7 @@ ARXIV_SEARCH_TERMS = [
     "minimum length",
     "Planck scale",
 ]
+
+PAPERS_ARXIV_PDF = _as_bool(_y("papers", "arxiv_pdf"), True)
+PAPERS_INSPIRE = _as_bool(_y("papers", "inspire"), True)
+PAPERS_SEMANTIC_SCHOLAR = _as_bool(_y("papers", "semantic_scholar"), True)
