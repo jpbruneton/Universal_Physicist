@@ -1,0 +1,7 @@
+Title: The Renormalization Group flow of unimodular f(R) gravity
+Authors: Astrid Eichhorn
+Published: 2015-01-23
+arXiv ID: http://arxiv.org/abs/1501.05848v2
+Categories: gr-qc, hep-th
+Abstract:
+Unimodular gravity is classically equivalent to General Relativity. This equivalence extends to actions which are functions of the curvature scalar. At the quantum level, the dynamics could differ. Most importantly, the cosmological constant is not a coupling in the unimodular action, providing a new vantage point from which to address the cosmological constant fine-tuning problem. Here, a quantum theory based on the asymptotic safety scenario is studied, and evidence for an interacting fixed point in unimodular f(R) gravity is found. We study the fixed point and its properties, and also discuss the compatibility of unimodular asymptotic safety with dynamical matter, finding evidence for its compatibility with the matter degrees of freedom of the Standard Model.

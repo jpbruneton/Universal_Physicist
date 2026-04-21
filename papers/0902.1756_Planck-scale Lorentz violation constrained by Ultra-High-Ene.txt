@@ -1,0 +1,7 @@
+Title: Planck-scale Lorentz violation constrained by Ultra-High-Energy Cosmic Rays
+Authors: Luca Maccione, Andrew M. Taylor, David M. Mattingly, Stefano Liberati
+Published: 2009-02-10
+arXiv ID: http://arxiv.org/abs/0902.1756v3
+Categories: astro-ph.HE, gr-qc, hep-ph
+Abstract:
+We investigate the consequences of higher dimension Lorentz violating, CPT even kinetic operators that couple standard model fields to a non-zero vector field in an Effective Field Theory framework. Comparing the ultra-high energy cosmic ray spectrum reconstructed in the presence of such terms with data from the Pierre Auger observatory allows us to establish two sided bounds on the coefficients of the mass dimension five and six operators for the proton and pion. Our bounds imply that for both protons and pions, the energy scale of Lorentz symmetry breaking must be well above the Planck scale. In particular, the dimension five operators are constrained at the level of $10^{-3} M_{\rm Planck}^{-1}$. The magnitude of the dimension six proton coefficient is bounded at the level of $10^{-6} M_{Planck}^{-2}$ except in a narrow range where the pion and proton coefficients are both negative and nearly equal. In this small area, the magnitude of the dimension six proton coefficient must only be below $10^{-3} M_{\rm Planck}^{-2}$. Constraints on the dimension six pion coefficient are found to be much weaker, but still below $M_{\rm Planck}^{-2}$.

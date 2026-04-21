@@ -1,0 +1,7 @@
+Title: Relational Division in Rank-Aware Databases
+Authors: Ondrej Vaverka, Vilem Vychodil
+Published: 2015-07-02
+arXiv ID: http://arxiv.org/abs/1507.00541v1
+Categories: cs.DB
+Abstract:
+We present a survey of existing approaches to relational division in rank-aware databases, discuss issues of the present approaches, and outline generalizations of several types of classic division-like operations. We work in a model which generalizes the Codd model of data by considering tuples in relations annotated by ranks, indicating degrees to which tuples in relations match queries. The approach utilizes complete residuated lattices as the basic structures of degrees. We argue that unlike the classic model, relational divisions are fundamental operations which cannot in general be expressed by means of other operations. In addition, we compare the existing and proposed operations and identify those which are faithful counterparts of universally quantified queries formulated in relational calculi. We introduce Pseudo Tuple Calculus in the ranked model which is further used to show mutual definability of the various forms of divisions presented in the paper.

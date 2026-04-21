@@ -1,0 +1,7 @@
+Title: Traversable wormhole inspired by non-commutative geometries in $f(Q)$ gravity with conformal symmetry
+Authors: G. Mustafa, Zinnat Hassan, P. K. Sahoo
+Published: 2021-12-30
+arXiv ID: http://arxiv.org/abs/2112.15112v1
+Categories: gr-qc, hep-th
+Abstract:
+This article is based on the study of wormhole geometries in the context of symmetric teleparallel gravity or $f(Q)$ gravity, where $Q$ is the non-metricity scalar, and it is responsible for the gravitational interaction. To discuss the wormhole solutions, we consider spherically symmetric static spacetime metric with anisotropic matter contents under well-known non-commutative distributions known as Gaussian and Lorentzian distributions with an extra condition of permitting conformal killing vectors (CKV). This work aims to obtain wormhole solutions under these distributions, and through we found that wormhole solutions exist under these Gaussian and Lorentzian sources with viable physical properties. Further, we examine the stability of our obtained solutions through Tolman-Oppenheimer-Volkoff (TOV) equation and found that our calculated results are stable.

@@ -1,0 +1,7 @@
+Title: Advances on Tensor Network Theory: Symmetries, Fermions, Entanglement, and Holography
+Authors: Roman Orus
+Published: 2014-07-24
+arXiv ID: http://arxiv.org/abs/1407.6552v2
+Categories: cond-mat.str-el, hep-lat, hep-th, quant-ph
+Abstract:
+This is a short review on selected theory developments on Tensor Network (TN) states for strongly correlated systems. Specifically, we briefly review the effect of symmetries in TN states, fermionic TNs, the calculation of entanglement Hamiltonians from Projected Entangled Pair States (PEPS), and the relation between the Multi-scale Entanglement Renormalization Ansatz (MERA) and the AdS/CFT or gauge/gravity duality. We stress the role played by entanglement in the emergence of several physical properties and objects through the TN language. Some recent results along these lines are also discussed.

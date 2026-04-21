@@ -1,0 +1,7 @@
+Title: Entropy Conservation of Linear Dilaton Black Holes in Quantum Corrected Hawking Radiation
+Authors: I. Sakalli, H. Pasaoglu, M. Halilsoy
+Published: 2010-01-21
+arXiv ID: http://arxiv.org/abs/1001.3739v1
+Categories: gr-qc
+Abstract:
+It has been shown recently that information is lost in the Hawking radiation of the linear dilaton black holes in various theories when applying the tunneling formulism without considering quantum gravity effects. In this Letter, we recalculate the emission probability by taking into account of the log-area correction to the Bekenstein-Hawking entropy and the statistical correlation between quanta emitted. The crucial role of the black hole remnant on the entropy conservation is highlighted. We model the remnant as a higher dimensional linear dilaton vacuum in order to show that such a remnant model cannot radiate and its temperature would be zero. In addition to this, the entropy conservation in the higher dimensional linear dilaton black holes is also discussed. In summary, we show in detail that the information can also leak out from the linear dilaton black holes together with preserving unitarity in quantum mechanics.

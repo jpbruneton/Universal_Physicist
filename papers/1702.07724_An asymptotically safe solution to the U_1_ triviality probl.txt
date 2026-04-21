@@ -1,0 +1,7 @@
+Title: An asymptotically safe solution to the U(1) triviality problem
+Authors: Nicolai Christiansen, Astrid Eichhorn
+Published: 2017-02-24
+arXiv ID: http://arxiv.org/abs/1702.07724v2
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+We explore whether quantum gravity effects within the asymptotic safety paradigm can provide a predictive ultraviolet completion for Abelian gauge theories. We evaluate the effect of quantum gravity fluctuations on the running couplings in the gauge sector and discover an asymptotically safe fixed point of the Renormalization Group. In particular, if the strength of gravitational interactions remains below a critical strength, the minimal gauge coupling becomes asymptotically free. Further, we point out that a completely asymptotically free dynamics for the gauge field is impossible to achieve, as asymptotically safe quantum gravity necessarily induces nonvanishing higher-order interactions for the gauge field in the ultraviolet.

@@ -1,0 +1,7 @@
+Title: The complete LQG propagator: II. Asymptotic behavior of the vertex
+Authors: Emanuele Alesci, Carlo Rovelli
+Published: 2007-11-08
+arXiv ID: http://arxiv.org/abs/0711.1284v1
+Categories: gr-qc
+Abstract:
+In a previous article we have show that there are difficulties in obtaining the correct graviton propagator from the loop-quantum-gravity dynamics defined by the Barrett-Crane vertex amplitude. Here we show that a vertex amplitude that depends nontrivially on the intertwiners can yield the correct propagator. We give an explicit example of asymptotic behavior of a vertex amplitude that gives the correct full graviton propagator in the large distance limit.

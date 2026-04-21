@@ -1,0 +1,7 @@
+Title: d-Dimensional Black Hole Entropy Spectrum from Quasi-Normal Modes
+Authors: Gabor Kunstatter
+Published: 2002-12-03
+arXiv ID: http://arxiv.org/abs/gr-qc/0212014v2
+Categories: gr-qc, hep-th
+Abstract:
+Starting from recent observations\cite{hod,dreyer1} about quasi-normal modes, we use semi-classical arguments to derive the Bekenstein-Hawking entropy spectrum for $d$-dimensional spherically symmetric black holes. We find that the entropy spectrum is equally spaced: $S_{BH}=k \ln(m_0)n$, where $m_0$ is a fixed integer that must be derived from the microscopic theory. As shown in \cite{dreyer1},4-$d$ loop quantum gravity yields precisely such a spectrum with $m_0=3$ providing the Immirzi parameter is chosen appropriately. For $d$-dimensional black holes of radius $R_H(M)$, our analysis requires the existence of a unique quasinormal mode frequency in the large damping limit $ω^{(d)}(M) = α^{(d)}c/ R_H(M)$ with coefficient $α^{(d)} = {(d-3)/over 4π} \ln(m_0)$, where $m_0$ is an integer and $Γ^{(d-2)}$ is the volume of the unit $d-2$ sphere.

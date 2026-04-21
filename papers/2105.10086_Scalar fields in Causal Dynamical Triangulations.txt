@@ -1,0 +1,7 @@
+Title: Scalar fields in Causal Dynamical Triangulations
+Authors: Jan Ambjørn, Zbigniew Drogosz, Jakub Gizbert-Studnicki, Andrzej Görlich, Jerzy Jurkiewicz, Dániel Németh
+Published: 2021-05-21
+arXiv ID: http://arxiv.org/abs/2105.10086v1
+Categories: gr-qc
+Abstract:
+A typical geometry extracted from the path integral of a quantum theory of gravity might be quite complicated in the UV region. Even if such a configuration is not physical, it may be of interest to understand the details of its nature, since some universal features can be important for the physics of the model. If the formalism describing the geometry is coordinate independent, such understanding may be facilitated by the use of suitable coordinate systems. In this article we use scalar fields that solve Laplace's equation to introduce coordinates on geometries with a toroidal topology. Using these coordinates we observe what we denote as the "cosmic voids and filaments" structure, even if no matter is present in the theory. We also show that if the scalar fields we used as coordinates are dynamically coupled to geometry, they can change it in a dramatic way.

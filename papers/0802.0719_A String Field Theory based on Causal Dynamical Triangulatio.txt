@@ -1,0 +1,7 @@
+Title: A String Field Theory based on Causal Dynamical Triangulations
+Authors: J. Ambjorn, R. Loll, Y. Watabiki, W. Westra, S. Zohren
+Published: 2008-02-05
+arXiv ID: http://arxiv.org/abs/0802.0719v1
+Categories: hep-th
+Abstract:
+We formulate the string field theory in zero-dimensional target space corresponding to the two-dimensional quantum gravity theory defined through Causal Dynamical Triangulations. This third quantization of the quantum gravity theory allows us in principle to calculate the transition amplitudes of processes in which the topology of space changes in time, and to include non-trivial topologies of space-time. We formulate the corresponding Dyson-Schwinger equations and illustrate how they can be solved iteratively.

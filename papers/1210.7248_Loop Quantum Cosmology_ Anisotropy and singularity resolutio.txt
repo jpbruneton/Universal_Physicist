@@ -1,0 +1,7 @@
+Title: Loop Quantum Cosmology: Anisotropy and singularity resolution
+Authors: Alejandro Corichi, Asieh Karami, Edison Montoya
+Published: 2012-10-26
+arXiv ID: http://arxiv.org/abs/1210.7248v2
+Categories: gr-qc
+Abstract:
+In this contribution we consider the issue of singularity resolution within loop quantum cosmology (LQC) for different homogeneous models. We present results of numerical evolutions of effective equations for both isotropic as well as anisotropic cosmologies, with and without spatial curvature. To address the issue of singularity resolution we examine the time evolution of geometrical and curvature invariants that yield information about the semiclassical spacetime geometry. We discuss generic behavior found for a variety of initial conditions. Finally, we show that the modifications which come from Loop Quantum Cosmology imply a non-chaotic effective behavior in the vacuum Bianchi IX model.

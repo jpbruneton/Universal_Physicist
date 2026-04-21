@@ -1,0 +1,7 @@
+Title: Evanescent Black Holes
+Authors: C. Callan, S. Giddings, J. Harvey, A. Strominger
+Published: 1991-11-28
+arXiv ID: http://arxiv.org/abs/hep-th/9111056v1
+Categories: hep-th
+Abstract:
+A renormalizable theory of quantum gravity coupled to a dilaton and conformal matter in two space-time dimensions is analyzed. The theory is shown to be exactly solvable classically. Included among the exact classical solutions are configurations describing the formation of a black hole by collapsing matter. The problem of Hawking radiation and backreaction of the metric is analyzed to leading order in a $1/N$ expansion, where $N$ is the number of matter fields. The results suggest that the collapsing matter radiates away all of its energy before an event horizon has a chance to form, and black holes thereby disappear from the quantum mechanical spectrum. It is argued that the matter asymptotically approaches a zero-energy ``bound state'' which can carry global quantum numbers and that a unitary $S$-matrix including such states should exist.

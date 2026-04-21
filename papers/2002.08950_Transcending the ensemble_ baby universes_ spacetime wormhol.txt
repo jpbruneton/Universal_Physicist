@@ -1,0 +1,7 @@
+Title: Transcending the ensemble: baby universes, spacetime wormholes, and the order and disorder of black hole information
+Authors: Donald Marolf, Henry Maxfield
+Published: 2020-02-20
+arXiv ID: http://arxiv.org/abs/2002.08950v1
+Categories: hep-th, gr-qc
+Abstract:
+In the 1980's, work by Coleman and by Giddings and Strominger linked the physics of spacetime wormholes to `baby universes' and an ensemble of theories. We revisit such ideas, using features associated with a negative cosmological constant and asymptotically AdS boundaries to strengthen the results, introduce a change in perspective, and connect with recent replica wormhole discussions of the Page curve. A key new feature is an emphasis on the role of null states. We explore this structure in detail in simple topological models of the bulk that allow us to compute the full spectrum of associated boundary theories. The dimension of the asymptotically AdS Hilbert space turns out to become a random variable $Z$, whose value can be less than the naive number $k$ of independent states in the theory. For $k>Z$, consistency arises from an exact degeneracy in the inner product defined by the gravitational path integral, so that many a priori independent states differ only by a null state. We argue that a similar property must hold in any consistent gravitational path integral. We also comment on other aspects of extrapolations to more complicated models, and on possible implications for the black hole information problem in the individual members of the above ensemble.

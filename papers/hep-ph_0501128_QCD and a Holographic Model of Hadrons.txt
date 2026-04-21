@@ -1,0 +1,7 @@
+Title: QCD and a Holographic Model of Hadrons
+Authors: Joshua Erlich, Emanuel Katz, Dam T. Son, Mikhail A. Stephanov
+Published: 2005-01-14
+arXiv ID: http://arxiv.org/abs/hep-ph/0501128v2
+Categories: hep-ph, hep-th, nucl-th
+Abstract:
+We propose a five-dimensional framework for modeling low-energy properties of QCD. In the simplest three parameter model we compute masses, decay rates and couplings of the lightest mesons. The model fits experimental data to within 10%. The framework is a holographic version of the QCD sum rules, motivated by the anti-de Sitter/conformal field theory (AdS/CFT) correspondence. The model naturally incorporates properties of QCD dictated by chiral symmetry, which we demonstrate by deriving the Gell-Mann-Oakes-Renner relationship for the pion mass.

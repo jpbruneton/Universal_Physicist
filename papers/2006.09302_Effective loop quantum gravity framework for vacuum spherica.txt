@@ -1,0 +1,7 @@
+Title: Effective loop quantum gravity framework for vacuum spherically symmetric space-times
+Authors: Jarod George Kelly, Robert Santacruz, Edward Wilson-Ewing
+Published: 2020-06-16
+arXiv ID: http://arxiv.org/abs/2006.09302v3
+Categories: gr-qc
+Abstract:
+We develop an effective framework for the $\barμ$ scheme of holonomy corrections motivated by loop quantum gravity for vacuum spherically symmetric space-times. This is done by imposing the areal gauge in the classical theory, and then expressing the remaining components of the Ashtekar-Barbero connection in the Hamiltonian constraint in terms of holonomies of physical length $\ell_{\rm Pl}$. The stationary solutions to the effective Hamiltonian constraint can be found exactly, and we give the explicit form of the effective metric in Painlevé-Gullstrand coordinates. This solution has the correct classical limit, the quantum gravity corrections decay rapidly at large distances, and curvature scalars are bounded by the Planck scale, independently of the black hole mass $M$. In addition, the solution is valid for radii $x \ge x_{\rm min} \sim (\ell_{\rm Pl}^2 M)^{1/3}$ indicating the need for a matter field, with an energy density bounded by the Planck scale, to provide a source for the curvature in the space-time. Finally, for $M \gg m_{\rm Pl}$, the space-time has an outer and also an inner horizon, within which the expansion for outgoing radial null geodesics becomes positive again. On the other hand, for sufficiently small $M \sim m_{\rm Pl}$, there are no horizons at all in the effective metric.

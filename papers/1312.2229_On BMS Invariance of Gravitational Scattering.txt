@@ -1,0 +1,7 @@
+Title: On BMS Invariance of Gravitational Scattering
+Authors: Andrew Strominger
+Published: 2013-12-08
+arXiv ID: http://arxiv.org/abs/1312.2229v2
+Categories: hep-th, gr-qc
+Abstract:
+BMS+ transformations act nontrivially on outgoing gravitational scattering data while preserving intrinsic structure at future null infinity (I+). BMS- transformations similarly act on ingoing data at past null infinity (I-). In this paper we apply - within a suitable finite neighborhood of the Minkowski vacuum - results of Christodoulou and Klainerman to link I+ to I- and thereby identify "diagonal" elements BMS0 of (BMS+)X(BMS-). We argue that BMS0 is a nontrivial infinite-dimensional symmetry of both classical gravitational scattering and the quantum gravity S-matrix. It implies the conservation of net accumulated energy flux at every angle on the conformal S2 at I+. The associated Ward identity is shown to relate S-matrix elements with and without soft gravitons. Finally, BMS0 is recast as a U(1) Kac-Moody symmetry and an expression for the Kac-Moody current is given in terms of a certain soft graviton operator on the boundary of null infinity.

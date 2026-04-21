@@ -1,0 +1,7 @@
+Title: Planck Scale Symmetry Breaking and Majoron Physics
+Authors: K. S. Babu, I. Z. Rothstein, D. Seckel
+Published: 1993-01-06
+arXiv ID: http://arxiv.org/abs/hep-ph/9301213v1
+Categories: hep-ph
+Abstract:
+Majoron models provide neutrino masses via the spontaneous breaking of a global $U(1)$ symmetry. However, it may be argued that all global symmetries will be explicitly violated by gravitational effects. We show that it is possible to preserve most of the usual features of majoron models by invoking $U(1)_{B-L}$ to be a gauge symmetry and adding a second singlet scalar field. The majoron gets a small model dependent mass. The couplings of majorons to neutrinos may be of ordinary strength or may be made arbitrarily weak. We discuss the cosmological and astrophysical consequences of majoron models in the context of a model dependent majoron mass and neutrino coupling. For an appropriate choice of parameters majorons can play the role of dark matter.

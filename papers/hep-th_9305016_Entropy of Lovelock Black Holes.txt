@@ -1,0 +1,7 @@
+Title: Entropy of Lovelock Black Holes
+Authors: Ted Jacobson, Robert C. Myers
+Published: 1993-05-06
+arXiv ID: http://arxiv.org/abs/hep-th/9305016v1
+Categories: hep-th, gr-qc
+Abstract:
+A general formula for the entropy of stationary black holes in Lovelock gravity theories is obtained by integrating the first law of black hole mechanics, which is derived by Hamiltonian methods. The entropy is not simply one quarter of the surface area of the horizon, but also includes a sum of intrinsic curvature invariants integrated over a cross section of the horizon.

@@ -1,0 +1,8 @@
+Title: Forks in the Road, on the Way to Quantum Gravity
+Authors: Rafael D. Sorkin
+Published: 1997-06-01
+arXiv ID: http://arxiv.org/abs/gr-qc/9706002v1
+Categories: gr-qc, hep-th, quant-ph
+Abstract:
+In seeking to arrive at a theory of ``quantum gravity'', one faces several choices among alternative approaches. I list some of these ``forks in the road'' and offer reasons for taking one alternative over the other. In particular, I advocate the following: the sum-over-histories framework for quantum dynamics over the ``observable and state-vector'' framework; relative probabilities over absolute ones; spacetime over space as the gravitational ``substance'' (4 over 3+1); a Lorentzian metric over a Riemannian (``Euclidean'') one; a dynamical topology over an absolute one; degenerate metrics over closed timelike curves to mediate topology-change; ``unimodular gravity'' over the unrestricted functional integral; and taking a discrete underlying structure (the causal set) rather than the differentiable manifold as the basis of the theory.
+  In connection with these choices, I also mention some results from unimodular quantum cosmology, sketch an account of the origin of black hole entropy, summarize an argument that the quantum mechanical measurement scheme breaks down for quantum field theory, and offer a reason why the cosmological constant of the present epoch might have a magnitude of around $10^{-120}$ in natural units.

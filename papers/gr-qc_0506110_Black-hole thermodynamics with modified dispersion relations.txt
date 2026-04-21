@@ -1,0 +1,7 @@
+Title: Black-hole thermodynamics with modified dispersion relations and generalized uncertainty principles
+Authors: Giovanni Amelino-Camelia, Michele Arzano, Yi Ling, Gianluca Mandanici
+Published: 2005-06-22
+arXiv ID: http://arxiv.org/abs/gr-qc/0506110v1
+Categories: gr-qc
+Abstract:
+In several approaches to the quantum-gravity problem evidence has emerged of the validity of a "GUP" (a Generalized position-momentum Uncertainty Principle) and/or a "MDR" (a modification of the energy-momentum dispersion relation), but very little is known about the implications of GUPs and MDRs for black-hole thermodynamics, another key topic for quantum-gravity research. We investigate an apparent link, already suggested in an earlier exploratory study involving two of us, between the possibility of a GUP and/or a MDR and the possibility of a log term in the area-entropy black-hole formula. We then obtain, from that same perspective, a modified relation between the mass of a black hole and its temperature, and we examine the validity of the "Generalized Second Law of black-hole thermodynamics" in theories with a GUP and/or a MDR. After an analysis of GUP- and MDR-modifications of the black-body radiation spectrum, we conclude the study with a description of the black-hole evaporation process.

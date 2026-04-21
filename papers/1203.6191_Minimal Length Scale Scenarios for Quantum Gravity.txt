@@ -1,0 +1,7 @@
+Title: Minimal Length Scale Scenarios for Quantum Gravity
+Authors: Sabine Hossenfelder
+Published: 2012-03-28
+arXiv ID: http://arxiv.org/abs/1203.6191v2
+Categories: gr-qc, hep-ph, hep-th
+Abstract:
+We review the question of whether the fundamental laws of nature limit our ability to probe arbitrarily short distances. First, we examine what insights can be gained from thought experiments for probes of shortest distances, and summarize what can be learned from different approaches to a theory of quantum gravity. Then we discuss some models that have been developed to implement a minimal length scale in quantum mechanics and quantum field theory. These models have entered the literature as the generalized uncertainty principle or the modified dispersion relation, and have allowed the study of the effects of a minimal length scale in quantum mechanics, quantum electrodynamics, thermodynamics, black-hole physics and cosmology. Finally, we touch upon the question of ways to circumvent the manifestation of a minimal length scale in short-distance physics.

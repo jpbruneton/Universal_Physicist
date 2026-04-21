@@ -1,0 +1,7 @@
+Title: Efficient numerical simulations with Tensor Networks: Tensor Network Python (TeNPy)
+Authors: Johannes Hauschild, Frank Pollmann
+Published: 2018-04-30
+arXiv ID: http://arxiv.org/abs/1805.00055v4
+Categories: cond-mat.str-el
+Abstract:
+Tensor product state (TPS) based methods are powerful tools to efficiently simulate quantum many-body systems in and out of equilibrium. In particular, the one-dimensional matrix-product (MPS) formalism is by now an established tool in condensed matter theory and quantum chemistry. In these lecture notes, we combine a compact review of basic TPS concepts with the introduction of a versatile tensor library for Python (TeNPy) [https://github.com/tenpy/tenpy]. As concrete examples, we consider the MPS based time-evolving block decimation and the density matrix renormalization group algorithm. Moreover, we provide a practical guide on how to implement abelian symmetries (e.g., a particle number conservation) to accelerate tensor operations.

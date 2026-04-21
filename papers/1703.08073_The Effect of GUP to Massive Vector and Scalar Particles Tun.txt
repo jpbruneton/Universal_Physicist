@@ -1,0 +1,7 @@
+Title: The Effect of GUP to Massive Vector and Scalar Particles Tunneling From a Warped DGP Gravity Black Hole
+Authors: Ali Övgün, Kimet Jusufi
+Published: 2017-03-21
+arXiv ID: http://arxiv.org/abs/1703.08073v2
+Categories: physics.gen-ph
+Abstract:
+This paper discusses the effects of the mass and the angular momentum of massive vector and scalar particles on the Hawking temperature manifested under the effects of the generalized uncertainty principle (GUP). In particular, we calculate the Hawking temperature of a black hole in a warped DGP gravity model in the framework of the quantum tunneling method. We use the modified Proca and Klein-Gordon equations previously determined from the GUP Lagrangian in the spacetime background of a warped Dvali-Gabadadze-Porrati (DGP) metric, with the help of Hamilton-Jacobi (HJ) and semiclassical (WKB) approximation methods. We find that as a special case of a warped DGP black hole solution, the Hawking temperature of a Schwarzschild-de Sitter (SdS) black hole can be determined. Furthermore, the Hawking temperature is influenced by the mass and the angular momentum of vector and scalar particles and depends on which of those types of particles is being emitted by the black hole. We conclude that the nonthermal nature of the Hawking spectrum leads to Planck-scale nonthermal correlations, shedding light on the information paradox in black hole evaporation.

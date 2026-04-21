@@ -1,0 +1,7 @@
+Title: The Radial Acceleration Relation in Rotationally Supported Galaxies
+Authors: Stacy McGaugh, Federico Lelli, Jim Schombert
+Published: 2016-09-19
+arXiv ID: http://arxiv.org/abs/1609.05917v1
+Categories: astro-ph.GA
+Abstract:
+We report a correlation between the radial acceleration traced by rotation curves and that predicted by the observed distribution of baryons. The same relation is followed by 2693 points in 153 galaxies with very different morphologies, masses, sizes, and gas fractions. The correlation persists even when dark matter dominates. Consequently, the dark matter contribution is fully specified by that of the baryons. The observed scatter is small and largely dominated by observational uncertainties. This radial acceleration relation is tantamount to a natural law for rotating galaxies.

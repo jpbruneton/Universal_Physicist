@@ -1,0 +1,7 @@
+Title: Spin Foam Models of Riemannian Quantum Gravity
+Authors: John C. Baez, J. Daniel Christensen, Thomas R. Halford, David C. Tsang
+Published: 2002-02-06
+arXiv ID: http://arxiv.org/abs/gr-qc/0202017v4
+Categories: gr-qc
+Abstract:
+Using numerical calculations, we compare three versions of the Barrett-Crane model of 4-dimensional Riemannian quantum gravity. In the version with face and edge amplitudes as described by De Pietri, Freidel, Krasnov, and Rovelli, we show the partition function diverges very rapidly for many triangulated 4-manifolds. In the version with modified face and edge amplitudes due to Perez and Rovelli, we show the partition function converges so rapidly that the sum is dominated by spin foams where all the spins labelling faces are zero except for small, widely separated islands of higher spin. We also describe a new version which appears to have a convergent partition function without drastic spin-zero dominance. Finally, after a general discussion of how to extract physics from spin foam models, we discuss the implications of convergence or divergence of the partition function for other aspects of a spin foam model.

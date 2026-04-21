@@ -1,0 +1,7 @@
+Title: A Generalized Uncertainty Principle in Quantum Gravity
+Authors: Michele Maggiore
+Published: 1993-01-17
+arXiv ID: http://arxiv.org/abs/hep-th/9301067v1
+Categories: hep-th, gr-qc
+Abstract:
+We discuss a Gedanken experiment for the measurement of the area of the apparent horizon of a black hole in quantum gravity. Using rather general and model-independent considerations we find a generalized uncertainty principle which agrees with a similar result obtained in the framework of string theories. The result indicates that a minimum length of the order of the Planck length emerges naturally from any quantum theory of gravity, and that the concept of black hole is not operationally defined if the mass is smaller than the Planck mass.

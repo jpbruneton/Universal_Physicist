@@ -1,0 +1,7 @@
+Title: Information is Physical: Cross-Perspective Links in Relational Quantum Mechanics
+Authors: Emily Adlam, Carlo Rovelli
+Published: 2022-03-24
+arXiv ID: http://arxiv.org/abs/2203.13342v2
+Categories: quant-ph, physics.hist-ph
+Abstract:
+Relational quantum mechanics (RQM) is an interpretation of quantum mechanics based on the idea that quantum states describe not an absolute property of a system but rather a relationship between systems. In this article, we observe that there is a tension between RQM's naturalistic emphasis on the physicality of information and the inaccessibility of certain sorts of information in current formulations of RQM. Therefore we propose a new postulate for RQM which requires that all of the information possessed by a certain observer is stored in physical variables of that observer and thus accessible by measurement to other observers, so observers can reach intersubjective agreement about quantum events which have occurred in the past. Based on this postulate, we suggest an ontology for RQM which upholds the principle that quantum states are always relational, but which also postulates a set of quantum events which are not strictly relational. We show that the new postulate helps address some existing objections to RQM and finally we address the Frauchiger-Renner experiment in the context of RQM.

@@ -1,0 +1,7 @@
+Title: Problems which are well-posed in a generalized sense with applications to the Einstein equations
+Authors: H. -O. Kreiss, J. Winicour
+Published: 2006-02-13
+arXiv ID: http://arxiv.org/abs/gr-qc/0602051v3
+Categories: gr-qc
+Abstract:
+In the harmonic description of general relativity, the principle part of Einstein equations reduces to a constrained system of 10 curved space wave equations for the components of the space-time metric. We use the pseudo-differential theory of systems which are well-posed in the generalized sense to establish the well-posedness of constraint preserving boundary conditions for this system when treated in second order differential form. The boundary conditions are of a generalized Sommerfeld type that is benevolent for numerical calculation.

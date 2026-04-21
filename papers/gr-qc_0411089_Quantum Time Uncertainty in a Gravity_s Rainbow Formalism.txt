@@ -1,0 +1,7 @@
+Title: Quantum Time Uncertainty in a Gravity's Rainbow Formalism
+Authors: Pablo Galan, Guillermo A. Mena Marugan
+Published: 2004-11-17
+arXiv ID: http://arxiv.org/abs/gr-qc/0411089v1
+Categories: gr-qc
+Abstract:
+The existence of a minimum time uncertainty is usually argued to be a consequence of the combination of quantum mechanics and general relativity. Most of the studies that point to this result are nonetheless based on perturbative quantization approaches, in which the effect of matter on the geometry is regarded as a correction to a classical background. In this paper, we consider rainbow spacetimes constructed from doubly special relativity by using a modification of the proposals of Magueijo and Smolin. In these models, gravitational effects are incorporated (at least to a certain extent) in the definition of the energy-momentum of particles without adhering to a perturbative treatment of the back reaction. In this context, we derive and compare the expressions of the time uncertainty in quantizations that use as evolution parameter either the background or the rainbow time coordinates. These two possibilities can be regarded as corresponding to perturbative and non-perturbative quantization schemes, respectively. We show that, while a non-vanishing time uncertainty is generically unavoidable in a perturbative framework, an infinite time resolution can in fact be achieved in a non-perturbative quantization for the whole family of doubly special relativity theories with unbounded physical energy.

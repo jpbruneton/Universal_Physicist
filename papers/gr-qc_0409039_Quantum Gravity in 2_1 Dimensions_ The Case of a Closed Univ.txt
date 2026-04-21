@@ -1,0 +1,7 @@
+Title: Quantum Gravity in 2+1 Dimensions: The Case of a Closed Universe
+Authors: S. Carlip
+Published: 2004-09-08
+arXiv ID: http://arxiv.org/abs/gr-qc/0409039v2
+Categories: gr-qc, hep-th
+Abstract:
+In three spacetime dimensions, general relativity drastically simplifies, becoming a ``topological'' theory with no propagating local degrees of freedom. Nevertheless, many of the difficult conceptual problems of quantizing gravity are still present. In this review, I summarize the rather large body of work that has gone towards quantizing (2+1)-dimensional vacuum gravity in the setting of a spatially closed universe.

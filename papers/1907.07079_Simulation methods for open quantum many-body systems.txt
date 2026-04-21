@@ -1,0 +1,7 @@
+Title: Simulation methods for open quantum many-body systems
+Authors: Hendrik Weimer, Augustine Kshetrimayum, Román Orús
+Published: 2019-07-16
+arXiv ID: http://arxiv.org/abs/1907.07079v2
+Categories: quant-ph, cond-mat.str-el, physics.comp-ph
+Abstract:
+Coupling a quantum many-body system to an external environment dramatically changes its dynamics and offers novel possibilities not found in closed systems. Of special interest are the properties of the steady state of such open quantum many-body systems, as well as the relaxation dynamics towards the steady state. However, new computational tools are required to simulate open quantum many-body systems, as methods developed for closed systems cannot be readily applied. We review several approaches to simulate open many-body systems and point out the advances made in recent years towards the simulation of large system sizes.

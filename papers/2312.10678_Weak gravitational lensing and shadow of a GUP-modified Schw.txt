@@ -1,0 +1,7 @@
+Title: Weak gravitational lensing and shadow of a GUP-modified Schwarzschild black hole in the presence of plasma
+Authors: Husanboy Hoshimov, Odil Yunusov, Farruh Atamurotov, Mubasher Jamil, Ahmadjon Abdujabbarov
+Published: 2023-12-17
+arXiv ID: http://arxiv.org/abs/2312.10678v1
+Categories: gr-qc
+Abstract:
+In this work, we have studied weak gravitational lensing effect around black hole and determine shadow radius in GUP-corrected-Schwarzschild spacetime (S-GUP) in presence of plasma environment. We started with orbits of photons around black hole in S-GUP. In addition, we have studied shadow and gravitational weak lensing around such black hole. By using observational data of EHT project for the M87* and Sgr A*, we have got constrains parameter $ε$ in S-GUP gravity. Further to make a connection with observations, we investigate magnification and position of images formed as a result of lensing, and finally weak deflection angle and magnification for sources near M87* and Sgr A*.

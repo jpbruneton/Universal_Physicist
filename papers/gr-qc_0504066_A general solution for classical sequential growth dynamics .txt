@@ -1,0 +1,7 @@
+Title: A general solution for classical sequential growth dynamics of Causal Sets
+Authors: Madhavan Varadarajan, David Rideout
+Published: 2005-04-15
+arXiv ID: http://arxiv.org/abs/gr-qc/0504066v3
+Categories: gr-qc
+Abstract:
+A classical precursor to a full quantum dynamics for causal sets has been forumlated in terms of a stochastic sequential growth process in which the elements of the causal set arise in a sort of accretion process. The transition probabilities of the Markov growth process satisfy certain physical requirements of causality and general covariance, and the generic solution with all transition probabilities non-zero has been found. Here we remove the assumption of non-zero probabilities, define a reasonable extension of the physical requirements to cover the case of vanishing probabilities, and find the completely general solution to these physical conditions. The resulting family of growth processes has an interesting structure reminiscent of an ``infinite tower of turtles'' cosmology.

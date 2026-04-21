@@ -1,0 +1,7 @@
+Title: Thermodynamics and Shadows of GUP-corrected Black Holes with Topological Defects in Bumblebee Gravity
+Authors: Ronit Karmakar, Dhruba Jyoti Gogoi, Umananda Dev Goswami
+Published: 2023-03-01
+arXiv ID: http://arxiv.org/abs/2303.00297v2
+Categories: gr-qc
+Abstract:
+In this work we investigate a Schwarzschild-type black hole that is corrected by the Generalized Uncertainty Principle (GUP) and possesses topological defects within the framework of Bumblebee gravity. Our focus is on the thermodynamic characteristics of the black hole, such as temperature, entropy and heat capacity, which vary as functions of the horizon radius, and also on shadow as an optical feature. Our investigation reveals significant changes in the thermodynamic behavior of the black hole due to violations of Lorentz symmetry, GUP corrections, and the presence of monopoles. However, the shadow of the black hole is unaffected by violations of Lorentz symmetry. In addition, we provide a limit on the parameters of Lorentz symmetry violation, GUP and topological defects based on a classical test involving the precession of planetary orbits and the advancement of perihelion in the solar system.

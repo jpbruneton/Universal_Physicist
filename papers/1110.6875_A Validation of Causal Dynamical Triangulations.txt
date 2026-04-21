@@ -1,0 +1,7 @@
+Title: A Validation of Causal Dynamical Triangulations
+Authors: Rajesh Kommu
+Published: 2011-10-31
+arXiv ID: http://arxiv.org/abs/1110.6875v2
+Categories: gr-qc, hep-th
+Abstract:
+The Causal Dynamical Triangulation (CDT) approach to quantum gravity is a lattice approximation to the gravitational path integral. Developed by Ambjørn, Jurkiewicz and Loll, it has yielded some important results, notably the emergence of classical spacetime and short scale dimensional reduction. However, virtually all the results reported so far have been based on a single computer code. In this paper we present the first completely independent verification of the CDT algorithm, and report the successful reproduction of the emergence of classical spacetime and smooth reduction in the spectral dimension of the 2+1 and 3+1 dimensional spacetimes.

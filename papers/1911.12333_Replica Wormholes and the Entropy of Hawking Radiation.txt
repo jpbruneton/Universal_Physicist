@@ -1,0 +1,7 @@
+Title: Replica Wormholes and the Entropy of Hawking Radiation
+Authors: Ahmed Almheiri, Thomas Hartman, Juan Maldacena, Edgar Shaghoulian, Amirhossein Tajdini
+Published: 2019-11-27
+arXiv ID: http://arxiv.org/abs/1911.12333v2
+Categories: hep-th
+Abstract:
+The information paradox can be realized in anti-de Sitter spacetime joined to a Minkowski region. In this setting, we show that the large discrepancy between the von Neumann entropy as calculated by Hawking and the requirements of unitarity is fixed by including new saddles in the gravitational path integral. These saddles arise in the replica method as complexified wormholes connecting different copies of the black hole. As the replica number $n \to 1$, the presence of these wormholes leads to the island rule for the computation of the fine-grained gravitational entropy. We discuss these replica wormholes explicitly in two-dimensional Jackiw-Teitelboim gravity coupled to matter.

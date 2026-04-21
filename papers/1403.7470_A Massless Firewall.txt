@@ -1,0 +1,7 @@
+Title: A Massless Firewall
+Authors: Werner Israel
+Published: 2014-03-28
+arXiv ID: http://arxiv.org/abs/1403.7470v3
+Categories: gr-qc, hep-th
+Abstract:
+Several anomalies of black hole thermodynamics are resolved if one accepts hints from semi classical theory that in regions of strong gravity the energy density of the vacuum can become substantially negative. This leads to a picture of the horizon as a hot massless shell. As viewed in the local (Boulware) ground state, the apparent horizon is the repository of a large store of energy, and this energy is thermal. But, as a source of gravity, its mass is near zero. A simple (1+1)-dimensional model provides a concrete realization of this picture.

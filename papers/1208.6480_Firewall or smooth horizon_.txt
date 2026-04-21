@@ -1,0 +1,7 @@
+Title: Firewall or smooth horizon?
+Authors: Amos Ori
+Published: 2012-08-31
+arXiv ID: http://arxiv.org/abs/1208.6480v3
+Categories: gr-qc, hep-th
+Abstract:
+Recently, Almheiri, Marolf, Polchinski, and Sully found that for a sufficiently old black hole (BH), the set of assumptions known as the \emph{complementarity postulates} appears to be inconsistent with the assumption of local regularity at the horizon. They concluded that the horizon of an old BH is likely to be the locus of local irregularity, a "firewall". Here I point out that if one adopts a different assumption, namely that semiclassical physics holds throughout its anticipated domain of validity, then no inconsistency seems to arise, and the horizon retains its regularity. In this alternative view-point, the vast portion of the original BH information remains trapped inside the BH throughout the semiclassical domain of evaporation, and possibly leaks out later on. This appears to be an inevitable outcome of semiclassical gravity.

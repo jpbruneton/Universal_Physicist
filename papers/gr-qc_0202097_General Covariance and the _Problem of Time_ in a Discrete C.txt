@@ -1,0 +1,7 @@
+Title: General Covariance and the "Problem of Time" in a Discrete Cosmology
+Authors: Graham Brightwell, H. Fay Dowker, Joe Henson, Raquel S. Garcia, Rafael D. Sorkin
+Published: 2002-02-27
+arXiv ID: http://arxiv.org/abs/gr-qc/0202097v1
+Categories: gr-qc, hep-th
+Abstract:
+Identifying an appropriate set of ``observables'' is a nontrivial task for most approaches to quantum gravity. We describe how it may be accomplished in the context of a recently proposed family of stochastic (but classical) dynamical laws for causal sets. The underlying idea should work equally well in the quantum case.

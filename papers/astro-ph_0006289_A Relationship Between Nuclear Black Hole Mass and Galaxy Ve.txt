@@ -1,0 +1,7 @@
+Title: A Relationship Between Nuclear Black Hole Mass and Galaxy Velocity Dispersion
+Authors: Karl Gebhardt, Ralf Bender, Gary Bower, Alan Dressler, S. M. Faber, Alexei V. Filippenko, Richard Green, Carl Grillmair, Luis C. Ho, John Kormendy, Tod R. Lauer, John Magorrian, Jason Pinkney, Douglas Richstone, Scott Tremaine
+Published: 2000-06-20
+arXiv ID: http://arxiv.org/abs/astro-ph/0006289v2
+Categories: astro-ph
+Abstract:
+We describe a correlation between the mass M_BH of a galaxy's central black hole and the luminosity-weighted line-of-sight velocity dispersion sigma_e within the half-light radius. The result is based on a sample of 26 galaxies, including 13 galaxies with new determinations of black hole masses from Hubble Space Telescope measurements of stellar kinematics. The best-fit correlation is M_BH = 1.2 (+-0.2) x 10^8 M_sun (sigma_e/200 km/s)^(3.75 (+-0.3))over almost three orders of magnitude in M_BH; the scatter in M_BH at fixed sigma_e is only 0.30 dex and most of this is due to observational errors. The M_BH-sigma_e relation is of interest not only for its strong predictive power but also because it implies that central black hole mass is constrained by and closely related to properties of the host galaxy's bulge.

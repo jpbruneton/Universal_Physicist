@@ -1,0 +1,7 @@
+Title: Loop Quantum Cosmology: An Overview
+Authors: Abhay Ashtekar
+Published: 2008-11-30
+arXiv ID: http://arxiv.org/abs/0812.0177v1
+Categories: gr-qc, hep-th, math-ph
+Abstract:
+A brief overview of loop quantum cosmology of homogeneous isotropic models is presented with emphasis on the origin of and subtleties associated with the resolution of big bang and big crunch singularities. These results bear out the remarkable intuition that John Wheeler had. Discussion is organized at two levels. The the main text provides a bird's eye view of the subject that should be accessible to non-experts. Appendices address conceptual and technical issues that are often raised by experts in loop quantum gravity and string theory.

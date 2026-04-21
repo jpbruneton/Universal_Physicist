@@ -1,0 +1,7 @@
+Title: Viscosity in Strongly Interacting Quantum Field Theories from Black Hole Physics
+Authors: P. Kovtun, D. T. Son, A. O. Starinets
+Published: 2004-05-26
+arXiv ID: http://arxiv.org/abs/hep-th/0405231v2
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+The ratio of shear viscosity to volume density of entropy can be used to characterize how close a given fluid is to being perfect. Using string theory methods, we show that this ratio is equal to a universal value of $\hbar/4πk_B$ for a large class of strongly interacting quantum field theories whose dual description involves black holes in anti--de Sitter space. We provide evidence that this value may serve as a lower bound for a wide class of systems, thus suggesting that black hole horizons are dual to the most ideal fluids.

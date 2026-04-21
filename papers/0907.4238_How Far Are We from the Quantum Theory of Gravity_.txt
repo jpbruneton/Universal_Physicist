@@ -1,0 +1,7 @@
+Title: How Far Are We from the Quantum Theory of Gravity?
+Authors: R. P. Woodard
+Published: 2009-07-24
+arXiv ID: http://arxiv.org/abs/0907.4238v1
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+I give a pedagogical explanation of what it is about quantization that makes general relativity go from being a nearly perfect classical theory to a very problematic quantum one. I also explain why some quantization of gravity is unavoidable, why quantum field theories have divergences, why the divergences of quantum general relativity are worse than those of the other forces, what physicists think this means and what they might do with a consistent theory of quantum gravity if they had one. Finally, I discuss the quantum gravitational data that have recently become available from cosmology.

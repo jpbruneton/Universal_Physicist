@@ -1,0 +1,7 @@
+Title: Linear and Quadratic GUP, Liouville Theorem, Cosmological Constant, and Brick Wall Entropy
+Authors: Elias C. Vagenas, Ahmed Farag Ali, Mohammed Hemeda, Hassan Alshal
+Published: 2019-03-20
+arXiv ID: http://arxiv.org/abs/1903.08494v3
+Categories: hep-th, gr-qc
+Abstract:
+Motivated by the works on Equivalence Principle in the context of linear Generalized Uncertainty Principle and, independently, in the context of quadratic Generalized Uncertainty Principle, we expand these endeavors in the context of Generalized Uncertainty Principle when both linear and quadratic terms in momentum are include. We demonstrate how the definitions of equations of motion change upon that expansion. We also show how to obtain an analogue of Liouville theorem in the presence of linear and quadratic Generalized Uncertainty Principle. We employ the corresponding modified invariant unit volume of phase space to discuss the resulting density of states, the problem of cosmological constant, the black body radiation in curved spacetime, the concurrent energy and consequent no Brick Wall entropy.

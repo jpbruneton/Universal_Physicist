@@ -1,0 +1,7 @@
+Title: Indirect Collider Signals for Extra Dimensions
+Authors: J. L. Hewett
+Published: 1998-11-17
+arXiv ID: http://arxiv.org/abs/hep-ph/9811356v2
+Categories: hep-ph
+Abstract:
+A recent suggestion that quantum gravity may become strong near the weak scale has several testable consequences. In addition to probing for the new large (submillimeter) extra dimensions associated with these theories via gravitational experiments, one could search for the Kaluza Klein towers of massive gravitons which are predicted in these models and which can interact with the fields of the Standard Model. Here we examine the indirect effects of these massive gravitons being exchanged in fermion pair production in \epem annihilation and Drell-Yan production at hadron colliders. In the latter case, we examine a novel feature of this theory, which is the contribution of gluon gluon initiated processes to lepton pair production. We find that these processes provide strong bounds, up to several TeV, on the string scale which are essentially independent of the number of extra dimensions. In addition, we analyze the angular distributions for fermion pair production with spin-2 graviton exchanges and demonstrate that they provide a smoking gun signal for low-scale quantum gravity which cannot be mimicked by other new physics scenarios.

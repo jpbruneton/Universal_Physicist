@@ -1,0 +1,7 @@
+Title: Is Lattice Quantum Gravity Asymptotically Safe? Making contact between Causal Dynamical Triangulations and the Functional Renormalization Group
+Authors: Jan Ambjørn, Jakub Gizbert-Studnicki, Andrzej Gőrlich, Dániel Németh
+Published: 2024-08-14
+arXiv ID: http://arxiv.org/abs/2408.07808v3
+Categories: hep-lat, gr-qc, hep-th
+Abstract:
+We compare the effective action of the scale factor obtained from lattice quantum gravity (in the form of Causal Dynamical Triangulations (CDT)) to the corresponding effective action obtained from the simplest Functional Renormalization Group (FRG) calculation. In this way, we can identify the generic infinite four-volume limit of the lattice theory in the so-called de Sitter phase with the Gaussian fixed-point limit or the IR fixed-point limit obtained by FRG. We also show how to identify a putative UV lattice gravity fixed point. Our Monte Carlo simulations of CDT allow for the existence of such a UV fixed point, although the data precision does not yet provide a proof of its existence. The concept of a correlation length relevant for the lattice gravity fixed points is argued to be different from the concept of correlation lengths encountered in field theories in a fixed spacetime background.

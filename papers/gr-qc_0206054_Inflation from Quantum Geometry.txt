@@ -1,0 +1,7 @@
+Title: Inflation from Quantum Geometry
+Authors: Martin Bojowald
+Published: 2002-06-18
+arXiv ID: http://arxiv.org/abs/gr-qc/0206054v1
+Categories: gr-qc, astro-ph, hep-th
+Abstract:
+Quantum geometry predicts that a universe evolves through an inflationary phase at small volume before exiting gracefully into a standard Friedmann phase. This does not require the introduction of additional matter fields with ad hoc potentials; rather, it occurs because of a quantum gravity modification of the kinetic part of ordinary matter Hamiltonians. An application of the same mechanism can explain why the present-day cosmological acceleration is so tiny.

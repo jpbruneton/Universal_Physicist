@@ -1,0 +1,7 @@
+Title: Closed Timelike Curves, Singularities and Causality: A Survey from Gödel to Chronological Protection
+Authors: Jean-Pierre Luminet
+Published: 2021-01-21
+arXiv ID: http://arxiv.org/abs/2101.08592v1
+Categories: gr-qc
+Abstract:
+I give a historical survey of the discussions about the existence of closed timelike curves in general relativistic models of the universe, opening the physical possibility of time travel in the past, as first recognized by K. Gödel in his rotating universe model of 1949. I emphasize that journeying into the past is intimately linked to spacetime models devoid of timelike singularities. Since such singularities arise as an inevitable consequence of the equations of general relativity given physically reasonable assumptions, time travel in the past becomes possible only when one or another of these assumptions is violated. It is the case with wormhole-type solutions. S. Hawking and other authors have tried to "save" the paradoxical consequences of time travel in the past by advocating physical mechanisms of chronological protection; however, such mechanisms remain presently unknown, even when quantum fluctuations near horizons are taken into account. I close the survey by a brief and pedestrian discussion of Causal Dynamical Triangulations, an approach to quantum gravity in which causality plays a seminal role.

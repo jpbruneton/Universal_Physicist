@@ -1,0 +1,7 @@
+Title: Quantum statistical modified entropic gravity as a theoretical basis for MOND
+Authors: E. Pazy
+Published: 2013-02-18
+arXiv ID: http://arxiv.org/abs/1302.4411v2
+Categories: gr-qc, hep-th
+Abstract:
+Considering the quantum statistics of the degrees of freedom on the holographic screen it is shown that the ratio of the number of excited bulk degrees of freedom to the number of excited surface degrees of freedom, is given by the MOND interpolating function μ. This relationship is shown to hold also in AQUAL, and in the extension of MOND to de Sitter space. Based on the relationship between the entropy, and the number of degrees of freedom on the holographic screen, a simple expression, relating the MOND interpolating function to the ratio of the two-dimensional entropy to Bekenstein-Hawking entropy, is obtained. In terms of this expression MOND can be viewed as a modification of gravity arising due to a bound on the maximum entropy for the holographic screen.

@@ -1,0 +1,7 @@
+Title: Minimum Length Cutoff in Inflation and Uniqueness of the Action
+Authors: A. Ashoorioon, A. Kempf, R. B. Mann
+Published: 2004-10-06
+arXiv ID: http://arxiv.org/abs/astro-ph/0410139v1
+Categories: astro-ph, gr-qc, hep-th
+Abstract:
+According to most inflationary models, fluctuations that are of cosmological size today started out much smaller than any plausible cutoff length such as the string or Planck lengths. It has been shown that this could open an experimental window for testing models of the short-scale structure of space-time. The observability of effects hinges crucially, however, on the initial conditions imposed on the new comoving modes which are continually being created at the cutoff length scale. Here, we address this question while modelling spacetime as obeying the string and quantum gravity inspired minimum length uncertainty principle. We find that the usual strategy for determining the initial conditions faces an unexpected difficulty because it involves reformulating the action and discarding a boundary term: we find that actions that normally differ merely by a boundary term can differ significantly when the minimum length is introduced. This is possible because the introduction of a minimum length comes with an ordering ambiguity much like the ordering ambiguity that arises with the introduction of hbar in the process of quantization.

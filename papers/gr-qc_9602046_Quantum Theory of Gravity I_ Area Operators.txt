@@ -1,0 +1,7 @@
+Title: Quantum Theory of Gravity I: Area Operators
+Authors: Abhay Ashtekar, Jerzy Lewandowski
+Published: 1996-02-23
+arXiv ID: http://arxiv.org/abs/gr-qc/9602046v2
+Categories: gr-qc
+Abstract:
+A new functional calculus, developed recently for a fully non-perturbative treatment of quantum gravity, is used to begin a systematic construction of a quantum theory of geometry. Regulated operators corresponding to areas of 2-surfaces are introduced and shown to be self-adjoint on the underlying (kinematical) Hilbert space of states. It is shown that their spectra are {\it purely} discrete indicating that the underlying quantum geometry is far from what the continuum picture might suggest. Indeed, the fundamental excitations of quantum geometry are 1-dimensional, rather like polymers, and the 3-dimensional continuum geometry emerges only on coarse graining. The full Hilbert space admits an orthonormal decomposition into finite dimensional sub-spaces which can be interpreted as the spaces of states of spin systems. Using this property, the complete spectrum of the area operators is evaluated. The general framework constructed here will be used in a subsequent paper to discuss 3-dimensional geometric operators, e.g., the ones corresponding to volumes of regions.

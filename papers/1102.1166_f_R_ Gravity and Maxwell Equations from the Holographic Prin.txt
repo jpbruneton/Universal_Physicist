@@ -1,0 +1,7 @@
+Title: f(R) Gravity and Maxwell Equations from the Holographic Principle
+Authors: Rong-Xin Miao, Jun Meng, Miao Li
+Published: 2011-02-06
+arXiv ID: http://arxiv.org/abs/1102.1166v3
+Categories: hep-th, astro-ph.CO, gr-qc
+Abstract:
+Extending the holographic program of [1], we derive f(R) gravity and the Maxwell equations from the holographic principle, using time-like holographic screen. We find that to derive the Einstein equations and f(R) gravity in a natural holographic approach, the quasi-static condition is necessary. We also find the surface stress tensor and the surface electric current, surface magnetic current on the holographic screen for f(R) gravity and Maxwell's theory, respectively.

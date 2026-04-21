@@ -1,0 +1,7 @@
+Title: Traversable Wormholes Supported by GUP Corrected Casimir Energy
+Authors: Kimet Jusufi, Phongpichit Channuie, Mubasher Jamil
+Published: 2020-02-03
+arXiv ID: http://arxiv.org/abs/2002.01341v1
+Categories: gr-qc
+Abstract:
+In this paper, we investigate the effect of the Generalized Uncertainty Principle (GUP) in the Casimir wormhole spacetime recently proposed by Garattini [Eur. Phys. J. C (2019) 79: 951]. In particular, we consider three types of the GUP relations, firstly the Kempf, Mangano and Mann (KMM) model, secondly the Detournay, Gabriel and Spindel (DGS) model, and finally the so called type II model for GUP principle. To this end, we consider three specific models of the redshift function along with two different EoS of state given by $\mathcal{P}_r(r)=ω_r(r) ρ(r)$ along with $\mathcal{P}_t(r)=ω_t (r)\mathcal{P}_r(r)$ and obtain a class of asymptotically flat wormhole solutions supported by Casimir energy under the effect of GUP. Furthermore we check the null, weak, and strong condition at the wormhole throat with a radius $r_0$, and show that in general the classical energy condition are violated by some arbitrary quantity at the wormhole throat. Importantly, we examine the wormhole geometry with semi-classical corrections via embedding diagrams. We also consider the ADM mass of the wormhole, the volume integral quantifier to calculate the amount of the exotic matter near the wormhole throat, and the deflection angle of light.

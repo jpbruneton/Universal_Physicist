@@ -1,0 +1,7 @@
+Title: Singularity resolution and inflation from an infinite tower of regularized curvature corrections
+Authors: Pedro G. S. Fernandes
+Published: 2025-04-10
+arXiv ID: http://arxiv.org/abs/2504.07692v2
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+We explore four-dimensional scalar-tensor theories obtained from well-defined dimensional regularizations of Lovelock invariants. When an infinite tower of corrections is considered, these theories allow for cosmological models in which the Big Bang singularity is replaced by an inflationary phase in the early-universe, and they also admit a specific class of regular black hole solutions.

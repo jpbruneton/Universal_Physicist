@@ -1,0 +1,213 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\geometry{margin=2.5cm}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\title{\textbf{Discrete-Time Quantum Mechanics via Noncommutative Spectral Geometry}\\[0.4em]
+\large Round 3 Checkpoint --- Provisional Research Synthesis}
+\author{Collaborative Theory Group (Wild Theorist, Devil's Advocate, Coordinator)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report the Round~3 status of a programme to derive discrete-time quantum mechanics from first principles in noncommutative geometry. The central result is that the Cayley/Crank--Nicolson evolution scheme is uniquely selected by the minimal two-point finite spectral triple for the time direction via the Cayley transform, yielding a structurally principled --- rather than merely convenient --- discretisation. Two claims from Round~2 have been retracted: the alleged equivalence between the Cayley and $\kappa$-Poincar\'{e}/\allowbreak$\kappa$CN schemes (which differ at $\mathcal{O}(a^2 E^3/\hbar^3)$ with \emph{opposite} signs) and the previously stated GUP formula (replaced by a physically consistent corrected form). Phenomenological estimates confirm that the quadratic modified dispersion relation is unobservable in current GRB data by approximately twenty orders of magnitude, and the vacuum Cherenkov constraint does not immediately rule out the theory. Lorentz covariance is sharpened to a precise two-level problem, with a proper-time covariant Cayley scheme proposed at Level~1 and embedding in a spin-foam framework flagged for Level~2.
+\end{abstract}
+
+\tableofcontents
+\vspace{1em}
+
+%--------------------------------------------------------------------
+\section{Current Theoretical Proposal}
+%--------------------------------------------------------------------
+
+\subsection{Spectral Triple Derivation of the Cayley Scheme}
+
+\begin{definition}
+The \emph{minimal two-point spectral triple for the time direction} is
+\begin{equation}\label{eq:1}
+  (\mathcal{A}_T,\,\mathcal{H}_T,\,D_T)
+  = \!\left(\mathbb{C}^2,\;\mathbb{C}^2,\;\frac{\hbar}{a}\sigma_x\right),
+  \qquad
+  \sigma_x = \begin{pmatrix}0&1\\1&0\end{pmatrix}.
+\end{equation}
+\end{definition}
+
+The Cayley transform of $D_T$ is
+\begin{equation}\label{eq:2}
+  U_T = \frac{i\mathbf{1}+D_T\cdot a/\hbar}{i\mathbf{1}-D_T\cdot a/\hbar}
+      = \frac{\mathbf{1}+\sigma_x}{\mathbf{1}-\sigma_x},
+\end{equation}
+with eigenvalues $\pm i$, consistent with a minimal nontrivial phase advance. For the product spectral triple
+\begin{equation}\label{eq:3}
+  D = D_{\mathrm{space}}\otimes\mathbf{1}_2 + \gamma_5\otimes D_T,
+  \qquad
+  \{\gamma_5,\,D_{\mathrm{space}}\}=0,
+\end{equation}
+the Cayley transform restricted to the forward-time eigenspace on energy eigenstate $|E\rangle$ gives
+
+\begin{equation}\label{eq:4}
+  \boxed{U\big|_{E,+} = e^{-2i\arctan(aE/\hbar)} = e^{-i\omega_{\mathrm{Cay}}(E)\cdot a},}
+\end{equation}
+where the \emph{Cayley dispersion relation} is
+\begin{equation}\label{eq:5}
+  \omega_{\mathrm{Cay}}(E) = \frac{2}{a}\arctan\!\left(\frac{aE}{2\hbar}\right).
+\end{equation}
+\textbf{The Cayley scheme is the unique evolution singled out by the minimal finite spectral triple for the time direction.} \textcolor{red}{[speculative: the selection principle preferring $n=1$ over higher Padé orders has not been derived from an action principle.]}
+
+\begin{remark}
+The spectrum of $D^2$ is
+\begin{equation}\label{eq:6}
+  \mathrm{Spec}(D^2) = \left\{E^2 + \frac{\hbar^2}{a^2} : E^2\in\mathrm{Spec}(D_{\mathrm{space}}^2)\right\},
+\end{equation}
+yielding the deformed mass-shell condition $D^2\text{-eigenvalue} = p^2c^2+m^2c^4+E_P^2$ with $E_P=\hbar/a$. The spectral action $S=\mathrm{Tr}(e^{-D^2/E_P^2})$ reduces to the Seeley--DeWitt heat-kernel expansion of the spatial Dirac operator, which recovers the Einstein--Hilbert action at leading order \cite{ashtekar2004}. \textcolor{red}{[speculative: this connection to gravity is structural/classical and has not been established at the quantum level.]}
+\end{remark}
+
+\subsection{Corrected Dispersion Relations and Sign Discrepancy}
+
+Expanding $\omega_{\mathrm{Cay}}$ with $\epsilon\equiv aE/\hbar\ll 1$:
+\begin{equation}\label{eq:7}
+  \omega_{\mathrm{Cay}} = \frac{E}{\hbar} - \frac{a^2 E^3}{12\hbar^3} + \mathcal{O}(a^4).
+\end{equation}
+
+For the $\kappa$CN scheme at $\kappa=\hbar/a$, the analogous expansion gives
+\begin{equation}\label{eq:8}
+  \omega_{\kappa\mathrm{CN}}\big|_{\kappa=\hbar/a} = \frac{E}{\hbar} + \frac{a^2 E^3}{12\hbar^3} + \mathcal{O}(a^4).
+\end{equation}
+
+The two schemes differ at $\mathcal{O}(a^2 E^3/\hbar^3)$ with \emph{opposite signs}: Cayley predicts subluminal photons; $\kappa$CN predicts superluminal photons at Planck energies. The Round~2 equivalence claim is \textbf{retracted} (see Section~\ref{sec:consensus}).
+
+\subsection{Corrected Generalised Uncertainty Principle}
+
+The Round~2 GUP formula is retracted. The correct energy-referenced GUP derived from the Cayley group velocity is
+\begin{equation}\label{eq:9}
+  \boxed{\Delta E\cdot\Delta t \;\geq\; \frac{\hbar}{2}\!\left(1+\frac{a^2 E^2}{4\hbar^2}\right),}
+\end{equation}
+where $E$ is the mean energy of the state. This reduces to the standard Heisenberg relation for $E\ll E_P$ and strengthens it near the Planck scale. The previous $\Delta t$-referenced formula diverged catastrophically for $\Delta t\gg a$ and is replaced by Eq.~\eqref{eq:9}.
+
+\subsection{Proper-Time Covariant Cayley Scheme}
+
+To address Lorentz covariance at Level~1 (kinematic), we write the evolution in proper time $\tau$ with Lorentz-invariant step $a$:
+\begin{equation}\label{eq:10}
+  \psi(\tau+a) = U_a^{(\mathrm{prop})}\,\psi(\tau),
+  \qquad
+  U_a^{(\mathrm{prop})} = \frac{i\mathbf{1}+aH_\tau/\hbar}{i\mathbf{1}-aH_\tau/\hbar},
+\end{equation}
+where $H_\tau=\sqrt{H^2+\mathbf{p}^2c^2}$ is the rest-frame Hamiltonian. The corresponding proper-time dispersion relation is
+\begin{equation}\label{eq:11}
+  e^{i\omega_{\mathrm{prop}}\cdot a}
+  = \frac{i+aE_{\mathrm{rest}}/\hbar}{i-aE_{\mathrm{rest}}/\hbar},
+  \qquad
+  E_{\mathrm{rest}} = \sqrt{p^2c^2+m^2c^4}.
+\end{equation}
+Level~2 covariance (full spacetime discretisation) requires embedding in a spin-foam or causal-set framework \cite{henson2006,ashtekar2004,thiemann1996}; this is flagged as future work.
+
+\subsection{Phenomenological Bound}
+
+The group velocity for a massless Cayley photon is $v_g = c\!\left(1-E^2/(4E_P^2)\right)$. The time delay between photons of energies $E_1$ and $E_2\approx 0$ over distance $L\sim 10^{26}$~m is
+\begin{equation}\label{eq:12}
+  \Delta t \approx \frac{L}{c}\cdot\frac{E_1^2}{4E_P^2} \approx 5.5\times10^{-20}~\text{s}
+  \quad (E_1=10~\text{GeV}),
+\end{equation}
+twenty orders of magnitude below Fermi's timing resolution of $\sim 1$~ms. The vacuum Cherenkov threshold for subluminal photons lies at $E_{p,\mathrm{thresh}}\sim 2.4\times10^{13}$~GeV, above the highest observed cosmic-ray energies, so no immediate constraint arises.
+
+%--------------------------------------------------------------------
+\section{Points of Consensus}\label{sec:consensus}
+%--------------------------------------------------------------------
+
+All team members agree on the following:
+
+\begin{enumerate}
+  \item \textbf{Unitarity is non-negotiable.} The Cayley/Crank--Nicolson scheme preserves the inner product exactly at finite $a$, unlike Euler or leapfrog methods. This is the primary physical selection criterion for a discrete evolution operator.
+
+  \item \textbf{Retraction of Round~2 $\kappa$-equivalence.} Eqs.~\eqref{eq:7}--\eqref{eq:8} show the Cayley and $\kappa$CN schemes have opposite-sign $\mathcal{O}(a^2)$ corrections. They are distinct physical proposals.
+
+  \item \textbf{Retraction of Round~2 GUP.} The formula $\Delta E\cdot\Delta t\geq(\hbar/2)(1+\Delta t^2/a^2)^{1/2}$ is physically wrong for $\Delta t\gg a$. It is replaced by Eq.~\eqref{eq:9}.
+
+  \item \textbf{GRB signal unobservably small.} Eq.~\eqref{eq:12} confirms the quadratic MDR signal is $\sim 20$ orders of magnitude below current sensitivity. Alternative experimental signatures must be sought.
+
+  \item \textbf{Spectral triple derivation is the strongest structural result.} Eq.~\eqref{eq:4} is a clean theorem: given the two-point spectral triple~\eqref{eq:1}, the Cayley scheme follows necessarily. This elevates the proposal from a numerical convenience to a geometric necessity.
+
+  \item \textbf{Lorentz covariance is a genuine open problem.} The product structure in Eq.~\eqref{eq:3} breaks boost symmetry. The proper-time scheme Eq.~\eqref{eq:10} addresses kinematics; full dynamical covariance remains open.
+\end{enumerate}
+
+%--------------------------------------------------------------------
+\section{Open Tensions}
+%--------------------------------------------------------------------
+
+\begin{enumerate}
+  \item \textbf{Selection of minimal spectral triple.} Why does nature prefer $n=1$ (two-point, Cayley) over higher-$n$ Padé approximants? No action principle or entropy argument has been constructed that selects $n=1$. \textcolor{red}{[speculative: minimisation of spectral dimension is a candidate but unproven.]}
+
+  \item \textbf{Level-2 Lorentz covariance.} Embedding Eq.~\eqref{eq:10} in a fully covariant spacetime discretisation is unresolved. Candidate frameworks include causal dynamical triangulations, spin foams \cite{thiemann1996,ashtekar2004}, and causal sets \cite{henson2006}, but compatibility with the Cayley scheme has not been demonstrated.
+
+  \item \textbf{Physical meaning of the Planck-scale IR regularisation.} Eq.~\eqref{eq:6} shows $D^2$ acquires a universal additive $E_P^2$ shift. Whether this is a physical prediction or an artefact of the product-triple construction is unclear.
+
+  \item \textbf{Interaction vertices.} The entire framework is so far free-field. Introducing interaction vertices (e.g., gauge couplings) in discrete proper time without breaking gauge invariance is an unsolved technical problem. \textcolor{red}{[speculative: the spectral action may constrain vertex structure, as in Connes--Chamseddine--Marcolli, but this has not been checked.]}
+
+  \item \textbf{Many-body extension.} The Cayley scheme for a single particle is well-defined. The $N$-body case requires a tensor-product Hilbert space with a common discrete time; relativity of simultaneity then reintroduces covariance tensions not present in the single-particle case.
+
+  \item \textbf{Connection to gravity and holography.} The spectral action's heat-kernel expansion hints at Einstein--Hilbert structure \cite{ashtekar2004}, and holographic approaches (AdS/CFT) may offer a complementary route to discrete bulk dynamics \cite{maldacena1997,witten1998,skenderis2002}. The precise relationship is unexplored.
+\end{enumerate}
+
+%--------------------------------------------------------------------
+\section{Next Steps}
+%--------------------------------------------------------------------
+
+\begin{enumerate}
+  \item \textbf{Action principle for Padé selection.} Construct a functional on the space of finite spectral triples for the time direction whose unique minimum is the two-point triple~\eqref{eq:1}. Candidate: minimise $\dim_S(\mathcal{A}_T)$ subject to unitarity of the Cayley transform.
+
+  \item \textbf{Verify proper-time Cayley covariance.} Check explicitly that Eq.~\eqref{eq:10}--\eqref{eq:11} transforms correctly under Lorentz boosts for the free Dirac field, and identify the residual frame dependence (if any).
+
+  \item \textbf{Causal-set embedding.} Map the proper-time Cayley scheme onto a causal-set substrate \cite{henson2006} and determine whether the Lorentz-invariant sprinkling density fixes $a$ to the Planck time uniquely.
+
+  \item \textbf{Alternative observational signatures.} The GRB channel is closed for quadratic MDR. Investigate: (a) discrete-time corrections to the Casimir effect at sub-micron scales; (b) accumulated phase shifts in long-baseline atom interferometry; (c) deviations in ultra-high-energy cosmic-ray spectra near $10^{13}$~GeV.
+
+  \item \textbf{Interaction vertices.} Attempt a gauge-covariant extension of the discrete Cayley evolution for QED in $1+1$ dimensions. Use Wilson's lattice-gauge construction but with Cayley time-stepping replacing the standard transfer matrix.
+
+  \item \textbf{Spectral action with gravity.} Compute the full Seeley--DeWitt expansion of $\mathrm{Tr}(f(D^2/E_P^2))$ for the product triple~\eqref{eq:3} on a curved background and compare with the Einstein--Hilbert + Standard Model spectral action of Connes--Chamseddine--Marcolli \cite{ashtekar2004}.
+\end{enumerate}
+
+%--------------------------------------------------------------------
+\section*{Acknowledgements}
+%--------------------------------------------------------------------
+This document synthesises three rounds of internal debate. Errors identified by the Devil's Advocate in Round~3 have led to two explicit retractions; we thank that role for the necessary rigour.
+
+%--------------------------------------------------------------------
+\begin{thebibliography}{99}
+
+\bibitem{thiemann1996}
+T. Thiemann.
+\textit{Quantum Spin Dynamics (QSD)}.
+arXiv:gr-qc/9606089v1 (1996).
+
+\bibitem{maldacena1997}
+Juan M. Maldacena.
+\textit{The Large N Limit of Superconformal Field Theories and Supergravity}.
+arXiv:hep-th/9711200v3 (1997).
+
+\bibitem{ashtekar2004}
+Abhay Ashtekar, Jerzy Lewandowski.
+\textit{Background Independent Quantum Gravity: A Status Report}.
+arXiv:gr-qc/0404018v2 (2004).
+
+\bibitem{skenderis2002}
+Kostas Skenderis.
+\textit{Lecture Notes on Holographic Renormalization}.
+arXiv:hep-th/0209067v2 (2002).
+
+\bibitem{henson2006}
+Joe Henson.
+\textit{The causal set approach to quantum gravity}.
+arXiv:gr-qc/0601121v2 (2006).
+
+\bibitem{witten1998}
+Edward Witten.
+\textit{Anti De Sitter Space And Holography}.
+arXiv:hep-th/9802150v2 (1998).
+
+\end{thebibliography}
+\end{document}

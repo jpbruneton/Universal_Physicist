@@ -1,0 +1,7 @@
+Title: Comment on the black hole firewall
+Authors: Sabine Hossenfelder
+Published: 2012-10-19
+arXiv ID: http://arxiv.org/abs/1210.5317v1
+Categories: gr-qc, hep-th
+Abstract:
+Recently, it has been argued that black hole complementarity is inconsistent by showing that, for an infalling observer, it would lead to the existence of a firewall near the black hole horizon, thereby violating the equivalence principle. If true, this would necessitate to give up on at least one of the postulates of black hole complementarity. In this comment I want to address an additional assumption that went into the conclusion, that the early outgoing Hawking radiation is entangled with the late radiation.

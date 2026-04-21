@@ -1,0 +1,7 @@
+Title: The Problem of Time in Quantum Gravity
+Authors: Edward Anderson
+Published: 2010-09-11
+arXiv ID: http://arxiv.org/abs/1009.2157v3
+Categories: gr-qc
+Abstract:
+The problem of time in quantum gravity occurs because `time' is taken to have a different meaning in each of general relativity and ordinary quantum theory. This incompatibility creates serious problems with trying to replace these two branches of physics with a single framework in regimes in which neither quantum theory nor general relativity can be neglected, such as in black holes or in the very early universe. Strategies for resolving the Problem of Time have evolved somewhat since Kuchar and Isham's well-known reviews from the early 90's. These come in the following divisions I) time before quantization, such as hidden time or matter time. II) Time after quantization, such as emergent semiclassical time. III) Timeless strategies of Type 1: naive Schrodinger interpretation, conditional probabilities interpretation and various forms of records theories, and Type 2 `Rovelli': in terms of evolving constants of the motion, complete observables and partial observables. IV) I argue for histories theories to be a separate class of strategy. Additionally, various combinations of these strategies have begun to appear in the literature; I discuss a number of such. Finally, I comment on loop quantum gravity, supergravity and string/M-theory from the problem of time perspective.

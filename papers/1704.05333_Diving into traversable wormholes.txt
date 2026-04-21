@@ -1,0 +1,7 @@
+Title: Diving into traversable wormholes
+Authors: Juan Maldacena, Douglas Stanford, Zhenbin Yang
+Published: 2017-04-18
+arXiv ID: http://arxiv.org/abs/1704.05333v1
+Categories: hep-th
+Abstract:
+We study various aspects of wormholes that are made traversable by an interaction beween the two asymptotic boundaries. We concentrate on the case of nearly-$AdS_2$ gravity and discuss a very simple mechanical picture for the gravitational dynamics. We derive a formula for the two sided correlators that includes the effect of gravitational backreaction, which limits the amount of information we can send through the wormhole. We emphasize that the process can be viewed as a teleportation protocol where the teleportee feels nothing special as he/she goes through the wormhole. We discuss some applications to the cloning paradox for old black holes. We point out that the same formula we derived for $AdS_2$ gravity is also valid for the simple SYK quantum mechanical theory, around the thermofield double state. We present a heuristic picture for this phenomenon in terms of an operator growth model. Finally, we show that a similar effect is present in a completely classical chaotic system with a large number of degrees of freedom.

@@ -1,0 +1,7 @@
+Title: Grey-body factors and Hawking radiation of black holes in $4D$ Einstein-Gauss-Bonnet gravity
+Authors: Roman A. Konoplya, Antonina F. Zinhailo
+Published: 2020-04-05
+arXiv ID: http://arxiv.org/abs/2004.02248v4
+Categories: gr-qc, hep-th
+Abstract:
+The $(3+1)$-dimensional Einstein-Gauss-Bonnet theory of gravity which breaks the Lorentz invariance in a theoretically consistent and observationally viable way has been recently suggested by Aoki, Gorji and Mukohyama [arXiv:2005.03859]. Here we calculate grey-body factor for Dirac, electromagnetic and gravitational fields and estimate the intensity of Hawking radiation and lifetime for asymptotically flat black holes in this theory. Positive coupling constant leads to much smaller evaporation rate and longer life-time of a black hole, while the negative one enhances Hawking radiation. The grey-body factors for electromagnetic and Dirac fields are smaller for larger values of the coupling constant.

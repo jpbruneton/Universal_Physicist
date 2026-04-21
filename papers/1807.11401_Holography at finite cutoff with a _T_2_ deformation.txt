@@ -1,0 +1,7 @@
+Title: Holography at finite cutoff with a $T^2$ deformation
+Authors: Thomas Hartman, Jorrit Kruthoff, Edgar Shaghoulian, Amirhossein Tajdini
+Published: 2018-07-30
+arXiv ID: http://arxiv.org/abs/1807.11401v2
+Categories: hep-th
+Abstract:
+We generalize the $T\overline{T}$ deformation of CFT$_2$ to higher-dimensional large-$N$ CFTs, and show that in holographic theories, the resulting effective field theory matches semiclassical gravity in AdS with a finite radial cutoff. We also derive the deformation dual to arbitrary bulk matter theories. Generally, the deformations involve background fields as well as CFT operators. By keeping track of these background fields along the flow, we demonstrate how to match correlation functions on the two sides in some simple examples, as well as other observables.

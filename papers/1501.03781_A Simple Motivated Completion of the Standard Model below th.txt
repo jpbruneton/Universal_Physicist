@@ -1,0 +1,7 @@
+Title: A Simple Motivated Completion of the Standard Model below the Planck Scale: Axions and Right-Handed Neutrinos
+Authors: Alberto Salvio
+Published: 2015-01-15
+arXiv ID: http://arxiv.org/abs/1501.03781v3
+Categories: hep-ph, astro-ph.CO, hep-th
+Abstract:
+We study a simple Standard Model (SM) extension, which includes three families of right-handed neutrinos with generic non-trivial flavor structure and an economic implementation of the invisible axion idea. We find that in some regions of the parameter space this model accounts for all experimentally confirmed pieces of evidence for physics beyond the SM: it explains neutrino masses (via the type-I see-saw mechanism), dark matter, baryon asymmetry (through leptogenesis), solve the strong CP problem and has a stable electroweak vacuum. The last property may allow us to identify the Higgs field with the inflaton.

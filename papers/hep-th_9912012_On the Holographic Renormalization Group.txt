@@ -1,0 +1,7 @@
+Title: On the Holographic Renormalization Group
+Authors: J. de Boer, E. Verlinde, H. Verlinde
+Published: 1999-12-02
+arXiv ID: http://arxiv.org/abs/hep-th/9912012v1
+Categories: hep-th
+Abstract:
+We propose a direct correspondence between the classical evolution equations of 5-d supergravity and the renormalization group (RG) equations of the dual 4-d large $N$ gauge theory. Using standard Hamilton-Jacobi theory, we derive first order flow equations for the classical supergravity action $S$, that take the usual form of the Callan-Symanzik equations, including the corrections due to the conformal anomaly. This result gives direct support for the identification of $S$ with the quantum effective action of the gauge theory. In addition we find interesting new relations between the beta-functions and the counterterms that affect the 4-d cosmological and Newton constant.

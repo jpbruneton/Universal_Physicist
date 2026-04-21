@@ -1,0 +1,7 @@
+Title: Upper bound on the GUP parameter using the black hole shadow
+Authors: Juliano C. S. Neves
+Published: 2019-06-27
+arXiv ID: http://arxiv.org/abs/1906.11735v2
+Categories: gr-qc, hep-th
+Abstract:
+An upper bound on the parameter that provides a generalized uncertainty principle (GUP) is obtained from the black hole shadow. With the aid of a recent constraint between regular black holes and the GUP parameter, it is indicated a relation between this parameter and the deviation from circularity of the black hole shadow. In the case of the recent announcement of the M87* results from the Event Horizon Telescope collaboration, a deviation from circularity $\lesssim 10\%$ imposes a GUP parameter $β_0 <10^{90}$.

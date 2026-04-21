@@ -1,0 +1,7 @@
+Title: Holographic entanglement contour, bit threads, and the entanglement tsunami
+Authors: Jonah Kudler-Flam, Ian MacCormack, Shinsei Ryu
+Published: 2019-02-12
+arXiv ID: http://arxiv.org/abs/1902.04654v2
+Categories: hep-th, cond-mat.str-el, quant-ph
+Abstract:
+We study the entanglement contour, a quasi-local measure of entanglement, and propose a generic formula for the contour in 1+1d quantum systems. We use this formalism to investigate the real space entanglement structure of various static CFTs as well as local and global quantum quenches. The global quench elucidates the spatial distribution of entanglement entropy in strongly interacting CFTs and clarifies the interpretation of the entanglement tsunami picture. The entanglement tsunami effectively characterizes the non-local growth of entanglement entropy while the contour characterizes the local propagation of entanglement. We generalize the formula for the entanglement contour to arbitrary dimensions and entangling surface geometries using bit threads, and are able to realize a holographic contour for logarithmic negativity and the entanglement of purification by restricting the bulk spacetime to the entanglement wedge. Furthermore, we explore the connections between the entanglement contour, bit threads, and entanglement density in kinematic space.

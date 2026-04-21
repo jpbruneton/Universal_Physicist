@@ -1,0 +1,7 @@
+Title: Simulation complexity of open quantum dynamics: Connection with tensor networks
+Authors: I. A. Luchnikov, S. V. Vintskevich, H. Ouerdane, S. N. Filippov
+Published: 2018-11-30
+arXiv ID: http://arxiv.org/abs/1812.00043v3
+Categories: quant-ph
+Abstract:
+The difficulty to simulate the dynamics of open quantum systems resides in their coupling to many-body reservoirs with exponentially large Hilbert space. Applying a tensor network approach in the time domain, we demonstrate that effective small reservoirs can be defined and used for modeling open quantum dynamics. The key element of our technique is the timeline reservoir network (TRN), which contains all the information on the reservoir's characteristics, in particular, the memory effects timescale. The TRN has a one-dimensional tensor network structure, which can be effectively approximated in full analogy with the matrix product approximation of spin-chain states. We derive the sufficient bond dimension in the approximated TRN with a reduced set of physical parameters: coupling strength, reservoir correlation time, minimal timescale, and the system's number of degrees of freedom interacting with the environment. The bond dimension can be viewed as a measure of the open dynamics complexity. Simulation is based on the semigroup dynamics of the system and effective reservoir of finite dimension. We provide an illustrative example showing scope for new numerical and machine learning-based methods for open quantum systems.

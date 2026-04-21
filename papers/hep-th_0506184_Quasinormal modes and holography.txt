@@ -1,0 +1,7 @@
+Title: Quasinormal modes and holography
+Authors: Pavel K. Kovtun, Andrei O. Starinets
+Published: 2005-06-22
+arXiv ID: http://arxiv.org/abs/hep-th/0506184v2
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+Quasinormal frequencies of electromagnetic and gravitational perturbations in asymptotically AdS spacetime can be identified with poles of the corresponding real-time Green's functions in a holographically dual finite temperature field theory. The quasinormal modes are defined for gauge-invariant quantities which obey incoming-wave boundary condition at the horizon and Dirichlet condition at the boundary. As an application, we explicitly find poles of retarded correlation functions of R-symmetry currents and the energy-momentum tensor in strongly coupled finite temperature N=4 supersymmetric SU(Nc) Yang-Mills theory in the limit of large Nc.

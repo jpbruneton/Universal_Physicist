@@ -1,0 +1,7 @@
+Title: Renormalizable Models in Rank $d\geq 2$ Tensorial Group Field Theory
+Authors: Joseph Ben Geloun
+Published: 2013-06-05
+arXiv ID: http://arxiv.org/abs/1306.1201v1
+Categories: hep-th, gr-qc, math-ph
+Abstract:
+Classes of renormalizable models in the Tensorial Group Field Theory framework are investigated. The rank $d$ tensor fields are defined over $d$ copies of a group manifold $G_D=U(1)^D$ or $G_D= SU(2)^D$ with no symmetry and no gauge invariance assumed on the fields. In particular, we explore the space of renormalizable models endowed with a kinetic term corresponding to a sum of momenta of the form $p^{2a}$, $a\in ]0,1]$. This study is tailored for models equipped with Laplacian dynamics on $G_D$ (case $a=1$) but also for more exotic nonlocal models in quantum topology (case $0<a<1$). A generic model can be written $(_{\dim G_D}Φ^{k}_{d}, a)$, where $k$ is the maximal valence of its interactions. Using a multi-scale analysis for the generic situation, we identify several classes of renormalizable actions including matrix model actions. In this specific instance, we find a tower of renormalizable matrix models parametrized by $k\geq 4$. In a second part of this work, we focus on the UV behavior of the models up to maximal valence of interaction $k =6$. All rank $d\geq 3$ tensor models proved renormalizable are asymptotically free in the UV. All matrix models with $k=4$ have a vanishing $β$-function at one-loop and, very likely, reproduce the same feature of the Grosse-Wulkenhaar model [Commun. Math. Phys. {\bf 256}, 305 (2004)].

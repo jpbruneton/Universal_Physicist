@@ -1,0 +1,7 @@
+Title: Entanglement entropy and entanglement spectrum of the Kitaev model
+Authors: Hong Yao, Xiao-Liang Qi
+Published: 2010-01-07
+arXiv ID: http://arxiv.org/abs/1001.1165v2
+Categories: cond-mat.str-el, cond-mat.supr-con
+Abstract:
+In this paper, we obtain an exact formula for the entanglement entropy of the ground state and all excited states of the Kitaev model. Remarkably, the entanglement entropy can be expressed in a simple separable form S=S_G+S_F, with S_F the entanglement entropy of a free Majorana fermion system and S_G that of a Z_2 gauge field. The Z_2 gauge field part contributes to the universal "topological entanglement entropy" of the ground state while the fermion part is responsible for the non-local entanglement carried by the Z_2 vortices (visons) in the non-Abelian phase. Our result also enables the calculation of the entire entanglement spectrum and the more general Renyi entropy of the Kitaev model. Based on our results we propose a new quantity to characterize topologically ordered states--the capacity of entanglement, which can distinguish the states with and without topologically protected gapless entanglement spectrum.

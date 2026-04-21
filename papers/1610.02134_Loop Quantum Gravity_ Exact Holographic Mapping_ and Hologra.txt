@@ -1,0 +1,7 @@
+Title: Loop Quantum Gravity, Exact Holographic Mapping, and Holographic Entanglement Entropy
+Authors: Muxin Han, Ling-Yan Hung
+Published: 2016-10-07
+arXiv ID: http://arxiv.org/abs/1610.02134v2
+Categories: hep-th, cond-mat.str-el, gr-qc, quant-ph
+Abstract:
+The relation between Loop Quantum Gravity (LQG) and tensor network is explored from the perspectives of bulk-boundary duality and holographic entanglement entropy. We find that the LQG spin-network states in a space $Σ$ with boundary $\partialΣ$ is an exact holographic mapping similar to the proposal in arXiv:1309.6282. The tensor network, understood as the boundary quantum state, is the output of the exact holographic mapping emerging from a coarse graining procedure of spin-networks. Furthermore, when a region $A$ and its complement $\bar{A}$ are specified on the boundary $\partialΣ$, we show that the boundary entanglement entropy $S(A)$ of the emergent tensor network satisfies the Ryu-Takayanagi formula in the semiclassical regime, i.e. $S(A)$ is proportional to the minimal area of the bulk surface attached to the boundary of $A$ in $\partialΣ$.

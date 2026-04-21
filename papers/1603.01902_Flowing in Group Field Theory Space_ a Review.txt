@@ -1,0 +1,7 @@
+Title: Flowing in Group Field Theory Space: a Review
+Authors: Sylvain Carrozza
+Published: 2016-03-07
+arXiv ID: http://arxiv.org/abs/1603.01902v2
+Categories: gr-qc, hep-th
+Abstract:
+We provide a non-technical overview of recent extensions of renormalization methods and techniques to Group Field Theories (GFTs), a class of combinatorially non-local quantum field theories which generalize matrix models to dimension $d \geq 3$. More precisely, we focus on GFTs with so-called closure constraint, which are closely related to lattice gauge theories and quantum gravity spin foam models. With the help of recent tensor model tools, a rich landscape of renormalizable theories has been unravelled. We review our current understanding of their renormalization group flows, at both perturbative and non-perturbative levels.

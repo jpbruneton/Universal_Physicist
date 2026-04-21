@@ -1,0 +1,7 @@
+Title: A hierarchy of topological tensor network states
+Authors: Oliver Buerschaper, Juan Martín Mombelli, Matthias Christandl, Miguel Aguado
+Published: 2010-07-29
+arXiv ID: http://arxiv.org/abs/1007.5283v1
+Categories: cond-mat.str-el, quant-ph
+Abstract:
+We present a hierarchy of quantum many-body states among which many examples of topological order can be identified by construction. We define these states in terms of a general, basis-independent framework of tensor networks based on the algebraic setting of finite-dimensional Hopf C*-algebras. At the top of the hierarchy we identify ground states of new topological lattice models extending Kitaev's quantum double models [26]. For these states we exhibit the mechanism responsible for their non-zero topological entanglement entropy by constructing a renormalization group flow. Furthermore it is shown that those states of the hierarchy associated with Kitaev's original quantum double models are related to each other by the condensation of topological charges. We conjecture that charge condensation is the physical mechanism underlying the hierarchy in general.

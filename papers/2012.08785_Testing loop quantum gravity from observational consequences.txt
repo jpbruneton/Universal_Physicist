@@ -1,0 +1,7 @@
+Title: Testing loop quantum gravity from observational consequences of non-singular rotating black holes
+Authors: Suddhasattwa Brahma, Che-Yu Chen, Dong-han Yeom
+Published: 2020-12-16
+arXiv ID: http://arxiv.org/abs/2012.08785v3
+Categories: gr-qc, astro-ph.HE, hep-th
+Abstract:
+The lack of rotating black hole models, which are typically found in nature, in loop quantum gravity (LQG) substantially hinders the progress of testing LQG from observations. Starting with a non-rotating LQG black hole as a seed metric, we construct a rotating spacetime using the revised Newman-Janis algorithm. The rotating solution is non-singular everywhere and it reduces to the Kerr black hole asymptotically. In different regions of the parameter space, the solution describes i) a wormhole without event horizon (which, we show, is almost ruled out by observations), ii) a black hole with a spacelike transition surface inside the event horizon, or iii) a black hole with a timelike transition region inside the inner horizon. It is shown how fundamental parameters of LQG can be constrained by the observational implications of the shadow cast by this object. The causal structure of our solution depends crucially only on the spacelike transition surface of the non-rotating seed metric, while being agnostic about specific details of the latter, and therefore captures universal features of an effective rotating, non-singular black hole in LQG.

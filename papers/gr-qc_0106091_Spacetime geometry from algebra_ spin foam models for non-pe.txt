@@ -1,0 +1,7 @@
+Title: Spacetime geometry from algebra: spin foam models for non-perturbative quantum gravity
+Authors: Daniele Oriti
+Published: 2001-06-28
+arXiv ID: http://arxiv.org/abs/gr-qc/0106091v3
+Categories: gr-qc, hep-th
+Abstract:
+This is an introduction to spin foam models for non-perturbative quantum gravity, an approach that lies at the point of convergence of many different research areas, including loop quantum gravity, topological quantum field theories, path integral quantum gravity, lattice field theory, matrix models, category theory, statistical mechanics. We describe the general formalism and ideas of spin foam models, the picture of quantum geometry emerging from them, and give a review of the results obtained so far, in both the Euclidean and Lorentzian case. We focus in particular on the Barrett-Crane model for 4-dimensional quantum gravity.

@@ -1,0 +1,7 @@
+Title: Fixed points and infrared completion of quantum gravity
+Authors: Nicolai Christiansen, Daniel F. Litim, Jan M. Pawlowski, Andreas Rodigast
+Published: 2012-09-18
+arXiv ID: http://arxiv.org/abs/1209.4038v1
+Categories: hep-th, gr-qc
+Abstract:
+The phase diagram of four-dimensional Einstein-Hilbert gravity is studied using Wilson's renormalization group. Smooth trajectories connecting the ultraviolet fixed point at short distances with attractive infrared fixed points at long distances are derived from the non-perturbative graviton propagator. Implications for the asymptotic safety conjecture and further results are discussed.

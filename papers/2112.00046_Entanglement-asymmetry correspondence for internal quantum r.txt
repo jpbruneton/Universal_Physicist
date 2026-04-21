@@ -1,0 +1,7 @@
+Title: Entanglement-asymmetry correspondence for internal quantum reference frames
+Authors: Anne-Catherine de la Hamette, Stefan L. Ludescher, Markus P. Mueller
+Published: 2021-11-30
+arXiv ID: http://arxiv.org/abs/2112.00046v3
+Categories: quant-ph, gr-qc, hep-th
+Abstract:
+In the quantization of gauge theories and quantum gravity, it is crucial to treat reference frames such as rods or clocks not as idealized external classical relata, but as internal quantum subsystems. In the Page-Wootters formalism, for example, evolution of a quantum system S is described by a stationary joint state of S and a quantum clock, where time-dependence of S arises from conditioning on the value of the clock. Here, we consider (possibly imperfect) internal quantum reference frames R for arbitrary compact symmetry groups, and show that there is an exact quantitative correspondence between the amount of entanglement in the invariant state on RS and the amount of asymmetry in the corresponding conditional state on S. Surprisingly, this duality holds exactly regardless of the choice of coherent state system used to condition on the reference frame. Averaging asymmetry over all conditional states, we obtain a simple representation-theoretic expression that admits the study of the quality of imperfect quantum reference frames, quantum speed limits for imperfect clocks, and typicality of asymmetry in a unified way. Our results shed light on the role of entanglement for establishing asymmetry in a fully symmetric quantum world.

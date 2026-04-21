@@ -1,0 +1,7 @@
+Title: Adding flavor to AdS/CFT
+Authors: Andreas Karch, Emanuel Katz
+Published: 2002-05-23
+arXiv ID: http://arxiv.org/abs/hep-th/0205236v2
+Categories: hep-th
+Abstract:
+Coupling fundamental quarks to QCD in the dual string representation corresponds to adding the open string sector. Flavors therefore should be represented by space-time filling D-branes in the dual 5d closed string background. This requires several interesting properties of D-branes in AdS. D-branes have to be able to end in thin air in order to account for massive quarks, which only live in the UV region. They must come in distinct sets, representing the chiral global symmetry, with a bifundamental field playing the role of the chiral condensate. We show that these expectations are born out in several supersymmetric examples. To analyze most of these properties it is not necessary to go beyond the probe limit in which one neglects the backreaction of the flavor D-branes.

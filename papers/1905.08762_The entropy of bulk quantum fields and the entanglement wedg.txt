@@ -1,0 +1,7 @@
+Title: The entropy of bulk quantum fields and the entanglement wedge of an evaporating black hole
+Authors: Ahmed Almheiri, Netta Engelhardt, Donald Marolf, Henry Maxfield
+Published: 2019-05-21
+arXiv ID: http://arxiv.org/abs/1905.08762v3
+Categories: hep-th, gr-qc
+Abstract:
+Bulk quantum fields are often said to contribute to the generalized entropy $\frac{A}{4G_N} +S_{\mathrm{bulk}}$ only at $O(1)$. Nonetheless, in the context of evaporating black holes, $O(1/G_N)$ gradients in $S_{\mathrm{bulk}}$ can arise due to large boosts, introducing a quantum extremal surface far from any classical extremal surface. We examine the effect of such bulk quantum effects on quantum extremal surfaces (QESs) and the resulting entanglement wedge in a simple two-boundary $2d$ bulk system defined by Jackiw-Teitelboim gravity coupled to a 1+1 CFT. Turning on a coupling between one boundary and a further external auxiliary system which functions as a heat sink allows a two-sided otherwise-eternal black hole to evaporate on one side. We find the generalized entropy of the QES to behave as expected from general considerations of unitarity, and in particular that ingoing information disappears from the entanglement wedge after a scambling time $\fracβ{2π} \ln ΔS + O(1)$ in accord with expectations for holographic implementations of the Hayden-Preskill protocol. We also find an interesting QES phase transition at what one might call the Page time for our process.

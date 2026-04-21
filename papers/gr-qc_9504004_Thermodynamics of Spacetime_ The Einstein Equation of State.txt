@@ -1,0 +1,7 @@
+Title: Thermodynamics of Spacetime: The Einstein Equation of State
+Authors: Ted Jacobson
+Published: 1995-04-04
+arXiv ID: http://arxiv.org/abs/gr-qc/9504004v2
+Categories: gr-qc, hep-th
+Abstract:
+The Einstein equation is derived from the proportionality of entropy and horizon area together with the fundamental relation $δQ=TdS$ connecting heat, entropy, and temperature. The key idea is to demand that this relation hold for all the local Rindler causal horizons through each spacetime point, with $δQ$ and $T$ interpreted as the energy flux and Unruh temperature seen by an accelerated observer just inside the horizon. This requires that gravitational lensing by matter energy distorts the causal structure of spacetime in just such a way that the Einstein equation holds. Viewed in this way, the Einstein equation is an equation of state. This perspective suggests that it may be no more appropriate to canonically quantize the Einstein equation than it would be to quantize the wave equation for sound in air.

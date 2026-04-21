@@ -1,0 +1,7 @@
+Title: Constraining the energy-momentum dispersion relation with Planck-scale sensitivity using cold atoms
+Authors: Giovanni Amelino-Camelia, Claus Laemmerzahl, Flavio Mercati, Guglielmo M. Tino
+Published: 2009-11-05
+arXiv ID: http://arxiv.org/abs/0911.1020v1
+Categories: gr-qc, physics.atom-ph
+Abstract:
+We use the results of ultra-precise cold-atom-recoil experiments to constrain the form of the energy-momentum dispersion relation, a structure that is expected to be modified in several quantum-gravity approaches. Our strategy of analysis applies to the nonrelativistic (small speeds) limit of the dispersion relation, and is therefore complementary to an analogous ongoing effort of investigation of the dispersion relation in the ultrarelativistic regime using observations in astrophysics. For the leading correction in the nonrelativistic limit the exceptional sensitivity of cold-atom-recoil experiments remarkably allows us to set a limit within a single order of magnitude of the desired Planck-scale level, thereby providing the first example of Planck-scale sensitivity in the study of the dispersion relation in controlled laboratory experiments. For the next-to-leading term we obtain a limit which is a few orders of magnitude away from the Planck scale, but still amounts to the best limit on a class of Lorentz-symmetry test theories that has been extensively used to investigate the hypothesis of "deformation" (rather than breakdown) of spacetime symmetries.

@@ -1,0 +1,7 @@
+Title: Light, Links and Causal Sets
+Authors: Rafael D. Sorkin
+Published: 2009-10-05
+arXiv ID: http://arxiv.org/abs/0910.0673v1
+Categories: gr-qc, cond-mat.stat-mech, hep-th
+Abstract:
+After sketching a context in which to seek observable signals of spatio-temporal discreteness, I briefly review the status of the causal set program for quantum gravity, concluding with a simple model for the field produced by a moving charge in a background causal set.

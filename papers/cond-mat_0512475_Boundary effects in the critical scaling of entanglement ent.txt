@@ -1,0 +1,7 @@
+Title: Boundary effects in the critical scaling of entanglement entropy in 1D systems
+Authors: Nicolas Laflorencie, Erik S. Sorensen, Ming-Shyang Chang, Ian Affleck
+Published: 2005-12-19
+arXiv ID: http://arxiv.org/abs/cond-mat/0512475v3
+Categories: cond-mat.str-el, quant-ph
+Abstract:
+We present exact diagonalization and density matrix renormalization group results for the entanglement entropy of critical spin-1/2 XXZ chains. We find that open boundary conditions induce an alternating term in both the energy density and the entanglement entropy which are approximately proportional, decaying away from the boundary with a power-law. The power varies with anisotropy along the XXZ critical line and is corrected by a logarithmic factor, which we calculate analytically, at the isotropic point. A heuristic resonating valence bond explanation is suggested.

@@ -1,0 +1,7 @@
+Title: The one-loop renormalization of the gauge sector in the noncommutative standard model
+Authors: Maja Buric, Voja Radovanovic, Josip Trampetic
+Published: 2006-09-11
+arXiv ID: http://arxiv.org/abs/hep-th/0609073v1
+Categories: hep-th
+Abstract:
+In this paper we construct a version of the standard model gauge sector on noncommutative space-time which is one-loop renormalizable to first order in the expansion in the noncommutativity parameter $θ$. The one-loop renormalizability is obtained by the Seiberg-Witten redefinition of the noncommutative gauge potential for the model containing the usual six representations of matter fields of the first generation.

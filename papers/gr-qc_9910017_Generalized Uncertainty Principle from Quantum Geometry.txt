@@ -1,0 +1,8 @@
+Title: Generalized Uncertainty Principle from Quantum Geometry
+Authors: S. Capozziello, G. Lambiase, G. Scarpetta
+Published: 1999-10-05
+arXiv ID: http://arxiv.org/abs/gr-qc/9910017v1
+Categories: gr-qc
+Abstract:
+The generalized uncertainty principle of string theory is derived in the framework of
+ Quantum Geometry by taking into account the existence of an upper limit on the acceleration of massive particles.

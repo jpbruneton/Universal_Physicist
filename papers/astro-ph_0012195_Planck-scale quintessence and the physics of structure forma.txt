@@ -1,0 +1,7 @@
+Title: Planck-scale quintessence and the physics of structure formation
+Authors: Constantinos Skordis, Andreas Albrecht
+Published: 2000-12-09
+arXiv ID: http://arxiv.org/abs/astro-ph/0012195v1
+Categories: astro-ph, hep-ph
+Abstract:
+In a recent paper we considered the possibility of a scalar field providing an explanation for the cosmic acceleration. Our model had the interesting properties of attractor-like behavior and having its parameters of O(1) in Planck units. Here we discuss the effect of the field on large scale structure and CMB anisotropies. We show how some versions of our model inspired by "brane" physics have novel features due to the fact that the scalar field has a significant role over a wider range of redshifts than for typical "dark energy" models. One of these features is the additional suppression of the formation of large scale structure, as compared with cosmological constant models. In light of the new pressures being placed on cosmological parameters (in particular H_0) by CMB data, this added suppression allows our "brane" models to give excellent fits to both CMB and large scale structure data.

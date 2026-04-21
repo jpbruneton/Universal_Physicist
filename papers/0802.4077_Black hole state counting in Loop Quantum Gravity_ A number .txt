@@ -1,0 +1,7 @@
+Title: Black hole state counting in Loop Quantum Gravity: A number theoretical approach
+Authors: Ivan Agullo, J. Fernando Barbero G., Jacobo Diaz-Polo, Enrique Fernandez-Borja, Eduardo J. S. Villaseñor
+Published: 2008-02-27
+arXiv ID: http://arxiv.org/abs/0802.4077v2
+Categories: gr-qc, math-ph
+Abstract:
+We give a practical method to exactly compute black hole entropy in the framework of Loop Quantum Gravity. Along the way we provide a complete characterization of the relevant sector of the spectrum of the area operator, including degeneracies, and determine the number of solutions to the projection constraint analytically. We use a computer implementation of the proposed algorithm to confirm and extend previous results on the detailed structure of the black hole degeneracy spectrum.

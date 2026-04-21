@@ -1,0 +1,7 @@
+Title: Entropy and Area of Black Holes in Loop Quantum Gravity
+Authors: I. B. Khriplovich
+Published: 2001-09-28
+arXiv ID: http://arxiv.org/abs/gr-qc/0109092v3
+Categories: gr-qc
+Abstract:
+Simple arguments related to the entropy of black holes strongly constrain the spectrum of the area operator for a Schwarzschild black hole in loop quantum gravity. In particular, this spectrum is fixed completely by the assumption that the black hole entropy is maximum. Within the approach discussed, one arrives in loop quantum gravity at a quantization rule with integer quantum numbers $n$ for the entropy and area of a black hole.

@@ -1,0 +1,7 @@
+Title: Holographic entanglement negativity and replica symmetry breaking
+Authors: Xi Dong, Xiao-Liang Qi, Michael Walter
+Published: 2021-01-26
+arXiv ID: http://arxiv.org/abs/2101.11029v2
+Categories: hep-th, math-ph, quant-ph
+Abstract:
+Since the work of Ryu and Takayanagi, deep connections between quantum entanglement and spacetime geometry have been revealed. The negative eigenvalues of the partial transpose of a bipartite density operator is a useful diagnostic of entanglement. In this paper, we discuss the properties of the associated entanglement negativity and its Rényi generalizations in holographic duality. We first review the definition of the Rényi negativities, which contain the familiar logarithmic negativity as a special case. We then study these quantities in the random tensor network model and rigorously derive their large bond dimension asymptotics. Finally, we study entanglement negativity in holographic theories with a gravity dual, where we find that Rényi negativities are often dominated by bulk solutions that break the replica symmetry. From these replica symmetry breaking solutions, we derive general expressions for Rényi negativities and their special limits including the logarithmic negativity. In fixed-area states, these general expressions simplify dramatically and agree precisely with our results in the random tensor network model. This provides a concrete setting for further studying the implications of replica symmetry breaking in holography.

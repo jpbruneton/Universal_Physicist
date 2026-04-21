@@ -1,0 +1,7 @@
+Title: HPS meets AMPS: How Soft Hair Dissolves the Firewall
+Authors: Sabrina Pasterski, Herman Verlinde
+Published: 2020-12-07
+arXiv ID: http://arxiv.org/abs/2012.03850v1
+Categories: hep-th
+Abstract:
+We build on the observation by Hawking, Perry and Strominger that a global black hole space-time supports a large number of soft hair degrees of freedom to shed new light on the firewall argument by Almheiri, Marolf, Polchinski, and Sully. We propose that the soft hair Goldstone mode is encoded in a classical transition function that connects the asymptotic and near horizon region. The entropy carried by the soft hair is part of the black hole entropy and encoded in the outside geometry. We argue that the infalling observer automatically measures the classical value of the soft mode before reaching the horizon and that this measurement implements a code subspace projection that enables the reconstruction of interior operators. We use the soft hair dynamics to introduce an observer dependent notion of the firewall and show that for an infalling observer it recedes inwards into the black hole interior: the observer never encounters a firewall before reaching the singularity. Our results indicate that the HPS black hole soft hair plays an essential role in dissolving the AMPS firewall.

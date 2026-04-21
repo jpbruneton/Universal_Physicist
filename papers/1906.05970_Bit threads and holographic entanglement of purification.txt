@@ -1,0 +1,7 @@
+Title: Bit threads and holographic entanglement of purification
+Authors: Jonathan Harper, Matthew Headrick
+Published: 2019-06-14
+arXiv ID: http://arxiv.org/abs/1906.05970v3
+Categories: hep-th
+Abstract:
+Generalizing the bit thread formalism, we use convex duality to derive dual flow programs to the bipartite and multipartite holographic entanglement of purification proposals and then prove several inequalities using these constructions. In the multipartite case we find the flows exhibit novel behavior which allows for a constrained flux on the boundary of the homology region. We show this flux can be made distinct from bipartite terms and reflects the truly multipartite portion of the holographic entanglement of purification.

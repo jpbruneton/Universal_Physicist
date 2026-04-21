@@ -1,0 +1,7 @@
+Title: Thermodynamics of modified black holes from gravity's rainbow
+Authors: Yi Ling, Xiang Li, Hongbao Zhang
+Published: 2005-12-14
+arXiv ID: http://arxiv.org/abs/gr-qc/0512084v1
+Categories: gr-qc
+Abstract:
+We study the thermodynamics of modified black holes proposed in the context of gravity's rainbow. A notion of intrinsic temperature and entropy for these black holes is introduced. In particular for a specific class of modified Schwarzschild solutions, their temperature and entropy are obtained and compared with those previously obtained from modified dispersion relations in deformed special relativity. It turns out that the results of these two different strategies coincide, and this may be viewed as a support for the proposal of deformed equivalence principle.

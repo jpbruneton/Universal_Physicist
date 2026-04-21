@@ -1,0 +1,7 @@
+Title: Lorentzian Quantum Cosmology
+Authors: Job Feldbrugge, Jean-Luc Lehners, Neil Turok
+Published: 2017-03-06
+arXiv ID: http://arxiv.org/abs/1703.02076v1
+Categories: hep-th, gr-qc
+Abstract:
+We argue that the Lorentzian path integral is a better starting point for quantum cosmology than the Euclidean version. In particular, we revisit the mini-superspace calculation of the Feynman path integral for quantum gravity with a positive cosmological constant. Instead of rotating to Euclidean time, we deform the contour of integration over metrics into the complex plane, exploiting Picard-Lefschetz theory to transform the path integral from a conditionally convergent integral into an absolutely convergent one. We show that this procedure unambiguously determines which semiclassical saddle point solutions are relevant to the quantum mechanical amplitude. Imposing "no-boundary" initial conditions, i.e., restricting attention to regular, complex metrics with no initial boundary, we find that the dominant saddle contributes a semiclassical exponential factor which is precisely the {\it inverse} of the famous Hartle-Hawking result.

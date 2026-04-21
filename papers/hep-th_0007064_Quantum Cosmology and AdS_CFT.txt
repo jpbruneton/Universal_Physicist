@@ -1,0 +1,7 @@
+Title: Quantum Cosmology and AdS/CFT
+Authors: Luis Anchordoqui, Carlos Nunez, Kasper Olsen
+Published: 2000-07-08
+arXiv ID: http://arxiv.org/abs/hep-th/0007064v3
+Categories: hep-th, astro-ph, gr-qc, hep-ph
+Abstract:
+In this paper we study the creation of brane-worlds in $AdS$ bulk. We first consider the simplest case of onebranes in $AdS_3$. In this case we are able to properly describe the creation of a spherically symmetric brane-world deriving a general expression for its wavefunction. Then, we sketch the $AdS_{d+1}$ set-up within the context of the WKB approximation. Finally, we comment on these scenarios in light of the $AdS/CFT$ correspondence.

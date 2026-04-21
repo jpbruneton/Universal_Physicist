@@ -1,0 +1,7 @@
+Title: Dirac particles tunneling from BTZ black hole
+Authors: Ran Li, Ji-Rong Ren
+Published: 2008-02-27
+arXiv ID: http://arxiv.org/abs/0802.3954v1
+Categories: gr-qc
+Abstract:
+We calculated the Dirac Particles' Hawking radiation from the outer horizon of BTZ black hole via tunneling formalism. Applying WKB approximation to the Dirac equation in (2+1) dimensional BTZ spacetime background, we obtain the radiation spectrum for fermions and Hawking temperature of BTZ black hole. The results obtained by taking the fermion tunneling into account is consistent with the previous literatures.

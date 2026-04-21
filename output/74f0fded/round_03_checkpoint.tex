@@ -1,0 +1,376 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\geometry{margin=2.5cm}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\title{\textbf{Round 3 Checkpoint: The GFT--Wetterinck Master Equation\\
+as Background-Independent Quantum Gravity}\\[6pt]
+\large An Intermediate Research Synthesis --- Provisional Document}
+\author{Collaborative Theory Group (Round 3)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report on the current state of a proposal to unify the Wheeler--DeWitt (WdW) equation,
+the Callan--Symanzik (CS) equation of holographic renormalization, and the Group Field
+Theory (GFT) functional renormalization group (FRG) into a single background-independent
+master equation --- the \emph{GFT--Wetterinck equation}.
+The Level~I identification of radial bulk flow with boundary RG flow is a mathematical
+theorem within holographic renormalization \cite{skenderis2002,witten1998,maldacena1997};
+the Level~II claim that both the WdW and CS equations arise as distinct limits of the GFT
+Wetterinck equation is technically grounded but unproven; the Level~III conjecture relating
+a GFT condensation phase transition to the cosmological Big Bang is highly speculative and
+is marked accordingly throughout.
+Three concrete tensions --- the tautology objection to the WdW--CS identification,
+the inapplicability of the framework to de~Sitter space, and the absence of falsifiable
+predictions beyond standard AdS/CFT --- have been incorporated as structural constraints
+rather than dismissed, and they define the priority computation agenda for Round~4.
+This document is an honest intermediate checkpoint; no claim should be read as established
+unless explicitly marked \textbf{[solid]}.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Current Theoretical Proposal}
+\label{sec:proposal}
+
+\subsection{Level I (Solid): The WdW--CS Identification in AdS/CFT}
+\label{sec:levelI}
+
+The Wheeler--DeWitt equation in the bulk,
+\begin{equation}
+  \hat{\mathcal{H}}\,\Psi[g_{ij},\phi] = 0,
+  \label{eq:WdW}
+\end{equation}
+is structurally related to the Callan--Symanzik equation for the boundary partition function
+$Z[\lambda^{i},\mu]$,
+\begin{equation}
+  \left(\mu\frac{\partial}{\partial\mu}
+        + \beta^{i}\frac{\partial}{\partial\lambda^{i}}
+        - \gamma_{\mathcal{O}}\right)Z = 0,
+  \label{eq:CS}
+\end{equation}
+via the holographic dictionary $\mu = z^{-1}$,
+$\lambda^{i}\leftrightarrow\phi^{(0)}_{i}$ (boundary values of bulk fields), and the
+identification of the bulk Hamiltonian constraint with the dilatation Ward
+identity \cite{skenderis2002,witten1998}.
+This identification is a \textbf{theorem} within holographic renormalization, not a new
+conjecture \cite{maldacena1997,skenderis2002}.
+
+The analytic continuation of the RG scale into the complex plane --- across the signature
+flip at a black hole horizon --- is a \emph{non-definitional} physical claim:
+\begin{equation}
+  \hat{\mathcal{H}}\,\Psi\big|_{r < r_{s}} = 0
+  \quad\longleftrightarrow\quad
+  \mu\,\frac{\partial Z}{\partial\mu}\bigg|_{\mathrm{complex}\;\mu}
+  = \hat{\mathcal{D}}\,Z.
+  \label{eq:analytic_continuation}
+\end{equation}
+This claim is falsifiable via the analytic structure of real-time CFT correlators
+(Euclidean vs.\ Lorentzian, thermal singularities).
+
+\subsection{Level II (Speculative but Technically Grounded): The GFT--Wetterinck Equation}
+\label{sec:levelII}
+
+The fundamental GFT field is \textcolor{red}{[speculative]}
+\begin{equation}
+  \varphi : G^{\times 4} \to \mathbb{C},
+  \qquad G = \mathrm{SL}(2,\mathbb{C}),
+  \label{eq:GFT_field}
+\end{equation}
+interpreted as a quantum tetrahedron.  The GFT action is
+\begin{equation}
+  S_{\mathrm{GFT}}[\varphi]
+  = \frac{1}{2}\int_{G^{4}}\varphi\,\mathcal{K}\,\varphi
+  + \frac{\lambda}{5!}\int_{G^{10}}\mathcal{V}\cdot\varphi^{5}
+  + \mathrm{c.c.},
+  \label{eq:GFT_action}
+\end{equation}
+whose Feynman diagrams are 2-complexes dual to triangulated 4-manifolds, providing
+a background-independent sum over spacetime topologies and geometries \cite{ashtekar2004}.
+
+Introducing a Peter--Weyl mode cutoff $k$ on $G$ --- suppressing modes with
+$\mathrm{SL}(2,\mathbb{C})$ representation labels $(\rho,n)$ satisfying
+$\rho^{2}+n^{2}<k^{2}$ --- and defining the GFT effective average action $\Gamma_{k}$ via
+a Legendre transform of the regularised free energy, we obtain the
+\textbf{GFT Wetterinck equation} \textcolor{red}{[speculative: the derivation in this
+specific GFT context has not been completed in the literature]}:
+\begin{equation}
+  \boxed{
+    k\,\frac{\partial}{\partial k}\,\Gamma_{k}[\bar{\varphi}]
+    = \frac{1}{2}\,\mathrm{STr}\!\left[
+      \left(\Gamma_{k}^{(2)}[\bar{\varphi}]+\mathcal{R}_{k}\right)^{-1}
+      k\,\partial_{k}\mathcal{R}_{k}
+    \right]
+  }
+  \label{eq:GFT_Wetterinck}
+\end{equation}
+This is an exact functional equation on the space of GFT actions with no background metric,
+fixed topology, or fixed dimension assumed.
+
+\subsection{The Condensate Reduction to Wheeler--DeWitt}
+\label{sec:condensate}
+
+In the \emph{condensate truncation} --- valid when $\langle\varphi\rangle = \sigma \neq 0$,
+corresponding to a macroscopic quantum of geometry --- the Wetterinck equation
+(\ref{eq:GFT_Wetterinck}) is claimed to reduce, in the continuum many-quanta limit,
+to \textcolor{red}{[speculative: reduction not yet rigorously derived]}
+\begin{equation}
+  \left[-\frac{d^{2}}{d\nu^{2}} + U(\nu)\right]\sigma(\nu) = 0,
+  \label{eq:condensate_WdW}
+\end{equation}
+where $\nu \propto V^{1/3}$ is the volume eigenvalue.
+Equation~(\ref{eq:condensate_WdW}) has the form of the Wheeler--DeWitt equation
+(\ref{eq:WdW}) in minisuperspace, with the GFT condensate wavefunction $\sigma$ playing
+the role of the universe wavefunction $\Psi$ \cite{ashtekar2004,thiemann1996}.
+
+Beyond mean field, the GFT Wetterinck equation is expected to generate $1/N$
+corrections \textcolor{red}{[speculative]}:
+\begin{equation}
+  \left[-\frac{d^{2}}{d\nu^{2}} + U(\nu)
+        + \frac{1}{N}\,\delta U_{\mathrm{GFT}}(\nu,k)\right]\sigma = 0,
+  \label{eq:1overN_correction}
+\end{equation}
+where $\delta U_{\mathrm{GFT}}$ is determined by $\Gamma_{k}^{(2)}$ evaluated on the
+condensate and is computable in the local potential approximation (LPA).
+
+\subsection{Level III (Highly Speculative): Phase Transition as the Big Bang}
+\label{sec:levelIII}
+
+\textcolor{red}{[Highly speculative --- no concrete calculation performed]}
+The conjecture that the GFT condensation phase transition at some critical scale $k_{c}$
+corresponds to the cosmological Big Bang, and that GFT critical exponents near $k_{c}$
+are related to near-singularity Kasner-type exponents in the bulk geometry, is a
+structurally motivated conjecture only.
+The Devil's Advocate correctly identified an error in the previous synthesis: the isotropic
+metric $ds^{2}\approx -d\tau^{2}+\tau^{2/3}(dx_{1}^{2}+dx_{2}^{2}+dx_{3}^{2})$ does
+\emph{not} satisfy the vacuum Kasner conditions $\sum p_{i}^{2}=1$.
+This claim is \textbf{withdrawn} pending a correct BKL analysis.
+
+\subsection{The Triangle of Correspondences}
+\label{sec:triangle}
+
+We conjecture \textcolor{red}{[speculative]} that the three equations
+(\ref{eq:GFT_Wetterinck}), (\ref{eq:WdW}), and (\ref{eq:CS}) are projections of a single
+master equation onto different approximation regimes:
+
+\begin{equation}
+\begin{array}{c}
+\textbf{GFT Wetterinck (Exact, Background-Free)}\\[4pt]
+k\,\partial_{k}\Gamma_{k}[\varphi]
+= \tfrac{1}{2}\,\mathrm{STr}\!\left[
+  (\Gamma_{k}^{(2)}+\mathcal{R}_{k})^{-1}k\,\partial_{k}\mathcal{R}_{k}
+\right]\\[12pt]
+\swarrow\hspace{70pt}\searrow\\[4pt]
+\textbf{WdW (condensate limit)}
+\hspace{50pt}
+\textbf{CS equation (AdS boundary)}\\[2pt]
+\hat{\mathcal{H}}\,\Psi_{k}=0
+\hspace{80pt}
+\mu\,\partial_{\mu}Z = \hat{\mathcal{D}}\,Z\\[8pt]
+\underbrace{\hspace{70pt}\longleftrightarrow\hspace{70pt}}_{%
+  \text{holographic dictionary: }r^{-1}\leftrightarrow\mu}
+\end{array}
+\label{eq:triangle}
+\end{equation}
+
+The key structural claims are:
+\begin{description}
+  \item[Claim T1] \textcolor{red}{[speculative]}
+    The WdW constraint (\ref{eq:WdW}) is the fixed-point condition of the GFT RG flow:
+    \begin{equation}
+      k\,\partial_{k}\Gamma_{k} = 0
+      \quad\Longleftrightarrow\quad
+      \hat{\mathcal{H}}\,\Psi = 0.
+      \label{eq:T1}
+    \end{equation}
+    A classical spacetime geometry is a fixed point of the GFT renormalization group.
+
+  \item[Claim T2] \textcolor{red}{[speculative]}
+    The CS equation~(\ref{eq:CS}) is the same fixed-point condition expressed in boundary
+    variables.  The holographic dictionary identifies the condensate approximation to GFT
+    with the large-$N$ limit of the boundary CFT \cite{maldacena1997,witten1998}.
+
+  \item[Claim T3] \textcolor{red}{[speculative]}
+    The GFT scale $k$ provides a pre-geometric ordering from $k\to\infty$ (single quantum
+    tetrahedron) to $k\to 0$ (classical geometry condensate).  The fixed point
+    $k\,\partial_{k}\Gamma_{k}=0$ is classical spacetime; near-fixed-point flow is
+    semiclassical gravity.
+\end{description}
+
+\subsection{The \texorpdfstring{$T\bar{T}$}{TT-bar} Test (Priority~0)}
+\label{sec:TTbar}
+
+In the $T\bar{T}$-deformed CFT the partition function satisfies
+\begin{equation}
+  \frac{\partial Z}{\partial\mu_{\mathrm{def}}}
+  = \int d^{2}x\;\langle T\bar{T}(x)\rangle_{\mu_{\mathrm{def}}}\cdot Z,
+  \label{eq:TTbar}
+\end{equation}
+which in the AdS$_{3}$ holographic dual corresponds to the bulk Hamiltonian constraint at a
+radial cutoff surface $r=r_{c}\propto\mu_{\mathrm{def}}^{-1/2}$ \cite{witten1998}:
+\begin{equation}
+  \hat{\mathcal{H}}\big|_{r=r_{c}}\,\Psi = 0.
+  \label{eq:WdW_cutoff}
+\end{equation}
+The concrete Priority~0 calculation is to show that the WdW equation for AdS$_{3}$ gravity
+in minisuperspace with a Dirichlet wall at $r=r_{c}$ reduces \emph{exactly} to
+equation~(\ref{eq:TTbar}) as $r_{c}$ varies, and to identify what additional terms --- if
+any --- arise from the GFT structure.  Agreement would provide the first non-trivial
+consistency check; disagreement would falsify the framework.
+
+\section{Points of Consensus}
+\label{sec:consensus}
+
+The following points are agreed upon by all team members.
+
+\begin{enumerate}
+
+  \item \textbf{The WdW--CS identification is a theorem.}
+    Within holographic renormalization \cite{skenderis2002,witten1998,maldacena1997}, the
+    identification of the bulk Hamiltonian constraint with the dilatation Ward identity of
+    the boundary theory is mathematically established.  It is not a new result of this
+    programme.
+
+  \item \textbf{The identification $\mu \equiv z^{-1}$ is definitional within holographic
+    renormalization.}
+    The Devil's Advocate's tautology objection is conceded in its original form.  Physical
+    content arises only from the claim that the GFT Wetterinck equation \emph{derives}
+    both sides rather than postulating their equality.
+
+  \item \textbf{Background independence is essential.}
+    Any acceptable quantum gravity framework must not presuppose a background metric
+    \cite{ashtekar2004,thiemann1996,henson2006}.
+    The GFT Wetterinck equation (\ref{eq:GFT_Wetterinck}) satisfies this requirement by
+    construction.
+
+  \item \textbf{The Kasner exponent claim of Round~2 was an error.}
+    The isotropic metric $ds^{2}\approx -d\tau^{2}+\tau^{2/3}\delta_{ij}dx^{i}dx^{j}$ does
+    not satisfy the vacuum Kasner conditions.  Level~III has been downgraded to
+    ``highly speculative conjecture'' pending a correct BKL analysis.
+
+  \item \textbf{The framework is currently inapplicable to de~Sitter space.}
+    The proposal as developed applies primarily to the AdS/CFT setting.  Our universe is
+    de~Sitter ($\Lambda > 0$).  This is the most serious limitation on physical relevance
+    and is not yet resolved.
+
+  \item \textbf{The Weinberg--Witten theorem is a serious constraint.}
+    The composite-graviton/emergent-Lorentz-invariance evasion strategy is physically
+    motivated but has not been demonstrated by a concrete calculation of the spin-2
+    graviton vertex function in GFT perturbation theory around the condensate.
+
+  \item \textbf{New predictions beyond standard AdS/CFT are required.}
+    The $1/N$ corrections to the condensate WdW equation (\ref{eq:1overN_correction}) and
+    the $T\bar{T}$ consistency check (\ref{eq:TTbar})--(\ref{eq:WdW_cutoff}) are the
+    primary candidate predictions.  Neither has been computed.
+
+\end{enumerate}
+
+\section{Open Tensions}
+\label{sec:tensions}
+
+The following tensions are explicitly unresolved and define the frontier of the proposal.
+
+\begin{enumerate}
+
+  \item \textbf{Tautology vs.\ derivability of the WdW--CS identification.}
+    The claim that the WdW and CS equations are \emph{derived} from (\ref{eq:GFT_Wetterinck})
+    rather than postulated is the core non-tautological content of the proposal.
+    The derivation has not been performed.  It is entirely possible that when carried out,
+    additional terms appear that spoil the identification, or that the two limits are
+    incompatible.  \textcolor{red}{[No calculation exists.  The claim could be false.]}
+
+  \item \textbf{The de~Sitter problem.}
+    The Bunch-Davies vacuum as a GFT condensate fixed point has not been constructed.
+    Without it, the proposal has no direct contact with observational cosmology.
+    The de~Sitter Hilbert space dimension argument (finite number of GFT quanta
+    $\sim e^{S_{\mathrm{dS}}}$) is suggestive but not a derivation.
+    \textcolor{red}{[Speculative.]}
+
+  \item \textbf{Operational definition of emergent time.}
+    The Page--Wootters implementation in GFT --- with the factorisation
+    $\mathcal{H}_{\mathrm{GFT}} \approx \mathcal{H}_{\mathrm{clock}}
+    \otimes \mathcal{H}_{\mathrm{geometry}}$ --- is proposed as a non-circular definition
+    of pre-geometric time ordering.
+    Whether this construction reproduces macroscopic irreversible temporal flow for a
+    semiclassical observer has not been demonstrated.
+    \textcolor{red}{[Speculative.]}
+
+  \item \textbf{The Weinberg--Witten constraint.}
+    The standard AdS/CFT evasion (bulk graviton lives in a different dimension) is
+    potentially closed if bulk time is identified with boundary RG time and the effective
+    dimension is the same on both sides.  The proposed evasion via compositeness and
+    emergent Lorentz invariance in the GFT condensate requires an explicit computation of
+    the graviton stress-energy coupling.  Until this is done the Weinberg--Witten
+    obstruction stands as an unresolved tension.
+    \textcolor{red}{[Speculative evasion.]}
+
+  \item \textbf{The target space of the RG flow.}
+    The Wild Theorist raises a deeper issue: the proposal assumes the RG flow lives on a
+    manifold of local quantum field theories parameterised by couplings $\{\lambda^{i}\}$.
+    In the GFT context this assumption is not obviously valid --- the space of GFT
+    truncations is not a conventional coupling space, and the geometric structure of that
+    space (e.g., whether it admits a well-defined Zamolodchikov metric) has not been
+    established.  \textcolor{red}{[Open structural question.]}
+
+  \item \textbf{The singularity: fixed point or breakdown?}
+    The revised picture holds that the black-hole / cosmological singularity corresponds
+    to the \emph{breakdown} of the condensate approximation, not to an IR fixed point.
+    This is physically reasonable but changes the structure of the Level~III conjecture
+    substantially.  The transition from fixed-point behaviour to condensate breakdown has
+    not been characterised.
+    \textcolor{red}{[Speculative.]}
+
+\end{enumerate}
+
+\section{Next Steps}
+\label{sec:nextsteps}
+
+The following tasks are ordered by priority.
+
+\begin{description}
+
+  \item[Priority 0 --- $T\bar{T}$ consistency check.]
+    Derive the WdW equation for AdS$_{3}$ gravity in minisuperspace with a Dirichlet
+    wall at $r = r_{c}$ and verify that it reduces exactly to the $T\bar{T}$ flow
+    equation~(\ref{eq:TTbar}) as $r_{c}$ varies.  Identify any additional terms.
+    This is the minimal non-trivial test of the Level~I identification
+    (\ref{eq:analytic_continuation}) beyond known results.
+    \emph{Assigned: analytical calculation, 2--4 weeks.}
+
+  \item[Priority 1 --- Derive WdW and CS from the GFT Wetterinck equation.]
+    Show explicitly that the condensate truncation of (\ref{eq:GFT_Wetterinck}), expanded
+    near an asymptotically AdS saddle point, produces the CS equation~(\ref{eq:CS}) in
+    boundary variables.  This is the derivation that would promote Claim~T1 and Claim~T2
+    from conjectures to results.
+    \emph{Assigned: GFT functional methods, 4--8 weeks.}
+
+  \item[Priority 2 --- Compute $\delta U_{\mathrm{GFT}}$ in the LPA.]
+    In the local potential approximation, solve the ODE system for the GFT effective
+    potential and extract the $1/N$ correction $\delta U_{\mathrm{GFT}}(\nu,k)$ in
+    equation~(\ref{eq:1overN_correction}).
+    This yields a falsifiable prediction for non-planar CFT correlators near the
+    singularity.
+    \emph{Assigned: numerical FRG, 4--8 weeks.}
+
+  \item[Priority 3 --- GFT Page--Wootters construction.]
+    Construct the conditional state
+    $|\Psi_{\mathrm{geometry}}\rangle_{|k}$ for a macroscopic GFT condensate
+    and verify that it reproduces semiclassical time evolution in the Hartle--Hawking or
+    Bunch--Davies state.  This would resolve Tension~3 (operational definition of emergent
+    time).
+    \emph{Assigned: quantum information / GFT, 6--12 weeks.}
+
+  \item[Priority 4 --- Weinberg--Witten vertex calculation.]
+    Compute the spin-2 graviton vertex function in GFT perturbation theory around the
+    condensate and verify that the stress-energy coupling is non-Lorentz-covariant at
+    subleading order in $k/k_{P}$.
+    \emph{Assigned: GFT perturbation theory, 8--16
+
+\end{document}

@@ -1,0 +1,7 @@
+Title: Breaking an Abelian gauge symmetry near a black hole horizon
+Authors: Steven S. Gubser
+Published: 2008-01-18
+arXiv ID: http://arxiv.org/abs/0801.2977v1
+Categories: hep-th
+Abstract:
+I argue that coupling the Abelian Higgs model to gravity plus a negative cosmological constant leads to black holes which spontaneously break the gauge invariance via a charged scalar condensate slightly outside their horizon. This suggests that black holes can superconduct.

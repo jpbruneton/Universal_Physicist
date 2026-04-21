@@ -1,0 +1,7 @@
+Title: Critical reflections on asymptotically safe gravity
+Authors: Alfio Bonanno, Astrid Eichhorn, Holger Gies, Jan M. Pawlowski, Roberto Percacci, Martin Reuter, Frank Saueressig, Gian Paolo Vacca
+Published: 2020-04-14
+arXiv ID: http://arxiv.org/abs/2004.06810v1
+Categories: gr-qc, hep-th
+Abstract:
+Asymptotic safety is a theoretical proposal for the ultraviolet completion of quantum field theories, in particular for quantum gravity. Significant progress on this program has led to a first characterization of the Reuter fixed point. Further advancement in our understanding of the nature of quantum spacetime requires addressing a number of open questions and challenges. Here, we aim at providing a critical reflection on the state of the art in the asymptotic safety program, specifying and elaborating on open questions of both technical and conceptual nature. We also point out systematic pathways, in various stages of practical implementation, towards answering them. Finally, we also take the opportunity to clarify some common misunderstandings regarding the program.

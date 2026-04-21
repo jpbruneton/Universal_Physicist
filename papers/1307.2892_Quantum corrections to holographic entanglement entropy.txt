@@ -1,0 +1,7 @@
+Title: Quantum corrections to holographic entanglement entropy
+Authors: Thomas Faulkner, Aitor Lewkowycz, Juan Maldacena
+Published: 2013-07-10
+arXiv ID: http://arxiv.org/abs/1307.2892v2
+Categories: hep-th
+Abstract:
+We consider entanglement entropy in quantum field theories with a gravity dual. In the gravity description, the leading order contribution comes from the area of a minimal surface, as proposed by Ryu-Takayanagi. Here we describe the one loop correction to this formula. The minimal surface divides the bulk into two regions. The bulk loop correction is essentially given by the bulk entanglement entropy between these two bulk regions. We perform some simple checks of this proposal.

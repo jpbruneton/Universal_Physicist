@@ -1,0 +1,7 @@
+Title: On the geometry of loop quantum gravity on a graph
+Authors: Carlo Rovelli, Simone Speziale
+Published: 2010-05-17
+arXiv ID: http://arxiv.org/abs/1005.2927v2
+Categories: gr-qc, hep-th
+Abstract:
+We discuss the meaning of geometrical constructions associated to loop quantum gravity states on a graph. In particular, we discuss the "twisted geometries" and derive a simple relation between these and Regge geometries.

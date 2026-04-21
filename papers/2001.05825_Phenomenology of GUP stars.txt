@@ -1,0 +1,7 @@
+Title: Phenomenology of GUP stars
+Authors: Luca Buoninfante, Gaetano Lambiase, Giuseppe Gaetano Luciano, Luciano Petruzziello
+Published: 2020-01-16
+arXiv ID: http://arxiv.org/abs/2001.05825v2
+Categories: gr-qc, hep-th
+Abstract:
+We study quantum corrections at the horizon scale of a black hole induced by a Generalized Uncertainty Principle (GUP) with a quadratic term in the momentum. The interplay between quantum mechanics and gravity manifests itself into a non-zero uncertainty in the location of the black hole radius, which turns out to be larger than the usual Schwarzschild radius. We interpret such an effect as a correction which makes the horizon disappear, as it happens in other models of quantum black holes already considered in literature. We name this kind of horizonless compact objects $GUP stars$. We also investigate some phenomenological aspects in the astrophysical context of binary systems and gravitational wave emission by discussing Love numbers, quasi-normal modes and echoes, and studying their behavior as functions of the GUP deformation parameter. Finally, we preliminarily explore the possibility to constrain such a parameter with future astrophysical experiments.

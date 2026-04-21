@@ -1,0 +1,7 @@
+Title: The structure of the generalized Vaidya spacetime containing the eternal naked singularity
+Authors: Vitalii Vertogradov
+Published: 2022-09-22
+arXiv ID: http://arxiv.org/abs/2209.10953v2
+Categories: gr-qc
+Abstract:
+In this paper the structure of the generalized Vaidya spacetime when the type-II of the matter field satisfies the equation of the state $P=ρ$ is investigated. Satisfying all energy conditions we show that this spacetime contains the 'eternal' naked singularity. It means that once the singularity is formed it will never be covered with the apparent horizon. However, in the case of the apparent horizon formation the resulting object is a white hole. We also prove that this spacetime contains only null naked singularity.

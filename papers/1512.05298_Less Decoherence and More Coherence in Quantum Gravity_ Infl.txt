@@ -1,0 +1,7 @@
+Title: Less Decoherence and More Coherence in Quantum Gravity, Inflationary Cosmology and Elsewhere
+Authors: E. Okon, D. Sudarsky
+Published: 2015-12-16
+arXiv ID: http://arxiv.org/abs/1512.05298v1
+Categories: quant-ph, gr-qc
+Abstract:
+In Crull (2015) it is argued that, in order to confront outstanding problems in cosmology and quantum gravity, interpretational aspects of quantum theory can by bypassed because decoherence is able to resolve them. As a result, Crull (2015) concludes that our focus on conceptual and interpretational issues, while dealing with such matters in Okon and Sudarsky (2014), is avoidable and even pernicious. Here we will defend our position by showing in detail why decoherence does not help in the resolution of foundational questions in quantum mechanics, such as the measurement problem or the emergence of classicality.

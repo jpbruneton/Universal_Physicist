@@ -1,0 +1,7 @@
+Title: Conditional probabilities with Dirac observables and the problem of time in quantum gravity
+Authors: Rodolfo Gambini, Rafael Porto, Sebastian Torterolo, Jorge Pullin
+Published: 2008-09-24
+arXiv ID: http://arxiv.org/abs/0809.4235v1
+Categories: gr-qc, quant-ph
+Abstract:
+We combine the "evolving constants" approach to the construction of observables in canonical quantum gravity with the Page--Wootters formulation of quantum mechanics with a relational time for generally covariant systems. This overcomes the objections levied by Kuchař against the latter formalism. The construction is formulated entirely in terms of Dirac observables, avoiding in all cases the physical observation of quantities that do not belong in the physical Hilbert space. We work out explicitly the example of the parameterized particle, including the calculation of the propagator. The resulting theory also predicts a fundamental mechanism of decoherence.

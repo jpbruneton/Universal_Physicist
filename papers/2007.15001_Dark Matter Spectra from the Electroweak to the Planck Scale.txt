@@ -1,0 +1,7 @@
+Title: Dark Matter Spectra from the Electroweak to the Planck Scale
+Authors: Christian W. Bauer, Nicholas L. Rodd, Bryan R. Webber
+Published: 2020-07-29
+arXiv ID: http://arxiv.org/abs/2007.15001v2
+Categories: hep-ph, astro-ph.CO, astro-ph.HE
+Abstract:
+We compute the decay spectrum for dark matter (DM) with masses above the scale of electroweak symmetry breaking, all the way to the Planck scale. For an arbitrary hard process involving a decay to the unbroken standard model, we determine the prompt distribution of stable states including photons, neutrinos, positrons, and antiprotons. These spectra are a crucial ingredient in the search for DM via indirect detection at the highest energies as being probed in current and upcoming experiments including IceCube, HAWC, CTA, and LHAASO. Our approach improves considerably on existing methods. For example, we include all relevant electroweak interactions. The importance of these effects grow with DM mass, and by an EeV our spectra can differ by orders of magnitude from existing results.

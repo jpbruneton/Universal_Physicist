@@ -1,0 +1,7 @@
+Title: Gravitational wave production by Hawking radiation from rotating primordial black holes
+Authors: Ruifeng Dong, William H. Kinney, Dejan Stojkovic
+Published: 2015-11-18
+arXiv ID: http://arxiv.org/abs/1511.05642v3
+Categories: astro-ph.CO, astro-ph.HE, gr-qc
+Abstract:
+In this paper we analyze in detail a rarely discussed question of gravity wave production from evaporating primordial black holes. These black holes emit gravitons which are, at classical level, registered as gravity waves. We use the latest constraints on their abundance, and calculate the power emitted in gravitons at the time of their evaporation. We then solve the coupled system of equations that gives us the evolution of the frequency and amplitude of gravity waves during the expansion of the universe. The spectrum of gravitational waves that can be detected today depends on multiple factors: fraction of the total energy density which was occupied by primordial black holes, the epoch in which they were formed, and quantities like their mass and angular momentum. We conclude that very small primordial black holes which evaporate before the big-bang nucleosynthesis emit gravitons whose spectral energy fraction today can be as large as $10^{-7.5}$. On the other hand, those which are massive enough so that they still exist now can yield a signal as high as $10^{-6.5}$. However, typical frequencies of the gravity waves from primordial black holes are still too high to be observed with the current and near future gravity wave observations.

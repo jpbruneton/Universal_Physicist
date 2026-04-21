@@ -1,0 +1,8 @@
+Title: Generalised fluxes, Yang-Baxter deformations and the O(d,d) structure of non-abelian T-duality
+Authors: Dieter Lust, David Osten
+Published: 2018-03-11
+arXiv ID: http://arxiv.org/abs/1803.03971v3
+Categories: hep-th, math-ph
+Abstract:
+Based on the construction of Poisson-Lie T-dual $σ$-models from a common parent action we study a candidate for the non-abelian respectively Poisson-Lie T-duality group. This group generalises the well-known abelian T-duality group O(d,d) and we explore some of its subgroups, namely factorised dualities, B- and $β$-shifts. The corresponding duality transformed $σ$-models are constructed and interpreted as generalised (non-geometric) flux backgrounds.
+  We also comment on generalisations of results and techniques known from abelian T-duality. This includes the Lie algebra cohomology interpretation of the corresponding non-geometric flux backgrounds, remarks on a double field theory based on non-abelian T-duality and an application to the investigation of Yang-Baxter deformations. This will show that homogeneously Yang-Baxter deformed $σ$-models are exactly the non-abelian T-duality $β$-shifts when applied to principal chiral models.

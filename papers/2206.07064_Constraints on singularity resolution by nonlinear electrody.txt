@@ -1,0 +1,7 @@
+Title: Constraints on singularity resolution by nonlinear electrodynamics
+Authors: Ana Bokulić, Tajron Jurić, Ivica Smolić
+Published: 2022-06-14
+arXiv ID: http://arxiv.org/abs/2206.07064v3
+Categories: gr-qc, hep-th, math-ph
+Abstract:
+One of the long standing problems is a quest for regular black hole solutions, in which a resolution of the spacetime singularity has been achieved by some physically reasonable, classical field, before one resorts to the quantum gravity. The prospect of using nonlinear electromagnetic fields for this goal has been limited by the Bronnikov's no-go theorems, focused on Lagrangians depending on the electromagnetic invariant $F_{ab}F^{ab}$ only. We extend Bronnikov's results by taking into account Lagrangians that depend on both electromagnetic invariants, $F_{ab}F^{ab}$ and $F_{ab}\,{\star F^{ab}}$, and prove that the tension between the Lagrangian's Maxwellian weak field limit and boundedness of the curvature invariants persists in more general class of theories.

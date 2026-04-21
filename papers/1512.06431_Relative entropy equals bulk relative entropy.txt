@@ -1,0 +1,7 @@
+Title: Relative entropy equals bulk relative entropy
+Authors: Daniel L. Jafferis, Aitor Lewkowycz, Juan Maldacena, S. Josephine Suh
+Published: 2015-12-20
+arXiv ID: http://arxiv.org/abs/1512.06431v1
+Categories: hep-th, gr-qc, quant-ph
+Abstract:
+We consider the gravity dual of the modular Hamiltonian associated to a general subregion of a boundary theory. We use it to argue that the relative entropy of nearby states is given by the relative entropy in the bulk, to leading order in the bulk gravitational coupling. We also argue that the boundary modular flow is dual to the bulk modular flow in the entanglement wedge, with implications for entanglement wedge reconstruction.

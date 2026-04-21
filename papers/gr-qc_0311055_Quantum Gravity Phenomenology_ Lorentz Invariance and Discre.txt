@@ -1,0 +1,7 @@
+Title: Quantum Gravity Phenomenology, Lorentz Invariance and Discreteness
+Authors: Fay Dowker, Joe Henson, Rafael D. Sorkin
+Published: 2003-11-17
+arXiv ID: http://arxiv.org/abs/gr-qc/0311055v3
+Categories: gr-qc, astro-ph, hep-th
+Abstract:
+Contrary to what is often stated, a fundamental spacetime discreteness need not contradict Lorentz invariance. A causal set's discreteness is in fact locally Lorentz invariant, and we recall the reasons why. For illustration, we introduce a phenomenological model of massive particles propagating in a Minkowski spacetime which arises from an underlying causal set. The particles undergo a Lorentz invariant diffusion in phase space, and we speculate on whether this could have any bearing on the origin of high energy cosmic rays.

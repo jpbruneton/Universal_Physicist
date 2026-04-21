@@ -1,0 +1,7 @@
+Title: Real Ashtekar Variables for Lorentzian Signature Space-times
+Authors: J. Fernando Barbero
+Published: 1994-10-11
+arXiv ID: http://arxiv.org/abs/gr-qc/9410014v1
+Categories: gr-qc
+Abstract:
+I suggest in this letter a new strategy to attack the problem of the reality conditions in the Ashtekar approach to classical and quantum general relativity. By writing a modified Hamiltonian constraint in the usual $SO(3)$ Yang-Mills phase space I show that it is possible to describe space-times with Lorentzian signature without the introduction of complex variables. All the features of the Ashtekar formalism related to the geometrical nature of the new variables are retained; in particular, it is still possible, in principle, to use the loop variables approach in the passage to the quantum theory. The key issue in the new formulation is how to deal with the more complicated Hamiltonian constraint that must be used in order to avoid the introduction of complex fields.

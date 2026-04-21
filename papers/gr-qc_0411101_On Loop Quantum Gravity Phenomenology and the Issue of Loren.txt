@@ -1,0 +1,8 @@
+Title: On Loop Quantum Gravity Phenomenology and the Issue of Lorentz Invariance
+Authors: Martin Bojowald, Hugo A. Morales-Tecotl, Hanno Sahlmann
+Published: 2004-11-19
+arXiv ID: http://arxiv.org/abs/gr-qc/0411101v1
+Categories: gr-qc
+Abstract:
+A simple model is constructed which allows to compute modified dispersion relations with effects from loop quantum gravity. Different quantization choices can be realized and their effects on the order of corrections studied explicitly. A comparison with more involved semiclassical techniques shows that there is agreement even at a quantitative level.
+  Furthermore, by contrasting Hamiltonian and Lagrangian descriptions we show that possible Lorentz symmetry violations may be blurred as an artifact of the approximation scheme. Whether this is the case in a purely Hamiltonian analysis can be resolved by an improvement in the effective semiclassical analysis.

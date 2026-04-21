@@ -1,0 +1,7 @@
+Title: Corrections to the Cardy-Verlinde formula from the generalized uncertainty principle
+Authors: M. R. Setare
+Published: 2004-10-05
+arXiv ID: http://arxiv.org/abs/hep-th/0410044v1
+Categories: hep-th
+Abstract:
+In this letter, we compute the corrections to the Cardy-Verlinde formula of $d-$dimensional Schwarzschild black hole. These corrections stem from the generalized uncertainty principle. Then we show, one can taking into account the generalized uncertainty principle corrections of the Cardy-Verlinde entropy formula by just redefining the Virasoro operator $L_0$ and the central charge $c$.

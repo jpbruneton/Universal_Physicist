@@ -1,0 +1,7 @@
+Title: Quantifying quantum reference frames in composed systems: local, global and mutual asymmetries
+Authors: Tiago Martinelli, Diogo O. Soares-Pinto
+Published: 2018-08-13
+arXiv ID: http://arxiv.org/abs/1808.04209v1
+Categories: quant-ph
+Abstract:
+The Page-Wootters mechanism questioned the fundamental nature of time in quantum physics. The mechanism explored the notion that a given physical quantity is always defined and measured relative to a reference frame, in general, not explained in the theoretical description of quantum physical experiments. Recently, the resource theory of asymmetry deals explicitly with what are the physical conditions for a quantum system to serve as a good reference frame. Nonetheless, to quantify a quantum reference frame in relation to another one it is a important task to establish an internal description of quantum theory, i.e., without the need of a classical reference frame. In this work we address this issue by the concept of mutual asymmetry and use this machinery in the Page-Wootters mechanism by identifying the concept of mutual asymmetry as mutual or internal coherence. To do so, the notion of quantum coherence in relation of a quantum reference frame is revisited and a quantifier is proposed in this scenario. Also, this open space to investigate the link of internal coherence and correlations, as proposed by Page and Wootters, under a resource theory approach.

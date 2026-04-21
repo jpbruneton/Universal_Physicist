@@ -1,0 +1,7 @@
+Title: Tensor networks for complex quantum systems
+Authors: Roman Orus
+Published: 2018-12-10
+arXiv ID: http://arxiv.org/abs/1812.04011v2
+Categories: cond-mat.str-el, hep-lat, quant-ph
+Abstract:
+Tensor network states and methods have erupted in recent years. Originally developed in the context of condensed matter physics and based on renormalization group ideas, tensor networks lived a revival thanks to quantum information theory and the understanding of entanglement in quantum many-body systems. Moreover, it has been not-so-long realized that tensor network states play a key role in other scientific disciplines, such as quantum gravity and artificial intelligence. In this context, here we provide an overview of basic concepts and key developments in the field. In particular, we briefly discuss the most important tensor network structures and algorithms, together with a sketch on advances related to global and gauge symmetries, fermions, topological order, classification of phases, entanglement Hamiltonians, AdS/CFT, artificial intelligence, the 2d Hubbard model, 2d quantum antiferromagnets, conformal field theory, quantum chemistry, disordered systems, and many-body localization.

@@ -1,0 +1,7 @@
+Title: The Spin Foam Approach to Quantum Gravity
+Authors: Alejandro Perez
+Published: 2012-05-09
+arXiv ID: http://arxiv.org/abs/1205.2019v1
+Categories: gr-qc, hep-th
+Abstract:
+This article reviews the present status of the spin foam approach to the quantization of gravity. Special attention is payed to the pedagogical presentation of the recently introduced new models for four dimensional quantum gravity. The models are motivated by a suitable implementation of the path integral quantization of the Plebanski formulation of gravity on a simplicial regularization. The article also includes a self-contained treatment of the 2+1 gravity. The simple nature of the latter provides the basis and a perspective for the analysis of both conceptual and technical issues that remain open in four dimensions.

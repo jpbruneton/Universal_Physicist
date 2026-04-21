@@ -1,0 +1,7 @@
+Title: Hawking radiation without black hole entropy
+Authors: Matt Visser
+Published: 1997-12-02
+arXiv ID: http://arxiv.org/abs/gr-qc/9712016v1
+Categories: gr-qc, hep-th
+Abstract:
+In this Letter I point out that Hawking radiation is a purely kinematic effect that is generic to Lorentzian geometries. Hawking radiation arises for any test field on any Lorentzian geometry containing an event horizon regardless of whether or not the Lorentzian geometry satisfies the dynamical Einstein equations of general relativity. On the other hand, the classical laws of black hole mechanics are intrinsically linked to the Einstein equations of general relativity (or their perturbative extension into either semiclassical quantum gravity or string-inspired scenarios). In particular, the laws of black hole thermodynamics, and the identification of the entropy of a black hole with its area, are inextricably linked with the dynamical equations satisfied by the Lorentzian geometry: entropy is proportional to area (plus corrections) if and only if the dynamical equations are the Einstein equations (plus corrections). It is quite possible to have Hawking radiation occur in physical situations in which the laws of black hole mechanics do not apply, and in situations in which the notion of black hole entropy does not even make any sense. This observation has important implications for any derivation of black hole entropy that seeks to deduce black hole entropy from the Hawking radiation.

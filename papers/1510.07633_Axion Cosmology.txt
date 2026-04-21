@@ -1,0 +1,7 @@
+Title: Axion Cosmology
+Authors: David J. E. Marsh
+Published: 2015-10-26
+arXiv ID: http://arxiv.org/abs/1510.07633v2
+Categories: astro-ph.CO, hep-ph, hep-th
+Abstract:
+1. Introduction 2. Models: the QCD axion; the strong CP problem; PQWW, KSVZ, DFSZ; anomalies, instantons and the potential; couplings; axions in string theory 3. Production and I.C.'s: SSB and non-perturbative physics; the axion field during inflation and PQ SSB; cosmological populations - decay of parent, topological defects, thermal production, vacuum realignment 4. The Cosmological Field: action; background evolution; misalignment for QCD axion and ALPs; cosmological perturbation theory - i.c.'s, early time treatment, axion sound speed and Jeans scale, transfer functions and WDM; the Schrodinger picture; simualting axions; BEC 5. CMB and LSS: Primary anisotropies; matter power; combined constraints; Isocurvature and inflation 6. Galaxy Formation; halo mass function; high-z and the EOR; density profiles; the CDM small-scale crises 7. Accelerated expansion: the c.c. problem; axion inflation (natural and monodromy) 8. Gravitational interactions with black holes and pulsars 9. Non-gravitational interactions: stellar astrophysics; LSW; vacuum birefringence; axion forces; direct detection with ADMX and CASPEr; Axion decays; dark radiation; astrophysical magnetic fields; cosmological birefringence 10. Conclusions A Theta vacua of gauge theories B EFT for cosmologists C Friedmann equations D Cosmological fluids E Bayes Theorem and priors F Degeneracies and sampling G Sheth-Tormen HMF

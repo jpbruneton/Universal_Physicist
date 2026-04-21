@@ -1,0 +1,7 @@
+Title: The Python's Lunch: geometric obstructions to decoding Hawking radiation
+Authors: Adam R. Brown, Hrant Gharibyan, Geoff Penington, Leonard Susskind
+Published: 2019-11-30
+arXiv ID: http://arxiv.org/abs/1912.00228v1
+Categories: hep-th, gr-qc, quant-ph
+Abstract:
+According to Harlow and Hayden [arXiv:1301.4504] the task of distilling information out of Hawking radiation appears to be computationally hard despite the fact that the quantum state of the black hole and its radiation is relatively un-complex. We trace this computational difficulty to a geometric obstruction in the Einstein-Rosen bridge connecting the black hole and its radiation. Inspired by tensor network models, we conjecture a precise formula relating the computational hardness of distilling information to geometric properties of the wormhole - specifically to the exponential of the difference in generalized entropies between the two non-minimal quantum extremal surfaces that constitute the obstruction. Due to its shape, we call this obstruction the "Python's Lunch", in analogy to the reptile's postprandial bulge.

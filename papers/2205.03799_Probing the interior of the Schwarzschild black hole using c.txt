@@ -1,0 +1,7 @@
+Title: Probing the interior of the Schwarzschild black hole using congruences: LQG vs. GUP
+Authors: Saeed Rastgoo, Saurya Das
+Published: 2022-05-08
+arXiv ID: http://arxiv.org/abs/2205.03799v2
+Categories: gr-qc
+Abstract:
+We review, as well as provide some new results regarding the study of the structure of spacetime and the singularity in the interior of the Schwarzschild black hole in both loop quantum gravity and generalized uncertainty principle approaches, using congruences and their associated expansion scalar and the Raychaudhuri equation. We reaffirm previous results that in loop quantum gravity, in all three major schemes of polymer quantization, the expansion scalar, Raychaudhuri equation and the Kretschmann scalar remain finite everywhere in the interior. In the context of the eneralized uncertainty principle, we show that only two of the four models we study lead to similar results. These two models have the property that their algebra is modified by configuration variables rather than the momenta.

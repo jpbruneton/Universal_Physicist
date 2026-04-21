@@ -1,0 +1,8 @@
+Title: Energy conditions in general relativity and quantum field theory
+Authors: Eleni-Alexandra Kontou, Ko Sanders
+Published: 2020-03-03
+arXiv ID: http://arxiv.org/abs/2003.01815v2
+Categories: gr-qc, math-ph
+Abstract:
+This review summarizes the current status of the energy conditions in general relativity and quantum field theory. We provide a historical review and a summary of technical results and applications, complemented with a few new derivations and discussions. We pay special attention to the role of the equations of motion and to the relation between classical and quantum theories.
+  Pointwise energy conditions were first introduced as physically reasonable restrictions on matter in the context of general relativity. They aim to express e.g. the positivity of mass or the attractiveness of gravity. Perhaps more importantly, they have been used as assumptions in mathematical relativity to prove singularity theorems and the non-existence of wormholes and similar exotic phenomena. However, the delicate balance between conceptual simplicity, general validity and strong results has faced serious challenges, because all pointwise energy conditions are systematically violated by quantum fields and also by some rather simple classical fields. In response to these challenges, weaker statements were introduced, such as quantum energy inequalities and averaged energy conditions. These have a larger range of validity and may still suffice to prove at least some of the earlier results. One of these conditions, the achronal averaged null energy condition, has recently received increased attention. It is expected to be a universal property of the dynamics of all gravitating physical matter, even in the context of semiclassical or quantum gravity.

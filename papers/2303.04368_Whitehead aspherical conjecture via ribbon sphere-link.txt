@@ -1,0 +1,7 @@
+Title: Whitehead aspherical conjecture via ribbon sphere-link
+Authors: Akio Kawauchi
+Published: 2023-03-08
+arXiv ID: http://arxiv.org/abs/2303.04368v2
+Categories: math.GT, math.AT
+Abstract:
+Whitehead aspherical conjecture says that every connected subcomplex of every aspherical 2-complex is aspherical. By an argument on ribbon sphere-links, it is confirmed that the conjecture is true for every contractible finite 2-complex. In this paper, by generalizing this argument, this conjecture is confirmed to be true for every aspherical 2-complex.

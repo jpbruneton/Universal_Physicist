@@ -1,0 +1,7 @@
+Title: GUP parameter from Maximal Acceleration
+Authors: Giuseppe Gaetano Luciano, Luciano Petruzziello
+Published: 2019-02-19
+arXiv ID: http://arxiv.org/abs/1902.07059v1
+Categories: hep-th
+Abstract:
+We exhibit a theoretical calculation of the parameter βappearing in the generalized uncertainty principle (GUP) with only a quadratic term in the momentum. A specific numerical value is obtained by comparing the GUP-deformed Unruh temperature with the one predicted within the framework of Caianiello's theory of maximal acceleration. The physical meaning of this result is discussed in connection with constraints on βpreviously fixed via both theoretical and experimental approaches.

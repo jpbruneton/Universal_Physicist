@@ -1,0 +1,7 @@
+Title: Classical simulation of quantum many-body systems with a tree tensor network
+Authors: Yaoyun Shi, Luming Duan, Guifre Vidal
+Published: 2005-11-08
+arXiv ID: http://arxiv.org/abs/quant-ph/0511070v2
+Categories: quant-ph, cond-mat.str-el
+Abstract:
+We show how to efficiently simulate a quantum many-body system with tree structure when its entanglement is bounded for any bipartite split along an edge of the tree. This is achieved by expanding the {\em time-evolving block decimation} simulation algorithm for time evolution from a one dimensional lattice to a tree graph, while replacing a {\em matrix product state} with a {\em tree tensor network}. As an application, we show that any one-way quantum computation on a tree graph can be efficiently simulated with a classical computer.

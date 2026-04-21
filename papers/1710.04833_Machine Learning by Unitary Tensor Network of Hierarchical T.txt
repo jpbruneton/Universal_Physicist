@@ -1,0 +1,7 @@
+Title: Machine Learning by Unitary Tensor Network of Hierarchical Tree Structure
+Authors: Ding Liu, Shi-Ju Ran, Peter Wittek, Cheng Peng, Raul Blázquez García, Gang Su, Maciej Lewenstein
+Published: 2017-10-13
+arXiv ID: http://arxiv.org/abs/1710.04833v4
+Categories: stat.ML, cond-mat.str-el, physics.comp-ph, quant-ph
+Abstract:
+The resemblance between the methods used in quantum-many body physics and in machine learning has drawn considerable attention. In particular, tensor networks (TNs) and deep learning architectures bear striking similarities to the extent that TNs can be used for machine learning. Previous results used one-dimensional TNs in image recognition, showing limited scalability and flexibilities. In this work, we train two-dimensional hierarchical TNs to solve image recognition problems, using a training algorithm derived from the multi-scale entanglement renormalization ansatz. This approach introduces mathematical connections among quantum many-body physics, quantum information theory, and machine learning. While keeping the TN unitary in the training phase, TN states are defined, which encode classes of images into quantum many-body states. We study the quantum features of the TN states, including quantum entanglement and fidelity. We find these quantities could be properties that characterize the image classes, as well as the machine learning tasks.

@@ -1,0 +1,7 @@
+Title: Confining gauge theories and holographic entanglement entropy with a magnetic field
+Authors: David Dudal, Subhash Mahapatra
+Published: 2016-12-19
+arXiv ID: http://arxiv.org/abs/1612.06248v3
+Categories: hep-th, hep-lat, hep-ph
+Abstract:
+We consider the soft wall model for a heuristic holographical modelling of a confining gauge theory and discuss how the introduction of a (constant) magnetic field influences the (de)confinement phase structure. We use the entanglement entropy as a diagnostic tool in terms of the length of an entangling strip geometry. Due to the anisotropy introduced by the magnetic field, we find that the results depend on the orientation of the strip relative to the field. This allows to identify a richer, anisotropic, interplay between confinement and a magnetic field than possibly can be extracted from a more standard order parameter as, for example, the Polyakov loop expectation value.

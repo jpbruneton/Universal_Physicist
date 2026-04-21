@@ -1,0 +1,7 @@
+Title: Introduction to Doubly Special Relativity
+Authors: Jerzy Kowalski-Glikman
+Published: 2004-05-29
+arXiv ID: http://arxiv.org/abs/hep-th/0405273v1
+Categories: hep-th
+Abstract:
+In these notes, based on the lectures given at 40th Winter School on Theoretical Physics, I review some aspects of Doubly Special Relativity (DSR). In particular, I discuss relation between DSR and quantum gravity, the formal structure of DSR proposal based on $κ$-Poincaré algebra and non-commutative $κ$-Minkowski space-time, as well us some results and puzzles related to DSR phenomenology.

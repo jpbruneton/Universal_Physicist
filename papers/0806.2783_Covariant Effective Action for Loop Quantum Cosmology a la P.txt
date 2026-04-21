@@ -1,0 +1,7 @@
+Title: Covariant Effective Action for Loop Quantum Cosmology a la Palatini
+Authors: Gonzalo J. Olmo, Parampreet Singh
+Published: 2008-06-17
+arXiv ID: http://arxiv.org/abs/0806.2783v2
+Categories: gr-qc
+Abstract:
+In loop quantum cosmology, non-perturbative quantum gravity effects lead to the resolution of the big bang singularity by a quantum bounce without introducing any new degrees of freedom. Though fundamentally discrete, the theory admits a continuum description in terms of an effective Hamiltonian. Here we provide an algorithm to obtain the corresponding effective action, establishing in this way the covariance of the theory for the first time. This result provides new insights on the continuum properties of the discrete structure of quantum geometry and opens new avenues to extract physical predictions such as those related to gauge invariant cosmological perturbations.

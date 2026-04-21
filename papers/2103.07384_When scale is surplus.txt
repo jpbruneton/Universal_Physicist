@@ -1,0 +1,7 @@
+Title: When scale is surplus
+Authors: Sean Gryb, David Sloan
+Published: 2021-03-12
+arXiv ID: http://arxiv.org/abs/2103.07384v2
+Categories: physics.hist-ph, gr-qc
+Abstract:
+We study a long-recognised but under-appreciated symmetry called "dynamical similarity" and illustrate its relevance to many important conceptual problems in fundamental physics. Dynamical similarities are general transformations of a system where the unit of Hamilton's principal function is rescaled, and therefore represent a kind of dynamical scaling symmetry with formal properties that differ from many standard symmetries. To study this symmetry, we develop a general framework for symmetries that distinguishes the observable and surplus structures of a theory by using the minimal freely specifiable initial data for the theory that is necessary to achieve empirical adequacy. This framework is then applied to well-studied examples including Galilean invariance and the symmetries of the Kepler problem. We find that our framework gives a precise dynamical criterion for identifying the observables of those systems, and that those observables agree with epistemic expectations. We then apply our framework to dynamical similarity. First we give a general definition of dynamical similarity. Then we show, with the help of some previous results, how the dynamics of our observables leads to singularity resolution and the emergence of an arrow of time in cosmology.

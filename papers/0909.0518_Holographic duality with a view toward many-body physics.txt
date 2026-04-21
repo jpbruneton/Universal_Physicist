@@ -1,0 +1,7 @@
+Title: Holographic duality with a view toward many-body physics
+Authors: John McGreevy
+Published: 2009-09-03
+arXiv ID: http://arxiv.org/abs/0909.0518v3
+Categories: hep-th, cond-mat.str-el
+Abstract:
+These are notes based on a series of lectures given at the KITP workshop "Quantum Criticality and the AdS/CFT Correspondence" in July, 2009. The goal of the lectures was to introduce condensed matter physicists to the AdS/CFT correspondence. Discussion of string theory and of supersymmetry is avoided to the extent possible.

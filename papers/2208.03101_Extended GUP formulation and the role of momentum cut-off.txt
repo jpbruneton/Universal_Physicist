@@ -1,0 +1,7 @@
+Title: Extended GUP formulation and the role of momentum cut-off
+Authors: Sebastiano Segreto, Giovanni Montani
+Published: 2022-08-05
+arXiv ID: http://arxiv.org/abs/2208.03101v2
+Categories: quant-ph, gr-qc
+Abstract:
+We analyze the extension of the GUP theory deriving from the modified uncertainty principle in agreement with the string low energy limit, which represents one of the most general formulations satisfying the Jacobi identity, in the context of the associative algebras. After providing some physical insights on the nature of the considered approaches exploiting the cosmological arena, first, we show how a natural formulation of the theory in an infinite momentum space does not lead to the emergence of a nonzero minimal uncertainty in position, then we construct a truncated formulation of the theory in momentum space, proving that only in this case we can recover the desired feature of the presence of a nonzero minimal uncertainty in position, which - as usual in these theories - can be interpreted as a phenomenological manifestation of cut-off physics effects. Both quantization schemes are completely characterized and finally applied to study wave packets' behavior and their evolution in time. The obtained results can shed light on which generalizations of the GUP theory are more coherent with the string low energy limit, in view of the existence of a minimum length in the form of a minimal uncertainty in position.

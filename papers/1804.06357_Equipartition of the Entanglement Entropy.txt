@@ -1,0 +1,7 @@
+Title: Equipartition of the Entanglement Entropy
+Authors: J. C. Xavier, F. C. Alcaraz, G. Sierra
+Published: 2018-04-17
+arXiv ID: http://arxiv.org/abs/1804.06357v2
+Categories: cond-mat.stat-mech, cond-mat.str-el
+Abstract:
+The entanglement in a quantum system that possess an internal symmetry, characterized by the Sz-magnetization or U(1)-charge, is distributed among different sectors. The aim of this letter is to gain a deeper understanding of the contribution to the entanglement entropy in each of those sectors for the ground state of conformal invariant critical one dimensional systems. We find surprisingly that the entanglement entropy is equally distributed among the different magnetization sectors. Its value is given by the standard area law violating logarithmic term, that depends on the central charge c, minus a double logarithmic correction related to the zero temperature susceptibility. This result provides a new method to estimate simultaneously the central charge c and the critical exponents of U(1)-symmetric quantum chains. The method is numerically simple and gives precise results for the spin-1/2 quantum XXZ chain. We also compute the probability distribution of the magnetization in contiguous sublattices.

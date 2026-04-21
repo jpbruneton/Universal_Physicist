@@ -1,0 +1,7 @@
+Title: Generalized Uncertainty Principle, Black Holes, and White Dwarfs: A Tale of Two Infinities
+Authors: Yen Chin Ong
+Published: 2018-04-14
+arXiv ID: http://arxiv.org/abs/1804.05176v2
+Categories: gr-qc, hep-ph, hep-th
+Abstract:
+It is often argued that quantum gravitational correction to the Heisenberg's uncertainty principle leads to, among other things, a black hole remnant with finite temperature. However, such a generalized uncertainty principle also seemingly removes the Chandrasekhar limit, i.e., it permits white dwarfs to be arbitrarily large, which is at odds with astrophysical observations. We show that this problem can be resolved if the parameter in the generalized uncertainty principle is negative. We also discuss the Planck scale physics of such a model.

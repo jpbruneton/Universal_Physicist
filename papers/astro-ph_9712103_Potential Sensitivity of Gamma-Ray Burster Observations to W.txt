@@ -1,0 +1,7 @@
+Title: Potential Sensitivity of Gamma-Ray Burster Observations to Wave Dispersion in Vacuo
+Authors: G. Amelino-Camelia, John Ellis, N. E. Mavromatos, D. V. Nanopoulos, Subir Sarkar
+Published: 1997-12-07
+arXiv ID: http://arxiv.org/abs/astro-ph/9712103v2
+Categories: astro-ph, gr-qc, hep-ph
+Abstract:
+The recent confirmation that at least some gamma-ray bursters (GRBs) are indeed at cosmological distances raises the possibility that observations of these could provide interesting constraints on the fundamental laws of physics. Here we demonstrate that the fine-scale time structure and hard spectra of GRB emissions are very sensitive to the possible dispersion of electromagnetic waves in vacuo with velocity differences $δv \sim E/E_{\QG}$, as suggested in some approaches to quantum gravity. A simple estimate shows that GRB measurements might be sensitive to a dispersion scale $E_{QG}$ comparable to the Planck energy scale $E_{P} \sim 10^{19}$ GeV, sufficient to test some of these theories, and we outline aspects of an observational programme that could address this goal.

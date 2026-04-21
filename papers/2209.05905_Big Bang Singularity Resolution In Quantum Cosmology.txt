@@ -1,0 +1,7 @@
+Title: Big Bang Singularity Resolution In Quantum Cosmology
+Authors: Karim P. Y. Thebault
+Published: 2022-09-13
+arXiv ID: http://arxiv.org/abs/2209.05905v2
+Categories: gr-qc
+Abstract:
+We evaluate the physical viability and logical strength of an array of putative criteria for big bang singularity resolution in quantum cosmology. Based on this analysis, we propose a mutually consistent set of constitutive conditions, which we argue should be taken to jointly define `global' and `local' big bang singularity resolution in this context. Whilst the present article will focus exclusively on evaluating resolution criteria for big bang singularities in the context of finite dimensional models of quantum cosmology, it is also hoped that the core features of our analysis will be extendable to a more general analysis of criteria for quantum singularity resolution in cosmology and black hole physics.

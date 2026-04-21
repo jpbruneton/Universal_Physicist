@@ -1,0 +1,7 @@
+Title: Hawking Radiation and Black Hole Thermodynamics
+Authors: Don N. Page
+Published: 2004-09-02
+arXiv ID: http://arxiv.org/abs/hep-th/0409024v3
+Categories: hep-th, astro-ph, gr-qc
+Abstract:
+An inexhaustive review of Hawking radiation and black hole thermodynamics is given, focusing especially upon some of the historical aspects as seen from the biased viewpoint of a minor player in the field on and off for the past thirty years.

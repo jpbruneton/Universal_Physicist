@@ -1,0 +1,7 @@
+Title: General Logarithmic Corrections to Black Hole Entropy
+Authors: Saurya Das, Parthasarathi Majumdar, Rajat K. Bhaduri
+Published: 2001-10-31
+arXiv ID: http://arxiv.org/abs/hep-th/0111001v3
+Categories: hep-th, gr-qc
+Abstract:
+We compute leading order corrections to the entropy of any thermodynamic system due to small statistical fluctuations around equilibrium. When applied to black holes, these corrections are shown to be of the form $-k\ln(Area)$. For BTZ black holes, $k=3/2$, as found earlier. We extend the result to anti-de Sitter Schwarzschild and Reissner-Nordstrom black holes in arbitrary dimensions. Finally we examine the role of conformal field theory in black hole entropy and its corrections.

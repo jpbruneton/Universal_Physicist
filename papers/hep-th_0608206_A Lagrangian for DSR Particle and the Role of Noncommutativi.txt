@@ -1,0 +1,7 @@
+Title: A Lagrangian for DSR Particle and the Role of Noncommutativity
+Authors: Subir Ghosh
+Published: 2006-08-29
+arXiv ID: http://arxiv.org/abs/hep-th/0608206v4
+Categories: hep-th, astro-ph, gr-qc
+Abstract:
+In this paper we have constructed a coordinate space (or geometric) Lagrangian for a point particle that satisfies the exact Doubly Special Relativity (DSR) dispersion relation in the Magueijo-Smolin framework. Next we demonstrate how a Non-Commutative phase space is needed to maintain Lorentz invariance for the DSR dispersion relation. Lastly we address the very important issue of velocity of this DSR particle. Exploiting the above Non-commutative phase space algebra in a Hamiltonian framework, we show that the speed of massless particles is $c$ and for massive particles the speed saturates at $c$ when the particle energy reaches the maximum value $κ$, the Planck mass.

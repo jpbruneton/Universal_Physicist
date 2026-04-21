@@ -1,0 +1,7 @@
+Title: Thermal Decay without Information Loss in Horizonless Microstate Geometries
+Authors: Iosif Bena, Pierre Heidmann, Ruben Monten, Nicholas P. Warner
+Published: 2019-05-13
+arXiv ID: http://arxiv.org/abs/1905.05194v2
+Categories: hep-th
+Abstract:
+We develop a new hybrid WKB technique to compute boundary-to-boundary scalar Green functions in asymptotically-AdS backgrounds in which the scalar wave equation is separable and is explicitly solvable in the asymptotic region. We apply this technique to a family of six-dimensional $\frac{1}{8}$-BPS asymptotically AdS$_3\,\times\,$S$^3$ horizonless geometries that have the same charges and angular momenta as a D1-D5-P black hole with a large horizon area. At large and intermediate distances, these geometries very closely approximate the extremal-BTZ$\,\times\,$S$^3$ geometry of the black hole, but instead of having an event horizon, these geometries have a smooth highly-redshifted global-AdS$_3\,\times\,$S$^3$ cap in the IR. We show that the response function of a scalar probe, in momentum space, is essentially given by the pole structure of the highly-redshifted global-AdS$_3$ modulated by the BTZ response function. In position space, this translates into a sharp exponential black-hole-like decay for times shorter than $N_1 N_5$, followed by the emergence of evenly spaced "echoes from the cap," with period $\sim N_1 N_5$. Our result shows that horizonless microstate geometries can have the same thermal decay as black holes without the associated information loss.

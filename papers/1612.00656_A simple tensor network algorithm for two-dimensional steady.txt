@@ -1,0 +1,7 @@
+Title: A simple tensor network algorithm for two-dimensional steady states
+Authors: Augustine Kshetrimayum, Hendrik Weimer, Roman Orus
+Published: 2016-12-02
+arXiv ID: http://arxiv.org/abs/1612.00656v4
+Categories: cond-mat.str-el, quant-ph
+Abstract:
+Understanding dissipation in 2D quantum many-body systems is a remarkably difficult open challenge. Here we show how numerical simulations for this problem are possible by means of a tensor network algorithm that approximates steady-states of 2D quantum lattice dissipative systems in the thermodynamic limit. Our method is based on the intuition that strong dissipation kills quantum entanglement before it gets too large to handle. We test its validity by simulating a dissipative quantum Ising model, relevant for dissipative systems of interacting Rydberg atoms, and benchmark our simulations with a variational algorithm based on product and correlated states. Our results support the existence of a first order transition in this model, with no bistable region. We also simulate a dissipative spin-1/2 XYZ model, showing that there is no re-entrance of the ferromagnetic phase. Our method enables the computation of steady states in 2D quantum lattice systems.

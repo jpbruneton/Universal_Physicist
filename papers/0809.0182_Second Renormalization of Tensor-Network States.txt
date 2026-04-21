@@ -1,0 +1,7 @@
+Title: Second Renormalization of Tensor-Network States
+Authors: Z. Y. Xie, H. C. Jiang, Q. N. Chen, Z. Y. Weng, T. Xiang
+Published: 2008-09-01
+arXiv ID: http://arxiv.org/abs/0809.0182v3
+Categories: cond-mat.str-el, cond-mat.stat-mech, physics.comp-ph, quant-ph
+Abstract:
+We propose a second renormalization group method to handle the tensor-network states or models. This method reduces dramatically the truncation error of the tensor renormalization group. It allows physical quantities of classical tensor-network models or tensor-network ground states of quantum systems to be accurately and efficiently determined.

@@ -1,0 +1,7 @@
+Title: A second-order phase transition in CDT
+Authors: J. Ambjorn, S. Jordan, J. Jurkiewicz, R. Loll
+Published: 2011-08-19
+arXiv ID: http://arxiv.org/abs/1108.3932v1
+Categories: hep-th, gr-qc, hep-lat
+Abstract:
+Causal Dynamical Triangulations (CDT) are a concrete attempt to define a nonperturbative path integral for quantum gravity. We present strong evidence that the lattice theory has a second-order phase transition line, which can potentially be used to define a continuum limit in the conventional sense of nongravitational lattice theories.

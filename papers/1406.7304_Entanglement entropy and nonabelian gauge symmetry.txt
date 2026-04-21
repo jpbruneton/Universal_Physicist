@@ -1,0 +1,7 @@
+Title: Entanglement entropy and nonabelian gauge symmetry
+Authors: William Donnelly
+Published: 2014-06-27
+arXiv ID: http://arxiv.org/abs/1406.7304v1
+Categories: hep-th, gr-qc
+Abstract:
+Entanglement entropy has proven to be an extremely useful concept in quantum field theory. Gauge theories are of particular interest, but for these systems the entanglement entropy is not clearly defined because the physical Hilbert space does not factor as a tensor product according to regions of space. Here we review a definition of entanglement entropy that applies to abelian and nonabelian lattice gauge theories. This entanglement entropy is obtained by embedding the physical Hilbert space into a product of Hilbert spaces associated to regions with boundary. The latter Hilbert spaces include degrees of freedom on the entangling surface that transform like surface charges under the gauge symmetry. These degrees of freedom are shown to contribute to the entanglement entropy, and the form of this contribution is determined by the gauge symmetry. We test our definition using the example of two-dimensional Yang-Mills theory, and find that it agrees with the thermal entropy in de Sitter space, and with the results of the Euclidean replica trick. We discuss the possible implications of this result for more complicated gauge theories, including quantum gravity.

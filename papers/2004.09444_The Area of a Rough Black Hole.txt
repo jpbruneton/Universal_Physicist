@@ -1,0 +1,7 @@
+Title: The Area of a Rough Black Hole
+Authors: John D. Barrow
+Published: 2020-04-20
+arXiv ID: http://arxiv.org/abs/2004.09444v4
+Categories: gr-qc, hep-th
+Abstract:
+We investigate the consequences for the black hole area of introducing fractal structure for the horizon geometry. We create a three-dimensional spherical analogue of a 'Koch Snowflake' using a infinite diminishing hierarchy of touching spheres around the Schwarzschild event horizon. We can create a fractal structure for the horizon with finite volume and infinite (or finite) area. This is a toy model for the possible effects of quantum gravitational spacetime foam, with significant implications for assessments of the entropy of black holes and the universe, which is generally larger than in standard picture of black hole structure and thermodynamics, potentially by very considerable factors. The entropy of the observable universe today becomes log(S) is approximately 120(1+D/2) with D = 0 for a smooth spacetime structure and D = 1 for the most intricate. The Hawking lifetime of black holes is also reduced.

@@ -1,0 +1,7 @@
+Title: Gravitational Lensing by Wormholes
+Authors: Kamal Kanti Nandi, Yuan-Zhong Zhang, Alexander V. Zakharov
+Published: 2006-02-16
+arXiv ID: http://arxiv.org/abs/gr-qc/0602062v4
+Categories: gr-qc
+Abstract:
+Gravitational lensing by traversable Lorentzian wormholes is a ew possibility which is analyzed here in the strong field limit. Wormhole solutions are considered in the Einstein minimally coupled theory and in the brane world model. The observables in both the theories show significant differences from those arising in the Schwarzschild black hole lensing. As a corollary, it follows that wormholes with zero Keplerian mass exhibit lensing properties which are qualitatively (though not quantitatively) the same as those of a Schwarzschild black hole. Some special features of the considered solutions are pointed out.

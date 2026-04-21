@@ -1,0 +1,7 @@
+Title: Identifying Topological Order by Entanglement Entropy
+Authors: Hong-Chen Jiang, Zhenghan Wang, Leon Balents
+Published: 2012-05-19
+arXiv ID: http://arxiv.org/abs/1205.4289v1
+Categories: cond-mat.str-el
+Abstract:
+Topological phases are unique states of matter incorporating long-range quantum entanglement, hosting exotic excitations with fractional quantum statistics. We report a practical method to identify topological phases in arbitrary realistic models by accurately calculating the Topological Entanglement Entropy (TEE) using the Density Matrix Renormalization Group (DMRG). We argue that the DMRG algorithm naturally produces a minimally entangled state, from amongst the quasi-degenerate ground states in a topological phase. This proposal both explains the success of this method, and the absence of ground state degeneracy found in prior DMRG sightings of topological phases. We demonstrate the effectiveness of the calculational procedure by obtaining the TEE for several microscopic models, with an accuracy of order $10^{-3}$ when the circumference of the cylinder is around ten times the correlation length. As an example, we definitively show the ground state of the quantum $S=1/2$ antiferromagnet on the kagomé lattice is a topological spin liquid, and strongly constrain the full identification of this phase of matter.

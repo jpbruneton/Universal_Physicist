@@ -1,0 +1,7 @@
+Title: Algebraic Classical and Quantum Field Theory on Causal Sets
+Authors: Edmund Dable-Heath, Christopher J. Fewster, Kasia Rejzner, Nick Woods
+Published: 2019-08-06
+arXiv ID: http://arxiv.org/abs/1908.01973v3
+Categories: math-ph, gr-qc, hep-th
+Abstract:
+The framework of perturbative algebraic quantum field theory (pAQFT) is used to construct QFT models on causal sets. We discuss various discretised wave operators, including a new proposal based on the idea of a `preferred past', which we also introduce, and show how they may be used to construct classical free and interacting field theory models on a fixed causal set; additionally, we describe how the sensitivity of observables to changes in the background causal set may be encapsulated in a relative Cauchy evolution. These structures are used as the basis of a deformation quantization, using the methods of pAQFT. The SJ state is defined and discussed as a particular quantum state on the free quantum theory. Finally, using the framework of pAQFT, we construct interacting models for arbitrary interactions that are smooth functions of the field configurations. This is the first construction of such a wide class of models achieved in QFT on causal sets.

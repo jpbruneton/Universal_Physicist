@@ -1,0 +1,7 @@
+Title: Probing Planck scale physics with IceCube
+Authors: Luis A. Anchordoqui, Haim Goldberg, M. C. Gonzalez-Garcia, Francis Halzen, Dan Hooper, Subir Sarkar, Thomas J. Weiler
+Published: 2005-06-17
+arXiv ID: http://arxiv.org/abs/hep-ph/0506168v1
+Categories: hep-ph, astro-ph, gr-qc, hep-th
+Abstract:
+Neutrino oscillations can be affected by decoherence induced e.g. by Planck scale suppressed interactions with the space-time foam predicted in some approaches to quantum gravity. We study the prospects for observing such effects at IceCube, using the likely flux of TeV antineutrinos from the Cygnus spiral arm. We formulate the statistical analysis for evaluating the sensitivity to quantum decoherence in the presence of the background from atmospheric neutrinos, as well as from plausible cosmic neutrino sources. We demonstrate that IceCube will improve the sensitivity to decoherence effects of ${\cal O}(E^2/M_{\rm Pl})$ by 17 orders of magnitude over present limits and, moreover, that it can probe decoherence effects of ${\cal O}(E^3/M_{\rm Pl}^2)$ which are well beyond the reach of other experiments.

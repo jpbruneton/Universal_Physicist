@@ -1,0 +1,7 @@
+Title: Review of AdS/CFT Integrability: An Overview
+Authors: Niklas Beisert, Changrim Ahn, Luis F. Alday, Zoltan Bajnok, James M. Drummond, Lisa Freyhult, Nikolay Gromov, Romuald A. Janik, Vladimir Kazakov, Thomas Klose, Gregory P. Korchemsky, Charlotte Kristjansen, Marc Magro, Tristan McLoughlin, Joseph A. Minahan, Rafael I. Nepomechie, Adam Rej, Radu Roiban, Sakura Schafer-Nameki, Christoph Sieg, Matthias Staudacher, Alessandro Torrielli, Arkady A. Tseytlin, Pedro Vieira, Dmytro Volin, Konstantinos Zoubos
+Published: 2010-12-17
+arXiv ID: http://arxiv.org/abs/1012.3982v5
+Categories: hep-th
+Abstract:
+This is the introductory chapter of a review collection on integrability in the context of the AdS/CFT correspondence. In the collection we present an overview of the achievements and the status of this subject as of the year 2010.

@@ -1,0 +1,7 @@
+Title: Heat capacity of Holographic screen inspires MOND theory
+Authors: M. Senay, M. Mohammadi Sabet, H. Moradpour
+Published: 2020-10-06
+arXiv ID: http://arxiv.org/abs/2010.03530v3
+Categories: hep-th, gr-qc
+Abstract:
+It is argued that Planck mass may be considered as a candidate for the mass content of degrees of freedom of holographic screen. In addition, employing the Verlinde hypothesis on emergent gravity and considering holographic screen degrees of freedom as a $q$-deformed fermionic system, it is obtained that the heat capacity per degree of freedom inspires the MOND interpolating function. Moreover, the MOND acceleration is achieved as a function of Planck acceleration. Both ultra-relativistic and non-relativistic statistics are studied.

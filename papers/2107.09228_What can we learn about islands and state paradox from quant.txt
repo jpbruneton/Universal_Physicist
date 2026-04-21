@@ -1,0 +1,7 @@
+Title: What can we learn about islands and state paradox from quantum information theory?
+Authors: Xuanhua Wang, Kun Zhang, Jin Wang
+Published: 2021-07-20
+arXiv ID: http://arxiv.org/abs/2107.09228v3
+Categories: hep-th, gr-qc, quant-ph
+Abstract:
+Recent discovery of the fine-grained entropy formula in gravity succeeded in reconstructing the Page curves that are compatible with unitary evolution. The formula of generalized entropy derived from the gravitational path integration, nevertheless, does not provide concrete insight on how the information comes out from the black hole given that the state of the radiation seems to follow what was given by Hawking. In this paper, we start from a qubit model and provide a quantum informational interpretation of entanglement islands and draw the parallel between the black hole information paradox and the problems of measurements in quantum mechanics. We show that the Page curve can still be realized even if information is lost and the information paradox can be attributed to the measurement problem. We argue that such interpretation is necessary for a quantum informational model if smooth horizons and bulk reconstruction are assumed, and show how it explains the Page curves of solvable models of 2D gravity. Though speculative, the similarities between the black hole information problem and the measurement problem may suggest some link in the origins of the two fundamental issues of distant fields.

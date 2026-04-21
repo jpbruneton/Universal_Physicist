@@ -1,0 +1,7 @@
+Title: From Twistor-Particle Models to Massive Amplitudes
+Authors: Giulia Albonico, Yvonne Geyer, Lionel Mason
+Published: 2022-03-15
+arXiv ID: http://arxiv.org/abs/2203.08087v2
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+In his twistor-particle programme of the 1970's, Roger Penrose introduced a representation of the massive particle phase space in terms of a pair of twistors subject to an internal symmetry group. Here we use this representation to introduce a chiral string whose target is a complexification of this space, extended so as to incorporate supersymmetry. We show that the gauge anomalies associated to the internal symmetry group vanish only for maximal supersymmetry, and that correlators in these string models describe amplitudes involving massive particles with manifest supersymmetry. The models and amplitude formulae exhibit a double copy structure from gauge theory on the Coulomb branch to gravity, although the graviton remains massless. The formulae are closely related to those obtained earlier by the authors expressed in terms of the polarised scattering equations.

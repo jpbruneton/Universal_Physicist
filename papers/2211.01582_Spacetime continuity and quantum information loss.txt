@@ -1,0 +1,7 @@
+Title: Spacetime continuity and quantum information loss
+Authors: Michael R. R. Good
+Published: 2022-11-03
+arXiv ID: http://arxiv.org/abs/2211.01582v1
+Categories: gr-qc
+Abstract:
+Continuity across the shock wave of two regions in the metric during the formation of a black hole can be relaxed in order to achieve information preservation. A Planck scale sized spacetime discontinuity leads to unitarity (a constant asymptotic entanglement entropy) by restricting the origin of coordinates (moving mirror) to be timelike. Moreover, thermal equilibration occurs and total evaporation energy emitted is finite.

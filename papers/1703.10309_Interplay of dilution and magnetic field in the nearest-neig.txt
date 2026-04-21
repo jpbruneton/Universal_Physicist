@@ -1,0 +1,7 @@
+Title: Interplay of dilution and magnetic field in the nearest-neighbor spin-ice model on the pyrochlore lattice
+Authors: Alexey Peretyatko, Konstantin Nefedev, Yutaka Okabe
+Published: 2017-03-30
+arXiv ID: http://arxiv.org/abs/1703.10309v1
+Categories: physics.comp-ph, cond-mat.str-el
+Abstract:
+We study the magnetic field effects on the diluted spin-ice materials using the replica-exchange Monte Carlo simulation. We observe five plateaus in the magnetization curve of the diluted nearest-neighbor spin-ice model on the pyrochlore lattice when a magnetic field is applied in the [111] direction. This is in contrast to the case of the pure model with two plateaus. The origin of five plateaus is investigated from the spin configuration of two corner-sharing tetrahedra in the case of the diluted model.

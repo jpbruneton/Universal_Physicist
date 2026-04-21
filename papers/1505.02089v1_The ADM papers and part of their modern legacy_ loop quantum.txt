@@ -1,0 +1,7 @@
+Title: The ADM papers and part of their modern legacy: loop quantum gravity
+Authors: Jorge Pullin
+Published: 2015-05-08
+arXiv ID: http://arxiv.org/abs/1505.02089v1
+Categories: gr-qc, hep-th, quant-ph
+Abstract:
+We present a summary for non-specialists of loop quantum gravity as part of the modern legacy of the series of papers by Arnowitt, Deser and Misner circa 1960.

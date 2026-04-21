@@ -1,0 +1,7 @@
+Title: Spinor Representation for Loop Quantum Gravity
+Authors: Etera R. Livine, Johannes Tambornino
+Published: 2011-05-17
+arXiv ID: http://arxiv.org/abs/1105.3385v2
+Categories: gr-qc, math-ph
+Abstract:
+We perform a quantization of the loop gravity phase space purely in terms of spinorial variables, which have recently been shown to provide a direct link between spin network states and simplicial geometries. The natural Hilbert space to represent these spinors is the Bargmann space of holomorphic square-integrable functions over complex numbers. We show the unitary equivalence between the resulting generalized Bargmann space and the standard loop quantum gravity Hilbert space by explicitly constructing the unitary map. The latter maps SU(2)-holonomies, when written as a function of spinors, to their holomorphic part. We analyze the properties of this map in detail. We show that the subspace of gauge invariant states can be characterized particularly easy in this representation of loop gravity. Furthermore, this map provides a tool to efficiently calculate physical quantities since integrals over the group are exchanged for straightforward integrals over the complex plane.

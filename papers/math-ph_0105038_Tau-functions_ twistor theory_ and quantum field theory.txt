@@ -1,0 +1,7 @@
+Title: Tau-functions, twistor theory, and quantum field theory
+Authors: L. J. Mason, M. A. Singer, N. M. J. Woodhouse
+Published: 2001-05-25
+arXiv ID: http://arxiv.org/abs/math-ph/0105038v1
+Categories: math-ph, gr-qc, nlin.SI
+Abstract:
+This article is concerned with obtaining the standard tau function descriptions of integrable equations (in particular, here the KdV and Ernst equations are considered) from the geometry of their twistor correspondences. In particular, we will see that the quantum field theoretic formulae for tau functions can be understood as arising from geometric quantization of the twistor data. En route we give a geometric quantization formulation of Chern-Simons and WZW quantum field theories using the Quillen determinant line bundle construction and ingredients from Segal's conformal field theory. The $τ$-functions are then seen to be amplitudes associated with gauge group actions on certain coherent states within these theories that can be obtained from the twistor description.

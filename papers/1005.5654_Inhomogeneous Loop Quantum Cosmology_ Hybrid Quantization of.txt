@@ -1,0 +1,7 @@
+Title: Inhomogeneous Loop Quantum Cosmology: Hybrid Quantization of the Gowdy Model
+Authors: L. J. Garay, M. Martín-Benito, G. A. Mena Marugán
+Published: 2010-05-31
+arXiv ID: http://arxiv.org/abs/1005.5654v2
+Categories: gr-qc
+Abstract:
+The Gowdy cosmologies provide a suitable arena to further develop Loop Quantum Cosmology, allowing the presence of inhomogeneities. For the particular case of Gowdy spacetimes with the spatial topology of a three-torus and a content of linearly polarized gravitational waves, we detail a hybrid quantum theory in which we combine a loop quantization of the degrees of freedom that parametrize the subfamily of homogeneous solutions, which represent Bianchi I spacetimes, and a Fock quantization of the inhomogeneities. Two different theories are constructed and compared, corresponding to two different schemes for the quantization of the Bianchi I model within the {\sl improved dynamics} formalism of Loop Quantum Cosmology. One of these schemes has been recently put forward by Ashtekar and Wilson-Ewing. We address several issues including the quantum resolution of the cosmological singularity, the structure of the superselection sectors in the quantum system, or the construction of the Hilbert space of physical states.

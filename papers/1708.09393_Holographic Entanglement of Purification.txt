@@ -1,0 +1,7 @@
+Title: Holographic Entanglement of Purification
+Authors: Tadashi Takayanagi, Koji Umemoto
+Published: 2017-08-30
+arXiv ID: http://arxiv.org/abs/1708.09393v2
+Categories: hep-th, cond-mat.str-el, quant-ph
+Abstract:
+We study properties of the minimal cross section of entanglement wedge which connects two disconnected subsystems in holography. In particular we focus on various inequalities which are satisfied by this quantity. They suggest that it is a holographic counterpart of the quantity called entanglement of purification, which measures a bipartite correlation in a given mixed state. We give a heuristic argument which supports this identification based on a tensor network interpretation of holography. This implies that the entanglement of purification satisfies the strong superadditivity for holographic conformal field theories.

@@ -1,0 +1,7 @@
+Title: Entanglement Entropy and the Fermi Surface
+Authors: Brian Swingle
+Published: 2009-08-12
+arXiv ID: http://arxiv.org/abs/0908.1724v3
+Categories: cond-mat.str-el, hep-th, quant-ph
+Abstract:
+Free fermions with a finite Fermi surface are known to exhibit an anomalously large entanglement entropy.  The leading contribution to the entanglement entropy of a region of linear size $L$ in $d$ spatial dimensions is $S\sim L^{d-1} \log{L}$, a result that should be contrasted with the usual boundary law $S \sim L^{d-1}$.  This term depends only on the geometry of the Fermi surface and on the boundary of the region in question.  I give an intuitive account of this anomalous scaling based on a low energy description of the Fermi surface as a collection of one dimensional gapless modes.  Using this picture, I predict a violation of the boundary law in a number of other strongly correlated systems.

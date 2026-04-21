@@ -1,0 +1,7 @@
+Title: The ITensor Software Library for Tensor Network Calculations
+Authors: Matthew Fishman, Steven R. White, E. Miles Stoudenmire
+Published: 2020-07-28
+arXiv ID: http://arxiv.org/abs/2007.14822v2
+Categories: cs.MS, cond-mat.str-el, physics.comp-ph
+Abstract:
+ITensor is a system for programming tensor network calculations with an interface modeled on tensor diagram notation, which allows users to focus on the connectivity of a tensor network without manually bookkeeping tensor indices. The ITensor interface rules out common programming errors and enables rapid prototyping of tensor network algorithms. After discussing the philosophy behind the ITensor approach, we show examples of each part of the interface including Index objects, the ITensor product operator, tensor factorizations, tensor storage types, algorithms for matrix product state (MPS) and matrix product operator (MPO) tensor networks, quantum number conserving block-sparse tensors, and the NDTensors library. We also review publications that have used ITensor for quantum many-body physics and for other areas where tensor networks are increasingly applied. To conclude we discuss promising features and optimizations to be added in the future.

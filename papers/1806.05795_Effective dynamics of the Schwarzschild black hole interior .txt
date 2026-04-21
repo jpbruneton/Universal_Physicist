@@ -1,0 +1,7 @@
+Title: Effective dynamics of the Schwarzschild black hole interior with inverse triad corrections
+Authors: Hugo A. Morales-Técotl, Saeed Rastgoo, Juan C. Ruelas
+Published: 2018-06-15
+arXiv ID: http://arxiv.org/abs/1806.05795v3
+Categories: gr-qc, hep-th, math-ph
+Abstract:
+We reconsider the study of the interior of the Schwarzschild black hole now including inverse triad quantum corrections within loop quantization. We derive these corrections and show that they are are related to two parameters $δ_b, δ_c$ associated to the minimum length in the radial and angular directions, that enter Thiemann's trick for quantum inverse triads. Introduction of such corrections may lead to non-invariance of physical results under rescaling of the fiducial volume needed to compute the dynamics, due to noncompact topology of the model. So, we put forward two prescriptions to resolve this issue. These prescriptions amount to interchange $δ_b, δ_c$ in classical computations in Thiemann's trick. By implementing the inverse triad corrections we found, previous results such as singularity resolution and black-to-white hole bounce hold with different values for the minimum radius-at-bounce, and the mass of the white hole.

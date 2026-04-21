@@ -1,0 +1,7 @@
+Title: Effective Field Theory, Past and Future
+Authors: Steven Weinberg
+Published: 2009-08-13
+arXiv ID: http://arxiv.org/abs/0908.1964v3
+Categories: hep-th, gr-qc, hep-ph, physics.hist-ph
+Abstract:
+This is a written version of the opening talk at the 6th International Workshop on Chiral Dynamics, at the University of Bern, Switzerland, July 6, 2009, to be published in the proceedings of the Workshop. In it, I reminisce about the early development of effective field theories of the strong interactions, comment briefly on some other applications of effective field theories, and then take up the idea that the Standard Model and General Relativity are the leading terms in an effective field theory. Finally, I cite recent calculations that suggest that the effective field theory of gravitation and matter is asymptotically safe.

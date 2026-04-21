@@ -1,0 +1,7 @@
+Title: Observation of thermal Hawking radiation at the Hawking temperature in an analogue black hole
+Authors: Juan Ramón Muñoz de Nova, Katrine Golubkov, Victor I. Kolobov, Jeff Steinhauer
+Published: 2018-09-04
+arXiv ID: http://arxiv.org/abs/1809.00913v2
+Categories: gr-qc, cond-mat.quant-gas
+Abstract:
+We measure the correlation spectrum of the Hawking radiation emitted by an analogue black hole and find it to be thermal at the Hawking temperature implied by the analogue surface gravity. The Hawking radiation is in the regime of linear dispersion, in analogy with a real black hole. Furthermore, the radiation inside of the black hole is seen to be composed of negative-energy partners only. This work confirms the prediction of Hawking's theory regarding the value of the Hawking temperature, as well as the thermality of the spectrum. The thermality of Hawking radiation is the root of the information paradox. The correlations between the Hawking and partner particles imply that the analogue black hole has no analogue firewall.

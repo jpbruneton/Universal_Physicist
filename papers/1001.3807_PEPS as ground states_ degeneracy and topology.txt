@@ -1,0 +1,7 @@
+Title: PEPS as ground states: degeneracy and topology
+Authors: Norbert Schuch, Ignacio Cirac, David Perez-Garcia
+Published: 2010-01-21
+arXiv ID: http://arxiv.org/abs/1001.3807v3
+Categories: quant-ph, cond-mat.str-el
+Abstract:
+We introduce a framework for characterizing Matrix Product States (MPS) and Projected Entangled Pair States (PEPS) in terms of symmetries. This allows us to understand how PEPS appear as ground states of local Hamiltonians with finitely degenerate ground states and to characterize the ground state subspace. Subsequently, we apply our framework to show how the topological properties of these ground states can be explained solely from the symmetry: We prove that ground states are locally indistinguishable and can be transformed into each other by acting on a restricted region, we explain the origin of the topological entropy, and we discuss how to renormalize these states based on their symmetries. Finally, we show how the anyonic character of excitations can be understood as a consequence of the underlying symmetries.

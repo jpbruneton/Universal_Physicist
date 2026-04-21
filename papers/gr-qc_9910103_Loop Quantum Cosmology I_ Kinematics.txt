@@ -1,0 +1,7 @@
+Title: Loop Quantum Cosmology I: Kinematics
+Authors: Martin Bojowald
+Published: 1999-10-28
+arXiv ID: http://arxiv.org/abs/gr-qc/9910103v1
+Categories: gr-qc, hep-th
+Abstract:
+The framework of quantum symmetry reduction is applied to loop quantum gravity with respect to transitively acting symmetry groups. This allows to test loop quantum gravity in a large class of minisuperspaces and to investigate its features - e.g. the discrete volume spectrum - in certain cosmological regimes. Contrary to previous studies of quantum cosmology (minisuperspace quantizations) the symmetry reduction is carried out not at the classical level but on an auxiliary Hilbert space of the quantum theory before solving the constraints. Therefore, kinematical properties like volume quantization survive the symmetry reduction. In this first part the kinematical framework, i.e. implementation of the quantum symmetry reduction and quantization of Gauss and diffeomorphism constraints, is presented for Bianchi class A models as well as locally rotationally symmetric and spatially isotropic closed and flat models.

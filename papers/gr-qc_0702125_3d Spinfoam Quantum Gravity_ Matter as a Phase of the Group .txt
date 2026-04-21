@@ -1,0 +1,7 @@
+Title: 3d Spinfoam Quantum Gravity: Matter as a Phase of the Group Field Theory
+Authors: Winston Fairbairn, Etera R. Livine
+Published: 2007-02-23
+arXiv ID: http://arxiv.org/abs/gr-qc/0702125v1
+Categories: gr-qc
+Abstract:
+An effective field theory for matter coupled to three-dimensional quantum gravity was recently derived in the context of spinfoam models in hep-th/0512113. In this paper, we show how this relates to group field theories and generalized matrix models. In the first part, we realize that the effective field theory can be recasted as a matrix model where couplings between matrices of different sizes can occur. In a second part, we provide a family of classical solutions to the three-dimensional group field theory. By studying perturbations around these solutions, we generate the dynamics of the effective field theory. We identify a particular case which leads to the action of hep-th/0512113 for a massive field living in a flat non-commutative space-time. The most general solutions lead to field theories with non-linear redefinitions of the momentum which we propose to interpret as living on curved space-times. We conclude by discussing the possible extension to four-dimensional spinfoam models.

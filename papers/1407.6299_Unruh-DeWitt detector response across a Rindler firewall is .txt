@@ -1,0 +1,7 @@
+Title: Unruh-DeWitt detector response across a Rindler firewall is finite
+Authors: Jorma Louko
+Published: 2014-07-23
+arXiv ID: http://arxiv.org/abs/1407.6299v4
+Categories: hep-th, gr-qc, quant-ph
+Abstract:
+We investigate a two-level Unruh-DeWitt detector coupled to a massless scalar field or its proper time derivative in $(1+1)$-dimensional Minkowski spacetime, in a quantum state whose correlation structure across the Rindler horizon mimics the stationary aspects of a firewall that Almheiri et al have argued to ensue in an evaporating black hole spacetime. Within first-order perturbation theory, we show that the detector's response on falling through the horizon is sudden but finite. The difference from the Minkowski vacuum response is proportional to $ω^{-2}\ln(|ω|)$ for the non-derivative detector and to $\ln(|ω|)$ for the derivative-coupling detector, both in the limit of a large energy gap $ω$ and in the limit of adiabatic switching. Adding to the quantum state high Rindler temperature excitations behind the horizon increases the detector's response proportionally to the temperature; this situation has been suggested to model the energetic curtain proposal of Braunstein et al. We speculate that the $(1+1)$-dimensional derivative-coupling detector may be a good model for a non-derivative detector that crosses a firewall in $3+1$ dimensions.

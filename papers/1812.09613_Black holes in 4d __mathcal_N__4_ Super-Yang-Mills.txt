@@ -1,0 +1,7 @@
+Title: Black holes in 4d $\mathcal{N}=4$ Super-Yang-Mills
+Authors: Francesco Benini, Elisa Milan
+Published: 2018-12-22
+arXiv ID: http://arxiv.org/abs/1812.09613v3
+Categories: hep-th, gr-qc
+Abstract:
+We resolve a long-standing question: does the four-dimensional $\mathcal{N}=4$ SU(N) Super-Yang-Mills theory on $S^3$ at large N contain enough states to account for the entropy of rotating electrically-charged BPS black holes in AdS$_5$? Our answer is positive. We reconsider the large N limit of the superconformal index, using the Bethe Ansatz formulation, and find an exponentially large contribution which exactly reproduces the Bekenstein-Hawking entropy of the black holes of Gutowski-Reall. Besides, the large N limit exhibits a complicated structure, with many competing exponential contributions and Stokes lines, hinting at new physics.

@@ -1,0 +1,7 @@
+Title: Holographic Entanglement of Purification from Conformal Field Theories
+Authors: Pawel Caputa, Masamichi Miyaji, Tadashi Takayanagi, Koji Umemoto
+Published: 2018-12-13
+arXiv ID: http://arxiv.org/abs/1812.05268v1
+Categories: hep-th, cond-mat.stat-mech, quant-ph
+Abstract:
+We explore a conformal field theoretic interpretation of the holographic entanglement of purification, which is defined as the minimal area of entanglement wedge cross section. We argue that in AdS3/CFT2, the holographic entanglement of purification agrees with the entanglement entropy for a purified state, obtained from a special Weyl transformation, called path-integral optimizations. By definition, this special purified state has the minimal path-integral complexity. We confirm this claim in several examples.

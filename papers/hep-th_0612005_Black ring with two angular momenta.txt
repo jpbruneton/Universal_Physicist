@@ -1,0 +1,7 @@
+Title: Black ring with two angular momenta
+Authors: A. A. Pomeransky, R. A. Sen'kov
+Published: 2006-12-01
+arXiv ID: http://arxiv.org/abs/hep-th/0612005v1
+Categories: hep-th
+Abstract:
+General regular black ring solution with two angular momenta is presented, found by the inverse scattering problem method. The mass, angular momenta and the event horizon volume are given explicitly as functions of the metric parameters.

@@ -1,0 +1,7 @@
+Title: Quantum mechanics and the covariance of physical laws in quantum reference frames
+Authors: Flaminia Giacomini, Esteban Castro-Ruiz, Časlav Brukner
+Published: 2017-12-19
+arXiv ID: http://arxiv.org/abs/1712.07207v2
+Categories: quant-ph, gr-qc
+Abstract:
+In physics, every observation is made with respect to a frame of reference. Although reference frames are usually not considered as degrees of freedom, in all practical situations it is a physical system which constitutes a reference frame. Can a quantum system be considered as a reference frame and, if so, which description would it give of the world? Here, we introduce a general method to quantise reference frame transformations, which generalises the usual reference frame transformation to a "superposition of coordinate transformations". We describe states, measurement, and dynamical evolution in different quantum reference frames, without appealing to an external, absolute reference frame, and find that entanglement and superposition are frame-dependent features. The transformation also leads to a generalisation of the notion of covariance of dynamical physical laws, to an extension of the weak equivalence principle, and to the possibility of defining the rest frame of a quantum system.

@@ -1,0 +1,7 @@
+Title: Path integral suppression of badly behaved causal sets
+Authors: P. Carlip, S. Carlip, S. Surya
+Published: 2022-09-01
+arXiv ID: http://arxiv.org/abs/2209.00327v1
+Categories: gr-qc, hep-th
+Abstract:
+Causal set theory is a discrete model of spacetime that retains a notion of causal structure. We understand how to construct causal sets that approximate a given spacetime, but most causal sets are not at all manifold-like, and must be dynamically excluded if something like our universe is to emerge from the theory. Here we show that the most common of these "bad" causal sets, the Kleitman-Rothschild orders, are strongly suppressed in the gravitational path integral, and we provide evidence that a large class of other "bad" causal sets are similarly suppressed. It thus becomes plausible that continuum behavior could emerge naturally from causal set quantum theory.

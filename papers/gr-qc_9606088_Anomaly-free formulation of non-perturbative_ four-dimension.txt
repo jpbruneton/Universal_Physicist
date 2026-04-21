@@ -1,0 +1,7 @@
+Title: Anomaly-free formulation of non-perturbative, four-dimensional Lorentzian quantum gravity
+Authors: T. Thiemann
+Published: 1996-06-29
+arXiv ID: http://arxiv.org/abs/gr-qc/9606088v1
+Categories: gr-qc, hep-th
+Abstract:
+A Wheeler-Dewitt quantum constraint operator for four-dimensional, non-perturbative Lorentzian vacuum quantum gravity is defined in the continuum. The regulated Wheeler-DeWitt constraint operator is densely defined, does not require any renormalization and the final operator is anomaly-free and at least symmmetric. The technique introduced here can also be used to produce a couple of other completely well-defined regulated operators including but not exhausting a) the Euclidean Wheeler-DeWitt operator, b)the generator of the Wick rotation transform that maps solutions to the Euclidean Hamiltonian constraint to solutions to the Lorentzian Hamiltonian constraint, c) length operators, d) Hamiltonian operators of the matter sector and e) the generators of the asymptotic Poincaré group including the quantum ADM energy.

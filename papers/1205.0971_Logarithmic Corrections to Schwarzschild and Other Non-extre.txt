@@ -1,0 +1,7 @@
+Title: Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions
+Authors: Ashoke Sen
+Published: 2012-05-04
+arXiv ID: http://arxiv.org/abs/1205.0971v2
+Categories: hep-th, gr-qc
+Abstract:
+Euclidean gravity method has been successful in computing logarithmic corrections to extremal black hole entropy in terms of low energy data, and gives results in perfect agreement with the microscopic results in string theory. Motivated by this success we apply Euclidean gravity to compute logarithmic corrections to the entropy of various non-extremal black holes in different dimensions, taking special care of integration over the zero modes and keeping track of the ensemble in which the computation is done. These results provide strong constraint on any ultraviolet completion of the theory if the latter is able to give an independent computation of the entropy of non-extremal black holes from microscopic description. For Schwarzschild black holes in four space-time dimensions the macroscopic result seems to disagree with the existing result in loop quantum gravity.

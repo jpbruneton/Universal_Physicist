@@ -1,0 +1,7 @@
+Title: Entropy and Area
+Authors: Mark Srednicki
+Published: 1993-03-09
+arXiv ID: http://arxiv.org/abs/hep-th/9303048v2
+Categories: hep-th, gr-qc, hep-lat
+Abstract:
+The ground state density matrix for a massless free field is traced over the degrees of freedom residing inside an imaginary sphere; the resulting entropy is shown to be proportional to the area (and not the volume) of the sphere. Possible connections with the physics of black holes are discussed.

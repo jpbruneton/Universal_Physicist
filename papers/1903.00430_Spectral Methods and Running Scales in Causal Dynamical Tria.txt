@@ -1,0 +1,7 @@
+Title: Spectral Methods and Running Scales in Causal Dynamical Triangulations
+Authors: Giuseppe Clemente, Massimo D'Elia, Alessandro Ferraro
+Published: 2019-03-01
+arXiv ID: http://arxiv.org/abs/1903.00430v1
+Categories: hep-th, hep-lat
+Abstract:
+The spectrum of the Laplace-Beltrami operator, computed on the spatial slices of Causal Dynamical Triangulations, is a powerful probe of the geometrical properties of the configurations sampled in the various phases of the lattice theory. We study the behavior of the lowest eigenvalues of the spectrum and show that this can provide information about the running of length scales as a function of the bare parameters of the theory, hence about the critical behavior around possible second order transition points in the CDT phase diagram, where a continuum limit could be defined.

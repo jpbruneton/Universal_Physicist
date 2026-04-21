@@ -1,0 +1,7 @@
+Title: Observation of self-amplifying Hawking radiation in an analog black hole laser
+Authors: Jeff Steinhauer
+Published: 2014-09-23
+arXiv ID: http://arxiv.org/abs/1409.6550v2
+Categories: cond-mat.quant-gas, gr-qc
+Abstract:
+It has been proposed that a black hole horizon should generate Hawking radiation. In order to test this theory, we have created a narrow, low density, very low temperature atomic Bose-Einstein condensate, containing an analog black hole horizon and an inner horizon, as in a charged black hole. We observe Hawking radiation emitted by the black hole. This is the output of the black hole laser. We also observe the exponential growth of a standing wave between the horizons. The latter results from interference between the negative energy partners of the Hawking radiation and the negative energy particles reflected from the inner horizon. We thus observe self-amplifying Hawking radiation.

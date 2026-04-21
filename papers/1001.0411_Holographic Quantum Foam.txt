@@ -1,0 +1,7 @@
+Title: Holographic Quantum Foam
+Authors: Y. Jack Ng
+Published: 2010-01-03
+arXiv ID: http://arxiv.org/abs/1001.0411v1
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+Due to quantum fluctuations, probed at small scales, spacetime is very complicated -- something akin in complexity to a turbulent froth which the late John Wheeler dubbed quantum foam, aka spacetime foam. Our recent work suggests that (1) we may be close to being able to detect quantum foam with extragalactic sources once the Very Large Telescope Interferometers (VLTI) are fully operational; (2) dark energy is arguably a cosmological manifestation of quantum foam, the constituents of which obey infinite statistics; (3) in the gravitational context, turbulence is closely related to holographic quantum foam, partly validating Wheeler's picture of a turbulent spacetime.

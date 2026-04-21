@@ -1,0 +1,7 @@
+Title: The gravitational baryogenesis and a new higher-order extended uncertainty principle with parameter adaptability for the minimum length
+Authors: Song-Shan Luo, Zhong-Wen Feng
+Published: 2023-06-16
+arXiv ID: http://arxiv.org/abs/2306.10078v2
+Categories: gr-qc
+Abstract:
+In this manuscript, we explore the baryon asymmetry of the universe by employing a novel higher-order extended uncertainty principle (EUP) that maintains a minimum length ${\rm{Δ}}{x_{\rm min}} =4\sqrt {\left| {\rm{β_0 }} \right|}\ell _p $ for both positive and negative deformation parameters. Our results demonstrate that the influence of the EUP noticeably modifies the Friedmann equations, leading to a transformation in the characteristics of the pressure and density of the Universe, and subsequently disrupting its thermal equilibrium. Additionally, by amalgamating the adapted Friedmann equations with the conventional theory of gravitational baryogenesis, one can derive a non-zero factor of baryon asymmetry $η$, indicating that the quantity of matter in the universe surpasses that of antimatter. Finally, we also utilized astronomical observations to constrain the bounds for both the positive and negative deformation parameters.

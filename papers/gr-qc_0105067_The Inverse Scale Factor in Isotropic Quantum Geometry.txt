@@ -1,0 +1,7 @@
+Title: The Inverse Scale Factor in Isotropic Quantum Geometry
+Authors: Martin Bojowald
+Published: 2001-05-18
+arXiv ID: http://arxiv.org/abs/gr-qc/0105067v1
+Categories: gr-qc, hep-th
+Abstract:
+The inverse scale factor, which in classical cosmological models diverges at the singularity, is quantized in isotropic models of loop quantum cosmology by using techniques which have been developed in quantum geometry for a quantization of general relativity. This procedure results in a bounded operator which is diagonalizable simultaneously with the volume operator and whose eigenvalues are determined explicitly. For large scale factors (in fact, up to a scale factor slightly above the Planck length) the eigenvalues are close to the classical expectation, whereas below the Planck length there are large deviations leading to a non-diverging behavior of the inverse scale factor even though the scale factor has vanishing eigenvalues. This is a first indication that the classical singularity is better behaved in loop quantum cosmology.

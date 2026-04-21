@@ -1,0 +1,7 @@
+Title: Hawking Radiation from Charged Black Holes via Gauge and Gravitational Anomalies
+Authors: Satoshi Iso, Hiroshi Umetsu, Frank Wilczek
+Published: 2006-02-15
+arXiv ID: http://arxiv.org/abs/hep-th/0602146v3
+Categories: hep-th, gr-qc
+Abstract:
+Extending gr-qc/0502074, we show that in order to avoid a breakdown of general covariance and gauge invariance at the quantum level the total flux of charge and energy in each outgoing partial wave of a charged quantum field in a Reissner-Nordstrom black hole background must be equal to that of a (1+1) dimensional blackbody at the Hawking temperature with the appropriate chemical potential.

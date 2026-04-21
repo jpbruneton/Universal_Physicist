@@ -1,0 +1,7 @@
+Title: Energy conditions and their cosmological implications
+Authors: Matt Visser, Carlos Barcelo
+Published: 2000-01-28
+arXiv ID: http://arxiv.org/abs/gr-qc/0001099v1
+Categories: gr-qc
+Abstract:
+The energy conditions of general relativity permit one to deduce very powerful and general theorems about the behaviour of strong gravitational fields and cosmological geometries. However, the energy conditions these theorems are based on are beginning to look a lot less secure than they once seemed: (1) there are subtle quantum effects that violate all of the energy conditions, and more tellingly (2), there are also relatively benign looking classical systems that violate all the energy conditions. This opens up a Pandora's box of rather disquieting possibilities --- everything from negative asymptotic mass, to traversable wormholes, to warp drives, up to and including time machines.

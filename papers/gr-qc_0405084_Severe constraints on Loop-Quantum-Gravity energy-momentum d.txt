@@ -1,0 +1,7 @@
+Title: Severe constraints on Loop-Quantum-Gravity energy-momentum dispersion relation from black-hole area-entropy law
+Authors: Giovanni Amelino-Camelia, Michele Arzano, Andrea Procaccini
+Published: 2004-05-16
+arXiv ID: http://arxiv.org/abs/gr-qc/0405084v1
+Categories: gr-qc
+Abstract:
+We explore a possible connection between two aspects of Loop Quantum Gravity which have been extensively studied in the recent literature: the black-hole area-entropy law and the energy-momentum dispersion relation. We observe that the original Bekenstein argument for the area-entropy law implicitly requires information on the energy-momentum dispersion relation. Recent results show that in first approximation black-hole entropy in Loop Quantum Gravity depends linearly on the area, with small correction terms which have logarithmic or inverse-power dependence on the area. Preliminary studies of the Loop-Quantum-Gravity dispersion relation reported some evidence of the presence of terms that depend linearly on the Planck length, but we observe that this possibility is excluded since it would require, for consistency, a contribution to black-hole entropy going like the square root of the area.

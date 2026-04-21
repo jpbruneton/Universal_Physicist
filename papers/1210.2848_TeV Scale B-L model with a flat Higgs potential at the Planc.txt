@@ -1,0 +1,7 @@
+Title: TeV Scale B-L model with a flat Higgs potential at the Planck scale -- in view of the hierarchy problem
+Authors: Satoshi Iso, Yuta Orikasa
+Published: 2012-10-10
+arXiv ID: http://arxiv.org/abs/1210.2848v3
+Categories: hep-ph
+Abstract:
+The recent discovery of the Higgs-like particle at around 126 GeV has given us a big hint towards the origin of the Higgs potential. Especially the running quartic coupling vanishes near the Planck scale, which indicates a possible link between the physics in the electroweak and the Planck scales. Motivated by this and the hierarchy problem, we investigate a possibility that the Higgs has a flat potential at the Planck scale. In particular, we study the RG analysis of the B-L extension of the standard model with a classical conformality. The B-L symmetry is radiatively broken at the TeV scale via the Coleman-Weinberg mechanism. The electroweak symmetry breaking is triggered by a radiatively generated scalar mixing so that its scale 246 GeV is dynamically related with the B-L breaking scale at TeV. The Higgs boson mass is given at the border of the stability bound,which is lowered by a few GeV from the SM by the effect of the B-L gauge interaction.

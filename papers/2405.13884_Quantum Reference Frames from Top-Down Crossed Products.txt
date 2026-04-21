@@ -1,0 +1,7 @@
+Title: Quantum Reference Frames from Top-Down Crossed Products
+Authors: Shadi Ali Ahmad, Wissam Chemissany, Marc S. Klinger, Robert G. Leigh
+Published: 2024-05-22
+arXiv ID: http://arxiv.org/abs/2405.13884v2
+Categories: hep-th, gr-qc, quant-ph
+Abstract:
+All physical observations are made relative to a reference frame, which is a system in its own right. If the system of interest admits a group symmetry, the reference frame observing it must transform commensurately under the group to ensure the covariance of the combined system. We point out that the crossed product is a way to realize quantum reference frames from the bottom-up; adjoining a quantum reference frame and imposing constraints generates a crossed product algebra. We provide a top-down specification of crossed product algebras and show that one cannot obtain inequivalent quantum reference frames using this approach. As a remedy, we define an abstract algebra associated to the system and symmetry group built out of relational crossed product algebras associated with different choices of quantum reference frames. We term this object the G-framed algebra, and show how potentially inequivalent frames are realized within this object. We comment on this algebra's analog of the classical Gribov problem in gauge theory, its importance in gravity where we show that it is relevant for semiclassical de Sitter and potentially beyond the semiclassical limit, and its utility for understanding the frame-dependence of physical notions like observables, density states, and entropies.

@@ -1,0 +1,7 @@
+Title: Problems with Tunneling of Thin Shells from Black Holes
+Authors: Borun D. Chowdhury
+Published: 2006-05-19
+arXiv ID: http://arxiv.org/abs/hep-th/0605197v4
+Categories: hep-th, gr-qc
+Abstract:
+It is shown that $exp(-2 Im(\int p dr))$ is not invariant under canonical transformations in general. Specifically for shells tunneling out of black holes, this quantity is not invariant under canonical transformations. It can be interpreted as the transmission coefficient only in the cases in which it is invariant under canonical transformations. Although such cases include alpha decay, they do not include the tunneling of shells from black holes. The simplest extension to this formula which is invariant under canonical transformations is proposed. However it is shown that this gives half the correct temperature for black holes.

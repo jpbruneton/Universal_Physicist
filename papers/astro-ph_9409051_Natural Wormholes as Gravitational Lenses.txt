@@ -1,0 +1,7 @@
+Title: Natural Wormholes as Gravitational Lenses
+Authors: John G. Cramer, Robert L. Forward, Michael S. Morris, Matt Visser, Gregory Benford, Geoffrey A. Landis
+Published: 1994-09-20
+arXiv ID: http://arxiv.org/abs/astro-ph/9409051v1
+Categories: astro-ph, gr-qc
+Abstract:
+Visser has suggested traversable 3-dimensional wormholes that could plausibly form naturally during Big Bang inflation. A wormhole mouth embedded in high mass density might accrete mass, giving the other mouth a net *negative* mass of unusual gravitational properties. The lensing of such a gravitationally negative anomalous compact halo object (GNACHO) will enhance background stars with a time profile that is observable and qualitatively different from that recently observed for massive compact halo objects (MACHOs) of positive mass. We recommend that MACHO search data be analyzed for GNACHOs.

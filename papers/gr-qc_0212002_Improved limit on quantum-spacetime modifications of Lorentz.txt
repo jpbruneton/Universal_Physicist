@@ -1,0 +1,7 @@
+Title: Improved limit on quantum-spacetime modifications of Lorentz symmetry from observations of gamma-ray blazars
+Authors: Giovanni Amelino-Camelia
+Published: 2002-11-30
+arXiv ID: http://arxiv.org/abs/gr-qc/0212002v3
+Categories: gr-qc
+Abstract:
+In the quantum-gravity literature there has been interest in the possibility that quantum properties of spacetime might affect the energy/momentum dispersion relation. The most used test theory for data analysis is based on a modification of the laws of propagation proposed in astro-ph/9712103 [Nature 393,763], and the present best limit on the quantum-gravity scale was obtained in gr-qc/9810044 [Phys.Rev.Lett.83,2108]. I derive an improved limit using recent experimental information on absorption by the infrared diffuse extragalactic background of $γ$-rays emitted by blazars. Foreseeable more accurate determinations of the absorption levels could achieve Planck-scale sensitivity. As a corollary I also show that, contrary to the recent claim of astro-ph/0208507v3, the test theory here considered does not allow decays of photons into electron-positron pairs, and I expose the limitations of phenomenological proposals, such as the one reported in astro-ph/0212190, in which one attempts to infer limits on the kinematic theory here considered through the ad hoc introduction of a dynamical framework.

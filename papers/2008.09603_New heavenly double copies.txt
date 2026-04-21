@@ -1,0 +1,7 @@
+Title: New heavenly double copies
+Authors: Erick Chacón, Hugo García-Compeán, Andres Luna, Ricardo Monteiro, Chris D. White
+Published: 2020-08-21
+arXiv ID: http://arxiv.org/abs/2008.09603v1
+Categories: hep-th, gr-qc, math-ph
+Abstract:
+The double copy relates scattering amplitudes and classical solutions in Yang-Mills theory, gravity, and related field theories. Previous work has shown that this has an explicit realisation in self-dual YM theory, where the equation of motion can be written in a form that maps directly to Plebański's heavenly equation for self-dual gravity. The self-dual YM equation involves an area-preserving diffeomorphism algebra, two copies of which appear in the heavenly equation. In this paper, we show that this construction is a special case of a wider family of heavenly-type examples, by (i) performing Moyal deformations, and (ii) replacing the area-preserving diffeomorphisms with a less restricted algebra. As a result, we obtain a double-copy interpretation for hyper-Hermitian manifolds, extending the previously known hyper-Kähler case. We also introduce a double-Moyal deformation of the heavenly equation. The examples where the construction of Lax pairs is possible are manifestly consistent with Ward's conjecture, and suggest that the classical integrability of the gravity-type theory may be guaranteed in general by the integrability of at least one of two gauge-theory-type single copies.

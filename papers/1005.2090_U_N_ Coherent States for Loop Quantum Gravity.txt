@@ -1,0 +1,7 @@
+Title: U(N) Coherent States for Loop Quantum Gravity
+Authors: Laurent Freidel, Etera R. Livine
+Published: 2010-05-12
+arXiv ID: http://arxiv.org/abs/1005.2090v1
+Categories: gr-qc, math-ph
+Abstract:
+We investigate the geometry of the space of N-valent SU(2)-intertwiners. We propose a new set of holomorphic operators acting on this space and a new set of coherent states which are covariant under U(N) transformations. These states are labeled by elements of the Grassmannian Gr(N,2), they possess a direct geometrical interpretation in terms of framed polyhedra  and are shown to be related to the well-known coherent intertwiners.

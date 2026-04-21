@@ -1,0 +1,7 @@
+Title: Fractal Structure of Loop Quantum Gravity
+Authors: Leonardo Modesto
+Published: 2008-12-11
+arXiv ID: http://arxiv.org/abs/0812.2214v1
+Categories: gr-qc
+Abstract:
+In this paper we have calculated the spectral dimension of loop quantum gravity (LQG) using simple arguments coming from the area spectrum at different length scales. We have obtained that the spectral dimension of the spatial section runs from 2 to 3, across a 1.5 phase, when the energy of a probe scalar field decrees from high to low energy. We have calculated the spectral dimension of the space-time also using results from spin-foam models, obtaining a 2-dimensional effective manifold at hight energy. Our result is consistent with other two approach to non perturbative quantum gravity: causal dynamical triangulation and asymptotic safety quantum gravity.

@@ -1,0 +1,7 @@
+Title: Renormalization group fixed points of foliated gravity-matter systems
+Authors: Jorn Biemans, Alessia Platania, Frank Saueressig
+Published: 2017-02-21
+arXiv ID: http://arxiv.org/abs/1702.06539v1
+Categories: hep-th, gr-qc
+Abstract:
+We employ the Arnowitt-Deser-Misner formalism to study the renormalization group flow of gravity minimally coupled to an arbitrary number of scalar, vector, and Dirac fields. The decomposition of the gravitational degrees of freedom into a lapse function, shift vector, and spatial metric equips spacetime with a preferred (Euclidean) "time"-direction. In this work, we provide a detailed derivation of the renormalization group flow of Newton's constant and the cosmological constant on a flat Friedmann-Robertson-Walker background. Adding matter fields, it is shown that their contribution to the flow is the same as in the covariant formulation and can be captured by two parameters $d_g$, $d_λ$. We classify the resulting fixed point structure as a function of these parameters finding that the existence of non-Gaussian renormalization group fixed points is rather generic. In particular the matter content of the standard model and its most common extensions gives rise to one non-Gaussian fixed point with real critical exponents suitable for Asymptotic Safety. Moreover, we find non-Gaussian fixed points for any number of scalar matter fields, making the scenario attractive for cosmological model building.

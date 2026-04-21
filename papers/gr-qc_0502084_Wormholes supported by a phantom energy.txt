@@ -1,0 +1,7 @@
+Title: Wormholes supported by a phantom energy
+Authors: S. V. Sushkov
+Published: 2005-02-21
+arXiv ID: http://arxiv.org/abs/gr-qc/0502084v1
+Categories: gr-qc
+Abstract:
+We extend the notion of phantom energy--which is generally accepted for homogeneously distributed matter with $w<-1$ in the universe--on inhomogeneous spherically symmetric spacetime configurations. A spherically symmetric distribution of phantom energy is shown to be able to support the existence of static wormholes. We find an exact solution describing a static spherically symmetric wormhole with phantom energy and show that a spatial distribution of the phantom energy is mainly restricted by the vicinity of the wormhole's throat. The maximal size of the spherical region, surrounding the throat and containing the most part of the phantom energy, depends on the equation-of-state parameter $w$ and cannot exceed some upper limit.

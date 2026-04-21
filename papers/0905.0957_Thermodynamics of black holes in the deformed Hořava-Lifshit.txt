@@ -1,0 +1,9 @@
+Title: Thermodynamics of black holes in the deformed Hořava-Lifshitz gravity
+Authors: Yun Soo Myung
+Published: 2009-05-07
+arXiv ID: http://arxiv.org/abs/0905.0957v2
+Categories: hep-th
+Abstract:
+We study thermodynamics of black holes in the deformed Hořava-Lifshitz gravity with coupling constant $λ$.
+  For $λ=1$, the black hole behaves the
+  Reissner-Norström black hole. Hence, this is different from the Schwarzschild black hole of Einstein gravity. A connection to the generalized uncertainty principle is explored to understand the Hořava-Lifshitz black holes.

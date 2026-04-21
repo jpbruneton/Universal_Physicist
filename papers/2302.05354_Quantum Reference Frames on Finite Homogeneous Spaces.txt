@@ -1,0 +1,7 @@
+Title: Quantum Reference Frames on Finite Homogeneous Spaces
+Authors: Jan Głowacki, Leon Loveridge, James Waldron
+Published: 2023-02-10
+arXiv ID: http://arxiv.org/abs/2302.05354v1
+Categories: quant-ph, math-ph
+Abstract:
+We present an operationally motivated treatment of quantum reference frames in the setting that the frame is a covariant positive operator valued measure (POVM) on a finite homogeneous space, generalising the principal homogeneous spaces studied in previous work. We focus on the case that the reference observable is the canonical covariant projection valued measure on the given space, and show that this gives rise to a rank-one covariant POVM on the group, which can be seen as a system of coherent states, thereby making contact with recent work in the perspective-neutral approach to quantum reference frames.

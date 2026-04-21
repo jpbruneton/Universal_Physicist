@@ -1,0 +1,7 @@
+Title: Modified dispersion relations and black hole physics
+Authors: Yi Ling, Bo Hu, Xiang Li
+Published: 2005-12-14
+arXiv ID: http://arxiv.org/abs/gr-qc/0512083v2
+Categories: gr-qc, hep-th
+Abstract:
+A modified formulation of energy-momentum relation is proposed in the context of doubly special relativity. We investigate its impact on black hole physics. It turns out that such modification will give corrections to both the temperature and the entropy of black holes. In particular this modified dispersion relation also changes the picture of Hawking radiation greatly when the size of black holes approaching the Planck scale. It can prevent black holes from total evaporation, as a result providing a plausible mechanism to treat the remnant of black holes as a candidate for dark matter.

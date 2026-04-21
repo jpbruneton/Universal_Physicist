@@ -1,0 +1,7 @@
+Title: Benefits of Objective Collapse Models for Cosmology and Quantum Gravity
+Authors: Elias Okon, Daniel Sudarsky
+Published: 2013-09-06
+arXiv ID: http://arxiv.org/abs/1309.1730v2
+Categories: gr-qc, physics.hist-ph, quant-ph
+Abstract:
+We display a number of advantages of objective collapse theories for the resolution of long-standing problems in cosmology and quantum gravity. In particular, we examine applications of objective reduction models to three important issues: the origin of the seeds of cosmic structure, the problem of time in quantum gravity and the information loss paradox; we show how reduction models contain the necessary tools to provide solutions for these issues. We wrap up with an adventurous proposal, which relates the spontaneous collapse events of objective collapse models to microscopic virtual black holes.

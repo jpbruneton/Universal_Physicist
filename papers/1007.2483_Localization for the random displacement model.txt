@@ -1,0 +1,7 @@
+Title: Localization for the random displacement model
+Authors: Frédéric Klopp, Michael Loss, Shu Nakamura, Gunter Stolz
+Published: 2010-07-15
+arXiv ID: http://arxiv.org/abs/1007.2483v2
+Categories: math-ph, math.SP
+Abstract:
+We prove spectral and dynamical localization for the multi-dimensional random displacement model near the bottom of its spectrum by showing that the approach through multiscale analysis is applicable. In particular, we show that a previously known Lifshitz tail bound can be extended to our setting and prove a new Wegner estimate. A key tool is given by a quantitative form of a property of a related single-site Neumann problem which can be described as "bubbles tend to the corners".

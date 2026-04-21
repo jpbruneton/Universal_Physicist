@@ -1,0 +1,7 @@
+Title: Background independent quantization and the uncertainty principle
+Authors: Golam Mortuza Hossain, Viqar Husain, Sanjeev S. Seahra
+Published: 2010-03-10
+arXiv ID: http://arxiv.org/abs/1003.2207v1
+Categories: gr-qc, hep-th, quant-ph
+Abstract:
+It is shown that polymer quantization leads to a modified uncertainty principle similar to that obtained from string theory and non-commutative geometry. When applied to quantum field theory  on general background spacetimes, corrections to the uncertainty principle acquire a  metric dependence. For Friedmann-Robertson-Walker cosmology this translates to a scale factor dependence which gives a large effect in the early universe.

@@ -1,0 +1,7 @@
+Title: Simulation of two-dimensional quantum systems using a tree tensor network that exploits the entropic area law
+Authors: L. Tagliacozzo, G. Evenbly, G. Vidal
+Published: 2009-03-29
+arXiv ID: http://arxiv.org/abs/0903.5017v2
+Categories: cond-mat.str-el, cond-mat.stat-mech
+Abstract:
+This work explores the use of a tree tensor network ansatz to simulate the ground state of a local Hamiltonian on a two-dimensional lattice. By exploiting the entropic area law, the tree tensor network ansatz seems to produce quasi-exact results in systems with sizes well beyond the reach of exact diagonalisation techniques. We describe an algorithm to approximate the ground state of a local Hamiltonian on a L times L lattice with the topology of a torus. Accurate results are obtained for L={4,6,8}, whereas approximate results are obtained for larger lattices. As an application of the approach, we analyse the scaling of the ground state entanglement entropy at the quantum critical point of the model. We confirm the presence of a positive additive constant to the area law for half a torus. We also find a logarithmic additive correction to the entropic area law for a square block. The single copy entanglement for half a torus reveals similar corrections to the area law with a further term proportional to 1/L.

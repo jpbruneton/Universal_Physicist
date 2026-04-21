@@ -1,0 +1,7 @@
+Title: GUP parameter and black hole temperature
+Authors: Elias C. Vagenas, Salwa M. Alsaleh, Ahmed Farag Ali
+Published: 2018-01-11
+arXiv ID: http://arxiv.org/abs/1801.03670v2
+Categories: hep-th, gr-qc
+Abstract:
+Motivated by a recent work of Scardigli, Lambiase and Vagenas (SLV), we derive the GUP parameter, i.e. $α_0$, when the GUP has a linear and quadratic term in momentum. The value of the GUP parameter is obtained by conjecturing that the GUP-deformed black hole temperature of a Schwarzschild black hole and the modified Hawking temperature of a quantum-corrected Schwarzschild black hole are the same. The leading term in both cases is the standard Hawking temperature and since the corrections are considered as thermal, the modified and deformed expressions of temperature display a slight shift in the Hawking temperature. Finally, by equating the first correction terms, we obtain a value for the GUP parameter. In our analysis, the GUP parameter is not a pure number but depends on the ratio $\mpl /M$ with $\mpl$ to be the Planck mass and $M$ the black hole mass.

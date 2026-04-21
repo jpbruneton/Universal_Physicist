@@ -1,0 +1,7 @@
+Title: Hawking Radiation from Rotating Black Holes and Gravitational Anomalies
+Authors: Keiju Murata, Jiro Soda
+Published: 2006-06-08
+arXiv ID: http://arxiv.org/abs/hep-th/0606069v2
+Categories: hep-th, gr-qc
+Abstract:
+We study the Hawking radiation from Rotating black holes from gravitational anomalies point of view. First, we show that the scalar field theory near the Kerr black hole horizon can be reduced to the 2-dimensional effective theory. Then, following Robinson and Wilczek, we derive the Hawking flux by requiring the cancellation of gravitational anomalies. We also apply this method to Hawking radiation from higher dimensional Myers-Perry black holes. In the Appendix, we present the trace anomaly derivation of Hawking radiation to argue the validity of the boundary condition at the horizon.

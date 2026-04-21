@@ -1,0 +1,7 @@
+Title: The microscopic dynamics of quantum space as a group field theory
+Authors: Daniele Oriti
+Published: 2011-10-25
+arXiv ID: http://arxiv.org/abs/1110.5606v1
+Categories: hep-th, gr-qc
+Abstract:
+We provide a rather extended introduction to the group field theory approach to quantum gravity, and the main ideas behind it. We present in some detail the GFT quantization of 3d Riemannian gravity, and discuss briefly the current status of the 4-dimensional extensions of this construction. We also briefly report on recent results obtained in this approach and related open issues, concerning both the mathematical definition of GFT models, and possible avenues towards extracting interesting physics from them.

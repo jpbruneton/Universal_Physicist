@@ -1,0 +1,7 @@
+Title: Cosmological applications of loop quantum gravity
+Authors: Martin Bojowald, Hugo A. Morales-Tecotl
+Published: 2003-06-02
+arXiv ID: http://arxiv.org/abs/gr-qc/0306008v1
+Categories: gr-qc, astro-ph, hep-th
+Abstract:
+After a brief introduction to classical and quantum gravity we discuss applications of loop quantum gravity in the cosmological realm. This includes the basic formalism and recent results of loop quantum cosmology, and a computation of modified dispersion relations for quantum gravity phenomenology. The presentation is held at a level which does not require much background knowledge in general relativity or mathematical techniques such as functional analysis, so as to make the article accessible to graduate students and researchers from other fields.

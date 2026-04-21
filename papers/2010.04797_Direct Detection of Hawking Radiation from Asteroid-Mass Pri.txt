@@ -1,0 +1,7 @@
+Title: Direct Detection of Hawking Radiation from Asteroid-Mass Primordial Black Holes
+Authors: Adam Coogan, Logan Morrison, Stefano Profumo
+Published: 2020-10-09
+arXiv ID: http://arxiv.org/abs/2010.04797v1
+Categories: astro-ph.CO, astro-ph.HE, gr-qc, hep-ph
+Abstract:
+Light, asteroid-mass primordial black holes, with lifetimes in the range between hundreds to several millions times the age of the universe, are well-motivated candidates for the cosmological dark matter. Using archival COMPTEL data, we improve over current constraints on the allowed parameter space of primordial black holes as dark matter by studying their evaporation to soft gamma-rays in nearby astrophysical structures. We point out that a new generation of proposed MeV gamma-ray telescopes will offer the unique opportunity to directly detect Hawking evaporation from observations of nearby dark matter dense regions and to constrain, or discover, the primordial black hole dark matter.

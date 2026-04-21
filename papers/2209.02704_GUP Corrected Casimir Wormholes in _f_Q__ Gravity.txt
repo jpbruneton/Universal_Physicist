@@ -1,0 +1,7 @@
+Title: GUP Corrected Casimir Wormholes in $f(Q)$ Gravity
+Authors: Zinnat Hassan, Sayantan Ghosh, P. K. Sahoo, V. Sree Hari Rao
+Published: 2022-09-06
+arXiv ID: http://arxiv.org/abs/2209.02704v4
+Categories: gr-qc, hep-th
+Abstract:
+We have presented systematically the effect of the Generalized Uncertainty Principle (GUP) in Casimir wormholes space-time in the recently proposed modified gravity, the so-called symmetric teleparallel gravity or $f(Q)$ gravity. Here $Q$ is the non-metricity scalar that drives the gravitation interaction. We consider two famous GUP relations, such as the Kempf, Mangano, and Mann (KMM) model and the Detournay, Gabriel, and Spindel (DGS) model, in our study. Besides this, we investigate with three different redshift functions under anisotropic fluid located at the throat. Further, we analyzed the obtained wormhole solutions with energy conditions, especially null energy conditions (NEC) at the throat of the wormhole, and encountered that some arbitrary quantity disrespects the classical energy conditions at the wormhole throat of radius $r_0$. Later, the ADM mass and the volume integral quantifier are also discussed to calculate the amount of exotic matter required near the wormhole throat. Additionally, we show the behavior of the equation of state parameters under the effect of GUP.

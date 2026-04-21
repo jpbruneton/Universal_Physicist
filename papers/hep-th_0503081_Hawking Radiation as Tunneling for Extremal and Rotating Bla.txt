@@ -1,0 +1,7 @@
+Title: Hawking Radiation as Tunneling for Extremal and Rotating Black Holes
+Authors: Marco Angheben, Mario Nadalini, Luciano Vanzo, Sergio Zerbini
+Published: 2005-03-09
+arXiv ID: http://arxiv.org/abs/hep-th/0503081v2
+Categories: hep-th
+Abstract:
+The issue concerning semi-classical methods recently developed in deriving the conditions for Hawking radiation as tunneling, is revisited and applied also to rotating black hole solutions as well as to the extremal cases. It is noticed how the tunneling method fixes the temperature of extremal black hole to be zero, unlike the Euclidean regularity method that allows an arbitrary compactification period. A comparison with other approaches is presented.

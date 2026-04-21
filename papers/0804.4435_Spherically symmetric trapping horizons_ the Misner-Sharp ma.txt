@@ -1,0 +1,7 @@
+Title: Spherically symmetric trapping horizons, the Misner-Sharp mass and black hole evaporation
+Authors: Alex B. Nielsen, Dong-han Yeom
+Published: 2008-04-28
+arXiv ID: http://arxiv.org/abs/0804.4435v1
+Categories: gr-qc
+Abstract:
+Understood in terms of pure states evolving into mixed states, the possibility of information loss in black holes is closely related to the global causal structure of spacetime, as is the existence of event horizons. However, black holes need not be defined by event horizons, and in fact we argue that in order to have a fully unitary evolution for black holes, they should be defined in terms of something else, such as a trapping horizon. The Misner-Sharp mass in spherical symmetry shows very simply how trapping horizons can give rise to black hole thermodynamics, Hawking radiation and singularities. We show how the Misner-Sharp mass can also be used to give insights into the process of collapse and evaporation of locally defined black holes.

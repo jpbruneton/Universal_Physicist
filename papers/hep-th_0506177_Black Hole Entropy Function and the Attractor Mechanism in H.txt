@@ -1,0 +1,7 @@
+Title: Black Hole Entropy Function and the Attractor Mechanism in Higher Derivative Gravity
+Authors: Ashoke Sen
+Published: 2005-06-21
+arXiv ID: http://arxiv.org/abs/hep-th/0506177v1
+Categories: hep-th, gr-qc
+Abstract:
+We study extremal black hole solutions in D dimensions with near horizon geometry AdS_2\times S^{D-2} in higher derivative gravity coupled to other scalar, vector and anti-symmetric tensor fields. We define an entropy function by integrating the Lagrangian density over S^{D-2} for a general AdS_2\times S^{D-2} background, taking the Legendre transform of the resulting function with respect to the parameters labelling the electric fields, and multiplying the result by a factor of 2π. We show that the values of the scalar fields at the horizon as well as the sizes of AdS_2 and S^{D-2} are determined by extremizing this entropy function with respect to the corresponding parameters, and the entropy of the black hole is given by the value of the entropy function at this extremum. Our analysis relies on the analysis of the equations of motion and does not directly make use of supersymmetry or specific structure of the higher derivative terms.

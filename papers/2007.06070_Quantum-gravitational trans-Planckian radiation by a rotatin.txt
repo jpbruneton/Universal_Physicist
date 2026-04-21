@@ -1,0 +1,7 @@
+Title: Quantum-gravitational trans-Planckian radiation by a rotating black hole
+Authors: A. J. Nurmagambetov, I. Y. Park
+Published: 2020-07-12
+arXiv ID: http://arxiv.org/abs/2007.06070v2
+Categories: hep-th, astro-ph.HE, gr-qc
+Abstract:
+We recently studied the energy behavior of a quantum-corrected time-dependent black hole. The system analyzed was a quantum-corrected Kerr solution that settles down to a stationary configuration as the time dependence fades out. A trans-Planckian energy scaling in the vicinity of the event horizon resulted, and we proposed the trans-Planckian radiation to be the missing link in the glowing mechanism of active galactic nuclei. The main goal of the present work is to examine the scaling and structure of the radiation by analyzing the quantum momentum density. We again observe a trans-Planckian behavior. Furthermore, the momentum density displays structures that are indicative of a disk-like configuration near the equator and a collimated outflow of matter from the poles. The bipolar outflow (disk-like structure) should be an essential part of the underlying mechanism for jets (accretion disks) of active galactic nuclei.

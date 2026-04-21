@@ -1,0 +1,7 @@
+Title: Spectral Dimension of the Universe in Quantum Gravity at a Lifshitz Point
+Authors: Petr Horava
+Published: 2009-02-23
+arXiv ID: http://arxiv.org/abs/0902.3657v2
+Categories: hep-th, gr-qc, hep-lat, hep-ph
+Abstract:
+We extend the definition of "spectral dimension" (usually defined for fractal and lattice geometries) to theories on smooth spacetimes with anisotropic scaling. We show that in quantum gravity dominated by a Lifshitz point with dynamical critical exponent z in D+1 spacetime dimensions, the spectral dimension of spacetime is equal to d_s=1+D/z. In the case of gravity in 3+1 dimensions presented in arXiv:0901.3775, which is dominated by z=3 in the UV and flows to z=1 in the IR, the spectral dimension of spacetime flows from d_s=4 at large scales, to d_s=2 at short distances. Remarkably, this is the qualitative behavior of d_s found numerically by Ambjorn, Jurkiewicz and Loll in their causal dynamical triangulations approach to quantum gravity.

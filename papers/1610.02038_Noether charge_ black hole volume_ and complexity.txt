@@ -1,0 +1,7 @@
+Title: Noether charge, black hole volume, and complexity
+Authors: Josiah Couch, Willy Fischler, Phuc H. Nguyen
+Published: 2016-10-06
+arXiv ID: http://arxiv.org/abs/1610.02038v4
+Categories: hep-th, gr-qc
+Abstract:
+In this paper, we study the physical significance of the thermodynamic volumes of AdS black holes using the Noether charge formalism of Iyer and Wald. After applying this formalism to study the extended thermodynamics of a few examples, we discuss how the extended thermodynamics interacts with the recent complexity = action proposal of Brown et al. (CA-duality). We, in particular, discover that their proposal for the late time rate of change of complexity has a nice decomposition in terms of thermodynamic quantities reminiscent of the Smarr relation. This decomposition strongly suggests a geometric, and via CA-duality holographic, interpretation for the thermodynamic volume of an AdS black hole. We go on to discuss the role of thermodynamics in complexity = action for a number of black hole solutions, and then point out the possibility of an alternate proposal, which we dub "complexity = volume 2.0". In this alternate proposal, the complexity would be thought of as the spacetime volume of the Wheeler-DeWitt patch. Finally, we provide evidence that, in certain cases, our proposal for complexity is consistent with the Lloyd bound whereas CA-duality is not.

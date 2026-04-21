@@ -1,0 +1,7 @@
+Title: Entanglement entropy in free quantum field theory
+Authors: H. Casini, M. Huerta
+Published: 2009-05-15
+arXiv ID: http://arxiv.org/abs/0905.2562v3
+Categories: hep-th
+Abstract:
+In this review we first introduce the general methods to calculate the entanglement entropy for free fields, within the Euclidean and the real time formalisms. Then we describe the particular examples which have been worked out explicitly in two, three and more dimensions.

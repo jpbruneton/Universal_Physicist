@@ -1,0 +1,7 @@
+Title: The loop-quantum-gravity vertex-amplitude
+Authors: Jonathan Engle, Roberto Pereira, Carlo Rovelli
+Published: 2007-05-16
+arXiv ID: http://arxiv.org/abs/0705.2388v1
+Categories: gr-qc
+Abstract:
+Spinfoam theories are hoped to provide the dynamics of non-perturbative loop quantum gravity. But a number of their features remain elusive. The best studied one -the euclidean Barrett-Crane model- does not have the boundary state space needed for this, and there are recent indications that, consequently, it may fail to yield the correct low-energy $n$-point functions. These difficulties can be traced to the SO(4) -> SU(2) gauge fixing and the way certain second class constraints are imposed, arguably incorrectly, strongly. We present an alternative model, that can be derived as a bona fide quantization of a Regge discretization of euclidean general relativity, and where the constraints are imposed weakly. Its state space is a natural subspace of the SO(4) spin-network space and matches the SO(3) hamiltonian spin network space. The model provides a long sought SO(4)-covariant vertex amplitude for loop quantum gravity.

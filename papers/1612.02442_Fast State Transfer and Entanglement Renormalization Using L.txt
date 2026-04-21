@@ -1,0 +1,7 @@
+Title: Fast State Transfer and Entanglement Renormalization Using Long-Range Interactions
+Authors: Zachary Eldredge, Zhe-Xuan Gong, Jeremy T. Young, Ali Hamed Moosavian, Michael Foss-Feig, Alexey V. Gorshkov
+Published: 2016-12-07
+arXiv ID: http://arxiv.org/abs/1612.02442v2
+Categories: quant-ph, physics.atom-ph
+Abstract:
+In short-range interacting systems, the speed at which entanglement can be established between two separated points is limited by a constant Lieb-Robinson velocity. Long-range interacting systems are capable of faster entanglement generation, but the degree of the speed-up possible is an open question. In this paper, we present a protocol capable of transferring a quantum state across a distance $L$ in $d$ dimensions using long-range interactions with strength bounded by $1/r^α$. If $α< d$, the state transfer time is asymptotically independent of $L$; if $α= d$, the time is logarithmic in distance $L$; if $d < α< d+1$, transfer occurs in time proportional to $L^{α- d}$; and if $α\geq d + 1$, it occurs in time proportional to $L$. We then use this protocol to upper bound the time required to create a state specified by a MERA (multiscale entanglement renormalization ansatz) tensor network, and show that, if the linear size of the MERA state is $L$, then it can be created in time that scales with $L$ identically to state transfer up to multiplicative logarithmic corrections.

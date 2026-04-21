@@ -1,0 +1,7 @@
+Title: Symmetries of the Bosonic String S-Matrix
+Authors: Gregory Moore
+Published: 1993-10-07
+arXiv ID: http://arxiv.org/abs/hep-th/9310026v2
+Categories: hep-th
+Abstract:
+The bracket operation on mutually local BRST classes may be combined with Lorentz invariance and analyticity to write an infinite set of finite difference relations on string scattering amplitudes. When combined with some simple physical criteria these relations uniquely determine the genus zero string $S$-matrix for $N\leq 26$-particle scattering in $\IR^{25,1}$ in terms of a single parameter, $κ$, the string coupling. We propose that the high-energy limit of the relations are the Ward identities for the high-energy symmetries of string theory.

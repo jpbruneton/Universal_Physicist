@@ -1,0 +1,7 @@
+Title: A quintet of quandaries: five no-go theorems for Relational Quantum Mechanics
+Authors: Jacques L. Pienaar
+Published: 2021-07-01
+arXiv ID: http://arxiv.org/abs/2107.00670v2
+Categories: quant-ph
+Abstract:
+Relational quantum mechanics (RQM) proposes an ontology of relations between physical systems, where any system can serve as an `observer' and any physical interaction between systems counts as a `measurement'. Quantities take unique values spontaneously in these interactions, and the occurrence of such `quantum events' is strictly relative to the observing system, making them `relative facts'. The quantum state represents the objective information that one system has about another by virtue of correlations between their physical variables. The ontology of RQM thereby strives to uphold the universality and completeness of quantum theory, while at the same time maintaining that the actualization of each unique quantum event is a fundamental physical event. Can RQM sustain this precarious balancing act? Here we present five no-go theorems that imply it cannot; something has to give way.

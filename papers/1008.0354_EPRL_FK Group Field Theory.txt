@@ -1,0 +1,7 @@
+Title: EPRL/FK Group Field Theory
+Authors: Joseph Ben Geloun, Razvan Gurau, Vincent Rivasseau
+Published: 2010-08-02
+arXiv ID: http://arxiv.org/abs/1008.0354v1
+Categories: hep-th, gr-qc
+Abstract:
+The purpose of this short note is to clarify the Group Field Theory vertex and propagators corresponding to the EPRL/FK spin foam models and to detail the subtraction of leading divergences of the model.

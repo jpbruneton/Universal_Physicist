@@ -1,0 +1,7 @@
+Title: Hawking Radiation and Deflection of Light from Rindler Modified Schwarzschild Black Hole
+Authors: I. Sakalli, A. Ovgun
+Published: 2017-02-14
+arXiv ID: http://arxiv.org/abs/1702.04636v2
+Categories: physics.gen-ph
+Abstract:
+We investigate the Hawking radiation of massive spin-1 vector particles, which are coupled to vacuum fluctuations of a quantum field, from Rindler modified Schwarzschild black hole. Rindler acceleration is used to produce the post-general relativistic theory of gravity for the distant field of a point mass. The gravitational lensing problem of the Rindler modified Schwarzschild black hole is also studied. We compute the deflection angle for the IR region (large distance limit as infrared) by using the Gaussian curvature of the optical metric of this back hole. Our investigations clarify how the Rindler acceleration plays a role on the Hawking radiation and gravitational lensing.

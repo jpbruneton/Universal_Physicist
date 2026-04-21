@@ -1,0 +1,7 @@
+Title: Quantum Reference Frames at the Boundary of Spacetime
+Authors: Viktoria Kabel, Časlav Brukner, Wolfgang Wieland
+Published: 2023-02-22
+arXiv ID: http://arxiv.org/abs/2302.11629v2
+Categories: gr-qc, quant-ph
+Abstract:
+An analysis is given of the local phase space of gravity coupled to matter to second order in perturbation theory. Working in local regions with boundaries at finite distance, we identify matter, Coulomb, and additional boundary modes. The boundary modes take the role of reference frames for both diffeomorphisms and internal Lorentz rotations. Passing to the quantum level, we identify the constraints that link the bulk and boundary modes. The constraints take the form of a multi-fingered Schrödinger equation, which determines the relational evolution of the quantum states in the bulk with respect to the quantum reference fields at the boundary.

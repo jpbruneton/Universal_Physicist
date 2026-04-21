@@ -1,0 +1,7 @@
+Title: Loop quantum cosmology of Bianchi type IX models
+Authors: Edward Wilson-Ewing
+Published: 2010-05-30
+arXiv ID: http://arxiv.org/abs/1005.5565v1
+Categories: gr-qc
+Abstract:
+The loop quantum cosmology "improved dynamics" of the Bianchi type IX model are studied. The action of the Hamiltonian constraint operator is obtained via techniques developed for the Bianchi type I and type II models, no new input is required. It is shown that the big bang and big crunch singularities are resolved by quantum gravity effects. We also present the effective equations which provide modifications to the classical equations of motion due to quantum geometry effects.

@@ -1,0 +1,7 @@
+Title: Gauge-invariant bounce from loop quantum gravity
+Authors: Klaus Liegener, Parampreet Singh
+Published: 2019-06-06
+arXiv ID: http://arxiv.org/abs/1906.02759v2
+Categories: gr-qc, hep-th
+Abstract:
+We present a gauge-invariant treatment of singularity resolution using loop quantum gravity techniques with respect to local SU(2) transformations. Our analysis reveals many novel features of quantum geometry which were till now hidden in models based on non-gauge-invariant discretizations. Quantum geometric effects resolve the big bang singularity replacing it with a non-singular bounce when spacetime curvature reaches Planckian value. The bounce is found to be generically asymmetric in the sense that pre-bounce and post-bounce branches are not mirrored to each other and effective constants, such as Newton's constant, are rescaled across the bounce. Furthermore, in the vicinity of the bounce, minimally coupled matter behaves as non-minimally coupled. These ramifications of quantum geometry open a rich avenue for potential phenomenological signatures.

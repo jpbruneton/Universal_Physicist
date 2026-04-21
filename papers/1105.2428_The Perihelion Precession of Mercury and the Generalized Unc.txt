@@ -1,0 +1,7 @@
+Title: The Perihelion Precession of Mercury and the Generalized Uncertainty Principle
+Authors: Barun Majumder
+Published: 2011-05-12
+arXiv ID: http://arxiv.org/abs/1105.2428v1
+Categories: gr-qc, hep-th, physics.class-ph
+Abstract:
+Very recently authors in [1] proposed a new Generalized Uncertainty Principle (or GUP) with a linear term in Plank length. In this Letter the effect of this linear term is studied perturbatively in the context of Keplerian orbits. The angle by which the perihelion of the orbit revolves over a complete orbital cycle is computed. The result is applied in the context of the precession of the perihelion of Mercury. As a consequence we get a lower bound of the new intermediate length scale offered by the GUP which is approximately 40 orders of magnitude below Plank length.

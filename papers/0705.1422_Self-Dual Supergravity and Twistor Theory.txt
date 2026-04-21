@@ -1,0 +1,7 @@
+Title: Self-Dual Supergravity and Twistor Theory
+Authors: Martin Wolf
+Published: 2007-05-10
+arXiv ID: http://arxiv.org/abs/0705.1422v3
+Categories: hep-th, math-ph
+Abstract:
+By generalizing and extending some of the earlier results derived by Manin and Merkulov, a twistor description is given of four-dimensional N-extended (gauged) self-dual supergravity with and without cosmological constant. Starting from the category of (4|4N)-dimensional complex superconformal supermanifolds, the categories of (4|2N)-dimensional complex quaternionic, quaternionic Kaehler and hyper-Kaehler right-chiral supermanifolds are introduced and discussed. We then present a detailed twistor description of these types of supermanifolds. In particular, we construct supertwistor spaces associated with complex quaternionic right-chiral supermanifolds, and explain what additional supertwistor data allows for giving those supermanifolds a hyper-Kaehler structure. In this way, we obtain a supersymmetric generalization of Penrose's nonlinear graviton construction. We furthermore give an alternative formulation in terms of a supersymmetric extension of LeBrun's Einstein bundle. This allows us to include the cases with nonvanishing cosmological constant. We also discuss the bundle of local supertwistors and address certain implications thereof. Finally, we comment on a real version of the theory related to Euclidean signature.

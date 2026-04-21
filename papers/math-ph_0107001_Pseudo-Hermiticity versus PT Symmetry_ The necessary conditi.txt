@@ -1,0 +1,7 @@
+Title: Pseudo-Hermiticity versus PT Symmetry: The necessary condition for the reality of the spectrum of a non-Hermitian Hamiltonian
+Authors: Ali Mostafazadeh
+Published: 2001-07-01
+arXiv ID: http://arxiv.org/abs/math-ph/0107001v3
+Categories: math-ph, hep-th, quant-ph
+Abstract:
+We introduce the notion of pseudo-Hermiticity and show that every Hamiltonian with a real spectrum is pseudo-Hermitian. We point out that all the PT-symmetric non-Hermitian Hamiltonians studied in the literature belong to the class of pseudo-Hermitian Hamiltonians, and argue that the basic structure responsible for the particular spectral properties of these Hamiltonians is their pseudo-Hermiticity. We explore the basic properties of general pseudo-Hermitian Hamiltonians, develop pseudo-supersymmetric quantum mechanics, and study some concrete examples, namely the Hamiltonian of the two-component Wheeler-DeWitt equation for the FRW-models coupled to a real massive scalar field and a class of pseudo-Hermitian Hamiltonians with a real spectrum.

@@ -1,0 +1,7 @@
+Title: Microscopic Origin of the Bekenstein-Hawking Entropy
+Authors: A. Strominger, C. Vafa
+Published: 1996-01-09
+arXiv ID: http://arxiv.org/abs/hep-th/9601029v2
+Categories: hep-th, gr-qc
+Abstract:
+The Bekenstein-Hawking area-entropy relation $S_{BH}=A/4$ is derived for a class of five-dimensional extremal black holes in string theory by counting the degeneracy of BPS soliton bound states.

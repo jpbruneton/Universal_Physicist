@@ -1,0 +1,7 @@
+Title: Non-Fermi liquids from holography
+Authors: Hong Liu, John McGreevy, David Vegh
+Published: 2009-03-16
+arXiv ID: http://arxiv.org/abs/0903.2477v3
+Categories: hep-th, cond-mat.str-el
+Abstract:
+We report on a potentially new class of non-Fermi liquids in (2+1)-dimensions. They are identified via the response functions of composite fermionic operators in a class of strongly interacting quantum field theories at finite density, computed using the AdS/CFT correspondence. We find strong evidence of Fermi surfaces: gapless fermionic excitations at discrete shells in momentum space. The spectral weight exhibits novel phenomena, including particle-hole asymmetry, discrete scale invariance, and scaling behavior consistent with that of a critical Fermi surface postulated by Senthil.

@@ -1,0 +1,7 @@
+Title: Black Hole evaporation: A Perspective from Loop Quantum Gravity
+Authors: Abhay Ashtekar
+Published: 2020-01-23
+arXiv ID: http://arxiv.org/abs/2001.08833v1
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+A personal perspective on the black hole evaporation process is presented using as guidelines inputs from: (i) loop quantum gravity, (ii) simplified models where concrete results have been obtained, and, (iii) semi-classical quantum general relativity. On the one hand, the final picture is conservative in that there are concrete results that support each stage of the argument, and there are no large departures from general relativity or semi-classical gravity in tame regions outside macroscopic black holes. On the other hand it argues against certain views that are commonly held in many quarters, such as: persistence of a piece of singularity that constitutes a part of the final boundary of space-time; presence of an \emph{event} horizon serving as an absolute barrier between the interior and the exterior; and the (often implicit) requirement that purification must be completed by the time the `last rays' representing the extension of this event horizon reach $\mathcal{I}^{+}$.

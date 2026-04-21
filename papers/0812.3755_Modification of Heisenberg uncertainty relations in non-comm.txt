@@ -1,0 +1,7 @@
+Title: Modification of Heisenberg uncertainty relations in non-commutative Snyder space-time geometry
+Authors: Marco Valerio Battisti, Stjepan Meljanac
+Published: 2008-12-19
+arXiv ID: http://arxiv.org/abs/0812.3755v3
+Categories: hep-th, gr-qc
+Abstract:
+We show that the Euclidean Snyder non-commutative space implies infinitely many different physical predictions. The distinct frameworks are specified by generalized uncertainty relations underlying deformed Heisenberg algebras. Considering the one-dimensional case in the minisuperspace arena, the bouncing Universe dynamics of loop quantum cosmology can be recovered.

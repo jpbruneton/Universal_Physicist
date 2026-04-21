@@ -1,0 +1,7 @@
+Title: Curvature invariants, geodesics and the strength of singularities in Bianchi-I loop quantum cosmology
+Authors: Parampreet Singh
+Published: 2011-12-29
+arXiv ID: http://arxiv.org/abs/1112.6391v2
+Categories: gr-qc
+Abstract:
+We investigate the effects of the underlying quantum geometry in loop quantum cosmology on spacetime curvature invariants and the extendibility of geodesics in the Bianchi-I model for matter with a vanishing anisotropic stress. Using the effective Hamiltonian approach, we find that even though quantum geometric effects bound the energy density and expansion and shear scalars, divergences of curvature invariants are potentially possible under special conditions. However, as in the isotropic models in LQC, these do not necessarily imply a physical singularity. Analysis of geodesics and strength of such singular events, point towards a general resolution of all known types of strong singularities. We illustrate these results for the case of a perfect fluid with an arbitrary finite equation of state $w > -1$, and show that curvature invariants turn out to be bounded, leading to the absence of strong singularities. Unlike classical theory, geodesic evolution does not break down. We also discuss possible generalizations of sudden singularities which may arise at a non-vanishing volume, causing a divergence in curvature invariants. Such finite volume singularities are shown to be weak and harmless.

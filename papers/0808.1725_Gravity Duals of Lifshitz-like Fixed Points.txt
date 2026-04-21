@@ -1,0 +1,7 @@
+Title: Gravity Duals of Lifshitz-like Fixed Points
+Authors: Shamit Kachru, Xiao Liu, Michael Mulligan
+Published: 2008-08-13
+arXiv ID: http://arxiv.org/abs/0808.1725v2
+Categories: hep-th, cond-mat.str-el
+Abstract:
+We find candidate macroscopic gravity duals for scale-invariant but non-Lorentz invariant fixed points, which do not have particle number as a conserved quantity. We compute two-point correlation functions which exhibit novel behavior relative to their AdS counterparts, and find holographic renormalization group flows to conformal field theories. Our theories are characterized by a dynamical critical exponent $z$, which governs the anisotropy between spatial and temporal scaling $t \to λ^z t$, $x \to λx$; we focus on the case with $z=2$. Such theories describe multicritical points in certain magnetic materials and liquid crystals, and have been shown to arise at quantum critical points in toy models of the cuprate superconductors. This work can be considered a small step towards making useful dual descriptions of such critical points.

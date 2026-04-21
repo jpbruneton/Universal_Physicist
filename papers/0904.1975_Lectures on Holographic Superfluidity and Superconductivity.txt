@@ -1,0 +1,7 @@
+Title: Lectures on Holographic Superfluidity and Superconductivity
+Authors: Christopher P. Herzog
+Published: 2009-04-13
+arXiv ID: http://arxiv.org/abs/0904.1975v2
+Categories: hep-th, cond-mat.str-el
+Abstract:
+Four lectures on holography and the AdS/CFT correspondence applied to condensed matter systems. The first lecture introduces the concept of a quantum phase transition. The second lecture discusses linear response theory and Ward identities. The third lecture presents transport coefficients derived from AdS/CFT that should be applicable in the quantum critical region associated to a quantum phase transition. The fourth lecture builds in the physics of a superconducting or superfluid phase transition to the simple holographic model of the third lecture.

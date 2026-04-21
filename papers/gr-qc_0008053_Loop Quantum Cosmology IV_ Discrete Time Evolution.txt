@@ -1,0 +1,7 @@
+Title: Loop Quantum Cosmology IV: Discrete Time Evolution
+Authors: Martin Bojowald
+Published: 2000-08-22
+arXiv ID: http://arxiv.org/abs/gr-qc/0008053v1
+Categories: gr-qc, hep-th
+Abstract:
+Using general features of recent quantizations of the Hamiltonian constraint in loop quantum gravity and loop quantum cosmology, a dynamical interpretation of the constraint equation as evolution equation is presented. This involves a transformation from the connection to a dreibein representation and the selection of an internal time variable. Due to the discrete nature of geometrical quantities in loop quantum gravity also time turns out to be discrete leading to a difference rather than differential evolution equation. Furthermore, evolving observables are discussed in this framework which enables an investigation of physical spectra of geometrical quantities. In particular, the physical volume spectrum is proven to equal the discrete kinematical volume spectrum in loop quantum cosmology.

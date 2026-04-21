@@ -1,0 +1,7 @@
+Title: Lectures on Loop Quantum Gravity
+Authors: Thomas Thiemann
+Published: 2002-10-28
+arXiv ID: http://arxiv.org/abs/gr-qc/0210094v1
+Categories: gr-qc, hep-th, math-ph
+Abstract:
+Quantum General Relativity (QGR), sometimes called Loop Quantum Gravity, has matured over the past fifteen years to a mathematically rigorous candidate quantum field theory of the gravitational field. The features that distinguish it from other quantum gravity theories are 1) background independence and 2) minimality of structures. Background independence means that this is a non-perturbative approach in which one does not perturb around a given, distinguished, classical background metric, rather arbitrary fluctuations are allowed, thus precisely encoding the quantum version of Einstein's radical perception that gravity is geometry. Minimality here means that one explores the logical consequences of bringing together the two fundamental principles of modern physics, namely general covariance and quantum theory, without adding any experimentally unverified additional structures. The approach is purposely conservative in order to systematically derive which basic principles of physics have to be given up and must be replaced by more fundamental ones. QGR unifies all presently known interactions in a new sense by quantum mechanically implementing their common symmetry group, the four-dimensional diffeomorphism group, which is almost completely broken in perturbative approaches. These lectures offer a problem -- supported introduction to the subject.

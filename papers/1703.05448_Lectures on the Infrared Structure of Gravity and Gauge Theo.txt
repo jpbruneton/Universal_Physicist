@@ -1,0 +1,7 @@
+Title: Lectures on the Infrared Structure of Gravity and Gauge Theory
+Authors: Andrew Strominger
+Published: 2017-03-16
+arXiv ID: http://arxiv.org/abs/1703.05448v2
+Categories: hep-th, astro-ph.HE, gr-qc, hep-ph, math-ph
+Abstract:
+This is a redacted transcript of a course given by the author at Harvard in spring semester 2016. It contains a pedagogical overview of recent developments connecting the subjects of soft theorems, the memory effect and asymptotic symmetries in four-dimensional QED, nonabelian gauge theory and gravity with applications to black holes. The lectures may be viewed online at https://goo.gl/3DJdOr. Please send typos or corrections to strominger@physics.harvard.edu.

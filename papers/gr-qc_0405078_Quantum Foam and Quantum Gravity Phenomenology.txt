@@ -1,0 +1,7 @@
+Title: Quantum Foam and Quantum Gravity Phenomenology
+Authors: Y. Jack Ng
+Published: 2004-05-14
+arXiv ID: http://arxiv.org/abs/gr-qc/0405078v1
+Categories: gr-qc, astro-ph, hep-ph, hep-th
+Abstract:
+Spacetime undergoes quantum fluctuations, giving rise to spacetime foam, a.k.a. quantum foam. We discuss some properties of spacetime foam, and point out the conceptual interconnections in the physics of quantum foam, black holes, and quantum computation. We also discuss the phenomenology of quantum foam, and conclude that it may be difficult, but by no means impossible, to detect its tiny effects in the not-too-distant future.

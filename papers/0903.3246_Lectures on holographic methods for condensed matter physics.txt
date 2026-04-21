@@ -1,0 +1,7 @@
+Title: Lectures on holographic methods for condensed matter physics
+Authors: Sean A. Hartnoll
+Published: 2009-03-18
+arXiv ID: http://arxiv.org/abs/0903.3246v3
+Categories: hep-th, cond-mat.str-el
+Abstract:
+These notes are loosely based on lectures given at the CERN Winter School on Supergravity, Strings and Gauge theories, February 2009 and at the IPM String School in Tehran, April 2009. I have focused on a few concrete topics and also on addressing questions that have arisen repeatedly. Background condensed matter physics material is included as motivation and easy reference for the high energy physics community. The discussion of holographic techniques progresses from equilibrium, to transport and to superconductivity.

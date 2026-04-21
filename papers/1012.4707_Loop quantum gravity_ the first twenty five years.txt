@@ -1,0 +1,7 @@
+Title: Loop quantum gravity: the first twenty five years
+Authors: Carlo Rovelli
+Published: 2010-12-21
+arXiv ID: http://arxiv.org/abs/1012.4707v5
+Categories: gr-qc, hep-th
+Abstract:
+This is a review paper invited by the journal "Classical ad Quantum Gravity" for a "Cluster Issue" on approaches to quantum gravity. I give a synthetic presentation of loop gravity. I spell-out the aims of the theory and compare the results obtained with the initial hopes that motivated the early interest in this research direction. I give my own perspective on the status of the program and attempt of a critical evaluation of its successes and limits.

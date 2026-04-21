@@ -1,0 +1,7 @@
+Title: Holography and hydrodynamics: diffusion on stretched horizons
+Authors: Pavel Kovtun, Dam T. Son, Andrei O. Starinets
+Published: 2003-09-23
+arXiv ID: http://arxiv.org/abs/hep-th/0309213v1
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+We show that long-time, long-distance fluctuations of plane-symmetric horizons exhibit universal hydrodynamic behavior. By considering classical fluctuations around black-brane backgrounds, we find both diffusive and shear modes. The diffusion constant and the shear viscosity are given by simple formulas, in terms of metric components. For a given metric, the answers can be interpreted as corresponding kinetic coefficients in the holographically dual theory. For the near-extremal Dp, M2 and M5 branes, the computed kinetic coefficients coincide with the results of independent AdS/CFT calculations. In all the examples, the ratio of shear viscosity to entropy density is equal to \hbar/(4πk_B), suggesting a special meaning of this value.

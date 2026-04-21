@@ -1,0 +1,7 @@
+Title: The information paradox: A pedagogical introduction
+Authors: Samir D. Mathur
+Published: 2009-09-05
+arXiv ID: http://arxiv.org/abs/0909.1038v2
+Categories: hep-th, gr-qc
+Abstract:
+The black hole information paradox is a very poorly understood problem. It is often believed that Hawking's argument is not precisely formulated, and a more careful accounting of naturally occurring quantum corrections will allow the radiation process to become unitary. We show that such is not the case, by proving that small corrections to the leading order Hawking computation cannot remove the entanglement between the radiation and the hole. We formulate Hawking's argument as a `theorem': assuming `traditional' physics at the horizon and usual assumptions of locality we will be forced into mixed states or remnants. We also argue that one cannot explain away the problem by invoking AdS/CFT duality. We conclude with recent results on the quantum physics of black holes which show the the interior of black holes have a `fuzzball' structure. This nontrivial structure of microstates resolves the information paradox, and gives a qualitative picture of how classical intuition can break down in black hole physics.

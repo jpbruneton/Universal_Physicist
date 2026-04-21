@@ -1,0 +1,7 @@
+Title: Decoding quantum gravity information with black hole accretion disk
+Authors: Lei You, Yu-Hang Feng, Rui-Bo Wang, Jian-Bo Deng, Xian-Ru Hu
+Published: 2024-04-01
+arXiv ID: http://arxiv.org/abs/2404.01418v1
+Categories: gr-qc
+Abstract:
+The combination of Loop Quantum Gravity theory with the classical gravitational collapse model has effectively addressed the singularity problem of black holes and predicted the emergence of white holes in the late stages of collapse. The quantum extension of Kruskal spacetime suggests that the appearance of white holes may carry information from companion black holes in the universe earlier than ours. Photons emitted from the accretion disk of companion black holes will enter the companion black hole, traverse through quantum regions from the white hole to our universe, and produce imaging of accretion disk carrying quantum gravity information. In our work, we have obtained the accretion disk images of black hole from a universe earlier than ours, transported by a white hole within our universe, along with the positions and widths of these images exactly. Remarkably, behaviours of white hole and black hole imaging are similar in photon sphere and contrary to some cases of outside. This will provide valuable references for astronomical observations to validate quantum gravity theory.

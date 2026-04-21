@@ -1,0 +1,7 @@
+Title: Deformed algebra and the effective dynamics of the interior of black holes
+Authors: Pasquale Bosso, Octavio Obregón, Saeed Rastgoo, Wilfredo Yupanqui
+Published: 2020-12-09
+arXiv ID: http://arxiv.org/abs/2012.04795v2
+Categories: gr-qc, hep-th
+Abstract:
+We consider the classical Hamiltonian of the interior of the Schwarzschild black hole in Ashtekar-Barbero connection formalism. Then, inspired by generalized uncertainty principle models, we deform the classical canonical algebra and derive the effective dynamics of the model under this modification. We show that such a deformation leads to the resolution of the singularity of the black hole and a minimum nonzero radius for the infalling 2-spheres, provided that the deformation parameters are chosen to be negative.

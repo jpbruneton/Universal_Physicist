@@ -1,0 +1,7 @@
+Title: Absence of Singularity in Loop Quantum Cosmology
+Authors: Martin Bojowald
+Published: 2001-02-14
+arXiv ID: http://arxiv.org/abs/gr-qc/0102069v1
+Categories: gr-qc, hep-th
+Abstract:
+It is shown that the cosmological singularity in isotropic minisuperspaces is naturally removed by quantum geometry. Already at the kinematical level, this is indicated by the fact that the inverse scale factor is represented by a bounded operator even though the classical quantity diverges at the initial singularity. The full demonstation comes from an analysis of quantum dynamics. Because of quantum geometry, the quantum evolution occurs in discrete time steps and does not break down when the volume becomes zero. Instead, space-time can be extended to a branch preceding the classical singularity independently of the matter coupled to the model. For large volume the correct semiclassical behavior is obtained.

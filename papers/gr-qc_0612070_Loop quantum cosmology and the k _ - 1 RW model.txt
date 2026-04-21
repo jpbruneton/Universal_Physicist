@@ -1,0 +1,7 @@
+Title: Loop quantum cosmology and the k = - 1 RW model
+Authors: Kevin Vandersloot
+Published: 2006-12-12
+arXiv ID: http://arxiv.org/abs/gr-qc/0612070v2
+Categories: gr-qc
+Abstract:
+The loop quantization of the negatively curved k=-1 RW model poses several technical challenges. We show that the issues can be overcome and a successful quantization is possible that extends the results of the k=0,+1 models in a natural fashion. We discuss the resulting dynamics and show that for a universe consisting of a massless scalar field, a bounce is predicted in the backward evolution in accordance with the results of the k=0,+1 models. We also show that the model predicts a vacuum repulsion in the high curvature regime that would lead to a bounce even for matter with vanishing energy density. We finally comment on the inverse volume modifications of loop quantum cosmology and show that, as in the k=0 model, the modifications depend sensitively on the introduction of a length scale which a priori is independent of the curvature scale or a matter energy scale.

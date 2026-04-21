@@ -1,0 +1,7 @@
+Title: Writing CFT correlation functions as AdS scattering amplitudes
+Authors: Joao Penedones
+Published: 2010-11-05
+arXiv ID: http://arxiv.org/abs/1011.1485v1
+Categories: hep-th
+Abstract:
+We explore the Mellin representation of conformal correlation functions recently proposed by Mack. Examples in the AdS/CFT context reinforce the analogy between Mellin amplitudes and scattering amplitudes. We conjecture a simple formula relating the bulk scattering amplitudes to the asymptotic behavior of Mellin amplitudes and show that previous results on the flat space limit of AdS follow from our new formula. We find that the Mellin amplitudes are particularly useful in the case of conformal gauge theories in the planar limit. In this case, the four point Mellin amplitudes are meromorphic functions whose poles and their residues are entirely determined by two and three point functions of single-trace operators. This makes the Mellin amplitudes the ideal objects to attempt the conformal bootstrap program in higher dimensions.

@@ -1,0 +1,7 @@
+Title: Coarse graining spin foam quantum gravity -- a review
+Authors: Sebastian Steinhaus
+Published: 2020-07-02
+arXiv ID: http://arxiv.org/abs/2007.01315v1
+Categories: gr-qc, hep-th
+Abstract:
+In quantum gravity, we envision renormalization as the key tool for bridging the gap between microscopic models and observable scales. For spin foam quantum gravity, which is defined on a discretisation akin to lattice gauge theories, the goal is to derive an effective theory on a coarser discretisation from the dynamics on the finer one, coarse graining the system in the process and thus relating physics at different scales. In this review I will discuss the motivation for studying renormalization in spin foam quantum gravity, e.g. to restore diffeomorphism symmetry, and explain how to define renormalization in a background independent setting by formulating it in terms of boundary data. I will motivate the importance of the boundary data by studying coarse graining of a concrete example and extending this to the spin foam setting. This will naturally lead me to the methods currently used for renormalizing spin foam quantum gravity, such as tensor network renormalization, and a discussion of recent results. I will conclude with an overview of future prospects and research directions.

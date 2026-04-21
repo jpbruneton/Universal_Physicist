@@ -1,0 +1,7 @@
+Title: TeVeS Cosmology : Covariant formalism for the background evolution and linear perturbation theory
+Authors: Constantinos Skordis
+Published: 2005-11-19
+arXiv ID: http://arxiv.org/abs/astro-ph/0511591v1
+Categories: astro-ph
+Abstract:
+A relativistic theory of gravity has recently been proposed by Bekenstein, where gravity is mediated by a tensor, a vector and a scalar field, thus called TeVeS. The theory aims at modifying gravity in such a way as to reproduce Milgrom's MOdified Newtonian Dynamics (MOND) in the weak field, non-relativistic limit, which provides a framework to solve the missing mass problem in galaxies without invoking dark matter. In this paper I apply a covariant approach to formulate the cosmological equations for this theory, for both the background and linear perturbations. I derive the necessary perturbed equations for scalar, vector and tensor modes without adhering to a particular gauge. Special gauges are considered in the appendix.

@@ -1,0 +1,7 @@
+Title: Quasinormal Modes, the Area Spectrum, and Black Hole Entropy
+Authors: Olaf Dreyer
+Published: 2002-11-24
+arXiv ID: http://arxiv.org/abs/gr-qc/0211076v1
+Categories: gr-qc
+Abstract:
+The results of canonical quantum gravity concerning geometric operators and black hole entropy are beset by an ambiguity labelled by the Immirzi parameter. We use a result from classical gravity concerning the quasinormal mode spectrum of a black hole to fix this parameter in a new way. As a result we arrive at the Bekenstein - Hawking expression of $A/4 l_P^2$ for the entropy of a black hole and in addition see an indication that the appropriate gauge group of quantum gravity is SO(3) and not its covering group SU(2).

@@ -1,0 +1,7 @@
+Title: Asymptotic safety in higher-derivative gravity
+Authors: Dario Benedetti, Pedro F. Machado, Frank Saueressig
+Published: 2009-01-20
+arXiv ID: http://arxiv.org/abs/0901.2984v2
+Categories: hep-th, gr-qc
+Abstract:
+We study the non-perturbative renormalization group flow of higher-derivative gravity employing functional renormalization group techniques. The non-perturbative contributions to the $β$-functions shift the known perturbative ultraviolet fixed point into a non-trivial fixed point with three UV-attractive and one UV-repulsive eigendirections, consistent with the asymptotic safety conjecture of gravity. The implication of this transition on the unitarity problem, typically haunting higher-derivative gravity theories, is discussed.

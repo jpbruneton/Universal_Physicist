@@ -1,0 +1,7 @@
+Title: The Asymptotic Safety Scenario in Quantum Gravity -- An Introduction
+Authors: M. Niedermaier
+Published: 2006-10-05
+arXiv ID: http://arxiv.org/abs/gr-qc/0610018v2
+Categories: gr-qc
+Abstract:
+The asymptotic safety scenario in quantum gravity is reviewed, according to which a renormalizable quantum theory of the gravitational field is feasible which reconciles asymptotically safe couplings with unitarity. All presently known evidence is surveyed: (a) from the 2+\eps expansion, (b) from the perturbation theory of higher derivative gravity theories and a `large N' expansion in the number of matter fields, (c) from the 2-Killing vector reduction, and (d) from truncated flow equations for the effective average action. Special emphasis is given to the role of perturbation theory as a guide to `asymptotic safety'. Further it is argued that as a consequence of the scenario the selfinteractions appear two-dimensional in the extreme ultraviolet. Two appendices discuss the distinct roles of the ultraviolet renormalization in perturbation theory and in the flow equation formalism.

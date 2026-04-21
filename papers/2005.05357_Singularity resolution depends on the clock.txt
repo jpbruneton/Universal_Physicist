@@ -1,0 +1,7 @@
+Title: Singularity resolution depends on the clock
+Authors: Steffen Gielen, Lucía Menéndez-Pidal
+Published: 2020-05-11
+arXiv ID: http://arxiv.org/abs/2005.05357v3
+Categories: gr-qc, hep-th, quant-ph
+Abstract:
+We study the quantum cosmology of a flat Friedmann-Lemaître-Robertson-Walker universe filled with a (free) massless scalar field and a perfect fluid that represents radiation or a cosmological constant whose value is not fixed by the action, as in unimodular gravity. We study two versions of the quantum theory: the first is based on a time coordinate conjugate to the radiation/dark energy matter component, i.e., conformal time (for radiation) or unimodular time. As shown by Gryb and Thébault, this quantum theory achieves a type of singularity resolution; we illustrate this and other properties of this theory. The theory is then contrasted with a second type of quantisation in which the logarithm of the scale factor serves as time, which has been studied in the context of the "perfect bounce" for quantum cosmology. Unlike the first quantum theory, the second one contains semiclassical states that follow classical trajectories and evolve into the singularity without obstruction, thus showing no singularity resolution. We discuss how a complex scale factor best describes the semiclassical dynamics. This cosmological model serves as an illustration of the problem of time in quantum cosmology.

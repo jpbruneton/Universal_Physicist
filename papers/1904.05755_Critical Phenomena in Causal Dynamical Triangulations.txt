@@ -1,0 +1,7 @@
+Title: Critical Phenomena in Causal Dynamical Triangulations
+Authors: J. Ambjorn, D. Coumbe, J. Gizbert-Studnicki, A. Görlich, J. Jurkiewicz
+Published: 2019-04-11
+arXiv ID: http://arxiv.org/abs/1904.05755v1
+Categories: hep-th, gr-qc, hep-lat
+Abstract:
+Four-dimensional CDT (causal dynamical triangulations) is a lattice theory of geometries which one might use in an attempt to define quantum gravity non-perturbatively, following the standard procedures of lattice field theory. Being a theory of geometries, the phase transitions which in usual lattice field theories are used to define the continuum limit of the lattice theory will in the CDT case be transitions between different types of geometries. This picture is interwoven with the topology of space which is kept fixed in the lattice theory, the reason being that "classical" geometries around which the quantum fluctuations take place depend crucially on the imposed topology. Thus it is possible that the topology of space can influence the phase transitions and the corresponding critical phenomena used to extract continuum physics. In this article we perform a systematic comparison between a CDT phase transition where space has spherical topology and the "same" transition where space has toroidal topology. The "classical" geometries around which the systems fluctuate are very different it the two cases, but we find that the order of phase transition is not affected by this.

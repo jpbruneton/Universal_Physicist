@@ -1,0 +1,7 @@
+Title: Firewall From Effective Field Theory
+Authors: Pei-Ming Ho, Yuki Yokokura
+Published: 2020-04-10
+arXiv ID: http://arxiv.org/abs/2004.04956v3
+Categories: hep-th, gr-qc
+Abstract:
+For an effective field theory in the background of an evaporating black hole with spherical symmetry, we consider non-renormalizable interactions and their relevance to physical effects. The background geometry is determined by the semi-classical Einstein equation for an uneventful horizon where the vacuum energy-momentum tensor is small for freely falling observers. Surprisingly, after Hawking radiation appears, the transition amplitude from the Unruh vacuum to certain multi-particle states grows exponentially with time for a class of higher-derivative operators after the collapsing matter enters the near-horizon region, despite the absence of large curvature invariants. Within the scrambling time, the uneventful horizon transitions towards a firewall, and eventually the effective field theory breaks down.

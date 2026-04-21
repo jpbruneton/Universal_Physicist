@@ -1,0 +1,7 @@
+Title: The structure of causal sets
+Authors: Christian Wuthrich
+Published: 2012-07-06
+arXiv ID: http://arxiv.org/abs/1207.1568v1
+Categories: physics.hist-ph, gr-qc
+Abstract:
+More often than not, recently popular structuralist interpretations of physical theories leave the central concept of a structure insufficiently precisified. The incipient causal sets approach to quantum gravity offers a paradigmatic case of a physical theory predestined to be interpreted in structuralist terms. It is shown how employing structuralism lends itself to a natural interpretation of the physical meaning of causal sets theory. Conversely, the conceptually exceptionally clear case of causal sets is used as a foil to illustrate how a mathematically informed rigorous conceptualization of structure serves to identify structures in physical theories. Furthermore, a number of technical issues infesting structuralist interpretations of physical theories such as difficulties with grounding the identity of the places of highly symmetrical physical structures in their relational profile and what may resolve these difficulties can be vividly illustrated with causal sets.

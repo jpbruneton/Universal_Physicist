@@ -1,0 +1,7 @@
+Title: Perfect discretization of reparametrization invariant path integrals
+Authors: Benjamin Bahr, Bianca Dittrich, Sebastian Steinhaus
+Published: 2011-01-25
+arXiv ID: http://arxiv.org/abs/1101.4775v1
+Categories: gr-qc, hep-lat
+Abstract:
+To obtain a well defined path integral one often employs discretizations. In the case of gravity and reparametrization invariant systems, the latter of which we consider here as a toy example, discretizations generically break diffeomorphism and reparametrization symmetry, respectively. This has severe implications, as these symmetries determine the dynamics of the corresponding system. Indeed we will show that a discretized path integral with reparametrization invariance is necessarily also discretization independent and therefore uniquely determined by the corresponding continuum quantum mechanical propagator. We use this insight to develop an iterative method for constructing such a discretized path integral, akin to a Wilsonian RG flow. This allows us to address the problem of discretization ambiguities and of an anomaly--free path integral measure for such systems. The latter is needed to obtain a path integral, that can act as a projector onto the physical states, satisfying the quantum constraints. We will comment on implications for discrete quantum gravity models, such as spin foams.

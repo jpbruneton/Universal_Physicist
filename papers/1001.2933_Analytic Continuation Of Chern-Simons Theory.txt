@@ -1,0 +1,7 @@
+Title: Analytic Continuation Of Chern-Simons Theory
+Authors: Edward Witten
+Published: 2010-01-18
+arXiv ID: http://arxiv.org/abs/1001.2933v4
+Categories: hep-th
+Abstract:
+The title of this article refers to analytic continuation of three-dimensional Chern-Simons gauge theory away from integer values of the usual coupling parameter k, to explore questions such as the volume conjecture, or analytic continuation of three-dimensional quantum gravity (to the extent that it can be described by gauge theory) from Lorentzian to Euclidean signature. Such analytic continuation can be carried out by rotating the integration cycle of the Feynman path integral. Morse theory or Picard-Lefschetz theory gives a natural framework for describing the appropriate integration cycles. An important part of the analysis involves flow equations that turn out to have a surprising four-dimensional symmetry. After developing a general framework, we describe some specific examples (involving the trefoil and figure-eight knots in S^3). We also find that the space of possible integration cycles for Chern-Simons theory can be interpreted as the "physical Hilbert space" of a twisted version of N=4 super Yang-Mills theory in four dimensions.

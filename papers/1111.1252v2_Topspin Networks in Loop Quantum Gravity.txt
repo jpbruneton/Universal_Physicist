@@ -1,0 +1,7 @@
+Title: Topspin Networks in Loop Quantum Gravity
+Authors: Christopher L. Duston
+Published: 2011-11-04
+arXiv ID: http://arxiv.org/abs/1111.1252v2
+Categories: gr-qc, math-ph
+Abstract:
+We discuss the extension of loop quantum gravity to topspin networks, a proposal which allows topological information to be encoded in spin networks. We will show that this requires minimal changes to the phase space, C*-algebra and Hilbert space of cylindrical functions. We will also discuss the area and Hamiltonian operators, and show how they depend on the topology. This extends the idea of "background independence" in loop quantum gravity to include topology as well as geometry. It is hoped this work will confirm the usefulness of the topspin network formalism and open up several new avenues for research into quantum gravity.

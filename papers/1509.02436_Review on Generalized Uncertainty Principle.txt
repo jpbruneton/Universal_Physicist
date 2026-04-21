@@ -1,0 +1,7 @@
+Title: Review on Generalized Uncertainty Principle
+Authors: Abdel Nasser Tawfik, Abdel Magied Diab
+Published: 2015-08-19
+arXiv ID: http://arxiv.org/abs/1509.02436v2
+Categories: physics.gen-ph, gr-qc
+Abstract:
+Based on string theory, black hole physics, doubly special relativity and some "thought" experiments, minimal distance and/or maximum momentum are proposed. As alternatives to the generalized uncertainty principle (GUP), the modified dispersion relation, the space noncommutativity, the Lorentz invariance violation, and the quantum-gravity-induced birefringence effects are summarized. The origin of minimal measurable quantities and the different GUP approaches are reviewed and the corresponding observations are analysed. Bounds on the GUP parameter are discussed and implemented in understanding recent PLANCK observations on the cosmic inflation. The higher-order GUP approaches predict minimal length uncertainty with and without maximum momenta.

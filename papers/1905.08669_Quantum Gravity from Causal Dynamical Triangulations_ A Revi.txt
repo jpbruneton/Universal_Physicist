@@ -1,0 +1,7 @@
+Title: Quantum Gravity from Causal Dynamical Triangulations: A Review
+Authors: R. Loll
+Published: 2019-05-21
+arXiv ID: http://arxiv.org/abs/1905.08669v1
+Categories: hep-th, gr-qc, hep-lat
+Abstract:
+This topical review gives a comprehensive overview and assessment of recent results in Causal Dynamical Triangulations (CDT), a modern formulation of lattice gravity, whose aim is to obtain a theory of quantum gravity nonperturbatively from a scaling limit of the lattice-regularized theory. In this manifestly diffeomorphism-invariant approach one has direct, computational access to a Planckian spacetime regime, which is explored with the help of invariant quantum observables. During the last few years, there have been numerous new and important developments and insights concerning the theory's phase structure, the roles of time, causality, diffeomorphisms and global topology, the application of renormalization group methods and new observables. We will focus on these new results, primarily in four spacetime dimensions, and discuss some of their geometric and physical implications.

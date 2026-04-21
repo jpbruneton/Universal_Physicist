@@ -1,0 +1,7 @@
+Title: Comments on Verlinde's entropic gravity
+Authors: Jong-Phil Lee
+Published: 2010-05-08
+arXiv ID: http://arxiv.org/abs/1005.1347v1
+Categories: hep-th, hep-ph
+Abstract:
+Some comments are given on recently proposed entropic gravity by Verlinde. We focus on the derivation of Newton's law of gravitation. It is shown that consistent classical relations are enough to result in the Newtonian gravity. In our derivation, it is crucial that the entropy is a quarter of the number of states in units of the Boltzmann constant $k_ B$, and the number of states is given by the holographic principle.

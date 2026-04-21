@@ -1,0 +1,7 @@
+Title: A noncommutative view on topology and order
+Authors: Fabien Besnard
+Published: 2008-04-22
+arXiv ID: http://arxiv.org/abs/0804.3551v4
+Categories: math.OA, gr-qc
+Abstract:
+In this paper we put forward the definition of particular subsets on a unital C*-algebra, that we call isocones, and which reduce in the commutative case to the set of continuous non-decreasing functions with real values for a partial order relation defined on the spectrum of the algebra, which satisfies a compatibility condition with the topology (complete separateness). We prove that this space/algebra correspondence is a dual equivalence of categories, which is in fact only a mild generalization of the Gelfand-Naimark duality. Thus we can expect that general isocones could serve to define a notion of noncommutative ordered spaces. We also explore some basic algebraic constructions involving isocones, and classify those which are defined in M_2(C).

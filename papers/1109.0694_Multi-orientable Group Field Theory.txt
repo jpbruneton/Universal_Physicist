@@ -1,0 +1,8 @@
+Title: Multi-orientable Group Field Theory
+Authors: Adrian Tanasa
+Published: 2011-09-04
+arXiv ID: http://arxiv.org/abs/1109.0694v2
+Categories: math.CO, gr-qc
+Abstract:
+Group Field Theories (GFT) are quantum field theories over group manifolds; they can be seen as a generalization of matrix models. GFT Feynman graphs are tensor graphs generalizing ribbon graphs (or combinatorial maps); these graphs are dual not only to manifolds. In order to simplify the topological structure of these various singularities, colored GFT was recently introduced and intensively studied since. We propose here a different simplification of GFT, which we call multi-orientable GFT.
+  We study the relation between multi-orientable GFT Feynman graphs and colorable graphs. We prove that tadfaces and some generalized tadpoles are absent. Some Feynman amplitude computations are performed. A few remarks on the renormalizability of both multi-orientable and colorable GFT are made. A generalization from three-dimensional to four-dimensional theories is also proposed.

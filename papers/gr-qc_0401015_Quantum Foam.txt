@@ -1,0 +1,7 @@
+Title: Quantum Foam
+Authors: Y. Jack Ng
+Published: 2004-01-05
+arXiv ID: http://arxiv.org/abs/gr-qc/0401015v1
+Categories: gr-qc, astro-ph, hep-th, quant-ph
+Abstract:
+Quantum foam, also known as spacetime foam, has its origin in quantum fluctuations of spacetime. Its physics is intimately linked to that of black holes and computation. Arguably it is the source of the holographic principle which severely limits how densely information can be packed in space. Various proposals to detect the foam are briefly discussed. Its detection will provide us with a glimpse of the ultimate structure of space and time.

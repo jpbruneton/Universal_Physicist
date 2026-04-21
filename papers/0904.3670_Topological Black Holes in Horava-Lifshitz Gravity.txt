@@ -1,0 +1,7 @@
+Title: Topological Black Holes in Horava-Lifshitz Gravity
+Authors: Rong-Gen Cai, Li-Ming Cao, Nobuyoshi Ohta
+Published: 2009-04-23
+arXiv ID: http://arxiv.org/abs/0904.3670v3
+Categories: hep-th, gr-qc
+Abstract:
+We find topological (charged) black holes whose horizon has an arbitrary constant scalar curvature $2k$ in Hořava-Lifshitz theory. Without loss of generality, one may take $k=1,0$ and -1. The black hole solution is asymptotically AdS with a nonstandard asymptotic behavior. Using the Hamiltonian approach, we define a finite mass associated with the solution. We discuss the thermodynamics of the topological black holes and find that the black hole entropy has a logarithmic term in addition to an area term. We find a duality in Hawking temperature between topological black holes in Hořava-Lifshitz theory and Einstein's general relativity: the temperature behaviors of black holes with $k=1, 0$ and -1 in Hořava-Lifshitz theory are respectively dual to those of topological black holes with $k=-1, 0$ and 1 in Einstein's general relativity. The topological black holes in Hořava-Lifshitz theory are thermodynamically stable.

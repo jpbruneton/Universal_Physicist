@@ -1,0 +1,7 @@
+Title: Solvable Models of Quantum Black Holes: A Review on Jackiw-Teitelboim Gravity
+Authors: Thomas G. Mertens, Gustavo J. Turiaci
+Published: 2022-10-19
+arXiv ID: http://arxiv.org/abs/2210.10846v2
+Categories: hep-th, cond-mat.str-el, gr-qc
+Abstract:
+We review recent developments in Jackiw-Teitelboim (JT) gravity. This is a simple solvable model of quantum gravity in two dimensions (that arises e.g. from the s-wave sector of higher dimensional gravity systems with spherical symmetry). Due to its solvability, it has proven to be a fruitful toy model to analyze important questions such as the relation between black holes and chaos, the role of wormholes in black hole physics and holography, and the way in which information that falls into a black hole can be recovered.

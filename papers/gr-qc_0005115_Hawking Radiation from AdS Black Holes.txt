@@ -1,0 +1,7 @@
+Title: Hawking Radiation from AdS Black Holes
+Authors: Samuli Hemming, Esko Keski-Vakkuri
+Published: 2000-05-25
+arXiv ID: http://arxiv.org/abs/gr-qc/0005115v2
+Categories: gr-qc
+Abstract:
+We investigate Hawking radiation from black holes in (d+1)-dimensional anti-de Sitter space. We focus on s-waves, make use of the geometrical optics approximation, and follow three approaches to analyze the radiation. First, we compute a Bogoliubov transformation between Kruskal and asymptotic coordinates and compare the different vacua. Second, following a method due to Kraus, Parikh, and Wilczek, we view Hawking radiation as a tunneling process across the horizon and compute the tunneling probablility. This approach uses an anti-de Sitter version of a metric originally introduced by Painleve for Schwarzschild black holes. From the tunneling probability one also finds a leading correction to the semi-classical emission rate arising from the backreaction to the background geometry. Finally, we consider a spherically symmetric collapse geometry and the Bogoliubov transformation between the initial vacuum state and the vacuum of an asymptotic observer.

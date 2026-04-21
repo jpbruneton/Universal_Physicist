@@ -1,0 +1,7 @@
+Title: Quantum Groups, Gravity, and the Generalized Uncertainty Principle
+Authors: Michele Maggiore
+Published: 1993-05-28
+arXiv ID: http://arxiv.org/abs/hep-th/9305163v3
+Categories: hep-th
+Abstract:
+We investigate the relationship between the generalized uncertainty principle in quantum gravity and the quantum deformation of the Poincaré algebra. We find that a deformed Newton-Wigner position operator and the generators of spatial translations and rotations of the deformed Poincaré algebra obey a deformed Heisenberg algebra from which the generalized uncertainty principle follows. The result indicates that in the $κ$-deformed Poincaré algebra a minimal observable length emerges naturally.

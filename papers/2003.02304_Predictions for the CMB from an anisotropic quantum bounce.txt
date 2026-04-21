@@ -1,0 +1,7 @@
+Title: Predictions for the CMB from an anisotropic quantum bounce
+Authors: Ivan Agullo, Javier Olmedo, V. Sreenath
+Published: 2020-03-04
+arXiv ID: http://arxiv.org/abs/2003.02304v2
+Categories: gr-qc, astro-ph.CO
+Abstract:
+We introduce an extension of the standard inflationary paradigm on which the big bang singularity is replaced by an anisotropic bounce. Unlike in the big bang model, cosmological perturbations find an adiabatic regime in the past. We show that this scenario accounts for the observed quadrupolar modulation in the temperature anisotropies of the cosmic microwave background (CMB), and we make predictions for the remaining angular correlation functions E-E, B-B and T-E, together with non-zero temperature-polarization correlations T-B and E-B, that can be used to test our ideas. We base our calculations on the bounce predicted by loop quantum cosmology, but our techniques and conclusions apply to other bouncing models as well.

@@ -1,0 +1,7 @@
+Title: Faster Methods for Contracting Infinite 2D Tensor Networks
+Authors: M. T. Fishman, L. Vanderstraeten, V. Zauner-Stauber, J. Haegeman, F. Verstraete
+Published: 2017-11-16
+arXiv ID: http://arxiv.org/abs/1711.05881v2
+Categories: cond-mat.str-el, quant-ph
+Abstract:
+We revisit the corner transfer matrix renormalization group (CTMRG) method of Nishino and Okunishi for contracting two-dimensional (2D) tensor networks and demonstrate that its performance can be substantially improved by determining the tensors using an eigenvalue solver as opposed to the power method used in CTMRG. We also generalize the variational uniform matrix product state (VUMPS) ansatz for diagonalizing 1D quantum Hamiltonians to the case of 2D transfer matrices and discuss similarities with the corner methods. These two new algorithms will be crucial to improving the performance of variational infinite projected entangled pair state (PEPS) methods.

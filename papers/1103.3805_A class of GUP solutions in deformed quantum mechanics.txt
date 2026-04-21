@@ -1,0 +1,7 @@
+Title: A class of GUP solutions in deformed quantum mechanics
+Authors: Pouria Pedram
+Published: 2011-03-19
+arXiv ID: http://arxiv.org/abs/1103.3805v1
+Categories: hep-th
+Abstract:
+Various candidates of quantum gravity such as string theory, loop quantum gravity and black hole physics all predict the existence of a minimum observable length which modifies the Heisenberg uncertainty principle to so-called Generalized Uncertainty Principle (GUP). This approach results in the modification of the commutation relations and changes all Hamiltonians in quantum mechanics. In this paper, we present a class of physically acceptable solutions for a general commutation relation without directly solving the corresponding generalized Schrodinger equations. These solutions satisfy the boundary conditions and exhibit the effect of the deformed algebra on the energy spectrum. We show that, this procedure prevents us from doing equivalent but lengthy calculations.

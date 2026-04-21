@@ -1,0 +1,7 @@
+Title: Cosmic Topology
+Authors: M. Lachieze-Rey, J. P. Luminet
+Published: 1996-05-06
+arXiv ID: http://arxiv.org/abs/gr-qc/9605010v2
+Categories: gr-qc, astro-ph
+Abstract:
+General relativity does not allow one to specify the topology of space, leaving the possibility that space is multi-- rather than simply--connected. We review the main mathematical properties of multi--connected spaces, and the different tools to classify them and to analyse their properties. Following the mathematical classification, we describe the different possible muticonnected spaces which may be used to construct universe models. We briefly discuss some implications of multi--connectedness for quantum cosmology, and its consequences concerning quantum field theory in the early universe. We consider in details the properties of the cosmological models where space is multi--connected, with emphasis towards observable effects. We then review the analyses of observational results obtained in this context, to search for a possible signature of multi--connectedness, or to constrain the models. They may concern the distribution of images of cosmic objects like galaxies, clusters, quasars,..., or more global effects, mainly those concerning the Cosmic Microwave Background, and the present limits resulting from them.

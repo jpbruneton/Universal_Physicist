@@ -1,0 +1,7 @@
+Title: Fundamental Constants, Entropic Gravity and Nonextensive Equipartition Theorem
+Authors: Jorge Ananias Neto
+Published: 2011-01-14
+arXiv ID: http://arxiv.org/abs/1101.2927v3
+Categories: hep-th, cond-mat.stat-mech
+Abstract:
+By using the Verlinde's formalism[1], we propose that the positive numerical factor, in which Klinkhamer[2] states that it is necessary to define the fundamental length, can be associated to the parameter q of the Tsallis' nonextensive statistical mechanics[3].

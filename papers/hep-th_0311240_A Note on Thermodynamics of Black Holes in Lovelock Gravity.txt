@@ -1,0 +1,7 @@
+Title: A Note on Thermodynamics of Black Holes in Lovelock Gravity
+Authors: Rong-Gen Cai
+Published: 2003-11-25
+arXiv ID: http://arxiv.org/abs/hep-th/0311240v2
+Categories: hep-th, gr-qc
+Abstract:
+The Lovelock gravity consists of the dimensionally extended Euler densities. The geometry and horizon structure of black hole solutions could be quite complicated in this gravity, however, we find that some thermodynamic quantities of the black holes like the mass, Hawking temperature and entropy, have simple forms expressed in terms of horizon radius. The case with black hole horizon being a Ricci flat hypersurface is particularly simple. In that case the black holes are always thermodynamically stable with a positive heat capacity and their entropy still obeys the area formula, which is no longer valid for black holes with positive or negative constant curvature horizon hypersurface. In addition, for black holes in the gravity theory of Ricci scalar plus a $2n$-dimensional Euler density with a positive coefficient, thermodynamically stable small black holes always exist in $D=2n+1$ dimensions, which are absent in the case without the Euler density term, while the thermodynamic properties of the black hole solutions with the Euler density term are qualitatively similar to those of black holes without the Euler density term as $D>2n+1$.

@@ -1,0 +1,7 @@
+Title: Relative Facts of Relational Quantum Mechanics are Incompatible with Quantum Mechanics
+Authors: Jay Lawrence, Marcin Markiewicz, Marek Żukowski
+Published: 2022-08-24
+arXiv ID: http://arxiv.org/abs/2208.11793v2
+Categories: quant-ph
+Abstract:
+Relational Quantum Mechanics (RQM) claims to be an interpretation of quantum theory [see arXiv:2109.09170, which appears in the Oxford Handbook of the History of Interpretation of Quantum Physics]. However, there are significant departures from quantum theory: (i) in RQM measurement outcomes arise from interactions which entangle a system $S$ and an observer $A$ without decoherence, and (ii) such an outcome is a "fact" relative to the observer $A$, but it is not a fact relative to another observer $B$ who has not interacted with $S$ or $A$ during the foregoing measurement process. For $B$ the system $S \otimes A$ remains entangled. We derive a GHZ-like contradiction showing that relative facts described by these statements are incompatible with quantum theory. Hence Relational Quantum Mechanics should not be considered an interpretation of quantum theory, according to a criterion for interpretations that we have introduced. The criterion states that whenever an interpretation introduces a notion of outcomes, these outcomes, whatever they are, must follow the probability distribution specified by the Born rule.

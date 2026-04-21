@@ -1,0 +1,7 @@
+Title: A New Entropic Force Scenario and Holographic Thermodynamics
+Authors: Wei Gu, Miao Li, Rong-Xin Miao
+Published: 2010-11-15
+arXiv ID: http://arxiv.org/abs/1011.3419v2
+Categories: hep-th, astro-ph.CO, gr-qc
+Abstract:
+We propose a new holographic program of gravity in which we introduce a surface stress tensor. Our proposal differs from Verlinde's in several aspects. First, we use an open or a closed screen, a temperature is not necessary but a surface energy density and pressure are introduced. The surface stress tensor is proportional to the extrinsic curvature. The energy we use is Brown-York energy and the equipartiton theorem is violated by a non-vanishing surface pressure. We discuss holographic thermodynamics of a gas of weak gravity and find a chemical potential, and show that Verlinde's program does not lead to a reasonable thermodynamics. The holographic entropy is similar to the Bekenstein entropy bound.

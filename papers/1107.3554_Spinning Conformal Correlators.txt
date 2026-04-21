@@ -1,0 +1,7 @@
+Title: Spinning Conformal Correlators
+Authors: Miguel S. Costa, Joao Penedones, David Poland, Slava Rychkov
+Published: 2011-07-18
+arXiv ID: http://arxiv.org/abs/1107.3554v3
+Categories: hep-th
+Abstract:
+We develop the embedding formalism for conformal field theories, aimed at doing computations with symmetric traceless operators of arbitrary spin. We use an index-free notation where tensors are encoded by polynomials in auxiliary polarization vectors. The efficiency of the formalism is demonstrated by computing the tensor structures allowed in n-point conformal correlation functions of tensors operators. Constraints due to tensor conservation also take a simple form in this formalism. Finally, we obtain a perfect match between the number of independent tensor structures of conformal correlators in d dimensions and the number of independent structures in scattering amplitudes of spinning particles in (d+1)-dimensional Minkowski space.

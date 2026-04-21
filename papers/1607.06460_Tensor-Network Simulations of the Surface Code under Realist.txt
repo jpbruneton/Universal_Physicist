@@ -1,0 +1,7 @@
+Title: Tensor-Network Simulations of the Surface Code under Realistic Noise
+Authors: Andrew S. Darmawan, David Poulin
+Published: 2016-07-21
+arXiv ID: http://arxiv.org/abs/1607.06460v2
+Categories: quant-ph
+Abstract:
+The surface code is a many-body quantum system, and simulating it in generic conditions is computationally hard. While the surface code is believed to have a high threshold, the numerical simulations used to establish this threshold are based on simplified noise models. We present a tensor-network algorithm for simulating error correction with the surface code under arbitrary local noise. We use this algorithm to study the threshold and the subthreshold behavior of the amplitude-damping and systematic rotation channels. We also compare these results to those obtained by making standard approximations to the noise models.

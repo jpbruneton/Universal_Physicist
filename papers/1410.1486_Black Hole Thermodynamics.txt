@@ -1,0 +1,7 @@
+Title: Black Hole Thermodynamics
+Authors: S. Carlip
+Published: 2014-10-06
+arXiv ID: http://arxiv.org/abs/1410.1486v2
+Categories: gr-qc
+Abstract:
+The discovery in the early 1970s that black holes radiate as black bodies has radically affected our understanding of general relativity, and offered us some early hints about the nature of quantum gravity. In this chapter I will review the discovery of black hole thermodynamics and summarize the many independent ways of obtaining the thermodynamic and (perhaps) statistical mechanical properties of black holes. I will then describe some of the remaining puzzles, including the nature of the quantum microstates, the problem of universality, and the information loss paradox.

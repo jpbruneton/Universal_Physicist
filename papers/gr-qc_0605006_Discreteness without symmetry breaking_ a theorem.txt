@@ -1,0 +1,7 @@
+Title: Discreteness without symmetry breaking: a theorem
+Authors: Luca Bombelli, Joe Henson, Rafael D. Sorkin
+Published: 2006-05-01
+arXiv ID: http://arxiv.org/abs/gr-qc/0605006v1
+Categories: gr-qc
+Abstract:
+This paper concerns sprinklings into Minkowski space (Poisson processes). It proves that there exists no equivariant measurable map from sprinklings to spacetime directions (even locally). Therefore, if a discrete structure is associated to a sprinkling in an intrinsic manner, then the structure will not pick out a preferred frame, locally or globally. This implies that the discreteness of a sprinkled causal set will not give rise to ``Lorentz breaking'' effects like modified dispersion relations. Another consequence is that there is no way to associate a finite-valency graph to a sprinkling consistently with Lorentz invariance.

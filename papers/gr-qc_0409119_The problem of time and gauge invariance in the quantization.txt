@@ -1,0 +1,7 @@
+Title: The problem of time and gauge invariance in the quantization of cosmological models. II. Recent developments in the path integral approach
+Authors: T. P. Shestakova, C. Simeone
+Published: 2004-09-30
+arXiv ID: http://arxiv.org/abs/gr-qc/0409119v1
+Categories: gr-qc
+Abstract:
+The paper is the second part of the work devoted to the problem of time in quantum cosmology. Here we consider in detail two approaches within the scope of Feynman path integration scheme: The first, by Simeone and collaborators, is gauge-invariant and lies within the unitary approach to a consistent quantization of gravity. It is essentially based on the idea of deparametrization (reduction to physical degrees of freedom) as a first step before quantization. The other approach by Savchenko, Shestakova and Vereshkov is rather radical. It is an attempt to take into account peculiarities of the Universe as a system without asymptotic states that leads to the conclusion that quantum geometrodynamics constructed for such a system is, in general, a gauge-noninvariant theory. However, this theory is shown to be mathematically consistent and the problem of time is solved in this theory in a natural way.

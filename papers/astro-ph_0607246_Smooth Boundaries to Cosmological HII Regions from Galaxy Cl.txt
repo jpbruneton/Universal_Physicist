@@ -1,0 +1,7 @@
+Title: Smooth Boundaries to Cosmological HII Regions from Galaxy Clustering
+Authors: Stuart Wyithe, Abraham Loeb
+Published: 2006-07-12
+arXiv ID: http://arxiv.org/abs/astro-ph/0607246v1
+Categories: astro-ph
+Abstract:
+The HII regions around quasars and galaxies at redshifts beyond the epoch of reionisation will provide prime targets for upcoming 21cm campaigns using a new generation of low-frequency radio observatories. Here we show that the boundaries of these HII regions will not be sharp. Rather, the clustering of sources near massive galaxies results in a neutral fraction that rises gradually towards large radii from an interior value near zero. A neutral fraction corresponding to the global background value is typically reached at a distance of 2-5 times the radius of the HII region around the central massive galaxy.

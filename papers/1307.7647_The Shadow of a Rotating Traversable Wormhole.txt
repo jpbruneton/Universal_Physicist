@@ -1,0 +1,7 @@
+Title: The Shadow of a Rotating Traversable Wormhole
+Authors: Petya G. Nedkova, Vassil Tinchev, Stoytcho S. Yazadjiev
+Published: 2013-07-29
+arXiv ID: http://arxiv.org/abs/1307.7647v1
+Categories: gr-qc, astro-ph.HE
+Abstract:
+We explore the shadow of certain class of rotating traversable wormholes within classical general relativity. The images depend on the angular momentum of the wormhole, and the inclination angle of the observer. We compare the results with the case of the Kerr black hole. For small angular momenta the shadows for the two solutions are nearly identical, however with the increasing of the angular momentum they start to deviate considerably.

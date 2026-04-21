@@ -1,0 +1,7 @@
+Title: Holographic Entanglement Entropy and Fermi Surfaces
+Authors: Edgar Shaghoulian
+Published: 2011-12-12
+arXiv ID: http://arxiv.org/abs/1112.2702v2
+Categories: hep-th, cond-mat.str-el
+Abstract:
+The entanglement entropy in theories with a Fermi surface is known to produce a logarithmic violation of the usual area law behavior. We explore the possibility of producing this logarithmic violation holographically by analyzing the IR regions of the bulk geometries dual to such theories. The geometry of Ogawa, Takayanagi, and Ugajin is explored and shown to have a null curvature singularity for all values of parameters, except for dynamical critical exponent 3/2 in four dimensions. The results are extended to general hyperscaling violation exponent. We explore strings propagating through the singularity and show that they become infinitely excited, suggesting the singularity is not resolved by stringy effects and may become a full-fledged "stringularity." An Einstein-Maxwell-dilaton embedding of the nonsingular geometry is exhibited where the dilaton asymptotes to a constant in the IR. The unique nonsingular geometry in any given number of dimensions is proposed as a model to study the T=0 limit of a theory with a Fermi surface.

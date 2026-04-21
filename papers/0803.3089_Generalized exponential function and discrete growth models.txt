@@ -1,0 +1,7 @@
+Title: Generalized exponential function and discrete growth models
+Authors: Alexandre Souto Martinez, Rodrigo Silva Gonzalez, Aquino Lauri Espindola
+Published: 2008-03-20
+arXiv ID: http://arxiv.org/abs/0803.3089v4
+Categories: physics.bio-ph
+Abstract:
+Here we show that a particular one-parameter generalization of the exponential function is suitable to unify most of the popular one-species discrete population dynamics models into a simple formula. A physical interpretation is given to this new introduced parameter in the context of the continuous Richards model, which remains valid for the discrete case. From the discretization of the continuous Richards' model (generalization of the Gompertz and Verhuslt models), one obtains a generalized logistic map and we briefly study its properties. Notice, however that the physical interpretation for the introduced parameter persists valid for the discrete case. Next, we generalize the (scramble competition) $θ$-Ricker discrete model and analytically calculate the fixed points as well as their stability. In contrast to previous generalizations, from the generalized $θ$-Ricker model one is able to retrieve either scramble or contest models.

@@ -1,0 +1,7 @@
+Title: Quantum black holes in Loop Quantum Gravity
+Authors: Rodolfo Gambini, Javier Olmedo, Jorge Pullin
+Published: 2013-10-22
+arXiv ID: http://arxiv.org/abs/1310.5996v3
+Categories: gr-qc
+Abstract:
+We study the quantization of spherically symmetric vacuum spacetimes within loop quantum gravity. In particular, we give additional details about our previous work in which we showed that one could complete the quantization the model and that the singularity inside black holes is resolved. Moreover, we consider an alternative quantization based on a slightly different kinematical Hilbert space. The ambiguity in kinematical spaces stems from how one treats the periodicity of one of the classical variables in these models. The corresponding physical Hilbert spaces solve the diffeomorphism and Hamiltonian constraint but their intrinsic structure is radically different depending on the kinematical Hilbert space one started from. In both cases there are quantum observables that do not have a classical counterpart. However, one can show that at the end of the day, by examining Dirac observables, both quantizations lead to the same physical predictions.

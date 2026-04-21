@@ -1,0 +1,7 @@
+Title: New generalized uncertainty principle with parameter adaptability for the minimum length
+Authors: Xin-Dong Du, Chao-Yun Long
+Published: 2022-08-27
+arXiv ID: http://arxiv.org/abs/2208.12918v2
+Categories: gr-qc, hep-th
+Abstract:
+There have been many papers suggesting that the parameter of the generalized uncertainty principle should be negative rather than positive in some specific scenarios, and the negative parameter can remove the minimum length. However, the minimum length is a model-independent feature of quantum gravity and it should not be affected by the specific scenarios. In order to solve this contradiction, we derive a new generalized uncertainty principle to reflect a fixed and unified minimum length in both cases of positive and negative parameters.

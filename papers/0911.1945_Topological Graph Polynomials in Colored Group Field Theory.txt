@@ -1,0 +1,7 @@
+Title: Topological Graph Polynomials in Colored Group Field Theory
+Authors: Razvan Gurau
+Published: 2009-11-10
+arXiv ID: http://arxiv.org/abs/0911.1945v1
+Categories: hep-th, math-ph
+Abstract:
+In this paper we analyze the open Feynman graphs of the Colored Group Field Theory introduced in [arXiv:0907.2582]. We define the boundary graph $\cG_{\partial}$ of an open graph $\cG$ and prove it is a cellular complex. Using this structure we generalize the topological (Bollobas-Riordan) Tutte polynomials associated to (ribbon) graphs to topological polynomials adapted to Colored Group Field Theory graphs in arbitrary dimension.

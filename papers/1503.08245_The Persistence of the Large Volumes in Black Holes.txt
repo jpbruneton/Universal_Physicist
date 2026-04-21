@@ -1,0 +1,7 @@
+Title: The Persistence of the Large Volumes in Black Holes
+Authors: Yen Chin Ong
+Published: 2015-03-27
+arXiv ID: http://arxiv.org/abs/1503.08245v4
+Categories: gr-qc, hep-th
+Abstract:
+Classically, black holes admit maximal interior volumes that grow asymptotically linearly in time. We show that such volumes remain large when Hawking evaporation is taken into account. Even if a charged black hole approaches the extremal limit during this evolution, its volume continues to grow; although an exactly extremal black hole does not have a "large interior". We clarify this point and discuss the implications of our results to the information loss and firewall paradoxes.

@@ -1,0 +1,7 @@
+Title: Barrow holographic dark energy
+Authors: Emmanuel N. Saridakis
+Published: 2020-05-08
+arXiv ID: http://arxiv.org/abs/2005.04115v3
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+We formulate Barrow holographic dark energy, by applying the usual holographic principle at a cosmological framework, but using the Barrow entropy instead of the standard Bekenstein-Hawking one. The former is an extended black-hole entropy that arises due to quantum-gravitational effects which deform the black-hole surface by giving it an intricate, fractal form. We extract a simple differential equation for the evolution of the dark energy density parameter, which possesses standard holographic dark energy as a limiting sub-case, and we show that the scenario can describe the universe thermal history, with the sequence of matter and dark energy eras. Additionally, the new Barrow exponent $Δ$ significantly affects the dark energy equation of state, and according to its value it can lead it to lie in the quintessence regime, in the phantom regime, or experience the phantom-divide crossing during the evolution.

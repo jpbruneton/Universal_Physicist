@@ -1,0 +1,7 @@
+Title: Correlations on weakly time-dependent transcritical white-hole flows
+Authors: Johan Fourdrinoy, Scott Robertson, Nicolas James, Alessandro Fabbri, Germain Rousseaux
+Published: 2021-12-20
+arXiv ID: http://arxiv.org/abs/2112.10472v2
+Categories: gr-qc, physics.flu-dyn
+Abstract:
+We report on observations made on a run of transcritical flows over an obstacle in a narrow channel. Downstream from the obstacle, the flows decelerate from supercritical to subcritical, typically with an undulation on the subcritical side (known in hydrodynamics as an undular hydraulic jump).  In the Analogue Gravity context, this transition corresponds to a white-hole horizon. Free surface deformations are analyzed, mainly via the two-point correlation function which shows the presence of a checkerboard pattern in the vicinity of the undulation. In non-gated flows where the white-hole horizon occurs far downstream from the obstacle, this checkerboard pattern is shown to be due to low-frequency fluctuations associated with slow longitudinal movement of the undulation. It can thus be considered as an artifact due to a time-varying background. In gated flows, however, the undulation is typically "attached" to the obstacle, and the fluctuations associated with its movement are strongly suppressed. In this case, the observed correlation pattern is likely due to a stochastic ensemble of surface waves, scattering on a background that is essentially stationary.

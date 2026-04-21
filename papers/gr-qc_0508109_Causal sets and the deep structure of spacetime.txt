@@ -1,0 +1,7 @@
+Title: Causal sets and the deep structure of spacetime
+Authors: Fay Dowker
+Published: 2005-08-26
+arXiv ID: http://arxiv.org/abs/gr-qc/0508109v1
+Categories: gr-qc, hep-th
+Abstract:
+The causal set approach to quantum gravity embodies the concepts of causality and discreteness. This article explores some foundational and conceptual issues within causal set theory.

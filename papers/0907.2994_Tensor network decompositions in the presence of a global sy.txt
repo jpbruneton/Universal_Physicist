@@ -1,0 +1,7 @@
+Title: Tensor network decompositions in the presence of a global symmetry
+Authors: Sukhwinder Singh, Robert N. C. Pfeifer, Guifre Vidal
+Published: 2009-07-17
+arXiv ID: http://arxiv.org/abs/0907.2994v2
+Categories: cond-mat.str-el
+Abstract:
+Tensor network decompositions offer an efficient description of certain many-body states of a lattice system and are the basis of a wealth of numerical simulation algorithms. We discuss how to incorporate a global symmetry, given by a compact, completely reducible group G, in tensor network decompositions and algorithms. This is achieved by considering tensors that are invariant under the action of the group G. Each symmetric tensor decomposes into two types of tensors: degeneracy tensors, containing all the degrees of freedom, and structural tensors, which only depend on the symmetry group. In numerical calculations, the use of symmetric tensors ensures the preservation of the symmetry, allows selection of a specific symmetry sector, and significantly reduces computational costs. On the other hand, the resulting tensor network can be interpreted as a superposition of exponentially many spin networks. Spin networks are used extensively in loop quantum gravity, where they represent states of quantum geometry. Our work highlights their importance also in the context of tensor network algorithms, thus setting the stage for cross-fertilization between these two areas of research.

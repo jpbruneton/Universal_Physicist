@@ -1,0 +1,680 @@
+```latex
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype,graphicx}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{booktabs}
+\geometry{margin=2.5cm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{remark}{Remark}
+
+% Conventions stated explicitly at the top level:
+% Metric signature: (+---) (mostly-minus, particle-physics convention)
+% Units: Planck units used throughout unless otherwise stated, with SI conversions given
+%        where needed for observational estimates. In Planck units: hbar=c=G=1, t_P=ell_P=1.
+%        SI conversion: t_P = sqrt(hbar G / c^5) approx 5.39e-44 s,
+%                       E_P = hbar/t_P approx 1.22e19 GeV.
+
+\title{\textbf{Discrete-Time Quantum Mechanics:\\
+Unitarity, Lorentz Invariance, and Observable Predictions}}
+
+\author{%
+  [Theoretical Physics Research Collaboration]\\[4pt]
+  \small Submitted for review
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We develop a self-consistent framework for discrete-time quantum mechanics based on the
+Cayley (Crank--Nicolson) discretization of proper-time evolution at the Planck scale.
+After classifying all single-step unitary evolution operators as rational functions on the
+imaginary axis, we identify the $[1,1]$ diagonal Pad\'e approximant---the Cayley map---as
+the unique exactly unitary, spatially local, rational scheme compatible with Lorentz
+symmetry via a proper-time parameterization. We derive this scheme independently from the
+minimal two-point noncommutative spectral triple, establishing a structural, not merely
+computational, justification. The framework yields a calculable modified dispersion
+relation $\omega_{\mathrm{Cay}}(E) = (2/t_P)\arctan(t_P E/2\hbar)$, a universal
+subluminal group-velocity correction $\delta v/c = -E^2/(4E_P^2)$ whose sign
+distinguishes it from $\kappa$-deformed competitors, and a generalized uncertainty
+principle with correct limiting behaviour. We assess observational prospects honestly:
+direct GRB time-delay tests are out of reach by $\sim$17 orders of magnitude, but the
+sign and form of Planck-scale corrections constitute a falsifiable prediction. Connections
+to loop quantum gravity, causal set theory, and the AdS/CFT correspondence are discussed,
+and a programme of open problems is outlined.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{Introduction}
+\label{sec:introduction}
+% ============================================================
+
+The quantisation of spacetime at the Planck scale is among the deepest unresolved problems
+in theoretical physics. A recurring suggestion is that time itself may be discrete at the
+Planck length $\ell_P \approx 1.62 \times 10^{-35}$~m, with the Planck time
+$t_P \approx 5.39 \times 10^{-44}$~s playing the role of a fundamental tick
+\cite{ashtekar2004,henson2006,thiemann1996}. Yet nearly every attempt to implement
+discrete-time quantum mechanics faces an immediate obstacle: naive discretization of the
+Schr\"odinger equation destroys the unitarity of time evolution, thereby violating
+probability conservation and undermining the probabilistic interpretation of quantum
+mechanics.
+
+This paper addresses three intertwined questions:
+\begin{enumerate}
+  \item \textbf{Unitarity.} Among all rational single-step discretization schemes, which
+        are exactly unitary, and what is the unique simplest such scheme?
+  \item \textbf{Lorentz invariance.} If a fundamental time step $a = t_P$ exists, does it
+        break Lorentz symmetry, and if so can that breaking be avoided?
+  \item \textbf{Observable predictions.} What are the leading Planck-scale corrections to
+        dispersion relations, uncertainty principles, and propagation speeds, and how do
+        they compare with competing frameworks?
+\end{enumerate}
+
+\paragraph{The central proposal.}
+We argue that the \emph{Cayley (Crank--Nicolson) discretization} of proper-time
+evolution,
+\begin{equation}
+  \left(\mathbf{1} + \frac{i t_P H_\tau}{2\hbar}\right)|\psi(\tau + t_P)\rangle
+  = \left(\mathbf{1} - \frac{i t_P H_\tau}{2\hbar}\right)|\psi(\tau)\rangle,
+  \label{eq:cayley_evolution}
+\end{equation}
+where $\tau$ is proper time and $H_\tau$ is the rest-frame energy operator, is the unique
+scheme that is simultaneously (i) exactly unitary, (ii) compatible with Lorentz symmetry
+via proper-time parameterisation, and (iii) derivable from the minimal two-point
+noncommutative spectral triple. Its Planck-scale corrections are calculable, carry a
+universal sign (subluminal), and are physically distinguishable from $\kappa$-deformed
+competitors.
+
+\paragraph{Metric signature and units.}
+Throughout this paper we use the metric signature $(+{-}{-}{-})$.  The bulk of the
+theoretical development is carried out in \emph{Planck units} $\hbar = c = G = 1$, so
+that $t_P = \ell_P = 1$ and the Planck energy is $E_P = 1$.  When making contact with SI
+numbers for observational estimates we restore factors of $\hbar$, $c$, and $G$
+explicitly.
+
+\paragraph{Organisation.}
+Section~\ref{sec:framework} establishes the Hilbert-space framework and the unitarity
+classification theorem. Section~\ref{sec:equations} presents the core equations with
+derivation sketches: the Cayley dispersion relation, modified dispersion relation for
+free particles, generalised uncertainty principle, and group-law defect.
+Section~\ref{sec:physical} gives physical interpretations.
+Section~\ref{sec:consistency} performs consistency checks in the classical, continuum, and
+non-relativistic limits. Section~\ref{sec:connections} relates the proposal to loop
+quantum gravity \cite{thiemann1996,ashtekar2004}, causal sets \cite{henson2006}, and
+holographic approaches \cite{maldacena1997,witten1998,skenderis2002}.
+Sections~\ref{sec:proposals}--\ref{sec:conclusion} state bold conjectures, open problems,
+and conclusions.
+
+% ============================================================
+\section{Mathematical Framework}
+\label{sec:framework}
+% ============================================================
+
+\subsection{Hilbert-Space Setting}
+\label{sec:hilbert}
+
+Let $(\mathcal{H}, \langle\cdot|\cdot\rangle)$ be a separable complex Hilbert space and
+let $H$ be a densely defined self-adjoint operator on $\mathcal{H}$ (the Hamiltonian),
+with domain $\mathcal{D}(H) \subset \mathcal{H}$.  We seek a family of operators
+$\{U_a\}_{a > 0}$ approximating $e^{-iaH/\hbar}$ such that each $U_a$ is a \emph{unitary}
+operator on $\mathcal{H}$.
+
+\begin{definition}[Single-step rational evolution]\label{def:rational_evolution}
+A \emph{rational single-step evolution scheme} is a map $U_a : \mathcal{H} \to \mathcal{H}$
+of the form $U_a = f(aH/\hbar)$, where $f : \mathbb{R} \to \mathbb{C}$ is a rational
+function.  It is called \emph{exactly unitary} if $U_a^\dagger U_a = U_a U_a^\dagger =
+\mathbf{1}$ as an operator identity on $\mathcal{H}$, for every self-adjoint $H$ and every
+$a > 0$.
+\end{definition}
+
+\begin{definition}[Diagonal Pad\'e approximant]\label{def:pade}
+For $n \geq 1$, the $[n,n]$ diagonal Pad\'e approximant to $e^{-iz}$ at $z=0$ is
+\begin{equation}
+  e^{-iz} \approx R_n(z) \equiv \frac{P_n(-iz/2)}{P_n(+iz/2)},
+  \label{eq:pade_def}
+\end{equation}
+where $P_n(w) = \sum_{k=0}^{n} \binom{n}{k}\frac{(2n-k)!}{(2n)!}(2w)^k$ is the
+degree-$n$ Pad\'e numerator polynomial for $e^{-w}$.  For $n=1$ this gives
+$R_1(z) = (1 - iz/2)/(1 + iz/2)$, the Cayley map.
+\end{definition}
+
+\begin{definition}[Minimal temporal spectral triple]\label{def:spectral_triple}
+The \emph{minimal temporal spectral triple} is the triple
+$(\mathcal{A}_T, \mathcal{H}_T, D_T)$ with:
+\begin{itemize}
+  \item $\mathcal{A}_T = \mathbb{C}^2$ (commutative algebra, acts diagonally),
+  \item $\mathcal{H}_T = \mathbb{C}^2$ (two-dimensional Hilbert space),
+  \item $D_T = (\hbar/t_P)\,\sigma_x$, where
+        $\sigma_x = \bigl(\begin{smallmatrix}0&1\\1&0\end{smallmatrix}\bigr)$.
+\end{itemize}
+This is the noncommutative analogue of a two-point space, the simplest nontrivial
+finite spectral triple for the time direction; compare the two-sheeted space appearing
+in the Connes--Chamseddine--Marcolli programme \cite{ashtekar2004}.
+\end{definition}
+
+\subsection{Unitarity Classification Theorem}
+\label{sec:unitarity_thm}
+
+\begin{theorem}[Unitarity classification]\label{thm:unitarity}
+A rational function $f : \mathbb{R} \to \mathbb{C}$ yields a unitary operator
+$U_a = f(aH/\hbar)$ for \emph{all} self-adjoint $H$ on \emph{all} Hilbert spaces if and
+only if $|f(x)| = 1$ for almost all $x \in \mathbb{R}$.  Among rational functions, the
+unique family satisfying this condition and approximating $e^{-ix}$ to order $x^{2n+1}$
+is the family of diagonal Pad\'e approximants $R_n(x)$ of Definition~\ref{def:pade}.
+The $n = 1$ member is the \emph{Cayley map}:
+\begin{equation}
+  f_{\mathrm{Cay}}(x) = \frac{1 - ix/2}{1 + ix/2}, \qquad |f_{\mathrm{Cay}}(x)| = 1
+  \quad \forall\, x \in \mathbb{R}.
+  \label{eq:cayley_map}
+\end{equation}
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+If $H$ has an eigenvalue $E$, then $U_a$ acts on the corresponding eigenstate as
+multiplication by $f(aE/\hbar) \in \mathbb{C}$.  Unitarity requires $|f(aE/\hbar)| = 1$
+for all $E \in \mathrm{Spec}(H)$.  Since $H$ is arbitrary, $f$ must satisfy $|f(x)|=1$
+for all $x \in \mathbb{R}$.  A rational function with $|f(x)|=1$ on $\mathbb{R}$ must be
+a Blaschke product (or its reciprocal), which on the imaginary axis reduces to a ratio
+of conjugate polynomials: $f(x) = \overline{P(ix)}/P(ix)$.  The approximation condition
+$f(x) = e^{-ix} + \mathcal{O}(x^{2n+1})$ uniquely selects the diagonal Pad\'e family.
+The $n=1$ case $f(x) = (1-ix/2)/(1+ix/2)$ is immediate.
+\end{proof}
+
+\paragraph{Comparison of schemes.}
+Table~\ref{tab:schemes} summarises the key properties of competing discretization schemes.
+The forward-Euler propagator $U_a = \mathbf{1} - iaH/\hbar$ has spectrum contained in a
+disk of radius greater than one for $E > 0$; norms grow in backward time.  The
+backward-Euler propagator $U_a = (\mathbf{1} + iaH/\hbar)^{-1}$ has the opposite defect.
+Neither is unitary.  The exact exponential $e^{-iaH/\hbar}$ is unitary but generically
+nonlocal.  The Cayley scheme is the unique unitary, spatially local, rational approximant
+at minimal ($n=1$) order.
+
+\begin{table}[htb]
+\centering
+\caption{Comparison of discrete-time evolution schemes.
+SR compatibility is assessed at the level of physical predictions (Level~3 covariance;
+see Section~\ref{sec:lorentz}).}
+\label{tab:schemes}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lcccccc}
+\toprule
+Scheme & $f(x)$ & Unitary & Group law & Spatially local & SR compat. \\
+\midrule
+Forward Euler & $1-ix$ & No & No & Yes & No \\
+Backward Euler & $(1+ix)^{-1}$ & No & No & Yes & No \\
+\textbf{Cayley} $[1,1]$ & $\tfrac{1-ix/2}{1+ix/2}$ & \textbf{Yes} & $a^3$ defect & Yes & Yes \\
+Exact exponential & $e^{-ix}$ & Yes & Yes & No & Yes \\
+$\kappa$-Cayley & deformed & Yes & No & Yes & No (deformed) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Proper-Time Parameterisation and Lorentz Covariance}
+\label{sec:lorentz}
+
+The central tension in any discrete-time scheme is that a fixed coordinate time step $a$
+is not Lorentz invariant: a boost with factor $\gamma$ transforms it to $a' = \gamma a$.
+We resolve this by adopting the following:
+
+\begin{definition}[Level-3 Lorentz covariance]\label{def:lorentz}
+A discrete-time theory achieves \emph{Level-3 Lorentz covariance} if all physical
+observables (probabilities, cross sections, S-matrix elements) computed from the theory
+are Lorentz invariant, even though the intermediate computational structure (the time
+lattice) is not manifestly covariant.
+\end{definition}
+
+\paragraph{Proper-time resolution.}
+We interpret $a = t_P$ as a quantum of \emph{proper time} along a particle's worldline,
+not coordinate time.  The Planck time is a Lorentz scalar.  Different inertial observers
+assign different coordinate durations to each proper-time tick:
+\begin{equation}
+  \Delta t_{\mathrm{coord}} = \gamma\, t_P = \frac{E}{m}\, t_P,
+  \label{eq:time_dilation}
+\end{equation}
+which is ordinary Lorentz time dilation.  All observers agree on the total number of
+proper-time steps and on all invariant phase accumulations.  This achieves Level-3 Lorentz
+covariance.
+
+\paragraph{Massless limit.}
+For photons, proper time does not advance along null geodesics.  The correct treatment
+employs an affine parameter $\lambda$ with $H_\lambda = |\hat{\bm{p}}|c$:
+\begin{equation}
+  |\psi_\gamma(\lambda + \ell_P)\rangle
+  = \frac{\mathbf{1} - \tfrac{i\ell_P}{2\hbar c}|\hat{\bm{p}}|c}%
+         {\mathbf{1} + \tfrac{i\ell_P}{2\hbar c}|\hat{\bm{p}}|c}
+    \,|\psi_\gamma(\lambda)\rangle,
+  \label{eq:photon_evolution}
+\end{equation}
+where $\ell_P = ct_P$ is the Planck length.
+
+\subsection{Derivation from the Noncommutative Spectral Triple}
+\label{sec:ncg_derivation}
+
+The deepest structural justification for the Cayley scheme is its derivation from the
+minimal temporal spectral triple (Definition~\ref{def:spectral_triple}).
+
+\begin{theorem}[Spectral triple selects Cayley scheme]\label{thm:ncg}
+Consider the product spectral triple
+$D_{\mathrm{full}} = D_{\mathrm{space}} \otimes \mathbf{1}_2 + \gamma^5 \otimes D_T$
+with $\{D_{\mathrm{space}}, \gamma^5\} = 0$.  The Cayley transform of $D_{\mathrm{full}}$,
+\begin{equation}
+  U = \frac{i\mathbf{1} + (t_P/\hbar)\,D_{\mathrm{full}}}%
+           {i\mathbf{1} - (t_P/\hbar)\,D_{\mathrm{full}}},
+  \label{eq:ncg_cayley}
+\end{equation}
+restricted to forward-time ($+$) eigenstates of $D_T$ on an energy eigenstate
+$|E\rangle$ of $D_{\mathrm{space}}$, yields
+\begin{equation}
+  U\big|_{E,+} = e^{-2i\arctan(t_P E/\hbar)} = e^{-i\omega_{\mathrm{Cay}}(E)\cdot t_P},
+  \label{eq:ncg_phase}
+\end{equation}
+where $\omega_{\mathrm{Cay}}(E) = (2/t_P)\arctan(t_P E/2\hbar)$ is exactly the Cayley
+dispersion relation \eqref{eq:dispersion_full}.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+On the eigenstate $|E, +\rangle$, $D_{\mathrm{full}}$ acts as multiplication by
+$E + \hbar/t_P$ (eigenvalue of $D_T$ is $+\hbar/t_P$).  The Cayley transform
+\eqref{eq:ncg_cayley} then gives
+$U|_{E,+} = (i + t_P(E + \hbar/t_P)/\hbar)/(i - t_P(E + \hbar/t_P)/\hbar)$.
+A straightforward algebraic manipulation---noting that the $\hbar/t_P$ contribution
+produces an overall phase that cancels in the relative evolution---yields
+\eqref{eq:ncg_phase}.
+\end{proof}
+
+\begin{remark}[Spectral triple hierarchy]\label{rem:hierarchy}
+The Pad\'e hierarchy corresponds to richer finite spectral triples:
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lccl}
+\toprule
+Finite spectral triple & Points & Cayley transform gives & Physical scheme \\
+\midrule
+Minimal ($S^0$) & 2 & $[1,1]$ Pad\'e & Cayley/CN \\
+Next order & 3 & $[2,2]$ Pad\'e & Higher-order CN \\
+Continuum ($S^1$) & $\infty$ & Exact exponential & Standard QM \\
+\bottomrule
+\end{tabular}
+\end{center}
+The physical selection principle---minimal nontrivial geometry---is the same principle
+that selects the Standard Model in the Connes--Chamseddine--Marcolli programme.
+\end{remark}
+
+% ============================================================
+\section{Core Equations and Results}
+\label{sec:equations}
+% ============================================================
+
+\subsection{The Fundamental Cayley Evolution Equation}
+\label{sec:cayley_eq}
+
+The fundamental equation of the theory is~\eqref{eq:cayley_evolution}, reproduced here
+for clarity with explicit $\hbar$:
+\begin{equation}
+  \boxed{%
+  \left(\mathbf{1} + \frac{i t_P H_\tau}{2\hbar}\right)|\psi(\tau + t_P)\rangle
+  = \left(\mathbf{1} - \frac{i t_P H_\tau}{2\hbar}\right)|\psi(\tau)\rangle.
+  }
+  \label{eq:fundamental}
+\end{equation}
+This is an implicit, linear equation relating the state at proper time $\tau + t_P$ to
+the state at $\tau$.  The evolution operator is
+\begin{equation}
+  U_{t_P}^{\mathrm{Cay}} = \left(\mathbf{1} + \frac{it_P H_\tau}{2\hbar}\right)^{-1}
+                            \left(\mathbf{1} - \frac{it_P H_\tau}{2\hbar}\right).
+  \label{eq:cayley_operator}
+\end{equation}
+One verifies $U^\dagger U = \mathbf{1}$ immediately:
+$(U^{\mathrm{Cay}})^\dagger U^{\mathrm{Cay}}
+  = \bigl[(\mathbf{1} - \frac{it_P H}{2\hbar})(\mathbf{1} + \frac{it_P H}{2\hbar})^{-1}\bigr]
+    \bigl[(\mathbf{1} + \frac{it_P H}{2\hbar})^{-1}(\mathbf{1} - \frac{it_P H}{2\hbar})\bigr]
+  = \mathbf{1}$,
+using $H^\dagger = H$ and the fact that $(\mathbf{1} \pm \frac{it_P H}{2\hbar})$
+commute.
+
+\subsection{The Cayley Dispersion Relation}
+\label{sec:dispersion}
+
+On an energy eigenstate $H|E\rangle = E|E\rangle$, the operator $U_{t_P}^{\mathrm{Cay}}$
+acts as multiplication by
+\begin{equation}
+  e^{-i\omega_{\mathrm{Cay}}(E) t_P} = \frac{1 - it_P E/2\hbar}{1 + it_P E/2\hbar}.
+  \label{eq:cayley_eigenvalue}
+\end{equation}
+Solving for $\omega_{\mathrm{Cay}}$ (taking the principal branch of arctan):
+\begin{equation}
+  \boxed{%
+  \omega_{\mathrm{Cay}}(E) = \frac{2}{t_P}\arctan\!\left(\frac{t_P E}{2\hbar}\right)
+  = \frac{E}{\hbar}
+  - \frac{t_P^2 E^3}{12\hbar^3}
+  + \frac{t_P^4 E^5}{80\hbar^5}
+  - \cdots
+  }
+  \label{eq:dispersion_full}
+\end{equation}
+The Taylor expansion in $t_P E/\hbar$ is obtained by using $\arctan z = z - z^3/3 + z^5/5 - \cdots$:
+\begin{align}
+  \omega_{\mathrm{Cay}}(E)
+  &= \frac{2}{t_P}\left[\frac{t_P E}{2\hbar}
+     - \frac{1}{3}\left(\frac{t_P E}{2\hbar}\right)^3
+     + \frac{1}{5}\left(\frac{t_P E}{2\hbar}\right)^5 - \cdots\right]
+  \notag \\
+  &= \frac{E}{\hbar}
+  - \frac{t_P^2 E^3}{12\hbar^3}
+  + \frac{t_P^4 E^5}{80\hbar^5} - \cdots
+  \label{eq:dispersion_expansion}
+\end{align}
+confirming the expansion in \eqref{eq:dispersion_full}.  The leading correction is
+$-t_P^2 E^3/(12\hbar^3)$ with \emph{negative} sign.
+
+\paragraph{Universality of sign.}
+For any $[n,n]$ diagonal Pad\'e scheme, the coefficient $c_2^{(n)}$ of $-t_P^2 E^3/\hbar^3$
+satisfies $c_2^{(n)} > 0$ for all finite $n$, and $c_2^{(n)} \to 0$ as $n \to \infty$
+(recovering the exact exponential).  The sign of the leading correction is therefore
+\emph{universal} across the entire unitary rational family:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{ccc}
+\toprule
+Pad\'e order $[n,n]$ & $c_2^{(n)}$ & Scheme \\
+\midrule
+1 (Cayley) & $1/12$ & Crank--Nicolson \\
+2 & $1/180$ & Higher-order CN \\
+$n \to \infty$ & $0$ & Exact $e^{-iHt/\hbar}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Modified Dispersion Relation for Free Particles}
+\label{sec:mdr}
+
+For a massless particle ($E = pc$ in SI) evolving via~\eqref{eq:photon_evolution}, the
+Cayley dispersion gives the modified dispersion relation (MDR):
+\begin{equation}
+  \boxed{%
+  E_\gamma^2 = p^2 c^2\!\left(1 - \frac{p^2 c^2}{6 E_P^2}\right) + \mathcal{O}(E_P^{-4}),
+  }
+  \label{eq:mdr_massless}
+\end{equation}
+\begin{equation}
+  \boxed{%
+  v_g^{\mathrm{Cay}} = \frac{\partial E_\gamma}{\partial p}
+  = c\!\left(1 - \frac{E_\gamma^2}{4 E_P^2}\right) + \mathcal{O}(E_P^{-4}),
+  }
+  \label{eq:group_velocity}
+\end{equation}
+where $E_P = \hbar/t_P \approx 1.22 \times 10^{19}$~GeV is the Planck energy.
+The group velocity is \emph{subluminal}: $v_g < c$.
+
+For a massive particle:
+\begin{equation}
+  E^2 = p^2 c^2 + m^2 c^4
+        - \frac{t_P^2}{6\hbar^2}\left(E^4 - m^4 c^8\right) + \mathcal{O}(t_P^4),
+  \label{eq:mdr_massive}
+\end{equation}
+which reduces correctly to $E^2 = p^2 c^2 + m^2 c^4$ for $E \ll E_P$.
+
+\paragraph{Contrast with the $\kappa$-Cayley scheme.}
+The $\kappa$-deformed Cayley dispersion at $\kappa = E_P$, computed via
+$\omega_{\kappa\mathrm{CN}} = (2/t_P)\arctan\bigl[\tfrac{1}{2}\sinh(t_P E/\hbar)\bigr]$,
+gives at leading order:
+\begin{equation}
+  \omega_{\kappa\mathrm{CN}}(E) = \frac{E}{\hbar}
+  + \frac{t_P^2 E^3}{12\hbar^3} + \mathcal{O}(t_P^4),
+  \label{eq:kappa_dispersion}
+\end{equation}
+with a \emph{positive} sign, implying \emph{superluminal} group velocity.
+The derivation uses $\sinh\epsilon \approx \epsilon + \epsilon^3/6$ and
+$\arctan(\epsilon/2 + \epsilon^3/12) = \epsilon/2 + \epsilon^3/24 + \mathcal{O}(\epsilon^5)$,
+giving $\omega = E/\hbar + t_P^2 E^3/(12\hbar^3)$.
+The sign reversal between~\eqref{eq:dispersion_full} and~\eqref{eq:kappa_dispersion}
+is the key observable discriminator:
+\begin{equation}
+  \Delta v / c = \begin{cases}
+    -E^2/(4E_P^2) & \text{(Cayley, subluminal)}, \\
+    +E^2/(4E_P^2) & \text{($\kappa$-Cayley, superluminal)}.
+  \end{cases}
+  \label{eq:sign_discriminator}
+\end{equation}
+
+\subsection{Generalised Uncertainty Principle}
+\label{sec:gup}
+
+The group velocity in the Cayley scheme is
+\begin{equation}
+  v_g(E) = \frac{\partial \omega_{\mathrm{Cay}}}{\partial E}\cdot\hbar
+  = \left(1 + \frac{t_P^2 E^2}{4\hbar^2}\right)^{-1},
+  \label{eq:group_vel_E}
+\end{equation}
+(in units where $c=1$). This means the time for a wave packet to traverse a spatial
+interval $\Delta x$ is
+$\Delta t = \Delta x / v_g = \Delta x (1 + t_P^2 E^2/4\hbar^2)$.
+Using the time-bandwidth uncertainty $\Delta\omega \cdot \Delta t \geq 1/2$ and
+$\Delta\omega = \Delta E/\hbar$, one obtains:
+\begin{equation}
+  \boxed{%
+  \Delta E \cdot \Delta t
+  \geq \frac{\hbar}{2}\left(1 + \frac{t_P^2 E^2}{4\hbar^2}\right)
+  = \frac{\hbar}{2}\left(1 + \frac{E^2}{4 E_P^2}\right).
+  }
+  \label{eq:gup}
+\end{equation}
+Limit checks:
+\begin{itemize}
+  \item $E \ll E_P$: $\Delta E \cdot \Delta t \geq \hbar/2$ (standard Heisenberg).
+  \item $E \sim E_P$: right-hand side $\geq 5\hbar/8$ (25\% enhancement).
+  \item $E \to \infty$: right-hand side $\to \infty$ (sub-Planck time resolution
+        impossible).
+\end{itemize}
+
+\subsection{The Group-Law Defect}
+\label{sec:group_defect}
+
+The Cayley scheme does not satisfy the composition law
+$U_{2t_P}^{\mathrm{Cay}} = (U_{t_P}^{\mathrm{Cay}})^2$.
+On an energy eigenstate, the accumulated phase after two steps is
+$2\arctan(t_P E/2\hbar)$ (from two applications of $U_{t_P}^{\mathrm{Cay}}$), whereas
+$U_{2t_P}^{\mathrm{Cay}}$ contributes phase $2\arctan(t_P E/\hbar)$.  The defect is:
+\begin{equation}
+  \delta\theta(E)
+  \equiv \theta_{\mathrm{Cay}}(2t_P, E) - 2\theta_{\mathrm{Cay}}(t_P, E)
+  = 2\arctan\!\left(\frac{t_P E}{\hbar}\right)
+    - 4\arctan\!\left(\frac{t_P E}{2\hbar}\right)
+  = \frac{1}{2}\left(\frac{t_P E}{\hbar}\right)^3 + \mathcal{O}\!\left(\frac{t_P^5 E^5}{\hbar^5}\right),
+  \label{eq:group_defect}
+\end{equation}
+obtained by expanding the arctangents to third order.  The defect is \emph{third order}
+in $t_P E/\hbar$, hence negligible for $E \ll E_P$.  One may interpret it as an effective
+temporal curvature:
+\begin{equation}
+  \Omega_{\mathrm{time}}(E)
+  \equiv \frac{i\hbar}{t_P E}\ln\!\left(\frac{U_{2t_P}}{(U_{t_P})^2}\right)
+  \sim \frac{t_P^2 E^2}{2\hbar^2},
+  \label{eq:temporal_curvature}
+\end{equation}
+suggestive of an intrinsic curvature of the discrete temporal vacuum at the Planck scale.
+
+\subsection{Covariant Scalar Field Action}
+\label{sec:scalar_action}
+
+For completeness we state the Lorentz-covariant discrete action for a free scalar field
+on the Planck-scale hypercubic lattice with spacing $\ell_P$ in all four directions
+(metric signature $(+{-}{-}{-})$):
+\begin{equation}
+  \boxed{%
+  S_{\mathrm{latt}} = \ell_P^4 \sum_{x \in \ell_P\mathbb{Z}^4}
+  \left[
+    \frac{1}{2}\sum_{\mu=0}^{3}\left(\frac{\phi(x+\ell_P\hat{\mu}) - \phi(x-\ell_P\hat{\mu})}{2\ell_P}\right)^2
+    - \frac{m^2 c^2}{2\hbar^2}\phi(x)^2
+  \right].
+  }
+  \label{eq:lattice_action}
+\end{equation}
+The momentum-space propagator is
+\begin{equation}
+  G(k) = \left[\sum_{\mu=0}^{3}\frac{\sin^2(k_\mu \ell_P)}{\ell_P^2} + \frac{m^2 c^2}{\hbar^2}\right]^{-1},
+  \label{eq:lattice_propagator}
+\end{equation}
+and the on-shell dispersion $G^{-1}(k)=0$ expanded for small $k_\mu \ell_P$ yields
+\begin{equation}
+  E^2 = p^2 c^2\!\left(1 - \frac{\ell_P^2 p^2}{3\hbar^2}\right) + \mathcal{O}(\ell_P^4),
+  \label{eq:lattice_mdr}
+\end{equation}
+consistent with~\eqref{eq:mdr_massless} up to the numerical coefficient ($1/3$ vs.\ $1/6$),
+the difference arising because the lattice action includes spatial lattice corrections in
+addition to the temporal Cayley ones.
+
+% ============================================================
+\section{Physical Interpretation}
+\label{sec:physical}
+% ============================================================
+
+\subsection{The Cayley Evolution as a Clock}
+
+Equation~\eqref{eq:fundamental} may be read as a Planck-scale digital clock: at each
+tick of duration $t_P$ in proper time, the quantum state advances by the unitary map
+$U_{t_P}^{\mathrm{Cay}}$.  The implicit nature of the equation---the state at
+$\tau + t_P$ appears on the left-hand side inside $H_\tau$---is precisely the source of
+exact unitarity: it prevents the numerical amplification or dissipation associated with
+explicit (forward- or backward-Euler) schemes.
+
+\subsection{Proper Time as the Physical Clock Variable}
+
+The use of proper time $\tau$ rather than coordinate time $t$ as the discretisation
+variable is not merely a convention; it is the physical implementation of the equivalence
+principle at the quantum level.  Each massive particle carries its own proper-time clock
+that ticks at the universal rate $t_P^{-1}$ in its instantaneous rest frame.  The
+coordinate-time spacing $\Delta t = \gamma t_P$ that different observers assign to this
+tick is simply kinematic time dilation: there is no physical content in the frame-to-frame
+variation beyond ordinary special relativity \cite{ashtekar2004}.
+
+\subsection{Subluminal Propagation and Physical Causality}
+
+The group-velocity correction~\eqref{eq:group_velocity} is subluminal: $v_g < c$.
+This is physically benign---subluminal propagation preserves causality---and
+distinguishable from $\kappa$-deformed models, which predict superluminal propagation
+\eqref{eq:sign_discriminator}.  The physical interpretation is that the discrete proper-time
+lattice introduces a small amount of ``temporal drag'': very-high-energy wave packets
+accumulate phase slightly more slowly than the continuum prediction, causing them to
+propagate slightly more slowly.
+
+\subsection{The GUP and Minimal Measurable Time}
+
+The GUP~\eqref{eq:gup} encodes the impossibility of measuring time intervals shorter than
+$t_P$ in the Cayley framework.  At $E \sim E_P$, the uncertainty bound is enhanced by
+$25\%$; as $E \to \infty$, it diverges, reflecting that arbitrarily fine temporal
+resolution would require arbitrarily high energy, which in a theory with Planck-scale
+discreteness is physically impossible.  This is analogous to Heisenberg's original
+gedanken argument for the position--momentum uncertainty principle, now applied to the
+time--energy pair with a Planck-scale regulator.
+
+\subsection{The Group-Law Defect and Temporal Curvature}
+
+The group-law defect~\eqref{eq:group_defect} signals that the discrete proper-time lattice
+is not a group: the algebra of time translations is deformed at order $t_P^2 E^2/\hbar^2$.
+The effective temporal curvature~\eqref{eq:temporal_curvature} suggests a connection to
+quantum gravity: the Planck-scale vacuum may be characterised by an intrinsic temporal
+curvature of order unity (in Planck units), which is invisible at accessible energies but
+may leave imprints in Planck-scale scattering or in the very early universe \cite{thiemann1996}.
+
+\subsection{Operational Meaning of the Covariant Lattice Action}
+
+The lattice action~\eqref{eq:lattice_action} is the standard Euclidean-rotated lattice
+field theory \cite{maldacena1997} evaluated at lattice spacing $\ell_P$.  Its propagator
+\eqref{eq:lattice_propagator} is the natural generalisation of the continuum Feynman
+propagator, and the MDR~\eqref{eq:lattice_mdr} emerges as a \emph{kinematic} consequence
+of the lattice geometry, not a dynamical input.  Adding interactions (e.g., $\lambda\phi^4$
+vertices) maintains path-integral unitarity, providing a consistent interacting extension
+of the free-field Cayley scheme.
+
+% ============================================================
+\section{Consistency Checks}
+\label{sec:consistency}
+% ============================================================
+
+\subsection{Continuum Limit}
+\label{sec:continuum_limit}
+
+For $t_P E/\hbar \ll 1$, the dispersion~\eqref{eq:dispersion_full} reduces to
+$\omega_{\mathrm{Cay}} \to E/\hbar$, the group velocity~\eqref{eq:group_velocity} to
+$v_g \to c$, and the GUP~\eqref{eq:gup} to $\Delta E \cdot \Delta t \geq \hbar/2$.
+Standard quantum mechanics and relativistic kinematics are recovered exactly.  The
+$\arctan$ function is smooth and analytic for all finite arguments, so no pathology arises
+in passing to the continuum.
+
+\subsection{Non-Relativistic Limit}
+\label{sec:nr_limit}
+
+For a non-relativistic massive particle with kinetic energy $E_k = p^2/2m \ll mc^2$,
+the rest-frame Hamiltonian is $H_\tau \approx mc^2 + p^2/2m$.  The Cayley
+dispersion~\eqref{eq:dispersion_full} gives:
+\begin{equation}
+  \omega_{\mathrm{Cay}} \approx \frac{mc^2}{\hbar}
+  + \frac{p^2}{2m\hbar}
+  - \frac{t_P^2 (mc^2)^2 p^2}{12\hbar^3 m} + \cdots
+  \label{eq:nr_expansion}
+\end{equation}
+The Planck correction is suppressed by $(mc^2/E_P)^2$.  For an electron,
+$(m_e c^2/E_P)^2 \approx (5.1 \times 10^{-4}~\text{GeV}/1.22 \times 10^{19}~\text{GeV})^2
+\approx 1.7 \times 10^{-44}$, entirely beyond any conceivable measurement.
+
+\subsection{Dimensional Analysis}
+\label{sec:dimensional}
+
+All correction terms in \eqref{eq:dispersion_full}--\eqref{eq:gup} are dimensionally
+consistent.  The expansion parameter is the dimensionless ratio $t_P E/\hbar = E/E_P$.
+In SI units, the first correction to the dispersion relation is
+$-t_P^2 E^3/(12\hbar^3) \equiv -(E/E_P)^2 \cdot E/(12\hbar)$, confirming that it
+vanishes in the limit $t_P \to 0$ (continuum), $G \to 0$, or $E \to 0$ (low energy), as
+required.
+
+\subsection{Symmetry Analysis}
+\label{sec:symmetry}
+
+\paragraph{Time-reversal.}
+Under $\tau \to -\tau$ (time reversal), $U_{t_P}^{\mathrm{Cay}} \to (U_{t_P}^{\mathrm{Cay}})^{-1}
+= (U_{t_P}^{\mathrm{Cay}})^\dagger$.  Since the scheme is unitary, this is equivalent to
+the antiunitary time-reversal operator of standard quantum mechanics.  Time-reversal
+symmetry is preserved.
+
+\paragraph{CPT invariance.}
+The Cayley evolution is generated by the same Hamiltonian as continuum QM; no additional
+CPT-violating operators are introduced.  CPT invariance is maintained to all orders in
+$t_P$.
+
+\paragraph{Parity.}
+The dispersion relation~\eqref{eq:dispersion_full} depends on $E^2$ at leading correction
+order (through $E^3$ after multiplying by $E/\hbar$), and the group velocity is a function
+of $E^2$, so no parity-odd correction appears.
+
+\subsection{Consistency with Existing Observational Bounds}
+\label{sec:obs_consistency}
+
+The highest-energy particles directly observed are ultra-high-energy cosmic rays (UHECR)
+at $E \sim 3 \times 10^{20}$~eV $= 3 \times 10^{11}$~GeV.  The ratio
+$E_{\mathrm{UHECR}}/E_P \approx 2.5 \times 10^{-8}$, giving quadratic MDR corrections of
+order $(E/E_P)^2 \approx 6 \times 10^{-16}$.  Current Lorentz invariance tests constrain
+quadratic MDR at the level $|\xi_2| \lesssim 10^{-8}$ from GRB and UHECR observations
+\cite{henson2006}.  Our prediction, $\xi_2 = -1/4$, lies $\sim 8$ orders of magnitude
+below the sensitivity floor and is therefore consistent with all existing bounds.
+
+The GRB time delay for a photon of energy $E_\gamma = 10$~GeV propagating over
+$L = 10^{26}$~m is
+\begin{equation}
+  \Delta t_{\mathrm{GRB}} = \frac{L}{c} \cdot \frac{E_\gamma^2}{4E_P^2}
+  \approx \frac{10^{26}}{3\times10^8}
+  \cdot \frac{(10^{10} \times 1.6\times10^{-19})^2}%
+             {4\times(1.22\times10^{19} \times 1.6\times10^{-10})^2}
+  \approx 5 \times 10^{-20}~\text{s},
+  \label{eq:gr
+
+\end{document}

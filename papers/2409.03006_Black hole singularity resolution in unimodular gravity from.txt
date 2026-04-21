@@ -1,0 +1,7 @@
+Title: Black hole singularity resolution in unimodular gravity from unitarity
+Authors: Steffen Gielen, Lucía Menéndez-Pidal
+Published: 2024-09-04
+arXiv ID: http://arxiv.org/abs/2409.03006v3
+Categories: hep-th, gr-qc
+Abstract:
+We study the quantum dynamics of an interior planar AdS (anti-de Sitter) black hole, requiring unitarity in the natural time coordinate conjugate to the cosmological "constant of motion" appearing in unimodular gravity. Both the classical singularity and the horizon are replaced by a non-singular highly quantum region; semiclassical notions of spacetime evolution are only valid in an intermediate region. For the singularity, our results should be applicable to general black holes: unitarity in unimodular time always implies singularity resolution.

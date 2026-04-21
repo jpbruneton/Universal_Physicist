@@ -1,0 +1,7 @@
+Title: Quantum Gravity and Recovery of Information in Black Hole Evaporation
+Authors: Kourosh Nozari, S. Hamid Mehdipour
+Published: 2008-04-26
+arXiv ID: http://arxiv.org/abs/0804.4221v3
+Categories: gr-qc
+Abstract:
+The Generalized Uncertainty Principle (GUP), motivated by current alternatives of quantum gravity, produces significant modifications to the Hawking radiation and the final stage of black hole evaporation. We show that incorporation of the GUP into the quantum tunneling process (based on the null-geodesic method) causes correlations between the tunneling probability of different modes in the black hole radiation spectrum. In this manner, the quantum information becomes encrypted in the Hawking radiation, and information can be recovered as non-thermal GUP correlations between tunneling probabilities of different modes.

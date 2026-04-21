@@ -1,0 +1,7 @@
+Title: The logic of causally closed spacetime subsets
+Authors: H. Casini
+Published: 2002-05-03
+arXiv ID: http://arxiv.org/abs/gr-qc/0205013v2
+Categories: gr-qc, quant-ph
+Abstract:
+The causal structure of space-time offers a natural notion of an opposite or orthogonal in the logical sense, where the opposite of a set is formed by all points non time-like related with it. We show that for a general space-time the algebra of subsets that arises from this negation operation is a complete orthomodular lattice, and thus has several of the properties characterizing the algebra physical propositions in quantum mechanics. We think this fact could be used to investigate causal structure in an algebraic context. As a first step in this direction we show that the causal lattice is in addition atomic, find its atoms, and give necesary and sufficient conditions for ireducibility.

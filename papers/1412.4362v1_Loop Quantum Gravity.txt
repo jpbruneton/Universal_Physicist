@@ -1,0 +1,7 @@
+Title: Loop Quantum Gravity
+Authors: Dah-Wei Chiou
+Published: 2014-12-14
+arXiv ID: http://arxiv.org/abs/1412.4362v1
+Categories: gr-qc
+Abstract:
+This article presents an "in-a-nutshell" yet self-contained introductory review on loop quantum gravity (LQG) -- a background-independent, nonperturbative approach to a consistent quantum theory of gravity. Instead of rigorous and systematic derivations, it aims to provide a general picture of LQG, placing emphasis on the fundamental ideas and their significance. The canonical formulation of LQG, as the central topic of the article, is presented in a logically orderly fashion with moderate details, while the spin foam theory, black hole thermodynamics, and loop quantum cosmology are covered briefly. Current directions and open issues are also summarized.

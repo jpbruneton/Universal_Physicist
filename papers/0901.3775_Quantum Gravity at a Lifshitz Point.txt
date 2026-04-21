@@ -1,0 +1,7 @@
+Title: Quantum Gravity at a Lifshitz Point
+Authors: Petr Horava
+Published: 2009-01-26
+arXiv ID: http://arxiv.org/abs/0901.3775v2
+Categories: hep-th, cond-mat.mes-hall, gr-qc, hep-ph
+Abstract:
+We present a candidate quantum field theory of gravity with dynamical critical exponent equal to z=3 in the UV. (As in condensed matter systems, z measures the degree of anisotropy between space and time.) This theory, which at short distances describes interacting nonrelativistic gravitons, is power-counting renormalizable in 3+1 dimensions. When restricted to satisfy the condition of detailed balance, this theory is intimately related to topologically massive gravity in three dimensions, and the geometry of the Cotton tensor. At long distances, this theory flows naturally to the relativistic value z=1, and could therefore serve as a possible candidate for a UV completion of Einstein's general relativity or an infrared modification thereof. The effective speed of light, the Newton constant and the cosmological constant all emerge from relevant deformations of the deeply nonrelativistic z=3 theory at short distances.

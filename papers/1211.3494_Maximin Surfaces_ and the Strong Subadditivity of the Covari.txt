@@ -1,0 +1,7 @@
+Title: Maximin Surfaces, and the Strong Subadditivity of the Covariant Holographic Entanglement Entropy
+Authors: Aron C. Wall
+Published: 2012-11-15
+arXiv ID: http://arxiv.org/abs/1211.3494v4
+Categories: hep-th, gr-qc
+Abstract:
+The covariant holographic entropy conjecture of AdS/CFT relates the entropy of a boundary region R to the area of an extremal surface in the bulk spacetime. This extremal surface can be obtained by a maximin construction, allowing many new results to be proven. On manifolds obeying the null curvature condition, these extremal surfaces: i) always lie outside the causal wedge of R, ii) have less area than the bifurcation surface of the causal wedge, iii) move away from the boundary as R grows, and iv) obey strong subadditivity and monogamy of mutual information. These results suggest that the information in R allows the bulk to be reconstructed all the way up to the extremal area surface. The maximin surfaces are shown to exist on spacetimes without horizons, and on black hole spacetimes with Kasner-like singularities.

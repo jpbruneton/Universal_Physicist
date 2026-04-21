@@ -1,0 +1,7 @@
+Title: Black hole spectroscopy from Loop Quantum Gravity models
+Authors: Aurelien Barrau, Xiangyu Cao, Karim Noui, Alejandro Perez
+Published: 2015-04-21
+arXiv ID: http://arxiv.org/abs/1504.05352v1
+Categories: gr-qc
+Abstract:
+Using Monte Carlo simulations, we compute the integrated emission spectra of black holes in the framework of Loop Quantum Gravity (LQG). The black hole emission rates are governed by the entropy whose value, in recent holographic loop quantum gravity models, was shown to agree at leading order with the Bekenstein-Hawking entropy. Quantum corrections depend on the Barbero-Immirzi parameter $γ$. Starting with black holes of initial horizon area $A \sim 10^2$ in Planck units, we present the spectra for different values of $γ$. Each spectrum clearly decomposes in two distinct parts: a continuous background which corresponds to the semi-classical stages of the evaporation and a series of discrete peaks which constitutes a signature of the deep quantum structure of the black hole. We show that $γ$ has an effect on both parts that we analyze in details. Finally, we estimate the number of black holes and the instrumental resolution required to experimentally distinguish between the considered models.

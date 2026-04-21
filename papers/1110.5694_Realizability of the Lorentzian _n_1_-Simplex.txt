@@ -1,0 +1,8 @@
+Title: Realizability of the Lorentzian (n,1)-Simplex
+Authors: Kyle Tate, Matt Visser
+Published: 2011-10-26
+arXiv ID: http://arxiv.org/abs/1110.5694v3
+Categories: gr-qc, math-ph
+Abstract:
+In a previous article [JHEP 1111 (2011) 072; arXiv:1108.4965] we have developed a Lorentzian version of the Quantum Regge Calculus in which the significant differences between simplices in Lorentzian signature and Euclidean signature are crucial. In this article we extend a central result used in the previous article, regarding the realizability of Lorentzian triangles, to arbitrary dimension. This technical step will be crucial for developing the Lorentzian model in the case of most physical interest: 3+1 dimensions.
+  We first state (and derive in an appendix) the realizability conditions on the edge-lengths of a Lorentzian n-simplex in total dimension n=d+1, where d is the number of space-like dimensions. We then show that in any dimension there is a certain type of simplex which has all of its time-like edge lengths completely unconstrained by any sort of triangle inequality. This result is the d+1 dimensional analogue of the 1+1 dimensional case of the Lorentzian triangle.

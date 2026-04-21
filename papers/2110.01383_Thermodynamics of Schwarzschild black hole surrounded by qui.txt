@@ -1,0 +1,7 @@
+Title: Thermodynamics of Schwarzschild black hole surrounded by quintessence with generalized uncertainty principle
+Authors: B. C. Lütfüoğlu, B. Hamil, L. Dahbi
+Published: 2021-10-04
+arXiv ID: http://arxiv.org/abs/2110.01383v1
+Categories: gr-qc
+Abstract:
+In this manuscript, we consider a deformation on the Heisenberg algebra and investigate the effects on the thermodynamics of the Schwarzschild black hole that is surrounded by quintessence matter. To this end, we obtain the temperature, entropy, and heat capacity functions of the black hole by using the standard laws of thermodynamic according to the considered deformation. We show that upper and lower bound values appear on these functions based on the quintessence and deformed algebra. Then, we derive the corrected density of quintessence matter and the black hole's equation of state functions. We compare these results with the standard Schwarzschild black hole with and without quintessence with the graphical methods and interpret the quantum deformation effects.

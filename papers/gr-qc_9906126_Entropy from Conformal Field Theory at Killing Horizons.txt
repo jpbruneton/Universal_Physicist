@@ -1,0 +1,7 @@
+Title: Entropy from Conformal Field Theory at Killing Horizons
+Authors: S. Carlip
+Published: 1999-06-30
+arXiv ID: http://arxiv.org/abs/gr-qc/9906126v2
+Categories: gr-qc, hep-th
+Abstract:
+On a manifold with boundary, the constraint algebra of general relativity may acquire a central extension, which can be computed using covariant phase space techniques. When the boundary is a (local) Killing horizon, a natural set of boundary conditions leads to a Virasoro subalgebra with a calculable central charge. Conformal field theory methods may then be used to determine the density of states at the boundary. I consider a number of cases---black holes, Rindler space, de Sitter space, Taub-NUT and Taub-Bolt spaces, and dilaton gravity---and show that the resulting density of states yields the expected Bekenstein-Hawking entropy. The statistical mechanics of black hole entropy may thus be fixed by symmetry arguments, independent of details of quantum gravity.

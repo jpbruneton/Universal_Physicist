@@ -1,0 +1,7 @@
+Title: Hawking radiation as tunneling from Gravity's rainbow
+Authors: Cheng-Zhou Liu, Jian-Yang Zhu
+Published: 2007-03-08
+arXiv ID: http://arxiv.org/abs/gr-qc/0703055v1
+Categories: gr-qc
+Abstract:
+Planck scale corrections arising from deformed special relativity on Hawking radiation in Parikh and Wilczk's tunneling framework are studied. We calculate the emission rate of massless particles tunneling though the corrected horizon of modified black holes from gravity's rainbow. In the tunneling process, when a particle get across the quantum horizon, the metric fluctuation not only due to the energy conservation but also quantum effects of the space-time are taken into account. Our results show that, the emission rate is related to the changes of the black hole's quantum corrected entropy and consistent with an underlying unitary theory. In the modified black hole, by using black hole thermodynamics, a series of quantum correction terms including a logarithmic term to the Bekenstein-Hawking entropy are obtained. Correspondingly, the Planck scale corrected emission spectrum is obtained and it deviates from the thermal spectrum.

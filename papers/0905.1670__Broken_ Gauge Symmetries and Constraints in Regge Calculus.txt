@@ -1,0 +1,7 @@
+Title: (Broken) Gauge Symmetries and Constraints in Regge Calculus
+Authors: Benjamin Bahr, Bianca Dittrich
+Published: 2009-05-11
+arXiv ID: http://arxiv.org/abs/0905.1670v1
+Categories: gr-qc
+Abstract:
+We will examine the issue of diffeomorphism symmetry in simplicial models of (quantum) gravity, in particular for Regge calculus. We find that for a solution with curvature there do not exist exact gauge symmetries on the discrete level. Furthermore we derive a canonical formulation that exactly matches the dynamics and hence symmetries of the covariant picture. In this canonical formulation broken symmetries lead to the replacements of constraints by so--called pseudo constraints. These considerations should be taken into account in attempts to connect spin foam models, based on the Regge action, with canonical loop quantum gravity, which aims at implementing proper constraints. We will argue that the long standing problem of finding a consistent constraint algebra for discretized gravity theories is equivalent to the problem of finding an action with exact diffeomorphism symmetries. Finally we will analyze different limits in which the pseudo constraints might turn into proper constraints. This could be helpful to infer alternative discretization schemes in which the symmetries are not broken.

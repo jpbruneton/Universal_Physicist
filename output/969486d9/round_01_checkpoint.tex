@@ -1,0 +1,231 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\geometry{margin=2.5cm}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\title{\textbf{Discrete-Time Quantum Mechanics at the Planck Scale}\\
+\large Round 1 Checkpoint — Provisional Research Synthesis}
+\author{Multi-Specialist Collaboration (QM, QFT, Mathematics)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report a Round~1 synthesis of proposals for a discrete-time quantum mechanics (DTQM) framework motivated by Planck-scale physics. The central result is a unitarity classification theorem establishing that the only single-step evolution scheme satisfying both unitarity and the group-composition law is exact exponentiation, while the Cayley/Crank--Nicolson (CN) scheme is the preferred unitary alternative that maintains spatial locality. We introduce the \emph{$\kappa$-Crank--Nicolson} ($\kappa$CN) scheme, combining the Cayley transform with a $\kappa$-Poincar\'{e}-deformed Hamiltonian, as a novel candidate for a Lorentz-covariant discrete evolution law. Several predictions of this framework --- including a modified photon dispersion relation and a ``phase-freezing'' phenomenon at trans-Planckian energies --- are identified, though their physical status remains provisional. Key tensions around Lorentz covariance, spatial locality, and the physical interpretation of fermion doubling remain unresolved.
+\end{abstract}
+
+\tableofcontents
+
+\section{Current Theoretical Proposal}
+\label{sec:proposal}
+
+\subsection{The Unitarity Classification}
+
+Let $U_a = f(Ha)$ be a single-step evolution operator with $f:\mathbb{R}\to\mathbb{C}$ and $H$ self-adjoint. The fundamental structural result, agreed upon by all experts, is:
+
+\begin{proposition}[Unitarity Classification]
+$U_a$ is unitary for all self-adjoint $H$ if and only if $f$ maps $\mathbb{R}$ into $S^1$. The unique such $f$ additionally satisfying the group law $f(x)^n = f(nx)$ is $f(x) = e^{-ix}$.
+\end{proposition}
+
+An immediate corollary is that the discrete composition law
+\begin{equation}
+  U_a^m\, U_a^n = U_a^{m+n}
+  \label{eq:grouplaw}
+\end{equation}
+\emph{uniquely} forces exact exponentiation. Every other unitary scheme breaks~\eqref{eq:grouplaw} at some finite order in $a$.
+
+\subsection{Scheme Hierarchy}
+
+\begin{center}
+\begin{tabular}{lcccc}
+\hline
+Scheme & Unitary & Group law & Spatially local & SR-compatible \\
+\hline
+Forward Euler & \texttimes & \texttimes & \checkmark & \texttimes \\
+Backward Euler & \texttimes & \texttimes & \checkmark & \texttimes \\
+\textbf{Cayley/CN} & \checkmark & \texttimes\ ($\mathcal{O}(a^2)$) & \checkmark & Partial \\
+\textbf{Exact exp.} & \checkmark & \checkmark & \texttimes & \checkmark \\
+Suzuki--Trotter & \checkmark & \texttimes\ ($\mathcal{O}(a^3)$) & \checkmark & \texttimes \\
+\textbf{Dirac QW} & \checkmark & \texttimes & \checkmark & \checkmark\ (emergent) \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{The $\kappa$-Crank--Nicolson Scheme}
+
+The novel proposal of this round is the \emph{$\kappa$-Crank--Nicolson} ($\kappa$CN) operator:
+\begin{equation}
+  U_a^{(\kappa\mathrm{CN})} = \frac{\mathbf{1} - \dfrac{ia H_\kappa}{2}}{\mathbf{1} + \dfrac{ia H_\kappa}{2}},
+  \label{eq:kappaCN}
+\end{equation}
+where natural units $G=\hbar=c=1$ are used throughout, and $H_\kappa$ is defined via the $\kappa$-Poincar\'{e} mass Casimir:
+\begin{equation}
+  H_\kappa = \frac{\kappa}{m}\sinh\!\left(\frac{m\,H_{\mathrm{std}}}{\kappa}\right).
+  \label{eq:Hkappa}
+\end{equation}
+The operator~\eqref{eq:kappaCN} is exactly unitary (as a Cayley transform of a self-adjoint operator), reduces to standard evolution in the double limit $a\to 0$, $\kappa\to\infty$, and is covariant with respect to the $\kappa$-Poincar\'{e} algebra \textcolor{red}{[speculative]}.
+
+\subsection{Key Equations}
+
+\paragraph{Cayley dispersion correction.}
+For a free non-relativistic particle, the Crank--Nicolson phase gives:
+\begin{equation}
+  \Delta\omega_{\mathrm{CN}} = -\frac{E_p^3\, a^2}{12} + \mathcal{O}(a^4).
+  \label{eq:CayleyCorrn}
+\end{equation}
+
+\paragraph{Dirac quantum walk dispersion.}
+With $\sin\theta = ma$ (both time and space step equal to $a$):
+\begin{equation}
+  \cos(\omega a) = \cos(ka)\sqrt{1-m^2a^2},
+  \label{eq:DQWdisp}
+\end{equation}
+which at $\mathcal{O}(a^2)$ reproduces $\omega^2=k^2+m^2$, and at $\mathcal{O}(a^4)$ gives:
+\begin{equation}
+  \omega^2 = k^2 + m^2 - \frac{a^2}{12}\!\left(k^4 - \omega^2 k^2 - \omega^2 m^2\right) + \mathcal{O}(a^4).
+  \label{eq:DQWcorrn}
+\end{equation}
+
+\paragraph{Modified dispersion relation (MDR).}
+The symmetric hypercubic lattice predicts, for the phenomenological expansion $E^2 = p^2 + m^2 + \alpha_1 E^3/E_P + \alpha_2 E^4/E_P^2 + \cdots$:
+\begin{equation}
+  \alpha_1 = 0, \qquad \alpha_2 = -\frac{1}{12},
+  \label{eq:MDRcoeffs}
+\end{equation}
+where $\alpha_1=0$ is enforced by CPT invariance of the symmetric discretization.
+
+\paragraph{$\kappa$CN dispersion relation.}
+\begin{equation}
+  \omega_{(\kappa\mathrm{CN})} = \frac{2}{a}\arctan\!\left(\frac{a\kappa}{2}\sinh\!\left(\frac{\sqrt{p^2+m^2}}{\kappa}\right)\right).
+  \label{eq:kCNdisp}
+\end{equation}
+Expanding to leading non-trivial order in $E/\kappa$ and $aE$:
+\begin{equation}
+  \omega_{(\kappa\mathrm{CN})} = E_p + \frac{E_p^3}{6}\!\left(\frac{1}{\kappa^2} - \frac{a^2}{2}\right) + \mathcal{O}\!\left(\kappa^{-4},\,a^4\right),
+  \label{eq:kCNexpand}
+\end{equation}
+where $E_p = \sqrt{p^2+m^2}$. Setting $\kappa = 1/a$ (identifying the two Planck scales) reproduces~\eqref{eq:CayleyCorrn} at this order \textcolor{red}{[speculative: higher-order equivalence unverified]}.
+
+\paragraph{Crank--Nicolson discrete action.}
+\begin{equation}
+  S_{\mathrm{CN}} = \sum_{n=0}^{N-1} a\left[\frac{i}{2a}\langle\psi_{n+1}-\psi_n|\psi_{n+1}+\psi_n\rangle - \left\langle\tfrac{\psi_{n+1}+\psi_n}{2}\Big|H\Big|\tfrac{\psi_{n+1}+\psi_n}{2}\right\rangle\right].
+  \label{eq:CNaction}
+\end{equation}
+Variation $\delta S_{\mathrm{CN}}/\delta\langle\psi_n|=0$ yields exactly the CN evolution equation.
+
+\section{Points of Consensus}
+\label{sec:consensus}
+
+All three specialists (QM, QFT, Mathematics) agree on the following:
+
+\begin{enumerate}
+  \item \textbf{Unitarity classification (Proposition~1):} The proof is complete and rigorous. Equation~\eqref{eq:grouplaw} uniquely selects exact exponentiation among unitary schemes.
+  \item \textbf{Locality--unitarity tension:} Exact exponentiation with $H = \sqrt{p^2+m^2}$ produces Yukawa tails $\sim e^{-m|\mathbf{x}-\mathbf{y}|}$ in position space; this is physically acceptable in QFT where such tails already appear in the continuum.
+  \item \textbf{Continuum limit:} All schemes listed in Section~\ref{sec:proposal} reproduce standard QM/QFT in the $a\to 0$ limit.
+  \item \textbf{Dispersion corrections at $\mathcal{O}(a^2)$:} Equations~\eqref{eq:CayleyCorrn}--\eqref{eq:DQWcorrn} are verified by independent calculations.
+  \item \textbf{Fermion doubling:} The Nielsen--Ninomiya theorem applies; any local, unitary, hermitian, translationally invariant lattice fermion theory has doublers. Whether these are artifacts or physical Planck-scale states is open.
+  \item \textbf{DSR as a natural framework:} Doubly Special Relativity / $\kappa$-Poincar\'{e} algebra \cite{ashtekar2004,henson2006} provides the most natural algebraic setting for Planck-invariant discrete covariance, though the precise connection to the $\kappa$CN scheme is not yet established.
+\end{enumerate}
+
+\section{Open Tensions}
+\label{sec:tensions}
+
+\begin{enumerate}
+  \item \textbf{Lorentz covariance vs.\ fixed lattice spacing.} A hypercubic lattice with fixed step $a$ breaks $SO^+(3,1)$ to a discrete subgroup. Three resolution routes are proposed: (A) proper-time discretization (single-particle, manifestly covariant but field-theory-unfriendly); (B) $\kappa$-Poincar\'{e} deformation of the symmetry group \cite{ashtekar2004}; (C) emergent Lorentz symmetry in the $a\to 0$ limit. No consensus on which applies at $a\sim\ell_P$.
+
+  \item \textbf{Soccer-ball problem.} If $a\sim t_P$ in one frame, a boost with $\gamma\gg 1$ na\"ively gives $a_{\rm boosted}=a/\gamma\ll t_P$. The $\kappa$-Poincar\'{e} coproduct
+  \begin{equation}
+    \Delta(p_i) = p_i\otimes e^{-p_0/\kappa} + \mathbf{1}\otimes p_i
+    \label{eq:coproduct}
+  \end{equation}
+  is proposed as the resolution for multi-particle states \textcolor{red}{[speculative]}, but has not been verified to be consistent with the $\kappa$CN propagator.
+
+  \item \textbf{$\kappa$CN self-consistency beyond leading order.} Equation~\eqref{eq:kCNexpand} suggests $\kappa\leftrightarrow 1/a$ equivalence at $\mathcal{O}(E^3/E_P^2)$. Whether this persists or breaks at $\mathcal{O}(E^5/E_P^4)$ is unresolved and is the most urgent mathematical question.
+
+  \item \textbf{Physical vs.\ artifact doublers.} The Dirac quantum walk requires a spinor degree of freedom and produces Nielsen--Ninomiya doublers at $p\sim\pi/a\sim\pi m_P$. Interpreting these as physical mirror-matter partners \textcolor{red}{[speculative]} requires a mechanism suppressing their couplings to Standard Model states at low energy.
+
+  \item \textbf{Phase freezing.} The prediction that relative phases between energy eigenstates with $E_1,E_2\gg E_P$ cease to accumulate (because both CN phases saturate at $-\pi$) is qualitatively novel \textcolor{red}{[speculative]}. No connection to decoherence models or existing quantum gravity phenomenology \cite{henson2006} has been made.
+
+  \item \textbf{Coupling to curved spacetime.} The entire framework above is formulated on flat Minkowski background. Generalisation to a quantum-gravitational setting (e.g., loop quantum gravity \cite{thiemann1996,ashtekar2004}) is entirely open.
+\end{enumerate}
+
+\section{New Physics Predictions (Provisional)}
+\label{sec:predictions}
+
+The following are concrete, falsifiable predictions of the $\kappa$CN / symmetric lattice framework, ordered by observational accessibility.
+
+\paragraph{Subluminal photon group velocity.}
+From~\eqref{eq:MDRcoeffs} with $m=0$:
+\begin{equation}
+  v_g = 1 - \frac{1}{6}\frac{E_\gamma^2}{E_P^2} + \mathcal{O}\!\left(\frac{E^4}{E_P^4}\right).
+  \label{eq:vgroup}
+\end{equation}
+The sign (subluminal) and coefficient $1/6$ are \emph{sharp predictions} of the symmetric discretization. \textcolor{red}{[speculative: coefficient assumes $\alpha_2=-1/12$ is physical, not a lattice artifact]}
+
+\paragraph{GRB time delay.}
+For photons with energies $E_1>E_2$ traversing distance $L$:
+\begin{equation}
+  \Delta t = \frac{L}{6}\,\frac{E_1^2 - E_2^2}{E_P^2}.
+  \label{eq:GRBdelay}
+\end{equation}
+For $L\sim 10^{26}$\,m and $E_1\sim 100$\,GeV, $\Delta t\sim 10^{-3}$\,s, at the edge of current Fermi-LAT sensitivity.
+
+\paragraph{Phase freezing at trans-Planckian energies.}
+For $E_1,E_2\gg E_P$, the relative phase $\phi_{\rm rel}^{(n)} = n[\theta(E_1)-\theta(E_2)]$ ceases to grow as both Cayley phases saturate at $-\pi$. \textcolor{red}{[speculative]}
+
+\paragraph{Cayley phase saturation.}
+The CN evolution phase $\theta_{\rm CN}(E) = -2\arctan(Ea/2) \to -\pi$ as $E\to\infty$ provides a natural UV cutoff \textcolor{red}{[speculative: physical interpretation unclear]}.
+
+\section{Next Steps}
+\label{sec:nextsteps}
+
+\begin{enumerate}
+  \item \textbf{[Priority 1 --- Math/QFT]:} Expand~\eqref{eq:kCNdisp} to $\mathcal{O}(a^4/\kappa^4)$ to determine whether the identification $\kappa=1/a$ is an exact equivalence or coincidence at leading order. This is the key consistency check on the $\kappa$CN proposal.
+
+  \item \textbf{[Priority 2 --- QFT/Math]:} Verify that the coproduct~\eqref{eq:coproduct} is consistent with the $\kappa$CN two-particle propagator and resolves the soccer-ball problem without reintroducing Lorentz violation at the macroscopic level.
+
+  \item \textbf{[Priority 3 --- QM/QFT]:} Develop the multi-particle (field-theoretic) version of the $\kappa$CN scheme. Proper-time discretization (Route A) is adequate for single particles; a second-quantised formulation is needed before any connection to LQG \cite{thiemann1996} or holography \cite{maldacena1997,witten1998,skenderis2002} can be made.
+
+  \item \textbf{[Priority 4 --- All]:} Determine the physical status of fermion doublers in the Dirac quantum walk at $p\sim\pi m_P$: artifact vs.\ physical spectrum. A concrete low-energy suppression mechanism is required for the physical interpretation to be viable.
+
+  \item \textbf{[Priority 5 --- QM]:} Formulate the phase-freezing prediction in terms of an observable (e.g., interferometric visibility) and connect it to existing quantum gravity decoherence literature \cite{henson2006}.
+\end{enumerate}
+
+\begin{thebibliography}{99}
+
+\bibitem{thiemann1996}
+T. Thiemann.
+\textit{Quantum Spin Dynamics (QSD)}.
+arXiv:gr-qc/9606089v1 (1996).
+
+\bibitem{maldacena1997}
+Juan M. Maldacena.
+\textit{The Large N Limit of Superconformal Field Theories and Supergravity}.
+arXiv:hep-th/9711200v3 (1997).
+
+\bibitem{ashtekar2004}
+Abhay Ashtekar, Jerzy Lewandowski.
+\textit{Background Independent Quantum Gravity: A Status Report}.
+arXiv:gr-qc/0404018v2 (2004).
+
+\bibitem{skenderis2002}
+Kostas Skenderis.
+\textit{Lecture Notes on Holographic Renormalization}.
+arXiv:hep-th/0209067v2 (2002).
+
+\bibitem{henson2006}
+Joe Henson.
+\textit{The causal set approach to quantum gravity}.
+arXiv:gr-qc/0601121v2 (2006).
+
+\bibitem{witten1998}
+Edward Witten.
+\textit{Anti De Sitter Space And Holography}.
+arXiv:hep-th/9802150v2 (1998).
+
+\end{thebibliography}
+\end{document}

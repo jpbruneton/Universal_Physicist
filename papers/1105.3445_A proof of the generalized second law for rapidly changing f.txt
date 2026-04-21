@@ -1,0 +1,7 @@
+Title: A proof of the generalized second law for rapidly changing fields and arbitrary horizon slices
+Authors: Aron C. Wall
+Published: 2011-05-17
+arXiv ID: http://arxiv.org/abs/1105.3445v6
+Categories: gr-qc, hep-th
+Abstract:
+The generalized second law is proven for semiclassical quantum fields falling across a causal horizon, minimally coupled to general relativity. The proof is much more general than previous proofs in that it permits the quantum fields to be rapidly changing with time, and shows that entropy increases when comparing any slice of the horizon to any earlier slice. The proof requires the existence of an algebra of observables restricted to the horizon, satisfying certain axioms (Determinism, Ultralocality, Local Lorentz Invariance, and Stability). These axioms are explicitly verified in the case of free fields of various spins, as well as 1+1 conformal field theories. The validity of the axioms for other interacting theories is discussed.

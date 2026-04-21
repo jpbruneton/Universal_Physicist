@@ -1,0 +1,7 @@
+Title: Black Hole Entropy in Canonical Quantum Gravity and Superstring Theory
+Authors: L. Susskind, J. Uglum
+Published: 1994-01-15
+arXiv ID: http://arxiv.org/abs/hep-th/9401070v3
+Categories: hep-th, gr-qc
+Abstract:
+In this paper the entropy of an eternal Schwarzschild black hole is studied in the limit of infinite black hole mass. The problem is addressed from the point of view of both canonical quantum gravity and superstring theory. The entropy per unit area of a free scalar field propagating in a fixed black hole background is shown to be quadratically divergent near the horizon. It is shown that such quantum corrections to the entropy per unit area are equivalent to the quantum corrections to the gravitational coupling. Unlike field theory, superstring theory provides a set of identifiable configurations which give rise to the classical contribution to the entropy per unit area. These configurations can be understood as open superstrings with both ends attached to the horizon. The entropy per unit area is shown to be finite to all orders in superstring perturbation theory. The importance of these conclusions to the resolution of the problem of black hole information loss is reiterated.

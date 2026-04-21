@@ -1,0 +1,7 @@
+Title: Graviton propagator from background-independent quantum gravity
+Authors: Carlo Rovelli
+Published: 2005-08-30
+arXiv ID: http://arxiv.org/abs/gr-qc/0508124v2
+Categories: gr-qc, hep-th
+Abstract:
+We study the graviton propagator in euclidean loop quantum gravity, using the spinfoam formalism. We use boundary-amplitude and group-field-theory techniques, and compute one component of the propagator to first order, under a number of approximations, obtaining the correct spacetime dependence. In the large distance limit, the only term of the vertex amplitude that contributes is the exponential of the Regge action: the other terms, that have raised doubts on the physical viability of the model, are suppressed by the phase of the vacuum state, which is determined by the extrinsic geometry of the boundary.

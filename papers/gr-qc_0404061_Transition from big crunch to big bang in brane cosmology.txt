@@ -1,0 +1,7 @@
+Title: Transition from big crunch to big bang in brane cosmology
+Authors: Claus Gerhardt
+Published: 2004-04-13
+arXiv ID: http://arxiv.org/abs/gr-qc/0404061v5
+Categories: gr-qc, hep-th, math.DG
+Abstract:
+We consider branes $N=I\times\so$, where $\so$ is an $n$\ndash dimensional space form, not necessarily compact, in a Schwarzschild-AdS_{(n+2)} bulk $\mc N$. The branes have a big crunch singularity. If a brane is an ARW space, then, under certain conditions, there exists a smooth natural transition flow through the singularity to a reflected brane $\hat N$, which has a big bang singularity and which can be viewed as a brane in a reflected Schwarzschild-AdS_{(n+2)} bulk $\hat{\mc N}$. The joint branes $N\uu \hat N$ can thus be naturally embedded in $R^2\times \so$, hence there exists a second possibility of defining a smooth transition from big crunch to big bang by requiring that $N\uu\hat N$ forms a $C^\infty$-hypersurface in $R^2\times \so$. This last notion of a smooth transition also applies to branes that are not ARW spaces, allowing a wide range of possible equations of state.

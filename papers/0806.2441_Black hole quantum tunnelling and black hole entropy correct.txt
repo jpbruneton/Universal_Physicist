@@ -1,0 +1,7 @@
+Title: Black hole quantum tunnelling and black hole entropy correction
+Authors: Jingyi Zhang
+Published: 2008-06-15
+arXiv ID: http://arxiv.org/abs/0806.2441v2
+Categories: hep-th
+Abstract:
+Parikh-Wilczek tunnelling framework, which treats Hawking radiation as a tunnelling process, is investigated again. As the first order correction, the log-corrected entropy-area relation naturally emerges in the tunnelling picture if we consider the emission of a spherical shell. The second order correction of the emission rate for the Schwarzschild black hole is calculated too. In this level, the result is still in agreement with the unitary theory, however, the entropy of the black hole will contain three parts: the usual Bekenstein-Hawking entropy, the logarithmic term and the inverse area term. In our results the coefficient of the logarithmic term is -1. Apart from a coefficient, Our correction to the black hole entropy is consistent with that of loop quantum gravity.

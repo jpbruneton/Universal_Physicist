@@ -1,0 +1,7 @@
+Title: Hawking radiation of Dirac particles via tunneling from Kerr black hole
+Authors: Ran Li, Ji-Rong Ren, Shao-Wen Wei
+Published: 2008-03-10
+arXiv ID: http://arxiv.org/abs/0803.1410v2
+Categories: gr-qc
+Abstract:
+We investigated Dirac Particles' Hawking radiation from event horizon of Kerr black hole in terms of the tunneling formalism. Applying WKB approximation to the general covariant Dirac equation in Kerr spacetime background, we obtain the tunneling probability for fermions and Hawking temperature of Kerr black hole. The result obtained by taking the fermion tunneling into account is consistent with the previous literatures.

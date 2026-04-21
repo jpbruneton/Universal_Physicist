@@ -1,0 +1,7 @@
+Title: LQG propagator from the new spin foams
+Authors: Eugenio Bianchi, Elena Magliaro, Claudio Perini
+Published: 2009-05-25
+arXiv ID: http://arxiv.org/abs/0905.4082v1
+Categories: gr-qc
+Abstract:
+We compute metric correlations in loop quantum gravity with the dynamics defined by the new spin foam models. The analysis is done at the lowest order in a vertex expansion and at the leading order in a large spin expansion. The result is compared to the graviton propagator of perturbative quantum gravity.

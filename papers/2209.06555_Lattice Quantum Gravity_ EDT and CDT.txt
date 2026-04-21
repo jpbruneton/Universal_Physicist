@@ -1,0 +1,7 @@
+Title: Lattice Quantum Gravity: EDT and CDT
+Authors: Jan Ambjorn
+Published: 2022-09-14
+arXiv ID: http://arxiv.org/abs/2209.06555v2
+Categories: hep-lat, gr-qc, hep-th
+Abstract:
+This article is an overview of the use of so-called Euclidean Dynamical Triangulations (EDT) and Causal Dynamical Triangulations (CDT) as lattice regularizations of quantum gravity. The lattice regularizations have been very successful in the case of two-dimensional quantum gravity, where the lattice theories indeed provide regularizations of continuum well defined quantum gravity theories. In four-dimensional spacetime the Einstein-Hilbert action leads to a theory of gravity which is not renormalizable as a perturbative quantum theory around flat spacetime. It is discussed how lattice gravity in the form of EDT or CDT can be used to search for a non-perturbative UV fixed point of the lattice renormalization group in the spirit of asymptotic safety. In this way it might be possible to define a quantum theory of gravity also at lengthscales smaller than the Planck length.

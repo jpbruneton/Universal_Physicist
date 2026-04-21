@@ -1,0 +1,7 @@
+Title: Black holes in loop quantum gravity: the complete space-time
+Authors: Rodolfo Gambini, Jorge Pullin
+Published: 2008-05-08
+arXiv ID: http://arxiv.org/abs/0805.1187v1
+Categories: gr-qc, astro-ph, hep-th
+Abstract:
+We consider the quantization of the complete extension of the Schwarzschild space-time using spherically symmetric loop quantum gravity. We find an exact solution corresponding to the semi-classical theory. The singularity is eliminated but the space-time still contains a horizon. Although the solution is known partially numerically and therefore a proper global analysis is not possible, a global structure akin to a singularity-free Reissner--Nordström space-time including a Cauchy horizon is suggested.

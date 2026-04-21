@@ -1,0 +1,7 @@
+Title: Experimental demonstration of the supersonic-subsonic bifurcation in the circular jump: A hydrodynamic white hole
+Authors: G. Jannes, R. Piquet, P. Maissa, C. Mathis, G. Rousseaux
+Published: 2010-10-08
+arXiv ID: http://arxiv.org/abs/1010.1701v2
+Categories: physics.flu-dyn, gr-qc
+Abstract:
+We provide an experimental demonstration that the circular hydraulic jump represents a hydrodynamic white hole or gravitational fountain (the time-reverse of a black hole) by measuring the angle of the Mach cone created by an object in the "supersonic" inner flow region. We emphasise the general character of this gravitational analogy by showing theoretically that the white hole horizon constitutes a stationary and spatial saddle-node bifurcation within dynamical-systems theory. We also demonstrate that the inner region has a "superluminal" dispersion relation, i.e., that the group velocity of the surface waves increases with frequency, and discuss some possible consequences with respect to the robustness of Hawking radiation. Finally, we point out that our experiment shows a concrete example of a possible "transplanckian distortion" of black/white holes.

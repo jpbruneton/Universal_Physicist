@@ -1,0 +1,7 @@
+Title: Generalized Uncertainty Principle in Quantum Gravity from Micro-Black Hole Gedanken Experiment
+Authors: Fabio Scardigli
+Published: 1999-04-05
+arXiv ID: http://arxiv.org/abs/hep-th/9904025v1
+Categories: hep-th, gr-qc
+Abstract:
+We review versions of the Generalized Uncertainty Principle (GUP) obtained in string theory and in gedanken experiments carried out in Quantum Gravity. We show how a GUP can be derived from a measure gedanken experiment involving micro-black holes at the Planck scale of spacetime. The model uses only Heisenberg principle and Schwarzschild radius and it is independent from particular versions of Quantum Gravity.

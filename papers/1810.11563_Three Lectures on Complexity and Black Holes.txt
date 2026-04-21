@@ -1,0 +1,10 @@
+Title: Three Lectures on Complexity and Black Holes
+Authors: Leonard Susskind
+Published: 2018-10-27
+arXiv ID: http://arxiv.org/abs/1810.11563v1
+Categories: hep-th
+Abstract:
+Given at PiTP 2018 summer program entitled "From Qubits to Spacetime." The first lecture describes the meaning of quantum complexity, the analogy between entropy and complexity, and the second law of complexity.
+  Lecture two reviews the connection between the second law of complexity and the interior of black holes. I discuss how firewalls are related to periods of non-increasing complexity which typically only occur after an exponentially long time.
+  The final lecture is about the thermodynamics of complexity, and "uncomplexity" as a resource for doing computational work. I explain the remarkable power of "one clean qubit," in both computational terms and in space-time terms.
+  The lectures can also be found online at \url{https://static.ias.edu/pitp/2018/node/1796.html} .

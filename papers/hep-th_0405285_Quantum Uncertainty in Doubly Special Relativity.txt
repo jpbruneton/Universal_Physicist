@@ -1,0 +1,7 @@
+Title: Quantum Uncertainty in Doubly Special Relativity
+Authors: J. L. Cortes, J. Gamboa
+Published: 2004-05-31
+arXiv ID: http://arxiv.org/abs/hep-th/0405285v1
+Categories: hep-th, gr-qc
+Abstract:
+The modification of the quantum mechanical commutators in a relativistic theory with an invariant length scale (DSR) is identified. Two examples are discussed where a classical behavior is approached in one case when the energy approaches the inverse of the invariant length which appears as a cutoff in the energy and in the second case when the mass is much larger than the inverse of the invariant length.

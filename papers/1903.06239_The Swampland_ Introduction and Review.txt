@@ -1,0 +1,7 @@
+Title: The Swampland: Introduction and Review
+Authors: Eran Palti
+Published: 2019-03-14
+arXiv ID: http://arxiv.org/abs/1903.06239v3
+Categories: hep-th, gr-qc
+Abstract:
+The Swampland program aims to distinguish effective theories which can be completed into quantum gravity in the ultraviolet from those which cannot. This article forms an introduction to the field, assuming only a knowledge of quantum field theory and general relativity. It also forms a comprehensive review, covering the range of ideas that are part of the field, from the Weak Gravity Conjecture, through compactifications of String Theory, to the de Sitter conjecture.

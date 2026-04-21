@@ -1,0 +1,7 @@
+Title: A relational approach to quantum reference frames for spins
+Authors: Jacques Pienaar
+Published: 2016-01-27
+arXiv ID: http://arxiv.org/abs/1601.07320v2
+Categories: quant-ph
+Abstract:
+In the literature on quantum reference frames, the internal (relative) properties of a system are defined as those which are preserved under an arbitrary change of reference frame. For a system of quantum spins, these are all properties preserved by proper spatial rotations of the laboratory. However, this approach does not account for the hypothetical possibility of the laboratory becoming entangled to the system, as described by a second laboratory (the `Wigner's friend' scenario), in which case the relationship between the two laboratories is not a rotation, but is fundamentally quantum. To overcome this limitation, we re-define the reference frame transformations to be those that preserve the fidelities between subsystems. This enables us to derive U(2) as the correct symmetry group for transformations of a system of N spin-half particles. Next, we propose that systems having the same internal properties should be regarded as physically equivalent in the absence of an external frame. Remarkably, this implies that a single spin in a superposition relative to a spin magnet is equivalent to a macroscopic superposition of the magnet relative to the spin. We discuss the implications of this result for the Wigner's friend paradox.

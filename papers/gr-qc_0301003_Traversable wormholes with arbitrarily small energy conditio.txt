@@ -1,0 +1,7 @@
+Title: Traversable wormholes with arbitrarily small energy condition violations
+Authors: Matt Visser, Sayan Kar, Naresh Dadhich
+Published: 2003-01-01
+arXiv ID: http://arxiv.org/abs/gr-qc/0301003v2
+Categories: gr-qc
+Abstract:
+Traversable wormholes necessarily require violations of the averaged null energy condition; this being the definition of ``exotic matter''. However, the theorems which guarantee the energy condition violation are remarkably silent when it comes to making quantitative statements regarding the ``total amount'' of energy condition violating matter in the spacetime. We develop a suitable measure for quantifying this notion, and demonstrate the existence of spacetime geometries containing traversable wormholes that are supported by arbitrarily small quantities of ``exotic matter''.

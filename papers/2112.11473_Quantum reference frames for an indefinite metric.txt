@@ -1,0 +1,7 @@
+Title: Quantum reference frames for an indefinite metric
+Authors: Anne-Catherine de la Hamette, Viktoria Kabel, Esteban Castro-Ruiz, Časlav Brukner
+Published: 2021-12-21
+arXiv ID: http://arxiv.org/abs/2112.11473v2
+Categories: quant-ph, gr-qc
+Abstract:
+The current theories of quantum physics and general relativity on their own do not allow us to study situations in which the gravitational source is quantum. Here, we propose a strategy to determine the dynamics of objects in the presence of mass configurations in superposition, and hence an indefinite spacetime metric, using quantum reference frame (QRF) transformations. Specifically, we show that, as long as the mass configurations in the different branches are related via relative-distance-preserving transformations, one can use an extension of the current framework of QRFs to change to a frame in which the mass configuration becomes definite. Assuming covariance of dynamical laws under quantum coordinate transformations, this allows to use known physics to determine the dynamics. We apply this procedure to find the motion of a probe particle and the behavior of clocks near the mass configuration, and thus find the time dilation caused by a gravitating object in superposition.

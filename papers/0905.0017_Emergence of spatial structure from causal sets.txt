@@ -1,0 +1,7 @@
+Title: Emergence of spatial structure from causal sets
+Authors: David Rideout, Petros Wallden
+Published: 2009-04-30
+arXiv ID: http://arxiv.org/abs/0905.0017v1
+Categories: gr-qc
+Abstract:
+There are numerous indications that a discrete substratum underlies continuum spacetime. Any fundamentally discrete approach to quantum gravity must provide some prescription for how continuum properties emerge from the underlying discreteness. The causal set approach, in which the fundamental relation is based upon causality, finds it easy to reproduce timelike distances, but has a more difficult time with spatial distance, due to the unique combination of Lorentz invariance and discreteness within that approach. We describe a method to deduce spatial distances from a causal set. In addition, we sketch how one might use an important ingredient in deducing spatial distance, the `$n$-link', to deduce whether a given causal set is likely to faithfully embed into a continuum spacetime.

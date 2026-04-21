@@ -1,0 +1,7 @@
+Title: Are loop quantum cosmos never singular?
+Authors: Parampreet Singh
+Published: 2009-01-19
+arXiv ID: http://arxiv.org/abs/0901.2750v2
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+A unified treatment of all known types of singularities for flat, isotropic and homogeneous spacetimes in the framework of loop quantum cosmology (LQC) is presented. These include bangs, crunches and all future singularities. Using effective spacetime description we perform a model independent general analysis of the properties of curvature, behavior of geodesics and strength of singularities. For illustration purposes a phenomenological model based analysis is also performed. We show that all values of the scale factor at which a strong singularity may occur are excluded from the effective loop quantum spacetime. Further, if the evolution leads to either a vanishing or divergent scale factor then the loop quantum universe is asymptotically deSitter in that regime. We also show that there exist a class of sudden extremal events, which includes a recently discussed possibility, for which the curvature or its derivatives will always diverge. Such events however turn out to be harmless weak curvature singularities beyond which geodesics can be extended. Our results point towards a generic resolution of physical singularities in LQC.

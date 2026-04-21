@@ -1,0 +1,7 @@
+Title: On black hole singularity resolution in $D=2$ via duality-invariant $α'$ corrections
+Authors: Tomas Codina, Olaf Hohm, Barton Zwiebach
+Published: 2023-08-18
+arXiv ID: http://arxiv.org/abs/2308.09743v1
+Categories: hep-th
+Abstract:
+Starting with the two-derivative limit of $D=2$ string theory, we explore the space of T-duality invariant $α'$ corrections, a space that contains a point representing the fully $α'$-corrected classical string theory. Using a parametrization introduced by Gasperini and Veneziano we obtain black hole solutions in this theory space. We prove that the dual of a solution with a regular horizon must have a curvature singularity. We find regions in the theory space where the black hole is deformed while preserving the horizon and the singularity, and regions where no black hole appears to exist. Furthermore, we find subregions in this theory space, probably not containing string theory, in which the black hole geometry exhibits a horizon leading to an interior that, having no singularity in the metric, curvature, or dilaton, is a regular cosmology.

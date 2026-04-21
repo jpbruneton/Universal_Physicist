@@ -1,0 +1,7 @@
+Title: Geometry Eigenvalues and Scalar Product from Recoupling Theory in Loop Quantum Gravity
+Authors: Roberto De Pietri, C. Rovelli
+Published: 1996-02-13
+arXiv ID: http://arxiv.org/abs/gr-qc/9602023v2
+Categories: gr-qc, hep-th
+Abstract:
+We summarize the basics of the loop representation of quantum gravity and describe the main aspects of the formalism, including its latest developments, in a reorganized and consistent form. Recoupling theory, in its graphical Temperley-Lieb-Kauffman formulation, provides a powerful calculation tool in this context. We describe its application to the loop representation in detail. Using recoupling theory, we derive general expressions for the spectrum of the quantum area and the quantum volume operators. We compute several volume eigenvalues explicitly. We introduce a scalar product with respect to which area and volume are symmetric operators, and (the trivalent expansions of) the spin network states are orthogonal.

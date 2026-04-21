@@ -1,0 +1,7 @@
+Title: Anomaly-free scalar perturbations with holonomy corrections in loop quantum cosmology
+Authors: Thomas Cailleteau, Jakub Mielczarek, Aurelien Barrau, Julien Grain
+Published: 2011-11-15
+arXiv ID: http://arxiv.org/abs/1111.3535v2
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+Holonomy corrections to scalar perturbations are investigated in the loop quantum cosmology framework. Due to the effective approach, modifications of the algebra of constraints generically lead to anomalies. In order to remove those anomalies, counter-terms are introduced. We find a way to explicitly fulfill the conditions for anomaly freedom and we give explicit expressions for the counter-terms. Surprisingly, the "new quantization scheme" naturally arises in this procedure. The gauge invariant variables are found and equations of motion for the anomaly-free scalar perturbations are derived. Finally, some cosmological consequences are discussed qualitatively.

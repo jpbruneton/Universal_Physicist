@@ -1,0 +1,7 @@
+Title: How loopy is the quantum bounce? A heuristic analysis of higher order holonomy corrections in LQC
+Authors: Dah-Wei Chiou, Li-Fang Li
+Published: 2009-01-13
+arXiv ID: http://arxiv.org/abs/0901.1757v3
+Categories: gr-qc
+Abstract:
+A well-motivated extension of higher order holonomy corrections in loop quantum cosmology (LQC) for the $k=0$ Friedmann-Robertson-Walker model is investigated at the level of heuristic effective dynamics. It reveals that the quantum bounce is generic, regardless of the order of corrections, and the matter density remains finite, bounded from above by an upper bound in the regime of the Planckian density, even if all orders of corrections are included. This observation provides further evidence that the quantum bounce is essentially a consequence of the loopy nature (i.e. intrinsic discreteness) of LQC and LQC is fundamentally different from the Wheeler-DeWitt theory; it also encourages one to construct the quantum theory of LQC with the higher order holonomy corrections, which might be understood as related to the higher $j$ representations in the Hamiltonian operator of loop quantum gravity.

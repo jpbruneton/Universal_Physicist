@@ -1,0 +1,7 @@
+Title: Entanglement entropy and conformal field theory
+Authors: Pasquale Calabrese, John Cardy
+Published: 2009-05-25
+arXiv ID: http://arxiv.org/abs/0905.4013v2
+Categories: cond-mat.stat-mech, cond-mat.str-el, hep-th, quant-ph
+Abstract:
+We review the conformal field theory approach to entanglement entropy. We show how to apply these methods to the calculation of the entanglement entropy of a single interval, and the generalization to different situations such as finite size, systems with boundaries, and the case of several disjoint intervals. We discuss the behaviour away from the critical point and the spectrum of the reduced density matrix. Quantum quenches, as paradigms of non-equilibrium situations, are also considered.

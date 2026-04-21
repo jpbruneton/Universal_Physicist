@@ -1,0 +1,8 @@
+Title: Singularity Resolution in Loop Quantum Cosmology: A Brief Overview
+Authors: Abhay Ashtekar
+Published: 2008-12-26
+arXiv ID: http://arxiv.org/abs/0812.4703v1
+Categories: gr-qc
+Abstract:
+A brief summary of the singularity resolution in loop quantum cosmology of homogeneous isotropic models is presented. The article is addressed to relativists who do not specialize in quantum gravity. For further details, and answers to more technical asked questions, the reader is directed to the original papers and to more comprehensive recent reviews.
+  Dedicated to the memory of Basilis Xanthopoulos, a founder of this NEB series of conferences.

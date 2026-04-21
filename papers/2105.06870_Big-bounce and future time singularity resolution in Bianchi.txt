@@ -1,0 +1,7 @@
+Title: Big-bounce and future time singularity resolution in Bianchi I: the projective invariant Nieh-Yan case
+Authors: Flavio Bombacigno, Simon Boudet, Gonzalo J. Olmo, Giovanni Montani
+Published: 2021-05-14
+arXiv ID: http://arxiv.org/abs/2105.06870v1
+Categories: gr-qc
+Abstract:
+We extend the notion of the Nieh-Yan invariant to generic metric-affine geometries, where both torsion and nonmetricity are taken into account. Notably, we show that the properties of projective invariance and topologicity can be independently accommodated by a suitable choice of the parameters featuring this new Nieh-Yan term. We then consider a special class of modified theories of gravity able to promote the Immirzi parameter to a dynamical scalar field coupled to the Nieh-Yan form, and we discuss in more detail the dynamics of the effective scalar tensor theory stemming from such a revised theoretical framework. We focus, in particular, on cosmological Bianchi I models and we derive classical solutions where the initial singularity is safely removed in favor of a big-bounce, which is ultimately driven by the non-minimal coupling with the Immirzi field. These solutions, moreover, turn out to be characterized by finite time singularities, but we show that such critical points do not spoil the geodesic completeness and wave regularity of these space-times.

@@ -1,0 +1,7 @@
+Title: Shadow of a Charged Rotating Non-Commutative Black Hole
+Authors: M. Sharif, Sehrish Iftikhar
+Published: 2016-11-01
+arXiv ID: http://arxiv.org/abs/1611.00611v1
+Categories: gr-qc
+Abstract:
+This paper investigates the shadow of a charged rotating non-commutative black hole. For this purpose, we first formulate the null geodesics and study the effects of non-commutative charge on the photon orbit. We then explore the effect of spin, angle of inclination as well as non-commutative charge on the silhouette of the shadow. It is found that shape of the shadow deviates from the circle with the decrease in the non-commutative charge. We also discuss observable quantities to study the deformation and distortion in the shadow cast by the black hole which decreases for small values of non-commutative charge. Finally, we study the shadows in the presence of plasma. We conclude that the non-commutativity has a great impact on the black hole shadow.

@@ -1,0 +1,7 @@
+Title: Space and Time in Loop Quantum Gravity
+Authors: Carlo Rovelli
+Published: 2018-02-07
+arXiv ID: http://arxiv.org/abs/1802.02382v1
+Categories: gr-qc, physics.hist-ph, quant-ph
+Abstract:
+Quantum gravity is expected to require modifications of the notions of space and time. I discuss and clarify how this happens in Loop Quantum Gravity.

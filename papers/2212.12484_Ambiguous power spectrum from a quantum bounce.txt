@@ -1,0 +1,7 @@
+Title: Ambiguous power spectrum from a quantum bounce
+Authors: Jaime de Cabo Martin, Przemysław Małkiewicz, Patrick Peter
+Published: 2022-12-23
+arXiv ID: http://arxiv.org/abs/2212.12484v3
+Categories: gr-qc
+Abstract:
+A quantum cosmological bouncing model may exhibit an ambiguity stemming from the nonclassical nature of the background evolution: two classically equivalent theories can produce two qualitatively different potentials sourcing the perturbations. We derive explicitly the quantum canonical transformation involving the quantum background to show how it leads to inequivalent theories. We identify the relevant quantum parameter describing the difference and expand upon the ambiguity by calculating the expected power spectra produced for initial quantum vacuum fluctuations in the contracting phase of both potentials. We find that one spectral index corresponds to all values of this parameter but one, while the other thus represents a set of measure zero.

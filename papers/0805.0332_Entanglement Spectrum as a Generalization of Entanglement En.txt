@@ -1,0 +1,7 @@
+Title: Entanglement Spectrum as a Generalization of Entanglement Entropy: Identification of Topological Order in Non-Abelian Fractional Quantum Hall Effect States
+Authors: Hui Li, F. D. M. Haldane
+Published: 2008-05-05
+arXiv ID: http://arxiv.org/abs/0805.0332v2
+Categories: cond-mat.mes-hall
+Abstract:
+We study the "entanglement spectrum" (a presentation of the Schmidt decomposition analogous to a set of "energy levels") of a many-body state, and compare the Moore-Read model wavefunction for the $ν$ = 5/2 fractional quantum Hall state with a generic 5/2 state obtained by finite-size diagonalization of the second-Landau-level-projected Coulomb interactions. Their spectra share a common "gapless" structure, related to conformal field theory. In the model state, these are the \textit{only} levels, while in the "generic" case, they are separated from the rest of the spectrum by a clear "entanglement gap", which appears to remain finite in the thermodynamic limit. We propose that the low-lying entanglement spectrum can be used as a "fingerprint" to identify topological order.

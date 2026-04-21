@@ -1,0 +1,7 @@
+Title: On Singularity Resolution in Quantum Gravity
+Authors: V. Husain, O. Winkler
+Published: 2003-12-20
+arXiv ID: http://arxiv.org/abs/gr-qc/0312094v1
+Categories: gr-qc, hep-th
+Abstract:
+We examine the singularity resolution issue in quantum gravity by studying a new quantization of standard Friedmann-Robertson-Walker geometrodynamics. The quantization procedure is inspired by the loop quantum gravity programme, and is based on an alternative to the Schrödinger representation normally used in metric variable quantum cosmology. We show that in this representation for quantum geometrodynamics there exists a densely defined inverse scale factor operator, and that the Hamiltonian constraint acts as a difference operator on the basis states. We find that the cosmological singularity is avoided in the quantum dynamics. We discuss these results with a view to identifying the criteria that constitute "singularity resolution" in quantum gravity.

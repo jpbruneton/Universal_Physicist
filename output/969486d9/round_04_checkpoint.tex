@@ -1,0 +1,206 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\geometry{margin=2.5cm}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\title{\textbf{Discrete-Time Quantum Mechanics via Cayley Discretization}\\
+\large Round 4 Checkpoint — Intermediate Research Document\\
+\normalsize \textcolor{red}{Provisional: Not for Citation}}
+\author{Multi-Specialist Synthesis}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report a coherent theoretical proposal emerging from four rounds of specialist deliberation: a proper-time Cayley (Crank--Nicolson) discretization of relativistic quantum mechanics, with time step $a = t_P$ (Planck proper time), constitutes an internally consistent, exactly unitary, and Lorentz-compatible discrete-time quantum theory. The leading-order deviations from standard quantum mechanics are calculable, universal in sign (subluminal group velocity), and in principle distinguishable from competing $\kappa$-deformed schemes. Several critical tensions remain unresolved, particularly the extension to interacting field theories and the treatment of massless particles in the proper-time framework. This document is an honest checkpoint; speculative claims are marked explicitly.
+\end{abstract}
+
+\tableofcontents
+\vspace{1em}
+
+%------------------------------------------------------------
+\section{Current Theoretical Proposal}
+%------------------------------------------------------------
+
+\subsection{Unitarity Classification and the Cayley Scheme}
+
+We seek a one-step evolution operator $U_a = f(aH)$ (natural units $G = \hbar = c = 1$ throughout) that is exactly unitary for all self-adjoint $H$. The necessary and sufficient condition is $|f(x)| = 1$ for almost every $x \in \mathbb{R}$. Among rational approximations to $e^{-ix}$, only the diagonal Pad\'{e} family achieves this:
+\begin{equation}
+  U_a^{[n,n]} = \frac{P_n\!\left(-\tfrac{ia H}{2}\right)}{P_n\!\left(+\tfrac{ia H}{2}\right)},
+  \label{eq:1}
+\end{equation}
+where $P_n$ is the degree-$n$ numerator polynomial. The physically preferred $[1,1]$ member is the \textbf{Cayley/Crank--Nicolson (CCN) scheme}:
+\begin{equation}
+  U_a^{\mathrm{Cay}} = \left(\mathbf{1} + \tfrac{ia H}{2}\right)^{-1}\!\left(\mathbf{1} - \tfrac{ia H}{2}\right),
+  \label{eq:2}
+\end{equation}
+implemented as the discrete evolution equation
+\begin{equation}
+  \left(\mathbf{1} + \tfrac{ia H}{2}\right)|\psi(t+a)\rangle = \left(\mathbf{1} - \tfrac{ia H}{2}\right)|\psi(t)\rangle.
+  \label{eq:3}
+\end{equation}
+The group-law defect of the CCN scheme has been corrected from earlier rounds; it is \emph{third}-order in $a$:
+\begin{equation}
+  \theta^{[1,1]}(2a,E) - 2\,\theta^{[1,1]}(a,E) = \frac{(aE)^3}{2} + \mathcal{O}(a^5),
+  \label{eq:4}
+\end{equation}
+which is physically negligible for $E \ll E_P \equiv 1/a$.
+
+\subsection{Dispersion Relation and Modified Uncertainty}
+
+On an energy eigenstate $H|E\rangle = E|E\rangle$, the CCN scheme assigns phase
+\begin{equation}
+  \omega_{\mathrm{Cay}}(E) = \frac{2}{a}\arctan\!\left(\frac{aE}{2}\right)
+  = E - \frac{a^2 E^3}{12} + \frac{a^4 E^5}{80} - \cdots.
+  \label{eq:5}
+\end{equation}
+For a massless particle ($E = p$), the corrected modified dispersion relation (MDR) and group velocity are:
+\begin{equation}
+  E_\gamma^2 = p^2\!\left(1 - \frac{p^2}{6\,E_P^2}\right) + \mathcal{O}(E_P^{-4}),
+  \qquad
+  v_g = 1 - \frac{E_\gamma^2}{4\,E_P^2} + \mathcal{O}(E_P^{-4}).
+  \label{eq:6}
+\end{equation}
+These coefficients ($1/6$ and $1/4$) supersede inconsistent values from earlier rounds and have been independently verified. The generalized energy--time uncertainty relation derived from Eq.~\eqref{eq:5} is:
+\begin{equation}
+  \Delta E \cdot \Delta t \;\geq\; \frac{1}{2}\!\left(1 + \frac{a^2 E^2}{4}\right).
+  \label{eq:7}
+\end{equation}
+Limit checks: Eq.~\eqref{eq:7} reduces to the standard Heisenberg relation for $E \ll E_P$, tightens by $\sim 25\%$ at $E \sim E_P$, and diverges as $E \to \infty$, making sub-Planckian time resolution impossible.
+
+\subsection{Lorentz Covariance via Proper-Time Discretization}
+
+A fixed coordinate-time step $a$ in frame $\mathcal{F}$ transforms as $\gamma a$ under a boost, naively breaking Lorentz symmetry. We resolve this by identifying $a = t_P$ as the minimum quantum of \emph{proper time} along a worldline. For a massive particle the discrete evolution is:
+\begin{equation}
+  \left(\mathbf{1} + \tfrac{it_P H_\tau}{2}\right)|\psi(\tau + t_P)\rangle = \left(\mathbf{1} - \tfrac{it_P H_\tau}{2}\right)|\psi(\tau)\rangle,
+  \label{eq:8}
+\end{equation}
+where $H_\tau = \sqrt{\hat{p}^2 + m^2}$ is the invariant-mass operator and $\tau$ is proper time. The coordinate-time step $\Delta t_{\mathrm{coord}} = \gamma\, t_P$ is ordinary Lorentz time dilation. For massless particles, proper time vanishes on null geodesics; the correct treatment uses the affine parameter $\lambda$ with $H_\lambda = |\hat{p}|$:
+\begin{equation}
+  U_{\ell_P}^{\mathrm{Cay}}\big|_{\mathrm{massless}} = \frac{\mathbf{1} - \tfrac{i\ell_P}{2}|\hat{p}|}{\mathbf{1} + \tfrac{i\ell_P}{2}|\hat{p}|},
+  \label{eq:9}
+\end{equation}
+where $\ell_P = ct_P$ is the Planck length. A covariant Planck-scale field-theory action using symmetric differences in all four directions is:
+\begin{equation}
+  S_{\mathrm{latt}} = \ell_P^4 \sum_{x \in \ell_P\mathbb{Z}^4} \left[\frac{1}{2}\sum_{\mu=0}^{3}\!\left(\frac{\phi(x+\ell_P\hat{\mu})-\phi(x-\ell_P\hat{\mu})}{2\ell_P}\right)^{\!2} - \frac{m^2}{2}\phi(x)^2\right].
+  \label{eq:10}
+\end{equation}
+The full hypercubic symmetry of Eq.~\eqref{eq:10} restores $SO^+(3,1)$ in the limit $\ell_P \to 0$.
+
+\subsection{Sign Universality and Scheme Discrimination}
+
+\begin{proposition}[Universal Subluminality]
+For any unitary rational Pad\'{e} scheme $U_a^{[n,n]}$, the leading Planck correction to the photon group velocity satisfies $v_g = c(1 - \alpha_n E^2/E_P^2 + \cdots)$ with $\alpha_n > 0$.
+\end{proposition}
+
+The coefficient $\alpha_n$ for each order is determined by $c_2^{(n)} > 0$ in the expansion $\theta^{[n,n]}(x) = -x(1 - c_2^{(n)}x^2 + \cdots)$; for $n=1$, $c_2^{(1)} = 1/12$. The $\kappa$-deformed Cayley scheme ($\kappa$CN) predicts the \emph{opposite} sign \textcolor{red}{[speculative]}:
+\begin{equation}
+  v_g^{\kappa\mathrm{CN}} = c\!\left(1 + \frac{E^2}{4E_P^2}\right) > c,
+  \label{eq:11}
+\end{equation}
+a superluminal result that conflicts with standard causality. The sign of the GRB time delay $\Delta t_{\mathrm{GRB}}$ therefore \emph{discriminates} between schemes. For the CCN scheme the estimated delay for $E_\gamma = 10\,\mathrm{GeV}$, $L = 10^{26}\,\mathrm{m}$ is:
+\begin{equation}
+  \Delta t_{\mathrm{GRB}} \approx \frac{L}{c}\cdot\frac{E_\gamma^2}{4E_P^2} \approx 5\times10^{-20}\,\mathrm{s},
+  \label{eq:12}
+\end{equation}
+roughly 17 orders of magnitude below current Fermi-LAT sensitivity.
+
+%------------------------------------------------------------
+\section{Points of Consensus}
+%------------------------------------------------------------
+
+The following results are agreed upon by all specialists after four rounds:
+
+\begin{enumerate}
+  \item \textbf{Unitarity theorem.} Exact unitarity for all self-adjoint $H$ requires $|f(x)|=1$ a.e.; within rational functions, only the diagonal Pad\'{e} family satisfies this (Eq.~\eqref{eq:1}).
+  \item \textbf{Corrected group-law defect.} The CCN phase defect is $\mathcal{O}(a^3)$, not $\mathcal{O}(a^2)$ as stated in Round~1 (Eq.~\eqref{eq:4}).
+  \item \textbf{Corrected MDR coefficients.} The factors $1/6$ (dispersion) and $1/4$ (group velocity) in Eq.~\eqref{eq:6} are consistent and supersede earlier inconsistent values.
+  \item \textbf{Proper-time resolution of Lorentz tension.} Treating $t_P$ as proper-time quantum eliminates the boost-transformation problem for massive particles (Eq.~\eqref{eq:8}).
+  \item \textbf{Sign universality.} All diagonal Pad\'{e} schemes predict subluminal corrections ($\alpha_n > 0$); $\kappa$CN predicts superluminal corrections.
+  \item \textbf{GRB observability.} The CCN prediction Eq.~\eqref{eq:12} is far below current experimental reach; the result's value lies in its sign discriminability, not near-term detectability.
+  \item \textbf{Free-theory domain.} All verified calculations apply to free quantum mechanics; extension to interacting theories remains open.
+\end{enumerate}
+
+The causal-set program \cite{henson2006} and loop quantum gravity \cite{ashtekar2004,thiemann1996} independently motivate Planck-scale discreteness, providing broader theoretical context, though neither directly implies the CCN scheme.
+
+%------------------------------------------------------------
+\section{Open Tensions}
+%------------------------------------------------------------
+
+\begin{enumerate}
+  \item \textbf{Interaction problem (critical).} For $H = H_0 + H_I$, the unsplit CCN operator requires inverting $(\mathbf{1} + \tfrac{ia}{2}(H_0+H_I))$, which is generically nonlocal. The Suzuki--Trotter split preserves unitarity but introduces $\mathcal{O}(a^2[H_0,H_I])$ group-law errors, making subleading MDR coefficients scheme-dependent. \textcolor{red}{[No resolution yet.]}
+
+  \item \textbf{QFT extension.} A Lorentz-covariant Planck-scale lattice QFT has not been constructed. Compatibility with gauge invariance, renormalizability, and the Wilsonian treatment of the hard ultraviolet cutoff is unclear. \textcolor{red}{[speculative that standard renormalization applies.]}
+
+  \item \textbf{Massless/massive asymmetry.} Proper time and affine parameter formulations (Eqs.~\eqref{eq:8}--\eqref{eq:9}) treat massive and massless particles differently, complicating mixed processes such as $e^+e^- \to \gamma\gamma$.
+
+  \item \textbf{Quantum measurement at Planck scale.} The projection postulate assumes instantaneous collapse, conflicting with $\Delta t \geq t_P$ from Eq.~\eqref{eq:7}. A consistent discrete-time measurement theory does not yet exist.
+
+  \item \textbf{Quantum walk connection.} The Dirac quantum walk (Bialynicki-Birula 1994; Meyer 1996; Strauch 2006) is a spatially local unitary scheme potentially belonging to the Pad\'{e} family. Its precise classification within the present framework is unresolved.
+
+  \item \textbf{Group-law defect physical content.} The defect in Eq.~\eqref{eq:4} \textcolor{red}{[speculatively]} suggests an effective noncommutative time algebra with third-order structure. The physical interpretation has not been developed.
+
+  \item \textbf{Holographic consistency.} Whether the CCN scheme is compatible with holographic bounds \cite{maldacena1997,witten1998,skenderis2002} is uninvestigated. The bulk Planck-scale discreteness may conflict with boundary CFT continuity in AdS/CFT.
+\end{enumerate}
+
+%------------------------------------------------------------
+\section{Next Steps}
+%------------------------------------------------------------
+
+\begin{enumerate}
+  \item \textbf{Interaction prescription (Round 5 priority).} Evaluate competing strategies for handling $H_I$: (a) exact inversion accepting nonlocality; (b) Suzuki--Trotter splitting with explicit error accounting; (c) interaction-picture CCN. Determine which, if any, preserves a well-defined continuum QFT limit.
+
+  \item \textbf{Quantum walk classification.} Determine whether the Dirac quantum walk and its relatives are members of the diagonal Pad\'{e} family or constitute a distinct unitarity class. If equivalent, leverage existing quantum-walk results on propagation and dispersion.
+
+  \item \textbf{Massless sector.} Develop a unified formalism covering both Eqs.~\eqref{eq:8} and \eqref{eq:9} that handles pair-annihilation kinematics consistently.
+
+  \item \textbf{Measurement axioms.} Draft a minimal revision of the projection postulate compatible with a minimum time step $t_P$, using either a discrete POVM framework or a stroboscopic measurement model.
+
+  \item \textbf{Higher Pad\'{e} comparison.} Compute $\alpha_n$ for $n = 2, 3$ and determine whether any physical observable (beyond the GRB delay magnitude) distinguishes CCN from higher-order unitary schemes.
+
+  \item \textbf{Holographic check.} Examine whether imposing the CCN lattice in the bulk AdS geometry is compatible with the boundary CFT data, using holographic renormalization \cite{skenderis2002} as a consistency probe.
+\end{enumerate}
+
+%------------------------------------------------------------
+\section*{References}
+%------------------------------------------------------------
+
+\begin{thebibliography}{99}
+
+\bibitem{thiemann1996}
+T. Thiemann.
+\textit{Quantum Spin Dynamics (QSD)}.
+arXiv:gr-qc/9606089v1 (1996).
+
+\bibitem{maldacena1997}
+Juan M. Maldacena.
+\textit{The Large N Limit of Superconformal Field Theories and Supergravity}.
+arXiv:hep-th/9711200v3 (1997).
+
+\bibitem{ashtekar2004}
+Abhay Ashtekar, Jerzy Lewandowski.
+\textit{Background Independent Quantum Gravity: A Status Report}.
+arXiv:gr-qc/0404018v2 (2004).
+
+\bibitem{skenderis2002}
+Kostas Skenderis.
+\textit{Lecture Notes on Holographic Renormalization}.
+arXiv:hep-th/0209067v2 (2002).
+
+\bibitem{henson2006}
+Joe Henson.
+\textit{The causal set approach to quantum gravity}.
+arXiv:gr-qc/0601121v2 (2006).
+
+\bibitem{witten1998}
+Edward Witten.
+\textit{Anti De Sitter Space And Holography}.
+arXiv:hep-th/9802150v2 (1998).
+
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,7 @@
+Title: Doubly Special Relativity and de Sitter space
+Authors: Jerzy Kowalski-Glikman, Sebastian Nowak
+Published: 2003-04-10
+arXiv ID: http://arxiv.org/abs/hep-th/0304101v3
+Categories: hep-th
+Abstract:
+In this paper we recall the construction of Doubly Special Relativity (DSR) as a theory with energy-momentum space being the four dimensional de Sitter space. Then the bases of the DSR theory can be understood as different coordinate systems on this space. We investigate the emerging geometrical picture of Doubly Special Relativity by presenting the basis independent features of DSR that include the non-commutative structure of space-time and the phase space algebra. Next we investigate the relation between our geometric formulation and the one based on quantum $κ$-deformations of the Poincaré algebra. Finally we re-derive the five-dimensional differential calculus using the geometric method, and use it to write down the deformed Klein-Gordon equation and to analyze its plane wave solutions.

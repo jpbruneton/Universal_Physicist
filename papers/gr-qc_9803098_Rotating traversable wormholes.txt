@@ -1,0 +1,7 @@
+Title: Rotating traversable wormholes
+Authors: Edward Teo
+Published: 1998-03-31
+arXiv ID: http://arxiv.org/abs/gr-qc/9803098v2
+Categories: gr-qc
+Abstract:
+The general form of a stationary, axially symmetric traversable wormhole is discussed. This provides an explicit class of rotating wormholes that generalize the static, spherically symmetric ones first considered by Morris and Thorne. In agreement with general analyses, it is verified that such a wormhole generically violates the null energy condition at the throat. However, for suitable model wormholes, there can be classes of geodesics falling through it which do not encounter any energy-condition-violating matter. The possible presence of an ergoregion surrounding the throat is also noted.

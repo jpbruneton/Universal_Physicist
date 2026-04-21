@@ -1,0 +1,7 @@
+Title: Lorentz violation and generalized uncertainty principle
+Authors: Gaetano Lambiase, Fabio Scardigli
+Published: 2017-09-02
+arXiv ID: http://arxiv.org/abs/1709.00637v1
+Categories: hep-th, gr-qc, quant-ph
+Abstract:
+Investigations on possible violation of Lorentz invariance have been widely pursued in the last decades, both from theoretical and experimental sides. A comprehensive framework to formulate the problem is the standard model extension (SME) proposed by A.Kostelecky, where violation of Lorentz invariance is encoded into specific coefficients. Here we present a procedure to link the deformation parameter $β$ of the generalized uncertainty principle (GUP) to the SME coefficients of the gravity sector. The idea is to compute the Hawking temperature of a black hole in two different ways. The first way involves the deformation parameter $β$, and therefore we get a deformed Hawking temperature containing the parameter $β$. The second way involves a deformed Schwarzschild metric containing the Lorentz violating terms $\bar{s}^{μν}$ of the gravity sector of the SME. The comparison between the two different techniques yields a relation between $β$ and $\bar{s}^{μν}$. In this way bounds on $β$ transferred from $\bar{s}^{μν}$ are improved by many orders of magnitude when compared with those derived in other gravitational frameworks. Also the opposite possibility of bounds transferred from $β$ to $\bar{s}^{μν}$ is briefly discussed.

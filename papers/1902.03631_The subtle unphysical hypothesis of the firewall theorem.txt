@@ -1,0 +1,7 @@
+Title: The subtle unphysical hypothesis of the firewall theorem
+Authors: Carlo Rovelli
+Published: 2019-02-10
+arXiv ID: http://arxiv.org/abs/1902.03631v3
+Categories: gr-qc
+Abstract:
+The black-hole firewall theorem derives a suspicious consequence (large energy-momentum density on the horizon of a black hole) from a set of seemingly reasonable hypotheses. I point out the hypothesis which is likely to be unrealistic---a hypothesis not always sufficiently made explicit--- and discuss the subtle confusion at its origin: mixing-up of two different notions of entropy and misusing of the entropy bound.

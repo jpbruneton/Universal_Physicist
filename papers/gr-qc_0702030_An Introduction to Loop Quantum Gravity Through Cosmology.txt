@@ -1,0 +1,7 @@
+Title: An Introduction to Loop Quantum Gravity Through Cosmology
+Authors: Abhay Ashtekar
+Published: 2007-02-05
+arXiv ID: http://arxiv.org/abs/gr-qc/0702030v2
+Categories: gr-qc
+Abstract:
+This introductory review is addressed to beginning researchers. Some of the distinguishing features of loop quantum gravity are illustrated through loop quantum cosmology of FRW models. In particular, these examples illustrate: i) how `emergent time' can arise; ii) how the technical issue of solving the Hamiltonian constraint and constructing the \emph{physical} sector of the theory can be handled; iii) how questions central to the Planck scale physics can be answered using such a framework; and, iv) how quantum geometry effects can dramatically change physics near singularities and yet naturally turn themselves off and reproduce classical general relativity when space-time curvature is significantly weaker than the Planck scale.

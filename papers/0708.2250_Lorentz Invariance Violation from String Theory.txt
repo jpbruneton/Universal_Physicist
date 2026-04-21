@@ -1,0 +1,7 @@
+Title: Lorentz Invariance Violation from String Theory
+Authors: Nikolaos E. Mavromatos
+Published: 2007-08-16
+arXiv ID: http://arxiv.org/abs/0708.2250v1
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+In this brief, and by no means complete, review I discuss situations in string theory, in which Lorentz Invariance Violation may occur in a way consistent with world-sheet conformal invariance, thereby leading to acceptable, in principle, string backgrounds. In particular, I first discuss spontaneous Lorentz violation in (non supersymmetric) open string field theory. Then, I move onto a discussion of gravity-induced modified dispersion relations in non-critical (Liouville) strings, in the sense of an induced Finsler-like geometry depending on both coordinates and momenta, for string propagation in non-trivial space times (such as D-particle ``foamy situations''). I pay attention to explaining the appearance of bi-metric models from such string theories, which could serve as examples of alternative scenaria to dark matter. Finally, I make some comparisons with similar developments in other contexts, such as critical strings in non-commutative space times, as well as deformed special relativities and theories with reduced Lorentz symmetry, advocated recently, where again Finsler geometry seems to come into play. In this latter respect, I put the emphasis on phenomenology and attempt to answer the question as to whether there is the possibility of experimental disentanglement of the various approaches.

@@ -1,0 +1,7 @@
+Title: Building up spacetime with quantum entanglement
+Authors: Mark Van Raamsdonk
+Published: 2010-05-17
+arXiv ID: http://arxiv.org/abs/1005.3035v2
+Categories: hep-th, gr-qc, quant-ph
+Abstract:
+In this essay based on 0907.2939, we argue that the emergence of classically connected spacetimes is intimately related to the quantum entanglement of degrees of freedom in a non-perturbative description of quantum gravity. Disentangling the degrees of freedom associated with two regions of spacetime results in these regions pulling apart and pinching off from each other in a way that can be quantified by standard measures of entanglement.

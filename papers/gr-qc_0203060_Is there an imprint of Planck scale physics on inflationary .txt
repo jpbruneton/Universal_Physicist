@@ -1,0 +1,7 @@
+Title: Is there an imprint of Planck scale physics on inflationary cosmology?
+Authors: S. Shankaranarayanan
+Published: 2002-03-17
+arXiv ID: http://arxiv.org/abs/gr-qc/0203060v2
+Categories: gr-qc, astro-ph, hep-th
+Abstract:
+We study the effects of the trans-Planckian dispersion relation on the spectrum of the primordial density perturbations during inflation. In contrast to the earlier analyses, we do not assume any specific form of the dispersion relation and allow the initial state of the field to be arbitrary. We obtain the spectrum of vacuum fluctuations of the quantum field by considering a scalar field satisfying the linear wave equation with higher spatial derivative terms propagating in the de Sitter space-time. We show that the power spectrum does not strongly depend on the dispersion relation and that the form of the dispersion relation does not play a significant role in obtaining the corrections to the scale invariant spectrum. We also show that the signatures of the deviations from the flat scale-invariant spectrum from the CMBR observations due to quantum gravitational effects cannot be differentiated from the standard inflationary scenario with an arbitrary initial state.

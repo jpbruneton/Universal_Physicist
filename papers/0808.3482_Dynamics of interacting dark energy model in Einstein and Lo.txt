@@ -1,0 +1,7 @@
+Title: Dynamics of interacting dark energy model in Einstein and Loop Quantum Cosmology
+Authors: Songbai Chen, Bin Wang, Jiliang Jing
+Published: 2008-08-26
+arXiv ID: http://arxiv.org/abs/0808.3482v2
+Categories: gr-qc
+Abstract:
+We investigate the background dynamics when dark energy is coupled to dark matter in the universe described by Einstein cosmology and Loop Quantum Cosmology. We introduce a new general form of dark sector coupling, which presents us a more complicated dynamical phase space. Differences in the phase space in obtaining the accelerated scaling attractor in Einstein cosmology and Loop Quantum Cosmology are disclosed.

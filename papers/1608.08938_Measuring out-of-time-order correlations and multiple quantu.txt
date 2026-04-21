@@ -1,0 +1,7 @@
+Title: Measuring out-of-time-order correlations and multiple quantum spectra in a trapped ion quantum magnet
+Authors: Martin Gärttner, Justin G. Bohnet, Arghavan Safavi-Naini, Michael L. Wall, John J. Bollinger, Ana Maria Rey
+Published: 2016-08-31
+arXiv ID: http://arxiv.org/abs/1608.08938v4
+Categories: quant-ph, cond-mat.quant-gas
+Abstract:
+Controllable arrays of ions and ultra-cold atoms can simulate complex many-body phenomena and may provide insights into unsolved problems in modern science. To this end, experimentally feasible protocols for quantifying the buildup of quantum correlations and coherence are needed, as performing full state tomography does not scale favorably with the number of particles. Here we develop and experimentally demonstrate such a protocol, which uses time reversal of the many-body dynamics to measure out-of-time-order correlation functions (OTOCs) in a long-range Ising spin quantum simulator with more than 100 ions in a Penning trap. By measuring a family of OTOCs as a function of a tunable parameter we obtain fine-grained information about the state of the system encoded in the multiple quantum coherence spectrum, extract the quantum state purity, and demonstrate the buildup of up to 8-body correlations. Future applications of this protocol could enable studies of many-body localization, quantum phase transitions, and tests of the holographic duality between quantum and gravitational systems.

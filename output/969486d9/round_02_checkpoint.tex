@@ -1,0 +1,203 @@
+```latex
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\geometry{margin=2.5cm}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+\title{\textbf{Discrete-Time Quantum Mechanics and Special Relativity}\\
+\large Round 2 Checkpoint: From Calculational Scheme Toward Physical Theory}
+\author{Interdisciplinary Theory Group --- Internal Circulation Only}
+\date{Round 2 Synthesis --- Provisional Document}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This checkpoint consolidates Round 2 progress on discrete-time quantum mechanics (DTQM) and its compatibility with special relativity. The team has reached a firm negative conclusion: the Cayley/Crank--Nicolson scheme is a well-defined calculational scheme but not yet a physical theory. Three central deficits have been identified and partially addressed: (i) the coefficient $\alpha_2 = -1/12$ in the modified dispersion relation is scheme-dependent, not universal; (ii) Lorentz covariance is achievable at the kinematic level only if the Planck-time step is interpreted as a \emph{proper}-time quantum rather than a coordinate-time quantum; and (iii) the ontological status of between-step physics is resolved---provisionally---by a black-hole bound argument enforcing operational inaccessibility. Significant open tensions remain regarding the doubler problem, the physical selection of a Pad\'{e} scheme, and the connection to full quantum gravity.
+\end{abstract}
+
+\section{Current Theoretical Proposal}
+
+\subsection{The Cayley Evolution Operator and Its Pad\'{e} Classification}
+
+The canonical discrete-time evolution operator for a quantum system with Hamiltonian $H$ and time step $a$ is the $[1,1]$ Pad\'{e} (Cayley/Crank--Nicolson) approximant to $e^{-iaH/\hbar}$:
+\begin{equation}
+  U_a^{[1,1]} = \frac{1 - iaH/2\hbar}{1 + iaH/2\hbar}.
+  \label{eq:1}
+\end{equation}
+This is the unique rational unitary map of degree $(1,1)$ that reduces to $e^{-iaH/\hbar}$ as $a\to 0$. More generally, the $[n,n]$ Pad\'{e} approximant takes the form
+\begin{equation}
+  U_a^{[n,n]} = \frac{P_n(-iaH/\hbar)}{P_n(+iaH/\hbar)},
+  \label{eq:2}
+\end{equation}
+where $P_n$ is the degree-$n$ Pad\'{e} numerator polynomial with coefficients fixed by the approximation conditions.
+
+\subsection{Modified Phase and Scheme-Dependent Dispersion}
+
+On an energy eigenstate $|E\rangle$, equation~\eqref{eq:1} produces the accumulated phase
+\begin{equation}
+  \theta^{[n,n]}(E) = -\frac{aE}{\hbar}\left[1 - c_2^{(n)}\!\left(\frac{aE}{\hbar}\right)^{\!2} + c_4^{(n)}\!\left(\frac{aE}{\hbar}\right)^{\!4} - \cdots\right],
+  \label{eq:3}
+\end{equation}
+where the leading correction coefficient $c_2^{(n)}$ is \emph{scheme-dependent}:
+\begin{center}
+\begin{tabular}{lcc}
+\hline
+Pad\'{e} order $[n,n]$ & $c_2^{(n)}$ & $c_4^{(n)}$ \\
+\hline
+$[1,1]$ (Cayley) & $1/12$ & $1/80$ \\
+$[2,2]$ & $1/180$ & $1/2800$ \\
+$[n,n]\to\infty$ & $0$ & $0$ \\
+\hline
+\end{tabular}
+\end{center}
+The sign of $c_2^{(n)}$ is universal and positive for all unitary rational schemes, implying subluminal corrections at leading order regardless of scheme choice. \textcolor{red}{[speculative: whether this sign universality survives coupling to gravity is unknown.]}
+
+\subsection{Group Law Failure and Temporal Curvature}
+
+The Cayley scheme fails the semigroup composition law at third order in $a$:
+\begin{equation}
+  U_{2a}^{[1,1]} - \left(U_a^{[1,1]}\right)^2 = \frac{i}{12}\!\left(\frac{aE}{\hbar}\right)^{\!3} e^{-2iaE/\hbar} + \mathcal{O}(a^5).
+  \label{eq:4}
+\end{equation}
+This failure is characterised by the discrete holonomy tensor
+\begin{equation}
+  \Omega_{\mathrm{time}}(E,a) \equiv \frac{i\hbar}{aE}\ln\!\left(\frac{U_{2a}}{U_a^2}\right) = \frac{a^2E^2}{12\hbar^2} + \mathcal{O}(a^4),
+  \label{eq:5}
+\end{equation}
+which is of order unity at $a \sim t_P$ and $E \sim E_P$. \textcolor{red}{[speculative: the interpretation of $\Omega_{\mathrm{time}}$ as a temporal curvature analogous to a Riemann tensor component requires a fully covariant formulation that does not yet exist.]}
+
+\subsection{Lorentz-Covariant Formulation via Proper-Time Discretization}
+
+To restore Lorentz covariance at level 3 (invariant physical predictions), the time step $a$ must be identified with the \emph{proper-time} quantum $\tau_0 = t_P$ in the rest frame of each constituent. Under a boost with Lorentz factor $\gamma$, the coordinate-time step transforms as
+\begin{equation}
+  a_{\mathrm{coord}} = \frac{t_P}{\gamma},
+  \label{eq:6}
+\end{equation}
+consistent with relativistic time dilation. The proper-time evolution operator for a particle of mass $m$ is
+\begin{equation}
+  U_\tau^{\mathrm{disc}} = \frac{1 - imc^2 t_P/2\hbar}{1 + imc^2 t_P/2\hbar},
+  \label{eq:7}
+\end{equation}
+and the coordinate-time evolution is recovered by $U_t^{\mathrm{boosted}} = \bigl(U_\tau^{\mathrm{disc}}\bigr)^{\lfloor \gamma t/t_P \rfloor}$, which is covariant by construction.
+
+\subsection{Covariant Lattice Field Theory and Modified Dispersion}
+
+On a hypercubic Lorentzian lattice with spacing $\ell_P$, the covariant discrete scalar action is
+\begin{equation}
+  S_{\mathrm{disc}} = \ell_P^4\sum_x\left[\frac{1}{2}\sum_\mu\!\left(\frac{\phi(x+\ell_P\hat{\mu})-\phi(x-\ell_P\hat{\mu})}{2\ell_P}\right)^{\!2} - \frac{m^2c^2}{2\hbar^2}\phi(x)^2\right],
+  \label{eq:8}
+\end{equation}
+yielding the Fourier-space propagator
+\begin{equation}
+  G(k) = \left[\sum_\mu \frac{\sin^2(k_\mu\ell_P)}{\ell_P^2} + \frac{m^2c^2}{\hbar^2}\right]^{-1}.
+  \label{eq:9}
+\end{equation}
+The on-shell condition $G^{-1}(k)=0$ produces the modified dispersion relation (MDR):
+\begin{equation}
+  E^2 = p^2c^2 + m^2c^4 - \frac{\ell_P^2 m^2c^4 E^2}{3\hbar^2} + \mathcal{O}(\ell_P^4),
+  \label{eq:10}
+\end{equation}
+which reduces to the standard dispersion relation for $\ell_P\to 0$.
+
+\subsection{Generalised Uncertainty Principle from Discreteness}
+
+The discrete theory implies a generalised energy--time uncertainty relation
+\begin{equation}
+  \Delta E\cdot\Delta t \geq \frac{\hbar}{2}\sqrt{1 + \frac{a^2}{\Delta t^2}},
+  \label{eq:11}
+\end{equation}
+which reduces to $\hbar/2$ for $\Delta t\gg a$ and diverges as $\Delta t\to a$. \textcolor{red}{[speculative: the derivation of~\eqref{eq:11} given in Round 2 is a sketch; a rigorous proof for general Hamiltonians is outstanding.]}
+
+\section{Points of Consensus}
+
+All specialists agree on the following:
+
+\begin{enumerate}
+  \item \textbf{Unitarity selects Pad\'{e} schemes.} Any unitary, rational, consistent discrete-time evolution operator is a diagonal Pad\'{e} approximant to $e^{-iaH/\hbar}$. Forward and backward Euler are excluded by probability non-conservation.
+
+  \item \textbf{$\alpha_2$ is scheme-dependent.} The coefficient of the leading correction in~\eqref{eq:3} is not universal; it takes the value $1/12$ only for the $[1,1]$ Cayley scheme. Physical predictions that depend on $\alpha_2$ are meaningless without an independent principle selecting the scheme.
+
+  \item \textbf{The sign of the leading correction is universal.} For all unitary rational schemes, $c_2^{(n)}>0$, implying subluminal phase velocities at leading order in $a$.
+
+  \item \textbf{Group law failure is physical.} The $\mathcal{O}(a^3)$ deficit in equation~\eqref{eq:4} is not a numerical artefact; it reflects genuine non-associativity of discrete temporal evolution at sub-Planck composition. This is consistent with the causal set framework \cite{henson2006}.
+
+  \item \textbf{Between-step physics is operationally inaccessible.} Probing time intervals $\Delta t \lesssim t_P$ requires energy $\Delta E \gtrsim E_P$, which by the Schwarzschild bound forms a black hole of radius $r_S \sim t_P c$, destroying the probe. The inaccessibility is enforced by general relativity, not by convention.
+
+  \item \textbf{Proper-time discretization is the correct covariance strategy.} Interpreting $a = t_P$ as a proper-time quantum restores Lorentz covariance at the level of physical predictions without deforming the Lorentz group \cite{ashtekar2004}.
+\end{enumerate}
+
+\section{Open Tensions}
+
+\begin{enumerate}
+  \item \textbf{Scheme selection principle.} No physical principle has been identified that selects the $[1,1]$ Cayley scheme over higher-order Pad\'{e} approximants. Without such a principle, the theory has a free parameter ($\alpha_2$) and makes no definite predictions for the MDR~\eqref{eq:10}.
+
+  \item \textbf{The doubler problem.} The symmetric lattice action~\eqref{eq:8} generically produces fermion doublers: $2^4 = 16$ species in four dimensions instead of one. The standard remedies (Wilson term, staggered fermions, domain-wall fermions; cf.\ lattice QCD techniques discussed in the spirit of \cite{thiemann1996}) each break either chiral symmetry or manifest covariance. The correct resolution for a Lorentz-covariant Planck-scale theory is unknown.
+
+  \item \textbf{Consistency of the GUP derivation.} The generalised uncertainty relation~\eqref{eq:11} was derived by a sketch argument in Round 2. Whether it holds for general $H$ with unbounded spectrum, and whether it is compatible with the Fourier uncertainty principle in the discrete theory, has not been verified.
+
+  \item \textbf{Proper-time lattice and general covariance.} Equation~\eqref{eq:6} defines a boost-covariant proper-time step, but a global lattice with observer-dependent spacing is not a well-defined geometric object without a background metric. A fully diffeomorphism-invariant formulation requires quantum gravity, not merely special relativistic DTQM \cite{ashtekar2004, thiemann1996}. The SR truncation is an inconsistency that must be acknowledged.
+
+  \item \textbf{Holographic consistency.} The MDR~\eqref{eq:10} modifies the bulk dispersion relation. Whether this is consistent with holographic reconstruction \cite{maldacena1997, witten1998, skenderis2002} and whether the boundary CFT sees a deformation of conformal symmetry are entirely open questions. \textcolor{red}{[speculative: a holographic dual of discrete-time bulk evolution may not exist as a standard CFT.]}
+
+  \item \textbf{Phenomenological accessibility.} The leading correction in~\eqref{eq:10} is suppressed by $(\ell_P/\lambda_\mathrm{Compton})^2$, which is $\sim 10^{-40}$ for electrons. No current or near-future experiment can probe this. The theory is currently unfalsifiable in the SR sector.
+\end{enumerate}
+
+\section{Next Steps}
+
+The following tasks are assigned for Round 3:
+
+\begin{enumerate}
+  \item \textbf{Scheme selection [DR.~MATH + DR.~QFT].} Determine whether minimality (lowest Pad\'{e} order consistent with desired accuracy) or an information-theoretic principle (e.g., maximum entropy, minimum algorithmic complexity) selects the $[1,1]$ scheme. Alternatively, determine whether all Pad\'{e} orders produce the same $S$-matrix in the continuum limit, making the scheme unphysical.
+
+  \item \textbf{Doubler resolution [DR.~QFT].} Survey the three standard lattice remedies and assess which, if any, preserves both Lorentz covariance and the proper-time discretization scheme of Section~1.4.
+
+  \item \textbf{GUP proof [DR.~QM + DR.~MATH].} Provide a rigorous derivation of~\eqref{eq:11} for Hamiltonians with continuous spectrum. Verify compatibility with the Mandelstam--Tamm energy--time uncertainty relation.
+
+  \item \textbf{Causal set embedding [DR.~GR].} Examine whether the proper-time lattice of Section~1.4 can be embedded in the causal set framework \cite{henson2006}, which already provides a Lorentz-covariant discrete spacetime ontology. This may resolve the tension identified in Open Tension~4.
+
+  \item \textbf{Holographic probe [DR.~QFT + DR.~GR].} Compute the one-loop correction to the boundary two-point function induced by the MDR~\eqref{eq:10} using holographic renormalization techniques \cite{skenderis2002}, and determine whether it is scheme-dependent.
+\end{enumerate}
+
+\begin{remark}
+This document is a \emph{provisional research checkpoint}. Several claims marked \textcolor{red}{[speculative]} lack rigorous derivation or rely on intuitive extensions of established results. No claim in this document should be cited as a settled result.
+\end{remark}
+
+\begin{thebibliography}{99}
+
+\bibitem{thiemann1996}
+T. Thiemann.
+\textit{Quantum Spin Dynamics (QSD)}.
+arXiv:gr-qc/9606089v1 (1996).
+
+\bibitem{maldacena1997}
+Juan M. Maldacena.
+\textit{The Large N Limit of Superconformal Field Theories and Supergravity}.
+arXiv:hep-th/9711200v3 (1997).
+
+\bibitem{ashtekar2004}
+Abhay Ashtekar, Jerzy Lewandowski.
+\textit{Background Independent Quantum Gravity: A Status Report}.
+arXiv:gr-qc/0404018v2 (2004).
+
+\bibitem{skenderis2002}
+Kostas Skenderis.
+\textit{Lecture Notes on Holographic Renormalization}.
+arXiv:hep-th/0209067v2 (2002).
+
+\bibitem{henson2006}
+Joe Henson.
+\textit{The causal set approach to quantum gravity}.
+arXiv:gr-qc/0601121v2 (2006).
+
+\bibitem{witten1998}
+Edward Witten.
+\textit{Anti De Sitter Space And Holography}.
+arXiv:hep-th/9802150v2 (1998).
+
+\end{thebibliography}
+\end{document}
+```

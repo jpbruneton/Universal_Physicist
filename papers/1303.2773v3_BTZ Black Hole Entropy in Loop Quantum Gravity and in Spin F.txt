@@ -1,0 +1,7 @@
+Title: BTZ Black Hole Entropy in Loop Quantum Gravity and in Spin Foam Models
+Authors: J. Manuel Garcia-Islas
+Published: 2013-03-12
+arXiv ID: http://arxiv.org/abs/1303.2773v3
+Categories: gr-qc
+Abstract:
+We present a comparison of the calculation of BTZ black hole entropy in loop quantum gravity and in spin foam models. We see that both give the same answer.

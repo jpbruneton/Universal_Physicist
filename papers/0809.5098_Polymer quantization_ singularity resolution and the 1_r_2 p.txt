@@ -1,0 +1,7 @@
+Title: Polymer quantization, singularity resolution and the 1/r^2 potential
+Authors: G. Kunstatter, J. Louko, J. Ziprick
+Published: 2008-09-30
+arXiv ID: http://arxiv.org/abs/0809.5098v2
+Categories: gr-qc
+Abstract:
+We present a polymer quantization of the -lambda/r^2 potential on the positive real line and compute numerically the bound state eigenenergies in terms of the dimensionless coupling constant lambda. The singularity at the origin is handled in two ways: first, by regularizing the potential and adopting either symmetric or antisymmetric boundary conditions; second, by keeping the potential unregularized but allowing the singularity to be balanced by an antisymmetric boundary condition. The results are compared to the semiclassical limit of the polymer theory and to the conventional Schrodinger quantization on L_2(R_+). The various quantization schemes are in excellent agreement for the highly excited states but differ for the low-lying states, and the polymer spectrum is bounded below even when the Schrodinger spectrum is not. We find as expected that for the antisymmetric boundary condition the regularization of the potential is redundant: the polymer quantum theory is well defined even with the unregularized potential and the regularization of the potential does not significantly affect the spectrum.

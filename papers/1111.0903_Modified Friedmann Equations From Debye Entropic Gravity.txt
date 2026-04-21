@@ -1,0 +1,7 @@
+Title: Modified Friedmann Equations From Debye Entropic Gravity
+Authors: A. Sheykhi, Z. Teimoori
+Published: 2011-11-03
+arXiv ID: http://arxiv.org/abs/1111.0903v5
+Categories: physics.gen-ph
+Abstract:
+A remarkable new idea on the origin of gravity was recently proposed by Verlinde who claimed that the laws of gravitation are no longer fundamental, but rather emerge naturally as an entropic force. In Verlinde derivation, the equipartition law of energy on the holographic screen plays a crucial role. However, the equipartition law of energy fails at the very low temperature. Therefore, the formalism of the entropic force should be modified while the temperature of the holographic screen is very low. Considering the Debye entropic gravity and following the strategy of Verlinde, we derive the modified Newton's law of gravitation and the corresponding Friedmann equations which are valid in all range of temperature. In the limit of strong gravitational field, i.e. high temperature compared to Debye temperature, $T\gg T_D$, one recovers the standard Newton's law and Friedmann equations. We also generalize our study to the entropy corrected area law and derive the dynamical cosmological equations for all range of temperature. Some limits of the obtained results are also studied.

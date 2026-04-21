@@ -1,0 +1,7 @@
+Title: Quasinormal modes, scattering and Hawking radiation in the vicinity of Einstein-dilaton-Gauss-Bonnet black hole
+Authors: R. A. Konoplya, A. F. Zinhailo, Z. Stuchlík
+Published: 2019-03-08
+arXiv ID: http://arxiv.org/abs/1903.03483v2
+Categories: gr-qc, astro-ph.HE, hep-th
+Abstract:
+Classical (quasinormal) and quantum (Hawking) radiations are investigated for test fields in the background of a four dimensional, spherically symmetric and asymptotically flat black hole in the Einstein-dilaton-Gauss-Bonnet (EdGB) theory. The geometry of the EdGB black hole deviates from the Schwarzschild geometry only slightly. Therefore, here we observe that the quasinormal spectrum also deviates from its Schwarzschild limit at most moderately, allowing for a $9\%$ decrease in the damping rate and up to a $6\%$ decrease in the real oscillation frequency. However, the intensity of Hawking radiation of an electromagnetic field turned out to be much more sensitive characteristic than its quasinormal spectrum, allowing for a $54\%$ increase of the energy emission rate. The analytical formula for the eikonal regime of quasinormal modes is derived for test fields and it is shown that the correspondence between the eikonal quasinormal modes and null geodesics is indeed fulfilled for test fields, but is not expected for the gravitational one.

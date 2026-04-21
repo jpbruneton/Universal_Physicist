@@ -1,0 +1,7 @@
+Title: A New Spin Foam Model for 4d Gravity
+Authors: Laurent Freidel, Kirill Krasnov
+Published: 2007-08-13
+arXiv ID: http://arxiv.org/abs/0708.1595v2
+Categories: gr-qc
+Abstract:
+Starting from Plebanski formulation of gravity as a constrained BF theory we propose a new spin foam model for 4d Riemannian quantum gravity that generalises the well-known Barrett-Crane model and resolves the inherent to it ultra-locality problem. The BF formulation of 4d gravity possesses two sectors: gravitational and topological ones. The model presented here is shown to give a quantization of the gravitational sector, and is dual to the recently proposed spin foam model of Engle et al. which, we show, corresponds to the topological sector. Our methods allow us to introduce the Immirzi parameter into the framework of spin foam quantisation. We generalize some of our considerations to the Lorentzian setting and obtain a new spin foam model in that context as well.

@@ -1,0 +1,7 @@
+Title: Quantum field theory with the generalized uncertainty principle I: scalar electrodynamics
+Authors: Pasquale Bosso, Saurya Das, Vasil Todorinov
+Published: 2020-05-07
+arXiv ID: http://arxiv.org/abs/2005.03771v1
+Categories: gr-qc, hep-th
+Abstract:
+Recently, the authors presented a covariant extension of the Generalized Uncertainty Principle (GUP) with a Lorentz invariant minimum length. This opens the way for constructing and exploring the observable consequences of minimum length in Relativistic Quantum Field Theories. In particular, we compute quantum gravity corrections to high energy scattering experiments, which may provide the much needed window of testing minimum length and quantum gravity theories in the laboratory. To this end, we formulate the Lagrangian of Quantum Electrodynamics for a complex scalar fields from the GUP modified minimally coupled Klein-Gordon equation and write down its Feynman rules. We then calculate the Relativistic Generalized Uncertainty Principle corrections to a Quantum Electrodynamics scattering amplitude and discuss its implications.

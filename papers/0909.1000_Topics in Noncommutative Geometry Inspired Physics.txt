@@ -1,0 +1,7 @@
+Title: Topics in Noncommutative Geometry Inspired Physics
+Authors: Rabin Banerjee, Biswajit Chakraborty, Subir Ghosh, Pradip Mukherjee, Saurav Samanta
+Published: 2009-09-05
+arXiv ID: http://arxiv.org/abs/0909.1000v2
+Categories: hep-th
+Abstract:
+In this review article we discuss some of the applications of noncommutative geometry in physics that are of recent interest, such as noncommutative many-body systems, noncommutative extension of Special Theory of Relativity kinematics, twisted gauge theories and noncommutative gravity.

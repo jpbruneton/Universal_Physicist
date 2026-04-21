@@ -1,0 +1,7 @@
+Title: Quantum Gravity and Dark Matter
+Authors: Chiu Man Ho, Djordje Minic, Y. Jack Ng
+Published: 2011-05-15
+arXiv ID: http://arxiv.org/abs/1105.2916v1
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+We propose a connection between global physics and local galactic dynamics via quantum gravity. The salient features of cold dark matter (CDM) and modified Newtonian dynamics (MOND) are combined into a unified scheme by introducing the concept of MONDian dark matter which behaves like CDM at cluster and cosmological scales but emulates MOND at the galactic scale.

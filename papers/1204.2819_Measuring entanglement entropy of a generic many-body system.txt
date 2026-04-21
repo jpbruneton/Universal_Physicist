@@ -1,0 +1,7 @@
+Title: Measuring entanglement entropy of a generic many-body system with a quantum switch
+Authors: Dmitry A. Abanin, Eugene Demler
+Published: 2012-04-12
+arXiv ID: http://arxiv.org/abs/1204.2819v1
+Categories: cond-mat.mes-hall, cond-mat.quant-gas, cond-mat.str-el, quant-ph
+Abstract:
+Entanglement entropy has become an important theoretical concept in condensed matter physics, because it provides a unique tool for characterizing quantum mechanical many-body phases and new kinds of quantum order. However, the experimental measurement of entanglement entropy in a many-body systems is widely believed to be unfeasible, owing to the nonlocal character of this quantity. Here, we propose a general method to measure the entanglement entropy. The method is based on a quantum switch (a two-level system) coupled to a composite system consisting of several copies of the original many-body system. The state of the switch controls how different parts of the composite system connect to each other. We show that, by studying the dynamics of the quantum switch only, the Renyi entanglement entropy of the many-body system can be extracted. We propose a possible design of the quantum switch, which can be realized in cold atomic systems. Our work provides a route towards testing the scaling of entanglement in critical systems, as well as a method for a direct experimental detection of topological order.

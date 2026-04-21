@@ -1,0 +1,7 @@
+Title: An asymptotically safe guide to quantum gravity and matter
+Authors: Astrid Eichhorn
+Published: 2018-10-17
+arXiv ID: http://arxiv.org/abs/1810.07615v2
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+Asymptotic safety generalizes asymptotic freedom and could contribute to understanding physics beyond the Standard Model. It is a candidate scenario to provide an ultraviolet extension for the effective quantum field theory of gravity through an interacting fixed point of the Renormalization Group. Recently, asymptotic safety has been established in specific gauge-Yukawa models in four dimensions in perturbation theory, providing a starting point for asymptotically safe model building. Moreover, an asymptotically safe fixed point might even be induced in the Standard Model under the impact of quantum fluctuations of gravity in the vicinity of the Planck scale. This review contains an overview of the key concepts of asymptotic safety, its application to matter and gravity models, exploring potential phenomenological implications and highlighting open questions.

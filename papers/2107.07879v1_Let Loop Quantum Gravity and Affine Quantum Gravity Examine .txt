@@ -1,0 +1,7 @@
+Title: Let Loop Quantum Gravity and Affine Quantum Gravity Examine Each Other
+Authors: John R. Klauder
+Published: 2021-05-23
+arXiv ID: http://arxiv.org/abs/2107.07879v1
+Categories: gr-qc, quant-ph
+Abstract:
+Loop Quantum Gravity is widely developed using canonical quantization in an effort to find the correct quantization for gravity. Affine quantization, which is like canonical quantization augmented bounded in one orientation, e.g., a strictly positive coordinate. We open discussion using canonical and affine quantizations for two simple problems so each procedure can be understood. That analysis opens a modest treatment of quantum gravity gleaned from some typical features that exhibit the profound differences between aspects of seeking the quantum treatment of Einstein's gravity.

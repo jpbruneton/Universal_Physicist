@@ -1,0 +1,7 @@
+Title: Ponzano-Regge model revisited III: Feynman diagrams and Effective field theory
+Authors: Laurent Freidel, Etera R. Livine
+Published: 2005-02-11
+arXiv ID: http://arxiv.org/abs/hep-th/0502106v2
+Categories: hep-th, gr-qc
+Abstract:
+We study the no gravity limit G_{N}-> 0 of the Ponzano-Regge amplitudes with massive particles and show that we recover in this limit Feynman graph amplitudes (with Hadamard propagator) expressed as an abelian spin foam model. We show how the G_{N} expansion of the Ponzano-Regge amplitudes can be resummed. This leads to the conclusion that the dynamics of quantum particles coupled to quantum 3d gravity can be expressed in terms of an effective new non commutative field theory which respects the principles of doubly special relativity. We discuss the construction of Lorentzian spin foam models including Feynman propagators

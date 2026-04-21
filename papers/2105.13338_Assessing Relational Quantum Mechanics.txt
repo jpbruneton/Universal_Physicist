@@ -1,0 +1,7 @@
+Title: Assessing Relational Quantum Mechanics
+Authors: R. Muciño, E. Okon, D. Sudarsky
+Published: 2021-05-27
+arXiv ID: http://arxiv.org/abs/2105.13338v2
+Categories: quant-ph, physics.hist-ph
+Abstract:
+Relational Quantum Mechanics (RQM) is an interpretation of quantum theory based on the idea of abolishing the notion of absolute states of systems, in favor of states of systems relative to other systems. Such a move is claimed to solve the conceptual problems of standard quantum mechanics. Moreover, RQM has been argued to account for all quantum correlations without invoking non-local effects and, in spite of embracing a fully relational stance, to successfully explain how different observers exchange information. In this work, we carry out a thorough assessment of RQM and its purported achievements. We find that it fails to address the conceptual problems of standard quantum mechanics--related to the lack of clarity in its ontology and the rules that govern its behavior--and that it leads to serious conceptual problems of its own. We also uncover as unwarranted the claims that RQM can correctly explain information exchange among observers, and that it accommodates all quantum correlations without invoking non-local influences. We conclude that RQM is unsuccessful in its attempt to provide a satisfactory understanding of the quantum world.

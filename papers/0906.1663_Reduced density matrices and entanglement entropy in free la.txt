@@ -1,0 +1,7 @@
+Title: Reduced density matrices and entanglement entropy in free lattice models
+Authors: Ingo Peschel, Viktor Eisler
+Published: 2009-06-09
+arXiv ID: http://arxiv.org/abs/0906.1663v3
+Categories: cond-mat.stat-mech, quant-ph
+Abstract:
+We review the properties of reduced density matrices for free fermionic or bosonic many-particle systems in their ground state. Their basic feature is that they have a thermal form and thus lead to a quasi-thermodynamic problem with a certain free-particle Hamiltonian. We discuss the derivation of this result, the character of the Hamiltonian and its eigenstates, the single-particle spectra and the full spectra, the resulting entanglement and in particular the entanglement entropy. This is done for various one- and two-dimensional situations, including also the evolution after global or local quenches.

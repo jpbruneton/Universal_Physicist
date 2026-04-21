@@ -1,0 +1,7 @@
+Title: Einstein's Equivalence principle for superpositions of gravitational fields and quantum reference frames
+Authors: Flaminia Giacomini, Časlav Brukner
+Published: 2020-12-26
+arXiv ID: http://arxiv.org/abs/2012.13754v4
+Categories: quant-ph, gr-qc
+Abstract:
+The Einstein Equivalence Principle (EEP), stating that all laws of physics take their special-relativistic form in any local inertial (classical) reference frame, lies at the core of general relativity. Because of its fundamental status, this principle could be a very powerful guide in formulating physical laws at regimes where both gravitational and quantum effects are relevant. The formulation of the EEP only holds when both matter systems and gravity are classical, and we do not know whether we should abandon or modify it when we consider quantum systems in a-possibly nonclassical-gravitational field. Here, we propose that the EEP is valid for a broader class of reference frames, namely Quantum Reference Frames (QRFs) associated to quantum systems. By imposing certain restrictions on the type of nonclassicality of the gravitational field, we develop a framework that enables us to formulate an extension of the EEP for such gravitational fields. This means that the EEP is valid in a much wider set of physical situations than what it is currently applied to, including those in which the gravitational field is in a quantum superposition state.

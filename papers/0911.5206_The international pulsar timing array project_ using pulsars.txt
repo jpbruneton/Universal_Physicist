@@ -1,0 +1,7 @@
+Title: The international pulsar timing array project: using pulsars as a gravitational wave detector
+Authors: G. Hobbs, A. Archibald, Z. Arzoumanian, D. Backer, M. Bailes, N. D. R. Bhat, M. Burgay, S. Burke-Spolaor, D. Champion, I. Cognard, W. Coles, J. Cordes, P. Demorest, G. Desvignes, R. D. Ferdman, L. Finn, P. Freire, M. Gonzalez, J. Hessels, A. Hotan, G. Janssen, F. Jenet, A. Jessner, C. Jordan, V. Kaspi, M. Kramer, V. Kondratiev, J. Lazio, K. Lazaridis, K. J. Lee, Y. Levin, A. Lommen, D. Lorimer, R. Lynch, A. Lyne, R. Manchester, M. McLaughlin, D. Nice, S. Oslowski, M. Pilia, A. Possenti, M. Purver, S. Ransom, J. Reynolds, S. Sanidas, J. Sarkissian, A. Sesana, R. Shannon, X. Siemens, I. Stairs, B. Stappers, D. Stinebring, G. Theureau, R. van Haasteren, W. van Straten, J. P. W. Verbiest, D. R. B. Yardley, X. P. You
+Published: 2009-11-27
+arXiv ID: http://arxiv.org/abs/0911.5206v1
+Categories: astro-ph.SR, astro-ph.GA
+Abstract:
+The International Pulsar Timing Array project combines observations of pulsars from both Northern and Southern hemisphere observatories with the main aim of detecting ultra-low frequency (~10^-9 to 10^-8 Hz) gravitational waves. Here we introduce the project, review the methods used to search for gravitational waves emitted from coalescing supermassive binary black-hole systems in the centres of merging galaxies and discuss the status of the project.

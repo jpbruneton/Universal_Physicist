@@ -1,0 +1,7 @@
+Title: Quantum Entanglement in Deep Learning Architectures
+Authors: Yoav Levine, Or Sharir, Nadav Cohen, Amnon Shashua
+Published: 2018-03-26
+arXiv ID: http://arxiv.org/abs/1803.09780v3
+Categories: quant-ph, cs.LG
+Abstract:
+Modern deep learning has enabled unprecedented achievements in various domains. Nonetheless, employment of machine learning for wave function representations is focused on more traditional architectures such as restricted Boltzmann machines (RBMs) and fully-connected neural networks. In this letter, we establish that contemporary deep learning architectures, in the form of deep convolutional and recurrent networks, can efficiently represent highly entangled quantum systems. By constructing Tensor Network equivalents of these architectures, we identify an inherent reuse of information in the network operation as a key trait which distinguishes them from standard Tensor Network based representations, and which enhances their entanglement capacity. Our results show that such architectures can support volume-law entanglement scaling, polynomially more efficiently than presently employed RBMs. Thus, beyond a quantification of the entanglement capacity of leading deep learning architectures, our analysis formally motivates a shift of trending neural-network based wave function representations closer to the state-of-the-art in machine learning.

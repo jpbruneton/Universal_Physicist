@@ -1,0 +1,7 @@
+Title: Singularity Resolution in Gauged Supergravity and Conifold Unification
+Authors: J. D. Edelstein, A. Paredes, A. V. Ramallo
+Published: 2002-12-12
+arXiv ID: http://arxiv.org/abs/hep-th/0212139v2
+Categories: hep-th
+Abstract:
+We obtain a unified picture for the conifold singularity resolution. We propose that gauged supergravity, through a novel prescription for the twisting, provides an appropriate framework to smooth out singularities in the context of gravity duals of supersymmetric gauge theories.

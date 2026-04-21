@@ -1,0 +1,7 @@
+Title: Group field theory as the 2nd quantization of Loop Quantum Gravity
+Authors: Daniele Oriti
+Published: 2013-10-29
+arXiv ID: http://arxiv.org/abs/1310.7786v2
+Categories: gr-qc, hep-th
+Abstract:
+We construct a 2nd quantized reformulation of canonical Loop Quantum Gravity at both kinematical and dynamical level, in terms of a Fock space of spin networks, and show in full generality that it leads directly to the Group Field Theory formalism. In particular, we show the correspondence between canonical LQG dynamics and GFT dynamics leading to a specific GFT model from any definition of quantum canonical dynamics of spin networks. We exemplify the correspondence of dynamics in the specific example of 3d quantum gravity. The correspondence between canonical LQG and covariant spin foam models is obtained via the GFT definition of the latter.

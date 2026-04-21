@@ -1,0 +1,7 @@
+Title: Higher-spin Yang-Mills, amplitudes and self-duality
+Authors: Tim Adamo, Tung Tran
+Published: 2022-10-13
+arXiv ID: http://arxiv.org/abs/2210.07130v2
+Categories: hep-th
+Abstract:
+The existence of interacting higher-spin theories is tightly constrained by many no-go theorems. In this paper, we construct a chiral, higher-spin generalization of Yang-Mills theory in flat space which avoids these no-go theorems and has non-trivial tree-level scattering amplitudes with some higher-spin external legs. The fields and action are complex, so the theory is non-unitary and parity-violating, yet we find surprisingly compact formulae for all-multiplicity tree-level scattering amplitudes in the maximal helicity violating (MHV) sector, where the two negative helicity particles have identical but arbitrary spin. This is possible because the theory admits a perturbative expansion around its self-dual sector. Using twistor theory, we prove the classical integrability of this self-dual sector and show that it can be described on spacetime by an infinite tower of interacting massless scalar fields. We also give a twistor construction of the full theory, and use it to derive the formula for the MHV amplitude.

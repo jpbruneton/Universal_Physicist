@@ -1,0 +1,7 @@
+Title: Grassmann tensor network states and its renormalization for strongly correlated fermionic and bosonic states
+Authors: Zheng-Cheng Gu, Frank Verstraete, Xiao-Gang Wen
+Published: 2010-04-15
+arXiv ID: http://arxiv.org/abs/1004.2563v1
+Categories: cond-mat.str-el, quant-ph
+Abstract:
+The projective construction (the slave-particle approach) has played an very important role in understanding strongly correlated systems, such as the emergence of fermions, anyons, and gauge theory in quantum spin liquids and quantum Hall states. Recently, fermionic Projected Entangled Pair States (fPEPS) have been introduced to effciently represent many-body fermionic states. In this paper, we show that the strongly correlated bosonic/fermionic states obtained both from the projective construction and the fPEPS approach can be represented systematically as Grassmann tensor product states. This construction can also be applied to all other tensor network states approaches. The Grassmann tensor product states allow us to encode many-body bosonic/fermionic states effciently with a polynomial number of parameters. We also generalize the tensor-entanglement renormalization group (TERG) method for complex tensor networks to Grassmann tensor networks. This allows us to approximate the norm and average local operators of Grassmann tensor product states in polynomial time, and hence leads to a variational approach for describing strongly correlated bosonic/fermionic systems in higher dimensions.

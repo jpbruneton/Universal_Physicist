@@ -1,0 +1,8 @@
+Title: Dynamics of loop quantum gravity and spin foam models in three dimensions
+Authors: Karim Noui, Alejandro Perez
+Published: 2004-02-25
+arXiv ID: http://arxiv.org/abs/gr-qc/0402112v2
+Categories: gr-qc
+Abstract:
+We present a rigorous regularization of Rovellis's generalized projection operator in canonical 2+1 gravity. This work establishes a clear-cut connection between loop quantum gravity and the spin foam approach in this simplified setting. The point of view adopted here provides a new perspective to tackle the problem of dynamics in the physically relevant
+ 3+1 case.

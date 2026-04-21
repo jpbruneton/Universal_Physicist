@@ -1,0 +1,7 @@
+Title: Causal sets and conservation laws in tests of Lorentz symmetry
+Authors: David Mattingly
+Published: 2007-09-04
+arXiv ID: http://arxiv.org/abs/0709.0539v2
+Categories: gr-qc
+Abstract:
+Many of the most important astrophysical tests of Lorentz symmetry also assume that energy-momentum of the observed particles is exactly conserved. In the causal set approach to quantum gravity a particular kind of Lorentz symmetry holds but energy-momentum conservation may be violated. We show that incorrectly assuming exact conservation can give rise to a spurious signal of Lorentz symmetry violation for a causal set. However, the size of this spurious signal is much smaller than can be currently detected and hence astrophysical Lorentz symmetry tests as currently performed are safe from causal set induced violations of energy-momentum conservation.

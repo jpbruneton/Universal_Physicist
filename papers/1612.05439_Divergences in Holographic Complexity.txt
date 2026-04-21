@@ -1,0 +1,7 @@
+Title: Divergences in Holographic Complexity
+Authors: Alan Reynolds, Simon F. Ross
+Published: 2016-12-16
+arXiv ID: http://arxiv.org/abs/1612.05439v1
+Categories: hep-th, gr-qc
+Abstract:
+We study the UV divergences in the action of the "Wheeler-de Witt patch" in asymptotically AdS spacetimes, which has been conjectured to be dual to the computational complexity of the state of the dual field theory on a spatial slice of the boundary. We show that including a surface term in the action on the null boundaries which ensures invariance under coordinate transformations has the additional virtue of removing a stronger than expected divergence, making the leading divergence proportional to the proper volume of the boundary spatial slice. We compare the divergences in the action to divergences in the volume of a maximal spatial slice in the bulk, finding that the qualitative structure is the same, but subleading divergences have different relative coefficients in the two cases.

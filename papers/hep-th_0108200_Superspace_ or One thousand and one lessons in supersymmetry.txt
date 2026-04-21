@@ -1,0 +1,7 @@
+Title: Superspace, or One thousand and one lessons in supersymmetry
+Authors: S. J. Gates, M. T. Grisaru, M. Rocek, W. Siegel
+Published: 2001-08-27
+arXiv ID: http://arxiv.org/abs/hep-th/0108200v1
+Categories: hep-th
+Abstract:
+The 1983 book, free at last, with corrections and bookmarks. From the original troff, but now with CM (TeX) fonts.

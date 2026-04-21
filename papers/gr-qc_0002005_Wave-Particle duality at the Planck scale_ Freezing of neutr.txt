@@ -1,0 +1,7 @@
+Title: Wave-Particle duality at the Planck scale: Freezing of neutrino oscillations
+Authors: D. V. Ahluwalia
+Published: 2000-02-01
+arXiv ID: http://arxiv.org/abs/gr-qc/0002005v3
+Categories: gr-qc, astro-ph, hep-ph, hep-th, quant-ph
+Abstract:
+A gravitationally-induced modification to de Broglie wave-particle duality is presented. At Planck scale, the gravitationally-modified matter wavelength saturates to a few times the Planck length in a momentum independent manner. In certain frameworks, this circumstance freezes neutrino oscillations in the Planck realm. This effect is apart, and beyond, the gravitational red-shift. A conclusion is drawn that in a complete theory of quantum gravity the notions of ``quantum'' and ``gravity'' shall carry new meanings -- meanings, that are yet to be deciphered from theory and observations in their entirety.

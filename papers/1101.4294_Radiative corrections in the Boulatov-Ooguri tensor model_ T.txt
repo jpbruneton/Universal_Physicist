@@ -1,0 +1,7 @@
+Title: Radiative corrections in the Boulatov-Ooguri tensor model: The 2-point function
+Authors: Joseph Ben Geloun, Valentin Bonzom
+Published: 2011-01-22
+arXiv ID: http://arxiv.org/abs/1101.4294v2
+Categories: hep-th, math-ph
+Abstract:
+The Boulatov-Ooguri tensor model generates a sum over spacetime topologies for the $D$-dimensional BF theory. We study here the quantum corrections to the propagator of the theory. In particular, we find that the radiative corrections at the second order in the coupling constant yield a mass renormalization. They also exhibit a divergence which cannot be balanced with a counter-term in the initial action, and which usually corresponds to the wave-function renormalization.

@@ -1,0 +1,7 @@
+Title: Black hole collapse and bounce in effective loop quantum gravity
+Authors: Jarod George Kelly, Robert Santacruz, Edward Wilson-Ewing
+Published: 2020-06-16
+arXiv ID: http://arxiv.org/abs/2006.09325v4
+Categories: gr-qc
+Abstract:
+We derive effective equations with loop quantum gravity corrections for the Lemaître-Tolman-Bondi family of space-times, and use these to study quantum gravity effects in the Oppenheimer-Snyder collapse model. For this model, after the formation of a black hole with an apparent horizon, quantum gravity effects become important in the space-time region where the energy density and space-time curvature scalars become comparable to the Planck scale. These quantum gravity effects first stop the collapse of the dust matter field when its energy density reaches the Planck scale, and then cause the dust field to begin slowly expanding. Due to this continued expansion, the matter field will eventually extend beyond the apparent horizon, at which point the horizon disappears and there is no longer a black hole. There are no singularities anywhere in this space-time. In addition, in the limit that edge effects are neglected, we show that the dynamics for the interior of the star of uniform energy density follow the loop quantum cosmology effective Friedman equation for the spatially flat Friedman-Lemaître-Robertson-Walker space-time. Finally, we estimate the lifetime of the black hole, as measured by a distant observer, to be $\sim (GM)^2/\ell_{\rm Pl}$.

@@ -1,0 +1,7 @@
+Title: Consistently Solving the Simplicity Constraints for Spinfoam Quantum Gravity
+Authors: Etera R. Livine, Simone Speziale
+Published: 2007-08-14
+arXiv ID: http://arxiv.org/abs/0708.1915v3
+Categories: gr-qc, hep-th
+Abstract:
+We give an independent derivation of the Engle-Pereira-Rovelli spinfoam model for quantum gravity which recently appeared in [arXiv:0705.2388]. Using the coherent state techniques introduced earlier in [arXiv:0705.0674], we show that the EPR model realizes a consistent imposition of the simplicity constraints implementing general relativity from a topological BF theory.

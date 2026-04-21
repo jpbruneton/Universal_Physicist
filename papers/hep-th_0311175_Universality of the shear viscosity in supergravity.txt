@@ -1,0 +1,7 @@
+Title: Universality of the shear viscosity in supergravity
+Authors: Alex Buchel, James T. Liu
+Published: 2003-11-19
+arXiv ID: http://arxiv.org/abs/hep-th/0311175v1
+Categories: hep-th
+Abstract:
+Kovtun, Son and Starinets proposed a bound on the shear viscosity of any fluid in terms of its entropy density. We argue that this bound is always saturated for gauge theories at large 't Hooft coupling, which admit holographically dual supergravity description.

@@ -1,0 +1,7 @@
+Title: An effective approach to the problem of time
+Authors: Martin Bojowald, Philipp A Hoehn, Artur Tsobanjan
+Published: 2010-09-29
+arXiv ID: http://arxiv.org/abs/1009.5953v2
+Categories: gr-qc, hep-th
+Abstract:
+A practical way to deal with the problem of time in quantum cosmology and quantum gravity is proposed. The main tool is effective equations, which mainly restrict explicit considerations to semiclassical regimes but have the crucial advantage of allowing the consistent use of local internal times in non-deparameterizable systems. Different local internal times are related merely by gauge transformations, thereby enabling relational evolution through turning points of non-global internal times. The main consequence of the local nature of internal time is the necessity of its complex-valuedness, reminiscent of but more general than non-unitarity of evolution defined for finite ranges of time. By several general arguments, the consistency of this setting is demonstrated. Finally, we attempt an outlook on the nature of time in highly quantum regimes. The focus of this note is on conceptual issues.

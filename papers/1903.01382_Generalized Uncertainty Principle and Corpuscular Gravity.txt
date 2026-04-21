@@ -1,0 +1,7 @@
+Title: Generalized Uncertainty Principle and Corpuscular Gravity
+Authors: Luca Buoninfante, Giuseppe Gaetano Luciano, Luciano Petruzziello
+Published: 2019-03-04
+arXiv ID: http://arxiv.org/abs/1903.01382v1
+Categories: gr-qc, hep-th
+Abstract:
+We show that the implications of the generalized uncertainty principle (GUP) in the black hole physics are consistent with the predictions of the corpuscular theory of gravity, in which a black hole is conceived as a Bose-Einstein condensate of weakly interacting gravitons stuck at the critical point of a quantum phase transition. In particular, we prove that the GUP-induced shift of the Hawking temperature can be reinterpreted in terms of non-thermal corrections to the spectrum of the black hole radiation, in accordance with the corpuscular gravity picture. By comparing the two scenarios, we are able to estimate the GUP deformation parameter $β$, which turns out to be of the order of unity, in agreement with the expectations of some models of string theory. We also comment on the sign of $β$, exploring the possibility of having a negative deformation parameter when a corpuscular quantum description of the gravitational interaction is assumed to be valid.

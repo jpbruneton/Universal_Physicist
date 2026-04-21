@@ -1,0 +1,7 @@
+Title: Quantum Geometry and Black Hole Entropy
+Authors: A. Ashtekar, J. Baez, A. Corichi, K. Krasnov
+Published: 1997-10-01
+arXiv ID: http://arxiv.org/abs/gr-qc/9710007v1
+Categories: gr-qc, hep-th
+Abstract:
+A `black hole sector' of non-perturbative canonical quantum gravity is introduced. The quantum black hole degrees of freedom are shown to be described by a Chern-Simons field theory on the horizon. It is shown that the entropy of a large non-rotating black hole is proportional to its horizon area. The constant of proportionality depends upon the Immirzi parameter, which fixes the spectrum of the area operator in loop quantum gravity; an appropriate choice of this parameter gives the Bekenstein-Hawking formula S = A/4*l_p^2. With the same choice of the Immirzi parameter, this result also holds for black holes carrying electric or dilatonic charge, which are not necessarily near extremal.

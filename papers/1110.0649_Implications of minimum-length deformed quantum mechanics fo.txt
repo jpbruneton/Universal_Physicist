@@ -1,0 +1,7 @@
+Title: Implications of minimum-length deformed quantum mechanics for QFT/QG
+Authors: Michael Maziashvili
+Published: 2011-10-04
+arXiv ID: http://arxiv.org/abs/1110.0649v2
+Categories: gr-qc
+Abstract:
+After picking out what may seem more realistic minimal gravitational deformation of quantum mechanics, we study its back reaction on gravity. The large distance behaviour of Newtonian potential coincides with the result obtained by using of effective field theory approach to general relativity (the correction proves to be of repulsive nature). The short distance corrections result in Planck mass black hole remnants with zero temperature. The deformation of position-momentum uncertainty relations leads to the superluminal motion that can be avoided by making similar deformation of time-energy uncertainty relation. Such deformation also avoids UV divergences in QFT.

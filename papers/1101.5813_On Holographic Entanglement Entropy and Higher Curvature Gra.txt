@@ -1,0 +1,7 @@
+Title: On Holographic Entanglement Entropy and Higher Curvature Gravity
+Authors: Ling-Yan Hung, Robert C. Myers, Michael Smolkin
+Published: 2011-01-30
+arXiv ID: http://arxiv.org/abs/1101.5813v2
+Categories: hep-th
+Abstract:
+We examine holographic entanglement entropy with higher curvature gravity in the bulk. We show that in general Wald's formula for horizon entropy does not yield the correct entanglement entropy. However, for Lovelock gravity, there is an alternate prescription which involves only the intrinsic curvature of the bulk surface. We verify that this prescription correctly reproduces the universal contribution to the entanglement entropy for CFT's in four and six dimensions. We also make further comments on gravitational theories with more general higher curvature interactions.

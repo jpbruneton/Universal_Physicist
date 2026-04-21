@@ -1,0 +1,7 @@
+Title: Gravitational Waves from Mergin Compact Binaries: How Accurately Can One Extract the Binary's Parameters from the Inspiral Waveform?
+Authors: Curt Cutler, Eanna Flanagan
+Published: 1994-02-04
+arXiv ID: http://arxiv.org/abs/gr-qc/9402014v1
+Categories: gr-qc, astro-ph
+Abstract:
+The most promising source of gravitational waves for the planned detectors LIGO and VIRGO are merging compact binaries, i.e., neutron star/neutron star (NS/NS), neutron star/black hole (NS/BH), and black hole/black-hole (BH/BH) binaries. We investigate how accurately the distance to the source and the masses and spins of the two bodies will be measured from the gravitational wave signals by the three detector LIGO/VIRGO network using ``advanced detectors'' (those present a few years after initial operation). The combination ${\cal M} \equiv (M_1 M_2)^{3/5}(M_1 +M_2)^{-1/5}$ of the masses of the two bodies is measurable with an accuracy $\approx 0.1\%-1\%$. The reduced mass is measurable to $\sim 10\%-15\%$ for NS/NS and NS/BH binaries, and $\sim 50\%$ for BH/BH binaries (assuming $10M_\odot$ BH's). Measurements of the masses and spins are strongly correlated; there is a combination of $μ$ and the spin angular momenta that is measured to within $\sim 1\%$. We also estimate that distance measurement accuracies will be $\le 15\%$ for $\sim 8\%$ of the detected signals, and $\le 30\%$ for $\sim 60\%$ of the signals, for the LIGO/VIRGO 3-detector network.

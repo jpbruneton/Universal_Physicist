@@ -1,0 +1,7 @@
+Title: Changing quantum reference frames
+Authors: Matthew C. Palmer, Florian Girelli, Stephen D. Bartlett
+Published: 2013-07-24
+arXiv ID: http://arxiv.org/abs/1307.6597v3
+Categories: quant-ph, gr-qc
+Abstract:
+We consider the process of changing reference frames in the case where the reference frames are quantum systems. We find that, as part of this process, decoherence is necessarily induced on any quantum system described relative to these frames. We explore this process with examples involving reference frames for phase and orientation. Quantifying the effect of changing quantum reference frames serves as a first step in developing a relativity principle for theories in which all objects including reference frames are necessarily quantum.

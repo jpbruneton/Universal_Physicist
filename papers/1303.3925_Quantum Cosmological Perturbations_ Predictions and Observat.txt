@@ -1,0 +1,7 @@
+Title: Quantum Cosmological Perturbations: Predictions and Observations
+Authors: Viatcheslav Mukhanov
+Published: 2013-03-15
+arXiv ID: http://arxiv.org/abs/1303.3925v1
+Categories: astro-ph.CO, hep-th
+Abstract:
+I consider the generic model independent predictions of the theory of quantum cosmological perturbations. To describe the stage of cosmic inflation, where these perturbations are amplified, the hydrodynamical approch is used. The inflationary stage is completely characterized by the deviation of the equation of state from cosmological constant which is a smooth function of the number of e-folds until the end of inflation. It is shown that in this case the spectral index should deviate from the flat one at least by 3 percent irrespective of any particular scenario. Given the value of the spectral index the lower bound on the amount of the gravitational waves produced is derived. Finally the relation between effective hydrodynamical description of inflation and inflationary scenarios is discussed.

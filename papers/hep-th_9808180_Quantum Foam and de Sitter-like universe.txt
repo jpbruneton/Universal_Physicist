@@ -1,0 +1,7 @@
+Title: Quantum Foam and de Sitter-like universe
+Authors: P. A. Zizzi
+Published: 1998-08-29
+arXiv ID: http://arxiv.org/abs/hep-th/9808180v1
+Categories: hep-th
+Abstract:
+We perform a foliation of a four dimensional Riemannian space-time with respect to a discrete time which is an integer multiple of the Planck time. We find that the quantum fluctuations of the metric have a discrete energy spectrum. The metric field is expanded in stationary eigenstates, and this leads to the description of a de Sitter-like universe. At the Planck scale the model describes a Planckian Euclidean black hole.

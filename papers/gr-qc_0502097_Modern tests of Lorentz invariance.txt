@@ -1,0 +1,7 @@
+Title: Modern tests of Lorentz invariance
+Authors: David Mattingly
+Published: 2005-02-22
+arXiv ID: http://arxiv.org/abs/gr-qc/0502097v2
+Categories: gr-qc, astro-ph, hep-ph
+Abstract:
+Motivated by ideas about quantum gravity, a tremendous amount of effort over the past decade has gone into testing Lorentz invariance in various regimes. This review summarizes both the theoretical frameworks for tests of Lorentz invariance and experimental advances that have made new high precision tests possible. The current constraints on Lorentz violating effects from both terrestrial experiments and astrophysical observations are presented.

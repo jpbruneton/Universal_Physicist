@@ -1,0 +1,7 @@
+Title: Isometric Tensor Network States in Two Dimensions
+Authors: Michael P. Zaletel, Frank Pollmann
+Published: 2019-02-13
+arXiv ID: http://arxiv.org/abs/1902.05100v2
+Categories: cond-mat.str-el, quant-ph
+Abstract:
+Tensor network states (TNS) are a promising but numerically challenging tool for simulating two-dimensional (2D) quantum many-body problems. We introduce an isometric restriction of the TNS ansatz that allows for highly efficient contraction of the network. We consider two concrete applications using this ansatz. First, we show that a matrix-product state representation of a 2D quantum state can be iteratively transformed into an isometric 2D TNS. Second, we introduce a 2D version of the time-evolving block decimation algorithm (TEBD$^2$) for approximating the ground state of a Hamiltonian as an isometric TNS, which we demonstrate for the 2D transverse field Ising model.

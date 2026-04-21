@@ -1,0 +1,7 @@
+Title: Finite Size Scaling in 2d Causal Set Quantum Gravity
+Authors: Lisa Glaser, Denjoe O'Connor, Sumati Surya
+Published: 2017-06-20
+arXiv ID: http://arxiv.org/abs/1706.06432v2
+Categories: gr-qc, hep-lat, hep-th
+Abstract:
+We study the $N$-dependent behaviour of $\mathrm{2d}$ causal set quantum gravity. This theory is known to exhibit a phase transition as the analytic continuation parameter $β$, akin to an inverse temperature, is varied. Using a scaling analysis we find that the asymptotic regime is reached at relatively small values of $N$. Focussing on the $\mathrm{2d}$ causal set action $S$, we find that $β\langle S\rangle $ scales like $ N^ν$ where the scaling exponent $ν$ takes different values on either side of the phase transition. For $β> β_c$ we find that $ν=2$ which is consistent with our analytic predictions for a non-continuum phase in the large $β$ regime. For $β<β_c$ we find that $ν=0$, consistent with a continuum phase of constant negative curvature thus suggesting a dynamically generated cosmological constant. Moreover, we find strong evidence that the phase transition is first order. Our results strongly suggest that the asymptotic regime is reached in $\mathrm{2d}$ causal set quantum gravity for $N \gtrsim 65$.

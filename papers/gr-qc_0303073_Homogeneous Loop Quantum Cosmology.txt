@@ -1,0 +1,7 @@
+Title: Homogeneous Loop Quantum Cosmology
+Authors: Martin Bojowald
+Published: 2003-03-19
+arXiv ID: http://arxiv.org/abs/gr-qc/0303073v1
+Categories: gr-qc, hep-th
+Abstract:
+Loop quantum cosmological methods are extended to homogeneous models in diagonalized form. It is shown that the diagonalization leads to a simplification of the volume operator such that its spectrum can be determined explicitly. This allows the calculation of composite operators, most importantly the Hamiltonian constraint. As an application the dynamics of the Bianchi I model is studied and it is shown that its loop quantization is free of singularities.

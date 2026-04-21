@@ -1,0 +1,7 @@
+Title: Quantum Spin Dynamics (QSD) II
+Authors: T. Thiemann
+Published: 1996-06-29
+arXiv ID: http://arxiv.org/abs/gr-qc/9606090v1
+Categories: gr-qc, hep-th
+Abstract:
+We continue here the analysis of the previous paper of the Wheeler-DeWitt constraint operator for four-dimensional, Lorentzian, non-perturbative, canonical vacuum quantum gravity in the continuum. In this paper we derive the complete kernel, as well as a physical inner product on it, for a non-symmetric version of the Wheeler-DeWitt operator. We then define a symmetric version of the Wheeler-DeWitt operator. For the Euclidean Wheeler-DeWitt operator as well as for the generator of the Wick transform from the Euclidean to the Lorentzian regime we prove existence of self-adjoint extensions and based on these we present a method of proof of self-adjoint extensions for the Lorentzian operator. Finally we comment on the status of the Wick rotation transform in the light of the present results.

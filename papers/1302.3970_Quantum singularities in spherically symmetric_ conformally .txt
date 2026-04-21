@@ -1,0 +1,7 @@
+Title: Quantum singularities in spherically symmetric, conformally static spacetimes
+Authors: T. M. Helliwell, D. A. Konkowski
+Published: 2013-02-16
+arXiv ID: http://arxiv.org/abs/1302.3970v1
+Categories: gr-qc
+Abstract:
+A definition of quantum singularity for the case of static spacetimes has recently been extended to conformally static spacetimes. Here the theory behind quantum singularities in conformally static spacetimes is reviewed, and then applied to a class of spherically symmetric, conformally static spacetimes, including as special cases those studied by Roberts, by Fonarev, and by Husain, Martinez, and Núñez. We use solutions of the generally coupled, massless Klein-Gordon equation as test fields. In this way we find the ranges of metric parameters and coupling coefficients for which classical timelike singularities in these spacetimes are healed quantum mechanically.

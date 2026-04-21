@@ -1,0 +1,7 @@
+Title: Topological Entanglement Entropy of a Bose-Hubbard Spin Liquid
+Authors: Sergei V. Isakov, Matthew B. Hastings, Roger G. Melko
+Published: 2011-02-08
+arXiv ID: http://arxiv.org/abs/1102.1721v1
+Categories: cond-mat.str-el, quant-ph
+Abstract:
+The Landau paradigm of classifying phases by broken symmetries was demonstrated to be incomplete when it was realized that different quantum Hall states could only be distinguished by more subtle, topological properties. Today, the role of topology as an underlying description of order has branched out to include topological band insulators, and certain featureless gapped Mott insulators with a topological degeneracy in the groundstate wavefunction. Despite intense focus, very few candidates for these topologically ordered "spin liquids" exist. The main difficulty in finding systems that harbour spin liquid states is the very fact that they violate the Landau paradigm, making conventional order parameters non-existent. Here, we uncover a spin liquid phase in a Bose-Hubbard model on the kagome lattice, and measure its topological order directly via the topological entanglement entropy. This is the first smoking-gun demonstration of a non-trivial spin liquid, identified through its entanglement entropy as a gapped groundstate with emergent Z2 gauge symmetry.

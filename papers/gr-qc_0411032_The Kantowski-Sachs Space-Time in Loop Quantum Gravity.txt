@@ -1,0 +1,7 @@
+Title: The Kantowski-Sachs Space-Time in Loop Quantum Gravity
+Authors: Leonardo Modesto
+Published: 2004-11-07
+arXiv ID: http://arxiv.org/abs/gr-qc/0411032v2
+Categories: gr-qc
+Abstract:
+We extend the ideas introduced in the previous work to a more general space-time. In particular we consider the Kantowski-Sachs space time with space section with topology $R \times S^2$. In this way we want to study a general space time that we think to be the space time inside the horizon of a black hole. In this case the phase space is four dimensional and we simply apply the quantization procedure suggested by Loop Quantum Gravity and based on an alternative to the Schroedinger representation introduced by H. Halvorson. Through this quantization procedure we show that the inverse of the volume density and the Schwarzschild curvature invariant are upper bounded and so the space time is singularity free. Also in this case we can extend dynamically the space time beyond the classical singularity.

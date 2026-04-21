@@ -1,0 +1,7 @@
+Title: Introduction to Loop Quantum Cosmology
+Authors: Kinjal Banerjee, Gianluca Calcagni, Mercedes Martín-Benito
+Published: 2011-09-30
+arXiv ID: http://arxiv.org/abs/1109.6801v2
+Categories: gr-qc, astro-ph.CO, hep-th
+Abstract:
+This is an introduction to loop quantum cosmology (LQC) reviewing mini- and midisuperspace models as well as homogeneous and inhomogeneous effective dynamics.

@@ -1,0 +1,7 @@
+Title: Holographic tensor network models and quantum error correction: A topical review
+Authors: Alexander Jahn, Jens Eisert
+Published: 2021-02-04
+arXiv ID: http://arxiv.org/abs/2102.02619v3
+Categories: quant-ph, cond-mat.str-el, hep-th
+Abstract:
+Recent progress in studies of holographic dualities, originally motivated by insights from string theory, has led to a confluence with concepts and techniques from quantum information theory. A particularly successful approach has involved capturing holographic properties by means of tensor networks which not only give rise to physically meaningful correlations of holographic boundary states, but also reproduce and refine features of quantum error correction in holography. This topical review provides an overview over recent successful realizations of such models. It does so by building on an introduction of the theoretical foundations of AdS/CFT and necessary quantum information concepts, many of which have themselves developed into independent, rapidly evolving research fields.

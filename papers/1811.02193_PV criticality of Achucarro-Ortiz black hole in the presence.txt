@@ -1,0 +1,7 @@
+Title: PV criticality of Achucarro-Ortiz black hole in the presence of higher order quantum and GUP corrections
+Authors: Behnam Pourhassan, Ali Övgün, İzzet Sakallı
+Published: 2018-11-06
+arXiv ID: http://arxiv.org/abs/1811.02193v5
+Categories: gr-qc
+Abstract:
+In this paper, we study quantum-corrected and GUP-(generalized uncertainty principle) corrected thermodynamics of the (2+1)-dimensional charged-rotating Achucarro-Ortiz (AO) black hole. The corrected parameters include temperature, entropy, and heat capacity which help in investigating the instability phases of the AO black hole. We show that AO black hole with small mass possesses unstable regions. However, we reveal that those instabilities can be removed by the GUP corrections. Finally, we also compute the maximum temperature that can be reached by the AO black hole.

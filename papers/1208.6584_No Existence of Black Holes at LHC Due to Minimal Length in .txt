@@ -1,0 +1,7 @@
+Title: No Existence of Black Holes at LHC Due to Minimal Length in Quantum Gravity
+Authors: Ahmed Farag Ali
+Published: 2012-08-31
+arXiv ID: http://arxiv.org/abs/1208.6584v2
+Categories: hep-th, gr-qc, hep-ph
+Abstract:
+We investigate the impact of the Generalized Uncertainty Principle (GUP), proposed by some approaches to quantum gravity such as String Theory and Doubly Special Relativity Theories (DSR) on the production of mini black holes, and show that the minimum black hole mass is formed at energies higher than the energy scales of LHC which possibly agrees with the recent experimental results of LHC [arXiv:1012.3375, arXiv:1206.5663] .

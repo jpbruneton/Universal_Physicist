@@ -1,0 +1,7 @@
+Title: Spin foam model for Lorentzian General Relativity
+Authors: Alejandro Perez, Carlo Rovelli
+Published: 2000-09-07
+arXiv ID: http://arxiv.org/abs/gr-qc/0009021v1
+Categories: gr-qc
+Abstract:
+We present a spin foam formulation of Lorentzian quantum General Relativity. The theory is based on a simple generalization of an Euclidean model defined in terms of a field theory over a group. Its vertex amplitude turns out to be the one recently introduced by Barrett and Crane. As in the case of its Euclidean relatives, the model fully implements the desired sum over 2-complexes which encodes the local degrees of freedom of the theory.

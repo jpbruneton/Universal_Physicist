@@ -1,0 +1,7 @@
+Title: Philosophical Foundations of Loop Quantum Gravity
+Authors: Carlo Rovelli, Francesca Vidotto
+Published: 2022-11-12
+arXiv ID: http://arxiv.org/abs/2211.06718v2
+Categories: gr-qc, hep-th, physics.hist-ph
+Abstract:
+Understanding the quantum aspects of gravity is not only a matter of equations and experiments. Gravity is intimately connected with the structure of space and time, and understanding quantum gravity requires us to find a conceptual structure appropriate to make sense of the quantum aspects of space and time. In the course of the last decades, an extensive discussion on this problem has led to a clear conceptual picture, that provides a coherent conceptual foundation of today's Loop Quantum Gravity. We review this foundation, addressing issues such as the sense in which space and time are emergent, the notion of locality, the role of truncation that enables physical computations on finite graphs, the problem of time, and the characterization of the observable quantities in quantum gravity.

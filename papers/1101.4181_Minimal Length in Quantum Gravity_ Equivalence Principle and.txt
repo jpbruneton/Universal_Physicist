@@ -1,0 +1,7 @@
+Title: Minimal Length in Quantum Gravity, Equivalence Principle and Holographic Entropy Bound
+Authors: Ahmed Farag Ali
+Published: 2011-01-21
+arXiv ID: http://arxiv.org/abs/1101.4181v1
+Categories: hep-th, gr-qc, hep-ph, quant-ph
+Abstract:
+A possible discrepancy has been found between the results of a neutron interferometry experiment and Quantum Mechanics. This experiment suggests that the weak equivalence principle is violated at small length scales, which quantum mechanics cannot explain. In this paper, we investigated whether the Generalized Uncertainty Principle (GUP), proposed by some approaches to quantum gravity such as String Theory and Doubly Special Relativity Theories (DSR), can explain the violation of the weak equivalence principle at small length scales. We also investigated the consequences of the GUP on the Liouville theorem in statistical mechanics. We have found a new form of invariant phase space in the presence of GUP. This result should modify the density states and affect the calculation of the entropy bound of local quantum field theory, the cosmological constant, black body radiation, etc. Furthermore, such modification may have observable consequences at length scales much larger than the Planck scale. This modification leads to a \sqrt{A}-type correction to the bound of the maximal entropy of a bosonic field which would definitely shed some light on the holographic theory.

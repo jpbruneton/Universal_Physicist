@@ -1,0 +1,7 @@
+Title: Comments on the Holographic Picture of the Randall-Sundrum Model
+Authors: R. Rattazzi, A. Zaffaroni
+Published: 2000-12-27
+arXiv ID: http://arxiv.org/abs/hep-th/0012248v2
+Categories: hep-th, hep-ph
+Abstract:
+We discuss some issues about the holographic interpretation of the compact Randall-Sundrum model, which is conjectured to be dual to a 4d field theory with non-linearly realized conformal symmetry. We make several checks of this conjecture. In particular, we show that the radion couples conformally to a background 4d metric. We also discuss the interpretation of the Goldberger-Wise mechanism for stabilizing the radion. We consider situations where the electroweak breaking stabilizes the radion and we discuss the issue of natural conservation of flavor quantum numbers.

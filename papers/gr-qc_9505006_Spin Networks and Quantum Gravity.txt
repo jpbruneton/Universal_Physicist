@@ -1,0 +1,7 @@
+Title: Spin Networks and Quantum Gravity
+Authors: Carlo Rovelli, Lee Smolin
+Published: 1995-05-04
+arXiv ID: http://arxiv.org/abs/gr-qc/9505006v1
+Categories: gr-qc
+Abstract:
+We introduce a new basis on the state space of non-perturbative quantum gravity. The states of this basis are linearly independent, are well defined in both the loop representation and the connection representation, and are labeled by a generalization of Penrose's spin netoworks. The new basis fully reduces the spinor identities (SU(2) Mandelstam identities) and simplifies calculations in non-perturbative quantum gravity. In particular, it allows a simple expression for the exact solutions of the Hamiltonian constraint (Wheeler-DeWitt equation) that have been discovered in the loop representation. Since the states in this basis diagnolize operators that represent the three geometry of space, such as the area and volumes of arbitrary surfaces and regions, these states provide a discrete picture of quantum geometry at the Planck scale.

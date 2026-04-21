@@ -1,0 +1,7 @@
+Title: Model metrics for quantum black hole evolution: Gravitational collapse, singularity resolution, and transient horizons
+Authors: Samantha Hergott, Viqar Husain, Saeed Rastgoo
+Published: 2022-06-13
+arXiv ID: http://arxiv.org/abs/2206.06425v2
+Categories: gr-qc, astro-ph.HE
+Abstract:
+It is widely accepted that curvature singularity resolution should be a feature of quantum gravity. We present a class of time-dependent asymptotically flat spherically symmetric metrics that model gravitational collapse in quantum gravity. The metrics capture intuitions associated with the dynamics of singularity resolution, and horizon formation and evaporation following a matter bounce. A parameter in the metric associated with the speed of the bounce determines black hole lifetime as a power of its mass; this includes the Hawking evaporation time $M^{3}$.

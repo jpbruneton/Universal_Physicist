@@ -1,0 +1,10 @@
+Title: Quantum Fields on Causal Sets
+Authors: Steven Johnston
+Published: 2010-10-26
+arXiv ID: http://arxiv.org/abs/1010.5514v1
+Categories: hep-th, gr-qc
+Abstract:
+Causal set theory provides a model of discrete spacetime in which spacetime events are represented by elements of a causal set---a locally finite, partially ordered set in which the partial order represents the causal relationships between events. The work presented here describes a model for matter on a causal set, specifically a theory of quantum scalar fields on a causal set spacetime background.
+  The work starts with a discrete path integral model for particles on a causal set. Here quantum mechanical amplitudes are assigned to trajectories within the causal set. By summing these over all trajectories between two spacetime events we obtain a causal set particle propagator. With a suitable choice of amplitudes this is shown to agree (in an appropriate sense) with the retarded propagator for the Klein-Gordon equation in Minkowski spacetime.
+  This causal set propagator is then used to define a causal set analogue of the Pauli-Jordan function that appears in continuum quantum field theories. A quantum scalar field is then modelled by an algebra of operators which satisfy three simple conditions (including a bosonic commutation rule). Defining time-ordering through a linear extension of the causal set these field operators are used to define a causal set Feynman propagator. Evidence is presented which shows agreement (in a suitable sense) between the causal set Feynman propagator and the continuum Feynman propagator for the Klein-Gordon equation in Minkowski spacetime. The Feynman propagator is obtained using the eigendecomposition of the Pauli-Jordan function, a method which can also be applied in continuum-based theories.
+  The free field theory is extended to include interacting scalar fields. This leads to a suggestion for a non-perturbative S-matrix on a causal set. Models for continuum-based phenomenology and spin-half particles on a causal set are also presented.
