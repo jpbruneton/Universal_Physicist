@@ -130,23 +130,45 @@ def _get_relevant_papers_and_keys(text: str) -> tuple[list[dict], dict, str]:
 
 # ─── Document integrity ──────────────────────────────────────────────────────
 
-def _ensure_document_closed(tex: str) -> str:
-    """If the LLM output was truncated before \\end{document}, close it cleanly."""
-    if r"\end{document}" in tex:
-        return tex
-    # Close any open environments and add \end{document}
-    closers = []
-    if r"\begin{thebibliography}" in tex and r"\end{thebibliography}" not in tex:
-        closers.append(r"\end{thebibliography}")
-    closers.append(r"\end{document}")
-    return tex.rstrip() + "\n\n" + "\n".join(closers) + "\n"
+def _strip_markdown_fence(tex: str) -> str:
+    """Remove ```latex / ``` fences that LLMs sometimes wrap around output."""
+    tex = tex.strip()
+    if tex.startswith("```"):
+        tex = tex.split("```", 2)[1]
+        if tex.startswith("latex"):
+            tex = tex[4:]
+        tex = tex.lstrip("\n")
+    if tex.endswith("```"):
+        tex = tex[: tex.rfind("```")].rstrip()
+    return tex
+
+
+def _inject_bibliography(tex: str, bibliography: str) -> str:
+    """
+    Remove any LLM-generated bibliography block and inject the pre-built one.
+    Then ensure \\end{document} is present.
+    """
+    # Strip existing (possibly truncated) thebibliography
+    tex = re.sub(
+        r"\\begin\{thebibliography\}.*",
+        "",
+        tex,
+        flags=re.DOTALL,
+    ).rstrip()
+
+    # Strip stray \end{document} so we can re-append cleanly
+    tex = tex.replace(r"\end{document}", "").rstrip()
+
+    if bibliography:
+        return tex + "\n\n" + bibliography + "\n\n\\end{document}\n"
+    return tex + "\n\n\\end{document}\n"
 
 
 # ─── LLM formatting calls ────────────────────────────────────────────────────
 
 CHECKPOINT_SYSTEM = r"""You are a scientific LaTeX formatter. Produce ONLY valid LaTeX — no
-explanation outside the document. The document is an intermediate research checkpoint,
-not a finished paper. It should be honest about what is provisional.
+markdown fences, no explanation outside the document. The document is an intermediate
+research checkpoint, not a finished paper. It should be honest about what is provisional.
 
 Use this exact preamble:
 \documentclass[11pt,a4paper]{article}
@@ -157,26 +179,27 @@ Use this exact preamble:
 \newtheorem{definition}{Definition}
 \newtheorem{remark}{Remark}
 
-Sections to include:
+Sections to include (keep under 5 pages total):
 1. Abstract — what the team has settled on so far (3-5 sentences)
 2. Current Theoretical Proposal — the core idea with key equations (numbered)
 3. Points of Consensus — what all specialists agree on
 4. Open Tensions — explicit list of unresolved issues
 5. Next Steps — what needs to be worked out in the next round
-6. References — use the \\bibitem entries provided verbatim
+
+IMPORTANT: End your output with ONLY the line:
+\end{document}
+Do NOT include a \\begin{thebibliography} block — it will be appended automatically.
+Use \\cite{key} where relevant; valid keys are listed in the user message.
 
 Rules:
 - Use \\label{eq:N} on every numbered equation
 - Natural units G = \\hbar = c = 1 unless stated otherwise
-- Cite the provided references with \\cite{key} where relevant
 - Mark speculative claims with \\textcolor{red}{[speculative]} inline
-- Never invent references — only cite from the provided bibliography
-- Keep the document under 6 pages — be concise, no padding, no repetition
-- Always end with \\end{thebibliography} then \\end{document}"""
+- Never invent references"""
 
 
 FINAL_SYSTEM = r"""You are a scientific LaTeX formatter producing a complete research paper.
-Output ONLY valid LaTeX.
+Output ONLY valid LaTeX — no markdown fences, no explanations outside the document.
 
 Preamble:
 \documentclass[12pt,a4paper]{article}
@@ -189,26 +212,28 @@ Preamble:
 \newtheorem{conjecture}{Conjecture}
 \newtheorem{remark}{Remark}
 
-Sections (all required):
-1. Abstract (~150 words)
-2. Introduction — motivation, problem statement, overview of the paper
-3. Mathematical Framework — definitions, key structures, Hilbert space
+Sections (all required — be concise, max 10 pages total):
+1. Abstract (~100 words)
+2. Introduction — motivation and problem statement
+3. Mathematical Framework — key definitions and structures
 4. Core Equations and Results — numbered equations with derivation sketches
 5. Physical Interpretation — operational meaning of each construct
-6. Consistency Checks — classical limit, dimensional analysis, symmetry
-7. Connections to Existing Approaches — brief comparison table or discussion
-8. Bold Proposals and Open Conjectures — most speculative directions, marked clearly
+6. Consistency Checks — classical limit and symmetry
+7. Connections to Existing Approaches — brief comparison
+8. Bold Proposals and Open Conjectures — marked with \\begin{conjecture}
 9. Open Problems and Future Directions
 10. Conclusion
-11. References — use \\bibitem entries provided verbatim
+
+IMPORTANT: End your output with ONLY the line:
+\end{document}
+Do NOT include a \\begin{thebibliography} block — the bibliography will be appended automatically.
+Use \\cite{key} throughout; valid keys are listed below.
 
 Rules:
 - All equations numbered with \\label{eq:name}
-- \\cite{key} for every claim that connects to provided references
-- Mark conjectures explicitly with \\begin{conjecture}...\\end{conjecture}
-- State metric signature convention (+−−−) or (−+++) explicitly
-- State whether Planck units or SI units are used
-- Never invent references"""
+- Mark conjectures with \\begin{conjecture}...\\end{conjecture}
+- State metric signature convention explicitly
+- Never invent references — only \\cite keys from the provided list"""
 
 
 def _output_path(session_id: str, filename: str) -> str:
@@ -262,13 +287,13 @@ def format_checkpoint(
             f"Produce a LaTeX checkpoint document for ROUND {round_num}.\n\n"
             f"Round synthesis:\n{syn_for_ctx}\n\n"
             f"Agent responses summary:\n{agent_summary[:3000]}\n\n"
-            f"Available cite keys (use these in \\cite{{}} commands):\n{cite_key_list}\n\n"
-            f"Bibliography (include verbatim at end of document):\n{bibliography}"
+            f"Available cite keys (use \\cite{{key}} with these):\n{cite_key_list}"
         ),
     }]
 
     tex_content = call_agent(CHECKPOINT_SYSTEM, messages, max_tokens=8000)
-    tex_content = _ensure_document_closed(tex_content)
+    tex_content = _strip_markdown_fence(tex_content)
+    tex_content = _inject_bibliography(tex_content, bibliography)
 
     filename = f"round_{round_num:02d}_checkpoint.tex"
     tex_path  = _output_path(session_id, filename)
@@ -300,13 +325,13 @@ def format_final(
             f"Produce a complete LaTeX paper with title: {title}\n\n"
             f"Final synthesis:\n{syn_for_ctx}\n\n"
             f"Evolution across rounds:\n{rounds_summary[:4000]}\n\n"
-            f"Available cite keys:\n{cite_key_list}\n\n"
-            f"Bibliography (include verbatim):\n{bibliography}"
+            f"Available cite keys (use \\cite{{key}} with these):\n{cite_key_list}"
         ),
     }]
 
-    tex_content = call_agent(FINAL_SYSTEM, messages, max_tokens=12000)
-    tex_content = _ensure_document_closed(tex_content)
+    tex_content = call_agent(FINAL_SYSTEM, messages, max_tokens=14000)
+    tex_content = _strip_markdown_fence(tex_content)
+    tex_content = _inject_bibliography(tex_content, bibliography)
 
     filename = "final_paper.tex"
     tex_path  = _output_path(session_id, filename)

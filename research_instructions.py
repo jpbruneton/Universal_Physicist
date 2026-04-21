@@ -4,9 +4,11 @@ Load and apply structured research instructions (JSON) for main.py.
 Required keys: query, keywords, authors.
 Optional keys: exclude_keywords, exclude_authors (plain names; code adds au:/all: and ANDNOT).
 Optional key: mode — "researcher" (default) or "teacher" (expository session; no wild theorist).
+Optional key: session_name — human-readable label for output/session folders (slugified for paths).
 """
 
 import json
+import re
 from pathlib import Path
 
 
@@ -35,13 +37,35 @@ def load_instructions_file(path: Path) -> dict:
         raise ValueError('Instructions "authors" must be a non-empty list of strings.')
     exclude_keywords = _normalize_optional_string_list(data.get("exclude_keywords"))
     exclude_authors = _normalize_optional_string_list(data.get("exclude_authors"))
+    mode = data.get("mode", "researcher")
+    if mode not in ("researcher", "teacher"):
+        raise ValueError('Instructions "mode" must be "researcher" or "teacher".')
+    sn = data.get("session_name")
+    if sn is None:
+        session_name = ""
+    elif isinstance(sn, str):
+        session_name = sn.strip()
+    else:
+        raise ValueError('Instructions "session_name" must be a string.')
     return {
         "query": query.strip(),
         "keywords": keywords,
         "authors": authors,
         "exclude_keywords": exclude_keywords,
         "exclude_authors": exclude_authors,
+        "mode": mode,
+        "session_name": session_name,
     }
+
+
+def sanitize_session_name(raw: str) -> str:
+    """Filesystem-safe slug for session_id (output/, sessions/). Empty input → empty string."""
+    s = raw.strip().lower()
+    s = re.sub(r"[^a-z0-9]+", "_", s)
+    s = s.strip("_")
+    if len(s) > 50:
+        s = s[:50].rstrip("_")
+    return s
 
 
 def _normalize_optional_string_list(value: object) -> list[str]:
@@ -154,6 +178,7 @@ def instructions_summary(instr: dict) -> str:
             "exclude_keywords": instr["exclude_keywords"],
             "exclude_authors": instr["exclude_authors"],
             "mode": instr["mode"],
+            "session_name": instr["session_name"],
         },
         ensure_ascii=False,
     )

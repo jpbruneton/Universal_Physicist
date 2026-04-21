@@ -12,10 +12,21 @@ from pathlib import Path
 
 
 def _find_compiler():
-    """Return the best available LaTeX compiler, or None."""
-    for cmd in ("latexmk", "pdflatex"):
-        if shutil.which(cmd):
-            return cmd
+    """Return the best available LaTeX compiler, or None.
+    latexmk requires Perl; verify it actually runs before preferring it.
+    """
+    if shutil.which("latexmk"):
+        try:
+            r = subprocess.run(
+                ["latexmk", "--version"],
+                capture_output=True, text=True, timeout=10
+            )
+            if r.returncode == 0:
+                return "latexmk"
+        except Exception:
+            pass
+    if shutil.which("pdflatex"):
+        return "pdflatex"
     return None
 
 

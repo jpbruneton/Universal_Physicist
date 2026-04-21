@@ -130,6 +130,10 @@ def main() -> None:
         planning=PLAN,
         produce_latex=not args.no_latex,
         verbose=not args.quiet,
+        resume_session_data=None,
+        start_round_one_based=1,
+        on_pipeline_event=None,
+        explicit_session_id=None,
     )
 
 

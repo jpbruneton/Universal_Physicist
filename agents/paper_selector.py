@@ -32,7 +32,7 @@ def _load_processed_index() -> list[dict]:
     path = _processed_index_path()
     if not Path(path).exists():
         return []
-    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    data = json.loads(Path(path).read_text(encoding="utf-8-sig"))
     return [p for p in data if not p.get("excluded", False)]
 
 
