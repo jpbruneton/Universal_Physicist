@@ -1,41 +1,49 @@
 # Universal Physicist
 
-Agent-powered theoretical physicist: describe a topic in one phrase, pull papers, preprocess the library, and run multi-round expert sessions with optional LaTeX output.
+Agent-powered theoretical physicist: describe a topic in one phrase, pull papers, preprocess the library, and run multi-round expert sessions with optional LaTeX output. Choose **researcher** mode (explore new ideas; may use a wild theorist) or **teacher** mode (expository only, pedagogical agent—no speculative new theories as the goal).
 
 <!-- Example block: bordered callout (renders on GitHub) -->
 <div align="left" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 14px 18px; background-color: #f6f8fa; margin: 12px 0 20px 0;">
 
 <p><strong>Example</strong> — sample command and abbreviated console output (illustration only; your run will differ).</p>
 
-<pre style="margin: 10px 0 0 0; padding: 10px 12px; background: #fff; border: 1px solid #e1e4e8; border-radius: 6px; overflow-x: auto;"><code>py -3 main.py --phrase "look for a theory of QM on non continous fields instead of C, maybe Q or finite fields, explore building constraints and testable predictions"</code></pre>
+<pre style="margin: 10px 0 0 0; padding: 10px 12px; background: #fff; border: 1px solid #e1e4e8; border-radius: 6px; overflow-x: auto;"><code>py -3 main.py --phrase "explain Hawking radiation to a graduate student" --mode teacher</code></pre>
 
-<pre style="margin: 10px 0 0 0; padding: 10px 12px; background: #fff; border: 1px solid #e1e4e8; border-radius: 6px; overflow-x: auto; white-space: pre-wrap;">[1/4] Planning session (prompt, agents, arXiv query)...
+<pre style="margin: 10px 0 0 0; padding: 10px 12px; background: #fff; border: 1px solid #e1e4e8; border-radius: 6px; overflow-x: auto; white-space: pre-wrap;">
 
-Title: Quantum Mechanics over Discrete Algebraic Fields: Foundations, Constraints, and Phenomenology
-Refined question (1051 chars) — preview:
 
-  Can a physically consistent and empirically distinguishable formulation of quantum mechanics be constructed over a non-continuous number field — specifically the rationals Q, p-adic fields Q_p, or finite fields F_q (with q = p^n) — replacing the standard Hilbert space H over C? Concretely: (1) What algebraic and structural constraints (inner-product positivity, spectral theorems, Born-rule analogs...
+  [1/4] Planning session (prompt, agents, arXiv query)...
 
-Built-in + dynamic agents:
-  + dynamic: padic_expert — p-adic & Non-Archimedean Analysis Expert
-  + dynamic: finite_field_expert — Finite Field & Algebraic Geometry Specialist
-  + dynamic: phenomenology_expert — Quantum Foundations Phenomenologist
-  + dynamic: algebra_structures_expert — Operator Algebras & Representation Theory Expert
+  Papers library: papers/hawking_radiation_a_graduate_level_exposition/
 
-Rounds (agent keys per round):
-  Round 1: algebra_structures_expert, padic_expert, finite_field_expert, math
-  Round 2: padic_expert, finite_field_expert, qft, verifier
-  Round 3: algebra_structures_expert, qm, padic_expert, wild
-  Round 4: phenomenology_expert, qm, verifier, finite_field_expert
-  Round 5: devil, phenomenology_expert, algebra_structures_expert, padic_expert
-  Round 6: lit, meaning, wild, phenomenology_expert
+  Wrote session replay script: written_projects/hawking_radiation_a_graduate_level_exposition_project.py  
+  Session mode: teacher
+  Title: Hawking Radiation: A Graduate-Level Exposition
+  Refined question (431 chars) — preview:
 
-arXiv: abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational field Hilbert space) OR t...
-Categories: ['quant-ph', 'hep-th', 'math-ph']  |  max papers: 28
+    How does quantum field theory on a curved spacetime background give rise to Hawking radiation from a black hole horizon? Specifically: what is the Bogoliubov transformation relating in- and out-vacuum states, why does the Planckian spectrum T_H = hbar c^3 / (8 pi G M k_B) emerge, what is the physical role of the near-horizon geometry and Unruh effect, and what are the key open questions regarding ...
 
-[2/4] Searching arXiv and saving abstracts...  → papers/<slug>/
+  Built-in + dynamic agents:
+    + dynamic: qft_curved — QFT in Curved Spacetime Specialist
 
-Searching arXiv: (abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational fiel...</pre>
+  Rounds (agent keys per round):
+    Round 1: gr, teacher
+    Round 2: qft_curved, teacher
+    Round 3: qft_curved, qm, verifier
+    Round 4: meaning, bh, teacher
+    Round 5: devil, lit
+    Round 6: teacher, verifier
+
+  arXiv: abs:(Hawking radiation derivation Bogoliubov transformation black hole thermodynamics Unruh effect information paradox) ...
+  Categories: ['gr-qc', 'hep-th', 'quant-ph']  |  max papers: 24
+
+  [2/4] Searching arXiv and saving abstracts...
+  → C:\Users\JP\Desktop\qg\papers\hawking_radiation_a_graduate_level_exposition
+
+Searching arXiv: (abs:(Hawking radiation derivation Bogoliubov transformation black hole thermodynamics Unruh effect ...
+  Saved abstract: Introduction to Black Hole Evaporation
+    Downloading PDF...
+    </pre>
 
 </div>
 
@@ -57,12 +65,28 @@ Put your Anthropic API key under `env`:
 
 ## 2. Running `main.py`
 
+### Session modes: `researcher` and `teacher`
+
+Every run uses one of two **session modes** (default: **`researcher`**):
+
+| Mode | Purpose | Agents |
+|------|---------|--------|
+| **`researcher`** | Explore ideas, compare models, and push toward **new syntheses** from the discussion. The planner may assign the **Wild Theorist** (`wild`) for creative but defensible speculation. | `wild` allowed; orchestrator frames round and final synthesis as research-style proposals. |
+| **`teacher`** | **Explain** established physics and what appears in the literature—definitions, standard results, and careful unpacking of equations. **No** speculative new theories as the goal. The **Teacher** (`teacher`) agent is pedagogical: defines terms, explains every symbol in key equations, and attributes ideas to sources. | **`wild` is never used** (any `wild` slot is turned into `teacher`). Orchestrator and final synthesis are tuned for exposition, not novelty. |
+
+**CLI:** pass `--mode researcher` or `--mode teacher`. If you omit `--mode`, the value comes from **`"mode"`** in `instructions.json` when using `--use-instructions`, otherwise **`researcher`**.
+
+**Precedence:** `--mode` on the command line **overrides** `"mode"` in the instructions file.
+
+**Embedded in the plan:** the chosen mode is stored in the session plan and in `sessions/session_<id>.json` as `session_mode`. Replay scripts under `written_projects/` generated by `main.py` include it in the frozen JSON.
+
 ### Phrase mode (default)
 
 As given in the example above:
 
 ```bash
 py -3 main.py --phrase "what you want to explore"
+py -3 main.py --phrase "explain Hawking radiation to a graduate student" --mode teacher
 ```
 
 Or start interactive mode and type the phrase when prompted:
@@ -79,10 +103,11 @@ Copy [`instructions.example.json`](instructions.example.json) → `instructions.
 py -3 main.py --use-instructions
 ```
 
-Example file (required: `query`, `keywords`, `authors`; optional: `exclude_keywords`, `exclude_authors` — use **plain** words; the pipeline turns them into `all:` / `au:` and `ANDNOT` in the final arXiv query):
+Example file (required: `query`, `keywords`, `authors`; optional: `mode`, `exclude_keywords`, `exclude_authors` — use **plain** words for exclusions; the pipeline turns them into `all:` / `au:` and `ANDNOT` in the final arXiv query):
 
 ```json
 {
+  "mode": "researcher",
   "query": "QM on non-continuous fields; constraints and predictions.",
   "keywords": ["p-adic quantum mechanics", "finite field"],
   "authors": ["Volovich", "Dragovich"],
@@ -90,6 +115,8 @@ Example file (required: `query`, `keywords`, `authors`; optional: `exclude_keywo
   "exclude_authors": ["Smith"]
 }
 ```
+
+Set `"mode": "teacher"` for an expository session (no wild theorist; teacher-style rounds). Omit `mode` to default to `researcher`.
 
 The planner sees all fields; `main.py` then **merges** include terms and appends **ANDNOT** for exclusions. Do not use `--phrase` or `-i` with `--use-instructions`.
 
@@ -128,7 +155,7 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
 ## 3. What the pipeline does (concise)
 
-1. **Plan** — A planner model turns your short phrase into a structured plan: a precise research question, an arXiv search query, categories, how many papers to pull, which **built-in** experts (GR, QM, QFT, math, literature, etc.) join each round, and how the discussion is staged. **Experts are also created on the fly when needed:** if your topic calls for niche skills (e.g. p-adic analysis, finite fields, a specific phenomenology), the planner invents one or more **dynamic specialists** for that run only—each gets its own system prompt and participates like any other agent. You do not configure them by hand.
+1. **Plan** — A planner model turns your short phrase (or structured instructions) into a structured plan: a precise question, an arXiv search query, categories, how many papers to pull, which **built-in** experts join each round, and how the discussion is staged. The plan respects the **session mode** (`researcher` vs `teacher`): in teacher mode the question and rounds emphasize explanation and literature, and the **Wild Theorist** is not used. **Experts are also created on the fly when needed:** if your topic calls for niche skills (e.g. p-adic analysis, finite fields), the planner invents one or more **dynamic specialists** for that run only—each gets its own system prompt and participates like any other agent. You do not configure them by hand.
 
 2. **Papers (in `main.py`)** — The library is **per project** under `papers/<slug>/` (derived from the planned session title; CLI tools use `--project <slug>` or `papers/default/` until something sets it). Step **arXiv**: relevance search using the planned query and categories; results merge into `papers/<slug>/index.json` with **abstract** text and sidecar `.txt` files. If **`papers.inspire`** / **`papers.semantic_scholar`** are true in `config` (see `config.default.yaml`), `main.py` then runs a **single-topic** supplement on each: INSPIRE (top-cited) and Semantic Scholar, using the session title (or the refined question if the title is too short). That is **not** the same as `py -3 -m paper_tools.main_preprocessing`, which runs long **multi-topic** sweeps; turn off the YAML flags if you want arXiv only.
 
@@ -138,7 +165,7 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
 3. **Preprocess** — `paper_tools.preprocess_papers` walks everything in `papers/<slug>/index.json` that is not yet in `processed_index.json` in the same folder. For each paper it uses **title + abstract only** (Claude Haiku) to build summaries, keywords, and simple tags—not the full PDF. If a PDF file exists for an entry, the script can optionally **extract full text** into a cached `.fulltext.txt` (for agents that read the library); that path is separate from the Haiku pass.
 
-4. **Discussion** — Multiple rounds: specialists answer the refined question with shared context from prior round syntheses; an orchestrator synthesizes after each round; LaTeX checkpoints and a final write-up go under `output/<session_id>/`. Session state is stored in `sessions/session_<id>.json`.
+4. **Discussion** — Multiple rounds: specialists answer the refined question with shared context from prior round syntheses; an **orchestrator** synthesizes after each round (wording depends on **researcher** vs **teacher** mode); LaTeX checkpoints and a final write-up go under `output/<session_id>/`. Session state is stored in `sessions/session_<id>.json` (including `session_mode`).
 
 ## 4. Cost
 
