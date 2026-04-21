@@ -9,10 +9,10 @@ than arXiv relevance search for finding seminal work.
 API docs: https://inspirehep.net/api/literature
 
 Usage:
-    py -3 inspire_downloader.py                  # run all topic sweeps
-    py -3 inspire_downloader.py --topic "loop quantum gravity" --n 80
-    py -3 inspire_downloader.py --min-citations 50   # only highly cited
-    py -3 inspire_downloader.py --dry-run        # print what would be fetched
+    py -3 -m paper_tools.inspire_downloader                  # run all topic sweeps
+    py -3 -m paper_tools.inspire_downloader --topic "loop quantum gravity" --n 80
+    py -3 -m paper_tools.inspire_downloader --min-citations 50   # only highly cited
+    py -3 -m paper_tools.inspire_downloader --dry-run        # print what would be fetched
 """
 
 import time
@@ -20,7 +20,7 @@ import json
 import argparse
 import requests
 from pathlib import Path
-from arxiv_downloader import download_by_id, list_library
+from .arxiv_downloader import download_by_id, list_library
 from config import PAPERS_DIR
 
 INSPIRE_API = "https://inspirehep.net/api/literature"
@@ -254,7 +254,7 @@ def run_all_sweeps(
         print(f"  Progress: {downloaded}/{total_new}\n")
 
     print(f"\nDone. {total_new} new papers added.")
-    print("Next step: py -3 preprocess_papers.py")
+    print("Next step: py -3 -m paper_tools.preprocess_papers")
 
 
 if __name__ == "__main__":

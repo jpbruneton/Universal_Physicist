@@ -76,3 +76,8 @@ def compile(tex_path: str, clean: bool = True) -> tuple:
 
 def is_available() -> bool:
     return _find_compiler() is not None
+
+
+if __name__ == "__main__":
+    ok = is_available()
+    print("latex_tools.compile_latex: LaTeX compiler on PATH:", "yes" if ok else "no")

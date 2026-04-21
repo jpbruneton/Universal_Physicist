@@ -10,11 +10,11 @@ No API key required for basic use (100 req / 5 min).
 Free API key (https://www.semanticscholar.org/product/api) raises limit to 1 req/sec.
 
 Usage:
-    py -3 semantic_scholar.py                    # run all topic sweeps
-    py -3 semantic_scholar.py --topic "quantum reference frames"
-    py -3 semantic_scholar.py --min-citations 30
-    py -3 semantic_scholar.py --dry-run
-    py -3 semantic_scholar.py --api-key YOUR_KEY
+    py -3 -m paper_tools.semantic_scholar                    # run all topic sweeps
+    py -3 -m paper_tools.semantic_scholar --topic "quantum reference frames"
+    py -3 -m paper_tools.semantic_scholar --min-citations 30
+    py -3 -m paper_tools.semantic_scholar --dry-run
+    py -3 -m paper_tools.semantic_scholar --api-key YOUR_KEY
 """
 
 import time
@@ -22,7 +22,7 @@ import json
 import argparse
 import requests
 from pathlib import Path
-from arxiv_downloader import download_by_id
+from .arxiv_downloader import download_by_id
 from config import PAPERS_DIR
 
 S2_API = "https://api.semanticscholar.org/graph/v1/paper/search"
@@ -201,7 +201,7 @@ def run_all_sweeps(
         print(f"  Progress: {downloaded}/{len(all_new_ids)}\n")
 
     print(f"\nDone. {len(all_new_ids)} new papers added.")
-    print("Next step: py -3 preprocess_papers.py")
+    print("Next step: py -3 -m paper_tools.preprocess_papers")
 
 
 if __name__ == "__main__":

@@ -41,11 +41,11 @@ def _build_paper_context(proposed_text: str) -> str:
     import sys
     from pathlib import Path
     sys.path.insert(0, str(Path(__file__).parent.parent))
-    from pdf_reader import get_excerpt
+    from paper_tools.pdf_reader import get_excerpt
 
     all_papers = _load_processed_index()
     if not all_papers:
-        return "No processed paper index. Run: py -3 preprocess_papers.py"
+        return "No processed paper index. Run: py -3 -m paper_tools.preprocess_papers"
 
     # Reuse selector to pick relevant papers
     _ = select_relevant_papers(proposed_text)  # warms selector cache

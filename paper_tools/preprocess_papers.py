@@ -4,8 +4,8 @@ For each paper: generates a 100-word summary and keyword list via a fast Claude 
 Marks string-theory-heavy papers as excluded.
 
 Usage:
-    py -3 preprocess_papers.py           # process all unprocessed papers
-    py -3 preprocess_papers.py --force   # reprocess everything
+    py -3 -m paper_tools.preprocess_papers           # process all unprocessed papers
+    py -3 -m paper_tools.preprocess_papers --force   # reprocess everything
 """
 
 import os
@@ -85,7 +85,7 @@ def save_processed_index(processed: dict) -> None:
 def extract_pdfs(papers_dir: str = PAPERS_DIR, force: bool = False) -> int:
     """Extract and cache full text for all downloaded PDFs."""
     try:
-        from pdf_reader import extract_library
+        from .pdf_reader import extract_library
         n = extract_library(papers_dir, force=force)
         print(f"Full-text extraction: {n} new files created.")
         return n
@@ -97,7 +97,7 @@ def extract_pdfs(papers_dir: str = PAPERS_DIR, force: bool = False) -> int:
 def process_all(force: bool = False) -> None:
     raw_papers = load_raw_index()
     if not raw_papers:
-        print("No papers in index.json. Run arxiv_downloader.py first.")
+        print("No papers in index.json. Run py -3 -m paper_tools.arxiv_downloader first.")
         return
 
     processed = {} if force else load_processed_index()
@@ -165,7 +165,7 @@ def process_all(force: bool = False) -> None:
 def show_index() -> None:
     processed = load_processed_index()
     if not processed:
-        print("No processed index. Run preprocess_papers.py first.")
+        print("No processed index. Run py -3 -m paper_tools.preprocess_papers first.")
         return
     print(f"\nProcessed library: {len(processed)} papers\n")
     for p in processed.values():

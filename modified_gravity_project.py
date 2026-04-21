@@ -155,7 +155,7 @@ def download_modified_gravity_papers(dry_run: bool, download_pdfs: bool) -> None
         return
 
     try:
-        from arxiv_downloader import download_by_id
+        from paper_tools.arxiv_downloader import download_by_id
 
         download_by_id(MODIFIED_GRAVITY_PAPERS, download_pdfs)
     except Exception as e:
@@ -413,7 +413,7 @@ if __name__ == "__main__":
         download_modified_gravity_papers(dry_run=False, download_pdfs=args.pdf)
         print("\n  Preprocessing new papers...")
         try:
-            from preprocess_papers import process_all
+            from paper_tools.preprocess_papers import process_all
 
             process_all(force=False)
         except Exception as e:

@@ -6,7 +6,7 @@ Pipeline:
   2) A planner expands it into a detailed question, arXiv query, agent roster,
      and optional new specialist agents (dynamic experts)
   3) arXiv search downloads abstracts into papers/
-  4) preprocess_papers enriches the library
+  4) paper_tools.preprocess_papers enriches the library
   5) Multi-round discussion with built-in + dynamic agents, orchestrator, LaTeX output
 
 Usage:
@@ -268,7 +268,7 @@ def main() -> None:
     parser.add_argument(
         "--skip-preprocess",
         action="store_true",
-        help="Skip preprocess_papers (still requires existing index.json if you need context)",
+        help="Skip paper_tools.preprocess_papers (still requires existing index.json if you need context)",
     )
     parser.add_argument(
         "--plan-only",
@@ -324,7 +324,7 @@ def main() -> None:
 
     if not args.skip_papers:
         print("\n  [2/4] Searching arXiv and saving abstracts to papers/...\n")
-        from arxiv_downloader import search_and_download
+        from paper_tools.arxiv_downloader import search_and_download
 
         search_and_download(
             query=plan["arxiv_search_query"],
@@ -337,7 +337,7 @@ def main() -> None:
 
     if not args.skip_preprocess:
         print("\n  [3/4] Preprocessing paper library...\n")
-        from preprocess_papers import process_all
+        from paper_tools.preprocess_papers import process_all
 
         process_all(force=False)
     else:

@@ -1,7 +1,7 @@
 @echo off
 REM ─── Quantum Gravity Paper Library Manager ───────────────────────────────
 REM
-REM RECOMMENDED WORKFLOW (run in order):
+REM RECOMMENDED WORKFLOW (run in order, from project root):
 REM
 REM   Step 1 — curated foundational papers (~40, ~2 min):
 REM     download_papers.bat --core
@@ -29,24 +29,24 @@ REM     download_papers.bat --inspire --pdf
 
 if "%1"=="--inspire" (
     shift
-    py -3 inspire_downloader.py %*
+    py -3 -m paper_tools.inspire_downloader %*
     goto :eof
 )
 if "%1"=="--semantic" (
     shift
-    py -3 semantic_scholar.py %*
+    py -3 -m paper_tools.semantic_scholar %*
     goto :eof
 )
 if "%1"=="--preprocess" (
-    py -3 preprocess_papers.py
+    py -3 -m paper_tools.preprocess_papers
     goto :eof
 )
 if "%1"=="--preprocess-force" (
-    py -3 preprocess_papers.py --force
+    py -3 -m paper_tools.preprocess_papers --force
     goto :eof
 )
 if "%1"=="--show" (
-    py -3 preprocess_papers.py --show
+    py -3 -m paper_tools.preprocess_papers --show
     goto :eof
 )
-py -3 arxiv_downloader.py %*
+py -3 -m paper_tools.arxiv_downloader %*

@@ -63,8 +63,8 @@ def select_relevant_papers(proposal: str, max_papers: int = 6) -> str:
     if not papers:
         return (
             "No processed paper index available. "
-            "Run: py -3 preprocess_papers.py\n"
-            "Then: py -3 arxiv_downloader.py --core"
+            "Run: py -3 -m paper_tools.preprocess_papers\n"
+            "Then: py -3 -m paper_tools.arxiv_downloader --core"
         )
 
     catalogue = _format_catalogue(papers)

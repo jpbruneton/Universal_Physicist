@@ -69,12 +69,12 @@ def read_by_id(
     """
     import sys
     sys.path.insert(0, str(Path(__file__).parent.parent))
-    from pdf_reader import get_excerpt
+    from paper_tools.pdf_reader import get_excerpt
 
     # Find in index
     index_path = Path(PAPERS_DIR) / "processed_index.json"
     if not index_path.exists():
-        return f"[No processed index — run preprocess_papers.py first]"
+        return "[No processed index — run py -3 -m paper_tools.preprocess_papers first]"
 
     papers = json.loads(index_path.read_text(encoding="utf-8"))
     paper = next(

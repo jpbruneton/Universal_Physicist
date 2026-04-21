@@ -11,7 +11,7 @@ Two entry points:
 Both functions:
   - Pull relevant papers from the processed index via paper_selector
   - Build real \\bibitem entries from the library metadata
-  - Attempt PDF compilation via compile_latex
+  - Attempt PDF compilation via latex_tools.compile_latex
 """
 
 import os
@@ -25,9 +25,10 @@ from .paper_selector import select_relevant_papers, _load_processed_index
 from config import OUTPUT_DIR
 
 try:
-    import compile_latex as _compiler
-    COMPILER_AVAILABLE = _compiler.is_available()
+    from latex_tools.compile_latex import compile as _compile_tex, is_available as _compiler_is_available
+    COMPILER_AVAILABLE = _compiler_is_available()
 except ImportError:
+    _compile_tex = None
     COMPILER_AVAILABLE = False
 
 
@@ -220,9 +221,8 @@ def _write_and_compile(tex_content: str, tex_path: str, label: str) -> dict:
 
     result = {"tex": tex_path, "pdf": None, "compiled": False, "log": ""}
 
-    if COMPILER_AVAILABLE:
-        import compile_latex as _compiler
-        success, pdf_path, log = _compiler.compile(tex_path)
+    if COMPILER_AVAILABLE and _compile_tex is not None:
+        success, pdf_path, log = _compile_tex(tex_path)
         result.update({"pdf": pdf_path, "compiled": success, "log": log[-2000:]})
         status = "PDF generated" if success else "compilation failed"
         print(f"    {label}: {status}")
