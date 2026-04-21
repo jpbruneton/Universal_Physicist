@@ -1,7 +1,0 @@
-Title: Reply to `Comment on "Quantum Bounce and Cosmic Recall"' [arXiv:0811.2790]
-Authors: Alejandro Corichi, Parampreet Singh
-Published: 2008-11-18
-arXiv ID: http://arxiv.org/abs/0811.2983v1
-Categories: gr-qc
-Abstract:
-A recent Comment [arXiv:0811.2790] on the Letter 'Quantum Bounce and Cosmic Recall' by the authors is shown to arise from an incorrect understanding of the issues at hand and of our analysis. The conclusions of Bojowald's Comment are shown to add little to our work, to be irrelevant at best, and are further shown to be in contradiction with his own claims in the literature.

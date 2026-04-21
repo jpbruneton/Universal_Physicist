@@ -1,7 +1,0 @@
-Title: Counting surface states in the loop quantum gravity
-Authors: Kirill V. Krasnov
-Published: 1996-03-15
-arXiv ID: http://arxiv.org/abs/gr-qc/9603025v3
-Categories: gr-qc
-Abstract:
-We adopt the point of view that (Riemannian) classical and (loop-based) quantum descriptions of geometry are macro- and micro-descriptions in the usual statistical mechanical sense. This gives rise to the notion of geometrical entropy, which is defined as the logarithm of the number of different quantum states which correspond to one and the same classical geometry configuration (macro-state). We apply this idea to gravitational degrees of freedom induced on an arbitrarily chosen in space 2-dimensional surface. Considering an `ensemble' of particularly simple quantum states, we show that the geometrical entropy $S(A)$ corresponding to a macro-state specified by a total area $A$ of the surface is proportional to the area $S(A)=αA$, with $α$ being approximately equal to $1/16πl_p^2$. The result holds both for case of open and closed surfaces. We discuss briefly physical motivations for our choice of the ensemble of quantum states.

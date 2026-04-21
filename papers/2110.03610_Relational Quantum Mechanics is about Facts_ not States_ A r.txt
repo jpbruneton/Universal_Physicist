@@ -1,7 +1,0 @@
-Title: Relational Quantum Mechanics is about Facts, not States: A reply to Pienaar and Brukner
-Authors: Andrea Di Biagio, Carlo Rovelli
-Published: 2021-10-07
-arXiv ID: http://arxiv.org/abs/2110.03610v1
-Categories: quant-ph
-Abstract:
-In recent works, Časlav Brukner and Jacques Pienaar have raised interesting objections to the relational interpretation of quantum mechanics. We answer these objections in detail and show that, far from questioning the viability of the interpretation, they sharpen and clarify it.

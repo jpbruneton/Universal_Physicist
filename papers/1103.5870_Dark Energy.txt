@@ -1,7 +1,0 @@
-Title: Dark Energy
-Authors: Miao Li, Xiao-Dong Li, Shuang Wang, Yi Wang
-Published: 2011-03-30
-arXiv ID: http://arxiv.org/abs/1103.5870v6
-Categories: astro-ph.CO, gr-qc, hep-th
-Abstract:
-We review the problem of dark energy, including a survey of theoretical models and some aspects of numerical studies.

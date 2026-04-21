@@ -1,7 +1,0 @@
-Title: Loop Quantum Cosmology: A brief review
-Authors: Ivan Agullo, Parampreet Singh
-Published: 2016-12-05
-arXiv ID: http://arxiv.org/abs/1612.01236v1
-Categories: gr-qc
-Abstract:
-In the last decade, progress on quantization of homogeneous cosmological spacetimes using techniques of loop quantum gravity has led to insights on various fundamental questions and has opened new avenues to explore Planck scale physics. These include the problem of singularities and their possible generic resolution, constructing viable non-singular models of the very early universe, and bridging quantum gravity with cosmological observations. These results, which emerge from an interplay of sophisticated analytical and numerical techniques, has also led to valuable hints on loop quantization of black hole and inhomogeneous spacetimes. In this review, we provide a summary of this progress while focusing on concrete examples of the quantization procedure and phenomenology of cosmological perturbations.

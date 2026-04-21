@@ -1,7 +1,0 @@
-Title: Aspects of asymptotic safety for quantum gravity
-Authors: Kevin G. Falls, Daniel F. Litim, Jan Schröder
-Published: 2018-10-19
-arXiv ID: http://arxiv.org/abs/1810.08550v2
-Categories: gr-qc, hep-th
-Abstract:
-We study fixed points of quantum gravity with renormalisation group methods, and a procedure to remove convergence-limiting poles from the flow. The setup is tested within the $f(R)$ approximation for gravity by solving exact recursive relations up to order $R^{70}$ in the Ricci scalar, combined with resummations and numerical integration. Results include fixed points, scaling exponents, gap in the eigenvalue spectrum, dimensionality of the UV critical surface, fingerprints for weak coupling, and quantum equations of motion. Our findings strengthen the view that ``most of quantum gravity'' is rather weakly coupled. Another novelty are a pair of de Sitter solutions for quantum cosmology, whose occurrence is traced back to the removal of poles. We also address slight disparities of results in the literature, and give bounds on the number of fundamentally free parameters of quantum gravity.

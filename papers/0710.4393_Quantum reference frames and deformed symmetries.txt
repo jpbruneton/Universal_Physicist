@@ -1,7 +1,0 @@
-Title: Quantum reference frames and deformed symmetries
-Authors: Florian Girelli, David Poulin
-Published: 2007-10-24
-arXiv ID: http://arxiv.org/abs/0710.4393v1
-Categories: gr-qc, quant-ph
-Abstract:
-In the context of constrained quantum mechanics, reference systems are used to construct relational observables that are invariant under the action of the symmetry group. Upon measurement of a relational observable, the reference system undergoes an unavoidable measurement "back-action" that modifies its properties. In a quantum-gravitational setting, it has been argued that such a back-action may produce effects that are described at an effective level as a form of deformed (or doubly) special relativity. We examine this possibility using a simple constrained system that has been extensively studied in the context of quantum information. While our conclusions support the idea of a symmetry deformation, they also reveal a host of other effects that may be relevant to the context of quantum gravity, and could potentially conceal the symmetry deformation.

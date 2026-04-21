@@ -1,7 +1,0 @@
-Title: Graviton propagator in loop quantum gravity
-Authors: Eugenio Bianchi, Leonardo Modesto, Carlo Rovelli, Simone Speziale
-Published: 2006-04-10
-arXiv ID: http://arxiv.org/abs/gr-qc/0604044v2
-Categories: gr-qc, hep-ph, hep-th
-Abstract:
-We compute some components of the graviton propagator in loop quantum gravity, using the spinfoam formalism, up to some second order terms in the expansion parameter.

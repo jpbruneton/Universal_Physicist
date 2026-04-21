@@ -1,7 +1,0 @@
-Title: Lost in Translation: Topological Singularities in Group Field Theory
-Authors: Razvan Gurau
-Published: 2010-06-03
-arXiv ID: http://arxiv.org/abs/1006.0714v1
-Categories: hep-th, gr-qc, math.GT
-Abstract:
-Random matrix models generalize to Group Field Theories (GFT) whose Feynman graphs are dual to gluings of higher dimensional simplices. It is generally assumed that GFT graphs are always dual to pseudo manifolds. In this paper we prove that already in dimension three (and in all higher dimensions), this is not true due to subtle differences between simplicial complexes and gluings dual to GFT graphs. We prove however that, fortunately, the recently introduced "colored" GFT models [1] do not suffer from this problem and only generate graphs dual to pseudo manifolds in any dimension.

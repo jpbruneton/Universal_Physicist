@@ -1,7 +1,0 @@
-Title: Linear Confinement and AdS/QCD
-Authors: Andreas Karch, Emanuel Katz, Dam T. Son, Mikhail A. Stephanov
-Published: 2006-02-26
-arXiv ID: http://arxiv.org/abs/hep-ph/0602229v2
-Categories: hep-ph, hep-th
-Abstract:
-In a theory with linear confinement, such as QCD, the masses squared m^2 of mesons with high spin S or high radial excitation number n are expected, from semiclassical arguments, to grow linearly with S and n. We show that this behavior can be reproduced within a putative 5-dimensional theory holographically dual to QCD (AdS/QCD). With the assumption that such a dual theory exists and describes highly excited mesons as well, we show that asymptotically linear m^2 spectrum translates into a strong constraint on the INFRARED behavior of that theory. In the simplest model which obeys such a constraint we find m^2 ~ (n+S).

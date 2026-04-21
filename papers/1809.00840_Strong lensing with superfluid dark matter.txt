@@ -1,7 +1,0 @@
-Title: Strong lensing with superfluid dark matter
-Authors: Sabine Hossenfelder, Tobias Mistele
-Published: 2018-09-04
-arXiv ID: http://arxiv.org/abs/1809.00840v3
-Categories: astro-ph.GA, gr-qc
-Abstract:
-In superfluid dark matter the exchange of phonons can create an additional force that has an effect similar to Modified Newtonian Dynamics (MOND). To test whether this hypothesis is compatible with observation, we study a set of strong gravitational lenses from the SLACS survey and check whether the measurements can be explained by a superfluid in the central region of galaxies. Concretely, we try to simultaneously fit each lens's Einstein radius and velocity dispersion with a spherically symmetric density profile of a fluid that has both a normal and a superfluid component. We demonstrate that we can successfully fit all galaxies except one, and that the fits have reasonable stellar mass-to-light-ratios. We conclude that strong gravitational lensing does not pose a challenge for the idea that superfluid dark matter mimics modified gravity.

@@ -1,7 +1,0 @@
-Title: Loop quantum gravity effects on inflation and the CMB
-Authors: Shinji Tsujikawa, Parampreet Singh, Roy Maartens
-Published: 2003-11-02
-arXiv ID: http://arxiv.org/abs/astro-ph/0311015v3
-Categories: astro-ph, gr-qc, hep-ph, hep-th
-Abstract:
-In loop quantum cosmology, the universe avoids a big bang singularity and undergoes an early and short super-inflation phase. During super-inflation, non-perturbative quantum corrections to the dynamics drive an inflaton field up its potential hill, thus setting the initial conditions for standard inflation. We show that this effect can raise the inflaton high enough to achieve sufficient e-foldings in the standard inflation era. We analyze the cosmological perturbations generated when slow-roll is violated after super-inflation, and show that loop quantum effects can in principle leave an indirect signature on the largest scales in the CMB, with some loss of power and running of the spectral index.

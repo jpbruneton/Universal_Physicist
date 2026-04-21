@@ -1,7 +1,0 @@
-Title: Renormalisation of φ^4-theory on noncommutative R^4 to all orders
-Authors: Harald Grosse, Raimar Wulkenhaar
-Published: 2004-03-23
-arXiv ID: http://arxiv.org/abs/hep-th/0403232v1
-Categories: hep-th
-Abstract:
-We present the main ideas and techniques of the proof that the duality-covariant four-dimensional noncommutative φ^4-model is renormalisable to all orders. This includes the reformulation as a dynamical matrix model, the solution of the free theory by orthogonal polynomials as well as the renormalisation by flow equations involving power-counting theorems for ribbon graphs drawn on Riemann surfaces.

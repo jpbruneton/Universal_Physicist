@@ -1,7 +1,0 @@
-Title: Machian Origin of the Entropic Gravity and Cosmic Acceleration
-Authors: Merab Gogberashvili, Igor Kanatchikov
-Published: 2010-12-29
-arXiv ID: http://arxiv.org/abs/1012.5914v2
-Categories: physics.gen-ph, gr-qc, hep-th
-Abstract:
-We discuss the emergence of relativistic effects in the Machian universe with a global preferred frame and use thermodynamic considerations to clarify the origin of gravity as an entropic force and the origin of dark energy/cosmic acceleration as related to the Hawking-Unruh temperature at the universe's horizon.

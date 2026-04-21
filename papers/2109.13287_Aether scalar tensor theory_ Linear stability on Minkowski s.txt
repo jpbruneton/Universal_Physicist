@@ -1,7 +1,0 @@
-Title: Aether scalar tensor theory: Linear stability on Minkowski space
-Authors: Constantinos Skordis, Tom Zlosnik
-Published: 2021-09-27
-arXiv ID: http://arxiv.org/abs/2109.13287v2
-Categories: gr-qc, astro-ph.CO, hep-th
-Abstract:
-We have recently proposed a simple relativistic theory which reduces to modified Newtonian dynamics for the weak-field quasistatic situations applied to galaxies, and to cosmological behavior as in the $Λ$CDM model, yielding a realistic cosmology in line with observations. A key requirement of any such model is that Minkowski space is stable against linear perturbations. We expand the theory action to second order in perturbations on a Minkowski background and show that it leads to healthy dispersion relations involving propagating massive modes in the vector and the scalar sector. We use Hamiltonian methods to eliminate constraints present, demonstrate that the massive modes have Hamiltonian bounded from below and show that a nonpropagating mode with a linear time dependence may have unbounded Hamiltonian for wave numbers $k< μ$ and bounded otherwise. The scale $μ$ is estimated to be $\lesssim \mathrm{Mpc}^{-1}$ so that the low momenta instability may only play a role on cosmological scales.

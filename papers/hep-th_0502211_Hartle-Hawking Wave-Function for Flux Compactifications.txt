@@ -1,7 +1,0 @@
-Title: Hartle-Hawking Wave-Function for Flux Compactifications
-Authors: Hirosi Ooguri, Cumrun Vafa, Erik Verlinde
-Published: 2005-02-23
-arXiv ID: http://arxiv.org/abs/hep-th/0502211v2
-Categories: hep-th, astro-ph, gr-qc
-Abstract:
-We argue that the topological string partition function, which has been known to correspond to a wave-function, can be interpreted as an exact ``wave-function of the universe'' in the mini-superspace sector of physical superstring theory. This realizes the idea of Hartle and Hawking in the context of string theory, including all loop quantum corrections. The mini-superspace approximation is justified as an exact description of BPS quantities. Moreover this proposal leads to a conceptual explanation of the recent observation that the black hole entropy is the square of the topological string wave-function. This wave-function can be interpreted in the context of flux compactification of all spatial dimensions as providing a physical probability distribution on the moduli space of string compactification. Euclidean time is realized holographically in this setup.

@@ -1,7 +1,0 @@
-Title: Lovelock gravity from entropic force
-Authors: A. Sheykhi, H. Moradpour, N. Riazi
-Published: 2011-09-11
-arXiv ID: http://arxiv.org/abs/1109.3631v4
-Categories: physics.gen-ph
-Abstract:
-In this paper, we first generalize the formulation of entropic gravity to (n+1)-dimensional spacetime. Then, we propose an entropic origin for Gauss-Bonnet gravity and more general Lovelock gravity in arbitrary dimensions. As a result, we are able to derive Newton's law of gravitation as well as the corresponding Friedmann equations in these gravity theories. This procedure naturally leads to a derivation of the higher dimensional gravitational coupling constant of Friedmann/Einstein equation which is in complete agreement with the results obtained by comparing the weak field limit of Einstein equation with Poisson equation in higher dimensions. Our study shows that the approach presented here is powerful enough to derive the gravitational field equations in any gravity theory. PACS: 04.20.Cv, 04.50.-h, 04.70.Dy.

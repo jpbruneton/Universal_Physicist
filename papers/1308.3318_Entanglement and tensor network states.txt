@@ -1,7 +1,0 @@
-Title: Entanglement and tensor network states
-Authors: J. Eisert
-Published: 2013-08-15
-arXiv ID: http://arxiv.org/abs/1308.3318v2
-Categories: quant-ph, cond-mat.str-el
-Abstract:
-These lecture notes provide a brief overview of methods of entanglement theory applied to the study of quantum many-body systems, as well as of tensor network states capturing quantum states naturally appearing in condensed-matter systems.

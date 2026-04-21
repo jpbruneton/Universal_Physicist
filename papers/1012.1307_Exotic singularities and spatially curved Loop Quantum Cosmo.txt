@@ -1,7 +1,0 @@
-Title: Exotic singularities and spatially curved Loop Quantum Cosmology
-Authors: Parampreet Singh, Francesca Vidotto
-Published: 2010-12-06
-arXiv ID: http://arxiv.org/abs/1012.1307v1
-Categories: gr-qc, astro-ph.CO
-Abstract:
-We investigate the occurrence of various exotic spacelike singularities in the past and the future evolution of $k = \pm 1$ Friedmann-Robertson-Walker model and loop quantum cosmology using a sufficiently general phenomenological model for the equation of state. We highlight the non-trivial role played by the intrinsic curvature for these singularities and the new physics which emerges at the Planck scale. We show that quantum gravity effects generically resolve all strong curvature singularities including big rip and big freeze singularities. The weak singularities, which include sudden and big brake singularities are ignored by quantum gravity when spatial curvature is negative, as was previously found for the spatially flat model. Interestingly, for the spatially closed model there exist cases where weak singularities may be resolved when they occur in the past evolution. The spatially closed model exhibits another novel feature. For a particular class of equation of state, this model also exhibits an additional physical branch in loop quantum cosmology, a baby universe separated from the parent branch. Our analysis generalizes previous results obtained on the resolution of strong curvature singularities in flat models to isotropic spacetimes with non-zero spatial curvature.

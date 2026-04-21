@@ -1,7 +1,0 @@
-Title: A model with no firewall
-Authors: Samir D. Mathur
-Published: 2015-06-14
-arXiv ID: http://arxiv.org/abs/1506.04342v1
-Categories: hep-th, gr-qc
-Abstract:
-We construct a model which illustrates the conjecture of fuzzball complementarity. In the fuzzball paradigm, the black hole microstates have no interior, and radiate unitarily from their surface through quanta of energy $E\sim T$. But quanta with $E\gg T$ impinging on the fuzzball create large collective excitations of the fuzzball surface. The dynamics of such excitations must be studied as an evolution in superspace, the space of all fuzzball solution $|F_i\rangle$. The states in this superspace are arranged in a hierarchy of `complexity'. We argue that evolution towards higher complexity maps, through a duality analogous to AdS/CFT, to infall inside the horizon of the traditional hole. We explain how the large degeneracy of fuzzball states leads to a breakdown of the principle of equivalence at the threshold of horizon formation. We recall that the firewall argument did not invoke the limit $E\gg T$ when considering a complementary picture; on the contrary it focused on the dynamics of the $E\sim T$ modes which contribute to Hawking radiation. This loophole allows the dual description conjectured in fuzzball complementarity.

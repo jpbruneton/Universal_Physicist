@@ -1,7 +1,0 @@
-Title: GUP parameter from quantum corrections to the Newtonian potential
-Authors: Fabio Scardigli, Gaetano Lambiase, Elias Vagenas
-Published: 2016-11-04
-arXiv ID: http://arxiv.org/abs/1611.01469v2
-Categories: hep-th, gr-qc, quant-ph
-Abstract:
-We propose a technique to compute the deformation parameter of the generalized uncertainty principle by using the leading quantum corrections to the Newtonian potential. We just assume General Relativity as theory of Gravitation, and the thermal nature of the GUP corrections to the Hawking spectrum. With these minimal assumptions our calculation gives, to first order, a specific numerical result. The physical meaning of this value is discussed, and compared with the previously obtained bounds on the generalized uncertainty principle deformation parameter.

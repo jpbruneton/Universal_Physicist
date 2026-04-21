@@ -1,7 +1,0 @@
-Title: Comments on: "Echoes from the abyss: Evidence for Planck-scale structure at black hole horizons"
-Authors: Gregory Ashton, Ofek Birnholtz, Miriam Cabero, Collin Capano, Thomas Dent, Badri Krishnan, Grant David Meadors, Alex B. Nielsen, Alex Nitz, Julian Westerweck
-Published: 2016-12-16
-arXiv ID: http://arxiv.org/abs/1612.05625v1
-Categories: gr-qc, astro-ph.IM
-Abstract:
-Recently, Abedi, Dykaar and Afshordi claimed evidence for a repeating damped echo signal following the binary black hole merger gravitational-wave events recorded in the first observational period of the Advanced LIGO interferometers. We discuss the methods of data analysis and significance estimation leading to this claim, and identify several important shortcomings. We conclude that their analysis does not provide significant observational evidence for the existence of Planck-scale structure at black hole horizons, and suggest renewed analysis correcting for these shortcomings.

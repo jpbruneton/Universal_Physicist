@@ -1,7 +1,0 @@
-Title: De Sitter Musings
-Authors: Dionysios Anninos
-Published: 2012-05-17
-arXiv ID: http://arxiv.org/abs/1205.3855v3
-Categories: hep-th, gr-qc
-Abstract:
-We discuss some of the issues that arise when considering the physics of asymptotically de Sitter spacetimes, and attempts to address them. Our development begins at the classical level, where several initial value problems are discussed, and ends with several proposals for holography in asymptotically de Sitter spacetimes. Throughout the paper we give a review of some basic notions such as the geometry of the Schwarzschild-de Sitter black hole, the Nariai limit, and quantum field theory in a fixed de Sitter background. We also briefly discuss some semiclassical aspects such as the nucleation of giant black holes and the Hartle-Hawking wavefunctional. We end by giving an overview of some open questions. An emphasis is placed on the differences between a static patch observer confined to live in a thermal cavity and the metaobserver who has access to a finite region of the future boundary.

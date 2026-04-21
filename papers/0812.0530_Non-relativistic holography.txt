@@ -1,7 +1,0 @@
-Title: Non-relativistic holography
-Authors: Marika Taylor
-Published: 2008-12-02
-arXiv ID: http://arxiv.org/abs/0812.0530v1
-Categories: hep-th
-Abstract:
-We consider holography for d-dimensional scale invariant but non-Lorentz invariant field theories, which do not admit the full Schrodinger symmetry group. We find new realizations of the corresponding (d+1)-dimensional gravity duals, engineered with a variety of matter Lagrangians, and their finite temperature generalizations. The thermodynamic properties of the finite temperature backgrounds are precisely those expected for anisotropic, scale invariant field theories. The brane and string theory realizations of such backgrounds are briefly discussed, along with their holographic interpretation in terms of marginal but non Lorentz invariant deformations of conformal field theories. We initiate discussion of holographic renormalization in these backgrounds, and note that such systematic renormalization is necessary to obtain the correct behavior of correlation functions.

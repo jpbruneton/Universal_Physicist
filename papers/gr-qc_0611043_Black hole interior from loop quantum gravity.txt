@@ -1,7 +1,0 @@
-Title: Black hole interior from loop quantum gravity
-Authors: Leonardo Modesto
-Published: 2006-11-06
-arXiv ID: http://arxiv.org/abs/gr-qc/0611043v2
-Categories: gr-qc, hep-th
-Abstract:
-In this paper we calculate modifications to the Schwarzschild solution by using a semiclassical analysis of loop quantum black hole. We obtain a metric inside the event horizon that coincides with the Schwarzschild solution near the horizon but that is substantially different at the Planck scale. In particular we obtain a bounce of the two-sphere for a minimum value of the radius and that it is possible to have another event horizon close to the r=0 point.

@@ -1,7 +1,0 @@
-Title: Introduction to causal sets: an alternate view of spacetime structure
-Authors: David D. Reid
-Published: 1999-09-22
-arXiv ID: http://arxiv.org/abs/gr-qc/9909075v1
-Categories: gr-qc, physics.pop-ph
-Abstract:
-This paper provides a thorough introduction to the causal set hypothesis aimed at students, and other interested persons, with some knowledge of general relativity and nonrelativistic quantum mechanics. I elucidate the arguments for why the causal set structure might be the appropriate structure for a theory of quantum gravity. The logical and formal development of a causal set theory as well as a few illuminating examples are also provided.

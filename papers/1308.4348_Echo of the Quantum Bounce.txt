@@ -1,7 +1,0 @@
-Title: Echo of the Quantum Bounce
-Authors: Luis J. Garay, Mercedes Martin-Benito, Eduardo Martin-Martinez
-Published: 2013-08-20
-arXiv ID: http://arxiv.org/abs/1308.4348v2
-Categories: gr-qc, quant-ph
-Abstract:
-We identify a signature of quantum gravitational effects that survives from the early universe to the current era: Fluctuations of quantum fields as seen by comoving observers are significantly influenced by the history of the early universe. In particular we show how the existence (or not) of a quantum bounce leaves a trace in the background quantum noise that is not damped and would be non-negligible even nowadays. Furthermore, we estimate an upper bound for the typical energy and length scales where quantum effects are relevant. We discuss how this signature might be observed and therefore used to build falsifiability tests of quantum gravity theories.

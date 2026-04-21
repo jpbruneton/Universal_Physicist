@@ -1,7 +1,0 @@
-Title: Tensor Network Renormalization
-Authors: Glen Evenbly, Guifre Vidal
-Published: 2014-12-01
-arXiv ID: http://arxiv.org/abs/1412.0732v3
-Categories: cond-mat.str-el, quant-ph
-Abstract:
-We introduce a coarse-graining transformation for tensor networks that can be applied to study both the partition function of a classical statistical system and the Euclidean path integral of a quantum many-body system. The scheme is based upon the insertion of optimized unitary and isometric tensors (disentanglers and isometries) into the tensor network and has, as its key feature, the ability to remove short-range entanglement/correlations at each coarse-graining step. Removal of short-range entanglement results in scale invariance being explicitly recovered at criticality. In this way we obtain a proper renormalization group flow (in the space of tensors), one that in particular (i) is computationally sustainable, even for critical systems, and (ii) has the correct structure of fixed points, both at criticality and away from it. We demonstrate the proposed approach in the context of the 2D classical Ising model.

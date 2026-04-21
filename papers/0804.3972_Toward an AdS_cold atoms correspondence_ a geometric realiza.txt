@@ -1,7 +1,0 @@
-Title: Toward an AdS/cold atoms correspondence: a geometric realization of the Schroedinger symmetry
-Authors: D. T. Son
-Published: 2008-04-24
-arXiv ID: http://arxiv.org/abs/0804.3972v2
-Categories: hep-th, cond-mat.other, nucl-th
-Abstract:
-We discuss a realization of the nonrelativistic conformal group (the Schroedinger group) as the symmetry of a spacetime. We write down a toy model in which this geometry is a solution to field equations. We discuss various issues related to nonrelativistic holography. In particular, we argue that free fermions and fermions at unitarity correspond to the same bulk theory with different choices for the near-boundary asymptotics corresponding to the source and the expectation value of one operator. We describe an extended version of nonrelativistic general coordinate invariance which is realized holographically.

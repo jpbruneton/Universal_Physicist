@@ -1,7 +1,0 @@
-Title: Cosmological implications of interacting Group Field Theory models: cyclic Universe and accelerated expansion
-Authors: Marco de Cesare, Andreas G. A. Pithis, Mairi Sakellariadou
-Published: 2016-06-01
-arXiv ID: http://arxiv.org/abs/1606.00352v2
-Categories: gr-qc
-Abstract:
-We study the cosmological implications of interactions between spacetime quanta in the Group Field Theory (GFT) approach to Quantum Gravity from a phenomenological perspective. Our work represents a first step towards understanding Early Universe Cosmology by studying the dynamics of the emergent continuum spacetime, as obtained from a fundamentally discrete microscopic theory. In particular, we show how GFT interactions lead to a recollapse of the Universe while preserving the bounce replacing the initial singularity, which has already been shown to occur in the free case. It is remarkable that cyclic cosmologies are thus obtained in this framework without any a priori assumption on the geometry of spatial sections of the emergent spacetime. Furthermore, we show how interactions make it possible to have an early epoch of accelerated expansion, which can be made to last for an arbitrarily large number of e-folds, without the need to introduce an ad hoc potential for the scalar field.

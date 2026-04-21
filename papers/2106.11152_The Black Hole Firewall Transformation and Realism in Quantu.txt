@@ -1,9 +1,0 @@
-Title: The Black Hole Firewall Transformation and Realism in Quantum Mechanics
-Authors: Gerard t Hooft
-Published: 2021-06-21
-arXiv ID: http://arxiv.org/abs/2106.11152v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-A procedure to derive a unitary evolution law for a quantised black hole, has been proposed by the author. The proposal requires that one starts off with the entire Penrose diagram for the eternal black hole as the background metric, after which a procedure was proposed to identify the two asymptotic domains of this metric, such that they both refer to the same outside world. In this paper we focus on the need to include time reversal in applying this identification. This forces us to postulate the existence of an 'anti-vacuum' state in our world, which is the state where energy density reaches a maximal value. We find that this squares well with the deterministic interpretation of quantum mechanics, according to which quantum Hilbert space is to be regarded as the 'vector representation' of a real world.
-  One has to understand how to deal with gravity in such considerations. The non-perturbative component of the gravitational force seems to involve cut-and-paste procedures as dynamical features of space and time, of which the re-arrangement of space-time into two connected domains in the Penrose diagram is a primary example. Thus we attempt to obtain new insights in the nature of particle interactions at the Planck scale, as well as quantum mechanics itself.
-  In this newer version of the paper an important correction is made concerning the antipodal transformation: applying more insight in the situation, as explained in newer publications by the author, we now regard region II of the Penrose diagram as an exact quantum copy of region I , still with time being reversed, but interchanging a region of spacetime with its antipodes is now seen to be incorrect.

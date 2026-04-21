@@ -1,7 +1,0 @@
-Title: Entangled Particles Tunneling From a Schwarzschild Black Hole immersed in an Electromagnetic Universe with GUP
-Authors: A. Övgün
-Published: 2015-08-17
-arXiv ID: http://arxiv.org/abs/1508.04100v2
-Categories: gr-qc, hep-th
-Abstract:
-Quantum gravity has exciting peculiarities on the Planck scale.The effect of generalized uncertainty principle (GUP) to the entangled scalar/fermion particles' tunneling from a Schwarzschild black hole immersed in an electromagnetic Universe is investigated by the help of semi-classical tunneling method. The quantum corrected Hawking temperature of this black hole with an external parameter "a" modifies the Hawking temperature for the entangled particles.

@@ -1,7 +1,0 @@
-Title: Group Field Theory: An overview
-Authors: Laurent Freidel
-Published: 2005-05-02
-arXiv ID: http://arxiv.org/abs/hep-th/0505016v1
-Categories: hep-th, gr-qc
-Abstract:
-We give a brief overview of the properties of a higher dimensional generalization of matrix model which arises naturally in the context of a background independent approach to quantum gravity, the so called group field theory. We show that this theory leads to a natural proposal for the physical scalar product of quantum gravity. We also show in which sense this theory provides a third quantization point of view on quantum gravity.

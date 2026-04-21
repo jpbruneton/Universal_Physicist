@@ -1,7 +1,0 @@
-Title: Observations of Hawking radiation: the Page curve and baby universes
-Authors: Donald Marolf, Henry Maxfield
-Published: 2020-10-13
-arXiv ID: http://arxiv.org/abs/2010.06602v1
-Categories: hep-th, gr-qc
-Abstract:
-We reformulate recent insights into black hole information in a manner emphasizing operationally-defined notions of entropy, Lorentz-signature descriptions, and asymptotically flat spacetimes. With the help of replica wormholes, we find that experiments of asymptotic observers are consistent with black holes as unitary quantum systems, with density of states given by the Bekenstein-Hawking formula. However, this comes at the cost of superselection sectors associated with the state of baby universes. Spacetimes studied by Polchinski and Strominger in 1994 provide a simple illustration of the associated concepts and techniques, and we argue them to be a natural late-time extrapolation of replica wormholes. The work aims to be self-contained and, in particular, to be accessible to readers who have not yet mastered earlier formulations of the ideas above.

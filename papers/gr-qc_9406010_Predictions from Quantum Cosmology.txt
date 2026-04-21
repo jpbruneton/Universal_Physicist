@@ -1,7 +1,0 @@
-Title: Predictions from Quantum Cosmology
-Authors: Alexander Vilenkin
-Published: 1994-06-06
-arXiv ID: http://arxiv.org/abs/gr-qc/9406010v2
-Categories: gr-qc, astro-ph, hep-th
-Abstract:
-The world view suggested by quantum cosmology is that inflating universes with all possible values of the fundamental constants are spontaneously created out of nothing. I explore the consequences of the assumption that we are a `typical' civilization living in this metauniverse. The conclusions include inflation with an extremely flat potential and low thermalization temperature, structure formation by topological defects, and an appreciable cosmological constant.

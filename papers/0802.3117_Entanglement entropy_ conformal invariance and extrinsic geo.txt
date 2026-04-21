@@ -1,7 +1,0 @@
-Title: Entanglement entropy, conformal invariance and extrinsic geometry
-Authors: Sergey N. Solodukhin
-Published: 2008-02-21
-arXiv ID: http://arxiv.org/abs/0802.3117v4
-Categories: hep-th, cond-mat.stat-mech, gr-qc, math.DG, quant-ph
-Abstract:
-We use the conformal invariance and the holographic correspondence to fully specify the dependence of entanglement entropy on the extrinsic geometry of the 2d surface $Σ$ that separates two subsystems of quantum strongly coupled ${\mathcal{N}}=4$ SU(N) superconformal gauge theory. We extend this result and calculate entanglement entropy of a generic 4d conformal field theory. As a byproduct, we obtain a closed-form expression for the entanglement entropy in flat space-time when $Σ$ is sphere $S_2$ and when $Σ$ is two-dimensional cylinder. The contribution of the type A conformal anomaly to entanglement entropy is always determined by topology of surface $Σ$ while the dependence of the entropy on the extrinsic geometry of $Σ$ is due to the type B conformal anomaly.

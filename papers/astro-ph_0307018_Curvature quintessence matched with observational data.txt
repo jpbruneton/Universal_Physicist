@@ -1,7 +1,0 @@
-Title: Curvature quintessence matched with observational data
-Authors: S. Capozziello, V. F. Cardone, S. Carloni, A. Troisi
-Published: 2003-07-01
-arXiv ID: http://arxiv.org/abs/astro-ph/0307018v1
-Categories: astro-ph
-Abstract:
-Quintessence issues can be achieved by taking into account higher order curvature invariants into the effective action of gravitational field. Such an approach is naturally related to fundamental theories of quantum gravity which predict higher order terms in loop expansion of quantum fields in curved space-times. In this framework, we obtain a class of cosmological solutions which are fitted against cosmological data. We reproduce encouraging results able to fit high redshift supernovae and WMAP observations. The age of the universe and other cosmological parameters are discussed in this context.

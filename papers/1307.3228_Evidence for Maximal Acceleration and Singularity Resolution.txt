@@ -1,7 +1,0 @@
-Title: Evidence for Maximal Acceleration and Singularity Resolution in Covariant Loop Quantum Gravity
-Authors: Carlo Rovelli, Francesca Vidotto
-Published: 2013-07-11
-arXiv ID: http://arxiv.org/abs/1307.3228v2
-Categories: gr-qc, hep-th
-Abstract:
-A simple argument indicates that covariant loop gravity (spinfoam theory) predicts a maximal acceleration, and hence forbids the development of curvature singularities. This supports the results obtained for cosmology and black holes using canonical methods.

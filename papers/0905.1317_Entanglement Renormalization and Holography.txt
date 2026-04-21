@@ -1,7 +1,0 @@
-Title: Entanglement Renormalization and Holography
-Authors: Brian Swingle
-Published: 2009-05-08
-arXiv ID: http://arxiv.org/abs/0905.1317v1
-Categories: cond-mat.str-el, hep-th
-Abstract:
-I show how recent progress in real space renormalization group methods can be used to define a generalized notion of holography inspired by holographic dualities in quantum gravity. The generalization is based upon organizing information in a quantum state in terms of scale and defining a higher dimensional geometry from this structure. While states with a finite correlation length typically give simple geometries, the state at a quantum critical point gives a discrete version of anti de Sitter space. Some finite temperature quantum states include black hole-like objects. The gross features of equal time correlation functions are also reproduced in this geometric framework. The relationship between this framework and better understood versions of holography is discussed.

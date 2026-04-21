@@ -1,7 +1,0 @@
-Title: The Interpretation of Quantum Cosmology and the Problem of Time
-Authors: J. J. Halliwell
-Published: 2002-08-07
-arXiv ID: http://arxiv.org/abs/gr-qc/0208018v2
-Categories: gr-qc
-Abstract:
-The development of quantum cosmology, in which Stephen Hawking played a crucial role, has frequently encountered substantial conceptual and technical difficulties related to the problem of time in quantum gravity and to general issues concerning the foundations of quantum theory. In this contribution to Stephen's 60th Birthday Conference, I describe some recent work in which the decoherent histories approach to quantum theory is used to quantize simple cosmological models and perhaps shed some light on some of these difficulties.

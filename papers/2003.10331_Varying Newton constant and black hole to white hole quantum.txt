@@ -1,7 +1,0 @@
-Title: Varying Newton constant and black hole to white hole quantum tunneling
-Authors: G. E. Volovik
-Published: 2020-03-23
-arXiv ID: http://arxiv.org/abs/2003.10331v9
-Categories: gr-qc, cond-mat.other, hep-ph
-Abstract:
-The thermodynamics of black holes is discussed for the case, when the Newton constant $G$ is not a constant, but is the thermodynamic variable. This gives for the first law of the Schwarzschild black hole thermodynamics: $dS_\text{BH}= -AdK + \frac{dM}{T_\text{BH}}$, where the gravitational coupling $K=1/4G$, $M$ is the black hole mass, $A$ is the area of horizon, and $T_\text{BH}$ is Hawking temperature. From this first law it follows that the dimensionless quantity $M^2/K$ is the adiabatic invariant, which in principle can be quantized if to follow the Bekenstein conjecture. From the Euclidean action for the black hole it follows that $K$ and $A$ serve as dynamically conjugate variables. This allows us to calculate the quantum tunneling from the black hole to the white hole, and determine the temperature and entropy of the white hole.

@@ -1,7 +1,0 @@
-Title: Quantum gravity, minimum length, and holography
-Authors: Tejinder P. Singh
-Published: 2019-10-14
-arXiv ID: http://arxiv.org/abs/1910.06350v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-The Karolyhazy uncertainty relation is the statement that if a device is used to measure a length $l$, there will be a minimum uncertainty $δl$ in the measurement, given by $(δl)^3 \sim L_P^2\; l$. This is a consequence of combining the principles of quantum mechanics and general relativity. In this note we show how this relation arises in our approach to quantum gravity, in a bottom-up fashion, from the matrix dynamics of atoms of space-time-matter. We use this relation to define a space-time-matter foam at the Planck scale, and to argue that our theory is holographic. By coarse graining over time scales larger than Planck time, one obtains the laws of quantum gravity. Quantum gravity is not a Planck scale phenomenon; rather it comes into play whenever no classical space-time background is available to describe a quantum system. Space-time and classical general relativity arise from spontaneous localisation in a highly entangled quantum gravitational system. The Karolyhazy relation continues to hold in the emergent theory. An experimental confirmation of this relation will constitute a definitive test of the quantum nature of gravity.

@@ -1,7 +1,0 @@
-Title: Genericness of Big Bounce in isotropic loop quantum cosmology
-Authors: Ghanashyam Date, Golam Mortuza Hossain
-Published: 2004-07-19
-arXiv ID: http://arxiv.org/abs/gr-qc/0407074v4
-Categories: gr-qc, astro-ph, hep-th
-Abstract:
-The absence of isotropic singularity in loop quantum cosmology can be understood in an effective classical description as the universe exhibiting a Big Bounce. We show that with scalar matter field, the big bounce is generic in the sense that it is independent of quantization ambiguities and details of scalar field dynamics. The volume of the universe at the bounce point is parametrized by a single parameter. It provides a minimum length scale which serves as a cut-off for computations of density perturbations thereby influencing their amplitudes.

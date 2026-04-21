@@ -1,7 +1,0 @@
-Title: Modelling wormholes in $f(R,T)$ gravity
-Authors: P. H. R. S. Moraes, P. K. Sahoo
-Published: 2017-07-21
-arXiv ID: http://arxiv.org/abs/1707.06968v2
-Categories: gr-qc
-Abstract:
-In this work we propose the modelling of static wormholes within the $f(R,T)$ extended theory of gravity perspective. We present some models of wormholes, which are constructed from different hypothesis for their matter content, i.e., different relations for their pressure components (radial and lateral) and different equations of state. The solutions obtained for the shape function of the wormholes obey the necessary metric conditions. They show a behaviour similar to those found in previous references about wormholes, which also happens to our solutions for the energy density of such objects. We also apply the energy conditions for the wormholes physical content.

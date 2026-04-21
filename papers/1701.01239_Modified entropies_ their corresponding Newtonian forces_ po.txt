@@ -1,7 +1,0 @@
-Title: Modified entropies, their corresponding Newtonian forces, potentials, and temperatures
-Authors: Aldo Martínez-Merino, Octavio Obregón, Michael P. Ryan
-Published: 2017-01-05
-arXiv ID: http://arxiv.org/abs/1701.01239v1
-Categories: gr-qc
-Abstract:
-Assuming the hypothesis of the entropic nature of gravity, we calculate generalized Newtonian forces, their associated potentials and field equations, when other, in general non-extensive, entropies are considered instead of the usual Boltzmann entropy. Some comments about the nature of the correction terms presented are given, and a calculation of corrections to the Bekenstein-Hawking temperature is performed using the arguments which lead to what can be called a Michell-Laplace black hole.

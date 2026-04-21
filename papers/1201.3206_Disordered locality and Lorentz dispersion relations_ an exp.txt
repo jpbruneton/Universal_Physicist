@@ -1,7 +1,0 @@
-Title: Disordered locality and Lorentz dispersion relations: an explicit model of quantum foam
-Authors: Francesco Caravelli, Fotini Markopoulou
-Published: 2012-01-16
-arXiv ID: http://arxiv.org/abs/1201.3206v3
-Categories: gr-qc
-Abstract:
-Using the framework of Quantum Graphity, we construct an explicit model of a quantum foam, a quantum spacetime with spatial non-local links. The states depend on two parameters: the minimal size of the link and their density with respect to this length. Macroscopic Lorentz invariance requires that the quantum superposition of spacetimes is suppressed by the length of these non-local links. We parametrize this suppression by the distribution of non-local links lengths in the quantum foam. We discuss the general case and then analyze two specific natural distributions. Corrections to the Lorentz dispersion relations are calculated using techniques developed in previous work.

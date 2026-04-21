@@ -1,7 +1,0 @@
-Title: Testing the nature of dark compact objects: a status report
-Authors: Vitor Cardoso, Paolo Pani
-Published: 2019-04-10
-arXiv ID: http://arxiv.org/abs/1904.05363v3
-Categories: gr-qc, astro-ph.HE, hep-ph, physics.space-ph
-Abstract:
-Very compact objects probe extreme gravitational fields and may be the key to understand outstanding puzzles in fundamental physics. These include the nature of dark matter, the fate of spacetime singularities, or the loss of unitarity in Hawking evaporation. The standard astrophysical description of collapsing objects tells us that massive, dark and compact objects are black holes. Any observation suggesting otherwise would be an indication of beyond-the-standard-model physics. Null results strengthen and quantify the Kerr black hole paradigm. The advent of gravitational-wave astronomy and precise measurements with very long baseline interferometry allow one to finally probe into such foundational issues. We overview the physics of exotic dark compact objects and their observational status, including the observational evidence for black holes with current and future experiments.

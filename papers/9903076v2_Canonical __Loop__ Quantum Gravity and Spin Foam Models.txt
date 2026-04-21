@@ -1,8 +1,0 @@
-Title: Canonical ``Loop'' Quantum Gravity and Spin Foam Models
-Authors: R. De Pietri
-Published: 1999-03-19
-arXiv ID: http://arxiv.org/abs/gr-qc/9903076v2
-Categories: gr-qc
-Abstract:
-The canonical ``loop'' formulation of quantum gravity is a mathematically well defined, background independent, non perturbative standard quantization of Einstein's theory of General Relativity. Some among the most meaningful results of the theory are: 1) the complete calculation of the spectrum of geometric quantities like the area and the volume and the consequent physical predictions about the structure of the space-time at the Plank scale; 2) a microscopical derivation of the Bekenstein-Hawking black-hole entropy formula. Unfortunately, despite recent results, the dynamical aspect of the theory (imposition of the Wheller-De Witt constraint) remains elusive.
-  After a short description of the basic ideas and the main results of loop quantum gravity we show in which sence the exponential of the super Hamiltonian constraint leads to the concept of spin foam and to a four dimensional formulation of the theory. Moreover, we show that some topological field theories as the BF theory in 3 and 4 dimension admits a spin foam formulation. We argue that the spin-foams/spin-networks formalism it is the natural framework to discuss loop quantum gravity and topological field theory.

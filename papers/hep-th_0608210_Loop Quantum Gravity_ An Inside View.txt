@@ -1,7 +1,0 @@
-Title: Loop Quantum Gravity: An Inside View
-Authors: Thomas Thiemann
-Published: 2006-08-29
-arXiv ID: http://arxiv.org/abs/hep-th/0608210v1
-Categories: hep-th, astro-ph, gr-qc, math-ph
-Abstract:
-This is a (relatively) non -- technical summary of the status of the quantum dynamics in Loop Quantum Gravity (LQG). We explain in detail the historical evolution of the subject and why the results obtained so far are non -- trivial. The present text can be viewed in part as a response to an article by Nicolai, Peeters and Zamaklar [hep-th/0501114]. We also explain why certain no go conclusions drawn from a mathematically correct calculation in a recent paper by Helling et al [hep-th/0409182] are physically incorrect.

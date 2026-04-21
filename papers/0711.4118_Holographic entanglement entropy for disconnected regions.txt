@@ -1,7 +1,0 @@
-Title: Holographic entanglement entropy for disconnected regions
-Authors: Veronika E. Hubeny, Mukund Rangamani
-Published: 2007-11-26
-arXiv ID: http://arxiv.org/abs/0711.4118v2
-Categories: hep-th, cond-mat.stat-mech, quant-ph
-Abstract:
-We present a simple derivation of the entanglement entropy for a region made up of a union of disjoint intervals in 1+1 dimensional quantum field theories using holographic techniques. This generalizes the results for 1+1 dimensional conformal field theories derived previously by exploiting the uniformization map. We further comment on the generalization of our result to higher dimensional field theories.

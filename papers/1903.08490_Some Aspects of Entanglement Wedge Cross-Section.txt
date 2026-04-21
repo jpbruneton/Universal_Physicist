@@ -1,7 +1,0 @@
-Title: Some Aspects of Entanglement Wedge Cross-Section
-Authors: Komeil Babaei Velni, M. Reza Mohammadi Mozaffar, M. H. Vahidinia
-Published: 2019-03-20
-arXiv ID: http://arxiv.org/abs/1903.08490v3
-Categories: hep-th, gr-qc
-Abstract:
-We consider the minimal area of the entanglement wedge cross section (EWCS) in Einstein gravity. In the context of holography, it is proposed that this quantity is dual to different information measures, e.g., entanglement of purification, logarithmic negativity and reflected entropy. Motivated by these proposals, we examine in detail the low and high temperature corrections to this quantity and show that it obeys the area law even in the finite temperature. We also study EWCS in nonrelativistic field theories with nontrivial Lifshitz and hyperscaling violating exponents. The resultant EWCS is an increasing function of the dynamical exponent due to the enhancement of spatial correlations between subregions for larger values of $z$. We find that EWCS is monotonically decreasing as the hyperscaling violating exponent increases. We also obtain this quantity for an entangling region with singular boundary in a three dimensional field theory and find a universal contribution where the coefficient depends on the central charge. Finally, we verify that for higher dimensional singular regions the corresponding EWCS obeys the area law.

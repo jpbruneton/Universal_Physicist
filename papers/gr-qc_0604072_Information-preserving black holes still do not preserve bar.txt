@@ -1,7 +1,0 @@
-Title: Information-preserving black holes still do not preserve baryon number and other effective global quantum numbers
-Authors: Dejan Stojkovic, Glenn D. Starkman, Fred C. Adams
-Published: 2006-04-17
-arXiv ID: http://arxiv.org/abs/gr-qc/0604072v1
-Categories: gr-qc, astro-ph, hep-th
-Abstract:
-It has been claimed recently that the black hole information-loss paradox has been resolved: the evolution of quantum states in the presence of a black hole is unitary and information preserving. We point out that, contrary to some claims in literature, information-preserving black holes still violate baryon number and any other quantum number which follows from an effective (and thus approximate) or anomalous symmetry.

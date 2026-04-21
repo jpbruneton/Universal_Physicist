@@ -1,7 +1,0 @@
-Title: Quasi-linear formulation of MOND
-Authors: Mordehai Milgrom
-Published: 2009-11-29
-arXiv ID: http://arxiv.org/abs/0911.5464v2
-Categories: astro-ph.CO, gr-qc
-Abstract:
-A new formulation of MOND as a modified-potential theory of gravity is propounded. In effect, the theory dictates that the MOND potential phi produced by a mass distribution rho is a solution of the Poisson equation for the modified source density rho*=-(1/4 pi G)divergence(g), where g=nu(|gN|/a0)gN, and gN is the Newtonian acceleration field of rho. This makes phi simply the scalar potential of the algebraic acceleration field g. The theory thus involves solving only linear differential equations, with one nonlinear, algebraic step. It is derivable from an action, satisfies all the usual conservation laws, and gives the correct center-of-mass acceleration to composite bodies. The theory is akin in some respects to the nonlinear Poisson formulation of Bekenstein and Milgrom, but it is different from it, and is obviously easier to apply. The two theories are shown to emerge as natural modifications of a Palatini-type formulation of Newtonian gravity, and are members in a larger class of bi-potential theories.

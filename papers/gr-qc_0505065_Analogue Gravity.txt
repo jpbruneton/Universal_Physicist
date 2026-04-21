@@ -1,7 +1,0 @@
-Title: Analogue Gravity
-Authors: Carlos Barcelo, Stefano Liberati, Matt Visser
-Published: 2005-05-13
-arXiv ID: http://arxiv.org/abs/gr-qc/0505065v4
-Categories: gr-qc, hep-th
-Abstract:
-Analogue gravity is a research programme that explores analogues of general relativistic gravitational fields within other physical systems, particularly but not exclusively in condensed matter systems, with the aim of gaining new insights into related problems. Analogue models of gravity boast a long and distinguished history, dating back to the early years of general relativity. This review article delves into the history, aims, results, and future prospects of various analogue models. We begin by presenting a particularly simple example of an analogue model, then traverse the rich history and complex array of models discussed in the literature. The last decade has witnessed significant and sustained advances in analogue gravity, resulting in hundreds of published articles, workshops, and books. The future of the analogue gravity programme looks promising, with rapid technological advances on the experimental front and the potential for analogue models to inspire innovative approaches to the problem of quantum gravity on the theoretical front. Most of all, these recent years have seen the rise of an unprecedented collaboration and interplay between different communities that we believe will set a new standard for interdisciplinary research in the years to come.

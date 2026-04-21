@@ -1,7 +1,0 @@
-Title: Black-bounce to traversable wormhole
-Authors: Alex Simpson, Matt Visser
-Published: 2018-12-18
-arXiv ID: http://arxiv.org/abs/1812.07114v3
-Categories: gr-qc
-Abstract:
-So-called "regular black holes" are a topic currently of considerable interest in the general relativity and astrophysics communities. Herein we investigate a particularly interesting regular black hole spacetime described by the line element \[ ds^{2}=-\left(1-\frac{2m}{\sqrt{r^{2}+a^{2}}}\right)dt^{2}+\frac{dr^{2}}{1-\frac{2m}{\sqrt{r^{2}+a^{2}}}} +\left(r^{2}+a^{2}\right)\left(dθ^{2}+\sin^{2}θ\;dφ^{2}\right). \] This spacetime neatly interpolates between the standard Schwarzschild black hole and the Morris-Thorne traversable wormhole; at intermediate stages passing through a black-bounce (into a future incarnation of the universe), an extremal null-bounce (into a future incarnation of the universe), and a traversable wormhole. As long as the parameter $a$ is non-zero the geometry is everywhere regular, so one has a somewhat unusual form of "regular black hole", where the "origin" $r=0$ can be either spacelike, null, or timelike. Thus this spacetime generalizes and broadens the class of "regular black holes" beyond those usually considered.

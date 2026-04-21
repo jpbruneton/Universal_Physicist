@@ -1,7 +1,0 @@
-Title: Hawking radiation in different coordinate settings: Complex paths approach
-Authors: S. Shankaranarayanan, T. Padmanabhan, K. Srinivasan
-Published: 2000-10-11
-arXiv ID: http://arxiv.org/abs/gr-qc/0010042v4
-Categories: gr-qc
-Abstract:
-We apply the technique of complex paths to obtain Hawking radiation in different coordinate representations of the Schwarzschild space-time. The coordinate representations we consider do not possess a singularity at the horizon unlike the standard Schwarzschild coordinate. However, the event horizon manifests itself as a singularity in the expression for the semiclassical action. This singularity is regularized by using the method of complex paths and we find that Hawking radiation is recovered in these coordinates indicating the covariance of Hawking radiation as far as these coordinates are concerned.

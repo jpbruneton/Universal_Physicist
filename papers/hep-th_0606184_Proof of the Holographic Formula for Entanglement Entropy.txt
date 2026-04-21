@@ -1,7 +1,0 @@
-Title: Proof of the Holographic Formula for Entanglement Entropy
-Authors: Dmitri V. Fursaev
-Published: 2006-06-20
-arXiv ID: http://arxiv.org/abs/hep-th/0606184v2
-Categories: hep-th, cond-mat.other, quant-ph
-Abstract:
-Entanglement entropy for a spatial partition of a quantum system is studied in theories which admit a dual description in terms of the anti-de Sitter (AdS) gravity one dimension higher. A general proof of the holographic formula which relates the entropy to the area of a codimension 2 minimal hypersurface embedded in the bulk AdS space is given. The entanglement entropy is determined by a partition function which is defined as a path integral over Riemannian AdS geometries with non-trivial boundary conditions. The topology of the Riemannian spaces puts restrictions on the choice of the minimal hypersurface for a given boundary conditions. The entanglement entropy is also considered in Randall-Sundrum braneworld models where its asymptotic expansion is derived when the curvature radius of the brane is much larger than the AdS radius. Special attention is payed to the geometrical structure of anomalous terms in the entropy in four dimensions. Modification of the holographic formula by the higher curvature terms in the bulk is briefly discussed.

@@ -1,7 +1,0 @@
-Title: The Spectrum in the Sachdev-Ye-Kitaev Model
-Authors: Joseph Polchinski, Vladimir Rosenhaus
-Published: 2016-01-25
-arXiv ID: http://arxiv.org/abs/1601.06768v1
-Categories: hep-th, cond-mat.str-el, nlin.CD
-Abstract:
-The SYK model consists of $N\gg 1$ fermions in $0+1$ dimensions with a random, all-to-all quartic interaction. Recently, Kitaev has found that the SYK model is maximally chaotic and has proposed it as a model of holography. We solve the Schwinger-Dyson equation and compute the spectrum of two-particle states in SYK, finding both a continuous and discrete tower. The four-point function is expressed as a sum over the spectrum. The sum over the discrete tower is evaluated.

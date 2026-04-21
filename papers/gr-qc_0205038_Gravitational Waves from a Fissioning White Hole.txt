@@ -1,7 +1,0 @@
-Title: Gravitational Waves from a Fissioning White Hole
-Authors: Roberto Gomez, Sascha Husa, Luis Lehner, Jeffrey Winicour
-Published: 2002-05-09
-arXiv ID: http://arxiv.org/abs/gr-qc/0205038v2
-Categories: gr-qc
-Abstract:
-We present a fully nonlinear calculation of the waveform of the gravitational radiation emitted in the fission of a vacuum white hole. At early times, the waveforms agree with close-approximation perturbative calculations but they reveal dramatic time and angular dependence in the nonlinear regime. The results pave the way for a subsequent computation of the radiation emitted after a binary black hole merger.

@@ -1,7 +1,0 @@
-Title: Algorithms for tensor network renormalization
-Authors: Glen Evenbly
-Published: 2015-09-24
-arXiv ID: http://arxiv.org/abs/1509.07484v1
-Categories: cond-mat.str-el, quant-ph
-Abstract:
-We discuss in detail algorithms for implementing tensor network renormalization (TNR) for the study of classical statistical and quantum many-body systems. Firstly, we recall established techniques for how the partition function of a 2D classical many-body system or the Euclidean path integral of a 1D quantum system can be represented as a network of tensors, before describing how TNR can be implemented to efficiently contract the network via a sequence of coarse-graining transformations. The efficacy of the TNR approach is then benchmarked for the 2D classical statistical and 1D quantum Ising models; in particular the ability of TNR to maintain a high level of accuracy over sustained coarse-graining transformations, even at a critical point, is demonstrated.

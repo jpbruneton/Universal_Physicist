@@ -1,7 +1,0 @@
-Title: Can quantum gravity be exposed in the laboratory?: A tabletop experiment to reveal the quantum foam
-Authors: Jacob D. Bekenstein
-Published: 2013-01-18
-arXiv ID: http://arxiv.org/abs/1301.4322v2
-Categories: gr-qc, astro-ph.HE, hep-th, quant-ph
-Abstract:
-I propose an experiment that may be performed, with present low temperature and cryogenic technology, to reveal Wheeler's quantum foam. It involves coupling an optical photon's momentum to the center of mass motion of a macroscopic transparent block with parameters such that the latter is displaced in space by approximately a Planck length. I argue that such displacement is sensitive to quantum foam and will react back on the photon's probability of transiting the block. This might allow determination of the precise scale at which quantum fluctuations of space-time become large, and so differentiate between the brane-world and the traditional scenarios of spacetime.

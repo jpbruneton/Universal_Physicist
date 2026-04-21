@@ -1,7 +1,0 @@
-Title: The connection between holographic entanglement and complexity of purification
-Authors: Mahdis Ghodrati, Xiao-Mei Kuang, Bin Wang, Cheng-Yong Zhang, Yu-Ting Zhou
-Published: 2019-02-07
-arXiv ID: http://arxiv.org/abs/1902.02475v5
-Categories: hep-th
-Abstract:
-In this work we study how entanglement of purification (EoP) and the new quantity of "complexity of purification" are related to each other using the $E_P=E_W$ conjecture. First, we consider two strips in the same side of a boundary and study the relationships between the entanglement of purification of this mixed state and the parameters of the system such as dimension, temperature, length of the strips and the distance between them. Next, using the same setup, we introduce two definitions for the complexity of mixed states, complexity of purification (CoP) and the interval volume (VI). We study their connections to other parameters similar to the EoP case. Then, we extend our study to more general examples of BTZ black holes solution in massive gravity, charged black holes and multipartite systems. Finally, we give various interpretations of our results using resource theories such as LOCC and also bit thread picture.

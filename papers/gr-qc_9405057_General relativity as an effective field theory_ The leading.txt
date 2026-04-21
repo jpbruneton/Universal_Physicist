@@ -1,7 +1,0 @@
-Title: General relativity as an effective field theory: The leading quantum corrections
-Authors: John F. Donoghue
-Published: 1994-05-25
-arXiv ID: http://arxiv.org/abs/gr-qc/9405057v1
-Categories: gr-qc, hep-ph, hep-th
-Abstract:
-I describe the treatment of gravity as a quantum effective field theory. This allows a natural separation of the (known) low energy quantum effects from the (unknown) high energy contributions. Within this framework, gravity is a well behaved quantum field theory at ordinary energies. In studying the class of quantum corrections at low energy, the dominant effects at large distance can be isolated, as these are due to the propagation of the massless particles (including gravitons) of the theory and are manifested in the nonlocal/nonanalytic contributions to vertex functions and propagators. These leading quantum corrections are parameter-free and represent necessary consequences of quantum gravity. The methodology is illustrated by a calculation of the leading quantum corrections to the gravitational interaction of two heavy masses.

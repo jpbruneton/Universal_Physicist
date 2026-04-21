@@ -1,7 +1,0 @@
-Title: The entropy of Hawking radiation
-Authors: Ahmed Almheiri, Thomas Hartman, Juan Maldacena, Edgar Shaghoulian, Amirhossein Tajdini
-Published: 2020-06-11
-arXiv ID: http://arxiv.org/abs/2006.06872v1
-Categories: hep-th, gr-qc
-Abstract:
-In this review, we describe recent progress on the black hole information problem that involves a new understanding of how to calculate the entropy of Hawking radiation. We show how the method for computing gravitational fine-grained entropy, developed over the past 15 years, can be extended to capture the entropy of Hawking radiation. This technique reveals large corrections needed for the entropy to be consistent with unitary black hole evaporation.

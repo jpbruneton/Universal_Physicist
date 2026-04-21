@@ -1,7 +1,0 @@
-Title: Selected topics in Planck-scale physics
-Authors: Y. Jack Ng
-Published: 2003-05-04
-arXiv ID: http://arxiv.org/abs/gr-qc/0305019v2
-Categories: gr-qc, astro-ph, hep-ph, hep-th
-Abstract:
-We review a few topics in Planck-scale physics, with emphasis on possible manifestations in relatively low energy. The selected topics include quantum fluctuations of spacetime, their cumulative effects, uncertainties in energy-momentum measurements, and low energy quantum-gravity phenomenology. The focus is on quantum-gravity-induced uncertainties in some observable quantities. We consider four possible ways to probe Planck-scale physics experimentally: 1. looking for energy-dependent spreads in the arrival time of photons of the same energy from GRBs; 2. examining spacetime fluctuation-induced phase incoherence of light from extragalactic sources; 3. detecting spacetime foam with laser-based interferometry techniques; 4. understanding the threshold anomalies in high energy cosmic ray and gamma ray events. Some other experiments are briefly discussed. We show how some physics behind black holes, simple clocks, simple computers, and the holographic principle is related to Planck-scale physics. We also discuss a formulation of the Dirac equation as a difference equation on a discrete Planck-scale spacetime lattice, and a possible interplay between Planck-scale and Hubble-scale physics encoded in the cosmological constant (dark energy).

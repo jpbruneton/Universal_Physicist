@@ -1,7 +1,0 @@
-Title: Twilight for the energy conditions?
-Authors: Carlos Barcelo, Matt Visser
-Published: 2002-05-16
-arXiv ID: http://arxiv.org/abs/gr-qc/0205066v1
-Categories: gr-qc
-Abstract:
-The tension, if not outright inconsistency, between quantum physics and general relativity is one of the great problems facing physics at the turn of the millennium. Most often, the problems arising in merging Einstein gravity and quantum physics are viewed as Planck scale issues (10^{19} GeV, 10^{-34} m, 10^{-45} s), and so safely beyond the reach of experiment. However, over the last few years it has become increasingly obvious that the difficulties are more widespread: There are already serious problems of deep and fundamental principle at the semi-classical level, and worse, certain classical systems (inspired by quantum physics, but in no sense quantum themselves) exhibit seriously pathological behaviour. One manifestation of these pathologies is in the so-called ``energy conditions'' of general relativity. Patching things up in the gravity sector opens gaping holes elsewhere; and some ``fixes'' are more radical than the problems they are supposed to cure.

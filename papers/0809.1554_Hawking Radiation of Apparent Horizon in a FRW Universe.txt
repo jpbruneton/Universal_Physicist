@@ -1,7 +1,0 @@
-Title: Hawking Radiation of Apparent Horizon in a FRW Universe
-Authors: Rong-Gen Cai, Li-Ming Cao, Ya-Peng Hu
-Published: 2008-09-09
-arXiv ID: http://arxiv.org/abs/0809.1554v2
-Categories: hep-th, gr-qc
-Abstract:
-Hawking radiation is an important quantum phenomenon of black hole, which is closely related to the existence of event horizon of black hole. The cosmological event horizon of de Sitter space is also of the Hawking radiation with thermal spectrum. By use of the tunneling approach, we show that there is indeed a Hawking radiation with temperature, $T=1/2π\tilde r_A$, for locally defined apparent horizon of a Friedmann-Robertson-Walker universe with any spatial curvature, where $\tilde r_A$ is the apparent horizon radius. Thus we fill in the gap existing in the literature investigating the relation between the first law of thermodynamics and Friedmann equations, there the apparent horizon is assumed to have such a temperature without any proof. In addition, we stress the implication of the Hawking temperature associated with the apparent horizon.

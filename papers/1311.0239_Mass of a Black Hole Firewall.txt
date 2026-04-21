@@ -1,7 +1,0 @@
-Title: Mass of a Black Hole Firewall
-Authors: M. A. Abramowicz, W. Kluźniak, J. -P. Lasota
-Published: 2013-11-01
-arXiv ID: http://arxiv.org/abs/1311.0239v3
-Categories: gr-qc, hep-th
-Abstract:
-Quantum entanglement of Hawking radiation has been supposed to give rise to a Planck density "firewall" near the event horizon of old black holes. We show that Planck density firewalls are excluded by Einstein's equations for black holes of mass exceeding the Planck mass. We find an upper limit of $1/(8πM)$ to the surface density of a firewall in a Schwarzschild black hole of mass $M$, translating for astrophysical black holes into a firewall density smaller than Planck density by more than 30 orders of magnitude. A strict upper limit on the firewall density is given by the Planck density times the ratio $M_{\rm Pl}/(8πM)$.

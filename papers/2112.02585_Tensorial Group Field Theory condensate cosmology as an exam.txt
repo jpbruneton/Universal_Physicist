@@ -1,7 +1,0 @@
-Title: Tensorial Group Field Theory condensate cosmology as an example of spacetime emergence in quantum gravity
-Authors: Daniele Oriti
-Published: 2021-12-05
-arXiv ID: http://arxiv.org/abs/2112.02585v2
-Categories: gr-qc, hep-th, physics.hist-ph
-Abstract:
-We summarize the main ideas behind TGFT condensate cosmology and sketch the technical steps that bring from the fundamental theory to the effective cosmological dynamics. This framework is presented as an explicit illustration of (and possibly a general template for) the emergence of spacetime from non-spatiotemporal quantum entities in quantum gravity, and the many aspects involved in it.

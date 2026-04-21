@@ -1,7 +1,0 @@
-Title: The Minimal Composite Higgs Model
-Authors: Kaustubh Agashe, Roberto Contino, Alex Pomarol
-Published: 2004-12-06
-arXiv ID: http://arxiv.org/abs/hep-ph/0412089v2
-Categories: hep-ph, hep-th
-Abstract:
-We study the idea of a composite Higgs in the framework of a five-dimensional AdS theory. We present the minimal model of the Higgs as a pseudo-Goldstone boson in which electroweak symmetry is broken dynamically via top loop effects, all flavour problems are solved, and contributions to electroweak precision observables are below experimental bounds. Since the 5D theory is weakly coupled, we are able to fully determine the Higgs potential and other physical quantities. The lightest resonances are expected to have a mass around 2 TeV and should be discovered at the LHC. The top sector is mostly composite and deviations from Standard Model couplings are expected.

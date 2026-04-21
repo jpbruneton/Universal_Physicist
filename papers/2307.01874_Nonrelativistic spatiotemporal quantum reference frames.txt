@@ -1,7 +1,0 @@
-Title: Nonrelativistic spatiotemporal quantum reference frames
-Authors: Michael Suleymanov, Ismael L. Paiva, Eliahu Cohen
-Published: 2023-07-04
-arXiv ID: http://arxiv.org/abs/2307.01874v3
-Categories: quant-ph
-Abstract:
-Quantum reference frames have attracted renewed interest recently, as their exploration is relevant and instructive in many areas of quantum theory. Among the different types, position and time reference frames have captivated special attention. Here, we introduce and analyze a nonrelativistic framework in which each system contains an internal clock, in addition to its external (spatial) degree of freedom and, hence, can be used as a spatiotemporal quantum reference frame. We present expressions for expectation values and variances of relevant observables in different perspectives, as well as relations between these quantities in different perspectives in scenarios with no interactions. In particular, we show that even in these simple scenarios, the relative uncertainty between clocks affects the relative spatial spread of the systems.

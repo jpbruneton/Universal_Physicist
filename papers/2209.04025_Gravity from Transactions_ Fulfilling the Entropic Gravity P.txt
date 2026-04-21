@@ -1,7 +1,0 @@
-Title: Gravity from Transactions: Fulfilling the Entropic Gravity Program
-Authors: A. Schlatter, R. E. Kastner
-Published: 2022-09-08
-arXiv ID: http://arxiv.org/abs/2209.04025v2
-Categories: gr-qc, physics.hist-ph, quant-ph
-Abstract:
-This is a review of new developments in entropic gravity in light of the Relativistic Transactional Interpretation (RTI). A transactional approach to spacetime events can give rise in a natural way to entropic gravity (in the way originally proposed by Erik Verlinde) while also overcoming extant objections to that research program. The theory also naturally gives rise to a Cosmological Constant and to Modified Newtonian Dynamics (MOND) and thus provides a physical explanation for the phenomena historically attributed to "dark energy" and "dark matter".

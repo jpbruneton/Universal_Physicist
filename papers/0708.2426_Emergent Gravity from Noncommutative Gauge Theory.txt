@@ -1,7 +1,0 @@
-Title: Emergent Gravity from Noncommutative Gauge Theory
-Authors: Harold Steinacker
-Published: 2007-08-20
-arXiv ID: http://arxiv.org/abs/0708.2426v3
-Categories: hep-th, gr-qc
-Abstract:
-We show that the matrix-model action for noncommutative U(n) gauge theory actually describes SU(n) gauge theory coupled to gravity. This is elaborated in the 4-dimensional case. The SU(n) gauge fields as well as additional scalar fields couple to an effective metric G_{ab}, which is determined by a dynamical Poisson structure. The emergent gravity is intimately related to noncommutativity, encoding those degrees of freedom which are usually interpreted as U(1) gauge fields. This leads to a class of metrics which contains the physical degrees of freedom of gravitational waves, and allows to recover e.g. the Newtonian limit with arbitrary mass distribution. It also suggests a consistent picture of UV/IR mixing in terms of an induced gravity action. This should provide a suitable framework for quantizing gravity.

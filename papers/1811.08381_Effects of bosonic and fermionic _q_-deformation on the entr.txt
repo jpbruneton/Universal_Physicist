@@ -1,7 +1,0 @@
-Title: Effects of bosonic and fermionic $q$-deformation on the entropic gravity
-Authors: Salih Kibaroğlu, Mustafa Senay
-Published: 2018-11-20
-arXiv ID: http://arxiv.org/abs/1811.08381v3
-Categories: hep-th, gr-qc
-Abstract:
-In this paper, we study thermodynamical contributions to the theory of gravity under the $q$-deformed boson and fermion gas models. According to the Verlinde's proposal, the law of gravity is not based on a fundamental interaction but it emerges as an entropic force from the changes of entropy associated with the information on the holographic screen. In addition, Strominger shows that the extremal quantum black holes obey neither boson nor fermion statistics, but they obey deformed statistic. Using these notions, we find $q$-deformed entropy and temperature functions. We also present the contributions that come from the $q$-deformed model to the Poisson equation, Newton's law of gravity and Einstein's field equations.

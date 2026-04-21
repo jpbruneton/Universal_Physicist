@@ -1,7 +1,0 @@
-Title: Prethermal quantum many-body Kapitza phases of periodically driven spin systems
-Authors: Alessio Lerose, Jamir Marino, Andrea Gambassi, Alessandro Silva
-Published: 2018-03-12
-arXiv ID: http://arxiv.org/abs/1803.04490v4
-Categories: cond-mat.stat-mech
-Abstract:
-As realized by Kapitza long ago, a rigid pendulum can be stabilized upside down by periodically driving its suspension point with tuned amplitude and frequency. While this dynamical stabilization is feasible in a variety of instances in systems with few degrees of freedom, it is natural to search for generalizations to multi-particle systems. In particular, a fundamental question is whether, by periodically driving a single parameter in a many-body system, one can stabilize an otherwise unstable phase of matter against all possible fluctuations of its microscopic degrees of freedom. In this work we show that such stabilization occurs in experimentally realizable quantum many-body systems: a periodic modulation of a transverse magnetic field can make ferromagnetic spin systems with long-range interactions stably trapped around unstable paramagnetic configurations as well as in other unconventional dynamical phases with no equilibrium counterparts. We demonstrate that these quantum Kapitza phases have a long lifetime and can be observed in current experiments with trapped ions.

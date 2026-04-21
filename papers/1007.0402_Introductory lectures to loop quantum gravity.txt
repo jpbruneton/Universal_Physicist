@@ -1,7 +1,0 @@
-Title: Introductory lectures to loop quantum gravity
-Authors: Pietro Doná, Simone Speziale
-Published: 2010-07-02
-arXiv ID: http://arxiv.org/abs/1007.0402v2
-Categories: gr-qc, hep-th
-Abstract:
-We give a standard introduction to loop quantum gravity, from the ADM variables to spin network states. We include a discussion on quantum geometry on a fixed graph and its relation to a discrete approximation of general relativity.

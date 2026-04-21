@@ -1,7 +1,0 @@
-Title: A c-theorem for the entanglement entropy
-Authors: H. Casini, M. Huerta
-Published: 2006-10-13
-arXiv ID: http://arxiv.org/abs/cond-mat/0610375v2
-Categories: cond-mat.stat-mech, hep-th
-Abstract:
-The combination of the Lorentz symmetry and the strong subadditive property of the entropy leads to a c-theorem for the entanglement entropy in 1+1 dimensions. We present a simple derivation of this theorem and compare the associated c-functions with the Zamolodchikov's ones for the case of free fields. We discuss the various difficulties which obstacle the naive generalizations of the entropic c-theorem to higher dimensions.

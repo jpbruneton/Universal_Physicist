@@ -1,7 +1,0 @@
-Title: A consistent model of non-singular Schwarzschild black hole in loop quantum gravity and its quasinormal modes
-Authors: Mariam Bouhmadi-López, Suddhasattwa Brahma, Che-Yu Chen, Pisin Chen, Dong-han Yeom
-Published: 2020-04-27
-arXiv ID: http://arxiv.org/abs/2004.13061v2
-Categories: gr-qc, astro-ph.HE, hep-th
-Abstract:
-We investigate the interior structure, perturbations, and the associated quasinormal modes of a quantum black hole model recently proposed by Bodendorfer, Mele, and Münch (BMM). Within the framework of loop quantum gravity, the quantum parameters in the BMM model are introduced through polymerization, consequently replacing the Schwarzschild singularity with a spacelike transition surface. By treating the quantum geometry corrections as an `effective' matter contribution, we first prove the violation of energy conditions (in particular the null energy condition) near the transition surface and then investigate the required junction conditions on it. In addition, we study the quasinormal modes of massless scalar field perturbations, electromagnetic perturbations, and axial gravitational perturbations in this effective model. As expected, the quasinormal spectra deviate from their classical counterparts in the presence of quantum corrections. Interestingly, we find that the quasinormal frequencies of perturbations with different spins share the same qualitative tendency with respect to the change of the quantum parameters in this model.

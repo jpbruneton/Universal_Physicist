@@ -1,7 +1,0 @@
-Title: Quantum geometry from phase space reduction
-Authors: Florian Conrady, Laurent Freidel
-Published: 2009-02-02
-arXiv ID: http://arxiv.org/abs/0902.0351v3
-Categories: gr-qc, math-ph
-Abstract:
-In this work we give an explicit isomorphism between the usual spin network basis and the direct quantization of the reduced phase space of tetrahedra. The main outcome is a formula that describes the space of SU(2) invariant states by an integral over coherent states satisfying the closure constraint exactly, or equivalently, as an integral over the space of classical tetrahedra. This provides an explicit realization of theorems by Guillemin--Sternberg and Hall that describe the commutation of quantization and reduction. In the final part of the paper, we use our result to express the FK spin foam model as an integral over classical tetrahedra and the asymptotics of the vertex amplitude is determined.

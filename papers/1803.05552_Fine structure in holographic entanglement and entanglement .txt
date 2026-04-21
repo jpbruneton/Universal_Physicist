@@ -1,7 +1,0 @@
-Title: Fine structure in holographic entanglement and entanglement contour
-Authors: Qiang Wen
-Published: 2018-03-15
-arXiv ID: http://arxiv.org/abs/1803.05552v4
-Categories: hep-th
-Abstract:
-We explore the fine structure of the holographic entanglement entropy proposal (the Ryu-Takayanagi formula) in AdS$_3$/CFT$_{2}$. With the guidance from the boundary and bulk modular flows we find a natural slicing of the entanglement wedge with the modular planes, which are co-dimension one bulk surfaces tangent to the modular flow everywhere. This gives an one-to-one correspondence between the points on the boundary interval $\mathcal{A}$ and the points on the Ryu-Takayanagi (RT) surface $\mathcal{E}_{\mathcal{A}}$. In the same sense an arbitrary subinterval $\mathcal{A}_2$ of $\mathcal{A}$ will correspond to a subinterval $\mathcal{E}_2$ of $\mathcal{E}_{\mathcal{A}}$. This fine correspondence indicates that the length of $\mathcal{E}_2$ captures the contribution $s_{\mathcal{A}}(\mathcal{A}_2)$ from $\mathcal{A}_2$ to the entanglement entropy $S_{\mathcal{A}}$, hence gives the contour function for entanglement entropy. Furthermore we propose that $s_{\mathcal{A}}(\mathcal{A}_2)$ in general can be written as a simple linear combination of entanglement entropies of single intervals inside $\mathcal{A}$. This proposal passes several non-trivial tests.

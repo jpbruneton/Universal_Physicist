@@ -1,7 +1,0 @@
-Title: A Higher Order GUP with Minimal Length Uncertainty and Maximal Momentum
-Authors: Pouria Pedram
-Published: 2011-10-13
-arXiv ID: http://arxiv.org/abs/1110.2999v5
-Categories: hep-th
-Abstract:
-We present a higher order generalized (gravitational) uncertainty principle (GUP) in the form $[X,P]=i\hbar/(1-βP^2)$. This form of GUP is consistent with various proposals of quantum gravity such as string theory, loop quantum gravity, doubly special relativity, and predicts both a minimal length uncertainty and a maximal observable momentum. We show that the presence of the maximal momentum results in an upper bound on the energy spectrum of the momentum eigenstates and the harmonic oscillator.

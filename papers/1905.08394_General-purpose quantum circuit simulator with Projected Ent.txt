@@ -1,7 +1,0 @@
-Title: General-purpose quantum circuit simulator with Projected Entangled-Pair States and the quantum supremacy frontier
-Authors: Chu Guo, Yong Liu, Min Xiong, Shichuan Xue, Xiang Fu, Anqi Huang, Xiaogang Qiang, Ping Xu, Junhua Liu, Shenggen Zheng, He-Liang Huang, Mingtang Deng, Dario Poletti, Wan-Su Bao, Junjie Wu
-Published: 2019-05-21
-arXiv ID: http://arxiv.org/abs/1905.08394v3
-Categories: quant-ph, physics.comp-ph
-Abstract:
-Recent advances on quantum computing hardware have pushed quantum computing to the verge of quantum supremacy. Random quantum circuits are outstanding candidates to demonstrate quantum supremacy, which could be implemented on a quantum device that supports nearest-neighbour gate operations on a two-dimensional configuration. Here we show that using the Projected Entangled-Pair States algorithm, a tool to study two-dimensional strongly interacting many-body quantum systems, we can realize an effective general-purpose simulator of quantum algorithms. This technique allows to quantify precisely the memory usage and the time requirements of random quantum circuits, thus showing the frontier of quantum supremacy. With this approach we can compute the full wave-function of the system, from which single amplitudes can be sampled with unit fidelity. Applying this general quantum circuit simulator we measured amplitudes for a $7\times 7$ lattice of qubits with depth $1+40+1$ and double-precision numbers in 31 minutes using less than $93$ TB memory on the Tianhe-2 supercomputer.

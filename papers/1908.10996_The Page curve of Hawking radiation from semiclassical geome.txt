@@ -1,7 +1,0 @@
-Title: The Page curve of Hawking radiation from semiclassical geometry
-Authors: Ahmed Almheiri, Raghu Mahajan, Juan Maldacena, Ying Zhao
-Published: 2019-08-29
-arXiv ID: http://arxiv.org/abs/1908.10996v2
-Categories: hep-th, gr-qc
-Abstract:
-We consider a gravity theory coupled to matter, where the matter has a higher-dimensional holographic dual. In such a theory, finding quantum extremal surfaces becomes equivalent to finding the RT/HRT surfaces in the higher-dimensional theory. Using this we compute the entropy of Hawking radiation and argue that it follows the Page curve, as suggested by recent computations of the entropy and entanglement wedges for old black holes. The higher-dimensional geometry connects the radiation to the black hole interior in the spirit of ER=EPR. The black hole interior then becomes part of the entanglement wedge of the radiation. Inspired by this, we propose a new rule for computing the entropy of quantum systems entangled with gravitational systems which involves searching for "islands" in determining the entanglement wedge.

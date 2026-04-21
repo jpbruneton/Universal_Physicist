@@ -1,7 +1,0 @@
-Title: The Generalized Uncertainty Principle and Black Hole Remnants
-Authors: Ronald J. Adler, Pisin Chen, David I. Santiago
-Published: 2001-06-26
-arXiv ID: http://arxiv.org/abs/gr-qc/0106080v1
-Categories: gr-qc
-Abstract:
-In the current standard viewpoint small black holes are believed to emit radiation as black bodies at the Hawking temperature, at least until they reach Planck size, after which their fate is open to conjecture. A cogent argument against the existence of remnants is that, since no evident quantum number prevents it, black holes should radiate completely away to photons and other ordinary stable particles and vacuum, like any unstable quantum system. Here we argue the contrary, that the generalized uncertainty principle may prevent their total evaporation in exactly the same way that the uncertainty principle prevents the hydrogen atom from total collapse: the collapse is prevented, not by symmetry, but by dynamics, as a minimum size and mass are approached.

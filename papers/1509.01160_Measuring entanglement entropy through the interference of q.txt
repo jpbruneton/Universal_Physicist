@@ -1,7 +1,0 @@
-Title: Measuring entanglement entropy through the interference of quantum many-body twins
-Authors: Rajibul Islam, Ruichao Ma, Philipp M. Preiss, M. Eric Tai, Alexander Lukin, Matthew Rispoli, Markus Greiner
-Published: 2015-09-03
-arXiv ID: http://arxiv.org/abs/1509.01160v1
-Categories: cond-mat.quant-gas, physics.atom-ph, quant-ph
-Abstract:
-Entanglement is one of the most intriguing features of quantum mechanics. It describes non-local correlations between quantum objects, and is at the heart of quantum information sciences. Entanglement is rapidly gaining prominence in diverse fields ranging from condensed matter to quantum gravity. Despite this generality, measuring entanglement remains challenging. This is especially true in systems of interacting delocalized particles, for which a direct experimental measurement of spatial entanglement has been elusive. Here, we measure entanglement in such a system of itinerant particles using quantum interference of many-body twins. Leveraging our single-site resolved control of ultra-cold bosonic atoms in optical lattices, we prepare and interfere two identical copies of a many-body state. This enables us to directly measure quantum purity, Renyi entanglement entropy, and mutual information. These experiments pave the way for using entanglement to characterize quantum phases and dynamics of strongly-correlated many-body systems.

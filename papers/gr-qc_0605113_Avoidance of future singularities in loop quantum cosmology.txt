@@ -1,7 +1,0 @@
-Title: Avoidance of future singularities in loop quantum cosmology
-Authors: M. Sami, Parampreet Singh, Shinji Tsujikawa
-Published: 2006-05-21
-arXiv ID: http://arxiv.org/abs/gr-qc/0605113v1
-Categories: gr-qc, astro-ph, hep-ph, hep-th
-Abstract:
-We consider the fate of future singularities in the effective dynamics of loop quantum cosmology. Non-perturbative quantum geometric effects which lead to $ρ^2$ modification of the Friedmann equation at high energies result in generic resolution of singularities whenever energy density $ρ$ diverges at future singularities of Friedmann dynamics. Such quantum effects lead to the avoidance of a Big Rip, which is followed by a recollapsing universe stable against perturbations. Resolution of sudden singularity, the case when pressure diverges but energy density approaches a finite value depends on the ratio of the latter to a critical energy density of the order of Planck. If the value of this ratio is greater than unity, the universe escapes the sudden future singularity and becomes oscillatory.

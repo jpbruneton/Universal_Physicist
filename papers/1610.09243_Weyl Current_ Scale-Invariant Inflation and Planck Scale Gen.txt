@@ -1,7 +1,0 @@
-Title: Weyl Current, Scale-Invariant Inflation and Planck Scale Generation
-Authors: Pedro G. Ferreira, Christopher T. Hill, Graham G. Ross
-Published: 2016-10-28
-arXiv ID: http://arxiv.org/abs/1610.09243v2
-Categories: hep-th, astro-ph.CO, gr-qc, hep-ph
-Abstract:
-Scalar fields, $φ_i$ can be coupled non-minimally to curvature and satisfy the general criteria: (i) the theory has no mass input parameters, including the Planck mass; (ii) the $φ_i$ have arbitrary values and gradients, but undergo a general expansion and relaxation to constant values that satisfy a nontrivial constraint, $K(φ_i) =$ constant; (iii) this constraint breaks scale symmetry spontaneously, and the Planck mass is dynamically generated; (iv) there can be adequate inflation associated with slow roll in a scale invariant potential subject to the constraint; (v) the final vacuum can have a small to vanishing cosmological constant (vi) large hierarchies in vacuum expectation values can naturally form; (vii) there is a harmless dilaton which naturally eludes the usual constraints on massless scalars. These models are governed by a global Weyl scale symmetry and its conserved current, $K_μ$ . At the quantum level the Weyl scale symmetry can be maintained by an invariant specification of renormalized quantities.

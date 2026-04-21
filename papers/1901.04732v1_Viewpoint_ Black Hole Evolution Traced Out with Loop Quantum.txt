@@ -1,7 +1,0 @@
-Title: Viewpoint: Black Hole Evolution Traced Out with Loop Quantum Gravity
-Authors: Carlo Rovelli
-Published: 2019-01-15
-arXiv ID: http://arxiv.org/abs/1901.04732v1
-Categories: gr-qc, hep-th
-Abstract:
-Loop Quantum gravity predicts that black holes evolve into white holes.

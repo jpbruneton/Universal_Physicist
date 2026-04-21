@@ -1,7 +1,0 @@
-Title: Wormholes in Dilatonic Einstein-Gauss-Bonnet Theory
-Authors: Panagiota Kanti, Burkhard Kleihaus, Jutta Kunz
-Published: 2011-08-15
-arXiv ID: http://arxiv.org/abs/1108.3003v2
-Categories: gr-qc, astro-ph.CO, hep-th
-Abstract:
-We construct traversable wormholes in dilatonic Einstein-Gauss-Bonnet theory in four spacetime dimensions, without needing any form of exotic matter. We determine their domain of existence, and show that these wormholes satisfy a generalised Smarr relation. We demonstrate linear stability with respect to radial perturbations for a subset of these wormholes.

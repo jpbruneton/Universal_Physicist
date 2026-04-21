@@ -1,7 +1,0 @@
-Title: Dynamic wormholes, anti-trapped surfaces, and energy conditions
-Authors: David Hochberg, Matt Visser
-Published: 1998-02-17
-arXiv ID: http://arxiv.org/abs/gr-qc/9802046v2
-Categories: gr-qc
-Abstract:
-Adapting and extending a suggestion due to Page, we define a wormhole throat to be a marginally anti-trapped surface, that is, a closed two-dimensional spatial hypersurface such that one of the two future-directed null geodesic congruences orthogonal to it is just beginning to diverge. Typically a dynamic wormhole will possess two such throats, corresponding to the two orthogonal null geodesic congruences, and these two throats will not coincide, (though they do coalesce into a single throat in the static limit). The divergence property of the null geodesics at the marginally anti-trapped surface generalizes the ``flare-out'' condition for an arbitrary wormhole. We derive theorems regarding violations of the null energy condition (NEC) at and near these throats and find that, even for wormholes with arbitrary time-dependence, the violation of the NEC is a generic property of wormhole throats. We also discuss wormhole throats in the presence of fully antisymmetric torsion and find that the energy condition violations cannot be dumped into the torsion degrees of freedom. Finally by means of a concrete example we demonstrate that even temporary suspension of energy-condition violations is incompatible with the flare-out property of dynamic throats.

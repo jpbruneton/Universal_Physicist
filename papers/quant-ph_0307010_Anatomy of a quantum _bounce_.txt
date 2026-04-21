@@ -1,7 +1,0 @@
-Title: Anatomy of a quantum `bounce'
-Authors: M. A. Doncheski, R. W. Robinett
-Published: 2003-07-01
-arXiv ID: http://arxiv.org/abs/quant-ph/0307010v1
-Categories: quant-ph
-Abstract:
-We discuss some of the properties of the `collision' of a quantum mechanical wave packet with an infinitely high potential barrier, focusing on novel aspects such as the detailed time-dependence of the momentum-space probability density and the time variation of the uncertainty principle product $Δx_t \cdot Δp_t$. We make explicit use of Gaussian-like wave packets in the analysis, but also comment on other general forms.

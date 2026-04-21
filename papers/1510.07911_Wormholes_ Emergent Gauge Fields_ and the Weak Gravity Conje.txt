@@ -1,7 +1,0 @@
-Title: Wormholes, Emergent Gauge Fields, and the Weak Gravity Conjecture
-Authors: Daniel Harlow
-Published: 2015-10-27
-arXiv ID: http://arxiv.org/abs/1510.07911v2
-Categories: hep-th, gr-qc
-Abstract:
-This paper revisits the question of reconstructing bulk gauge fields as boundary operators in AdS/CFT. In the presence of the wormhole dual to the thermofield double state of two CFTs, the existence of bulk gauge fields is in some tension with the microscopic tensor factorization of the Hilbert space. I explain how this tension can be resolved by splitting the gauge field into charged constituents, and I argue that this leads to a new argument for the "principle of completeness", which states that the charge lattice of a gauge theory coupled to gravity must be fully populated. I also claim that it leads to a new motivation for (and a clarification of) the "weak gravity conjecture", which I interpret as a strengthening of this principle. This setup gives a simple example of a situation where describing low-energy bulk physics in CFT language requires knowledge of high-energy bulk physics. This contradicts to some extent the notion of "effective conformal field theory", but in fact is an expected feature of the resolution of the black hole information problem. An analogous factorization issue exists also for the gravitational field, and I comment on several of its implications for reconstructing black hole interiors and the emergence of spacetime more generally.

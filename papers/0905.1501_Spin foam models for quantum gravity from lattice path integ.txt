@@ -1,7 +1,0 @@
-Title: Spin foam models for quantum gravity from lattice path integrals
-Authors: Valentin Bonzom
-Published: 2009-05-10
-arXiv ID: http://arxiv.org/abs/0905.1501v2
-Categories: gr-qc
-Abstract:
-Spin foam models for quantum gravity are derived from lattice path integrals. The setting involves variables from both lattice BF theory and Regge calculus. The action consists in a Regge action, which depends on areas, dihedral angles and includes the Immirzi parameter. In addition, a measure is inserted to ensure a consistent gluing of simplices, so that the amplitude is dominated by configurations which satisfy the parallel transport relations. We explicitly compute the path integral as a sum over spin foams for a generic measure. The Freidel-Krasnov and Engle-Pereira-Rovelli models correspond to a special choice of gluing. In this case, the equations of motion describe genuine geometries, where the constraints of area-angle Regge calculus are satisfied. Furthermore, the Immirzi parameter drops out of the on-shell action, and stationarity with respect to area variations requires spacetime geometry to be flat.

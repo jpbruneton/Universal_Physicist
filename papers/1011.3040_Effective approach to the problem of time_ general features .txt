@@ -1,7 +1,0 @@
-Title: Effective approach to the problem of time: general features and examples
-Authors: Martin Bojowald, Philipp A Hoehn, Artur Tsobanjan
-Published: 2010-11-12
-arXiv ID: http://arxiv.org/abs/1011.3040v2
-Categories: gr-qc
-Abstract:
-The effective approach to quantum dynamics allows a reformulation of the Dirac quantization procedure for constrained systems in terms of an infinite-dimensional constrained system of classical type. For semiclassical approximations, the quantum constrained system can be truncated to finite size and solved by the reduced phase space or gauge-fixing methods. In particular, the classical feasibility of local internal times is directly generalized to quantum systems, overcoming the main difficulties associated with the general problem of time in the semiclassical realm. The key features of local internal times and the procedure of patching global solutions using overlapping intervals of local internal times are described and illustrated by two quantum mechanical examples. Relational evolution in a given choice of internal time is most conveniently described and interpreted in a corresponding choice of gauge at the effective level and changing the internal clock is, therefore, essentially achieved by a gauge transformation. This article complements the conceptual discussion in arXiv:1009.5953.

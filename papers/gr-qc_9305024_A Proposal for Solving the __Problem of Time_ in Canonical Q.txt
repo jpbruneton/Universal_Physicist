@@ -1,7 +1,0 @@
-Title: A Proposal for Solving the ``Problem of Time" in Canonical Quantum Gravity
-Authors: Robert M. Wald
-Published: 1993-05-25
-arXiv ID: http://arxiv.org/abs/gr-qc/9305024v1
-Categories: gr-qc
-Abstract:
-The "problem of time" in canonical quantum gravity refers to the difficulties involved in defining a Hilbert space structure on states -- and local observables on this Hilbert space -- for a theory in which the spacetime metric is treated as a quantum field, so no classical metrical or causal structure is present on spacetime. We describe an approach -- much in the spirit of ideas proposed by Misner, Kuchar and others -- to defining states and local observables in quantum gravity which exploits the analogy between the Hamiltonian formulation of general relativity and that of a relativistic particle. In the case ofminisuperspace models, a concrete theory is obtained which appears to be mathematically and physically viable, although it contains some radical features with regard to the presence of an "arrow of time". The viability of this approach in the case ofinfinitely many degrees of freedom rests on a number of fairlywell defined issues, which, however, remain unresolved. As a byproduct of our analysis, the theory of a relativistic particle in curved spacetime is developed.

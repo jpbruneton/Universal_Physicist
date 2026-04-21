@@ -1,7 +1,0 @@
-Title: Near Extremal Black Hole Entropy as Entanglement Entropy via AdS2/CFT1
-Authors: Tatsuo Azeyanagi, Tatsuma Nishioka, Tadashi Takayanagi
-Published: 2007-10-16
-arXiv ID: http://arxiv.org/abs/0710.2956v4
-Categories: hep-th, gr-qc
-Abstract:
-We point out that the entropy of (near) extremal black holes can be interpreted as the entanglement entropy of dual conformal quantum mechanics via AdS2/CFT1. As an explicit example, we study near extremal BTZ black holes and derive this claim from AdS3/CFT2. We also analytically compute the entanglement entropy in the two dimensional CFT of a free Dirac fermion compactified on a circle at finite temperature. From this result, we clarify the relation between the thermal entropy and entanglement entropy, which is essential for the entanglement interpretation of black hole entropy.

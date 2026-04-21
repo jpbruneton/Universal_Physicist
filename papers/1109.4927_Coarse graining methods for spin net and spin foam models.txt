@@ -1,7 +1,0 @@
-Title: Coarse graining methods for spin net and spin foam models
-Authors: Bianca Dittrich, Frank C. Eckert, Mercedes Martin-Benito
-Published: 2011-09-22
-arXiv ID: http://arxiv.org/abs/1109.4927v1
-Categories: gr-qc, cond-mat.str-el, hep-lat, quant-ph
-Abstract:
-We undertake first steps in making a class of discrete models of quantum gravity, spin foams, accessible to a large scale analysis by numerical and computational methods. In particular, we apply Migdal-Kadanoff and Tensor Network Renormalization schemes to spin net and spin foam models based on finite Abelian groups and introduce `cutoff models' to probe the fate of gauge symmetries under various such approximated renormalization group flows. For the Tensor Network Renormalization analysis, a new Gauss constraint preserving algorithm is introduced to improve numerical stability and aid physical interpretation. We also describe the fixed point structure and establish an equivalence of certain models.

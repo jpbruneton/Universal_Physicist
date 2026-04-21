@@ -1,7 +1,0 @@
-Title: Casting Loop Quantum Cosmology in the Spin Foam Paradigm
-Authors: Abhay Ashtekar, Miguel Campiglia, Adam Henderson
-Published: 2010-01-28
-arXiv ID: http://arxiv.org/abs/1001.5147v2
-Categories: gr-qc
-Abstract:
-The goal of spin foam models is to provide a viable path integral formulation of quantum gravity. Because of background independence, their underlying framework has certain novel features that are not shared by path integral formulations of familiar field theories in Minkowski space. As a simple viability test, these features were recently examined through the lens of loop quantum cosmology (LQC). Results of that analysis, reported in a brief communication [1], turned out to provide concrete arguments in support of the spin foam paradigm. We now present detailed proofs of those results. Since the quantum theory of LQC models is well understood, this analysis also serves to shed new light on some long standing issues in the spin foam and group field theory literature. In particular, it suggests an intriguing possibility for addressing the question of why the cosmological constant is positive and small.

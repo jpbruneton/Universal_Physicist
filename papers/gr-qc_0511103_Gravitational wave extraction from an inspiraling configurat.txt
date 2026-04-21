@@ -1,7 +1,0 @@
-Title: Gravitational wave extraction from an inspiraling configuration of merging black holes
-Authors: John G. Baker, Joan Centrella, Dae-Il Choi, Michael Koppitz, James van Meter
-Published: 2005-11-17
-arXiv ID: http://arxiv.org/abs/gr-qc/0511103v1
-Categories: gr-qc, astro-ph, physics.comp-ph
-Abstract:
-We present new techniqes for evolving binary black hole systems which allow the accurate determination of gravitational waveforms directly from the wave zone region of the numerical simulations. Rather than excising the black hole interiors, our approach follows the "puncture" treatment of black holes, but utilzing a new gauge condition which allows the black holes to move successfully through the computational domain. We apply these techniques to an inspiraling binary, modeling the radiation generated during the final plunge and ringdown. We demonstrate convergence of the waveforms and good conservation of mass-energy, with just over 3% of the system's mass converted to gravitional radiation.

@@ -1,7 +1,0 @@
-Title: Minimum Length from First Principles
-Authors: Xavier Calmet, Michael Graesser, Stephen D. H. Hsu
-Published: 2005-05-16
-arXiv ID: http://arxiv.org/abs/hep-th/0505144v1
-Categories: hep-th
-Abstract:
-We show that no device or gedanken experiment is capable of measuring a distance less than the Planck length. By "measuring a distance less than the Planck length" we mean, technically, resolve the eigenvalues of the position operator to within that accuracy. The only assumptions in our argument are causality, the uncertainty principle from quantum mechanics and a dynamical criteria for gravitational collapse from classical general relativity called the hoop conjecture. The inability of any gedanken experiment to measure a sub-Planckian distance suggests the existence of a minimal length.

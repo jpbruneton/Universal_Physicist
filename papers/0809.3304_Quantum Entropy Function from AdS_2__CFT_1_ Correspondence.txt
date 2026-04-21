@@ -1,7 +1,0 @@
-Title: Quantum Entropy Function from AdS(2)/CFT(1) Correspondence
-Authors: Ashoke Sen
-Published: 2008-09-19
-arXiv ID: http://arxiv.org/abs/0809.3304v2
-Categories: hep-th, gr-qc
-Abstract:
-We review and extend recent attempts to find a precise relation between extremal black hole entropy and degeneracy of microstates using AdS_2/CFT_1 correspondence. Our analysis leads to a specific relation between degeneracy of black hole microstates and an appropriately defined partition function of string theory on the near horizon geometry, -- named the quantum entropy function. In the classical limit this reduces to the usual relation between statistical entropy and Wald entropy.

@@ -1,7 +1,0 @@
-Title: Modulated phases of nematic liquid crystals induced by tetrahedral order
-Authors: Michely P. Rosseto, Jonathan V. Selinger
-Published: 2021-12-30
-arXiv ID: http://arxiv.org/abs/2112.15218v1
-Categories: cond-mat.soft
-Abstract:
-Recent theoretical research has developed a general framework to understand director deformations and modulated phases in nematic liquid crystals. In this framework, there are four fundamental director deformation modes: twist, bend, splay, and a fourth mode $Δ$ related to saddle-splay. The first three of these modes are known to induce modulated phases. Here, we consider modulated phases induced by the fourth mode. We develop a theory for tetrahedral order in liquid crystals, and show that it couples to the $Δ$ mode of director deformation. Because of geometric frustration, the $Δ$ mode cannot fill space by itself, but rather must be accompanied by twist or splay. Hence, it may induce a spontaneous cholesteric phase, with either handedness, or a splay nematic phase.

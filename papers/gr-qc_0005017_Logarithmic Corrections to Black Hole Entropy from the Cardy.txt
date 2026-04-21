@@ -1,7 +1,0 @@
-Title: Logarithmic Corrections to Black Hole Entropy from the Cardy Formula
-Authors: S. Carlip
-Published: 2000-05-04
-arXiv ID: http://arxiv.org/abs/gr-qc/0005017v3
-Categories: gr-qc, hep-th
-Abstract:
-Many recent attempts to calculate black hole entropy from first principles rely on conformal field theory techniques. By examining the logarithmic corrections to the Cardy formula, I compute the first-order quantum correction to the Bekenstein-Hawking entropy in several models, including those based on asymptotic symmetries, horizon symmetries, and certain string theories. Despite very different physical assumptions, these models all give a correction proportional to the logarithm of the horizon size, and agree qualitatively with recent results from ``quantum geometry'' in 3+1 dimensions. There are some indications that even the coefficient of the correction may be universal, up to differences that depend on the treatment of angular momentum and conserved charges.

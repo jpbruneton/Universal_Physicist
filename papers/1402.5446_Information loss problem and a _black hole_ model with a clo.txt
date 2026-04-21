@@ -1,7 +1,0 @@
-Title: Information loss problem and a `black hole' model with a closed apparent horizon
-Authors: Valeri P. Frolov
-Published: 2014-02-21
-arXiv ID: http://arxiv.org/abs/1402.5446v3
-Categories: hep-th, gr-qc
-Abstract:
-In a classical description the spacetime curvature inside a black hole infinitely grows. In the domain where it reaches the Planckian value and exceeds it the Einstein equations should be modified. In the absence of reliable theory of quantum gravity it is instructive to consider simplified models. We assume that a spacetime curvature is limited by some value (of the order of the Planckian one). We use modified Vaidya metric, proposed by Hayward, to describe the black hole evaporation process. In such a spacetime the curvature near $r=0$ remains finite, it does not have an event horizon and its apparent horizon is closed. If the initial mass of such a `black hole' is much larger than the Planckian one its properties (as seen by an external observer) are practically the same as properties of the `standard' black hole with the event horizon. We study outgoing null rays in the vicinity of the outer apparent and introduce a notion of quasi-horizon. We demonstrate that particles, trapped inside a `black hole' during the evaporation process, finally may return to external space after the evaporation is completed. We also demonstrate that such quanta would have very large blue-shift. The absence of the event horizon makes it possible restoration of the unitarity in evaporating black holes.

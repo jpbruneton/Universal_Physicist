@@ -1,7 +1,0 @@
-Title: MOND--theoretical aspects
-Authors: Mordehai Milgrom
-Published: 2002-07-11
-arXiv ID: http://arxiv.org/abs/astro-ph/0207231v2
-Categories: astro-ph, gr-qc, hep-ph
-Abstract:
-I discuss open theoretical questions pertaining to the modified dynamics (MOND)--a proposed alternative to dark matter, which posits a breakdown of Newtonian dynamics in the limit of small accelerations. In particular, I point the reasons for thinking that MOND is an effective theory--perhaps, despite appearance, not even in conflict with GR. I then contrast the two interpretations of MOND as modified gravity and as modified inertia. I describe two mechanical models that are described by potential theories similar to (non-relativistic) MOND: a potential-flow model, and a membrane model. These might shed some light on a possible origin of MOND. The possible involvement of vacuum effects is also speculated on.

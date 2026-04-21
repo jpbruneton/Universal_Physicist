@@ -1,7 +1,0 @@
-Title: Semiclassical resolution of the black hole singularity inspired in the minimal uncertainty approach
-Authors: Brayan Melchor, Rolando Perca, Wilfredo Yupanqui
-Published: 2023-10-09
-arXiv ID: http://arxiv.org/abs/2310.05332v3
-Categories: gr-qc, hep-th
-Abstract:
-We propose a new lapse function that simplifies the Hamiltonian constraint, describing the interior of the black hole in terms of the Ashtekar-Barbero variables, into a more straightforward form. The new Hamiltonian leads to different equations of motion than those found in the literature, but through a suitable transformation between temporal parameters, it is found that such a choice leads us to the classical solutions of the Schwarzschild metric, still preserving the physical singularity. In order to resolve this singularity, and inspired by the minimal uncertainty approach, we modify the classical algebra between the dynamic variables of the model, imposing an effective dynamics within the black hole. As a consequence, one of the dynamic variables, denoted by $p_b$, acquires a minimum value at the singularity $t=0$, and on the other hand, the variable related to the radius of the 2-sphere, $p_c$, leads to the resolution of the classical singularity of the black hole by replacing it with a bounce that connects the interior of the black hole with the interior of the white hole. This bounce occurs in the Planck-scale region, where a new event horizon manifests. Upon crossing this horizon, the nature of the interval changes from spatial to temporal outside the white hole.

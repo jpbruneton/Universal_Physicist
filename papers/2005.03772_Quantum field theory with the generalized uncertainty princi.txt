@@ -1,7 +1,0 @@
-Title: Quantum field theory with the generalized uncertainty principle II: Quantum Electrodynamics
-Authors: Pasquale Bosso, Saurya Das, Vasil Todorinov
-Published: 2020-05-07
-arXiv ID: http://arxiv.org/abs/2005.03772v1
-Categories: gr-qc, hep-th
-Abstract:
-Continuing our earlier work on the application of the Relativistic Generalized Uncertainty Principle (RGUP) to quantum field theories, in this paper we study Quantum Electrodynamics (QED) with minimum length. We obtain expressions for the Lagrangian, Feynman rules and scattering amplitudes of the theory, and discuss their consequences for current and future high energy physics experiments. We hope this will provide an improved window for testing Quantum Gravity effects in the laboratory.

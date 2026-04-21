@@ -1,7 +1,0 @@
-Title: General Relativity without paradigm of space-time covariance, and resolution of the problem of time
-Authors: Chopin Soo, Hoi-Lai Yu
-Published: 2012-01-16
-arXiv ID: http://arxiv.org/abs/1201.3164v5
-Categories: gr-qc
-Abstract:
-The framework of a theory of gravity from the quantum to the classical regime is presented. The paradigm shift from full spacetime covariance to spatial diffeomorphism invariance, together with clean decomposition of the canonical structure, yield transparent physical dynamics and a resolution of the problem of time. The deep divide between quantum mechanics and conventional canonical formulations of quantum gravity is overcome with a Schrödinger equation for quantum geometrodynamics that describes evolution in intrinsic time. Unitary time development with gauge-invariant temporal ordering is also viable. All Kuchar observables become physical; and classical spacetime, with direct correlation between its proper times and intrinsic time intervals, emerges from constructive interference. The framework not only yields a physical Hamiltonian for Einstein's theory, but also prompts natural extensions and improvements towards a well behaved quantum theory of gravity. It is a consistent canonical scheme to discuss Horava-Lifshitz theories with intrinsic time evolution, and of the many possible alternatives that respect 3-covariance (rather than the more restrictive 4-covariance of Einstein's theory), Horava's ``detailed balance" form of the Hamiltonian constraint is essentially pinned down by this framework.

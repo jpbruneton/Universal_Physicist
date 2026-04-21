@@ -1,7 +1,0 @@
-Title: Testing Einstein's special relativity with Fermi's short hard gamma-ray burst GRB090510
-Authors: Fermi GBM/LAT Collaborations
-Published: 2009-08-13
-arXiv ID: http://arxiv.org/abs/0908.1832v1
-Categories: astro-ph.HE
-Abstract:
-Gamma-ray bursts (GRBs) are the most powerful explosions in the universe and probe physics under extreme conditions. GRBs divide into two classes, of short and long duration, thought to originate from different types of progenitor systems. The physics of their gamma-ray emission is still poorly known, over 40 years after their discovery, but may be probed by their highest-energy photons. Here we report the first detection of high-energy emission from a short GRB with measured redshift, GRB 090510, using the Fermi Gamma-ray Space Telescope. We detect for the first time a GRB prompt spectrum with a significant deviation from the Band function. This can be interpreted as two distinct spectral components, which challenge the prevailing gamma-ray emission mechanism: synchrotron - synchrotron self-Compton. The detection of a 31 GeV photon during the first second sets the highest lower limit on a GRB outflow Lorentz factor, of >1200, suggesting that the outflows powering short GRBs are at least as highly relativistic as those powering long GRBs. Even more importantly, this photon sets limits on a possible linear energy dependence of the propagation speed of photons (Lorentz-invariance violation) requiring for the first time a quantum-gravity mass scale significantly above the Planck mass.

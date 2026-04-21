@@ -1,7 +1,0 @@
-Title: Exploring improved holographic theories for QCD: Part II
-Authors: U. Gursoy, E. Kiritsis, F. Nitti
-Published: 2007-07-10
-arXiv ID: http://arxiv.org/abs/0707.1349v3
-Categories: hep-th, hep-lat, hep-ph
-Abstract:
-This paper is a continuation of ArXiv:0707.1324 where improved holographic theories for QCD were set up and explored. Here, the IR confining geometries are classified and analyzed. They all end in a "good" (repulsive) singularity in the IR. The glueball spectra are gaped and discrete, and they favorably compare to the lattice data. Quite generally, confinement and discrete spectra imply each other. Asymptotically linear glueball masses can also be achieved. Asymptotic mass ratios of various glueballs with different spin also turn out to be universal. Mesons dynamics is implemented via space filling D4-anti-D4 brane pairs. The associated tachyon dynamics is analyzed and chiral symmetry breaking is shown. The dynamics of the RR axion is analyzed, and the non-perturbative running of the QCD theta-angle is obtained. It is shown to always vanish in the IR.

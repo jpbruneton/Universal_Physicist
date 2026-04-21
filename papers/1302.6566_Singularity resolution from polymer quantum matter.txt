@@ -1,7 +1,0 @@
-Title: Singularity resolution from polymer quantum matter
-Authors: Andreas Kreienbuehl, Tomasz Pawlowski
-Published: 2013-02-26
-arXiv ID: http://arxiv.org/abs/1302.6566v2
-Categories: gr-qc, astro-ph.CO, hep-th
-Abstract:
-We study the polymeric nature of quantum matter fields using the example of a Friedmann-Lemaitre-Robertson-Walker universe sourced by a minimally coupled massless scalar field. The model is treated in the symmetry reduced regime via deparametrization techniques, with the scale factor playing the role of time. Subsequently, the remaining dynamic degrees of freedom corresponding to the matter are polymer quantized. The analysis of the resulting genuine quantum dynamic shows that the big bang singularity is resolved, although with the form of the resolution differing significantly from that in the models with matter clocks: dynamically, the singularity is made passable rather than avoided. Furthermore, this analysis exposes crucial limitations to the so-called effective dynamic in loop quantum cosmology when applied outside of the most basic isotropic settings.

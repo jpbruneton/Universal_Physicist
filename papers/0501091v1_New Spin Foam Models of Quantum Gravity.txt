@@ -1,7 +1,0 @@
-Title: New Spin Foam Models of Quantum Gravity
-Authors: A. Mikovic
-Published: 2005-01-28
-arXiv ID: http://arxiv.org/abs/gr-qc/0501091v1
-Categories: gr-qc
-Abstract:
-We give a brief and a critical review of the Barret-Crane spin foam models of quantum gravity. Then we describe two new spin foam models which are obtained by direct quantization of General Relativity and do not have some of the drawbacks of the Barret-Crane models. These are the model of spin foam invariants for the embedded spin networks in loop quantum gravity and the spin foam model based on the integration of the tetrads in the path integral for the Palatini action.

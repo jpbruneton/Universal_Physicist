@@ -1,7 +1,0 @@
-Title: Black Hole Entropy Function, Attractors and Precision Counting of Microstates
-Authors: Ashoke Sen
-Published: 2007-08-09
-arXiv ID: http://arxiv.org/abs/0708.1270v4
-Categories: hep-th
-Abstract:
-In these lecture notes we describe recent progress in our understanding of attractor mechanism and entropy of extremal black holes based on the entropy function formalism. We also describe precise computation of the microscopic degeneracy of a class of quarter BPS dyons in N=4 supersymmetric string theories, and compare the statistical entropy of these dyons, expanded in inverse powers of electric and magnetic charges, with a similar expansion of the corresponding black hole entropy. This comparison is extended to include the contribution to the entropy from multi-centered black holes as well.

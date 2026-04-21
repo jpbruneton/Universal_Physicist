@@ -1,7 +1,0 @@
-Title: Free particle wavefunction in light of the minimum-length deformed quantum mechanics and some of its phenomenological implications
-Authors: Micheal S. Berger, Michael Maziashvili
-Published: 2010-10-14
-arXiv ID: http://arxiv.org/abs/1010.2873v2
-Categories: gr-qc, hep-th
-Abstract:
-At a fundamental level the notion of particle (quantum) comes from quantum field theory. From this point of view we estimate corrections to the free particle wave function due to minimum-length deformed quantum mechanics to the first order in the deformation parameter. Namely, in the matrix element $<0 |\varPhi(t,\,\mathbf{x}) |\mathbf{p} >$ that in the standard case sets the free particle wave function $\propto \exp(i[\mathbf{p}\mathbf{x} - ε(\mathbf{p}) t])$ there appear three kinds of corrections when the field operator is calculated by using the minimum-length deformed quantum mechanics. Starting from the standard (not modified at the classical level) Lagrangian, after the field quantization we get a modified dispersion relation, and besides that we find that the particle's wave function contains a small fractions of an antiparticle wave function and the backscattered wave. The result leads to interesting implications for black hole physics.

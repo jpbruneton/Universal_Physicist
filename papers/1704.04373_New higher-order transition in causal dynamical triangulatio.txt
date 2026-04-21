@@ -1,7 +1,0 @@
-Title: New higher-order transition in causal dynamical triangulations
-Authors: J. Ambjorn, D. Coumbe, J. Gizbert-Studnicki, A. Gorlich, J. Jurkiewicz
-Published: 2017-04-14
-arXiv ID: http://arxiv.org/abs/1704.04373v2
-Categories: hep-lat
-Abstract:
-We reinvestigate the recently discovered bifurcation phase transition in Causal Dynamical Triangulations (CDT) and provide further evidence that it is a higher order transition. We also investigate the impact of introducing matter in the form of massless scalar fields to CDT. We discuss the impact of scalar fields on the measured spatial volumes and fluctuation profiles in addition to analysing how the scalar fields influence the position of the bifurcation transition.

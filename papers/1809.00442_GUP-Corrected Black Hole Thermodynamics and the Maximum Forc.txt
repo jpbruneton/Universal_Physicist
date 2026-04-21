@@ -1,7 +1,0 @@
-Title: GUP-Corrected Black Hole Thermodynamics and the Maximum Force Conjecture
-Authors: Yen Chin Ong
-Published: 2018-09-03
-arXiv ID: http://arxiv.org/abs/1809.00442v2
-Categories: gr-qc
-Abstract:
-We show that thermodynamics for an asymptotically flat Schwarzschild black hole leads to a force of magnitude $c^4/(2G)$. This remains true if one considers the simplest form of correction due to the generalized uncertainty principle. We comment on the maximum force conjecture, the subtleties involved, as well as the discrepancies with previous results in the literature.

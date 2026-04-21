@@ -1,7 +1,0 @@
-Title: Nonstandard optics from quantum spacetime
-Authors: Rodolfo Gambini, Jorge Pullin
-Published: 1998-09-09
-arXiv ID: http://arxiv.org/abs/gr-qc/9809038v1
-Categories: gr-qc
-Abstract:
-We study light propagation in the picture of semi-classical space-time that emerges in canonical quantum gravity in the loop representation. In such picture, where space-time exhibits a polymer-like structure at microscales, it is natural to expect departures from the perfect non-dispersiveness of ordinary vacuum. We evaluate these departures, computing the modifications to Maxwell's equations due to quantum gravity, and showing that under certain circumstances, non-vanishing corrections appear that depend on the helicity of propagating waves. These effects could lead to observable cosmological predictions of the discrete nature of quantum spacetime. In particular, recent observations of non-dispersiveness in the spectra of gamma-ray bursts at various energies could be used to constrain the type of semi-classical state that describes the universe.

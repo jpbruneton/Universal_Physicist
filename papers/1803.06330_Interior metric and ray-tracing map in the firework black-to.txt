@@ -1,7 +1,0 @@
-Title: Interior metric and ray-tracing map in the firework black-to-white hole transition
-Authors: Carlo Rovelli, Pierre Martin-Dussaud
-Published: 2018-03-16
-arXiv ID: http://arxiv.org/abs/1803.06330v3
-Categories: gr-qc, hep-th
-Abstract:
-The possibility that a black hole could tunnel into a white hole has recently received attention. Here we present a metric that improves the 'firework' metric: it describes the entire process and solves the Einstein equations everywhere except on a small transition surface that corresponds to the quantum tunnelling. We compute the corresponding ray-tracing map from past infinity to future infinity explicitly.

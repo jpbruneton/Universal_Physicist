@@ -1,7 +1,0 @@
-Title: Renormalization of tensor-network states
-Authors: H. H. Zhao, Z. Y. Xie, Q. N. Chen, Z. C. Wei, J. W. Cai, T. Xiang
-Published: 2010-02-07
-arXiv ID: http://arxiv.org/abs/1002.1405v2
-Categories: cond-mat.str-el, cond-mat.stat-mech, physics.comp-ph, quant-ph
-Abstract:
-We have discussed the tensor-network representation of classical statistical or interacting quantum lattice models, and given a comprehensive introduction to the numerical methods we recently proposed for studying the tensor-network states/models in two dimensions. A second renormalization scheme is introduced to take into account the environment contribution in the calculation of the partition function of classical tensor network models or the expectation values of quantum tensor network states. It improves significantly the accuracy of the coarse grained tensor renormalization group method. In the study of the quantum tensor-network states, we point out that the renormalization effect of the environment can be efficiently and accurately described by the bond vector. This, combined with the imaginary time evolution of the wavefunction, provides an accurate projection method to determine the tensor-network wavfunction. It reduces significantly the truncation error and enable a tensor-network state with a large bond dimension, which is difficult to be accessed by other methods, to be accurately determined.

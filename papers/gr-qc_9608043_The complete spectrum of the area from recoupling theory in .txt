@@ -1,7 +1,0 @@
-Title: The complete spectrum of the area from recoupling theory in loop quantum gravity
-Authors: Simonetta Frittelli, Luis Lehner, Carlo Rovelli
-Published: 1996-08-16
-arXiv ID: http://arxiv.org/abs/gr-qc/9608043v2
-Categories: gr-qc
-Abstract:
-We compute the complete spectrum of the area operator in the loop representation of quantum gravity, using recoupling theory. This result extends previous derivations, which did not include the ``degenerate'' sector, and agrees with the recently computed spectrum of the connection-representation area operator.

@@ -1,7 +1,0 @@
-Title: Quantum corrections to the thermodynamics of Schwarzschild-Tangherlini black hole and the generalized uncertainty principle
-Authors: Z. W. Feng, H. L. Li, X. T. Zu, S. Z. Yang
-Published: 2016-04-16
-arXiv ID: http://arxiv.org/abs/1604.04702v3
-Categories: hep-th
-Abstract:
-We investigate the thermodynamics of the Schwarzschild-Tangherlini black hole in the context of the generalized uncertainty principle (GUP). The corrections to the Hawking temperature, entropy and the heat capacity are obtained via the modified Hamilton-Jacobi equation. These modifications show that the GUP changes the evolution of the Schwarzschild-Tangherlini black hole. Specially, the GUP effect becomes susceptible when the radius or mass of the black hole approaches the order of Planck scale, it stops radiating and leads to black hole remnant. Meanwhile, the Planck scale remnant can be confirmed through the analysis of the heat capacity. Those phenomena imply that the GUP may give a way to solve the information paradox. Besides, we also investigate the possibilities to observe the black hole at the Large Hadron Collider (LHC), and the results demonstrate that the black hole cannot be produced in the recent LHC.

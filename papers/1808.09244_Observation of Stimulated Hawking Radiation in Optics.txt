@@ -1,7 +1,0 @@
-Title: Observation of Stimulated Hawking Radiation in Optics
-Authors: Jonathan Drori, Yuval Rosenberg, David Bermudez, Yaron Silberberg, Ulf Leonhardt
-Published: 2018-08-28
-arXiv ID: http://arxiv.org/abs/1808.09244v4
-Categories: gr-qc, physics.optics
-Abstract:
-The theory of Hawking radiation can be tested in laboratory analogues of black holes. We use light pulses in nonlinear fiber optics to establish artificial event horizons. Each pulse generates a moving perturbation of the refractive index via the Kerr effect. Probe light perceives this as an event horizon when its group velocity, slowed down by the perturbation, matches the speed of the pulse. We have observed in our experiment that the probe stimulates Hawking radiation, which occurs in a regime of extreme nonlinear fiber optics where positive and negative frequencies mix.

@@ -1,7 +1,0 @@
-Title: Corrected Entropy-Area Relation and Modified Friedmann Equations
-Authors: Rong-Gen Cai, Li-Ming Cao, Ya-Peng Hu
-Published: 2008-07-08
-arXiv ID: http://arxiv.org/abs/0807.1232v2
-Categories: hep-th, gr-qc
-Abstract:
-Applying Clausius relation, $δQ=TdS$, to apparent horizon of a FRW universe with any spatial curvature, and assuming that the apparent horizon has temperature $T=1/(2π\tilde {r}_A)$, and a quantum corrected entropy-area relation, $S=A/4G +α\ln A/4G$, where $\tilde {r}_A$ and $A$ are the apparent horizon radius and area, respectively, and $α$ is a dimensionless constant, we derive modified Friedmann equations, which does not contain a bounce solution. On the other hand, loop quantum cosmology leads to a modified Friedmann equation $H^2 =\frac{8πG}{3}ρ(1-ρ/ρ_{\rm crit})$. We obtain an entropy expression of apparent horizon of FRW universe described by the modified Friedmann equation. In the limit of large horizon area, resulting entropy expression gives the above corrected entropy-area relation, however, the prefactor $α$ in the logarithmic term is positive, which seems not consistent with most of results in the literature that quantum geometry leads to a negative contribution to the area formula of black hole entropy.

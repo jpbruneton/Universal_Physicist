@@ -1,7 +1,0 @@
-Title: Newtonian gravity in loop quantum gravity
-Authors: Lee Smolin
-Published: 2010-01-20
-arXiv ID: http://arxiv.org/abs/1001.3668v2
-Categories: gr-qc, hep-th
-Abstract:
-We apply a recent argument of Verlinde to loop quantum gravity, to conclude that Newton's law of gravity emerges in an appropriate limit and setting. This is possible because the relationship between area and entropy is realized in loop quantum gravity when boundaries are imposed on a quantum spacetime.

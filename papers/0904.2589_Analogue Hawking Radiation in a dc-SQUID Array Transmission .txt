@@ -1,7 +1,0 @@
-Title: Analogue Hawking Radiation in a dc-SQUID Array Transmission Line
-Authors: P. D. Nation, M. P. Blencowe, A. J. Rimberg, E. Buks
-Published: 2009-04-16
-arXiv ID: http://arxiv.org/abs/0904.2589v2
-Categories: quant-ph, cond-mat.supr-con, gr-qc
-Abstract:
-We propose the use of a superconducting waveguide formed from an array of dc-SQUID's for investigating analogue Hawking radiation. Biasing the array with a space-time varying flux modifies the propagation velocity of the waveguide, leading to an effective metric with an horizon. Being a fundamentally quantum mechanical device, this setup allows for investigations of quantum effects such as back-reaction and analogue space-time fluctuations on the Hawking process.

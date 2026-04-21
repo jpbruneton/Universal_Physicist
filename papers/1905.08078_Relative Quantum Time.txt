@@ -1,7 +1,0 @@
-Title: Relative Quantum Time
-Authors: Leon Loveridge, Takayuki Miyadera
-Published: 2019-05-20
-arXiv ID: http://arxiv.org/abs/1905.08078v1
-Categories: quant-ph
-Abstract:
-The need for a time-shift invariant formulation of quantum theory arises from fundamental symmetry principles as well as heuristic cosmological considerations. Such a description then leaves open the question of how to reconcile global invariance with the perception of change, locally. By introducing relative time observables, we are able to make rigorous the Page-Wootters conditional probability formalism to show how local Heisenberg evolution is compatible with global invariance.

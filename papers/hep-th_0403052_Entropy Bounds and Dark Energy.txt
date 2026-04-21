@@ -1,7 +1,0 @@
-Title: Entropy Bounds and Dark Energy
-Authors: Stephen D. H. Hsu
-Published: 2004-03-03
-arXiv ID: http://arxiv.org/abs/hep-th/0403052v2
-Categories: hep-th, astro-ph, gr-qc, hep-ph
-Abstract:
-Entropy bounds render quantum corrections to the cosmological constant $Λ$ finite. Under certain assumptions, the natural value of $Λ$ is of order the observed dark energy density $\sim 10^{-10} {\rm eV}^4$, thereby resolving the cosmological constant problem. We note that the dark energy equation of state in these scenarios is $w \equiv p / ρ= 0$ over cosmological distances, and is strongly disfavored by observational data. Alternatively, $Λ$ in these scenarios might account for the diffuse dark matter component of the cosmological energy density.

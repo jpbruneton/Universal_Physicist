@@ -1,7 +1,0 @@
-Title: GUP Modified Hawking Radiation in Bumblebee Gravity
-Authors: Sara Kanzi, İzzet Sakallı
-Published: 2019-05-01
-arXiv ID: http://arxiv.org/abs/1905.00477v3
-Categories: hep-th
-Abstract:
-The effect of Lorentz symmetry breaking (LSB) on the Hawking radiation of Schwarzschild-like black hole found in the bumblebee gravity model (SBHBGM) is studied in the framework of quantum gravity. To this end, we consider Hawking radiation spin-0 (bosons) and spin-$\frac{1}{2}$ particles (fermions), which go in and out through the event horizon of the SBHBGM. We use the modified Klein-Gordon and Dirac equations, which are obtained from the generalized uncertainty principle (GUP) to show how Hawking radiation is affected by the GUP and LSB. In particular, we reveal that, independent of the spin of the emitted particle, GUP causes a change in the Hawking temperature of the SBHBGM. Furthermore, we compute the semi-analytic greybody factors (for both bosons and fermions) of the SBHBGM. Thus, we reveal that LSB is effective on the greybody factor of the SBHBGM such that its redundancy decreases the value of the greybody factor. Our findings are graphically depicted.

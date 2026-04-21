@@ -1,7 +1,0 @@
-Title: Loop quantum cosmology: From pre-inflationary dynamics to observations
-Authors: Abhay Ashtekar, Aurelien Barrau
-Published: 2015-04-28
-arXiv ID: http://arxiv.org/abs/1504.07559v2
-Categories: gr-qc
-Abstract:
-The Planck collaboration has provided us rich information about the early universe, and a host of new observational missions will soon shed further light on the `anomalies' that appear to exist on the largest angular scales. From a quantum gravity perspective, it is natural to inquire if one can trace back the origin of such puzzling features to Planck scale physics. Loop quantum cosmology provides a promising avenue to explore this issue because of its natural resolution of the big bang singularity. Thanks to advances over the last decade, the theory has matured sufficiently to allow concrete calculations of the phenomenological consequences of its pre-inflationary dynamics. In this article we summarize the current status of the ensuing two-way dialog between quantum gravity and observations.

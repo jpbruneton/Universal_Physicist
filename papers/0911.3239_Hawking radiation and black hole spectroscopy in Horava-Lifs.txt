@@ -1,7 +1,0 @@
-Title: Hawking radiation and black hole spectroscopy in Horava-Lifshitz gravity
-Authors: Bibhas Ranjan Majhi
-Published: 2009-11-17
-arXiv ID: http://arxiv.org/abs/0911.3239v2
-Categories: hep-th, gr-qc
-Abstract:
-Hawking radiation from the black hole in Horava-Lifshitz gravity is discussed by a reformulation of the tunneling method given in \cite{Banerjee:2008sn}. Using a density matrix technique the radiation spectrum is derived which is identical to that of a perfect black body. The temperature obtained here is proportional to the surface gravity of the black hole as occurs in usual Einstein gravity. The entropy is also derived by using the first law of black hole thermodynamics. Finally, the spectrum of entropy/area is obtained. The latter result is also discussed from the viewpoint of quasi-normal modes. Both methods lead to an equispaced entropy spectrum, although the value of the spacing is not the same. On the other hand, since the entropy is not proportional to the horizon area of the black hole, the area spectrum is not equidistant, a finding which also holds for the Einstein-Gauss-Bonnet theory.

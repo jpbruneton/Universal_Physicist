@@ -1,7 +1,0 @@
-Title: Group field theory as the microscopic description of the quantum spacetime fluid: a new perspective on the continuum in quantum gravity
-Authors: Daniele Oriti
-Published: 2007-10-17
-arXiv ID: http://arxiv.org/abs/0710.3276v1
-Categories: gr-qc, hep-th
-Abstract:
-We introduce the group field theory (GFT) formalism for non-perturbative quantum gravity, and present it as a potential unifying framework for several other quantum gravity approaches, i.e. loop quantum gravity and simplicial quantum gravity ones. We then argue in favor of and present in detail what we believe is a new GFT perspective on the emergence of continuum spacetime from discrete quantum structures, based on the idea of quantum space as a condensed matter system. We put forward a more specific, albeit still very much tentative, proposal for the relevant phase of the GFT corresponding to the continuum: a Bose-Einstein condensate of GFT quanta. Finally, we sketch how the proposal may be realised and its effective dynamics could be extracted in the GFT setting and compared with continuum gravity theories.

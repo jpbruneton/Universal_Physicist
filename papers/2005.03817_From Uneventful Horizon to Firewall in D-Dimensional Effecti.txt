@@ -1,7 +1,0 @@
-Title: From Uneventful Horizon to Firewall in D-Dimensional Effective Theory
-Authors: Pei-Ming Ho
-Published: 2020-05-08
-arXiv ID: http://arxiv.org/abs/2005.03817v3
-Categories: hep-th, gr-qc
-Abstract:
-Assuming the standard effective-field-theoretic formulation of Hawking radiation, we show explicitly how a generic effective theory predicts a firewall from an initially uneventful horizon for a spherically symmetric, uncharged black hole in $D$ dimensions for $D \geq 4$. The firewall is created via higher-derivative interactions within the scrambling time after the collapsing matter enters the trapping horizon. This result manifests the trans-Planckian problem of Hawking radiation and demonstrates the incompatibility between Hawking radiation and the uneventful horizon.

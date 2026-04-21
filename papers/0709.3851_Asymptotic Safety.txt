@@ -1,7 +1,0 @@
-Title: Asymptotic Safety
-Authors: R. Percacci
-Published: 2007-09-24
-arXiv ID: http://arxiv.org/abs/0709.3851v2
-Categories: hep-th
-Abstract:
-Asymptotic safety is a set of conditions, based on the existence of a nontrivial fixed point for the renormalization group flow, which would make a quantum field theory consistent up to arbitrarily high energies. After introducing the basic ideas of this approach, I review the present evidence in favor of an asymptotically safe quantum field theory of gravity.

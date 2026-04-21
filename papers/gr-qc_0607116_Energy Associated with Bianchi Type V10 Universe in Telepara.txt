@@ -1,7 +1,0 @@
-Title: Energy Associated with Bianchi Type V10 Universe in Teleparallel Gravity
-Authors: Mustafa Salti
-Published: 2006-07-26
-arXiv ID: http://arxiv.org/abs/gr-qc/0607116v4
-Categories: gr-qc
-Abstract:
-This paper has been removed by arXiv administrators because it plagiarizes gr-qc/0011087, gr-qc/0205028, gr-qc/0404108, gr-qc/0212018, and gr-qc/0011027.

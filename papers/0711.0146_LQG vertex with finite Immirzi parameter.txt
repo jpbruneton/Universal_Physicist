@@ -1,7 +1,0 @@
-Title: LQG vertex with finite Immirzi parameter
-Authors: Jonathan Engle, Etera Livine, Roberto Pereira, Carlo Rovelli
-Published: 2007-11-01
-arXiv ID: http://arxiv.org/abs/0711.0146v2
-Categories: gr-qc
-Abstract:
-We extend the definition of the "flipped" loop-quantum-gravity vertex to the case of a finite Immirzi parameter. We cover the Euclidean as well as the Lorentzian case. We show that the resulting dynamics is defined on a Hilbert space isomorphic to the one of loop quantum gravity, and that the area operator has the same discrete spectrum as in loop quantum gravity. This includes the correct dependence on the Immirzi parameter, and, remarkably, holds in the Lorentzian case as well. The ad hoc flip of the symplectic structure that was initially required to derive the flipped vertex is not anymore needed for finite Immirzi parameter. These results establish a bridge between canonical loop quantum gravity and the spinfoam formalism in four dimensions.

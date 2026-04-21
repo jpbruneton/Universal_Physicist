@@ -1,7 +1,0 @@
-Title: The Quantum Gravity Dynamics of Near Extremal Black Holes
-Authors: Zhenbin Yang
-Published: 2018-09-23
-arXiv ID: http://arxiv.org/abs/1809.08647v3
-Categories: hep-th, gr-qc
-Abstract:
-We study the quantum effects of Near-Extremal black holes near their horizons. The gravitational dynamics in such backgrounds are closely connected to a particle in $AdS_2$ with constant electric field. We use this picture to solve the theory exactly. We will give a formula to calculate all correlation functions with quantum gravity backreactions as well as the exact Wheeler-DeWitt wavefunction. Using the WdW wavefunction, we investigate the complexity growth in quantum gravity.

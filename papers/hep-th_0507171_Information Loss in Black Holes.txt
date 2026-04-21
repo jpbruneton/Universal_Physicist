@@ -1,7 +1,0 @@
-Title: Information Loss in Black Holes
-Authors: S. W. Hawking
-Published: 2005-07-18
-arXiv ID: http://arxiv.org/abs/hep-th/0507171v2
-Categories: hep-th
-Abstract:
-The question of whether information is lost in black holes is investigated using Euclidean path integrals. The formation and evaporation of black holes is regarded as a scattering problem with all measurements being made at infinity. This seems to be well formulated only in asymptotically AdS spacetimes. The path integral over metrics with trivial topology is unitary and information preserving. On the other hand, the path integral over metrics with non-trivial topologies leads to correlation functions that decay to zero. Thus at late times only the unitary information preserving path integrals over trivial topologies will contribute. Elementary quantum gravity interactions do not lose information or quantum coherence.

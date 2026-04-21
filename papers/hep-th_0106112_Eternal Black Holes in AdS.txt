@@ -1,7 +1,0 @@
-Title: Eternal Black Holes in AdS
-Authors: Juan M. Maldacena
-Published: 2001-06-13
-arXiv ID: http://arxiv.org/abs/hep-th/0106112v6
-Categories: hep-th
-Abstract:
-We propose a dual non-perturbative description for maximally extended Schwarzschild Anti-de-Sitter spacetimes. The description involves two copies of the conformal field theory associated to the AdS spacetime and an initial entangled state. In this context we also discuss a version of the information loss paradox and its resolution.

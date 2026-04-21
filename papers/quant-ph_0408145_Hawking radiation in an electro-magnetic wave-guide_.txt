@@ -1,7 +1,0 @@
-Title: Hawking radiation in an electro-magnetic wave-guide?
-Authors: Ralf Schützhold, William G. Unruh
-Published: 2004-08-23
-arXiv ID: http://arxiv.org/abs/quant-ph/0408145v2
-Categories: quant-ph, gr-qc
-Abstract:
-It is demonstrated that the propagation of electro-magnetic waves in an appropriately designed wave-guide is (for large wave-lengths) analogous to that within a curved space-time -- such as around a black hole. As electro-magnetic radiation (e.g., micro-weaves) can be controlled, amplified, and detected (with present-day technology) much easier than sound, for example, we propose a set-up for the experimental verification of the Hawking effect. Apart from experimentally testing this striking prediction, this would facilitate the investigation of the trans-Planckian problem. PACS: 04.70.Dy, 04.80.-y, 42.50.-p, 84.40.Az.

@@ -1,7 +1,0 @@
-Title: Comment on "Quantum bounce and cosmic recall" [arXiv:0710.4543]
-Authors: Martin Bojowald
-Published: 2008-11-17
-arXiv ID: http://arxiv.org/abs/0811.2790v1
-Categories: gr-qc
-Abstract:
-A recently derived inequality on volume fluctuations of a bouncing cosmology, valid for states which are semiclassical long after the bounce, does not restrict pre-bounce fluctuations sufficiently strongly to conclude that the pre-bounce state was semiclassical except in a very weak sense.

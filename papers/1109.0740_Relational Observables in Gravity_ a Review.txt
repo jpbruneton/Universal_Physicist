@@ -1,7 +1,0 @@
-Title: Relational Observables in Gravity: a Review
-Authors: Johannes Tambornino
-Published: 2011-09-04
-arXiv ID: http://arxiv.org/abs/1109.0740v2
-Categories: gr-qc, hep-th, math-ph
-Abstract:
-We present an overview on relational observables in gravity mainly from a loop quantum gravity perspective. The gauge group of general relativity is the diffeomorphism group of the underlying manifold. Consequently, general relativity is a totally constrained theory with vanishing canonical Hamiltonian. This fact, often referred to as the problem of time, provides the main conceptual difficulty towards the construction of gauge-invariant local observables. Nevertheless, within the framework of complete observables, that encode relations between dynamical fields, progress has been made during the last 20 years. Although analytic control over observables for full gravity is still lacking, perturbative calculations have been performed and within de-parameterizable toy models it was possible for the first time to construct a full set of gauge invariant observables for a background independent field theory. We review these developments and comment on their implications for quantum gravity.

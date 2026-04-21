@@ -1,7 +1,0 @@
-Title: Finitary Spacetime Sheaves of Quantum Causal Sets: Curving Quantum Causality
-Authors: A. Mallios, I. Raptis
-Published: 2001-02-22
-arXiv ID: http://arxiv.org/abs/gr-qc/0102097v1
-Categories: gr-qc
-Abstract:
-A locally finite, causal and quantal substitute for a locally Minkowskian principal fiber bundle $\cal{P}$ of modules of Cartan differential forms $\omg$ over a bounded region $X$ of a curved $C^{\infty}$-smooth differential manifold spacetime $M$ with structure group ${\bf G}$ that of orthochronous Lorentz transformations $L^{+}:=SO(1,3)^{\uparrow}$, is presented. ${\cal{P}}$ is the structure on which classical Lorentzian gravity, regarded as a Yang-Mills type of gauge theory of a $sl(2,\com)$-valued connection 1-form $\cal{A}$, is usually formulated. The mathematical structure employed to model this replacement of ${\cal{P}}$ is a principal finitary spacetime sheaf $\vec{\cal{P}}_{n}$ of quantum causal sets $\amg_{n}$ with structure group ${\bf G}_{n}$, which is a finitary version of the group ${\bf G}$ of local symmetries of General Relativity, and a finitary Lie algebra ${\bf g}_{n}$-valued connection 1-form ${\cal{A}}_{n}$ on it, which is a section of its sub-sheaf $\amg^{1}_{n}$. ${\cal{A}}_{n}$ is physically interpreted as the dynamical field of a locally finite quantum causality, while its associated curvature ${\cal{F}}_{n}$, as some sort of `finitary Lorentzian quantum gravity.

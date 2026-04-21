@@ -1,7 +1,0 @@
-Title: The phase structure of Causal Dynamical Triangulations with toroidal spatial topology
-Authors: Jan Ambjørn, Jakub Gizbert-Studnicki, Andrzej Görlich, Jerzy Jurkiewicz, Dániel Németh
-Published: 2018-02-28
-arXiv ID: http://arxiv.org/abs/1802.10434v2
-Categories: hep-th, gr-qc, hep-lat
-Abstract:
-We investigate the impact of topology on the phase structure of four-dimensional Causal Dynamical Triangulations (CDT). Using numerical Monte Carlo simulations we study CDT with toroidal spatial topology. We confirm existence of all four distinct phases of quantum geometry earlier observed in CDT with spherical spatial topology. We plot the toroidal CDT phase diagram and find that it looks very similar to the case of the spherical spatial topology.

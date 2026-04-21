@@ -1,7 +1,0 @@
-Title: Quantum Reference Frames and the Classification of Rotationally-Invariant Maps
-Authors: J. -C. Boileau, L. Sheridan, M. Laforest, S. D. Bartlett
-Published: 2007-09-03
-arXiv ID: http://arxiv.org/abs/0709.0142v2
-Categories: quant-ph
-Abstract:
-We give a convenient representation for any map that is covariant with respect to an irreducible representation of SU(2), and use this representation to analyze the evolution of a quantum directional reference frame when it is exploited as a resource for performing quantum operations. We introduce the moments of a quantum reference frame, which serve as a complete description of its properties as a frame, and investigate how many times a quantum directional reference frame represented by a spin-j system can be used to perform a certain quantum operation with a given probability of success. We provide a considerable generalization of previous results on the degradation of a reference frame, from which follows a classification of the dynamics of spin-j system under the repeated action of any covariant map with respect to SU(2).

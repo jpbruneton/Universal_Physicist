@@ -1,7 +1,0 @@
-Title: Transformation of Spin in Quantum Reference Frames
-Authors: Marion Mikusch, Luis C. Barbado, Časlav Brukner
-Published: 2021-03-08
-arXiv ID: http://arxiv.org/abs/2103.05022v5
-Categories: quant-ph, gr-qc
-Abstract:
-In physical experiments, reference frames are standardly modelled through a specific choice of coordinates used to describe the physical systems, but they themselves are not considered as such. However, any reference frame is a physical system that ultimately behaves according to quantum mechanics. We develop a framework for rotational (i.e. spin) quantum reference frames, with respect to which quantum systems with spin degrees of freedom are described. We give an explicit model for such frames as systems composed of three spin coherent states of angular momentum $j$ and introduce the transformations between them by upgrading the Euler angles occurring in classical $\textrm{SO}(3)$ spin transformations to quantum mechanical operators acting on the states of the reference frames. To ensure that an arbitrary rotation can be applied on the spin we take the limit of infinitely large $j$, in which case the angle operator possesses a continuous spectrum. We prove that rotationally invariant Hamiltonians (such as that of the Heisenberg model) are invariant under a larger group of quantum reference frame transformations. Our result is the first development of the quantum reference frame formalism for a non-Abelian group.

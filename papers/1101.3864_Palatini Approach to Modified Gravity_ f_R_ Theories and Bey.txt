@@ -1,7 +1,0 @@
-Title: Palatini Approach to Modified Gravity: f(R) Theories and Beyond
-Authors: Gonzalo J. Olmo
-Published: 2011-01-20
-arXiv ID: http://arxiv.org/abs/1101.3864v1
-Categories: gr-qc, hep-ph, hep-th
-Abstract:
-We review the recent literature on modified theories of gravity in the Palatini approach. After discussing the motivations that lead to consider alternatives to Einstein's theory and to treat the metric and the connection as independent objects, we review several topics that have been recently studied within this framework. In particular, we provide an in-depth analysis of the cosmic speedup problem, laboratory and solar systems tests, the structure of stellar objects, the Cauchy problem, and bouncing cosmologies. We also discuss the importance of going beyond the f(R) models to capture other phenomenological aspects related with dark matter/energy and quantum gravity.

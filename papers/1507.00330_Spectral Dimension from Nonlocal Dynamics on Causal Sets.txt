@@ -1,7 +1,0 @@
-Title: Spectral Dimension from Nonlocal Dynamics on Causal Sets
-Authors: Alessio Belenchia, Dionigi M. T. Benincasa, Antonino Marciano, Leonardo Modesto
-Published: 2015-07-01
-arXiv ID: http://arxiv.org/abs/1507.00330v2
-Categories: gr-qc, hep-th
-Abstract:
-We investigate the spectral dimension obtained from non-local continuum d'Alembertians derived from causal sets. We find a universal dimensional reduction to 2 dimensions, in all dimensions. We conclude by discussing the validity and relevance of our results within the broader context of quantum field theories based on these nonlocal dynamics.

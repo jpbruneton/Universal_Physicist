@@ -1,7 +1,0 @@
-Title: Anomaly-free perturbations with inverse-volume and holonomy corrections in Loop Quantum Cosmology
-Authors: Thomas Cailleteau, Linda Linsefors, Aurelien Barrau
-Published: 2013-07-19
-arXiv ID: http://arxiv.org/abs/1307.5238v2
-Categories: gr-qc
-Abstract:
-This article addresses the issue of the closure of the algebra of constraints for generic (cosmological) perturbations when taking into account simultaneously the two main corrections of effective loop quantum cosmology, namely the holonomy and the inverse-volume terms. Previous works on either the holonomy or the inverse volume case are reviewed and generalized. In the inverse-volume case, we point out new possibilities. An anomaly-free solution including both corrections is found for perturbations, and the corresponding equations of motion are derived.

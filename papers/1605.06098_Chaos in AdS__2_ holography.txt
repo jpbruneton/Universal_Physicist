@@ -1,7 +1,0 @@
-Title: Chaos in AdS$_2$ holography
-Authors: Kristan Jensen
-Published: 2016-05-19
-arXiv ID: http://arxiv.org/abs/1605.06098v3
-Categories: hep-th
-Abstract:
-We revisit AdS$_2$ holography with the Sachdev-Ye-Kitaev models in mind. Our main result is to rewrite a generic theory of gravity near an AdS$_2$ throat as a novel hydrodynamics coupled to the correlation functions of a conformal quantum mechanics. This gives a prescription for the computation of $n$-point functions in the dual quantum mechanics. We thereby find that the dual is maximally chaotic.

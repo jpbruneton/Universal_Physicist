@@ -1,7 +1,0 @@
-Title: Wormhole geometries in modified teleparralel gravity and the energy conditions
-Authors: Christian G. Boehmer, Tiberiu Harko, Francisco S. N. Lobo
-Published: 2011-10-26
-arXiv ID: http://arxiv.org/abs/1110.5756v2
-Categories: gr-qc
-Abstract:
-In this work, we explore the possibility that static and spherically symmetric traversable wormhole geometries are supported by modified teleparallel gravity or f(T) gravity, where T is the torsion scalar. Considering the field equations with an off-diagonal tetrad, a plethora of asymptotically flat exact solutions are found, that satisfy the weak and the null energy conditions throughout the spacetime. More specifically, considering T=0, we find the general conditions for a wormhole satisfying the energy conditions at the throat and present specific examples. Secondly, considering specific choices for the f(T) form and for the redshift and shape functions, several solutions of wormhole geometries are found that satisfy the energy conditions throughout the spacetime. As in their general relativistic counterparts, these f(T) wormhole geometries present far-reaching physical and cosmological implications, such as being theoretically useful as shortcuts in spacetime and for inducing closed timelike curves, possibly violating causality.

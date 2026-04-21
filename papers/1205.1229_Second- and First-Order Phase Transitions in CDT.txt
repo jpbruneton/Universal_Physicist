@@ -1,7 +1,0 @@
-Title: Second- and First-Order Phase Transitions in CDT
-Authors: J. Ambjorn, S. Jordan, J. Jurkiewicz, R. Loll
-Published: 2012-05-06
-arXiv ID: http://arxiv.org/abs/1205.1229v1
-Categories: hep-th, gr-qc, hep-lat
-Abstract:
-Causal Dynamical Triangulations (CDT) is a proposal for a theory of quantum gravity, which implements a path-integral quantization of gravity as the continuum limit of a sum over piecewise flat spacetime geometries. We use Monte Carlo simulations to analyse the phase transition lines bordering the physically interesting de Sitter phase of the four-dimensional CDT model. Using a range of numerical criteria, we present strong evidence that the so-called A-C transition is first order, while the B-C transition is second order. The presence of a second-order transition may be related to an ultraviolet fixed point of quantum gravity and thus provide the key to probing physics at and possibly beyond the Planck scale.

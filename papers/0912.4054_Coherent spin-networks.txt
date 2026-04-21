@@ -1,7 +1,0 @@
-Title: Coherent spin-networks
-Authors: Eugenio Bianchi, Elena Magliaro, Claudio Perini
-Published: 2009-12-20
-arXiv ID: http://arxiv.org/abs/0912.4054v4
-Categories: gr-qc
-Abstract:
-In this paper we discuss a proposal of coherent states for Loop Quantum Gravity. These states are labeled by a point in the phase space of General Relativity as captured by a spin-network graph. They are defined as the gauge invariant projection of a product over links of Hall's heat-kernels for the cotangent bundle of SU(2). The labels of the state are written in terms of two unit-vectors, a spin and an angle for each link of the graph. The heat-kernel time is chosen to be a function of the spin. These labels are the ones used in the Spin Foam setting and admit a clear geometric interpretation. Moreover, the set of labels per link can be written as an element of SL(2,C). Therefore, these states coincide with Thiemann's coherent states with the area operator as complexifier. We study the properties of semiclassicality of these states and show that, for large spins, they reproduce a superposition over spins of spin-networks with nodes labeled by Livine-Speziale coherent intertwiners. Moreover, the weight associated to spins on links turns out to be given by a Gaussian times a phase as originally proposed by Rovelli.

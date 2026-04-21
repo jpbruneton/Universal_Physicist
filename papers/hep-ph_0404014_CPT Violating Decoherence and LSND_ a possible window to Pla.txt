@@ -1,7 +1,0 @@
-Title: CPT Violating Decoherence and LSND: a possible window to Planck scale Physics
-Authors: Gabriela Barenboim, Nick Mavromatos
-Published: 2004-04-01
-arXiv ID: http://arxiv.org/abs/hep-ph/0404014v4
-Categories: hep-ph
-Abstract:
-Decoherence has the potential to explain all existing neutrino data including LSND results, without enlarging the neutrino sector. This particular form of CPT violation can preserve the equality of masses and mixing angles between particle and antiparticle sectors, and still provide seizable differences in the oscillation patterns. A simplified minimal model of decoherence is sufficient to explain the existing neutrino data quite neatly, while making dramatic predictions for the upcoming experiments. Some comments on the order of the decoherence parameters in connection with theoretically expected values from some models of quantum-gravity are given. In particular, the quantum gravity decoherence as a primary origin of the neutrino mass differences scenario is explored, and even a speculative link between the neutrino mass-difference scale to the dark energy density component of the Universe today is drawn.

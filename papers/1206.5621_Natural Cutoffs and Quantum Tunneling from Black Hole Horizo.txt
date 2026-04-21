@@ -1,7 +1,0 @@
-Title: Natural Cutoffs and Quantum Tunneling from Black Hole Horizon
-Authors: Kourosh Nozari, S. Saghafi
-Published: 2012-06-25
-arXiv ID: http://arxiv.org/abs/1206.5621v2
-Categories: hep-th, gr-qc
-Abstract:
-We study tunneling of massless particles through quantum horizon of a Schwarzschild black hole where quantum gravity effects are taken into account. These effects are encoded in the existence of natural cutoffs as a minimal length, a minimal momentum and a maximal momentum through a generalized uncertainty principle. We study possible correlations between emitted particles to address the information loss problem. We focus also on the role played by these natural cutoffs on the tunneling rate through quantum horizon.

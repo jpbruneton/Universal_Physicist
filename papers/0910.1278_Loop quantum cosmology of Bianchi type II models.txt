@@ -1,7 +1,0 @@
-Title: Loop quantum cosmology of Bianchi type II models
-Authors: Abhay Ashtekar, Edward Wilson-Ewing
-Published: 2009-10-07
-arXiv ID: http://arxiv.org/abs/0910.1278v1
-Categories: gr-qc
-Abstract:
-The improved dynamics of loop quantum cosmology is extended to include the Bianchi type II model. Because these space-times admit both anisotropies and non-zero spatial curvature, certain technical difficulties arise over and above those encountered in the analysis of the (anisotropic but spatially flat) Bianchi type I space-times, and of the (spatially curved but isotropic) k=+/-1 models. We address these and show that the big-bang singularity is resolved in the same precise sense as in the recent analysis of the Bianchi I model. Bianchi II space-times are of special interest to quantum cosmology because of the expected behavior of the gravitational field near generic space-like singularities in classical general relativity.

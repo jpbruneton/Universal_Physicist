@@ -1,7 +1,0 @@
-Title: Quantum correction to the entropy of noncommutative BTZ black hole
-Authors: M. A. Anacleto, F. A. Brito, E. Passos, A. G. Cavalcanti, J. Spinelly
-Published: 2015-10-28
-arXiv ID: http://arxiv.org/abs/1510.08444v3
-Categories: hep-th, gr-qc
-Abstract:
-In this paper we consider the generalized uncertainty principle (GUP) in the tunneling formalism via Hamilton-Jacobi method to determine the quantum-corrected Hawking temperature and entropy for noncommutative BTZ black hole. In our results we obtain several types of corrections including the expected logarithmic correction to the area entropy associated with the noncommutative BTZ black holes. We also show that the area entropy product of the noncommutative BTZ black holes is dependent on mass and by analyzing the nature of the specific heat capacity we have observed that the noncommutative BTZ black hole is stable at some range of parameters.

@@ -1,7 +1,0 @@
-Title: The group field theory approach to quantum gravity: some recent results
-Authors: Daniele Oriti
-Published: 2009-12-12
-arXiv ID: http://arxiv.org/abs/0912.2441v1
-Categories: hep-th, gr-qc
-Abstract:
-We introduce the key ideas behind the group field theory approach to quantum gravity, and the basic elements of its formalism. We also briefly report on some recent results obtained in this approach, concerning both the mathematical definition of these models, and possible avenues towards extracting interesting physics from them.

@@ -1,7 +1,0 @@
-Title: A Lorentzian version of the non-commutative geometry of the standard model of particle physics
-Authors: John W. Barrett
-Published: 2006-08-31
-arXiv ID: http://arxiv.org/abs/hep-th/0608221v2
-Categories: hep-th, math.OA, math.QA
-Abstract:
-A formulation of the non-commutative geometry for the standard model of particle physics with a Lorentzian signature metric is presented. The elimination of the fermion doubling in the Lorentzian case is achieved by a modification of Connes' internal space geometry so that it has signature 6 (mod 8) rather than 0. The fermionic part of the Connes-Chamseddine spectral action can be formulated, and it is shown that it allows an extension with right-handed neutrinos and the correct mass terms for the see-saw mechanism of neutrino mass generation.

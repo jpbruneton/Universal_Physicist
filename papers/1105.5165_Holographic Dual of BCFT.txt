@@ -1,7 +1,0 @@
-Title: Holographic Dual of BCFT
-Authors: Tadashi Takayanagi
-Published: 2011-05-25
-arXiv ID: http://arxiv.org/abs/1105.5165v3
-Categories: hep-th, cond-mat.str-el, gr-qc
-Abstract:
-We propose a holographic dual of a conformal field theory defined on a manifold with boundaries, i.e. boundary conformal field theory (BCFT). Our new holography, which may be called AdS/BCFT, successfully calculates the boundary entropy or g-function in two dimensional BCFTs and it agrees with the finite part of the holographic entanglement entropy. Moreover, we can naturally derive a holographic g-theorem. We also analyze the holographic dual of an interval at finite temperature and show that there is a first order phase transition.

@@ -1,7 +1,0 @@
-Title: Quantum gravity and minimum length
-Authors: Luis J. Garay
-Published: 1994-03-02
-arXiv ID: http://arxiv.org/abs/gr-qc/9403008v2
-Categories: gr-qc, hep-th
-Abstract:
-The existence of a fundamental scale, a lower bound to any output of a position measurement, seems to be a model-independent feature of quantum gravity. In fact, different approaches to this theory lead to this result. The key ingredients for the appearance of this minimum length are quantum mechanics, special relativity and general relativity. As a consequence, classical notions such as causality or distance between events cannot be expected to be applicable at this scale. They must be replaced by some other, yet unknown, structure.

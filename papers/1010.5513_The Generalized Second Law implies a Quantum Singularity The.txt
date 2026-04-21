@@ -1,7 +1,0 @@
-Title: The Generalized Second Law implies a Quantum Singularity Theorem
-Authors: Aron C. Wall
-Published: 2010-10-26
-arXiv ID: http://arxiv.org/abs/1010.5513v5
-Categories: gr-qc, hep-th
-Abstract:
-The generalized second law can be used to prove a singularity theorem, by generalizing the notion of a trapped surface to quantum situations. Like Penrose's original singularity theorem, it implies that spacetime is null geodesically incomplete inside black holes, and to the past of spatially infinite Friedmann--Robertson--Walker cosmologies. If space is finite instead, the generalized second law requires that there only be a finite amount of entropy producing processes in the past, unless there is a reversal of the arrow of time. In asymptotically flat spacetime, the generalized second law also rules out traversable wormholes, negative masses, and other forms of faster-than-light travel between asymptotic regions, as well as closed timelike curves. Furthermore it is impossible to form baby universes which eventually become independent of the mother universe, or to restart inflation. Since the semiclassical approximation is used only in regions with low curvature, it is argued that the results may hold in full quantum gravity. An introductory section describes the second law and its time-reverse, in ordinary and generalized thermodynamics, using either the fine-grained or the coarse-grained entropy. (The fine-grained version is used in all results except those relating to the arrow of time.) A proof of the coarse-grained ordinary second law is given.

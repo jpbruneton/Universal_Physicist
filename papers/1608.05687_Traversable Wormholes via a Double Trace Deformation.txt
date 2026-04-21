@@ -1,7 +1,0 @@
-Title: Traversable Wormholes via a Double Trace Deformation
-Authors: Ping Gao, Daniel Louis Jafferis, Aron C. Wall
-Published: 2016-08-19
-arXiv ID: http://arxiv.org/abs/1608.05687v3
-Categories: hep-th
-Abstract:
-After turning on an interaction that couples the two boundaries of an eternal BTZ black hole, we find a quantum matter stress tensor with negative average null energy, whose gravitational backreaction renders the Einstein-Rosen bridge traversable. Such a traversable wormhole has an interesting interpretation in the context of ER=EPR, which we suggest might be related to quantum teleportation. However, it cannot be used to violate causality. We also discuss the implications for the energy and holographic entropy in the dual CFT description.

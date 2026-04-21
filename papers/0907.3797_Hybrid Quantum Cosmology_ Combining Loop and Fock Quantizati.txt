@@ -1,7 +1,0 @@
-Title: Hybrid Quantum Cosmology: Combining Loop and Fock Quantizations
-Authors: Guillermo A. Mena Marugan, Mercedes Martin-Benito
-Published: 2009-07-22
-arXiv ID: http://arxiv.org/abs/0907.3797v1
-Categories: gr-qc
-Abstract:
-As a necessary step towards the extraction of realistic results from Loop Quantum Cosmology, we analyze the physical consequences of including inhomogeneities. We consider in detail the quantization of a gravitational model in vacuo which possesses local degrees of freedom, namely, the linearly polarized Gowdy cosmologies with the spatial topology of a three-torus. We carry out a hybrid quantization which combines loop and Fock techniques. We discuss the main aspects and results of this hybrid quantization, which include the resolution of the cosmological singularity, the polymeric quantization of the internal time, a rigorous definition of the quantum constraints and the construction of their solutions, the Hilbert structure of the physical states, and the recovery of a conventional Fock quantization for the inhomogeneities.

@@ -1,7 +1,0 @@
-Title: Equipartition of energy in the horizon degrees of freedom and the emergence of gravity
-Authors: T. Padmanabhan
-Published: 2009-12-16
-arXiv ID: http://arxiv.org/abs/0912.3165v2
-Categories: gr-qc, hep-th
-Abstract:
-It is possible to provide a physical interpretation for the field equations of gravity based on a thermodynamical perspective. The virtual degrees of freedom associated with the horizons perceived by the local Rindler observers, play a crucial role in this approach. In this context, the relation S=E/2T between the entropy (S), active gravitational mass (E) and temperature (T) - obtained previously in gr-qc/0308070 [CQG, 21, 4485 (2004)] - can be reinterpreted as the law of equipartition E = (1/2) nkT where n=A/L_P^2 is the number (density) of microscopic horizon degrees of freedom. Conversely, one can use the equipartition argument to provide a thermodynamic interpretation of even non-relativistic gravity. These results emphasize the intrinsic quantum nature of all gravitational phenomena and diminishes the distinction between thermal phenomena associated with local Rindler horizons and the usual thermodynamics of macroscopic bodies in non-inertial frames. Just like the original thermodynamic interpretation, these results also hold for a wide class of gravitational theories like the Lanczos-Lovelock models.

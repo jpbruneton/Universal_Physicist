@@ -1,7 +1,0 @@
-Title: Notes for a brief history of quantum gravity
-Authors: Carlo Rovelli
-Published: 2000-06-16
-arXiv ID: http://arxiv.org/abs/gr-qc/0006061v3
-Categories: gr-qc, hep-th
-Abstract:
-I sketch the main lines of development of the research in quantum gravity, from the first explorations in the early thirties to nowadays.

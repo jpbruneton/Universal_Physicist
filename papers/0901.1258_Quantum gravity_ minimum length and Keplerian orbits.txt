@@ -1,7 +1,0 @@
-Title: Quantum gravity, minimum length and Keplerian orbits
-Authors: Z. K. Silagadze
-Published: 2009-01-09
-arXiv ID: http://arxiv.org/abs/0901.1258v3
-Categories: gr-qc, hep-th
-Abstract:
-We conjecture that the modified commutation relations suggested in the context of quantum gravity (QG) persist also in the classical limit, if the momentum of the classical object is not too large, and calculate the corresponding perihelion precession rate for Keplerian orbits.

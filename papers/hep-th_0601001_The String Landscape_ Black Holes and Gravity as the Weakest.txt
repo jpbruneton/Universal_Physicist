@@ -1,7 +1,0 @@
-Title: The String Landscape, Black Holes and Gravity as the Weakest Force
-Authors: Nima Arkani-Hamed, Lubos Motl, Alberto Nicolis, Cumrun Vafa
-Published: 2006-01-02
-arXiv ID: http://arxiv.org/abs/hep-th/0601001v2
-Categories: hep-th, gr-qc
-Abstract:
-We conjecture a general upper bound on the strength of gravity relative to gauge forces in quantum gravity. This implies, in particular, that in a four-dimensional theory with gravity and a U(1) gauge field with gauge coupling g, there is a new ultraviolet scale Lambda=g M_{Pl}, invisible to the low-energy effective field theorist, which sets a cutoff on the validity of the effective theory. Moreover, there is some light charged particle with mass smaller than or equal to Lambda. The bound is motivated by arguments involving holography and absence of remnants, the (in) stability of black holes as well as the non-existence of global symmetries in string theory. A sharp form of the conjecture is that there are always light "elementary" electric and magnetic objects with a mass/charge ratio smaller than the corresponding ratio for macroscopic extremal black holes, allowing extremal black holes to decay. This conjecture is supported by a number of non-trivial examples in string theory. It implies the necessary presence of new physics beneath the Planck scale, not far from the GUT scale, and explains why some apparently natural models of inflation resist an embedding in string theory.

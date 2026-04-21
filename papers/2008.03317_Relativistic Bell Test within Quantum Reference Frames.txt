@@ -1,7 +1,0 @@
-Title: Relativistic Bell Test within Quantum Reference Frames
-Authors: Lucas F. Streiter, Flaminia Giacomini, Časlav Brukner
-Published: 2020-08-07
-arXiv ID: http://arxiv.org/abs/2008.03317v2
-Categories: quant-ph
-Abstract:
-A still widely debated question in the field of relativistic quantum information is whether entanglement and the degree of violation of Bell's inequalities for massive relativistic particles are frame independent or not. At the core of this question is the effect that spin gets entangled with the momentum degree of freedom at relativistic velocities. Here, we show that Bell's inequalities for a pair of particles can be maximally violated in a special-relativistic regime, even without any post-selection of the momentum of the particles. To this end, we use the methodology of quantum reference frames, which allows us to transform the problem to the rest frame of a particle, whose state can be in a superposition of relativistic momenta from the viewpoint of the laboratory frame. We show that, when the relative motion of two particles is non-collinear, the optimal measurements for violation of Bell's inequalities in the laboratory frame involve "coherent Wigner rotations". Moreover, the degree of violation of Bell's inequalities is independent of the choice of the quantum reference frame. Our results open up the possibility of extending entanglement-based quantum communication protocols to relativistic regimes.

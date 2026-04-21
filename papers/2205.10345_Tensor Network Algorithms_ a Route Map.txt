@@ -1,7 +1,0 @@
-Title: Tensor Network Algorithms: a Route Map
-Authors: Mari Carmen Bañuls
-Published: 2022-05-20
-arXiv ID: http://arxiv.org/abs/2205.10345v2
-Categories: quant-ph
-Abstract:
-Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.

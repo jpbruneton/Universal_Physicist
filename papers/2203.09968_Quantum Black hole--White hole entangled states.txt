@@ -1,7 +1,0 @@
-Title: Quantum Black hole--White hole entangled states
-Authors: S. Jalalzadeh
-Published: 2022-03-18
-arXiv ID: http://arxiv.org/abs/2203.09968v1
-Categories: gr-qc, hep-th, math-ph, quant-ph
-Abstract:
-We investigate the quantum deformation of the Wheeler--DeWitt equation of a Schwarzchild black hole. Specifically, the quantum deformed black hole is a quantized model constructed from the quantum Heisenberg--Weyl $U_q(h_4)$ group. We show that the event horizon area and the mass are quantized, degenerate, and bounded. The degeneracy of states indicates entangled quantum black hole/white hole states. Accordingly, quantum deformation provides a new framework to examine Einstein--Rosen wormhole solutions. Besides, we obtain the mass, the temperature, and the entropy of the q-deformed quantum Schwarzschild black hole. We find an upper bound on the mass of a black hole/white hole pair. Also, at the quantum deformation level, the entropy of the black hole contains three parts: the usual Bekenstein--Hawking entropy, the logarithmic term, and a Cube of usual black hole entropy.

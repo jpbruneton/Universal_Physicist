@@ -1,7 +1,0 @@
-Title: Loop Quantum Gravity and the Meaning of Diffeomorphism Invariance
-Authors: Marcus Gaul, Carlo Rovelli
-Published: 1999-10-23
-arXiv ID: http://arxiv.org/abs/gr-qc/9910079v2
-Categories: gr-qc, hep-ph, hep-th
-Abstract:
-This series of lectures gives a simple and self-contained introduction to the non-perturbative and background independent loop approach of canonical quantum gravity. The Hilbert space of kinematical quantum states is constructed and a complete basis of spin network states is introduced. An application of the formalism is provided by the spectral analysis of the area operator, which is the quantum analogue of the classical area function. This leads to one of the key results of loop quantum gravity: the derivation of the discreteness of the geometry and the computation of the quanta of area. Finally, an outlock on a possible covariant formulation of the theory is given leading to a "sum over histories" approach, denoted as spin foam model. Throughout the whole lecture great significance is attached to conceptual and interpretational issues. In particular, special emphasis is given to the role played by the diffeomorphism group and the notion of observability in general relativity.

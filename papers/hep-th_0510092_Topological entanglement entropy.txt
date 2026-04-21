@@ -1,7 +1,0 @@
-Title: Topological entanglement entropy
-Authors: Alexei Kitaev, John Preskill
-Published: 2005-10-11
-arXiv ID: http://arxiv.org/abs/hep-th/0510092v2
-Categories: hep-th, cond-mat.str-el, quant-ph
-Abstract:
-We formulate a universal characterization of the many-particle quantum entanglement in the ground state of a topologically ordered two-dimensional medium with a mass gap. We consider a disk in the plane, with a smooth boundary of length L, large compared to the correlation length. In the ground state, by tracing out all degrees of freedom in the exterior of the disk, we obtain a marginal density operator ρfor the degrees of freedom in the interior. The von Neumann entropy S(ρ) of this density operator, a measure of the entanglement of the interior and exterior variables, has the form S(ρ)= αL -γ+ ..., where the ellipsis represents terms that vanish in the limit L\to\infty. The coefficient α, arising from short wavelength modes localized near the boundary, is nonuniversal and ultraviolet divergent, but -γis a universal additive constant characterizing a global feature of the entanglement in the ground state. Using topological quantum field theory methods, we derive a formula for γin terms of properties of the superselection sectors of the medium.

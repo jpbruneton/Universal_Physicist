@@ -1,7 +1,0 @@
-Title: Quantum Oppenheimer-Snyder and Swiss Cheese models
-Authors: Jerzy Lewandowski, Yongge Ma, Jinsong Yang, Cong Zhang
-Published: 2022-10-05
-arXiv ID: http://arxiv.org/abs/2210.02253v3
-Categories: gr-qc, astro-ph.CO
-Abstract:
-By considering the quantum Oppenheimer-Snyder model in loop quantum cosmology, a new quantum black hole model whose metric tensor is a suitably deformed Schwarzschild one is derived. The quantum effects imply a lower bound on the mass of the black hole produced by the collapsing dust ball. For the case of larger masses where the event horizon does form, the maximal extension of the spacetime and its properties are investigated. By discussing the opposite scenario to the quantum Oppenheimer-Snyder, a quantum Swiss Cheese model is obtained with a bubble surrounded by the quantum universe. This model is analogous to black hole cosmology or fecund universes where the big bang is related to a white hole. Thus our models open a new window to cosmological phenomenology.

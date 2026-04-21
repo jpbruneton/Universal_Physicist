@@ -1,7 +1,0 @@
-Title: Quantum Reference Frames and Quantum Transformations
-Authors: M. Toller
-Published: 1996-05-24
-arXiv ID: http://arxiv.org/abs/gr-qc/9605052v1
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-A quantum frame is defined by a material object subject to the laws of quantum mechanics. The present paper studies the relations between quantum frames, which in the classical case are described by elements of the Poincare' group. The possibility of using a suitable quantum group is examined, but some arguments are given which show that a different mathematical structure is necessary. Some simple examples in lower dimensional spacetimes are treated. They indicate the necessity of taking into account some "internal" degrees of freedom of the quantum frames, that can be disregarded in a classical treatment.

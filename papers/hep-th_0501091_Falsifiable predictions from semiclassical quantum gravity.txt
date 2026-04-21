@@ -1,8 +1,0 @@
-Title: Falsifiable predictions from semiclassical quantum gravity
-Authors: Lee Smolin
-Published: 2005-01-12
-arXiv ID: http://arxiv.org/abs/hep-th/0501091v2
-Categories: hep-th, astro-ph, gr-qc, hep-ph
-Abstract:
-Quantum gravity is studied in a semiclassical approximation and it is found that to first order in the Planck length the effect of quantum gravity is to make the low energy effective spacetime metric energy dependent. The diffeomorphism invariance of the semiclassical theory forbids the appearance of a preferred frame of reference, consequently the local symmetry of this energy-dependent effective metric is a non-linear realization of the Lorentz transformations, which renders the Planck energy observer independent. This gives a form of deformed or doubly special relativity (DSR), previously explored with Magueijo, called the rainbow metric. The general argument determines the sign, but not the exact coefficient of the effect. But it applies in all dimensions with and without supersymmetry, and is, at least to leading order, universal for all matter couplings.
-  A consequence of DSR realized with an energy dependent effective metric is a helicity independent energy dependence in the speed of light to first order in the Planck length. However, thresholds for Tev photons and GZK protons are unchanged from special relativistic predictions. These predictions of quantum gravity are falsifiable by the upcoming AUGER and GLAST experiments.

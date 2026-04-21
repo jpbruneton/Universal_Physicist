@@ -1,7 +1,0 @@
-Title: Minimum length effects in black hole physics
-Authors: Roberto Casadio, Octavian Micu, Piero Nicolini
-Published: 2014-05-07
-arXiv ID: http://arxiv.org/abs/1405.1692v1
-Categories: hep-th, gr-qc
-Abstract:
-We review the main consequences of the possible existence of a minimum measurable length, of the order of the Planck scale, on quantum effects occurring in black hole physics. In particular, we focus on the ensuing minimum mass for black holes and how modified dispersion relations affect the Hawking decay, both in four space-time dimensions and in models with extra spatial dimensions. In the latter case, we briefly discuss possible phenomenological signatures.

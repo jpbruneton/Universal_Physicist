@@ -1,7 +1,0 @@
-Title: From noncommutative kappa-Minkowski to Minkowski space-time
-Authors: Laurent Freidel, Jerzy Kowalski-Glikman, Sebastian Nowak
-Published: 2006-12-15
-arXiv ID: http://arxiv.org/abs/hep-th/0612170v1
-Categories: hep-th
-Abstract:
-We show that free $κ$-Minkowski space field theory is equivalent to a relativistically invariant, non local, free field theory on Minkowski space-time. The field theory we obtain has in spectrum a relativistic mode of arbitrary mass $m$ and a Planck mass tachyon. We show that while the energy momentum for the relativistic mode is essentially the standard one, it diverges for the tachyon, so that there are no asymptotic tachyonic states in the theory. It also follows that the dispersion relation is not modified, so that, in particular, in this theory the speed of light is energy-independent.

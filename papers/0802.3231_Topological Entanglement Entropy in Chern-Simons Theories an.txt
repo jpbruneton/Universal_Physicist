@@ -1,7 +1,0 @@
-Title: Topological Entanglement Entropy in Chern-Simons Theories and Quantum Hall Fluids
-Authors: Shiying Dong, Eduardo Fradkin, Robert G. Leigh, Sean Nowling
-Published: 2008-02-21
-arXiv ID: http://arxiv.org/abs/0802.3231v1
-Categories: hep-th, cond-mat.mes-hall
-Abstract:
-We compute directly the entanglement entropy of spatial regions in Chern-Simons gauge theories in 2+1 dimensions using surgery. We use these results to determine the universal topological piece of the entanglement entropy for Abelian and non-Abelian quantum Hall fluids.

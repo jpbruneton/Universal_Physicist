@@ -1,7 +1,0 @@
-Title: Group field theories
-Authors: Thomas Krajewski
-Published: 2012-10-23
-arXiv ID: http://arxiv.org/abs/1210.6257v1
-Categories: gr-qc, hep-th
-Abstract:
-Group field theories are particular quantum field theories defined on D copies of a group which reproduce spin foam amplitudes on a space-time of dimension D. In these lecture notes, we present the general construction of group field theories, merging ideas from tensor models and loop quantum gravity. This lecture is organized as follows. In the first section, we present basic aspects of quantum field theory and matrix models. The second section is devoted to general aspects of tensor models and group field theory and in the last section we examine properties of the group field formulation of BF theory and the EPRL model. We conclude with a few possible research topics, like the construction of a continuum limit based on the double scaling limit or the relation to loop quantum gravity through Schwinger-Dyson equations

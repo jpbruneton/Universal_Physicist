@@ -1,7 +1,0 @@
-Title: Semi-classical States, Effective Dynamics and Classical Emergence in Loop Quantum Cosmology
-Authors: Parampreet Singh, Kevin Vandersloot
-Published: 2005-07-07
-arXiv ID: http://arxiv.org/abs/gr-qc/0507029v3
-Categories: gr-qc, hep-th
-Abstract:
-We construct physical semi-classical states annihilated by the Hamiltonian constraint operator in the framework of loop quantum cosmology as a method of systematically determining the regime and validity of the semi-classical limit of the quantum theory. Our results indicate that the evolution can be effectively described using continuous classical equations of motion with non-perturbative corrections down to near the Planck scale below which the universe can only be described by the discrete quantum constraint. These results, for the first time, provide concrete evidence of the emergence of classicality in loop quantum cosmology and also clearly demarcate the domain of validity of different effective theories. We prove the validity of modified Friedmann dynamics incorporating discrete quanum geometry effects which can lead to various new phenomenological applications. Furthermore the understanding of semi-classical states allows for a framework for interpreting the quantum wavefunctions and understanding questions of a semi-classical nature within the quantum theory of loop quantum cosmology.

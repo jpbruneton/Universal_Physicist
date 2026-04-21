@@ -1,7 +1,0 @@
-Title: Quantum-Reduced Loop Gravity: Cosmology
-Authors: Emanuele Alesci, Francesco Cianfrani
-Published: 2013-01-10
-arXiv ID: http://arxiv.org/abs/1301.2245v2
-Categories: gr-qc
-Abstract:
-We introduce a new framework for loop quantum gravity: mimicking the spinfoam quantization procedure we propose to study the symmetric sectors of the theory imposing the reduction weakly on the full kinematical Hilbert space of the canonical theory. As a first application of Quantum-Reduced Loop Gravity we study the inhomogeneous Bianchi I model. The emerging quantum cosmological model represents a simplified arena on which the complete canonical quantization program can be tested. The achievements of this analysis could elucidate the relationship between Loop Quantum Cosmology and the full theory.

@@ -1,7 +1,0 @@
-Title: Geometry of Vaidya spacetimes
-Authors: Armand Coudray, Jean-Philippe Nicolas
-Published: 2021-01-16
-arXiv ID: http://arxiv.org/abs/2101.06544v1
-Categories: gr-qc
-Abstract:
-We investigate the geometrical structure of Vaidya's spacetime in the case of a white hole with decreasing mass, stabilising to a black hole in finite or infinite time or evaporating completely. Our approach relies on a detailed analysis of the ordinary differential equation describing the incoming principal null geodesics, among which are the generators of the past horizon. We devote special attention to the case of a complete evaporation in infinite time and establish the existence of an asymptotic light-like singularity of the conformal curvature, touching both the past space-like singularity and future time-like infinity. This singularity is present independently of the decay rate of the mass. We derive an explicit formula that relates directly the strength of this null singularity to the asymptotic behaviour of the mass function.

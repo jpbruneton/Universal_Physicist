@@ -1,7 +1,0 @@
-Title: Loop quantum gravity of a spherically symmetric scalar field coupled to gravity with a clock
-Authors: Rodolfo Gambini, Jorge Pullin
-Published: 2023-03-16
-arXiv ID: http://arxiv.org/abs/2303.09392v1
-Categories: gr-qc
-Abstract:
-The inclusion of matter fields in spherically symmetric loop quantum gravity has proved problematic at the level of implementing the constraint algebra including the Hamiltonian constraint. Here we consider the system with the introduction of a clock. Using the Abelianizaton technique we introduced in previous papers in the case of gravity coupled to matter, the system can be gauge fixed and rewritten in terms of a restricted set of dynamical variables that satisfy simple Poisson bracket relations. This creates a true Hamiltonian and therefore one bypasses the issue of the constraint algebra. We show how loop quantum gravity techniques may be applied for the vacuum case and show that the Hamiltonian system reproduces previous results for the physical space of states and the observables of a Schwarzchild black hole.

@@ -1,7 +1,0 @@
-Title: Operator space entanglement entropy in transverse Ising chain
-Authors: Tomaz Prosen, Iztok Pizorn
-Published: 2007-06-17
-arXiv ID: http://arxiv.org/abs/0706.2480v3
-Categories: quant-ph
-Abstract:
-The efficiency of time dependent density matrix renormalization group methods is intrinsically connected with the rate of entanglement growth. We introduce a new measure of entanglement in the space of operators and show, for transverse Ising spin 1/2 chain, that the simulation of observables, contrary to simulation of typical pure quantum states, is efficient for initial local operators. For initial operators with a finite index in Majorana representation, the operator space entanglement entropy saturates with time to a level which is calculated analytically, while for initial operators with infinite index the growth of operator space entanglement entropy is shown to be logarithmic.

@@ -1,7 +1,0 @@
-Title: Constraining the generalized uncertainty principle with the gravitational wave event GW150914
-Authors: Zhong-Wen Feng, Shu-Zheng Yang, Hui-Ling Li, Xiao-Tao Zu
-Published: 2016-10-22
-arXiv ID: http://arxiv.org/abs/1610.08549v4
-Categories: hep-ph, gr-qc, hep-th
-Abstract:
-In this letter, we show that the dimensionless parameter in the generalized uncertainty principle (GUP) can be constrained by the gravitational wave event GW150914, which was discovered by the LIGO Scientific and Virgo Collaborations. Firstly, according to the Heisenberg uncertainty principle (HUP) and the data of gravitational wave event GW150914, we derive the standard energy-momentum dispersion relation and calculate the difference between the propagation speed of gravitons and the speed of light, i.e., $Δ\upsilon$. Next, using two proposals regarding the GUP, we also generalize our study to the quantum gravity case and obtain the modified speed of gravitons. Finally, based on the modified speed of gravitons and $Δ\upsilon$, the improved upper bounds on the GUP parameters are obtained. The results show that the upper limits of the GUP parameters $β_0$ and $α_0$ are $2.3 \times 10^ {60}$ and $1.8 \times 10^{20}$.

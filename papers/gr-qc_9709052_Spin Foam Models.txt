@@ -1,7 +1,0 @@
-Title: Spin Foam Models
-Authors: John C. Baez
-Published: 1997-09-21
-arXiv ID: http://arxiv.org/abs/gr-qc/9709052v3
-Categories: gr-qc, hep-th, math.QA
-Abstract:
-While the use of spin networks has greatly improved our understanding of the kinematical aspects of quantum gravity, the dynamical aspects remain obscure. To address this problem, we define the concept of a `spin foam' going from one spin network to another. Just as a spin network is a graph with edges labeled by representations and vertices labeled by intertwining operators, a spin foam is a 2-dimensional complex with faces labeled by representations and edges labeled by intertwining operators. Spin foams arise naturally as higher-dimensional analogs of Feynman diagrams in quantum gravity and other gauge theories in the continuum, as well as in lattice gauge theory. When formulated as a `spin foam model', such a theory consists of a rule for computing amplitudes from spin foam vertices, faces, and edges. The product of these amplitudes gives the amplitude for the spin foam, and the transition amplitude between spin networks is given as a sum over spin foams. After reviewing how spin networks describe `quantum 3-geometries', we describe how spin foams describe `quantum 4-geometries'. We conclude by presenting a spin foam model of 4-dimensional Euclidean quantum gravity, closely related to the state sum model of Barrett and Crane, but not assuming the presence of an underlying spacetime manifold.

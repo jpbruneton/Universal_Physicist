@@ -1,7 +1,0 @@
-Title: QBism and Relational Quantum Mechanics compared
-Authors: Jacques L. Pienaar
-Published: 2021-08-31
-arXiv ID: http://arxiv.org/abs/2108.13977v1
-Categories: quant-ph, physics.hist-ph
-Abstract:
-The subjective Bayesian interpretation of quantum mechanics (QBism) and Rovelli's relational interpretation of quantum mechanics (RQM) are both notable for embracing the radical idea that measurement outcomes correspond to events whose occurrence (or not) is relative to an observer. Here we provide a detailed study of their similarities and especially their differences.

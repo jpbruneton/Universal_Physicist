@@ -1,7 +1,0 @@
-Title: On Hawking Radiation as Tunneling with Back-Reaction
-Authors: A. J. M. Medved, Elias C. Vagenas
-Published: 2005-04-22
-arXiv ID: http://arxiv.org/abs/gr-qc/0504113v1
-Categories: gr-qc, hep-th
-Abstract:
-Recently, Angheben et.al. [hep-th/0503081] have presented a refined method for calculating the (tree-level) black hole temperature by way of the tunneling paradigm. In the current letter, we demonstrate how their formalism can be suitably adapted to accommodate the (higher-order) effects of the gravitational back-reaction.

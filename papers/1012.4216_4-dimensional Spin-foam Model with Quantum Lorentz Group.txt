@@ -1,7 +1,0 @@
-Title: 4-dimensional Spin-foam Model with Quantum Lorentz Group
-Authors: Muxin Han
-Published: 2010-12-19
-arXiv ID: http://arxiv.org/abs/1012.4216v3
-Categories: gr-qc, hep-th, math-ph
-Abstract:
-We study the quantum group deformation of the Lorentzian EPRL spin-foam model. The construction uses the harmonic analysis on the quantum Lorentz group. We show that the quantum group spin-foam model so defined is free of the infra-red divergence, thus gives a finite partition function on a fixed triangulation. We expect this quantum group spin-foam model is a spin-foam quantization of discrete gravity with a cosmological constant.

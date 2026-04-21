@@ -1,7 +1,0 @@
-Title: Gravity and the Crossed Product
-Authors: Edward Witten
-Published: 2021-12-23
-arXiv ID: http://arxiv.org/abs/2112.12828v5
-Categories: hep-th, gr-qc
-Abstract:
-Recently Leutheusser and Liu [1,2] identified an emergent algebra of Type III$_1$ in the operator algebra of ${\mathcal N}=4$ super Yang-Mills theory for large $N$. Here we describe some $1/N$ corrections to this picture and show that the emergent Type III$_1$ algebra becomes an algebra of Type II$_\infty$. The Type II$_\infty$ algebra is the crossed product of the Type III$_1$ algebra by its modular automorphism group. In the context of the emergent Type II$_\infty$ algebra, the entropy of a black hole state is well-defined up to an additive constant, independent of the state. This is somewhat analogous to entropy in classical physics.

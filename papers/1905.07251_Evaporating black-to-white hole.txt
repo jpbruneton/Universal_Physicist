@@ -1,7 +1,0 @@
-Title: Evaporating black-to-white hole
-Authors: Pierre Martin-Dussaud, Carlo Rovelli
-Published: 2019-05-17
-arXiv ID: http://arxiv.org/abs/1905.07251v2
-Categories: gr-qc
-Abstract:
-We construct and discuss the form of the (effective) spacetime geometry inside a black hole undergoing a quantum transition to a white hole, taking into account the back-reaction of the component of the Hawking radiation falling into the hole.

@@ -1,7 +1,0 @@
-Title: On the geometry of the black-to-white hole transition within a single asymptotic region
-Authors: Muxin Han, Carlo Rovelli, Farshid Soltani
-Published: 2023-02-08
-arXiv ID: http://arxiv.org/abs/2302.03872v1
-Categories: gr-qc
-Abstract:
-We write explicitly the complete Lorentzian metric of a singularity-free spacetime where a black hole transitions into a white hole located in its same asymptotic region. In particular, the metric interpolates between the black and white horizons. The metric satisfies the Einstein field equations up to the tunneling region. The matter giving rise to the black hole is described by the Oppenheimer-Snyder model, corrected with loop-quantum-cosmology techniques in the quantum region. The interior quantum geometry is fixed by a local Killing symmetry, broken at the horizon transition. At large scale, the geometry is determined by two parameters: the mass of the hole and the duration of the transition process. The latter is a global geometrical parameter. We give the full metric outside the star in a single coordinate patch.

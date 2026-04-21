@@ -1,7 +1,0 @@
-Title: Quantum Spin Dynamics (QSD)
-Authors: T. Thiemann
-Published: 1996-06-29
-arXiv ID: http://arxiv.org/abs/gr-qc/9606089v1
-Categories: gr-qc, hep-th
-Abstract:
-An anomaly-free operator corresponding to the Wheeler-DeWitt constraint of Lorentzian, four-dimensional, canonical, non-perturbative vacuum gravity is constructed in the continuum. This operator is entirely free of factor ordering singularities and can be defined in symmetric and non-symmetric form. We work in the real connection representation and obtain a well-defined quantum theory. We compute the complete solution to the Quantum Einstein Equations for the non-symmetric version of the operator and a physical inner product thereon. The action of the Wheeler-DeWitt constraint on spin-network states is by annihilating, creating and rerouting the quanta of angular momentum associated with the edges of the underlying graph while the ADM-energy is essentially diagonalized by the spin-network states. We argue that the spin-network representation is the ``non-linear Fock representation" of quantum gravity, thus justifying the term ``Quantum Spin Dynamics (QSD)".

@@ -1,7 +1,0 @@
-Title: Renormalization of lattice-regularized quantum gravity models II. The case of causal dynamical triangulations
-Authors: Joshua H. Cooperman
-Published: 2014-06-17
-arXiv ID: http://arxiv.org/abs/1406.4531v1
-Categories: gr-qc, hep-lat, hep-th
-Abstract:
-The causal dynamical triangulations approach aims to construct a quantum theory of gravity as the continuum limit of a lattice-regularized model of dynamical geometry. A renormalization group scheme--in concert with finite size scaling analysis--is essential to this aim. Formulating and implementing such a scheme in the present context raises novel and notable conceptual and technical problems. I explored these problems, and, building on standard techniques, suggested potential solutions in the first paper of this two-part series. As an application of these solutions, I now propose a renormalization group scheme for causal dynamical triangulations. This scheme differs significantly from that studied recently by Ambjorn, Gorlich, Jurkiewicz, Kreienbuehl, and Loll.

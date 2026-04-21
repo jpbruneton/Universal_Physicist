@@ -1,7 +1,0 @@
-Title: The problem of time and gauge invariance in the quantization of cosmological models. I. Canonical quantization methods
-Authors: T. P. Shestakova, C. Simeone
-Published: 2004-09-29
-arXiv ID: http://arxiv.org/abs/gr-qc/0409114v1
-Categories: gr-qc
-Abstract:
-The paper is the first of two parts of a work reviewing some approaches to the problem of time in quantum cosmology, which were put forward last decade, and which demonstrated their relation to the problems of reparametrization and gauge invariance of quantum gravity. In the present part we remind basic features of quantum geometrodynamics and minisuperspace cosmological models, and discuss fundamental problems of the Wheeler - DeWitt theory. Various attempts to find a solution to the problem of time are considered in the framework of the canonical approach. Possible solutions to the problem are investigated making use of minisuperspace models, that is, systems with a finite number of degrees of freedom. At the same time, in the last section of the paper we expand our consideration beyond the minisuperspace approximation and briefly review promising ideas by Brown and Kuchar, who propose that dust interacting only gravitationally can be used for time measuring, and the unitary approach by Barvinsky and collaborators. The latter approach admits both the canonical and path integral formulations and anticipates the consideration of recent developments in the path integral approach in the second part of our work.

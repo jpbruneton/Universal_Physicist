@@ -1,7 +1,0 @@
-Title: 2d CDT with gauge fields
-Authors: J. Ambjorn, A. Ipsen
-Published: 2013-05-14
-arXiv ID: http://arxiv.org/abs/1305.3148v2
-Categories: hep-th, gr-qc, hep-lat
-Abstract:
-Two-dimensional Causal Dynamical Triangulations provides a definition of the path integral for projectable two-dimensional Horava-Lifshitz quantum gravity. We solve the theory coupled to gauge fields.

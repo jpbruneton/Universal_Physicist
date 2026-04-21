@@ -1,7 +1,0 @@
-Title: Target Space Duality in String Theory
-Authors: A. Giveon, M. Porrati, E. Rabinovici
-Published: 1994-01-27
-arXiv ID: http://arxiv.org/abs/hep-th/9401139v1
-Categories: hep-th
-Abstract:
-A review article submitted to Physics Report: Target space duality and discrete symmetries in string theory are reviewed in different settings.

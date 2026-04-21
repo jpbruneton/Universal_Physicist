@@ -1,7 +1,0 @@
-Title: CDT meets Horava-Lifshitz gravity
-Authors: J. Ambjorn, A. Gorlich, S. Jordan, J. Jurkiewicz, R. Loll
-Published: 2010-02-17
-arXiv ID: http://arxiv.org/abs/1002.3298v2
-Categories: hep-th, gr-qc, hep-lat
-Abstract:
-The theory of causal dynamical triangulations (CDT) attempts to define a nonperturbative theory of quantum gravity as a sum over space-time geometries. One of the ingredients of the CDT framework is  a global time foliation, which also plays a central role in the quantum gravity theory recently formulated by Hořava. We show that the phase diagram of CDT bears a striking resemblance with the generic Lifshitz phase diagram appealed to by Hořava. We argue that CDT might provide a unifying nonperturbative framework for anisotropic as well as isotropic theories of quantum gravity.

@@ -1,7 +1,0 @@
-Title: Black Hole Entropy from Near-Horizon Microstates
-Authors: Andrew Strominger
-Published: 1997-12-30
-arXiv ID: http://arxiv.org/abs/hep-th/9712251v3
-Categories: hep-th, gr-qc
-Abstract:
-Black holes whose near-horizon geometries are locally, but not necessarily globally, AdS$_3$ (three-dimensional anti-de Sitter space) are considered. Using the fact that quantum gravity on AdS$_3$ is a conformal field theory, we microscopically compute the black hole entropy from the asymptotic growth of states. Precise numerical agreement with the Bekenstein-Hawking area formula for the entropy is found. The result pertains to any consistent quantum theory of gravity, and does not use string theory or supersymmetry.

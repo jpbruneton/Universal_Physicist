@@ -1,7 +1,0 @@
-Title: The length operator in Loop Quantum Gravity
-Authors: Eugenio Bianchi
-Published: 2008-06-28
-arXiv ID: http://arxiv.org/abs/0806.4710v2
-Categories: gr-qc, hep-th
-Abstract:
-The dual picture of quantum geometry provided by a spin network state is discussed. From this perspective, we introduce a new operator in Loop Quantum Gravity - the length operator. We describe its quantum geometrical meaning and derive some of its properties. In particular we show that the operator has a discrete spectrum and is diagonalized by appropriate superpositions of spin network states. A series of eigenstates and eigenvalues is presented and an explicit check of its semiclassical properties is discussed.

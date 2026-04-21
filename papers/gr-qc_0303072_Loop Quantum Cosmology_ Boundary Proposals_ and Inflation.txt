@@ -1,7 +1,0 @@
-Title: Loop Quantum Cosmology, Boundary Proposals, and Inflation
-Authors: Martin Bojowald, Kevin Vandersloot
-Published: 2003-03-19
-arXiv ID: http://arxiv.org/abs/gr-qc/0303072v1
-Categories: gr-qc, astro-ph, hep-th
-Abstract:
-Loop quantum cosmology of the closed isotropic model is studied with a special emphasis on a comparison with traditional results obtained in the Wheeler-DeWitt approach. This includes the relation of the dynamical initial conditions with boundary conditions such as the no-boundary or the tunneling proposal and a discussion of inflation from quantum cosmology.

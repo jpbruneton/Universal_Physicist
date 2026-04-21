@@ -1,7 +1,0 @@
-Title: JT Gravity in de Sitter Space and the Problem of Time
-Authors: Kanhu Kishore Nanda, Sunil Kumar Sake, Sandip P. Trivedi
-Published: 2023-07-29
-arXiv ID: http://arxiv.org/abs/2307.15900v2
-Categories: hep-th, gr-qc
-Abstract:
-We discuss the canonical quantisation of JT gravity in de Sitter space, following earlier work by Henneaux, with particular attention to the problem of time. Choosing the dilaton as the physical clock, we define a norm and operator expectation values for states and explore the classical limit. We find that requiring a conserved and finite norm and well-defined expectation values for operators imposes significant restrictions on states, as does the requirement of a classical limit. However, these requirements can all be met, with the dilaton providing a satisfactory physical clock. We construct several examples and analyse them in detail. We find that in fact an infinite number of states exist which meet the various conditions mentioned above.

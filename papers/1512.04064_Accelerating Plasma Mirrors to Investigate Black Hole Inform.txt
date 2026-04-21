@@ -1,7 +1,0 @@
-Title: Accelerating Plasma Mirrors to Investigate Black Hole Information Loss Paradox
-Authors: Pisin Chen, Gerard Mourou
-Published: 2015-12-13
-arXiv ID: http://arxiv.org/abs/1512.04064v5
-Categories: gr-qc
-Abstract:
-The question of whether Hawking evaporation violates unitarity, and therefore results in the loss of information, remains unresolved since Hawking's seminal discovery. So far the investigations remain mostly theoretical since it is almost impossible to settle this paradox through direct astrophysical black hole observations. Here we point out that relativistic plasma mirrors can be accelerated drastically and stopped abruptly by impinging ultra intense x-ray pulses on solid plasma targets with a density gradient. This is analogous to the late time evolution of black hole Hawking evaporation. A conception of such an experiment is proposed and a self-consistent set of physical parameters is presented. Critical issues such as black hole unitarity may be addressed through the measurement of the entanglement between the Hawking radiation and their partner modes.

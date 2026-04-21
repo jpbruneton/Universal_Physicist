@@ -1,7 +1,0 @@
-Title: Causal Sets: Discrete Gravity (Notes for the Valdivia Summer School)
-Authors: Rafael D. Sorkin
-Published: 2003-09-01
-arXiv ID: http://arxiv.org/abs/gr-qc/0309009v1
-Categories: gr-qc, astro-ph, hep-th
-Abstract:
-These are lecture notes on causal set theory prepared in Jan. 2002 for a Summer School in Valdivia, Chile. In some places, they are more complete, in others much less so, regrettably. An extensive set of references and a glossary of terms can be found at the end of the notes.

@@ -1,7 +1,0 @@
-Title: No firewalls in quantum gravity: the role of discreteness of quantum geometry in resolving the information loss paradox
-Authors: Alejandro Perez
-Published: 2014-10-26
-arXiv ID: http://arxiv.org/abs/1410.7062v2
-Categories: gr-qc, hep-th
-Abstract:
-In an approach to quantum gravity where space-time arises from coarse graining of fundamentally discrete structures, black hole formation and subsequent evaporation can be described by a unitary evolution without the problems encountered by the standard remnant scenario or the schemes where information is assumed to come out with the radiation while evaporation (firewalls and complementarity). The final state is purified by correlations with the fundamental pre-geometric structures (in the sense of Wheeler) which are available in such approaches, and, like defects in the underlying space-time weave, can carry zero energy.

@@ -1,7 +1,0 @@
-Title: Loop quantum cosmology and inhomogeneities
-Authors: Martin Bojowald
-Published: 2006-09-08
-arXiv ID: http://arxiv.org/abs/gr-qc/0609034v1
-Categories: gr-qc
-Abstract:
-Inhomogeneities are introduced in loop quantum cosmology using regular lattice states, with a kinematical arena similar to that in homogeneous models considered earlier. The framework is intended to encapsulate crucial features of background independent quantizations in a setting accessible to explicit calculations of perturbations on a cosmological background. It is used here only for qualitative insights but can be extended with further more detailed input. One can thus see how several parameters occuring in homogeneous models appear from an inhomogeneous point of view. Their physical roles in several cases then become much clearer, often making previously unnatural choices of values look more natural by providing alternative physical roles. This also illustrates general properties of symmetry reduction at the quantum level and the roles played by inhomogeneities. Moreover, the constructions suggest a picture for gravitons and other metric modes as collective excitations in a discrete theory, and lead to the possibility of quantum gravity corrections in large universes.

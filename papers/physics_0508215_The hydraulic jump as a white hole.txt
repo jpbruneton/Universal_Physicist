@@ -1,7 +1,0 @@
-Title: The hydraulic jump as a white hole
-Authors: G. E. Volovik
-Published: 2005-08-30
-arXiv ID: http://arxiv.org/abs/physics/0508215v4
-Categories: physics.flu-dyn, cond-mat.soft, gr-qc, hep-ph, physics.gen-ph
-Abstract:
-In the geometry of the circular hydraulic jump, the velocity of the liquid in the interior region exceeds the speed of capillary-gravity waves (ripplons), whose spectrum is `relativistic' in the shallow water limit. The velocity flow is radial and outward, and thus the relativistic ripplons cannot propagating into the interior region. In terms of the effective 2+1 dimensional Painleve-Gullstrand metric appropriate for the propagating ripplons, the interior region imitates the white hole. The hydraulic jump represents the physical singularity at the white-hole horizon. The instability of the vacuum in the ergoregion inside the circular hydraulic jump and its observation in recent experiments on superfluid 4He by E. Rolley, C. Guthmann, M.S. Pettersen and C. Chevallier in physics/0508200 are discussed.

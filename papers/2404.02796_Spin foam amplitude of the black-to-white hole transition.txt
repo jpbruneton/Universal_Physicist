@@ -1,7 +1,0 @@
-Title: Spin foam amplitude of the black-to-white hole transition
-Authors: Muxin Han, Dongxue Qu, Cong Zhang
-Published: 2024-04-03
-arXiv ID: http://arxiv.org/abs/2404.02796v2
-Categories: gr-qc, hep-th
-Abstract:
-It has been conjectured that quantum gravity effects may cause the black-to-white hole transition due to quantum tunneling. The transition amplitude of this process is explored within the framework of the spin foam model on a 2-complex containing 56 vertices. We develop a systematic way to construct the bulk triangulation from the boundary triangulation to obtain the 2-complex. By using Thiemann's complexifier coherent state as the boundary state to resemble the semiclassical geometry, we introduce a procedure to calculate the parameters labeling the coherent state from the continuous curved geometry. Considering that triad fields of different orientations, i.e., $e_i^a$ and $-e_i^a$, give the same intrinsic geometry of the boundary, we creatively adopt the boundary state as a superposition of the coherent states associated with both orientations. We employ the method of complex critical point to numerically compute the transition amplitude. Despite the numerical results, it is interestingly found that the transition amplitude is dominated by the terms allowing the change in orientation. This suggests that the black-to-white hole transition should be accompanied by quantum tunneling process of a change in orientation.

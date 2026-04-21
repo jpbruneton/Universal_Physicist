@@ -1,7 +1,0 @@
-Title: Newtonian Cosmology with a Quantum Bounce
-Authors: Pedro Bargueño, Sergio Bravo-Medina, Marek Nowakowski, Davide Batic
-Published: 2016-05-26
-arXiv ID: http://arxiv.org/abs/1605.08378v1
-Categories: gr-qc
-Abstract:
-It has been known for some time that the cosmological Friedmann equation deduced from General Relativity can be also obtained within the Newtonian framework under certain assumptions. We use this result together with quantum corrections to the Newtonian potentials to derive a set a of quantum corrected Friedmann equations. We examine the behavior of the solutions of these modified cosmological equations paying special attention to the sign of the quantum corrections. We find different quantum effects crucially depending on this sign. One such a solution displays a qualitative resemblance to other quantum models like Loop Quantum Gravity or non-commutative geometry.

@@ -1,7 +1,0 @@
-Title: Entanglement entropy of electromagnetic edge modes
-Authors: William Donnelly, Aron C. Wall
-Published: 2014-12-05
-arXiv ID: http://arxiv.org/abs/1412.1895v2
-Categories: hep-th, gr-qc
-Abstract:
-The vacuum entanglement entropy of Maxwell theory, when evaluated by standard methods, contains an unexpected term with no known statistical interpretation. We resolve this two-decades old puzzle by showing that this term is the entanglement entropy of edge modes: classical solutions determined by the electric field normal to the entangling surface. We explain how the heat kernel regularization applied to this term leads to the negative divergent expression found by Kabat. This calculation also resolves a recent puzzle concerning the logarithmic divergences of gauge fields in 3+1 dimensions.

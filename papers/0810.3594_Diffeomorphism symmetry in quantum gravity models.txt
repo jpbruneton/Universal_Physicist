@@ -1,7 +1,0 @@
-Title: Diffeomorphism symmetry in quantum gravity models
-Authors: Bianca Dittrich
-Published: 2008-10-20
-arXiv ID: http://arxiv.org/abs/0810.3594v2
-Categories: gr-qc
-Abstract:
-We review and discuss the role of diffeomorphism symmetry in quantum gravity models. Such models often involve a discretization of the space-time manifold as a regularization method. Generically this leads to a breaking of the symmetries to approximate ones, however there are incidences in which the symmetries are exactly preserved. Both kind of symmetries have to be taken into account in covariant and canonical theories in order to ensure the correct continuum limit. We will sketch how to identify exact and approximate symmetries in the action and how to define a corresponding canonical theory in which such symmetries are reflected as exact and approximate constraints.

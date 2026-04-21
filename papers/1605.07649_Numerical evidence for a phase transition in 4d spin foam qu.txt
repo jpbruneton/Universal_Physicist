@@ -1,7 +1,0 @@
-Title: Numerical evidence for a phase transition in 4d spin foam quantum gravity
-Authors: Benjamin Bahr, Sebastian Steinhaus
-Published: 2016-05-24
-arXiv ID: http://arxiv.org/abs/1605.07649v2
-Categories: gr-qc
-Abstract:
-Building on recent advances in defining Wilsonian RG flows, and in particular the notion of scales, for background-independent theories, we present a first investigation of the renormalization of the 4d spin foam path integral for quantum gravity, both analytically and numerically. Focussing on a specific truncation of the model using a hypercubic lattice, we compute the RG flow and find strong indications for a phase transition, as well as an interesting interplay between the different observed phases and the (broken) diffeomorphism symmetry of the model. Most notably, it appears that the critical point between the phases, which is a fixed point of the RG flow, is precisely where broken diffeomorphism symmetry is restored, which suggests that it might allow for the definition a continuum limit of the quantum gravity theory.

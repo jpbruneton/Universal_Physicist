@@ -1,7 +1,0 @@
-Title: The complete LQG propagator: I. Difficulties with the Barrett-Crane vertex
-Authors: Emanuele Alesci, Carlo Rovelli
-Published: 2007-08-07
-arXiv ID: http://arxiv.org/abs/0708.0883v1
-Categories: gr-qc
-Abstract:
-Some components of the graviton two-point function have been recently computed in the context of loop quantum gravity, using the spinfoam Barrett-Crane vertex. We complete the calculation of the remaining components. We find that, under our assumptions, the Barrett-Crane vertex does not yield the correct long distance limit. We argue that the problem is general and can be traced to the intertwiner-independence of the Barrett-Crane vertex, and therefore to the well-known mismatch between the Barrett-Crane formalism and the standard canonical spin networks. In a companion paper we illustrate the asymptotic behavior of a vertex amplitude that can correct this difficulty.

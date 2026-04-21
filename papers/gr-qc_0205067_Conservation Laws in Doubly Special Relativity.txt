@@ -1,7 +1,0 @@
-Title: Conservation Laws in Doubly Special Relativity
-Authors: Simon Judes, Matt Visser
-Published: 2002-05-16
-arXiv ID: http://arxiv.org/abs/gr-qc/0205067v3
-Categories: gr-qc, astro-ph, hep-ph
-Abstract:
-Motivated by various theoretical arguments that the Planck energy (Ep - 10^19 GeV) - should herald departures from Lorentz invariance, and the possibility of testing these expectations in the not too distant future, two so-called "Doubly Special Relativity" theories have been suggested -- the first by Amelino-Camelia (DSR1) and the second by Smolin and Magueijo (DSR2). These theories contain two fundamental scales -- the speed of light and an energy usually taken to be Ep. The symmetry group is still the Lorentz group, but in both cases acting nonlinearly on the energy-momentum sector. Accordingly, since energy and momentum are no longer additive quantities, finding their values for composite systems (and hence finding the correct conservation laws) is a nontrivial matter. Ultimately it is these possible deviations from simple linearly realized relativistic kinematics that provide the most promising observational signal for empirically testing these models. Various investigations have narrowed the conservation laws down to two possibilities per DSR theory. We derive unique exact results for the energy-momentum of composite systems in both DSR1 and DSR2, and indicate the general strategy for arbitrary nonlinear realizations of the Lorentz group.

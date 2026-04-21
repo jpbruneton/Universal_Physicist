@@ -1,7 +1,0 @@
-Title: Hawking radiation from ultrashort laser pulse filaments
-Authors: F. Belgiorno, S. L. Cacciatori, M. Clerici, V. Gorini, G. Ortenzi, L. Rizzi, E. Rubino, V. G. Sala, D. Faccio
-Published: 2010-09-23
-arXiv ID: http://arxiv.org/abs/1009.4634v1
-Categories: gr-qc, astro-ph.CO, physics.optics, quant-ph
-Abstract:
-Event horizons of astrophysical black holes and gravitational analogues have been predicted to excite the quantum vacuum and give rise to the emission of quanta, known as Hawking radiation. We experimentally create such a gravitational analogue using ultrashort laser pulse filaments and our measurements demonstrate a spontaneous emission of photons that confirms theoretical predictions.

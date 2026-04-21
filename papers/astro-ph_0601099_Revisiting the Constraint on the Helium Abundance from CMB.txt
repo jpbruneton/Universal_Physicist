@@ -1,7 +1,0 @@
-Title: Revisiting the Constraint on the Helium Abundance from CMB
-Authors: Kazuhide Ichikawa, Tomo Takahashi
-Published: 2006-01-05
-arXiv ID: http://arxiv.org/abs/astro-ph/0601099v2
-Categories: astro-ph, hep-ph
-Abstract:
-We revisit the constraint on the primordial helium mass fraction Yp from observations of cosmic microwave background (CMB) alone. By minimizing chi square of recent CMB experiments over 6 other cosmological parameters, we obtained rather weak constraints as 0.17 < Yp < 0.52 at 1 sigma C.L. for a particular data set. We also study the future constraint on cosmological parameters when we take account of the prediction of the standard big bang nucleosynthesis (BBN) theory as a prior on the helium mass fraction where Yp can be fixed for a given energy density of baryon. We discuss the implications of the prediction of the standard BBN on the analysis of CMB.

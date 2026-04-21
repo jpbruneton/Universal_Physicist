@@ -1,7 +1,0 @@
-Title: The Matter Bounce Scenario in Loop Quantum Cosmology
-Authors: Edward Wilson-Ewing
-Published: 2012-11-27
-arXiv ID: http://arxiv.org/abs/1211.6269v2
-Categories: gr-qc, astro-ph.CO, hep-th
-Abstract:
-In the matter bounce scenario, a dust-dominated contracting space-time generates scale-invariant perturbations that, assuming a nonsingular bouncing cosmology, propagate to the expanding branch and set appropriate initial conditions for the radiation-dominated era. Since this scenario depends on the presence of a bounce, it seems appropriate to consider it in the context of loop quantum cosmology where a bouncing universe naturally arises. For a pressureless collapsing universe in loop quantum cosmology, the predicted power spectrum of the scalar perturbations after the bounce is scale-invariant and the tensor to scalar ratio is negligibly small. A slight red tilt can be given to the scale-invariance of the scalar perturbations by a scalar field whose equation of state is $P = - ερ$, where $ε$ is a small positive number. Then, the power spectrum for tensor perturbations is also almost scale-invariant with the same red tilt as the scalar perturbations, and the tensor to scalar ratio is expected to be $r \approx 9 \times 10^{-4}$. Finally, for the predicted amplitude of the scalar perturbations to agree with observations, the critical density in loop quantum cosmology must be of the order $ρ_c \sim 10^{-9} ρ_{\rm Pl}$.

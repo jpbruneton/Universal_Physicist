@@ -1,7 +1,0 @@
-Title: Essential and inessential features of Hawking radiation
-Authors: Matt Visser
-Published: 2001-06-13
-arXiv ID: http://arxiv.org/abs/hep-th/0106111v1
-Categories: hep-th, gr-qc
-Abstract:
-There are numerous derivations of the Hawking effect available in the literature. They emphasise different features of the process, and sometimes make markedly different physical assumptions. This article presents a ``minimalist'' argument, and strips the derivation of as much excess baggage as possible. All that is really necessary is quantum physics plus a slowly evolving future apparent horizon (*not* an event horizon). In particular, neither the Einstein equations nor Bekenstein entropy are necessary (nor even useful) in deriving Hawking radiation.

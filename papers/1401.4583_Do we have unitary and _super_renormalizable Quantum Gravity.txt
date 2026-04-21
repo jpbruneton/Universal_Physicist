@@ -1,7 +1,0 @@
-Title: Do we have unitary and (super)renormalizable Quantum Gravity below Planck scale?
-Authors: Filipe de O. Salles, Ilya L. Shapiro
-Published: 2014-01-18
-arXiv ID: http://arxiv.org/abs/1401.4583v2
-Categories: hep-th, gr-qc
-Abstract:
-We explore how the stability of metric perturbations in higher derivative theories of gravity depends on the energy scale of initial seeds of such perturbations and on a typical energy scale of the gravitational vacuum background. It is shown that, at least in the cases of specific cosmological backgrounds, that the unphysical massive ghost which is present in the spectrum of such theories is not growing up as a physical excitation and remains in the vacuum state, until the initial frequency of the perturbation is close to the Planck order of magnitude. In this situation the existing versions of renormalizable and superrenormalizable theories can be seen as very satisfactory effective theories of Quantum Gravity below the Planck scale.

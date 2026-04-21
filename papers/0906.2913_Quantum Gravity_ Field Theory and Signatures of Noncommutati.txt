@@ -1,7 +1,0 @@
-Title: Quantum Gravity, Field Theory and Signatures of Noncommutative Spacetime
-Authors: Richard J. Szabo
-Published: 2009-06-16
-arXiv ID: http://arxiv.org/abs/0906.2913v3
-Categories: hep-th, astro-ph.HE, gr-qc
-Abstract:
-A pedagogical introduction to some of the main ideas and results of field theories on quantized spacetimes is presented, with emphasis on what such field theories may teach us about the problem of quantizing gravity. We examine to what extent noncommutative gauge theories may be regarded as gauge theories of gravity. UV/IR mixing is explained in detail and we describe its relations to renormalization, to gravitational dynamics, and to deformed dispersion relations in models of quantum spacetime of interest in string theory and in doubly special relativity. We also discuss some potential experimental probes of spacetime noncommutativity.

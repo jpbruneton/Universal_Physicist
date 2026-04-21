@@ -1,7 +1,0 @@
-Title: Introduction to Holographic Superconductors
-Authors: Gary T. Horowitz
-Published: 2010-02-09
-arXiv ID: http://arxiv.org/abs/1002.1722v2
-Categories: hep-th, gr-qc
-Abstract:
-These lectures give an introduction to the theory of holographic superconductors. These are superconductors that have a dual gravitational description using gauge/gravity duality. After introducing a suitable gravitational theory, we discuss its properties in various regimes: the probe limit, the effects of backreaction, the zero temperature limit, and the addition of magnetic fields. Using the gauge/gravity dictionary, these properties reproduce many of the standard features of superconductors. Some familiarity with gauge/gravity duality is assumed. A list of open problems is included at the end.

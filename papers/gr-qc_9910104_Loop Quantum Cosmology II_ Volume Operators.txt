@@ -1,7 +1,0 @@
-Title: Loop Quantum Cosmology II: Volume Operators
-Authors: Martin Bojowald
-Published: 1999-10-28
-arXiv ID: http://arxiv.org/abs/gr-qc/9910104v1
-Categories: gr-qc, hep-th
-Abstract:
-Volume operators measuring the total volume of space in a loop quantum theory of cosmological models are constructed. In the case of models with rotational symmetry an investigation of the Higgs constraint imposed on the reduced connection variables is necessary, a complete solution of which is given for isotropic models; in this case the volume spectrum can be calculated explicitly. It is observed that the stronger the symmetry conditions are the smaller is the volume spectrum, which can be interpreted as level splitting due to broken symmetries. Some implications for quantum cosmology are presented.

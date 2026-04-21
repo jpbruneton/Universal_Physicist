@@ -1,7 +1,0 @@
-Title: Testing MOND in the Solar System
-Authors: Luc Blanchet, Jerome Novak
-Published: 2011-05-29
-arXiv ID: http://arxiv.org/abs/1105.5815v1
-Categories: astro-ph.CO, gr-qc
-Abstract:
-The Modified Newtonian Dynamics (MOND) generically predicts a violation of the strong version of the equivalence principle. As a result the gravitational dynamics of a system depends on the external gravitational field in which the system is embedded. This so-called external field effect is shown to imply the existence of an anomalous quadrupolar correction, along the direction of the external galactic field, in the gravitational potential felt by planets in the Solar System. We compute this effect by a numerical integration of the MOND equation in the presence of an external field, and deduce the secular precession of the perihelion of planets induced by this effect. We find that the precession effect is rather large for outer gaseous planets, and in the case of Saturn is comparable to, and in some cases marginally excluded by published residuals of precession permitted by the best planetary ephemerides.

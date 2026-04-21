@@ -1,7 +1,0 @@
-Title: On the Hamiltonian Constraint of Loop Quantum Cosmology
-Authors: Kevin Vandersloot
-Published: 2005-02-20
-arXiv ID: http://arxiv.org/abs/gr-qc/0502082v1
-Categories: gr-qc
-Abstract:
-In this paper we construct the Hamiltonian constraint operator of loop quantum cosmology using holonomies defined for arbitrary irreducible SU(2) representations labeled by spin J. We show that modifications to the effective semi-classical equations of motion arise both in the gravitational part of the constraint as well as matter terms. The modifications are important for phenomenological investigations of the cosmological imprints of loop quantum cosmology. We discuss the implications for the early universe evolution.

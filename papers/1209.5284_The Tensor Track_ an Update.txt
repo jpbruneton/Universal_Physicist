@@ -1,7 +1,0 @@
-Title: The Tensor Track: an Update
-Authors: Vincent Rivasseau
-Published: 2012-09-24
-arXiv ID: http://arxiv.org/abs/1209.5284v2
-Categories: hep-th, gr-qc
-Abstract:
-The tensor track approach to quantum gravity is based on a new class of quantum field theories, called tensor group field theories (TGFTs). We provide a brief review of recent progress and list some desirable properties of TGFTs. In order to narrow the search for interesting models, we also propose a set of guidelines for TGFT's loosely inspired by the Osterwalder-Schrader axioms of ordinary Euclidean QFT.

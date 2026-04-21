@@ -1,7 +1,0 @@
-Title: Observation of stationary spontaneous Hawking radiation and the time evolution of an analogue black hole
-Authors: Victor I. Kolobov, Katrine Golubkov, Juan Ramón Muñoz de Nova, Jeff Steinhauer
-Published: 2019-10-21
-arXiv ID: http://arxiv.org/abs/1910.09363v2
-Categories: gr-qc
-Abstract:
-The emission of Hawking radiation from a black hole was predicted to be stationary, which is necessary for the correspondence between Hawking radiation and black-body radiation. Spontaneous Hawking radiation was observed in analogue black holes in atomic Bose-Einstein condensates, although the stationarity was not probed. Here, we confirm that the spontaneous Hawking radiation is stationary, by observing such a system at six different times. Furthermore, we follow the time evolution of Hawking radiation and compare and contrast it with predictions for real black holes. We observe the ramp up of Hawking radiation followed by stationary spontaneous emission, similar to a real black hole. The end of the spontaneous Hawking radiation is marked by the formation of an inner horizon, which is seen to cause stimulated Hawking radiation as predicted. We find that the stimulated Hawking and partner particles are directly observable, and that the stimulated emission evolves from multi-mode to monochromatic. Numerical simulations suggest that Bogoliubov-Cherenkov-Landau stimulation predominates, rather than black-hole lasing.

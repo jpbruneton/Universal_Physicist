@@ -1,7 +1,0 @@
-Title: Discrete Black-Hole Radiation and the Information Loss Paradox
-Authors: Shahar Hod
-Published: 2000-12-20
-arXiv ID: http://arxiv.org/abs/gr-qc/0012076v3
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-Hawking's black hole information puzzle highlights the incompatibility between our present understanding of gravity and quantum physics. However, Hawking's prediction of black-hole evaporation is at a semiclassical level. One therefore suspects some modifications of the character of the radiation when quantum properties of the {\it black hole itself} are properly taken into account. In fact, during the last three decades evidence has been mounting that, in a quantum theory of gravity black holes may have a discrete mass spectrum, with concomitant {\it discrete} line emission. A direct consequence of this intriguing prediction is that, compared with blackbody radiation, black-hole radiance is {\it less} entropic, and may therefore carry a significant amount of {\it information}. Using standard ideas from quantum information theory, we calculate the rate at which information can be recovered from the black-hole spectral lines. We conclude that the information that was suspected to be lost may gradually leak back, encoded into the black-hole spectral lines.

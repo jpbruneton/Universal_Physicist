@@ -1,7 +1,0 @@
-Title: Quasinormal modes and shadow of a Schwarzschild black hole with GUP
-Authors: M. A. Anacleto, J. A. V. Campos, F. A. Brito, E. Passos
-Published: 2021-08-11
-arXiv ID: http://arxiv.org/abs/2108.04998v2
-Categories: gr-qc, hep-th
-Abstract:
-We consider quantum corrections for the Schwarzschild black hole metric by using the generalized uncertainty principle (GUP) to investigate quasinormal modes, shadow and their relationship in the eikonal limit. We calculate the quasinormal frequencies of the quantum-corrected Schwarzschild black hole by using the sixth-order Wentzel-Kramers-Brillouin (WKB) approximation, and also perform a numerical analysis that confirms the results obtained from this approach. We also find that the shadow radius is nonzero even at very small mass limit for finite GUP parameter.

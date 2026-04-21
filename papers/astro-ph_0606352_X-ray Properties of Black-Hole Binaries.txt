@@ -1,7 +1,0 @@
-Title: X-ray Properties of Black-Hole Binaries
-Authors: Ronald A. Remillard, Jeffrey E. McClintock
-Published: 2006-06-14
-arXiv ID: http://arxiv.org/abs/astro-ph/0606352v1
-Categories: astro-ph
-Abstract:
-We review the properties and behavior X-ray binaries that contain an accreting black hole. The larger majority of such systems are X-ray transients, and many of them were observed in daily pointings with RXTE throughout the course of their outbursts. The complex evolution of these sources is described in terms of common behavior patterns illustrated with comprehensive overview diagrams for six selected systems. Central to this comparison are three X-ray states of accretion, which are reviewed and defined quantitatively. Each state yields phenomena that arise in strong gravitational fields. We sketch a scenario for the potential impact of black hole observations on physics and discuss a current frontier topic: the measurement of black hole spin.

@@ -1,7 +1,0 @@
-Title: Accurate Evolutions of Orbiting Black-Hole Binaries Without Excision
-Authors: M. Campanelli, C. O. Lousto, P. Marronetti, Y. Zlochower
-Published: 2005-11-09
-arXiv ID: http://arxiv.org/abs/gr-qc/0511048v2
-Categories: gr-qc, astro-ph
-Abstract:
-We present a new algorithm for evolving orbiting black-hole binaries that does not require excision or a corotating shift. Our algorithm is based on a novel technique to handle the singular puncture conformal factor. This system, based on the BSSN formulation of Einstein's equations, when used with a `pre-collapsed' initial lapse, is non-singular at the start of the evolution, and remains non-singular and stable provided that a good choice is made for the gauge. As a test case, we use this technique to fully evolve orbiting black-hole binaries from near the Innermost Stable Circular Orbit (ISCO) regime. We show fourth order convergence of waveforms and compute the radiated gravitational energy and angular momentum from the plunge. These results are in good agreement with those predicted by the Lazarus approach.

@@ -1,7 +1,0 @@
-Title: Dirac Neutrino Masses with Planck Scale Lepton Number Violation
-Authors: Tony Gherghetta
-Published: 2003-12-31
-arXiv ID: http://arxiv.org/abs/hep-ph/0312392v3
-Categories: hep-ph, hep-th
-Abstract:
-It is shown how pure Dirac neutrino masses can naturally occur at low energies even in the presence of Planck scale lepton number violation. The geometrical picture in five dimensions assumes that the lepton number symmetry is explicitly broken on the Planck brane while the right-handed neutrino is localised on the TeV brane. This physical separation in the bulk causes the global lepton number to be preserved at low energies. A small wavefunction overlap between the left-handed and right-handed neutrinos then naturally leads to a small Dirac Yukawa coupling. By the AdS/CFT correspondence there exists a purely four-dimensional dual description in which the right-handed neutrino is a composite CFT bound state. The global lepton number is violated at the Planck scale in a fundamental sector whose mixing into the composite sector is highly suppressed by CFT operators with large anomalous dimensions. A similar small mixing is then also responsible for generating a naturally small Dirac Yukawa coupling between the fundamental left-handed neutrino and the composite right-handed neutrino.

@@ -1,7 +1,0 @@
-Title: Did LIGO detect dark matter?
-Authors: Simeon Bird, Ilias Cholis, Julian B. Muñoz, Yacine Ali-Haïmoud, Marc Kamionkowski, Ely D. Kovetz, Alvise Raccanelli, Adam G. Riess
-Published: 2016-03-01
-arXiv ID: http://arxiv.org/abs/1603.00464v2
-Categories: astro-ph.CO, hep-ph
-Abstract:
-We consider the possibility that the black-hole (BH) binary detected by LIGO may be a signature of dark matter. Interestingly enough, there remains a window for masses $20\,M_\odot \lesssim M_{\rm bh} \lesssim 100\, M_\odot$ where primordial black holes (PBHs) may constitute the dark matter. If two BHs in a galactic halo pass sufficiently close, they radiate enough energy in gravitational waves to become gravitationally bound. The bound BHs will rapidly spiral inward due to emission of gravitational radiation and ultimately merge. Uncertainties in the rate for such events arise from our imprecise knowledge of the phase-space structure of galactic halos on the smallest scales. Still, reasonable estimates span a range that overlaps the $2-53$ Gpc$^{-3}$ yr$^{-1}$ rate estimated from GW150914, thus raising the possibility that LIGO has detected PBH dark matter. PBH mergers are likely to be distributed spatially more like dark matter than luminous matter and have no optical nor neutrino counterparts. They may be distinguished from mergers of BHs from more traditional astrophysical sources through the observed mass spectrum, their high ellipticities, or their stochastic gravitational wave background. Next generation experiments will be invaluable in performing these tests.

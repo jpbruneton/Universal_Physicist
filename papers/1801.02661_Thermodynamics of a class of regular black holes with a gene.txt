@@ -1,7 +1,0 @@
-Title: Thermodynamics of a class of regular black holes with a generalized uncertainty principle
-Authors: R. V. Maluf, Juliano C. S. Neves
-Published: 2018-01-08
-arXiv ID: http://arxiv.org/abs/1801.02661v2
-Categories: gr-qc, hep-th
-Abstract:
-In this article, we present a study on thermodynamics of a class of regular black holes. Such a class includes Bardeen and Hayward regular black holes. We obtained thermodynamic quantities like the Hawking temperature, entropy, and heat capacity for the entire class. As part of an effort to indicate some physical observable to distinguish regular black holes from singular black holes, we suggest that regular black holes are colder than singular black holes. Besides, contrary to the Schwarzschild black hole, that class of regular black holes may be thermodynamically stable. From a generalized uncertainty principle, we also obtained the quantum-corrected thermodynamics for the studied class. Such quantum corrections provide a logarithmic term for the quantum-corrected entropy.

@@ -1,7 +1,0 @@
-Title: Some Aspects of Minimal Length Quantum Mechanics
-Authors: Kourosh Nozari, Tahereh Azizi
-Published: 2005-07-03
-arXiv ID: http://arxiv.org/abs/quant-ph/0507018v1
-Categories: quant-ph
-Abstract:
-String theory, quantum geometry, loop quantum gravity and black hole physics all indicate the existence of a minimal observable length on the order of Planck length. This feature leads to a modification of Heisenberg uncertainty principle. Such a modified Heisenberg uncertainty principle is referred as gravitational uncertainty principle(GUP) in literatures. This proposal has some novel implications on various domains of theoretical physics. Here, we study some consequences of GUP in the spirit of Quantum mechanics. We consider two problem: a particle in an one-dimensional box and momentum space wave function for a "free particle". In each case we will solve corresponding perturbational equations and compare the results with ordinary solutions.

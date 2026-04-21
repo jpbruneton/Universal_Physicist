@@ -1,7 +1,0 @@
-Title: The fuzzball proposal for black holes: an elementary review
-Authors: Samir D. Mathur
-Published: 2005-02-03
-arXiv ID: http://arxiv.org/abs/hep-th/0502050v1
-Categories: hep-th, gr-qc
-Abstract:
-We give an elementary review of black holes in string theory. We discuss BPS holes, the microscopic computation of entropy and the `fuzzball' picture of the black hole interior suggested by microstates of the 2-charge system.

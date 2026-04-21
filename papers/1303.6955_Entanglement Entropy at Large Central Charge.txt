@@ -1,7 +1,0 @@
-Title: Entanglement Entropy at Large Central Charge
-Authors: Thomas Hartman
-Published: 2013-03-27
-arXiv ID: http://arxiv.org/abs/1303.6955v1
-Categories: hep-th
-Abstract:
-Two-dimensional conformal field theories with a large central charge and a small number of low-dimension operators are studied using the conformal block expansion. A universal formula is derived for the Renyi entropies of N disjoint intervals in the ground state, valid to all orders in a series expansion. This is possible because the full perturbative answer in this regime comes from the exchange of the stress tensor and other descendants of the vacuum state. Therefore, the Renyi entropy is related to the Virasoro vacuum block at large central charge. The entanglement entropy, computed from the Renyi entropy by an analytic continuation, decouples into a sum of single-interval entanglements. This field theory result agrees with the Ryu-Takayanagi formula for the holographic entanglement entropy of a 2d CFT, applied to any number of intervals, and thus can be interpreted as a microscopic calculation of the area of minimal surfaces in 3d gravity.

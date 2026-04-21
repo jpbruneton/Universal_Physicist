@@ -1,7 +1,0 @@
-Title: Lorentz Violation: Motivation and new constraints
-Authors: Stefano Liberati, Luca Maccione
-Published: 2009-06-03
-arXiv ID: http://arxiv.org/abs/0906.0681v4
-Categories: astro-ph.HE, gr-qc, hep-ph
-Abstract:
-We review the main theoretical motivations and observational constraints on Planck scale suppressed violations of Lorentz invariance. After introducing the problems related to the phenomenological study of quantum gravitational effects, we discuss the main theoretical frameworks within which possible departures from Lorentz invariance can be described. In particular, we focus on the framework of Effective Field Theory, describing several possible ways of including Lorentz violation therein and discussing their theoretical viability. We review the main low energy effects that are expected in this framework. We discuss the current observational constraints on such a framework, focusing on those achievable through high-energy astrophysics observations. In this context we present a summary of the most recent and strongest constraints on QED with Lorentz violating non-renormalizable operators. Finally, we discuss the present status of the field and its future perspectives.

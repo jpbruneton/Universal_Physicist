@@ -1,7 +1,0 @@
-Title: Hawking Radiation and Covariant Anomalies
-Authors: Rabin Banerjee, Shailesh Kulkarni
-Published: 2007-07-17
-arXiv ID: http://arxiv.org/abs/0707.2449v3
-Categories: hep-th, gr-qc
-Abstract:
-Generalising the method of Wilczek and collaborators we provide a derivation of Hawking radiation from charged black holes using only covariant gauge and gravitational anomalies. The reliability and universality of the anomaly cancellation approach to Hawking radiation is also discussed.

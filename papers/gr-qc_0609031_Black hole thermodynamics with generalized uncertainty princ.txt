@@ -1,7 +1,0 @@
-Title: Black hole thermodynamics with generalized uncertainty principle
-Authors: Yun Soo Myung, Yong-Wan Kim, Young-Jai Park
-Published: 2006-09-08
-arXiv ID: http://arxiv.org/abs/gr-qc/0609031v2
-Categories: gr-qc, hep-th
-Abstract:
-We apply the generalized uncertainty principle to the thermodynamics of a small black hole. Here we have a black hole system with the UV cutoff. It is shown that the minimal length induced by the GUP interrupts the Gross-Perry-Yaffe phase transition for a small black hole. In order to see whether the black hole remnant takes place a transition to a large black hole, we introduce a black hole in a cavity (IR system). However, we fail to show the phase transition of the remnant to the large black hole.

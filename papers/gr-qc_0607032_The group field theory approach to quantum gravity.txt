@@ -1,7 +1,0 @@
-Title: The group field theory approach to quantum gravity
-Authors: Daniele Oriti
-Published: 2006-07-07
-arXiv ID: http://arxiv.org/abs/gr-qc/0607032v3
-Categories: gr-qc, hep-th
-Abstract:
-We give a very concise review of the group field theory formalism for non-perturbative quantum gravity, a higher dimensional generalisation of matrix models. We motivate it as a simplicial and local realisation of the idea of 3rd quantization of the gravitational field, equivalently of a quantum field theory of simplicial geometry, in which also the topology of space is fully dynamical. We highlight the basic structure of the formalism, and discuss briefly various models that are being studied, some recent results and the many open issues that future research should face. Finally, we point out the connections with other approaches to quantum gravity, such as loop quantum gravity, quantum Regge calculus and dynamical triangulations, and causal sets.

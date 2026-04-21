@@ -1,7 +1,0 @@
-Title: Schrödinger's Black Hole Cat
-Authors: Joshua Foo, Robert B. Mann, Magdalena Zych
-Published: 2022-04-01
-arXiv ID: http://arxiv.org/abs/2204.00384v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-In the absence of a fully-fledged theory of quantum gravity, we propose a "bottom-up" framework for exploring quantum-gravitational physics by pairing two of the most fundamental concepts of quantum theory and general relativity, namely quantum superposition and spacetime. We show how to describe such "spacetime superpositions" and explore effects they induce upon quantum matter. Our approach capitalizes on standard tools of quantum field theory in curved space, and allows us to calculate physical observables like transition probabilities for a particle detector residing in curvature-superposed de Sitter spacetime, or outside a mass-superposed black hole. Crucially, such scenarios represent genuine quantum superpositions of spacetimes, in contrast with superpositions of metrics which only differ by a coordinate transformation and thus are not different according to general relativity.

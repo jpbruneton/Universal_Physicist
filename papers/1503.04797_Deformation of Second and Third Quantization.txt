@@ -1,7 +1,0 @@
-Title: Deformation of Second and Third Quantization
-Authors: Mir Faizal
-Published: 2015-03-15
-arXiv ID: http://arxiv.org/abs/1503.04797v1
-Categories: gr-qc, hep-th
-Abstract:
-In this paper, we will deform the second and third quantized theories by deforming the canonical commutation relations in such a way that they become consistent with the generalized uncertainty principle. Thus, we will first deform the second quantized commutator and obtain a deformed version of the Wheeler-DeWitt equation. Then we will further deform the third quantized theory by deforming the third quantized canonical commutation relation. This way we will obtain a deformed version of the third quantized theory for the multiverse.

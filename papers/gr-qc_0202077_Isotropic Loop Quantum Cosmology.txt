@@ -1,7 +1,0 @@
-Title: Isotropic Loop Quantum Cosmology
-Authors: Martin Bojowald
-Published: 2002-02-21
-arXiv ID: http://arxiv.org/abs/gr-qc/0202077v1
-Categories: gr-qc, hep-th
-Abstract:
-Isotropic models in loop quantum cosmology allow explicit calculations, thanks largely to a completely known volume spectrum, which is exploited in order to write down the evolution equation in a discrete internal time. Because of genuinely quantum geometrical effects the classical singularity is absent in those models in the sense that the evolution does not break down there, contrary to the classical situation where space-time is inextendible. This effect is generic and does not depend on matter violating energy conditions, but it does depend on the factor ordering of the Hamiltonian constraint. Furthermore, it is shown that loop quantum cosmology reproduces standard quantum cosmology and hence (e.g., via WKB approximation) to classical behavior in the large volume regime where the discreteness of space is insignificant. Finally, an explicit solution to the Euclidean vacuum constraint is discussed which is the unique solution with semiclassical behavior representing quantum Euclidean space.

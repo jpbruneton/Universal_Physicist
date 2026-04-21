@@ -1,7 +1,0 @@
-Title: Split-Quaternionic Hopf Map, Quantum Hall Effect, and Twistor Theory
-Authors: Kazuki Hasebe
-Published: 2009-02-15
-arXiv ID: http://arxiv.org/abs/0902.2523v3
-Categories: hep-th, cond-mat.mes-hall, math-ph
-Abstract:
-Introducing a non-compact version of the Hopf map, we demonstrate remarkable close relations between quantum Hall effect and twistor theory. We first construct quantum Hall effect on a hyperboloid based on the noncompact 2nd Hopf map of split-quaternions. We analyze a hyperbolic one-particle mechanics, and explore many-body problem, where a many-body groundstate wavefunction and membrane-like excitations are derived explicitly. In the lowest Landau level, the symmetry is enhanced from $SO(3, 2)$ to the $SU(2, 2)$ conformal symmetry. We point out that the quantum Hall effect naturally realizes the philosophy of twistor theory. In particular, the emergence mechanism of fuzzy space-time is discussed somehow in detail.

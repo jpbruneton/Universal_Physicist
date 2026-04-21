@@ -1,7 +1,0 @@
-Title: Beables/Observables in Classical and Quantum Gravity
-Authors: Edward Anderson
-Published: 2013-12-20
-arXiv ID: http://arxiv.org/abs/1312.6073v4
-Categories: gr-qc
-Abstract:
-Observables 'are observed' whereas beables just 'are'. This gives beables more scope in the cosmological and quantum domains. Both observables and beables are entities that form 'brackets' with 'the constraints' that are 'equal to' zero. We explain how depending on circumstances, these could be, e.g., Poisson, Dirac, commutator, histories, Schouten-Nijenhuis, double or Nambu brackets, first-class, gauge, linear or effective constraints, and strong, weak or weak-effective equalities. The Dirac-Bergmann distinction in notions of gauge leads to further notions of observables or beables, and is tied to a number of diffeomorphism-specific subtleties. Thus we cover a wide range of notions of observables or beables that occur in classical and quantum gravitational theories: Dirac, Kuchař, effective, Bergmann, histories, multisymplectic, master, Nambu and bi-. Indeed this review covers a representatively wide range of such theories: general relativity, loop quantum gravity, histories theory, supergravity and M-theory.

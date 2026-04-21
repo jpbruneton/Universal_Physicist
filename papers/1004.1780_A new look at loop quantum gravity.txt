@@ -1,7 +1,0 @@
-Title: A new look at loop quantum gravity
-Authors: Carlo Rovelli
-Published: 2010-04-11
-arXiv ID: http://arxiv.org/abs/1004.1780v4
-Categories: gr-qc, hep-th
-Abstract:
-I describe a possible perspective on the current state of loop quantum gravity, at the light of the developments of the last years. I point out that a theory is now available, having a well-defined background-independent kinematics and a dynamics allowing transition amplitudes to be computed explicitly in different regimes. I underline the fact that the dynamics can be given in terms of a simple vertex function, largely determined by locality, diffeomorphism invariance and local Lorentz invariance. I emphasize the importance of approximations. I list open problems.

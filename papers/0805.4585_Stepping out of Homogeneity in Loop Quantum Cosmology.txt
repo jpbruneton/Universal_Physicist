@@ -1,7 +1,0 @@
-Title: Stepping out of Homogeneity in Loop Quantum Cosmology
-Authors: Carlo Rovelli, Francesca Vidotto
-Published: 2008-05-29
-arXiv ID: http://arxiv.org/abs/0805.4585v1
-Categories: gr-qc
-Abstract:
-We explore the extension of quantum cosmology outside the homogeneous approximation, using the formalism of loop quantum gravity. We introduce a model where some of the inhomogeneous degrees of freedom are present, providing a tool for describing general fluctuations of quantum geometry near the initial singularity. We show that the dynamical structure of the model reduces to that of loop quantum cosmology in the Born-Oppenheimer approximation. This result corroborates the assumptions that ground loop cosmology, sheds light on the physical and mathematical relation between loop cosmology and full loop quantum gravity, and on the nature of the cosmological approximation. Finally, we show that the non-graph-changing Hamiltonian constraint considered in the context of algebraic quantum gravity provides a viable effective dynamics within this approximation.

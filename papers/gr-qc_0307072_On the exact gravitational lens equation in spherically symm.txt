@@ -1,7 +1,0 @@
-Title: On the exact gravitational lens equation in spherically symmetric and static spacetimes
-Authors: Volker Perlick
-Published: 2003-07-15
-arXiv ID: http://arxiv.org/abs/gr-qc/0307072v2
-Categories: gr-qc
-Abstract:
-Lensing in a spherically symmetric and static spacetime is considered, based on the lightlike geodesic equation without approximations. After fixing two radius values r_O and r_S, lensing for an observation event somewhere at r_O and static light sources distributed at r_S is coded in a lens equation that is explicitly given in terms of integrals over the metric coefficients. The lens equation relates two angle variables and can be easily plotted if the metric coefficients have been specified; this allows to visualize in a convenient way all relevant lensing properties, giving image positions, apparent brightnesses, image distortions, etc. Two examples are treated: Lensing by a Barriola-Vilenkin monopole and lensing by an Ellis wormhole.

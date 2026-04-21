@@ -1,7 +1,0 @@
-Title: Hidden Messenger Revealed in Hawking Radiation: a Resolution to the Paradox of Black Hole Information Loss
-Authors: Baocheng Zhang, Qing-yu Cai, Li You, M S Zhan
-Published: 2009-03-05
-arXiv ID: http://arxiv.org/abs/0903.0893v1
-Categories: hep-th, gr-qc, quant-ph
-Abstract:
-Using standard statistical method, we discover the existence of correlations among Hawking radiations (of tunneled particles) from a black hole. The information carried by such correlations is quantified by mutual information between sequential emissions. Through a careful counting of the entropy taken out by the emitted particles, we show that the black hole radiation as tunneling is an entropy conservation process. While information is leaked out through the radiation, the total entropy is conserved. Thus, we conclude the black hole evaporation process is unitary.

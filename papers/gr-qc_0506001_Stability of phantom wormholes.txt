@@ -1,7 +1,0 @@
-Title: Stability of phantom wormholes
-Authors: Francisco S. N. Lobo
-Published: 2005-05-31
-arXiv ID: http://arxiv.org/abs/gr-qc/0506001v2
-Categories: gr-qc, astro-ph, hep-th
-Abstract:
-It has recently been shown that traversable wormholes may be supported by phantom energy. In this work phantom wormhole geometries are modelled by matching an interior traversable wormhole solution, governed by the equation of state $p=ωρ$ with $ω<-1$, to an exterior vacuum spacetime at a finite junction interface. The stability analysis of these phantom wormholes to linearized spherically symmetric perturbations about static equilibrium solutions is carried out. A master equation dictating the stability regions is deduced, and by separating the cases of a positive and a negative surface energy density, it is found that the respective stable equilibrium configurations may be increased by strategically varying the wormhole throat radius. The first model considered, in the absence of a thin shell, is that of an asymptotically flat phantom wormhole spacetime. The second model constructed is that of an isotropic pressure phantom wormhole, which is of particular interest, as the notion of phantom energy is that of a spatially homogeneous cosmic fluid, although it may be extended to inhomogeneous spherically symmetric spacetimes.

@@ -1,9 +1,0 @@
-Title: Quantum Gravity Effects in Geodesic Motion and Predictions of Equivalence Principle Violation
-Authors: Subir Ghosh
-Published: 2013-03-06
-arXiv ID: http://arxiv.org/abs/1303.1256v3
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-We show that the Equivalence Principle (EP) is violated by Quantum Gravity (QG) effects. The predicted violations are compared to experimental observations for Gravitational Redshift, Law of Reciprocal Action and Universality of Free Fall. This allows us to derive explicit bounds for
-  $β$ - the QG scale.
-  In our approach, there appears a deviation in the geodesic motion of a particle. This deviation is induced by a non-commutative spacetime, consistent with a Generalized Uncertainty Principle (GUP). GUP admits the presence of a minimum length scale, that is advocated by QG theories. Remarkably, the GUP induced corrections are quite robust since the bound on $β$ obtained by us, {\it{in General Relativity scenario in an essentially classical setting}} of modified geodesic motion, is closely comparable to similar bounds in recent literature \cite{vag}. The latter are computed in purely {\it{quantum}} physics domain in {\it{flat}} spacetime.

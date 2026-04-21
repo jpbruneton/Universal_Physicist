@@ -1,7 +1,0 @@
-Title: Doubly-Special Relativity: First Results and Key Open Problems
-Authors: Giovanni Amelino-Camelia
-Published: 2002-10-18
-arXiv ID: http://arxiv.org/abs/gr-qc/0210063v1
-Categories: gr-qc
-Abstract:
-I examine the results obtained so far in exploring the recent proposal of theories of the relativistic transformations between inertial observers that involve both an observer-independent velocity scale and an observer-independent length/momentum scale. I also discuss what appear to be the key open issues for this research line.

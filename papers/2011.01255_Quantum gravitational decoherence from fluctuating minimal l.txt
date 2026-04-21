@@ -1,7 +1,0 @@
-Title: Quantum gravitational decoherence from fluctuating minimal length and deformation parameter at the Planck scale
-Authors: Luciano Petruzziello, Fabrizio Illuminati
-Published: 2020-11-02
-arXiv ID: http://arxiv.org/abs/2011.01255v4
-Categories: gr-qc, cond-mat.stat-mech, hep-th, quant-ph
-Abstract:
-Schemes of gravitationally induced decoherence are being actively investigated as possible mechanisms for the quantum-to-classical transition. Here, we introduce a decoherence process due to quantum gravity effects. We assume a foamy quantum spacetime with a fluctuating minimal length coinciding on average with the Planck scale. Considering deformed canonical commutation relations with a fluctuating deformation parameter, we derive a Lindblad master equation that yields localization in energy space and decoherence times consistent with the currently available observational evidence. Compared to other schemes of gravitational decoherence, we find that the decoherence rate predicted by our model is extremal, being minimal in the deep quantum regime below the Planck scale and maximal in the mesoscopic regime beyond it. We discuss possible experimental tests of our model based on cavity optomechanics setups with ultracold massive molecular oscillators and we provide preliminary estimates on the values of the physical parameters needed for actual laboratory implementations.

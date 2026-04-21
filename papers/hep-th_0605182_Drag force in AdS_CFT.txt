@@ -1,7 +1,0 @@
-Title: Drag force in AdS/CFT
-Authors: Steven S. Gubser
-Published: 2006-05-18
-arXiv ID: http://arxiv.org/abs/hep-th/0605182v1
-Categories: hep-th, hep-ph
-Abstract:
-The AdS/CFT correspondence and a classical test string approximation are used to calculate the drag force on an external quark moving in a thermal plasma of N=4 super-Yang-Mills theory. This computation is motivated by the phenomenon of jet-quenching in relativistic heavy ion collisions.

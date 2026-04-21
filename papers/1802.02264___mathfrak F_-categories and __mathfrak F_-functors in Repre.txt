@@ -1,7 +1,0 @@
-Title: $\mathfrak F$-categories and $\mathfrak F$-functors in Representation Theory II
-Authors: Ben Cox
-Published: 2018-02-06
-arXiv ID: http://arxiv.org/abs/1802.02264v1
-Categories: math.RT
-Abstract:
-This is a partial derivative of \cite{MR94g:17044}. We give a list of examples/problems that some will find amusing.

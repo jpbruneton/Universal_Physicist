@@ -1,7 +1,0 @@
-Title: Quantum reference frames associated with non-compact groups: the case of translations and boosts, and the role of mass
-Authors: Alexander R. H. Smith, Marco Piani, Robert B. Mann
-Published: 2016-02-24
-arXiv ID: http://arxiv.org/abs/1602.07696v1
-Categories: quant-ph
-Abstract:
-Quantum communication without a shared reference frame or the construction of a relational quantum theory requires the notion of a quantum reference frame. We analyze aspects of quantum reference frames associated with non-compact groups, specifically the group of spatial translations and Galilean boosts. We begin by demonstrating how the usually employed group average, used to dispense of the notion of an external reference frame, leads to unphysical states when applied to reference frames associated with non-compact groups. However, we show that this average does lead naturally to a reduced state on the relative degrees of freedom of a system, which was previously considered by Angelo et al. [1]. We then study in detail the informational properties of this reduced state for systems of two and three particles in Gaussian states.

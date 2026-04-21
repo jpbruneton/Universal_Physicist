@@ -1,7 +1,0 @@
-Title: Approaches to Quantum Cosmology
-Authors: Alexander Vilenkin
-Published: 1994-03-02
-arXiv ID: http://arxiv.org/abs/gr-qc/9403010v1
-Categories: gr-qc, hep-th
-Abstract:
-Different proposals for the wave function of the universe are analyzed, with an emphasis on various forms of the tunneling proposal. The issues discussed include the equivalence of the Lorentzian path integral and outgoing-wave proposals, the definitions of the outgoing waves and of superspace boundaries, topology change and the corresponding modification of the Wheeler-DeWitt equation. Also discussed are the "generic" boundary conditions and the third quantization approach.

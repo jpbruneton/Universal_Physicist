@@ -1,7 +1,0 @@
-Title: The minimum length problem of loop quantum cosmology
-Authors: Piotr Dzierzak, Jacek Jezierski, Przemyslaw Malkiewicz, Wlodzimierz Piechocki
-Published: 2008-10-17
-arXiv ID: http://arxiv.org/abs/0810.3172v3
-Categories: gr-qc, hep-th
-Abstract:
-The appearance of the big bounce (BB) in the evolution of the universe is analyzed in the setting of loop quantum  cosmology (LQC). Making use of an idea of a minimum length turns classical Big Bang into BB. We argue why the spectrum of the kinematical area operator of loop quantum  gravity  cannot be used for the determination of this length. We find that the fundamental length, at the present stage of development of LQC, is a free parameter of this model.

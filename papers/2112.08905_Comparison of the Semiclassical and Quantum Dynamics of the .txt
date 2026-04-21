@@ -1,7 +1,0 @@
-Title: Comparison of the Semiclassical and Quantum Dynamics of the Bianchi I Cosmology in the Polymer and GUP Extended Paradigms
-Authors: Gabriele Barca, Eleonora Giovannetti, Giovanni Montani
-Published: 2021-12-16
-arXiv ID: http://arxiv.org/abs/2112.08905v2
-Categories: gr-qc
-Abstract:
-We compare in some detail Polymer Quantum Mechanics and the Generalized Uncertainty Principle approach to clarify to what extent we can treat them on the same footing. We show that, while on a semiclassical level they may be formulated as similar modifications of the Poisson algebra, on a quantum level they intrinsically differ because PQM implies no absolute minimal uncertainty on position. Then we implement these schemes to Bianchi I cosmology on a semiclassical level deforming only the algebra of the Universe volume, searching for alternative formulations able to account for the modified Friedmann equations emerging in Brane Cosmology and Loop Quantum Cosmology. On a pure quantum level, we implement the two approaches through their original setups and reduce the two resulting Wheeler-DeWitt equations to the same morphological structure, showing how the polymer formalism is associated with a bouncing dynamics while in the Generalized Uncertainty Principle case the singularity is still present. The implications of the wavepacket spreading are also discussed in both approaches, outlining that, when the singularity survives, the Planckian era must necessarily be approached by a fully quantum (non-peaked) state of the Universe.

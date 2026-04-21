@@ -1,7 +1,0 @@
-Title: Emergent spacetime and empirical (in)coherence
-Authors: Nick Huggett, Christian Wuthrich
-Published: 2012-06-26
-arXiv ID: http://arxiv.org/abs/1206.6290v2
-Categories: physics.hist-ph, gr-qc, quant-ph
-Abstract:
-Numerous approaches to a quantum theory of gravity posit fundamental ontologies that exclude spacetime, either partially or wholly. This situation raises deep questions about how such theories could relate to the empirical realm, since arguably only entities localized in spacetime can ever be observed. Are such entities even possible in a theory without fundamental spacetime? How might they be derived, formally speaking? Moreover, since by assumption the fundamental entities can't be smaller than the derived (since relative size is a spatiotemporal notion) and so can't 'compose' them in any ordinary sense, would a formal derivation actually show the physical reality of localized entities? We address these questions via a survey of a range of theories of quantum gravity, and generally sketch how they may be answered positively.

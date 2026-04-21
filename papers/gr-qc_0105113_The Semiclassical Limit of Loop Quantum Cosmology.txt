@@ -1,7 +1,0 @@
-Title: The Semiclassical Limit of Loop Quantum Cosmology
-Authors: Martin Bojowald
-Published: 2001-05-29
-arXiv ID: http://arxiv.org/abs/gr-qc/0105113v1
-Categories: gr-qc
-Abstract:
-The continuum and semiclassical limits of isotropic, spatially flat loop quantum cosmology are discussed, with an emphasis on the role played by the Barbero-Immirzi parameter γin controlling space-time discreteness. In this way, standard quantum cosmology is shown to be the simultaneous limit γ\to 0, j \to \infty of loop quantum cosmology. Here, j is a label of the volume eigenvalues, and the simultaneous limit is technically the same as the classical limit \hbar \to 0, l \to \infty of angular momentum in quantum mechanics. Possible lessons for semiclassical states at the dynamical level in the full theory of quantum geometry are mentioned.

@@ -1,7 +1,0 @@
-Title: Black Hole Entropy and Induced Gravity
-Authors: Ted Jacobson
-Published: 1994-04-19
-arXiv ID: http://arxiv.org/abs/gr-qc/9404039v1
-Categories: gr-qc, hep-th
-Abstract:
-In this short essay we review the arguments showing that black hole entropy is, at least in part, ``entanglement entropy", i.e., missing information contained in correlations between quantum field fluctuations inside and outside the event horizon. Although the entanglement entropy depends upon the matter field content of the theory, it turns out that so does the Bekenstein-Hawking entropy $A/4\hbar G_{ren}$, in precisely the same way, because the effective gravitational constant $G_{ren}$ is renormalized by the very same quantum fluctuations. It appears most satisfactory if the entire gravitational action is ``induced", in the manner suggested by Sakharov, since then the black hole entropy is purebred entanglement entropy, rather than being hybrid with bare gravitational entropy (whatever that might be.)

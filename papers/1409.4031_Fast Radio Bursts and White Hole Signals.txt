@@ -1,7 +1,0 @@
-Title: Fast Radio Bursts and White Hole Signals
-Authors: Aurélien Barrau, Carlo Rovelli, Francesca Vidotto
-Published: 2014-09-14
-arXiv ID: http://arxiv.org/abs/1409.4031v3
-Categories: gr-qc, astro-ph.CO, astro-ph.HE
-Abstract:
-We estimate the size of a primordial black hole exploding today via a white hole transition, and the power in the resulting explosion, using a simple model. We point out that Fast Radio Bursts, strong signals with millisecond duration, probably extragalactic and having unknown source, have wavelength not far from the expected size of the exploding hole. We also discuss the possible higher energy components of the signal.

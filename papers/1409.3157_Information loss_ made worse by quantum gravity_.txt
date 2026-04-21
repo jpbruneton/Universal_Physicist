@@ -1,7 +1,0 @@
-Title: Information loss, made worse by quantum gravity?
-Authors: Martin Bojowald
-Published: 2014-09-10
-arXiv ID: http://arxiv.org/abs/1409.3157v2
-Categories: gr-qc, hep-th
-Abstract:
-Quantum gravity is often expected to solve both the singularity problem and the information-loss problem of black holes. This article presents an example from loop quantum gravity in which the singularity problem is solved in such a way that the information-loss problem is made worse. Quantum effects in this scenario, in contrast to previous non-singular models, do not eliminate the event horizon and introduce a new Cauchy horizon where determinism breaks down. Although infinities are avoided, for all practical purposes the core of the black hole plays the role of a naked singularity. Recent developments in loop quantum gravity indicate that this aggravated information loss problem is likely to be the generic outcome, putting strong conceptual pressure on the theory.

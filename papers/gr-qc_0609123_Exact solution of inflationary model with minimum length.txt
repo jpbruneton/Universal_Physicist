@@ -1,7 +1,0 @@
-Title: Exact solution of inflationary model with minimum length
-Authors: Achim Kempf, Larissa Lorenz
-Published: 2006-09-27
-arXiv ID: http://arxiv.org/abs/gr-qc/0609123v1
-Categories: gr-qc
-Abstract:
-Within the inflationary scenario, Planck scale physics should have affected the comoving modes' initial conditions and early evolution, thereby potentially affecting the inflationary predictions for the cosmic microwave background (CMB). This issue has been studied extensively on the basis of various models for how quantum field theory (QFT) is modified and finally breaks down towards the Planck scale. In one model, in particular, an ultraviolet cutoff was implemented into QFT through generalized uncertainty relations which have been motivated from general quantum gravity arguments and from string theory. Here, we improve upon prior numerical and semi-analytical results by presenting the exact mode solutions for both de Sitter and power-law inflation in this model. This provides an explicit map from the modes' initial conditions, which are presumably set by quantum gravity, to the modes' amplitudes at horizon crossing and thus to the inflationary predictions for the CMB. The solutions' particular behaviour close to the cutoff scale suggests unexpected possibilities for how the degrees of freedom of QFT emerge from the Planck scale.

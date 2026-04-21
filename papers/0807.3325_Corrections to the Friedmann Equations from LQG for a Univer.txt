@@ -1,7 +1,0 @@
-Title: Corrections to the Friedmann Equations from LQG for a Universe with a Free Scalar Field
-Authors: Victor Taveras
-Published: 2008-07-21
-arXiv ID: http://arxiv.org/abs/0807.3325v2
-Categories: gr-qc
-Abstract:
-In loop quantum cosmology the quantum dynamics is well understood. We approximate the full quantum dynamics in the infinite dimensional Hilbert space by projecting it on a finite dimensional submanifold thereof, spanned by suitably chosen semiclassical states. This submanifold is isomorphic with the classical phase space and the projected dynamical flow provides effective equations incorporating the leading quantum corrections to the classical equations of motion. Numerical work has been done using quantum states which are semiclassical at late times. These states follow the classical trajectory until the density is on the order of 1% of the Planck density then deviate strongly from the classical trajectory. The effective equations we obtain reproduce this behavior to surprising accuracy.

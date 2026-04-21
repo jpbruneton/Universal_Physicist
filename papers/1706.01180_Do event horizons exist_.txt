@@ -1,7 +1,0 @@
-Title: Do event horizons exist?
-Authors: Valentina Baccetti, Robert B. Mann, Daniel R. Terno
-Published: 2017-06-05
-arXiv ID: http://arxiv.org/abs/1706.01180v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-Event horizons are the defining feature of classical black holes. They are the key ingredient of the information loss paradox which, as paradoxes in quantum foundations, is built on a combination of predictions of quantum theory and counterfactual classical features: neither horizon formation nor its crossing by a test body is observable. Furthermore, horizons are unnecessary for the production of Hawking-like radiation. We demonstrate that when this radiation is taken into account it prevents horizon crossing/formation in a large class of models. We conjecture that horizon avoidance is a general feature of collapse. The non-existence of event horizons dispels the paradox, but opens up important questions about thermodynamic properties of the resulting objects and correlations between different degrees of freedom.

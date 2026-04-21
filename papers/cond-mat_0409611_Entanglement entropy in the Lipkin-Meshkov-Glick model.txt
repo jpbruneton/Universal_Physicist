@@ -1,7 +1,0 @@
-Title: Entanglement entropy in the Lipkin-Meshkov-Glick model
-Authors: J. I. Latorre, R. Orus, E. Rico, J. Vidal
-Published: 2004-09-23
-arXiv ID: http://arxiv.org/abs/cond-mat/0409611v2
-Categories: cond-mat.stat-mech, hep-th, quant-ph
-Abstract:
-We analyze the entanglement entropy in the Lipkin-Meshkov-Glick model, which describes mutually interacting spins half embedded in a magnetic field. This entropy displays a singularity at the critical point that we study as a function of the interaction anisotropy, the magnetic field, and the system size. Results emerging from our analysis are surprisingly similar to those found for the one-dimensional XY chain.

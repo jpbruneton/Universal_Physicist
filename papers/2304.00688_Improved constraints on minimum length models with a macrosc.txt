@@ -1,7 +1,0 @@
-Title: Improved constraints on minimum length models with a macroscopic low loss phonon cavity
-Authors: William M. Campbell, Michael E. Tobar, Serge Galliou, Maxim Goryachev
-Published: 2023-04-03
-arXiv ID: http://arxiv.org/abs/2304.00688v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-Many theories that attempt to formulate a quantum description of gravity suggest the existence of a fundamental minimum length scale. A popular method for incorporating this minimum length is through a modification of the Heisenberg uncertainty principle known as the generalised uncertainty principle (GUP). Experimental tests of the GUP applied to composite systems can be performed by searching for the induced frequency perturbations of the modes of mechanical resonators, thus constraining the degree of minimum length in certain scenarios. In this work previous constraints made with mechanical resonators are improved upon by three orders of magnitude, via the utilisation of a cryogenic quartz bulk acoustic wave resonator. As well as purely mechanical resonant modes; hybrid electromechanical anti-resonant modes are investigated, and shown to be sensitive to the same GUP induced effects.

@@ -1,7 +1,0 @@
-Title: The null energy condition in dynamic wormholes
-Authors: David Hochberg, Matt Visser
-Published: 1998-02-18
-arXiv ID: http://arxiv.org/abs/gr-qc/9802048v3
-Categories: gr-qc
-Abstract:
-We extend previous proofs that violations of the null energy condition (NEC) are a generic and universal feature of traversable wormholes to completely non-symmetric time-dependent wormholes. We show that the analysis can be phrased purely in terms of local geometry at and near the wormhole throat, and do not have to make any technical assumptions about asymptotic flatness or other global properties. A key aspect of the analysis is the demonstration that time-dependent wormholes have two throats, one for each direction through the wormhole, and that the two throats coalesce only for the case of a static wormhole.

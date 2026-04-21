@@ -1,7 +1,0 @@
-Title: Tsallis and Kaniadakis statistics from the viewpoint of entropic gravity formalism
-Authors: Everton M. C. Abreu, Jorge Ananias Neto, Edesio M. Barboza, Rafael C. Nunes
-Published: 2017-01-18
-arXiv ID: http://arxiv.org/abs/1701.06898v1
-Categories: gr-qc
-Abstract:
-It has been shown in the literature that effective gravitational constants, which are derived from Verlinde's formalism, can be used to introduce the Tsallis and Kaniadakis statistics. This method provides a simple alternative to the usual procedure normally used in these non-Gaussian statistics. We have applied our formalism in the Jeans mass criterion of stability and in the free fall time collapsing of a self-gravitating system where new results are obtained. A possible connection between our formalism and deviations of Newton's law of gravitation in a submillimeter range is made.

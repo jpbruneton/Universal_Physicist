@@ -1,7 +1,0 @@
-Title: The Gravity Dual of a Density Matrix
-Authors: Bartlomiej Czech, Joanna L. Karczmarek, Fernando Nogueira, Mark Van Raamsdonk
-Published: 2012-04-05
-arXiv ID: http://arxiv.org/abs/1204.1330v2
-Categories: hep-th, gr-qc
-Abstract:
-For a state in a quantum field theory on some spacetime, we can associate a density matrix to any subset of a given spacelike slice by tracing out the remaining degrees of freedom. In the context of the AdS/CFT correspondence, if the original state has a dual bulk spacetime with a good classical description, it is natural to ask how much information about the bulk spacetime is carried by the density matrix for such a subset of field theory degrees of freedom. In this note, we provide several constraints on the largest region that can be fully reconstructed, and discuss specific proposals for the geometric construction of this dual region.

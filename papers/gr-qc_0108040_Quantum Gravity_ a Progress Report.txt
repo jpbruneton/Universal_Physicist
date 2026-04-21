@@ -1,7 +1,0 @@
-Title: Quantum Gravity: a Progress Report
-Authors: S. Carlip
-Published: 2001-08-14
-arXiv ID: http://arxiv.org/abs/gr-qc/0108040v1
-Categories: gr-qc, hep-th
-Abstract:
-The problem of reconciling general relativity and quantum theory has fascinated and bedeviled physicists for more than 70 years. Despite recent progress in string theory and loop quantum gravity, a complete solution remains out of reach. I review the status of the continuing effort to quantize gravity, emphasizing the underlying conceptual issues and the various attempts to come to grips with them.

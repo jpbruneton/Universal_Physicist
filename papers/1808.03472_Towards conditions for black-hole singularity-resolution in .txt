@@ -1,7 +1,0 @@
-Title: Towards conditions for black-hole singularity-resolution in asymptotically safe quantum gravity
-Authors: Ademola Adeifeoba, Astrid Eichhorn, Alessia Platania
-Published: 2018-08-10
-arXiv ID: http://arxiv.org/abs/1808.03472v1
-Categories: gr-qc, hep-th
-Abstract:
-We explore the fate of the curvature singularity of Schwarzschild (deSitter) black holes in asymptotically safe quantum gravity. Specifically, we upgrade the classical spacetime by including the running of the Newton coupling and cosmological constant. In this setting, the antiscreening character of the gravitational interaction can remove the singularity, yet a nonzero value of the cosmological constant in the ultraviolet appears to reintroduce it. We find hints that a finite value of the cosmological constant in the infrared is compatible with singularity resolution provided that the cosmological constant is driven to zero fast enough in the ultraviolet. We compare the corresponding bounds on the critical exponents to the literature.

@@ -1,7 +1,0 @@
-Title: Entanglement entropy of fermions in any dimension and the Widom conjecture
-Authors: Dimitri Gioev, Israel Klich
-Published: 2005-04-20
-arXiv ID: http://arxiv.org/abs/quant-ph/0504151v4
-Categories: quant-ph, cond-mat.stat-mech, math.FA
-Abstract:
-We show that entanglement entropy of free fermions scales faster then area law, as opposed to the scaling $L^{d-1}$ for the harmonic lattice, for example. We also suggest and provide evidence in support of an explicit formula for the entanglement entropy of free fermions in any dimension $d$, $S\sim c(\partialΓ,\partialΩ)\cdot L^{d-1}\log L$ as the size of a subsystem $L\to\infty$, where $\partialΓ$ is the Fermi surface and $\partialΩ$ is the boundary of the region in real space. The expression for the constant $c(\partialΓ,\partialΩ)$ is based on a conjecture due to H. Widom. We prove that a similar expression holds for the particle number fluctuations and use it to prove a two sided estimates on the entropy $S$.

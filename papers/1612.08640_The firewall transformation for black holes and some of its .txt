@@ -1,7 +1,0 @@
-Title: The firewall transformation for black holes and some of its implications
-Authors: Gerard t Hooft
-Published: 2016-12-27
-arXiv ID: http://arxiv.org/abs/1612.08640v3
-Categories: gr-qc, hep-th
-Abstract:
-A promising strategy for better understanding space and time at the Planck scale, is outlined and further pursued. It is explained in detail, how black hole unitarity demands the existence of transformations that can remove firewalls. This must then be combined with a continuity condition on the horizon, with antipodal identification as an inevitable consequence. The antipodal identification comes with a CPT inversion. We claim to have arrived at 'new physics', but rather than string theory, our 'new physics' concerns new constraints on the topology and the boundary conditions of general coordinate transformations. The resulting theory is conceptually quite non trivial, and more analysis is needed. A strong entanglement between Hawking particles at opposite sides of the black hole is suspected, but questions remain. A few misconceptions concerning black holes, originating from older investigations, are discussed.

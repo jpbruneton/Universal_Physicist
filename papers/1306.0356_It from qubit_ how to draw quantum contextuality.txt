@@ -1,7 +1,0 @@
-Title: It from qubit: how to draw quantum contextuality
-Authors: Michel R. P. Planat
-Published: 2013-06-03
-arXiv ID: http://arxiv.org/abs/1306.0356v1
-Categories: quant-ph
-Abstract:
-Wheeler's {\it observer-participancy} and the related {\it it from bit} credo refer to quantum non-locality and contextuality. The mystery of these concepts slightly starts unveiling if one encodes the (in)compatibilities between qubit observables in the relevant finite geometries. The main objective of this treatise is to outline another conceptual step forward by employing Grothendieck's {\it dessins d'enfants} to reveal the topological and (non)algebraic machinery underlying the measurement acts and their information content.

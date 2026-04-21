@@ -1,7 +1,0 @@
-Title: Black Hole Entropy from Loop Quantum Gravity
-Authors: Carlo Rovelli
-Published: 1996-03-30
-arXiv ID: http://arxiv.org/abs/gr-qc/9603063v1
-Categories: gr-qc
-Abstract:
-We argue that the statistical entropy relevant for the thermal interactions of a black hole with its surroundings is (the logarithm of) the number of quantum microstates of the hole which are distinguishable from the hole's exterior, and which correspond to a given hole's macroscopic configuration. We compute this number explicitly from first principles, for a Schwarzschild black hole, using nonperturbative quantum gravity in the loop representation. We obtain a black hole entropy proportional to the area, as in the Bekenstein-Hawking formula.

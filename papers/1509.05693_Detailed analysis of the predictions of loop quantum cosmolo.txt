@@ -1,7 +1,0 @@
-Title: Detailed analysis of the predictions of loop quantum cosmology for the primordial power spectra
-Authors: Ivan Agullo, Noah A. Morris
-Published: 2015-09-18
-arXiv ID: http://arxiv.org/abs/1509.05693v1
-Categories: gr-qc
-Abstract:
-We provide an exhaustive numerical exploration of the predictions of loop quantum cosmology (LQC) with a post-bounce phase of inflation for the primordial power spectrum of scalar and tensor perturbations. We extend previous analysis by characterizing the phenomenologically relevant parameter space and by constraining it using observations. Furthermore, we characterize the shape of LQC-corrections to observable quantities across this parameter space. Our analysis provides a framework to contrast more accurately the theory with forthcoming polarization data, and it also paves the road for the computation of other observables beyond the power spectra, such as non-Gaussianity.

@@ -1,7 +1,0 @@
-Title: Hawking radiation and entropy of a BTZ black hole with minimum length
-Authors: M. A. Anacleto, F. A. Brito, E. Passos, Jose L. Paulino, A. T. N. Silva, J. Spinelly
-Published: 2023-01-14
-arXiv ID: http://arxiv.org/abs/2301.05970v1
-Categories: hep-th, gr-qc
-Abstract:
-In this paper we consider a BTZ black hole with minimum length which has been introduced through the probability density of the ground state of the hydrogen atom. We analyzed the effect of the minimum length by calculating the thermodynamic quantities such as temperature and entropy and verified the stability of the black hole by computing the specific heat capacity.

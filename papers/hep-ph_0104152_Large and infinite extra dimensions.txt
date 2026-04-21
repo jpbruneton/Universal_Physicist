@@ -1,7 +1,0 @@
-Title: Large and infinite extra dimensions
-Authors: V. A. Rubakov
-Published: 2001-04-16
-arXiv ID: http://arxiv.org/abs/hep-ph/0104152v2
-Categories: hep-ph
-Abstract:
-The emphasis in the developmet of theories with more than three spatial dimensions has recently shifted towards ``brane world'' picture, which assumes that ordinary matter (with possible exceptions of gravitons and other, hypothetic, particles which interact very weakly with matter) is trapped to a three-dimensional submanifold --- brane --- embedded in fundamental multi-dimensional space. In the brane world scenario, extra dimensions may be large, and even infinite; they may have effects, directly observable in current or fothcoming experiments. On the basis of simple field-theoretic models, various ideas in this direction are exposed at a non-expert level.

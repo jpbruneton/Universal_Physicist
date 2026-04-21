@@ -1,7 +1,0 @@
-Title: Evolution of Universes in Causal Set Cosmology
-Authors: Fay Dowker, Stav Zalel
-Published: 2017-03-22
-arXiv ID: http://arxiv.org/abs/1703.07556v1
-Categories: gr-qc
-Abstract:
-The causal set approach to the problem of quantum gravity is based on the hypothesis that spacetime is fundamentally discrete. Spacetime discreteness opens the door to novel types of dynamical law for cosmology and the Classical Sequential Growth (CSG) models of Rideout and Sorkin form an interesting class of such laws. It has been shown that a renormalisation of the dynamical parameters of a CSG model occurs whenever the universe undergoes a Big Crunch-Big Bang bounce. In this paper we propose a way to model the creation of a new universe after the singularity of a black hole. We show that renormalisation of dynamical parameters occurs in a CSG model after such a creation event. We speculate that this could realise aspects of Smolin's Cosmological Natural Selection proposal.

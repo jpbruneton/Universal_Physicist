@@ -1,7 +1,0 @@
-Title: A Local Resolution of the Problem of Time
-Authors: Edward Anderson
-Published: 2018-09-06
-arXiv ID: http://arxiv.org/abs/1809.01908v2
-Categories: gr-qc
-Abstract:
-We here announce and outline a solution of this major and longstanding foundational problem, dealing with all seven of its heavily-interrelated local facets.

@@ -1,7 +1,0 @@
-Title: A spin foam model without bubble divergences
-Authors: Alejandro Perez, Carlo Rovelli
-Published: 2000-06-29
-arXiv ID: http://arxiv.org/abs/gr-qc/0006107v2
-Categories: gr-qc
-Abstract:
-We present a spin foam model in which the fundamental ``bubble amplitudes'' (the analog of the one-loop corrections in quantum field theory) are finite as the cutoff is removed. The model is a natural variant of the field theoretical formulation of the Barrett-Crane model. As the last, the model is a quantum BF theory plus an implementation of the constraint that reduces BF theory to general relativity. We prove that the fundamental bubble amplitudes are finite by constructing an upper bound, using certain inequalities satisfied by the Wigner (3n)j-symbols, which we derive in the paper. Finally, we present arguments in support of the conjecture that the bubble diagrams of the model are finite at all orders.

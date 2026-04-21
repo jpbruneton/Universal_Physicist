@@ -1,7 +1,0 @@
-Title: The nonperturbative functional renormalization group and its applications
-Authors: N. Dupuis, L. Canet, A. Eichhorn, W. Metzner, J. M. Pawlowski, M. Tissier, N. Wschebor
-Published: 2020-06-08
-arXiv ID: http://arxiv.org/abs/2006.04853v3
-Categories: cond-mat.stat-mech, gr-qc, hep-ph, hep-th
-Abstract:
-The renormalization group plays an essential role in many areas of physics, both conceptually and as a practical tool to determine the long-distance low-energy properties of many systems on the one hand and on the other hand search for viable ultraviolet completions in fundamental physics. It provides us with a natural framework to study theoretical models where degrees of freedom are correlated over long distances and that may exhibit very distinct behavior on different energy scales. The nonperturbative functional renormalization-group (FRG) approach is a modern implementation of Wilson's RG, which allows one to set up nonperturbative approximation schemes that go beyond the standard perturbative RG approaches. The FRG is based on an exact functional flow equation of a coarse-grained effective action (or Gibbs free energy in the language of statistical mechanics). We review the main approximation schemes that are commonly used to solve this flow equation and discuss applications in equilibrium and out-of-equilibrium statistical physics, quantum many-particle systems, high-energy physics and quantum gravity.

@@ -1,7 +1,0 @@
-Title: Holography and Cosmology
-Authors: W. Fischler, L. Susskind
-Published: 1998-06-04
-arXiv ID: http://arxiv.org/abs/hep-th/9806039v2
-Categories: hep-th, gr-qc
-Abstract:
-A cosmological version of the holographic principle is proposed. Various consequences are discussed including bounds on equation of state and the requirement that the universe be infinite.

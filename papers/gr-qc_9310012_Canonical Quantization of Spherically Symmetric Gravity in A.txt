@@ -1,7 +1,0 @@
-Title: Canonical Quantization of Spherically Symmetric Gravity in Ashtekar's Self-Dual Representation
-Authors: T. Thiemann, H. A. Kastrup
-Published: 1993-10-07
-arXiv ID: http://arxiv.org/abs/gr-qc/9310012v1
-Categories: gr-qc
-Abstract:
-We show that the quantization of spherically symmetric pure gravity can be carried out completely in the framework of Ashtekar's self-dual representation. Consistent operator orderings can be given for the constraint functionals yielding two kinds of solutions for the constraint equations, corresponding classically to globally nondegenerate or degenerate metrics. The physical state functionals can be determined by quadratures and the reduced Hamiltonian system possesses 2 degrees of freedom, one of them corresponding to the classical Schwarzschild mass squared and the canonically conjugate one representing a measure for the deviation of the nonstatic field configurations from the static Schwarzschild one. There is a natural choice for the scalar product making the 2 fundamental observables self-adjoint. Finally, a unitary transformation is performed in order to calculate the triad-representation of the physical state functionals and to provide for a solution of the appropriately regularized Wheeler-DeWitt equation.

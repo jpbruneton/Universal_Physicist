@@ -1,7 +1,0 @@
-Title: Accurate determination of tensor network state of quantum lattice models in two dimensions
-Authors: H. C. Jiang, Z. Y. Weng, T. Xiang
-Published: 2008-06-23
-arXiv ID: http://arxiv.org/abs/0806.3719v1
-Categories: cond-mat.str-el, cond-mat.stat-mech, physics.comp-ph, quant-ph
-Abstract:
-We have proposed a novel numerical method to calculate accurately the physical quantities of the ground state with the tensor-network wave function in two dimensions. We determine the tensor network wavefunction by a projection approach which applies iteratively the Trotter-Suzuki decomposition of the projection operator and the singular value decomposition of matrix. The norm of the wavefunction and the expectation value of a physical observable are evaluated by a coarse grain renormalization group approach. Our method allows a tensor-network wavefunction with a high bond degree of freedom (such as D=8) to be handled accurately and efficiently in the thermodynamic limit. For the Heisenberg model on a honeycomb lattice, our results for the ground state energy and the staggered magnetization agree well with those obtained by the quantum Monte Carlo and other approaches.

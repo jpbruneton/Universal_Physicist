@@ -1,7 +1,0 @@
-Title: Spacetime Stochasticity and Second Order Geometry
-Authors: Folkert Kuipers
-Published: 2022-03-30
-arXiv ID: http://arxiv.org/abs/2203.16399v1
-Categories: gr-qc, hep-th, math-ph
-Abstract:
-We discuss the Schwartz-Meyer second order geometry framework and its relevance to theories of quantum gravity that incorporate a notion of spacetime stochasticity or quantum foam. We illustrate the framework in the context of Nelson's stochastic quantization.

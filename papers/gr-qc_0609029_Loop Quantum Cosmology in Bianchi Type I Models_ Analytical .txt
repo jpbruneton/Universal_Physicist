@@ -1,7 +1,0 @@
-Title: Loop Quantum Cosmology in Bianchi Type I Models: Analytical Investigation
-Authors: Dah-Wei Chiou
-Published: 2006-09-07
-arXiv ID: http://arxiv.org/abs/gr-qc/0609029v4
-Categories: gr-qc
-Abstract:
-The comprehensive formulation for loop quantum cosmology in the spatially flat, isotropic model was recently constructed. In this paper, the methods are extended to the anisotropic Bianchi I cosmology. Both the precursor and the improved strategies are applied and the expected results are established: (i) the scalar field again serves as an internal clock and is treated as emergent time; (ii) the total Hamiltonian constraint is derived by imposing the fundamental discreteness and gives the evolution as a difference equation; and (iii) the physical Hilbert space, Dirac observables and semi-classical states are constructed rigorously. It is also shown that the state in the kinematical Hilbert space associated with the classical singularity is decoupled in the difference evolution equation, indicating that the big bounce may take place when any of the area scales undergoes the vanishing behavior. The investigation affirms the robustness of the framework used in the isotropic model by enlarging its domain of validity and provides foundations to conduct the detailed numerical analysis.

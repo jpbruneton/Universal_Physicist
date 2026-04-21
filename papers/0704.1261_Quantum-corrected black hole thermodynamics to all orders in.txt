@@ -1,7 +1,0 @@
-Title: Quantum-corrected black hole thermodynamics to all orders in the Planck length
-Authors: Khireddine Nouicer
-Published: 2007-04-10
-arXiv ID: http://arxiv.org/abs/0704.1261v1
-Categories: gr-qc
-Abstract:
-We investigate the effects to all orders in the Planck length from a generalized un- certainty principle (GUP) on black holes thermodynamics. We calculate the corrected Hawking temperature, entropy, and examine in details the Hawking evaporation process. As a result, the evaporation process is accelerated and the evaporation end-point is a zero entropy, zero heat capacity and finite non zero temperature black hole remnant (BHR). In particular we obtain a drastic reduction of the decay time, in comparison with the results obtained in the Hawking semi classical picture and with the GUP to leading order in the Planck length.

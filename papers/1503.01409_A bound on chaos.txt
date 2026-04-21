@@ -1,7 +1,0 @@
-Title: A bound on chaos
-Authors: Juan Maldacena, Stephen H. Shenker, Douglas Stanford
-Published: 2015-03-04
-arXiv ID: http://arxiv.org/abs/1503.01409v1
-Categories: hep-th, cond-mat.stat-mech, nlin.CD, quant-ph
-Abstract:
-We conjecture a sharp bound on the rate of growth of chaos in thermal quantum systems with a large number of degrees of freedom. Chaos can be diagnosed using an out-of-time-order correlation function closely related to the commutator of operators separated in time. We conjecture that the influence of chaos on this correlator can develop no faster than exponentially, with Lyapunov exponent $λ_L \le 2 πk_B T/\hbar$. We give a precise mathematical argument, based on plausible physical assumptions, establishing this conjecture.

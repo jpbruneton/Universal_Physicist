@@ -1,7 +1,0 @@
-Title: Energetic Causal Sets
-Authors: Marina Cortês, Lee Smolin
-Published: 2013-08-09
-arXiv ID: http://arxiv.org/abs/1308.2206v2
-Categories: gr-qc, quant-ph
-Abstract:
-We propose an approach to quantum theory based on the energetic causal sets, introduced in Cortês and Smolin (2013). Fundamental processes are causal sets whose events carry momentum and energy, which are transmitted along causal links and conserved at each event. Energetic causal set models differ from other spacetime-free causal set approaches, e.g. Ref. [2] proposed causal sets based on quantum information processing systems, and Ref. [3] proposed causal sets constructed out of standard model particles. Fundamentally there are amplitudes for causal processes in energetic causal sets, but no space-time. An embedding of the causal processes in an emergent space-time arises only at the semiclassical level. Hence, fundamentally there are no commutation relations, no uncertainty principle and, indeed, no $\hbar$. All that remains of quantum theory is the relationship between the absolute value squared of complex amplitudes and probabilities. Consequently, we find that neither locality, nor non locality, are primary concepts, only causality exists at the fundamental level.

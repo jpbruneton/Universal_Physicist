@@ -1,7 +1,0 @@
-Title: Renormalization in quantum theories of geometry
-Authors: J. Ambjorn, J. Gizbert-Studnicki, A. Goerlich, J. Jurkiewicz, R. Loll
-Published: 2020-02-05
-arXiv ID: http://arxiv.org/abs/2002.01693v1
-Categories: hep-th, gr-qc, hep-lat
-Abstract:
-A hallmark of non-perturbative theories of quantum gravity is the absence of a fixed background geometry, and therefore the absence in a Planckian regime of any notion of length or scale that is defined a priori. This has potentially far-reaching consequences for the application of renormalization group methods a la Wilson, which rely on these notions in a crucial way. We review the status quo of attempts in the Causal Dynamical Triangulations (CDT) approach to quantum gravity to find an ultraviolet fixed point associated with the second-order phase transitions observed in the lattice theory. Measurements of the only invariant correlator currently accessible, that of the total spatial three-volume, has not produced any evidence of such a fixed point. A possible explanation for this result is our incomplete and perhaps naive understanding of what constitutes an appropriate notion of (quantum) length near the Planck scale.

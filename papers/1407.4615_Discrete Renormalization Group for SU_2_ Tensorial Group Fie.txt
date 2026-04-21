@@ -1,7 +1,0 @@
-Title: Discrete Renormalization Group for SU(2) Tensorial Group Field Theory
-Authors: Sylvain Carrozza
-Published: 2014-07-17
-arXiv ID: http://arxiv.org/abs/1407.4615v2
-Categories: hep-th, gr-qc
-Abstract:
-This article provides a Wilsonian description of the perturbatively renormalizable Tensorial Group Field Theory introduced in arXiv:1303.6772 [hep-th] (Commun. Math. Phys. 330, 581-637). It is a rank-3 model based on the gauge group SU(2), and as such is expected to be related to Euclidean quantum gravity in three dimensions. By means of a power-counting argument, we introduce a notion of dimensionality of the free parameters defining the action. General flow equations for the dimensionless bare coupling constants can then be derived, in terms of a discretely varying cut-off, and in which all the so-called melonic Feynman diagrams contribute. Linearizing around the Gaussian fixed point allows to recover the splitting between relevant, irrelevant, and marginal coupling constants. Pushing the perturbative expansion to second order for the marginal parameters, we are able to determine their behaviour in the vicinity of the Gaussian fixed point. Along the way, several technical tools are reviewed, including a discussion of combinatorial factors and of the Laplace approximation, which reduces the evaluation of the amplitudes in the UV limit to that of Gaussian integrals.

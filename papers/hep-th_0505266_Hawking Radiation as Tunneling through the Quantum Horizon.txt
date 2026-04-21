@@ -1,7 +1,0 @@
-Title: Hawking Radiation as Tunneling through the Quantum Horizon
-Authors: Michele Arzano, A. J. M. Medved, Elias C. Vagenas
-Published: 2005-05-31
-arXiv ID: http://arxiv.org/abs/hep-th/0505266v2
-Categories: hep-th, astro-ph, gr-qc
-Abstract:
-Planck-scale corrections to the black-hole radiation spectrum in the Parikh-Wilczek tunneling framework are calculated. The corrective terms arise from modifications in the expression of the surface gravity in terms of the mass-energy of the black hole-emitted particle system. The form of the new spectrum is discussed together with the possible consequences for the fate of black holes in the late stages of evaporation.

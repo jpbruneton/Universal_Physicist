@@ -1,7 +1,0 @@
-Title: Functional Renormalisation Group analysis of a Tensorial Group Field Theory on $\mathbb{R}^3$
-Authors: Joseph Ben Geloun, Riccardo Martini, Daniele Oriti
-Published: 2015-08-08
-arXiv ID: http://arxiv.org/abs/1508.01855v1
-Categories: hep-th, gr-qc, math-ph
-Abstract:
-We study a model of Tensorial Group Field Theory (TGFT) on $\mathbb{R}^3$ from the point of view of the Functional Renormalisation Group. This is the first attempt to apply a renormalisation procedure to a TGFT model defined over a non-compact group manifold. IR divergences (with respect to the metric on $\mathbb{R}$) coming from the non-compactness of the group are regularised via compactification, and a thermodynamic limit is then taken. We identify then IR and UV fixed points of the RG flow and find strong hints of a phase transition of the TGFT system from a symmetric to a broken or condensate phase in the IR.

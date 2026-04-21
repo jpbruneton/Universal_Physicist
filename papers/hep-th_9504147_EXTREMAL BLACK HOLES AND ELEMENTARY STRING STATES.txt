@@ -1,7 +1,0 @@
-Title: EXTREMAL BLACK HOLES AND ELEMENTARY STRING STATES
-Authors: Ashoke Sen
-Published: 1995-04-28
-arXiv ID: http://arxiv.org/abs/hep-th/9504147v2
-Categories: hep-th, gr-qc
-Abstract:
-Some of the extremal black hole solutions in string theory have the same quantum numbers as the Bogomol'nyi saturated elementary string states. We explore the possibility that these black holes can be identified to elementary string excitations. It is shown that stringy effects could correct the Bekenstein-Hawking formula for the black hole entropy in such a way that it correctly reproduces the logarithm of the density of elementary string states. In particular, this entropy has the correct dependence on three independent parameters, the mass and the left-handed charge of the black hole, and the string coupling constant.

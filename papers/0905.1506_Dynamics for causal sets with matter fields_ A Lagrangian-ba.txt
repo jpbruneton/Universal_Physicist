@@ -1,7 +1,0 @@
-Title: Dynamics for causal sets with matter fields: A Lagrangian-based approach
-Authors: Roman Sverdlov, Luca Bombelli
-Published: 2009-05-10
-arXiv ID: http://arxiv.org/abs/0905.1506v1
-Categories: gr-qc
-Abstract:
-We present a framework for the dynamics of causal sets and coupled matter fields, which is a simplification and generalization of an approach we recently proposed. Given a set of fields including the gravitational one, the main step in implementing our proposal consists in writing their continuum-based action using as variables for the spacetime geometry the causal order and volume element. One then discretizes the resulting expression, with a procedure designed to maintain covariance. After a discussion of the general framework, we treat in detail the case of scalar fields, Yang-Mills gauge fields and the gravitational field.

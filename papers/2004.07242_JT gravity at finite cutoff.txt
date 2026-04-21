@@ -1,7 +1,0 @@
-Title: JT gravity at finite cutoff
-Authors: Luca V. Iliesiu, Jorrit Kruthoff, Gustavo J. Turiaci, Herman Verlinde
-Published: 2020-04-15
-arXiv ID: http://arxiv.org/abs/2004.07242v1
-Categories: hep-th, gr-qc
-Abstract:
-We compute the partition function of $2D$ Jackiw-Teitelboim (JT) gravity at finite cutoff in two ways: (i) via an exact evaluation of the Wheeler-DeWitt wave-functional in radial quantization and (ii) through a direct computation of the Euclidean path integral. Both methods deal with Dirichlet boundary conditions for the metric and the dilaton. In the first approach, the radial wavefunctionals are found by reducing the constraint equations to two first order functional derivative equations that can be solved exactly, including factor ordering. In the second approach we perform the path integral exactly when summing over surfaces with disk topology, to all orders in perturbation theory in the cutoff. Both results precisely match the recently derived partition function in the Schwarzian theory deformed by an operator analogous to the $T\bar{T}$ deformation in $2D$ CFTs. This equality can be seen as concrete evidence for the proposed holographic interpretation of the $T\bar{T}$ deformation as the movement of the AdS boundary to a finite radial distance in the bulk.

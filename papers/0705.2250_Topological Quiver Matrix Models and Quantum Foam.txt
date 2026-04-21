@@ -1,7 +1,0 @@
-Title: Topological Quiver Matrix Models and Quantum Foam
-Authors: Daniel L. Jafferis
-Published: 2007-05-16
-arXiv ID: http://arxiv.org/abs/0705.2250v1
-Categories: hep-th
-Abstract:
-We study the matrix models that describe the BPS bound states of branes arising from the quiver picture of the derived category. These theories have a topological partition function that localizes to the Euler character of the anti-ghost bundle over the classical BPS moduli space. We examine the effective internal geometry of D6/D2 bound states in the local vertex geometry, using BPS 0-brane probes. The Kahler blowups of the Calabi-Yau that we find utilizing these quiver theories are a realization of A-model quantum foam in the full IIA theory.

@@ -1,7 +1,0 @@
-Title: Boundary Terms for Causal Sets
-Authors: Michel Buck, Fay Dowker, Ian Jubb, Sumati Surya
-Published: 2015-02-18
-arXiv ID: http://arxiv.org/abs/1502.05388v2
-Categories: gr-qc
-Abstract:
-We propose a family of boundary terms for the action of a causal set with a spacelike boundary. We show that in the continuum limit one recovers the Gibbons-Hawking-York boundary term in the mean. We also calculate the continuum limit of the mean causal set action for an Alexandrov interval in flat spacetime. We find that it is equal to the volume of the codimension-2 intersection of the two light-cone boundaries of the interval.

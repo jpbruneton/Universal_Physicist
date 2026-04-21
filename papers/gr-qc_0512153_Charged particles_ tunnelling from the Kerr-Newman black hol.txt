@@ -1,7 +1,0 @@
-Title: Charged particles' tunnelling from the Kerr-Newman black hole
-Authors: Jingyi Zhang, Zheng Zhao
-Published: 2005-12-27
-arXiv ID: http://arxiv.org/abs/gr-qc/0512153v1
-Categories: gr-qc
-Abstract:
-In this letter, Parikh-Wilczek tunnelling framework, which treats Hawking radiation as a tunnelling process, is extended, and the emission rate of a charged particle tunnelling from the Kerr-Newman black hole is calculated. The emission spectrum takes the same functional form as that of uncharged particles and consists with an underlying unitary theory but deviates from the pure thermal spectrum. Moreover, our calculation indicates that the emission process is treated as a reversible process in the Parikh-Wilczek tunnelling framework, and the information conservation is a natural result of the first law of black hole thermodynamics.

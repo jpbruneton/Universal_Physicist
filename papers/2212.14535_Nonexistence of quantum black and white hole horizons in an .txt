@@ -1,7 +1,0 @@
-Title: Nonexistence of quantum black and white hole horizons in an improved dynamic approach
-Authors: Wen-Cong Gan, Xiao-Mei Kuang, Zhen-Hao Yang, Yungui Gong, Anzhong Wang, Bin Wang
-Published: 2022-12-30
-arXiv ID: http://arxiv.org/abs/2212.14535v5
-Categories: gr-qc, astro-ph.GA, hep-ph, hep-th
-Abstract:
-In this paper, we study the quantum geometric effects near the locations where classical black hole horizons used to appear in Einstein's classical theory, within the framework of an improved dynamic approach, in which the internal region of a black hole is modeled by the Kantowski-Sachs (KS) spacetime and the two polymerization parameters are functions of the phase space variables. Our detailed analysis shows that the effects are so strong that black and white hole horizons of the effective quantum theory do not exist at all and instead are replaced by transition surfaces, across which the metric coefficients and their inverses are smooth and remain finite, as are the corresponding curvatures, including the Kretschmann scalar. These surfaces always separate trapped regions from anti-trapped regions. The number of such surfaces is infinite, so the corresponding KS spacetimes become geodesically complete, and no black and white hole-like structures exist in this scheme.

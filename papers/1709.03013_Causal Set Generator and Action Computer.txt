@@ -1,7 +1,0 @@
-Title: Causal Set Generator and Action Computer
-Authors: William J. Cunningham, Dmitri Krioukov
-Published: 2017-09-09
-arXiv ID: http://arxiv.org/abs/1709.03013v2
-Categories: gr-qc, math.NA, physics.comp-ph
-Abstract:
-The causal set approach to quantum gravity has gained traction over the past three decades, but numerical experiments involving causal sets have been limited to relatively small scales. The software suite presented here provides a new framework for the generation and study of causal sets. Its efficiency surpasses previous implementations by several orders of magnitude. We highlight several important features of the code, including the compact data structures, the $O(N^2)$ causal set generation process, and several implementations of the $O(N^3)$ algorithm to compute the Benincasa-Dowker action of compact regions of spacetime. We show that by tailoring the data structures and algorithms to take advantage of low-level CPU and GPU architecture designs, we are able to increase the efficiency and reduce the amount of required memory significantly. The presented algorithms and their implementations rely on methods that use CUDA, OpenMP, x86 Assembly, SSE/AVX, Pthreads, and MPI. We also analyze the scaling of the algorithms' running times with respect to the problem size and available resources, with suggestions on how to modify the code for future hardware architectures.

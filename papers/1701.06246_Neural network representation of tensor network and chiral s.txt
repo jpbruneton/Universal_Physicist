@@ -1,7 +1,0 @@
-Title: Neural network representation of tensor network and chiral states
-Authors: Yichen Huang, Joel E. Moore
-Published: 2017-01-23
-arXiv ID: http://arxiv.org/abs/1701.06246v2
-Categories: cond-mat.dis-nn, quant-ph
-Abstract:
-We study the representational power of Boltzmann machines (a type of neural network) in quantum many-body systems. We prove that any (local) tensor network state has a (local) neural network representation. The construction is almost optimal in the sense that the number of parameters in the neural network representation is almost linear in the number of nonzero parameters in the tensor network representation. Despite the difficulty of representing (gapped) chiral topological states with local tensor networks, we construct a quasi-local neural network representation for a chiral $p$-wave superconductor. These results demonstrate the power of Boltzmann machines.

@@ -1,7 +1,0 @@
-Title: Spin foam models as energetic causal sets
-Authors: Marina Cortês, Lee Smolin
-Published: 2014-06-30
-arXiv ID: http://arxiv.org/abs/1407.0032v2
-Categories: gr-qc
-Abstract:
-Energetic causal sets are causal sets endowed by a flow of energy-momentum between causally related events. These incorporate a novel mechanism for the emergence of space-time from causal relations. Here we construct a spin foam model which is also an energetic causal set model. This model is closely related to the model introduced in parallel by Wolfgang Wieland in arXiv:1407.0025, and this construction makes use of results used there. What makes a spin foam model also an energetic causal set is Wieland's identification of new momenta, conserved at events (or four-simplices), whose norms are not mass, but the volume of tetrahedra. This realizes the torsion constraints, which are missing in previous spin foam models, and are needed to relate the connection dynamics to those of the metric, as in general relativity. This identification makes it possible to apply the new mechanism for the emergence of space-time to a spin foam model.

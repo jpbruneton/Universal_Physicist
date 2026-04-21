@@ -1,7 +1,0 @@
-Title: Generalized Uncertainty Principle, Classical Mechanics, and General Relativity
-Authors: R. Casadio, F. Scardigli
-Published: 2020-04-08
-arXiv ID: http://arxiv.org/abs/2004.04076v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-The Generalized Uncertainty Principle (GUP) has been directly applied to the motion of (macroscopic) test bodies on a given space-time in order to compute corrections to the classical orbits predicted in Newtonian Mechanics or General Relativity. These corrections generically violate the Equivalence Principle. The GUP has also been indirectly applied to the gravitational source by relating the GUP modified Hawking temperature to a deformation of the background metric. Such a deformed background metric determines new geodesic motions without violating the Equivalence Principle. We point out here that the two effects are mutually exclusive when compared with experimental bounds. Moreover, the former stems from modified Poisson brackets obtained from a wrong classical limit of the deformed canonical commutators.

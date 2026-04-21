@@ -1,7 +1,0 @@
-Title: Origin of Hawking Radiation: Firewall or Atmosphere?
-Authors: Wontae Kim
-Published: 2016-04-02
-arXiv ID: http://arxiv.org/abs/1604.00465v4
-Categories: hep-th, gr-qc
-Abstract:
-The Unruh vacuum not admitting any outgoing flux at the horizon implies that the origin of the outgoing Hawking radiation is the atmosphere of a near-horizon quantum region without resort to the firewall; however, the existence of the firewall of superplanckian excitations at the horizon can be supported by the infinite Tolman temperature at the horizon. In an exactly soluble model, we explicitly show that the firewall necessarily emerges out of the Unruh vacuum so that the Tolman temperature in the Unruh vacuum is divergent in essence due to the infinitely blueshifted negative ingoing flux crossing the horizon rather than the outgoing flux. We also show that the outgoing Hawking radiation in the Unruh vacuum indeed originates from the atmosphere, not just at the horizon, which is of no relevance to the infinite blueshift. Consequently, the firewall from the infinite Tolman temperature and the Hawking radiation from the atmosphere turn out to be compatible, once we waive the claim that the Hawking radiation in the Unruh vacuum originates from the infinitely blueshifted outgoing excitations at the horizon.

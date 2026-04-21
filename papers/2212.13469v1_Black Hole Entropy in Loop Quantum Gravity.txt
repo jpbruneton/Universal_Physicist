@@ -1,7 +1,0 @@
-Title: Black Hole Entropy in Loop Quantum Gravity
-Authors: J. Fernando Barbero G., Daniele Pranzetti
-Published: 2022-12-27
-arXiv ID: http://arxiv.org/abs/2212.13469v1
-Categories: gr-qc
-Abstract:
-We give an account of the state of the art about black hole entropy in Loop Quantum Gravity. This chapter contains a historical summary and explains how black hole entropy is described by relying on the concept of isolated horizon, with an emphasis on different representations of its associated symmetry group. It continues with a review of the combinatorial methods necessary to understand the behavior of the entropy as a function of the area and concludes with a discussion of the nature of the quantum horizon degrees of freedom that account for the black hole entropy and the related issue of the fixing of the Immirzi parameter.

@@ -1,7 +1,0 @@
-Title: Gauge Theories under Incorporation of a Generalized Uncertainty Principle
-Authors: Martin Kober
-Published: 2010-08-01
-arXiv ID: http://arxiv.org/abs/1008.0154v3
-Categories: physics.gen-ph, gr-qc, hep-th
-Abstract:
-There is considered an extension of gauge theories according to the assumption of a generalized uncertainty principle which implies a minimal length scale. A modification of the usual uncertainty principle implies an extended shape of matter field equations like the Dirac equation. If there is postulated invariance of such a generalized field equation under local gauge transformations, the usual covariant derivative containing the gauge potential has to be replaced by a generalized covariant derivative. This leads to a generalized interaction between the matter field and the gauge field as well as to an additional self interaction of the gauge field. Since the existence of a minimal length scale seems to be a necessary assumption of any consistent quantum theory of gravity, the gauge principle is a constitutive ingredient of the standard model and even gravity can be described as gauge theory of local translations or Lorentz transformations, the presented extension of gauge theories appears as a very important consideration.

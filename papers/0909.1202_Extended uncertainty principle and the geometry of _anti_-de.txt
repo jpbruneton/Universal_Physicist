@@ -1,7 +1,0 @@
-Title: Extended uncertainty principle and the geometry of (anti)-de Sitter space
-Authors: S. Mignemi
-Published: 2009-09-07
-arXiv ID: http://arxiv.org/abs/0909.1202v2
-Categories: gr-qc
-Abstract:
-It has been proposed that on (anti)-de Sitter background, the Heisenberg uncertainty principle should be modified by the introduction of a term proportional to the cosmological constant. We show that this modification of the uncertainty principle can be derived straightforwardly from the geometric properties of (anti)-de Sitter spacetime. We also discuss the connection between the so-called extended generalized uncertainty principle and triply special relativity.

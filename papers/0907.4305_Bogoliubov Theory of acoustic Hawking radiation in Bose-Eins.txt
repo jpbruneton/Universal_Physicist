@@ -1,7 +1,0 @@
-Title: Bogoliubov Theory of acoustic Hawking radiation in Bose-Einstein Condensates
-Authors: A. Recati, N. Pavloff, I. Carusotto
-Published: 2009-07-24
-arXiv ID: http://arxiv.org/abs/0907.4305v1
-Categories: cond-mat.quant-gas
-Abstract:
-We apply the microscopic Bogoliubov theory of dilute Bose-Einstein condensates to analyze quantum and thermal fluctuations in a flowing atomic condensate in the presence of a sonic horizon. For the simplest case of a step-like horizon, closed-form analytical expressions are found for the spectral distribution of the analog Hawking radiation and for the density correlation function. The peculiar long-distance density correlations that appear as a consequence of the Hawking emission features turns out to be reinforced by a finite initial temperature of the condensate. The analytical results are in good quantitative agreement with first principle numerical calculations.

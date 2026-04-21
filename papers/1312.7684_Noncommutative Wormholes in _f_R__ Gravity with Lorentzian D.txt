@@ -1,7 +1,0 @@
-Title: Noncommutative Wormholes in $f(R)$ Gravity with Lorentzian Distribution
-Authors: Farook Rahaman, Ayan Banerjee, Mubasher Jamil, Anil Kumar Yadav, Humaira Idris
-Published: 2013-12-30
-arXiv ID: http://arxiv.org/abs/1312.7684v1
-Categories: gr-qc
-Abstract:
-In this paper, we derive some new exact solutions of static wormholes in $f(R)$ gravity supported by the matter possesses Lorentizian density distribution of a particle-like gravitational source. We derive the wormhole's solutions in two possible schemes for a given Lorentzian distribution: assuming an astrophysically viable $F(R)$ function such as a power-law form and discuss several solutions corresponding to different values of the exponent (here $F =\frac{df}{dR}$). In the second scheme, we consider particular form of two shape functions and have reconstructed f(R) in both cases. We have discussed all the solutions with graphical point of view.

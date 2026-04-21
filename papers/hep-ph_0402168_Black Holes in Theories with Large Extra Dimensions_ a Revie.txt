@@ -1,7 +1,0 @@
-Title: Black Holes in Theories with Large Extra Dimensions: a Review
-Authors: Panagiota Kanti
-Published: 2004-02-17
-arXiv ID: http://arxiv.org/abs/hep-ph/0402168v2
-Categories: hep-ph, astro-ph, gr-qc, hep-th
-Abstract:
-We start by reviewing the existing literature on the creation of black holes during high-energy particle collisions, both in the absence and in the presence of extra, compact, spacelike dimensions. Then, we discuss in detail the properties of the produced higher-dimensional black holes, namely the horizon radius, temperature and life-time, as well as the physics that governs the evaporation of these objects, through the emission of Hawking radiation. We first study the emission of visible Hawking radiation on the brane: we derive a master equation for the propagation of fields with arbitrary spin in the induced-on-the-brane black hole background, and we review all existing results in the literature for the emission of scalars, fermions and gauge bosons during the spin-down and Schwarzschild phases of the life of the black hole. Both analytical and numerical results for the greybody factors and radiation spectra are reviewed and exact results for the number and type of fields emitted on the brane as a function of the dimensionality of spacetime are discussed. We finally study the emission of Hawking radiation in the bulk: greybody factors and radiation spectra are presented for the emission of scalar modes, and the ratio of the missing energy over the visible one is calculated for different values of the number of extra dimensions.

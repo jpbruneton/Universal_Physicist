@@ -1,7 +1,0 @@
-Title: Planck scale black hole dark matter from Higgs inflation
-Authors: Syksy Rasanen, Eemeli Tomberg
-Published: 2018-10-30
-arXiv ID: http://arxiv.org/abs/1810.12608v2
-Categories: astro-ph.CO, gr-qc, hep-th
-Abstract:
-We study the production of primordial black hole (PBH) dark matter in the case when the Standard Model Higgs coupled non-minimally to gravity is the inflaton. PBHs can be produced if the Higgs potential has a near-critical point due to quantum corrections. In this case the slow-roll approximation may be broken, so we calculate the power spectrum numerically. We consider both the metric and the Palatini formulation of general relativity. Combining observational constraints on PBHs and on the CMB spectrum we find that PBHs can constitute all of the dark matter only if they evaporate early and leave behind Planck mass relics. This requires the potential to have a shallow local minimum, not just a critical point. The initial PBH mass is then below $10^6$ g, and predictions for the CMB observables are the same as in tree-level Higgs inflation, $n_s=0.96$ and $r=5\times10^{-3}$ (metric) or $r=4\times 10^{-8} \dots 2 \times 10^{-7}$ (Palatini).

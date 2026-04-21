@@ -1,7 +1,0 @@
-Title: Effective Spin Foam Models for Lorentzian Quantum Gravity
-Authors: Seth K. Asante, Bianca Dittrich, José Padua-Arguelles
-Published: 2021-04-01
-arXiv ID: http://arxiv.org/abs/2104.00485v2
-Categories: gr-qc, hep-th
-Abstract:
-Making the Lorentzian path integral for quantum gravity well-defined and computable has been a long standing challenge. In this work we adopt the recently proposed effective spin foam models to the Lorentzian case. This defines a path integral over discrete Lorentzian quantum geometric configurations, which include metric and torsion degrees of freedom. The torsion degrees of freedom arise due to an anomaly, which is parametrized by the Barbero--Immirzi parameter. Requiring a semi-classical regime constrains this parameter, but the precise bound has to be determined by probing the dynamics. The effective models provide the computationally most efficient spin foam models yet, which allows us to perform first tests for determining the semi-classical regime. This includes explorations specific to the Lorentzian case, e.g. investigating quantum geometries with null lengths and null areas as well as geometries that describe a change of spatial topology.

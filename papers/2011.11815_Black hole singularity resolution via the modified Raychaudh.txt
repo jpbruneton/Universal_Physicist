@@ -1,7 +1,0 @@
-Title: Black hole singularity resolution via the modified Raychaudhuri equation in loop quantum gravity
-Authors: Keagan Blanchette, Saurya Das, Samantha Hergott, Saeed Rastgoo
-Published: 2020-11-24
-arXiv ID: http://arxiv.org/abs/2011.11815v3
-Categories: gr-qc
-Abstract:
-We derive loop quantum gravity corrections to the Raychaudhuri equation in the interior of a Schwarzschild black hole and near the classical singularity. We show that the resulting effective equation implies defocusing of geodesics due to the appearance of repulsive terms. This prevents the formation of conjugate points, renders the singularity theorems inapplicable, and leads to the resolution of the singularity for this spacetime.

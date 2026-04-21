@@ -1,7 +1,0 @@
-Title: An Introduction to Spin Foam Models of Quantum Gravity and BF Theory
-Authors: John C. Baez
-Published: 1999-05-21
-arXiv ID: http://arxiv.org/abs/gr-qc/9905087v1
-Categories: gr-qc, hep-th, math.QA
-Abstract:
-In loop quantum gravity we now have a clear picture of the quantum geometry of space, thanks in part to the theory of spin networks. The concept of `spin foam' is intended to serve as a similar picture for the quantum geometry of spacetime. In general, a spin network is a graph with edges labelled by representations and vertices labelled by intertwining operators. Similarly, a spin foam is a 2-dimensional complex with faces labelled by representations and edges labelled by intertwining operators. In a `spin foam model' we describe states as linear combinations of spin networks and compute transition amplitudes as sums over spin foams. This paper aims to provide a self-contained introduction to spin foam models of quantum gravity and a simpler field theory called BF theory.

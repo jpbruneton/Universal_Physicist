@@ -1,7 +1,0 @@
-Title: Unitarity and quantum resolution of gravitational singularities
-Authors: Steffen Gielen, Lucía Menéndez-Pidal
-Published: 2022-05-30
-arXiv ID: http://arxiv.org/abs/2205.15387v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-We explore the consequences of requiring that quantum theories of gravity be unitary, mostly focusing on simple cosmological models to illustrate the main points. We show that unitarity for a clock that encounters a classical singularity at finite time implies quantum singularity resolution, but for a clock that encounters future infinity at finite time leads to a quantum recollapse. We then find that our starting point - assuming the general covariance of general relativity - is actually incompatible with general quantum unitarity: singularity resolution in quantum gravity can always be engineered by choosing the right clock, or avoided by using a different one.

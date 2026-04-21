@@ -1,7 +1,0 @@
-Title: CDT and the Search for a Theory of Quantum Gravity
-Authors: J. Ambjorn, A. Goerlich, J. Jurkiewicz, R. Loll
-Published: 2013-05-29
-arXiv ID: http://arxiv.org/abs/1305.6680v1
-Categories: gr-qc, hep-lat, hep-th
-Abstract:
-Causal Dynamical Triangulations provide a non-perturbative regularization of a theory of quantum gravity. We describe how this approach connects with the asymptotic safety program and Ho\vrava-Lifshitz gravity theory, and present the most recent results from computer simulations.

@@ -1,7 +1,0 @@
-Title: Loop quantum black hole
-Authors: Xiangdong Zhang
-Published: 2023-08-20
-arXiv ID: http://arxiv.org/abs/2308.10184v1
-Categories: gr-qc
-Abstract:
-In the last decades, progress on the quantization of black holes using techniques developed in loop quantum cosmology has received increasing attention. Due to the quantum geometry effect, the resulting quantum corrected black hole is free of singularity. The quantization scheme can be roughly divided into four types, that is 1. $μ_0$-scheme, 2. $\barμ$-scheme, 3. generalized $μ_0$-scheme, 4. quantum collapsing model. This paper provides an introduction of the loop quantum black hole models and a summary of the progress made in this field, as well as the quantum effective dynamics and physical applications of these models.

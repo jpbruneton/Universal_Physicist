@@ -1,7 +1,0 @@
-Title: The Pre-Big Bang Scenario in String Cosmology
-Authors: M. Gasperini, G. Veneziano
-Published: 2002-07-12
-arXiv ID: http://arxiv.org/abs/hep-th/0207130v1
-Categories: hep-th, astro-ph, gr-qc, hep-ph
-Abstract:
-We review physical motivations, phenomenological consequences, and open problems of the so-called pre-big bang scenario in superstring cosmology.

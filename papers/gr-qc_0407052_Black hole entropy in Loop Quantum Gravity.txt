@@ -1,7 +1,0 @@
-Title: Black hole entropy in Loop Quantum Gravity
-Authors: Krzysztof A. Meissner
-Published: 2004-07-14
-arXiv ID: http://arxiv.org/abs/gr-qc/0407052v1
-Categories: gr-qc
-Abstract:
-We calculate the black hole entropy in Loop Quantum Gravity as a function of the horizon area and provide the exact formula for the leading and sub-leading terms. By comparison with the Bekenstein-Hawking formula we uniquely fix the value of the 'quantum of area' in the theory.

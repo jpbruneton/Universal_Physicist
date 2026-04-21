@@ -1,7 +1,0 @@
-Title: Quantum deSitter cosmology and phantom matter
-Authors: Shin'ichi Nojiri, Sergei D. Odintsov
-Published: 2003-03-13
-arXiv ID: http://arxiv.org/abs/hep-th/0303117v3
-Categories: hep-th, astro-ph
-Abstract:
-We consider deSitter universe and Nariai universe induced by quantum CFT with classical phantom matter and perfect fluid. The model represents the combination of trace-anomaly driven inflation and phantom driven deSitter universe. The similarity of phantom matter with quantum CFT indicates that phantom scalar may be the effective description for some quantum field theory. It is demonstrated that it is easier to achieve the acceleration of the scale factor preserving the energy conditions in such unified model. Some properties of unified theory (anti-gravitating solutions, negative ADM mass Nariai solution, relation with steady state) are briefly mentioned.

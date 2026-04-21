@@ -1,7 +1,0 @@
-Title: Hawking radiation in sonic black holes
-Authors: S. Giovanazzi
-Published: 2004-11-08
-arXiv ID: http://arxiv.org/abs/physics/0411064v1
-Categories: physics.atom-ph, cond-mat.other, physics.flu-dyn
-Abstract:
-I present a microscopic description of Hawking radiation in sonic black holes. A one-dimensional Fermi-degenerate liquid squeezed by a smooth barrier forms a transonic flow, a sonic analogue of a black hole. The quantum treatment of the non-interacting case establishes a close relationship between the Hawking radiation and quantum tunnelling through the barrier. Quasi-particle excitations appear at the barrier and are then radiated with a thermal distribution in exact agreement with Hawking's formula. The signature of the radiation can be found in the dynamic structure factor, which can be measured in a scattering experiment. The possibility for experimental verification of this new transport phenomenon for ultra-cold atoms is discussed.

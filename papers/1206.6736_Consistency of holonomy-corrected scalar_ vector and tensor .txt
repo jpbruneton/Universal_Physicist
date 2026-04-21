@@ -1,7 +1,0 @@
-Title: Consistency of holonomy-corrected scalar, vector and tensor perturbations in Loop Quantum Cosmology
-Authors: Thomas Cailleteau, Aurelien Barrau, Julien Grain, Francesca Vidotto
-Published: 2012-06-28
-arXiv ID: http://arxiv.org/abs/1206.6736v1
-Categories: gr-qc
-Abstract:
-Loop Quantum Cosmology yields two kinds of quantum corrections to the effective equations of motion for cosmological perturbations. Here we focus on the holonomy kind and we study the problem of the closure of the resulting algebra of constraints. Up to now, tensor, vector and scalar perturbations were studied independently, leading to different algebras of constraints. The structures of the related algebras were imposed by the requirement of anomaly freedom. In this article we show that the algebra can be modified by a very simple quantum correction, holding for all types of perturbations. This demonstrates the consistency of the theory and shows that lessons from the study of scalar perturbations should be taken into account when studying tensor modes. The Mukhanov-Sasaki equations of motion are similarly modified by a simple term.

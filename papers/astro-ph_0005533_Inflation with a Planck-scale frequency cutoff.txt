@@ -1,7 +1,0 @@
-Title: Inflation with a Planck-scale frequency cutoff
-Authors: J. C. Niemeyer
-Published: 2000-05-26
-arXiv ID: http://arxiv.org/abs/astro-ph/0005533v2
-Categories: astro-ph, gr-qc, hep-th
-Abstract:
-The implementation of a Planck-scale high frequency and short wavelength cutoff in quantum theories on expanding backgrounds may have potentially nontrivial implications, such as the breaking of local Lorentz invariance and the existence of a yet unknown mechanism for the creation of vacuum modes. In scenarios where inflation begins close to the cutoff scale, these effects could have observable consequences as trans-Planckian modes are redshifted to cosmological scales. In close analogy with similar studies of Hawking radiation, a simple theory of a minimally coupled scalar field in de Sitter space is studied, with a high frequency cutoff imposed by a nonlinear dispersion relation. Under certain conditions the model predicts deviations from the standard inflationary scenario. We also comment on the difficulties in generalizing fluid models of Hawking radiation to cosmological space-times.

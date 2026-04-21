@@ -1,7 +1,0 @@
-Title: When conceptual worlds collide: The GUP and the BH entropy
-Authors: A. J. M. Medved, Elias C. Vagenas
-Published: 2004-11-01
-arXiv ID: http://arxiv.org/abs/hep-th/0411022v2
-Categories: hep-th, gr-qc
-Abstract:
-Recently, there has been much attention devoted to resolving the quantum corrections to the Bekenstein--Hawking (black hole) entropy. In particular, many researchers have expressed a vested interest in fixing the coefficient of the sub-leading logarithmic term. In the current paper, we are able to make some substantial progress in this direction by utilizing the generalized uncertainty principle (GUP). Notably, the GUP reduces to the conventional Heisenberg relation in situations of weak gravity but transcends it when gravitational effects can no longer be ignored. Ultimately, we formulate the quantum-corrected entropy in terms of an expansion that is consistent with all previous findings. Moreover, we demonstrate that the logarithmic prefactor (indeed, any coefficient of the expansion) can be expressed in terms of a single parameter that should be determinable via the fundamental theory.

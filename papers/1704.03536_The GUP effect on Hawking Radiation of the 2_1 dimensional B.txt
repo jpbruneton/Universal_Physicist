@@ -1,7 +1,0 @@
-Title: The GUP effect on Hawking Radiation of the 2+1 dimensional Black Hole
-Authors: Ganim Gecim, Yusuf Sucu
-Published: 2017-04-10
-arXiv ID: http://arxiv.org/abs/1704.03536v1
-Categories: gr-qc, hep-th
-Abstract:
-We investigate the Generalized Uncertainty Principle (GUP) effect on the Hawking radiation of the 2+1 dimensional Martinez-Zanelli black hole by using the Hamilton-Jacobi method. In this connection, we discuss the tunnelling probabilities and Hawking temperature of the spin-1/2 and spin-0 particles for the black hole. Therefore, we use the modified Klein-Gordon and Dirac equations based on the GUP. Then, we observe that the Hawking temperature of the scalar and Dirac particles depend on not only the black hole properties, but also the properties of the tunnelling particle, such as angular momentum, energy and mass. And, in this situation, we see that the tunnellig probability and the Hawking radiation of the Dirac particle is different from that of the scalar particle.

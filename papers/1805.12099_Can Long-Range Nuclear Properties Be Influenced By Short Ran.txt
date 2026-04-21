@@ -1,7 +1,0 @@
-Title: Can Long-Range Nuclear Properties Be Influenced By Short Range Interactions? A chiral dynamics estimate
-Authors: G. A. Miller, A. Beck, S. May-Tal Beck, L. B. Weinstein, E. Piasetzky, O. Hen
-Published: 2018-05-30
-arXiv ID: http://arxiv.org/abs/1805.12099v3
-Categories: nucl-th, hep-ph, nucl-ex
-Abstract:
-Recent experiments and many-body calculations indicate that approximately 20\% of the nucleons in medium and heavy nuclei ($A\geq12$) are part of short-range correlated (SRC) primarily neutron-proton ($np$) pairs. We find that using chiral dynamics to account for the formation of $np$ pairs due to the effects of iterated and irreducible two-pion exchange leads to values consistent with the 20\% level. We further apply chiral dynamics to study how these correlations influence the calculations of nuclear charge radii, that traditionally truncate their effect, to find that they are capable of introducing non-negligible effects.

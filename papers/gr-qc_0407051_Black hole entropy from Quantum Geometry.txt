@@ -1,7 +1,0 @@
-Title: Black hole entropy from Quantum Geometry
-Authors: Marcin Domagala, Jerzy Lewandowski
-Published: 2004-07-14
-arXiv ID: http://arxiv.org/abs/gr-qc/0407051v2
-Categories: gr-qc, hep-th
-Abstract:
-Quantum Geometry (the modern Loop Quantum Gravity using graphs and spin-networks instead of the loops) provides microscopic degrees of freedom that account for the black-hole entropy. However, the procedure for state counting used in the literature contains an error and the number of the relevant horizon states is underestimated. In our paper a correct method of counting is presented. Our results lead to a revision of the literature of the subject. It turns out that the contribution of spins greater then 1/2 to the entropy is not negligible. Hence, the value of the Barbero-Immirzi parameter involved in the spectra of all the geometric and physical operators in this theory is different than previously derived. Also, the conjectured relation between Quantum Geometry and the black hole quasi-normal modes should be understood again.

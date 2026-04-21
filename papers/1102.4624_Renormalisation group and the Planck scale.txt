@@ -1,7 +1,0 @@
-Title: Renormalisation group and the Planck scale
-Authors: Daniel F. Litim
-Published: 2011-02-22
-arXiv ID: http://arxiv.org/abs/1102.4624v1
-Categories: hep-th, gr-qc, hep-ph
-Abstract:
-I discuss the renormalisation group approach to gravity, its link to Steven Weinberg's asymptotic safety scenario, and give an overview of results with applications to particle physics and cosmology.

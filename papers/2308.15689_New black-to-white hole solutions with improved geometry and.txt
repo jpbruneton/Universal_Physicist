@@ -1,7 +1,0 @@
-Title: New black-to-white hole solutions with improved geometry and energy conditions
-Authors: Zhong-Wen Feng, Yi Ling, Xiao-Ning Wu, Qing-Quan Jiang
-Published: 2023-08-30
-arXiv ID: http://arxiv.org/abs/2308.15689v6
-Categories: gr-qc
-Abstract:
-We construct new black-to-white hole solutions which connect the geometry of spacetime at some gluing surface inside the horizon. The continuity of the metric can be guaranteed up to the arbitrary order which is controlled by the power factor $n$. This sort of black-to-white holes is characterized by the sub-Planckian scalar curvature, independent of the mass of black-to-white holes. More importantly, we show that the energy condition is only violated within a small region near the gluing surface. The geodesics of particles within the region from black hole to white hole is also analyzed. It turns out that the matter falling into the black hole may pass through the center without singularity and come out from the white hole. This scenario provides novel ideas for understanding the information loss paradox in traditional black hole physics.

@@ -1,7 +1,0 @@
-Title: Towards a derivation of holographic entanglement entropy
-Authors: Horacio Casini, Marina Huerta, Robert C. Myers
-Published: 2011-02-02
-arXiv ID: http://arxiv.org/abs/1102.0440v2
-Categories: hep-th, gr-qc
-Abstract:
-We provide a derivation of holographic entanglement entropy for spherical entangling surfaces. Our construction relies on conformally mapping the boundary CFT to a hyperbolic geometry and observing that the vacuum state is mapped to a thermal state in the latter geometry. Hence the conformal transformation maps the entanglement entropy to the thermodynamic entropy of this thermal state. The AdS/CFT dictionary allows us to calculate this thermodynamic entropy as the horizon entropy of a certain topological black hole. In even dimensions, we also demonstrate that the universal contribution to the entanglement entropy is given by A-type trace anomaly for any CFT, without reference to holography.

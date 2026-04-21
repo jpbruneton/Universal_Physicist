@@ -1,7 +1,0 @@
-Title: Wormhole inspired by non-commutative geometry
-Authors: Farook Rahaman, Sreya Karmakar, Indrani Karar, Saibal Ray
-Published: 2014-06-10
-arXiv ID: http://arxiv.org/abs/1406.3045v3
-Categories: gr-qc
-Abstract:
-In the present work we search for a new wormhole solution inspired by noncommutative geometry with the additional condition of allowing conformal Killing vectors (CKV). A special aspect of noncommutative geometry is that it replaces point-like structures of gravitational sources with smeared objects under Gaussian distribution. However, the purpose of this paper is to obtain wormhole solutions with noncommutative geometry as a background where we consider a point-like structure of gravitational object without smearing effect. It is found through this investigation that wormhole solutions exist in this Lorentzian distribution with viable physical properties.

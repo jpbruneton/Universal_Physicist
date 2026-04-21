@@ -1,7 +1,0 @@
-Title: A tensor-vector-scalar framework for modified dynamics and cosmic dark matter
-Authors: R. H. Sanders
-Published: 2005-02-10
-arXiv ID: http://arxiv.org/abs/astro-ph/0502222v2
-Categories: astro-ph, gr-qc
-Abstract:
-I describe a tensor-vector-scalar theory that reconciles the galaxy scale success of modified Newtonian dynamics (MOND) with the cosmological scale evidence for CDM. The theory provides a cosmological basis for MOND in the sense that the predicted phenomenology only arises in a cosmological background. The theory contains an evolving effective potential, and scalar field oscillations in this potential comprise the cold dark matter; the de Broglie wavelength of these soft bosons, however, is sufficiently large that they cannot accumulate in galaxies. The theory predicts, inevitably, a constant anomalous acceleration in the outer solar system which, depending upon the choice of parameters, can be consistent with that detected by the Pioneer spacecrafts.

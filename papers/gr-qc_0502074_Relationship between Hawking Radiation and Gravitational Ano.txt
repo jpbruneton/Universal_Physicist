@@ -1,7 +1,0 @@
-Title: Relationship between Hawking Radiation and Gravitational Anomalies
-Authors: Sean P. Robinson, Frank Wilczek
-Published: 2005-02-15
-arXiv ID: http://arxiv.org/abs/gr-qc/0502074v3
-Categories: gr-qc, hep-th
-Abstract:
-We show that in order to avoid a breakdown of general covariance at the quantum level the total flux in each outgoing partial wave of a quantum field in a black hole background must be equal to that of a (1+1)-dimensional blackbody at the Hawking temperature.

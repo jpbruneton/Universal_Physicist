@@ -1,7 +1,0 @@
-Title: The continuum limit of loop quantum gravity - a framework for solving the theory
-Authors: Bianca Dittrich
-Published: 2014-09-04
-arXiv ID: http://arxiv.org/abs/1409.1450v2
-Categories: gr-qc, hep-th, quant-ph
-Abstract:
-The construction of a continuum limit for the dynamics of loop quantum gravity is unavoidable to complete the theory. We explain that such a construction is equivalent to obtaining the continuum physical Hilbert space, which encodes the solutions of the theory. We present iterative coarse graining methods to construct physical states in a truncation scheme and explain in which sense this scheme represents a renormalization flow. We comment on the role of diffeomorphism symmetry as an indicator for the continuum limit.

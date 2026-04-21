@@ -1,7 +1,0 @@
-Title: Loop optimization for tensor network renormalization
-Authors: Shuo Yang, Zheng-Cheng Gu, Xiao-Gang Wen
-Published: 2015-12-15
-arXiv ID: http://arxiv.org/abs/1512.04938v2
-Categories: cond-mat.str-el, cond-mat.stat-mech, quant-ph
-Abstract:
-We introduce a tensor renormalization group scheme for coarse-graining a two-dimensional tensor network that can be successfully applied to both classical and quantum systems on and off criticality. The key innovation in our scheme is to deform a 2D tensor network into small loops and then optimize the tensors on each loop. In this way, we remove short-range entanglement at each iteration step and significantly improve the accuracy and stability of the renormalization flow. We demonstrate our algorithm in the classical Ising model and a frustrated 2D quantum model.

@@ -1,7 +1,0 @@
-Title: Causal Sets, a Possible Interpretation for the Black Hole Entropy,and Related Topics
-Authors: D. Dou
-Published: 2001-06-07
-arXiv ID: http://arxiv.org/abs/gr-qc/0106024v1
-Categories: gr-qc, hep-th
-Abstract:
-The Causal Set hypothesis asserts that spacetime, ultimately, is discrete and its underlying structure is that of a locally finite partial ordered set, and macroscopic causality reflects a deeper notion of order in terms of which all the geometrical structure of spacetime must find their ultimate expression. After reviewing the main aspects of Causal Sets Kinematics, and the recently developed Stochastic Dynamics. We concentrate on possible implications in the fields of cosmology and black holes. In the context of black hole, we propose a possible interpretation of the entropy as the number of links crossing the horizon.

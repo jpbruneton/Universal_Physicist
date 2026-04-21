@@ -1,7 +1,0 @@
-Title: Quasinormal Modes and Bounding Greybody Factors of GUP-corrected Black Holes in Kalb-Ramond Gravity
-Authors: Anshuman Baruah, Ali Övgün, Atri Deshamukhya
-Published: 2023-04-16
-arXiv ID: http://arxiv.org/abs/2304.07761v2
-Categories: gr-qc, hep-th
-Abstract:
-The vacuum expectation value of the non-minimally coupled Kalb-Ramond (KR) field leads to spontaneous local Lorentz symmetry violation, and static spherically symmetric solutions exist. In this study, we study the quasinormal modes (QNMs) of modified black holes in non--minimally coupled KR gravity. We employ a higher-order Padé averaged WKB method to compute the QNMs for scalar, electromagnetic, and gravitational perturbations. In order to account for quantum corrections, we examine the geometric characteristics of the horizon and QNMs by introducing the generalized uncertainty principle (GUP). Additionally, we shed light on the impact of the Lorentz violating parameters on our findings and estimate QNMs for different perturbations. Further, we estimate bounds on the greybody factors for the modified and GUP-corrected black holes. Our findings reveal the influence of the Lorentz violating parameters in the model on the QNM frequencies and their reliance on the GUP parameters.

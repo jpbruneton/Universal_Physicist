@@ -1,7 +1,0 @@
-Title: Entanglement entropy of random quantum critical points in one dimension
-Authors: G. Refael, J. E. Moore
-Published: 2004-06-30
-arXiv ID: http://arxiv.org/abs/cond-mat/0406737v1
-Categories: cond-mat.dis-nn, quant-ph
-Abstract:
-For quantum critical spin chains without disorder, it is known that the entanglement of a segment of N>>1 spins with the remainder is logarithmic in N with a prefactor fixed by the central charge of the associated conformal field theory. We show that for a class of strongly random quantum spin chains, the same logarithmic scaling holds for mean entanglement at criticality and defines a critical entropy equivalent to central charge in the pure case. This effective central charge is obtained for Heisenberg, XX, and quantum Ising chains using an analytic real-space renormalization group approach believed to be asymptotically exact. For these random chains, the effective universal central charge is characteristic of a universality class and is consistent with a c-theorem.

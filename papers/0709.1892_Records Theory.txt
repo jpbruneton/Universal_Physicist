@@ -1,7 +1,0 @@
-Title: Records Theory
-Authors: Edward Anderson
-Published: 2007-09-12
-arXiv ID: http://arxiv.org/abs/0709.1892v6
-Categories: gr-qc
-Abstract:
-In quantum gravity, one seeks to combine quantum mechanics and general relativity. In such attempts, one comes across the `problem of time' impasse: the notion of time is conceptually different in each of these theories. In this paper, I consider the timeless records approach toward resolving this. Records are localized, information-containing subconfigurations of a single instant. Records theory is the study of these and of how science (or history) is to be abstracted from correlations between them. I critically evaluate motivations for this approach that have previously appeared in the literature. I provide a ground-level structure for records theory and discuss what kind of further tools are needed, illustrated with some toy models: ordinary mechanics, relatonal particle dynamics, detector models and inhomogeneous perturbations about homogeneous cosmology.

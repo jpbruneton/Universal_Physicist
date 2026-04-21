@@ -1,7 +1,0 @@
-Title: Contraints on Matter from Asymptotic Safety
-Authors: Roberto Percacci, Daniele Perini
-Published: 2002-07-03
-arXiv ID: http://arxiv.org/abs/hep-th/0207033v3
-Categories: hep-th, gr-qc, hep-ph
-Abstract:
-Recent studies of the ultraviolet behaviour of pure gravity suggest that it admits a non-Gaussian attractive fixed point, and therefore that the theory is asymptotically safe. We consider the effect on this fixed point of massless minimally coupled matter fields. The existence of a UV attractive fixed point puts bounds on the type and number of such fields.

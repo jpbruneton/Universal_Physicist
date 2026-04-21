@@ -1,7 +1,0 @@
-Title: Bekenstein-Hawking Entropy and Strange Metals
-Authors: Subir Sachdev
-Published: 2015-06-16
-arXiv ID: http://arxiv.org/abs/1506.05111v4
-Categories: hep-th, cond-mat.str-el, gr-qc
-Abstract:
-We examine models of fermions with infinite-range interactions which realize non-Fermi liquids with a continuously variable U(1) charge density $\mathcal{Q}$, and a non-zero entropy density $\mathcal{S}$ at vanishing temperature. Real time correlators of operators carrying U(1) charge $q$ at a low temperature $T$ are characterized by a $\mathcal{Q}$-dependent frequency $ω_{\mathcal{S}} = (q \, T/\hbar) (\partial \mathcal{S}/\partial{\mathcal{Q}})$ which determines a spectral asymmetry. We show that the correlators match precisely with those of the AdS$_2$ horizons of extremal charged black holes. On the black hole side, the matching employs $\mathcal{S}$ as the Bekenstein-Hawking entropy density, and the laws of black hole thermodynamics which relate $(\partial{\mathcal{S}}/\partial{\mathcal{Q}})/(2 π)$ to the electric field strength in AdS$_2$. The fermion model entropy is computed using the microscopic degrees of freedom of a UV complete theory without supersymmetry.

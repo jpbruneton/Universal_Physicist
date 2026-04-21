@@ -1,7 +1,0 @@
-Title: Six easy roads to the Planck scale
-Authors: Ronald J. Adler
-Published: 2010-01-08
-arXiv ID: http://arxiv.org/abs/1001.1205v1
-Categories: gr-qc
-Abstract:
-We give six arguments that the Planck scale should be viewed as a fundamental minimum or boundary for the classical concept of spacetime, beyond which quantum effects cannot be neglected and the basic nature of spacetime must be reconsidered. The arguments are elementary, heuristic, and plausible, and as much as possible rely on only general principles of quantum theory and gravity theory. The paper is primarily pedagogical, and its main goal is to give physics students, non-specialists, engineers etc. an awareness and appreciation of the Planck scale and the role it should play in present and future theories of quantum spacetime and quantum gravity.

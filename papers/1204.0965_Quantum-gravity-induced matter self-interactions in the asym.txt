@@ -1,7 +1,0 @@
-Title: Quantum-gravity-induced matter self-interactions in the asymptotic-safety scenario
-Authors: Astrid Eichhorn
-Published: 2012-04-04
-arXiv ID: http://arxiv.org/abs/1204.0965v2
-Categories: gr-qc, hep-th
-Abstract:
-We investigate the high-energy properties of matter theories coupled to quantum gravity. Specifically, we show that quantum gravity fluctuations generically induce matter self-interactions in a scalar theory. Our calculations apply within asymptotically safe quantum gravity, where our results indicate that the UV is dominated by an interacting fixed point, with non-vanishing gravitational as well as matter couplings. In particular, momentum-dependent scalar self-interactions are non-zero and induce a non-vanishing momentum-independent scalar potential. Furthermore we point out that terms of this type can have observable consequences in the context of scalar-field driven inflation, where they can induce potentially observable non-Gaussianities in the CMB.

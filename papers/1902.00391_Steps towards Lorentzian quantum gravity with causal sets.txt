@@ -1,7 +1,0 @@
-Title: Steps towards Lorentzian quantum gravity with causal sets
-Authors: Astrid Eichhorn
-Published: 2019-02-01
-arXiv ID: http://arxiv.org/abs/1902.00391v1
-Categories: gr-qc
-Abstract:
-Causal set quantum gravity is a Lorentzian approach to quantum gravity, based on the causal structure of spacetime. It models each spacetime configuration as a discrete causal network of spacetime points. As such, key questions of the approach include whether and how a reconstruction of a sufficiently coarse-grained spacetime geometry is possible from a causal set. As an example for the recovery of spatial geometry from discrete causal structure, the construction of a spatial distance function for causal sets is reviewed. Secondly, it is an open question whether the path sum over all causal sets gives rise to an expectation value for the causal set that corresponds to a cosmologically viable spacetime. To provide a tool to tackle the path sum over causal sets, the derivation of a flow equation for the effective action for causal sets in matrix-model language is reviewed. This could provide a way to coarse-grain discrete networks in a background-independent way. Finally, a short roadmap to test the asymptotic-safety conjecture in Lorentzian quantum gravity using causal sets is sketched.

@@ -1,7 +1,0 @@
-Title: Hawking Radiation as Quantum Tunneling from Noncommutative Schwarzschild Black Hole
-Authors: Kourosh Nozari, S. Hamid Mehdipour
-Published: 2008-01-26
-arXiv ID: http://arxiv.org/abs/0801.4074v3
-Categories: gr-qc
-Abstract:
-We study tunneling process through quantum horizon of a Schwarzschild black hole in noncommutative spacetime. This is done by considering the effect of smearing of the particle mass as a Gaussian profile in flat spacetime. We show that even in this noncommutative setup there will be no correlation between the different modes of radiation which reflects the fact that information doesn't come out continuously during the evaporation process at least at late-time. However, due to spacetime noncommutativity, information might be preserved by a stable black hole remnant.

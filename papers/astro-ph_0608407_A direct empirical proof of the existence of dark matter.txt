@@ -1,7 +1,0 @@
-Title: A direct empirical proof of the existence of dark matter
-Authors: Douglas Clowe, Marusa Bradac, Anthony H. Gonzalez, Maxim Markevitch, Scott W. Randall, Christine Jones, Dennis Zaritsky
-Published: 2006-08-19
-arXiv ID: http://arxiv.org/abs/astro-ph/0608407v1
-Categories: astro-ph
-Abstract:
-We present new weak lensing observations of 1E0657-558 (z=0.296), a unique cluster merger, that enable a direct detection of dark matter, independent of assumptions regarding the nature of the gravitational force law. Due to the collision of two clusters, the dissipationless stellar component and the fluid-like X-ray emitting plasma are spatially segregated. By using both wide-field ground based images and HST/ACS images of the cluster cores, we create gravitational lensing maps which show that the gravitational potential does not trace the plasma distribution, the dominant baryonic mass component, but rather approximately traces the distribution of galaxies. An 8-sigma significance spatial offset of the center of the total mass from the center of the baryonic mass peaks cannot be explained with an alteration of the gravitational force law, and thus proves that the majority of the matter in the system is unseen.

@@ -1,7 +1,0 @@
-Title: Asymptotic analysis of the EPRL four-simplex amplitude
-Authors: John W. Barrett, R. J. Dowdall, Winston J. Fairbairn, Henrique Gomes, Frank Hellmann
-Published: 2009-02-06
-arXiv ID: http://arxiv.org/abs/0902.1170v2
-Categories: gr-qc
-Abstract:
-The semiclassical limit of a 4-simplex amplitude for a spin foam quantum gravity model with an Immirzi parameter is studied. If the boundary state represents a non-degenerate 4-simplex geometry, the asymptotic formula contains the Regge action for general relativity. A canonical choice of phase for the boundary state is introduced and is shown to be necessary to obtain the results.

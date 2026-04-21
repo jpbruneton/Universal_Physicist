@@ -1,7 +1,0 @@
-Title: Loop Quantum Cosmology: Recent Progress
-Authors: Martin Bojowald
-Published: 2004-02-12
-arXiv ID: http://arxiv.org/abs/gr-qc/0402053v1
-Categories: gr-qc
-Abstract:
-Aspects of the full theory of loop quantum gravity can be studied in a simpler context by reducing to symmetric models like cosmological ones. This leads to several applications where loop effects play a significant role when one is sensitive to the quantum regime. As a consequence, the structure of and the approach to classical singularities are very different from general relativity: The quantum theory is free of singularities, and there are new phenomenological scenarios for the evolution of the very early universe including inflation. We give an overview of the main effects, focussing on recent results obtained by several different groups.

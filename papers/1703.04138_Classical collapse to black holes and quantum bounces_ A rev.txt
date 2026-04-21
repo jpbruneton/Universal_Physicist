@@ -1,7 +1,0 @@
-Title: Classical collapse to black holes and quantum bounces: A review
-Authors: Daniele Malafarina
-Published: 2017-03-12
-arXiv ID: http://arxiv.org/abs/1703.04138v2
-Categories: gr-qc, astro-ph.HE
-Abstract:
-In the last four decades different programs have been carried out aiming at understanding the final fate of gravitational collapse of massive bodies once some prescriptions for the behaviour of gravity in the strong field regime are provided. The general picture arising from most of these scenarios is that the classical singularity at the end of collapse is replaced by a bounce. The most striking consequence of the bounce is that the black hole horizon may live for only a finite time. The possible implications for astrophysics are important since, if these models capture the essence of the collapse of a massive star, an observable signature of quantum gravity may be hiding in astrophysical phenomena. One intriguing idea that is implied by these models is the possible existence of exotic compact objects, of high density and finite size, that may not be covered by an horizon. The present article outlines the main features of these collapse models and some of the most relevant open problems. The aim is to provide a comprehensive (as much as possible) overview of the current status of the field from the point of view of astrophysics. As a little extra, a new toy model for collapse leading to the formation of a quasi static compact object is presented.

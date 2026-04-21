@@ -1,7 +1,0 @@
-Title: General properties of holographic entanglement entropy
-Authors: Matthew Headrick
-Published: 2013-12-23
-arXiv ID: http://arxiv.org/abs/1312.6717v1
-Categories: hep-th
-Abstract:
-The Ryu-Takayanagi formula implies many general properties of entanglement entropies in holographic theories. We review the known properties, such as continuity, strong subadditivity, and monogamy of mutual information, and fill in gaps in some of the previously-published proofs. We also add a few new properties, including: properties of the map from boundary regions to bulk regions implied by the RT formula, such as monotonicity; conditions under which subadditivity-type inequalities are saturated; and an inequality concerning reflection-symmetric states. We attempt to draw lessons from these properties about the structure of the reduced density matrix in holographic theories.

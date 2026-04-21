@@ -1,7 +1,0 @@
-Title: Gauge invariant cosmological perturbation equations with corrections from loop quantum gravity
-Authors: Martin Bojowald, Golam Mortuza Hossain, Mikhail Kagan, S. Shankaranarayanan
-Published: 2008-11-10
-arXiv ID: http://arxiv.org/abs/0811.1572v1
-Categories: gr-qc
-Abstract:
-A consistent implementation of quantum gravity is expected to change the familiar notions of space, time and the propagation of matter in drastic ways. This will have consequences on very small scales, but also gives rise to correction terms in evolution equations of modes relevant for observations. In particular, the evolution of inhomogeneities in the very early universe should be affected. In this paper consistent evolution equations for gauge-invariant perturbations in the presence of inverse triad corrections of loop quantum gravity are derived. Some immediate effects are pointed out, for instance concerning conservation of power on large scales and non-adiabaticity. It is also emphasized that several critical corrections can only be seen to arise in a fully consistent treatment where the gauge freedom of canonical gravity is not fixed before implementing quantum corrections. In particular, metric modes must be allowed to be inhomogeneous: it is not consistent to assume only matter inhomogeneities on a quantum corrected homogeneous background geometry. In this way, stringent consistency conditions arise for possible quantization ambiguities which will eventually be further constrained observationally.

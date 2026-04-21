@@ -1,7 +1,0 @@
-Title: Quantization ambiguities and bounds on geometric scalars in anisotropic loop quantum cosmology
-Authors: Parampreet Singh, Edward Wilson-Ewing
-Published: 2013-10-24
-arXiv ID: http://arxiv.org/abs/1310.6728v2
-Categories: gr-qc
-Abstract:
-We study quantization ambiguities in loop quantum cosmology that arise for space-times with non-zero spatial curvature and anisotropies. Motivated by lessons from different possible loop quantizations of the closed Friedmann-Lemaitre-Robertson-Walker cosmology, we find that using open holonomies of the extrinsic curvature, which due to gauge-fixing can be treated as a connection, leads to the same quantum geometry effects that are found in spatially flat cosmologies. More specifically, in contrast to the quantization based on open holonomies of the Ashtekar-Barbero connection, the expansion and shear scalars in the effective theories of the Bianchi type II and Bianchi type IX models have upper bounds, and these are in exact agreement with the bounds found in the effective theories of the Friedmann-Lemaitre-Robertson-Walker and Bianchi type I models in loop quantum cosmology. We also comment on some ambiguities present in the definition of inverse triad operators and their role.

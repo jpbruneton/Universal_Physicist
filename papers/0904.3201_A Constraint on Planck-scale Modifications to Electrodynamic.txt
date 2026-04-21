@@ -1,7 +1,0 @@
-Title: A Constraint on Planck-scale Modifications to Electrodynamics with CMB polarization data
-Authors: Giulia Gubitosi, Luca Pagano, Giovanni Amelino-Camelia, Alessandro Melchiorri, Asantha Cooray
-Published: 2009-04-21
-arXiv ID: http://arxiv.org/abs/0904.3201v1
-Categories: astro-ph.CO, gr-qc
-Abstract:
-We show that the Cosmic Microwave Background (CMB) polarization data gathered by the BOOMERanG 2003 flight and WMAP provide an opportunity to investigate {\it in-vacuo} birefringence, of a type expected in some quantum pictures of space-time, with a sensitivity that extends even beyond the desired Planck-scale energy. In order to render this constraint more transparent we rely on a well studied phenomenological model of quantum-gravity-induced birefringence, in which one easily establishes that effects introduced at the Planck scale would amount to values of a dimensionless parameter, denoted by $ξ$, with respect to the Planck energy which are roughly of order 1. By combining BOOMERanG and WMAP data we estimate $ξ\simeq -0.110 \pm 0.076$ at the 68% c.l. Moreover, we forecast on the sensitivity to $ξ$ achievable by future CMB polarization experiments (PLANCK, Spider, EPIC), which, in the absence of systematics, will be at the 1-$σ$ confidence of $8.5 \times 10^{-4}$ (PLANCK), $6.1 \times 10^{-3}$ (Spider), and $1.0 \times 10^{-5}$ (EPIC) respectively. The cosmic variance-limited sensitivity from CMB is $6.1\times 10^{-6}$.

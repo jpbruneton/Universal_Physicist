@@ -1,7 +1,0 @@
-Title: Lorentzian spin foam amplitudes: graphical calculus and asymptotics
-Authors: John W. Barrett, Richard J. Dowdall, Winston J. Fairbairn, Frank Hellmann, Roberto Pereira
-Published: 2009-07-14
-arXiv ID: http://arxiv.org/abs/0907.2440v4
-Categories: gr-qc, hep-th, math.RT
-Abstract:
-The amplitude for the 4-simplex in a spin foam model for quantum gravity is defined using a graphical calculus for the unitary representations of the Lorentz group. The asymptotics of this amplitude are studied in the limit when the representation parameters are large, for various cases of boundary data. It is shown that for boundary data corresponding to a Lorentzian simplex, the asymptotic formula has two terms, with phase plus or minus the Lorentzian signature Regge action for the 4-simplex geometry, multiplied by an Immirzi parameter. Other cases of boundary data are also considered, including a surprising contribution from Euclidean signature metrics.

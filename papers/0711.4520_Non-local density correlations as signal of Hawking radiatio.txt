@@ -1,7 +1,0 @@
-Title: Non-local density correlations as signal of Hawking radiation in BEC acoustic black holes
-Authors: Roberto Balbinot, Alessandro Fabbri, Serena Fagnocchi, Alessio Recati, Iacopo Carusotto
-Published: 2007-11-28
-arXiv ID: http://arxiv.org/abs/0711.4520v2
-Categories: cond-mat.other, gr-qc, hep-th
-Abstract:
-We have used the analogy between gravitational systems and non-homogeneous fluid flows to calculate the density-density correlation function of an atomic Bose-Einstein condensate in the presence of an acoustic black hole. The emission of correlated pairs of phonons by Hawking-like process results into a peculiar long-range density correlation. Quantitative estimations of the effect are provided for realistic experimental configurations.

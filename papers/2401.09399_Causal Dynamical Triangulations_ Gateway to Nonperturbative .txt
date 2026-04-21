@@ -1,7 +1,0 @@
-Title: Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity
-Authors: J. Ambjørn, R. Loll
-Published: 2024-01-17
-arXiv ID: http://arxiv.org/abs/2401.09399v1
-Categories: hep-th, gr-qc, hep-lat
-Abstract:
-A powerful strategy to treat quantum field theories beyond perturbation theory is by putting them on a lattice. However, the dynamical and symmetry structure of general relativity have for a long time stood in the way of a well-defined lattice formulation of quantum gravity. These issues are resolved by using Causal Dynamical Triangulations (CDT) to implement a nonperturbative, background-independent path integral for Lorentzian quantum gravity on dynamical lattices. We describe the essential ingredients of this formulation, and how it has allowed us to move away from formal considerations in quantum gravity to extracting quantitative results on the spectra of diffeomorphism-invariant quantum observables, describing physics near the Planck scale. Key results to date are the emergence of a de Sitter-like quantum universe and the discovery of an anomalous spectral dimension at short distances.

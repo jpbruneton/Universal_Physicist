@@ -1,7 +1,0 @@
-Title: Exact Results on the Space of Vacua of Four Dimensional SUSY Gauge Theories
-Authors: Nathan Seiberg
-Published: 1994-02-08
-arXiv ID: http://arxiv.org/abs/hep-th/9402044v1
-Categories: hep-th, hep-ph
-Abstract:
-We consider four dimensional quantum field theories which have a continuous manifold of inequivalent exact ground states -- a moduli space of vacua. Classically, the singular points on the moduli space are associated with extra massless particles. Quantum mechanically these singularities can be smoothed out. Alternatively, new massless states appear there. These may be the elementary massless particles or new massless bound states.

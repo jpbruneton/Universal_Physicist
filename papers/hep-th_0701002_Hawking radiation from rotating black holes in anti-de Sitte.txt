@@ -1,7 +1,0 @@
-Title: Hawking radiation from rotating black holes in anti-de Sitter spaces via gauge and gravitational anomalies
-Authors: Qing-Quan Jiang, Shuang-Qing Wu
-Published: 2006-12-30
-arXiv ID: http://arxiv.org/abs/hep-th/0701002v3
-Categories: hep-th, astro-ph, gr-qc
-Abstract:
-Robinson-Wilczek's recent work, which treats Hawking radiation as a compensating flux to cancel gravitational anomaly at the horizon of a Schwarzschild-type black hole, is extended to study Hawking radiation of rotating black holes in anti-de Sitter spaces, especially that in dragging coordinate system, via gauge and gravitational anomalies. The results show that in order to restore gauge invariance and general coordinate covariance at the quantum level in the effective field theory, the charge and energy flux by requiring to cancel gauge and gravitational anomalies at the horizon, must have a form equivalent to that of a $(1+1)$-dimensional blackbody radiation at Hawking temperature with an appropriate chemical potential.

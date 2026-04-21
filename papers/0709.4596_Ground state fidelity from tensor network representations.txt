@@ -1,7 +1,0 @@
-Title: Ground state fidelity from tensor network representations
-Authors: Huan-Qiang Zhou, Roman Orus, Guifre Vidal
-Published: 2007-09-28
-arXiv ID: http://arxiv.org/abs/0709.4596v2
-Categories: cond-mat.stat-mech, cond-mat.str-el
-Abstract:
-For any D-dimensional quantum lattice system, the fidelity between two ground state many-body wave functions is mapped onto the partition function of a D-dimensional classical statistical vertex lattice model with the same lattice geometry. The fidelity per lattice site, analogous to the free energy per site, is well-defined in the thermodynamic limit and can be used to characterize the phase diagram of the model. We explain how to compute the fidelity per site in the context of tensor network algorithms, and demonstrate the approach by analyzing the two-dimensional quantum Ising model with transverse and parallel magnetic fields.

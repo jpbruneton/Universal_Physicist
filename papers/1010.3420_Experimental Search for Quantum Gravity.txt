@@ -1,7 +1,0 @@
-Title: Experimental Search for Quantum Gravity
-Authors: Sabine Hossenfelder
-Published: 2010-10-17
-arXiv ID: http://arxiv.org/abs/1010.3420v1
-Categories: gr-qc, hep-ph, hep-th
-Abstract:
-We offer a brief survey of existent and planned experimental tests for quantum gravity. First, we outline the questions we wish to address, and then introduce some of the phenomenological models that are currently used in quantum gravity, both with and without a lowered Planck scale. After that, we summarize experimental areas where these models can be tested or constrained and discuss the status of the field.

@@ -1,7 +1,0 @@
-Title: QSD III : Quantum Constraint Algebra and Physical Scalar Product in Quantum General Relativity
-Authors: Thomas Thiemann
-Published: 1997-05-10
-arXiv ID: http://arxiv.org/abs/gr-qc/9705017v1
-Categories: gr-qc, hep-th
-Abstract:
-This paper deals with several technical issues of non-perturbative four-dimensional Lorentzian canonical quantum gravity in the continuum that arose in connection with the recently constructed Wheeler-DeWitt quantum constraint operator. 1) The Wheeler-DeWitt constraint mixes the previously discussed diffeomorphism superselection sectors which thus become spurious, 2) Thus, the inner product for diffeomorphism invariant states can be fixed by requiring that diffeomorphism group averaging is a partial isometry, 3) The established non-anomalous constraint algebra is clarified by computing commutators of duals of constraint operators, 4) The full classical constraint algebra is faithfully implemented on the diffeomorphism invariant Hilbert space in an appropriate sense, 5) The Hilbert space of diffeomorphism invariant states can be made separable if a natural new superselection principle is satisfied, 6) We propose a natural physical scalar product for quantum general relativity by extending the group average approach to the case of non-self-adjoint constraint operators like the Wheeler-DeWitt constraint and 7) Equipped with this inner product, the construction of physical observables is straightforward.

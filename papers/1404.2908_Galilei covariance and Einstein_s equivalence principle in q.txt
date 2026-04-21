@@ -1,7 +1,0 @@
-Title: Galilei covariance and Einstein's equivalence principle in quantum reference frames
-Authors: S. T. Pereira, R. M. Angelo
-Published: 2014-04-10
-arXiv ID: http://arxiv.org/abs/1404.2908v2
-Categories: quant-ph
-Abstract:
-The covariance of the Schrödinger equation under Galilei boosts and the compatibility of nonrelativistic quantum mechanics with Einstein's equivalence principle have been constrained for so long to the existence of a superselection rule which would prevent a quantum particle from being found in superposition states of different masses. In an effort to avoid this expedient, and thus allow nonrelativistic quantum mechanics to account for unstable particles, recent works have suggested that the usual Galilean transformations are inconsistent with the nonrelativistic limit implied by the Lorentz transformation. Here we approach the issue in a fundamentally different way. Using a formalism of unitary transformations and employing quantum reference frames rather than immaterial coordinate systems, we show that the Schrödinger equation, although form variant, is fully compatible with the aforementioned principles of relativity.

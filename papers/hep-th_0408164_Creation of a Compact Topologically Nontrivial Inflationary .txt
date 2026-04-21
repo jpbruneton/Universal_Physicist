@@ -1,7 +1,0 @@
-Title: Creation of a Compact Topologically Nontrivial Inflationary Universe
-Authors: Andrei Linde
-Published: 2004-08-23
-arXiv ID: http://arxiv.org/abs/hep-th/0408164v2
-Categories: hep-th, astro-ph, gr-qc, hep-ph
-Abstract:
-If inflation can occur only at the energy density V much smaller than the Planck density, which is the case for many inflationary models based on string theory, then the probability of quantum creation of a closed or an infinitely large open inflationary universe is exponentially suppressed for all known choices of the wave function of the universe. Meanwhile under certain conditions there is no exponential suppression for creation of topologically nontrivial compact flat or open inflationary universes. This suggests, contrary to the standard textbook lore, that compact flat or open universes with nontrivial topology should be considered a rule rather than an exception.

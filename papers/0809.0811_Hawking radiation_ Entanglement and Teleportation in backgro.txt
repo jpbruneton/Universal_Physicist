@@ -1,7 +1,0 @@
-Title: Hawking radiation, Entanglement and Teleportation in background of an asymptotically flat static black hole
-Authors: Qiyuan Pan, Jiliang Jing
-Published: 2008-09-04
-arXiv ID: http://arxiv.org/abs/0809.0811v2
-Categories: gr-qc
-Abstract:
-The effect of the Hawking temperature on the entanglement and teleportation for the scalar field in a most general, static and asymptotically flat black hole with spherical symmetry has been investigated. It is shown that the same "initial entanglement" for the state parameter $α$ and its "normalized partners" $\sqrt{1-α^{2}}$ will be degraded by the Hawking effect with increasing Hawking temperature along two different trajectories except for the maximally entangled state. In the infinite Hawking temperature limit, corresponding to the case of the black hole evaporating completely, the state has no longer distillable entanglement for any $α$. It is interesting to note that the mutual information in this limit equals to just half of the "initially mutual information". It has also been demonstrated that the fidelity of teleportation decreases as the Hawking temperature increases, which just indicates the degradation of entanglement.

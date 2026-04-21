@@ -1,7 +1,0 @@
-Title: An introduction to quantum cosmology
-Authors: D. L. Wiltshire
-Published: 2000-12-30
-arXiv ID: http://arxiv.org/abs/gr-qc/0101003v2
-Categories: gr-qc
-Abstract:
-This is an introductory set of lecture notes on quantum cosmology, given in 1995 to an audience with interests ranging from astronomy to particle physics. Topics covered: 1. Introduction: 1.1 Quantum cosmology and quantum gravity; 1.2 A brief history of quantum cosmology. 2. Hamiltonian formulation of general relativity: 2.1 The 3+1 decomposition; 2.2 The action. 3. Quantisation: 3.1 Superspace; 3.2 Canonical quantisation; 3.3 Path integral quantisation; 3.4 Minisuperspace; 3.5 The WKB approximation; 3.6 Probability measures; 3.7 Minisuperspace for the Friedmann universe with massive scalar field. 4. Boundary Conditions: 4.1 The no-boundary proposal; 4.2 The tunneling proposal. 5. The predictions of quantum cosmology: 5.1 The period of inflation; 5.2 The origin of density perturbations; 5.3 The arrow of time.

@@ -1,7 +1,0 @@
-Title: Magnonic Analogue of Black/White Hole Horizon in Superfluid $^3$He-B
-Authors: M. Človečko, E. Gažo, M. Kupka, P. Skyba
-Published: 2018-10-23
-arXiv ID: http://arxiv.org/abs/1810.09890v2
-Categories: cond-mat.other
-Abstract:
-We report on theoretical model and experimental results of the experiment made in a limit of absolute zero temperature ($\sim$ 600\,$μ$K) studying the spin wave analogue of black/white hole horizon using spin (magnonic) superfluidity in superfluid $^3$He-B. As an experimental tool simulating the properties of the black/white horizon we used the spin-precession waves propagating on the background of the spin super-currents between two Bose-Einstein condensates of magnons in form of homogeneously precessing domains. We provide experimental evidence of the white hole formation for spin precession waves in this system, together with observation of an amplification effect. Moreover, the estimated temperature of the spontaneous Hawking radiation in this system is about four orders of magnitude lower than the system's background temperature what makes it a promising tool to study the effect of spontaneous Hawking radiation.

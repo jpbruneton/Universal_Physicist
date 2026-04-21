@@ -1,7 +1,0 @@
-Title: Towards a Bit Threads Derivation of Holographic Entanglement of Purification
-Authors: Ning Bao, Aidan Chatwin-Davies, Jason Pollack, Grant N. Remmen
-Published: 2019-05-10
-arXiv ID: http://arxiv.org/abs/1905.04317v2
-Categories: hep-th, gr-qc, quant-ph
-Abstract:
-We apply the bit thread formulation of holographic entanglement entropy to reduced states describing only the geometry contained within an entanglement wedge. We argue that a certain optimized bit thread configuration, which we construct, gives a purification of the reduced state to a full holographic state obeying a precise set of conditional mutual information relations. When this purification exists, we establish, under certain assumptions, the conjectured $E_P = E_W$ relation equating the entanglement of purification with the area of the minimal cross section partitioning the bulk entanglement wedge. Along the way, we comment on minimal purifications of holographic states, geometric purifications, and black hole geometries.

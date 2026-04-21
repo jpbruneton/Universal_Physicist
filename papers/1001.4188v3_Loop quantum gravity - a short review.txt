@@ -1,7 +1,0 @@
-Title: Loop quantum gravity - a short review
-Authors: Hanno Sahlmann
-Published: 2010-01-23
-arXiv ID: http://arxiv.org/abs/1001.4188v3
-Categories: gr-qc, hep-th
-Abstract:
-In this article we review the foundations and the present status of loop quantum gravity. It is short and relatively non-technical, the emphasis is on the ideas, and the flavor of the techniques. In particular, we describe the kinematical quantization and the implementation of the Hamilton constraint, as well as the quantum theory of black hole horizons, semiclassical states, and matter propagation. Spin foam models and loop quantum cosmology are mentioned only in passing, as these will be covered in separate reviews to be published alongside this one.

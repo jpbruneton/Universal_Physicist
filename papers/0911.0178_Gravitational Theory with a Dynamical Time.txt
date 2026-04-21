@@ -1,7 +1,0 @@
-Title: Gravitational Theory with a Dynamical Time
-Authors: E. I. Guendelman
-Published: 2009-11-01
-arXiv ID: http://arxiv.org/abs/0911.0178v2
-Categories: gr-qc
-Abstract:
-A gravitational theory involving a vector field $χ^μ$, whose zero component has the properties of a dynamical time, is studied. The variation of the action with respect to $χ^μ$ gives the covariant conservation of an energy momentum tensor $ T^{μν}_{(χ)}$. Studying the theory in a background which has killing vectors and killing tensors we find appropriate shift symmetries of the field $χ^μ$ which lead to conservation laws. The energy momentum that is the source of gravity $ T^{μν}_{(G)}$ is different but related to $ T^{μν}_{(χ)}$ and the covariant conservation of $ T^{μν}_{(G)}$ determines in general the vector field $χ^μ$. When $ T^{μν}_{(χ)}$ is chosen to be proportional to the metric, the theory coincides with the Two Measures Theory, which has been studied before in relation to the Cosmological Constant Problem. When the matter model consists of point particles, or strings, the form of $ T^{μν}_{(G)}$, solutions for $χ^μ$ are found. For the case of a string gas cosmology, we find that the Milne Universe can be a solution, where the gas of strings does not curve the spacetime since although $ T^{μν}_{(χ)} \neq 0$, $ T^{μν}_{(G)}= 0$, as a model for the early universe, this solution is also free of the horizon problem. There may be also an application to the "time problem" of quantum cosmology.

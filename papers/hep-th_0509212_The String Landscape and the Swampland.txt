@@ -1,7 +1,0 @@
-Title: The String Landscape and the Swampland
-Authors: Cumrun Vafa
-Published: 2005-09-28
-arXiv ID: http://arxiv.org/abs/hep-th/0509212v2
-Categories: hep-th
-Abstract:
-Recent developments in string theory suggest that string theory landscape of vacua is vast. It is natural to ask if this landscape is as vast as allowed by consistent-looking effective field theories. We use universality ideas from string theory to suggest that this is not the case, and that the landscape is surrounded by an even more vast swampland of consistent-looking semiclassical effective field theories, which are actually inconsistent. Identification of the boundary of the landscape is a central question which is at the heart of the meaning of universality properties of consistent quantum gravitational theories. We propose certain finiteness criteria as one relevant factor in identifying this boundary (based on talks given at the Einstein Symposium in Alexandria, at the 2005 Simons Workshop in Mathematics and Physics, and the talk to have been presented at Strings 2005).

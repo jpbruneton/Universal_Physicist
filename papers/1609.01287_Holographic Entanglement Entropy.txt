@@ -1,8 +1,0 @@
-Title: Holographic Entanglement Entropy
-Authors: Mukund Rangamani, Tadashi Takayanagi
-Published: 2016-09-05
-arXiv ID: http://arxiv.org/abs/1609.01287v2
-Categories: hep-th, gr-qc, quant-ph
-Abstract:
-We review the developments in the past decade on holographic entanglement entropy, a subject that has garnered much attention owing to its potential to teach us about the emergence of spacetime in holography. We provide an introduction to the concept of entanglement entropy in quantum field theories, review the holographic proposals for computing the same, providing some justification for where these proposals arise from in the first two parts. The final part addresses recent developments linking entanglement and geometry. We provide an overview of the various arguments and technical developments that teach us how to use field theory entanglement to detect geometry. Our discussion is by design eclectic; we have chosen to focus on developments that appear to us most promising for further insights into the holographic map.
-  This is a draft of a few chapters of a book which will appear sometime in the near future, to be published by Springer. The book in addition contains a discussion of application of holographic ideas to computation of entanglement entropy in strongly coupled field theories, and discussion of tensor networks and holography, which we have chosen to exclude from the current manuscript.

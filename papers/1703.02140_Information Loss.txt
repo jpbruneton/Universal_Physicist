@@ -1,7 +1,0 @@
-Title: Information Loss
-Authors: William G. Unruh, Robert M. Wald
-Published: 2017-03-06
-arXiv ID: http://arxiv.org/abs/1703.02140v1
-Categories: hep-th, gr-qc
-Abstract:
-The complete gravitational collapse of a body in general relativity will result in the formation of a black hole. Although the black hole is classically stable, quantum particle creation processes will result in the emission of Hawking radiation to infinity and corresponding mass loss of the black hole, eventually resulting in the complete evaporation of the black hole. Semiclassical arguments strongly suggest that, in the process of black hole formation and evaporation, a pure quantum state will evolve to a mixed state, i.e., there will be "information loss." There has been considerable controversy over this issue for more than 40 years. In this review, we present the arguments in favor of information loss, and analyze some of the counter-arguments and alternative possibilities.

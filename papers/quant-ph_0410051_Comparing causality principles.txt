@@ -1,7 +1,0 @@
-Title: Comparing causality principles
-Authors: Joe Henson
-Published: 2004-10-06
-arXiv ID: http://arxiv.org/abs/quant-ph/0410051v3
-Categories: quant-ph
-Abstract:
-The principle of common cause is discussed as a possible fundamental principle of physics. Some revisions of Reichenbach's formulation of the principle are given, which lead to a version given by Bell. Various similar forms are compared and some equivalence results proved. The further problems of causality in a quantal system, and indeterministic causal structure, are addressed, with a view to defining a causality principle applicable to quantum gravity.

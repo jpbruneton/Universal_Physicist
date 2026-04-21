@@ -1,7 +1,0 @@
-Title: On the consistency of relative facts
-Authors: Eric G. Cavalcanti, Andrea Di Biagio, Carlo Rovelli
-Published: 2023-05-12
-arXiv ID: http://arxiv.org/abs/2305.07343v2
-Categories: quant-ph
-Abstract:
-Lawrence et al. have presented an argument purporting to show that "relative facts do not exist" and, consequently, "Relational Quantum Mechanics is incompatible with quantum mechanics". The argument is based on a GHZ-like contradiction between constraints satisfied by measurement outcomes in an extended Wigner's friend scenario. Here we present a strengthened version of the argument, and show why, contrary to the claim by Lawrence et al., these arguments do not contradict the consistency of a theory of relative facts. Rather, considering this argument helps clarify how one should not think about a theory of relative facts, like RQM.

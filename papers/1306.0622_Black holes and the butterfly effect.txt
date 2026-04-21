@@ -1,7 +1,0 @@
-Title: Black holes and the butterfly effect
-Authors: Stephen H. Shenker, Douglas Stanford
-Published: 2013-06-03
-arXiv ID: http://arxiv.org/abs/1306.0622v3
-Categories: hep-th
-Abstract:
-We use holography to study sensitive dependence on initial conditions in strongly coupled field theories. Specifically, we mildly perturb a thermofield double state by adding a small number of quanta on one side. If these quanta are released a scrambling time in the past, they destroy the local two-sided correlations present in the unperturbed state. The corresponding bulk geometry is a two-sided AdS black hole, and the key effect is the blueshift of the early infalling quanta relative to the $t = 0$ slice, creating a shock wave. We comment on string- and Planck-scale corrections to this setup, and discuss points that may be relevant to the firewall controversy.

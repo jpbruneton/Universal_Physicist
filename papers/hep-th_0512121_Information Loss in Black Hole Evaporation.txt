@@ -1,7 +1,0 @@
-Title: Information Loss in Black Hole Evaporation
-Authors: Jingyi Zhang, Yapeng Hu, Zheng Zhao
-Published: 2005-12-11
-arXiv ID: http://arxiv.org/abs/hep-th/0512121v2
-Categories: hep-th
-Abstract:
-Parikh-Wilczek tunnelling framework is investigated again. We argue that Parikh-Wilczek's treatment, which satisfies the first law of black hole thermodynamics and consists with an underlying unitary theory, is only suitable for a reversible process. Because of the negative heat capacity, an evaporating black hole is a highly unstable system. That is, the factual emission process is irreversible, the unitary theory will not be satisfied and the information loss is possible.

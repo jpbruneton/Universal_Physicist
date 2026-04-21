@@ -1,7 +1,0 @@
-Title: Dynamical Singularity Resolution in Spherically Symmetric Black Hole Formation
-Authors: J. Ziprick, G. Kunstatter
-Published: 2009-02-18
-arXiv ID: http://arxiv.org/abs/0902.3224v1
-Categories: gr-qc
-Abstract:
-We study numerically the effects of loop quantum gravity motivated corrections on massless scalar field collapse in Painlevé-Gullstrand coordinates. Near criticality, the system exhibits Choptuik scaling with the added features of a mass gap and a new scaling relationship dependant upon the quantum length scale. The quantum corrected collapse exhibits a radiation-like phase which resolves the singularity: the black hole consists of a compact region of space-time bounded by a single, smooth trapping horizon. The "evaporation" is not complete but leaves behind an outward moving remnant.

@@ -1,7 +1,0 @@
-Title: Planck Scale Boundary Conditions and the Higgs Mass
-Authors: Martin Holthausen, Kher Sham Lim, Manfred Lindner
-Published: 2011-12-12
-arXiv ID: http://arxiv.org/abs/1112.2415v2
-Categories: hep-ph, hep-ex
-Abstract:
-If the LHC does only find a Higgs boson in the low mass region and no other new physics, then one should reconsider scenarios where the Standard Model with three right-handed neutrinos is valid up to Planck scale. We assume in this spirit that the Standard Model couplings are remnants of quantum gravity which implies certain generic boundary conditions for the Higgs quartic coupling at Planck scale. This leads to Higgs mass predictions at the electroweak scale via renormalization group equations. We find that several physically well motivated conditions yield a range of Higgs masses from 127-142 GeV. We also argue that a random quartic Higgs coupling at the Planck scale favors M_H > 150 GeV, which is clearly excluded. We discuss also the prospects for differentiating different boundary conditions imposed for λ(M_{pl}) at the LHC. A striking example is M_H = 127\pm 5 GeV corresponding to λ(M_{pl})=0, which would imply that the quartic Higgs coupling at the electroweak scale is entirely radiatively generated.

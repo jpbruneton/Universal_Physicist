@@ -1,7 +1,0 @@
-Title: Wormholes in AdS
-Authors: Juan Maldacena, Liat Maoz
-Published: 2004-01-06
-arXiv ID: http://arxiv.org/abs/hep-th/0401024v2
-Categories: hep-th
-Abstract:
-We construct a few Euclidean supergravity solutions with multiple boundaries. We consider examples where the corresponding boundary field theory is well defined on each boundary. We point out that these configurations are puzzling from the AdS/CFT point of view. A proper understanding of the AdS/CFT dictionary for these cases might yield some information about the physics of closed universes.

@@ -1,7 +1,0 @@
-Title: Causal Dynamical Triangulations in Four Dimensions
-Authors: Andrzej Görlich
-Published: 2011-11-29
-arXiv ID: http://arxiv.org/abs/1111.6938v1
-Categories: hep-th, gr-qc, hep-lat
-Abstract:
-Recent results obtained within a non-perturbative approach to quantum gravity based on the method of four-dimensional Causal Dynamical Triangulations are described. The phase diagram of the model consists of three phases. In the physically most interesting phase, the time-translational symmetry is spontaneously broken. Calculations of expectation values required introducing procedures taking into account the inhomogeneity of configurations. It was shown that the dynamically emerged four-dimensional background geometry corresponds to a Euclidean de Sitter space and reveals no fractality at large distances. Measurements of the covariance matrix of scale factor fluctuations allowed to reconstruct the effective action, which remained in agreement with the discrete minisuperspace action. Values of the Hausdorff dimension and spectral dimension of three-dimensional spatial slices suggest their fractal nature, which was confirmed by a direct analysis of triangulation structure. The Monte Carlo algorithm used to obtain presented results is described.

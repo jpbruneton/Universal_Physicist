@@ -1,7 +1,0 @@
-Title: Bouncing Cosmology in f(Q) Symmetric Teleparallel Gravity
-Authors: Francesco Bajardi, Daniele Vernieri, Salvatore Capozziello
-Published: 2020-11-02
-arXiv ID: http://arxiv.org/abs/2011.01248v1
-Categories: gr-qc, astro-ph.CO, hep-th
-Abstract:
-We consider f(Q) extended symmetric teleparallel cosmologies, where Q is the non-metricity scalar, and constrain its functional form through the order reduction method. By using this technique, we are able to reduce and integrate the field equations and thus to select the corresponding models giving rise to bouncing cosmology. The selected Lagrangian is then used to develop the Hamiltonian formalism and to obtain the Wave Function of the Universe which suggests that classical observable universes can be recovered according to the Hartle Criterion.

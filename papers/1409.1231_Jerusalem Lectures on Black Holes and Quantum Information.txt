@@ -1,7 +1,0 @@
-Title: Jerusalem Lectures on Black Holes and Quantum Information
-Authors: Daniel Harlow
-Published: 2014-09-03
-arXiv ID: http://arxiv.org/abs/1409.1231v5
-Categories: hep-th, gr-qc, quant-ph
-Abstract:
-In these lectures I give an introduction to the quantum physics of black holes, including recent developments based on quantum information theory such as the firewall paradox and its various cousins. I also give an introduction to holography and the AdS/CFT correspondence, focusing on those aspects which are relevant for the black hole information problem.

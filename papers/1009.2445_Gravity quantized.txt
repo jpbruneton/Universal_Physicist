@@ -1,7 +1,0 @@
-Title: Gravity quantized
-Authors: Marcin Domagala, Kristina Giesel, Wojciech Kaminski, Jerzy Lewandowski
-Published: 2010-09-13
-arXiv ID: http://arxiv.org/abs/1009.2445v3
-Categories: gr-qc, quant-ph
-Abstract:
-..."but we do not have quantum gravity." This phrase is often used when analysis of a physical problem enters the regime in which quantum gravity effects should be taken into account. In fact, there are several models of the gravitational field coupled to (scalar) fields for which the quantization procedure can be completed using loop quantum gravity techniques. The model we present in this paper consist of the gravitational field coupled to a scalar field. The result has similar structure to the loop quantum cosmology models, except for that it involves all the local degrees of freedom because no symmetry reduction has been performed at the classical level.

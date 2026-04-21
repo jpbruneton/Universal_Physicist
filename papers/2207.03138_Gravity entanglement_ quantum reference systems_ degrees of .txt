@@ -1,7 +1,0 @@
-Title: Gravity entanglement, quantum reference systems, degrees of freedom
-Authors: Marios Christodoulou, Andrea Di Biagio, Richard Howl, Carlo Rovelli
-Published: 2022-07-07
-arXiv ID: http://arxiv.org/abs/2207.03138v1
-Categories: quant-ph, gr-qc
-Abstract:
-We discuss the physical interpretation of the gravity mediated entanglement effect. We show how to read it in terms of quantum reference systems. We pinpoint the single gravitational degree of freedom mediating the entanglement. We clarify why the distinction between longitudinal and transverse degrees of freedom is irrelevant for the interpretation of the results. We discuss the relation between the LOCC theorem and the interpretation of the effect, its different relevance for, respectively, the quantum gravity and quantum information communities, and the reason for the excitement raised by the prospect of detection.

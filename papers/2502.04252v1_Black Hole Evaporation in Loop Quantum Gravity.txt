@@ -1,7 +1,0 @@
-Title: Black Hole Evaporation in Loop Quantum Gravity
-Authors: Abhay Ashtekar
-Published: 2025-02-06
-arXiv ID: http://arxiv.org/abs/2502.04252v1
-Categories: gr-qc, hep-th, math-ph, quant-ph
-Abstract:
-The conference \emph{Black Holes Inside and Out} marked the 50th anniversary of Hawking's seminal paper on black hole radiance. It was clear already from Hawking's analysis that a proper quantum gravity theory would be essential for a more complete understanding of the evaporation process. This task was undertaken in Loop Quantum Gravity (LQG) two decades ago and by now the literature on the subject is quite rich. The goal of this contribution is to summarize a mainstream perspective that has emerged. The intended audience is the broader gravitational physics community, rather than quantum gravity experts. Therefore, the emphasis is on conceptual issues, especially on the key features that distinguish the LQG approach, and on concrete results that underlie the paradigm that has emerged. This is \emph{not} meant to be an exhaustive review. Rather, it is a broad-brush stroke portrait of the present status. Further details can be found in the references listed.

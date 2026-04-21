@@ -1,7 +1,0 @@
-Title: On singularity-resolution in mimetic gravity
-Authors: Suddhasattwa Brahma, Alexey Golovnev, Dong-han Yeom
-Published: 2018-03-11
-arXiv ID: http://arxiv.org/abs/1803.03955v1
-Categories: gr-qc, hep-th
-Abstract:
-Recently, it was shown that modified mimetic gravity, with a $f(\squareφ)$ term, results in a singularity-free model of gravity, for both cosmological and black hole spacetimes [1, 2]. In this work, we analyze this model further and show that, since the function $f$ was tuned to vanish rapidly for small values of the argument, the non-singular bounce relies heavily on a subtle branch changing mechanism for the multi-valued function $f$. Furthermore, this mechanism has interesting implications for the proposed link between this model and loop quantum cosmology.

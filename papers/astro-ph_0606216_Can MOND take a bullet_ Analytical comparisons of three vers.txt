@@ -1,7 +1,0 @@
-Title: Can MOND take a bullet? Analytical comparisons of three versions of MOND beyond spherical symmetry
-Authors: Garry W. Angus, Benoit Famaey, HongSheng Zhao
-Published: 2006-06-09
-arXiv ID: http://arxiv.org/abs/astro-ph/0606216v1
-Categories: astro-ph
-Abstract:
-A proper test of Modified Newtonian Dynamics (MOND) in systems of non-trivial geometries depends on modelling subtle differences in several versions of its postulated theories. This is especially important for lensing and dynamics of barely virialised galaxy clusters with typical gravity of scale $\sim a_0 \sim 1Å{\rm s}^{-2}$. The original MOND formula, the classical single field modification of the Poisson equation, and the multi-field general relativistic theory of Bekenstein (TeVeS) all lead to different predictions as we stray from spherical symmetry. In this paper, we study a class of analytical MONDian models for a system with a semi-Hernquist baryonic profile. After presenting the analytical distribution function of the baryons in spherical limits, we develop orbits and gravitational lensing of the models in non-spherical geometries. In particular, we can generate a multi-centred baryonic system with a weak lensing signal resembling that of the merging galaxy cluster 1E 0657-56 with a bullet-like light distribution. We finally present analytical scale-free highly non-spherical models to show the subtle differences between the single field classical MOND theory and the multi-field TeVeS theory.

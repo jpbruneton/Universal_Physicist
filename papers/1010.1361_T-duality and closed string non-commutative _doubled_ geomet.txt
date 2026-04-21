@@ -1,7 +1,0 @@
-Title: T-duality and closed string non-commutative (doubled) geometry
-Authors: Dieter Lust
-Published: 2010-10-07
-arXiv ID: http://arxiv.org/abs/1010.1361v3
-Categories: hep-th
-Abstract:
-We provide some evidence that closed string coordinates will become non-commutative turning on H-field flux background in closed string compactifications. This is in analogy to open string non-commutativity on the world volume of D-branes with B- and F-field background. The class of 3-dimensional backgrounds we are studying are twisted tori (fibrations of a 2-torus over a circle) and the their T-dual H-field, 3-form flux backgrounds (T-folds). The spatial non-commutativity arises due to the non-trivial monodromies of the toroidal Kahler resp. complex structure moduli fields, when going around the closed string along the circle direction. In addition we study closed string non-commutativity in the context of doubled geometry, where we argue that in general a non-commutative closed string background is T-dual to a commutative closed string background and vice versa. Finally, in analogy to open string boundary conditions, we also argue that closed string momentum and winding modes define in some sense D-branes in closed string doubled geometry.

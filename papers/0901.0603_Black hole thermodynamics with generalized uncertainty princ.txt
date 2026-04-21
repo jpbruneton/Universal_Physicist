@@ -1,7 +1,0 @@
-Title: Black hole thermodynamics with generalized uncertainty principle
-Authors: Li Xiang, X. Q. Wen
-Published: 2009-01-06
-arXiv ID: http://arxiv.org/abs/0901.0603v2
-Categories: gr-qc
-Abstract:
-In the standard viewpoint, the temperature of a stationary black hole is proportional to its surface gravity, $T_H=\hbarκ/2π$. This is a semiclassical result and the quantum gravity effects are not taken into consideration. This Letter explores a unified expression for the black hole temperature in the sense of a generalized uncertainty principle(GUP). Our discussion involves a heuristic analysis of a particle which is absorbed by the black hole. Besides a class of static and spherically symmetric black holes, an axially symmetric Kerr-Newman black hole is considered. Different from the existing literature, we suggest that the black hole's irreducible mass represent the characteristic size in the absorption process. The information capacity of a remnant is also discussed by Bousso's D-bound in de Sitter spacetime.

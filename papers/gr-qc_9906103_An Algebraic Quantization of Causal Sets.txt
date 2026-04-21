@@ -1,7 +1,0 @@
-Title: An Algebraic Quantization of Causal Sets
-Authors: Ioannis Raptis
-Published: 1999-06-24
-arXiv ID: http://arxiv.org/abs/gr-qc/9906103v1
-Categories: gr-qc
-Abstract:
-A scheme for an algebraic quantization of the causal sets of Sorkin et al. is presented. The suggested scenario is along the lines of a similar algebraization and quantum interpretation of finitary topological spaces due to Zapatrin and this author. To be able to apply the latter procedure to causal sets Sorkin's `semantic switch' from `partially ordered sets as finitary topological spaces' to `partially ordered sets as locally finite causal sets' is employed. The result is the definition of `quantum causal sets'. Such a procedure and its resulting definition is physically justified by a property of quantum causal sets that meets Finkelstein's requirement from `quantum causality' to be an immediate, as well as an algebraically represented, relation between events for discrete locality's sake. The quantum causal sets introduced here are shown to have this property by direct use of a result from the algebraization of finitary topological spaces due to Breslav, Parfionov and Zapatrin.

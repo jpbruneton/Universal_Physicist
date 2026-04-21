@@ -1,7 +1,0 @@
-Title: Canonical Quantum Gravity and the Problem of Time
-Authors: Chris J. Isham
-Published: 1992-10-21
-arXiv ID: http://arxiv.org/abs/gr-qc/9210011v1
-Categories: gr-qc
-Abstract:
-This is the write-up of my lectures at the NATO Summer School held in Salamanca in June 1992. The paper deals with the problem of time in quantum gravity. All the major schemes are reviewed. Please note that the paper is in two parts for ease of email transmission; this is part 1. The mailer from gr-qc may further subdivide these two sections.

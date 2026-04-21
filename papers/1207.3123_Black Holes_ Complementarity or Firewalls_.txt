@@ -1,7 +1,0 @@
-Title: Black Holes: Complementarity or Firewalls?
-Authors: Ahmed Almheiri, Donald Marolf, Joseph Polchinski, James Sully
-Published: 2012-07-13
-arXiv ID: http://arxiv.org/abs/1207.3123v4
-Categories: hep-th, gr-qc
-Abstract:
-We argue that the following three statements cannot all be true: (i) Hawking radiation is in a pure state, (ii) the information carried by the radiation is emitted from the region near the horizon, with low energy effective field theory valid beyond some microscopic distance from the horizon, and (iii) the infalling observer encounters nothing unusual at the horizon. Perhaps the most conservative resolution is that the infalling observer burns up at the horizon. Alternatives would seem to require novel dynamics that nevertheless cause notable violations of semiclassical physics at macroscopic distances from the horizon.

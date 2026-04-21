@@ -1,7 +1,0 @@
-Title: Minimum length (scale) in Quantum Field Theory, Generalized Uncertainty Principle and the non-renormalisability of gravity
-Authors: Roberto Casadio, Wenbin Feng, Ibere Kuntz, Fabio Scardigli
-Published: 2022-10-23
-arXiv ID: http://arxiv.org/abs/2210.12801v3
-Categories: hep-th, gr-qc
-Abstract:
-The notions of minimum geometrical length and minimum length scale are discussed with reference to correlation functions obtained from in-in and in-out amplitudes in quantum field theory. Whereas the in-in propagator for metric perturbations does not admit the former, the in-out Feynman propagator shows the emergence of the latter. A connection between the Feynman propagator of quantum field theories of gravity and the deformation parameter $δ_0$ of the generalised uncertainty principle (GUP) is then exhibited, which allows to determine an exact expression for $δ_0$ in terms of the residues of the causal propagator. A correspondence between the non-renormalisability of (some) theories (of gravity) and the existence of a minimum length scale is then conjectured to support the idea that non-renormalisable theories are self-complete and finite. The role played by the sign of the deformation parameter is further discussed by considering an implementation of the GUP on the lattice.

@@ -1,7 +1,0 @@
-Title: Quantum Reference Frames for Lorentz Symmetry
-Authors: Luca Apadula, Esteban Castro-Ruiz, Časlav Brukner
-Published: 2022-12-28
-arXiv ID: http://arxiv.org/abs/2212.14081v2
-Categories: quant-ph, gr-qc
-Abstract:
-Since their first introduction, Quantum Reference Frame (QRF) transformations have been extensively discussed, generalising the covariance of physical laws to the quantum domain. Despite important progress, a formulation of QRF transformations for Lorentz symmetry is still lacking. The present work aims to fill this gap. We first introduce a reformulation of relativistic quantum mechanics independent of any notion of preferred temporal slicing. Based on this, we define transformations that switch between the perspectives of different relativistic QRFs. We introduce a notion of ''quantum Lorentz transformations'' and ''superposition of Lorentz boosts'', acting on the external degrees of freedom of a quantum particle. We analyse two effects, superposition of time dilations and superposition of length contractions, that arise only if the reference frames exhibit both relativistic and quantum-mechanical features. Finally, we discuss how the effects could be observed by measuring the wave-packet extensions from relativistic QRFs.

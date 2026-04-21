@@ -1,7 +1,0 @@
-Title: The effective kinetic term in CDT
-Authors: Timothy Budd
-Published: 2011-10-24
-arXiv ID: http://arxiv.org/abs/1110.5158v1
-Categories: gr-qc, hep-lat
-Abstract:
-We report on recently performed simulations of Causal Dynamical Triangulations (CDT) in 2+1 dimensions aimed at studying its effective dynamics in the continuum limit. Two pieces of evidence from completely different measurements are presented suggesting that three-dimensional CDT is effectively described by an action with kinetic term given by a modified Wheeler-De Witt metric. These observations could strengthen an earlier observed connection between CDT and Horava-Lifshitz gravity. One piece of evidence comes from measurements of the modular parameter in CDT simulations with spatial topology of a torus, the other from measurements of local metric fluctuations close to a fixed spatial boundary.

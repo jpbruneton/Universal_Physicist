@@ -1,7 +1,0 @@
-Title: The universe as a quantum gravity condensate
-Authors: Daniele Oriti
-Published: 2016-12-30
-arXiv ID: http://arxiv.org/abs/1612.09521v1
-Categories: gr-qc, hep-th
-Abstract:
-This is an introduction to the approach to the extraction of cosmological dynamics from full quantum gravity based on group field theory condensates. We outline its general perspective, which sees cosmology as the hydrodynamics of the fundamental quantum gravity degrees of freedom, as well as its concrete implementation within the group field theory formalism. We summarise recent work showing the emergence of a bouncing cosmological dynamics from a fundamental group field theory model, and provide a brief but complete survey of other results in the literature. Finally, we discuss open issues and directions for further research.

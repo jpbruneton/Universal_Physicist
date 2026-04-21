@@ -1,7 +1,0 @@
-Title: Expanding Spherically Symmetric Models without Shear
-Authors: Sunil D Maharaj, Peter GL Leach, Roy Maartens
-Published: 1995-11-27
-arXiv ID: http://arxiv.org/abs/gr-qc/9511071v1
-Categories: gr-qc
-Abstract:
-The integrability properties of the field equation $L_{xx} = F(x)L^2$ of a spherically symmetric shear--free fluid are investigated. A first integral, subject to an integrability condition on $F(x)$, is found, giving a new class of solutions which contains the solutions of Stephani (1983) and Srivastava (1987) as special cases. The integrability condition on $F(x)$ is reduced to a quadrature which is expressible in terms of elliptic integrals in general. There are three classes of solution and in general the solution of $L_{xx} = F(x)L^2$ can only be written in parametric form. The case for which $F=F(x)$ can be explicitly given corresponds to the solution of Stephani (1983). A Lie analysis of $L_{xx} = F(x) L^2$ is also performed. If a constant $α$ vanishes, then the solutions of Kustaanheimo and Qvist (1948) and of this paper are regained. For $α\neq 0$ we reduce the problem to a simpler, autonomous equation. The applicability of the Painlevé analysis is also briefly considered.

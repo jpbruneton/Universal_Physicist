@@ -1,7 +1,0 @@
-Title: A Holographic Framework for Eternal Inflation
-Authors: Ben Freivogel, Yasuhiro Sekino, Leonard Susskind, Chen-Pin Yeh
-Published: 2006-06-21
-arXiv ID: http://arxiv.org/abs/hep-th/0606204v2
-Categories: hep-th
-Abstract:
-In this paper we provide some circumstantial evidence for a holographic duality between bubble nucleation in an eternally inflating universe and a Euclidean conformal field theory. The holographic correspondence (which is different than Strominger's dS/CFT duality) relates the decay of (3+1)-dimensional de Sitter space to a two-dimensional CFT. It is not associated with pure de Sitter space, but rather with Coleman-De Luccia bubble nucleation. Alternatively, it can be thought of as a holographic description of the open, infinite, FRW cosmology that results from such a bubble. The conjectured holographic representation is of a new type that combines holography with the Wheeler-DeWitt formalism to produce a Wheeler-DeWitt theory that lives on the spatial boundary of a k=-1 FRW cosmology. We also argue for a more ambitious interpretation of the Wheeler-DeWitt CFT as a holographic dual of the entire Landscape.

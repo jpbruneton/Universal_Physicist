@@ -1,7 +1,0 @@
-Title: Bounds on GUP parameters from GW150914 and GW190521
-Authors: Ashmita Das, Saurya Das, Noor R. Mansour, Elias C. Vagenas
-Published: 2021-01-11
-arXiv ID: http://arxiv.org/abs/2101.03746v2
-Categories: gr-qc, hep-ph, hep-th
-Abstract:
-We compute bounds on the GUP parameters for two versions of GUP using gravitational wave data from the events GW150914 and GW190521. The speed of the graviton and photon are calculated in a curved spacetime modified by GUP, assuming that these particles have a small mass. The observational bound on the difference in their speeds translates to bounds on the GUP parameters. These bounds are some of the best obtained so far in the context of quantum gravity phenomenology.

@@ -1,7 +1,0 @@
-Title: Nonhomogeneous Cooling, Entropic Gravity and MOND Theory
-Authors: Jorge Ananias Neto
-Published: 2010-09-24
-arXiv ID: http://arxiv.org/abs/1009.4944v3
-Categories: hep-th
-Abstract:
-In this paper, by using the holographic principle, a modified equipartition theorem where we assume that below a critical temperature the energy is not equally divided on all bits, and the Unruh temperature, we derive MOND theory and a modified Friedmann equation compatible with MOND theory. Furthermore, we rederive a modified Newton's law of gravitation by employing an adequate redefinition of the numbers of bits.

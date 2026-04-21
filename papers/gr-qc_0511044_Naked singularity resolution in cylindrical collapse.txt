@@ -1,7 +1,0 @@
-Title: Naked singularity resolution in cylindrical collapse
-Authors: Yasunari Kurita, Ken-ichi Nakao
-Published: 2005-11-09
-arXiv ID: http://arxiv.org/abs/gr-qc/0511044v2
-Categories: gr-qc
-Abstract:
-In this paper, we study the gravitational collapse of null dust in the cylindrically symmetric spacetime. The naked singularity necessarily forms at the symmetry axis. We consider the situation in which null dust is emitted again from the naked singularity formed by the collapsed null dust and investigate the back-reaction by this emission for the naked singularity. We show a very peculiar but physically important case in which the same amount of null dust as that of the collapsed one is emitted from the naked singularity as soon as the ingoing null dust hits the symmetry axis and forms the naked singularity. In this case, although this naked singularity satisfies the strong curvature condition by Królak (limiting focusing condition), geodesics which hit the singularity can be extended uniquely across the singularity. Therefore we may say that the collapsing null dust passes through the singularity formed by itself and then leaves for infinity. Finally the singularity completely disappears and the flat spacetime remains.

@@ -1,7 +1,0 @@
-Title: Measuring Renyi Entanglement Entropy with Quantum Monte Carlo
-Authors: Matthew B. Hastings, Ivan Gonzalez, Ann B. Kallin, Roger G. Melko
-Published: 2010-01-13
-arXiv ID: http://arxiv.org/abs/1001.2335v2
-Categories: cond-mat.str-el, cond-mat.stat-mech, quant-ph
-Abstract:
-We develop a quantum Monte Carlo procedure, in the valence bond basis, to measure the Renyi entanglement entropy of a many-body ground state as the expectation value of a unitary {\it Swap} operator acting on two copies of the system. An improved estimator involving the ratio of {\it Swap} operators for different subregions enables simulations to converge the entropy in a time polynomial in the system size. We demonstrate convergence of the Renyi entropy to exact results for a Heisenberg chain. Finally, we calculate the scaling of the Renyi entropy in the two-dimensional Heisenberg model and confirm that the Néel groundstate obeys the expected area law for systems up to linear size L=28.

@@ -1,7 +1,0 @@
-Title: (b,v)-type variables for black to white hole transitions in effective loop quantum gravity
-Authors: Norbert Bodendorfer, Fabio M. Mele, Johannes Münch
-Published: 2019-11-28
-arXiv ID: http://arxiv.org/abs/1911.12646v2
-Categories: gr-qc, hep-th
-Abstract:
-Quantum gravity effects in effective models of loop quantum gravity, such as loop quantum cosmology, are encoded in the choice of so-called polymerisation schemes. Physical viability of the models, such as an onset of quantum effects at curvature scales near the Planck curvature, severely restrict the possible choices. An alternative point of view on the choice of polymerisation scheme is to choose adapted variables so that the scheme is the simplest possible one, known as $μ_0$-scheme in loop quantum cosmology. There, physically viable models with $μ_0$-scheme polymerise the Hubble rate $b$ that is directly related to the Ricci scalar and the matter energy density on-shell. Consequently, the onset of quantum effects depends precisely on those parameters. In this letter, we construct similar variables for black to white hole transitions modelled using the description of the Schwarzschild interior as a Kantowski-Sachs cosmology. The resulting model uses the $μ_0$-scheme and features sensible physics for a broad range of initial conditions (= choices of black and white hole masses) and favours symmetric transitions upon invoking additional qualitative arguments. The resulting Hamiltonian is very simple and at most quadratic in its arguments, allowing for a straight forward quantisation.

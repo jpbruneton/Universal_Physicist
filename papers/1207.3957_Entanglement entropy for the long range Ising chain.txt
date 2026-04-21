@@ -1,7 +1,0 @@
-Title: Entanglement entropy for the long range Ising chain
-Authors: Thomas Koffel, M. Lewenstein, Luca Tagliacozzo
-Published: 2012-07-17
-arXiv ID: http://arxiv.org/abs/1207.3957v1
-Categories: cond-mat.str-el, hep-lat, hep-th, quant-ph
-Abstract:
-We consider the Ising model in a transverse field with long-range antiferromagnetic interactions that decay as a power law with their distance. We study both the phase diagram and the entanglement properties as a function of the exponent of the interaction. The phase diagram can be used as a guide for future experiments with trapped ions. We find two gapped phases, one dominated by the transverse field, exhibiting quasi long range order, and one dominated by the long range interaction, with long range Néel ordered ground states. We determine the location of the quantum critical points separating those two phases. We determine their critical exponents and central-charges. In the phase with quasi long range order the ground states exhibit exotic corrections to the area law for the entanglement entropy coexisting with gapped entanglement spectra.

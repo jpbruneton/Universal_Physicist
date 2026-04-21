@@ -1,7 +1,0 @@
-Title: Towards black-hole singularity-resolution in the Lorentzian gravitational path integral
-Authors: Johanna N. Borissova, Astrid Eichhorn
-Published: 2020-12-15
-arXiv ID: http://arxiv.org/abs/2012.08570v1
-Categories: gr-qc
-Abstract:
-Quantum Gravity is expected to resolve the singularities of classical General Relativity. Based on destructive interference of singular spacetime-configurations in the path integral, we find that higher-order curvature terms may allow to resolve black-hole singularities both in the spherically symmetric and axisymmetric case. In contrast, the Einstein action does not provide a dynamical mechanism for singularity-resolution through destructive interference of these configurations.

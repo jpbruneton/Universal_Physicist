@@ -1,7 +1,0 @@
-Title: The Black Hole Information Paradox and the Collapse of the Wave Function
-Authors: E. Okon, D. Sudarsky
-Published: 2014-06-08
-arXiv ID: http://arxiv.org/abs/1406.2011v2
-Categories: gr-qc, quant-ph
-Abstract:
-The black hole information paradox arises from an apparent conflict between the Hawking black hole radiation and the fact that time evolution in quantum mechanics is unitary. The trouble is that while the former suggests that information of a system falling into a black hole disappears, the latter implies that information must be conserved. In this work we discuss the current divergence in views regarding the paradox, we evaluate the role that objective collapse theories could play in its resolution and we propose a link between spontaneous collapse events and microscopic virtual black holes.

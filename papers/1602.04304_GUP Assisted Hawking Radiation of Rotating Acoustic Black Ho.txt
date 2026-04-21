@@ -1,7 +1,0 @@
-Title: GUP Assisted Hawking Radiation of Rotating Acoustic Black Holes
-Authors: I. Sakalli, A. Ovgun, K. Jusufi
-Published: 2016-02-13
-arXiv ID: http://arxiv.org/abs/1602.04304v3
-Categories: gr-qc
-Abstract:
-Recent studies [J. Steinhauer, Nature Phys., $\textbf{10}$, 864 (2014); Phys. Rev. D $\textbf{92}$, 024043 (2015)] provide compelling evidences that Hawking radiation could be experimentally proven by using an analogue black hole. In this paper, taking this situation into account we study the quantum gravitational effects on the Hawking radiation of rotating acoustic black holes. For this purpose, we consider the generalized uncertainty principle (GUP) in the phenomenon of quantum tunneling. We firstly take the modified commutation relations into account to compute the GUP modified Hawking temperature when the massive scalar particles tunnel from this black hole. Then, we find a remarkably instructive expression for the GUP entropy to derive the quantum gravity corrected Hawking temperature of the rotating acoustic black hole.

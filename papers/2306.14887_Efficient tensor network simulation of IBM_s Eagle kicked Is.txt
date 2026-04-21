@@ -1,7 +1,0 @@
-Title: Efficient tensor network simulation of IBM's Eagle kicked Ising experiment
-Authors: Joseph Tindall, Matt Fishman, Miles Stoudenmire, Dries Sels
-Published: 2023-06-26
-arXiv ID: http://arxiv.org/abs/2306.14887v3
-Categories: quant-ph
-Abstract:
-We report an accurate and efficient classical simulation of a kicked Ising quantum system on the heavy-hexagon lattice. A simulation of this system was recently performed on a 127 qubit quantum processor using noise mitigation techniques to enhance accuracy (Nature volume 618, p.~500-505 (2023)). Here we show that, by adopting a tensor network approach that reflects the geometry of the lattice and is approximately contracted using belief propagation, we can perform a classical simulation that is significantly more accurate and precise than the results obtained from the quantum processor and many other classical methods. We quantify the tree-like correlations of the wavefunction in order to explain the accuracy of our belief propagation-based approach. We also show how our method allows us to perform simulations of the system to long times in the thermodynamic limit, corresponding to a quantum computer with an infinite number of qubits. Our tensor network approach has broader applications for simulating the dynamics of quantum systems with tree-like correlations.

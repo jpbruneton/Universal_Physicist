@@ -1,7 +1,0 @@
-Title: Spontaneous Dimensional Reduction in Short-Distance Quantum Gravity?
-Authors: Steven Carlip
-Published: 2009-09-17
-arXiv ID: http://arxiv.org/abs/0909.3329v1
-Categories: gr-qc, hep-th
-Abstract:
-Several lines of evidence suggest that quantum gravity at very short distances may behave effectively as a two-dimensional theory. I summarize these hints, and offer an additional argument based on the strong-coupling limit of the Wheeler-DeWitt equation. The resulting scenario suggests a novel approach to quantum gravity at the Planck scale.

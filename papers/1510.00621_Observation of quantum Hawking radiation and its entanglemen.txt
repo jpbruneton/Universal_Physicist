@@ -1,7 +1,0 @@
-Title: Observation of quantum Hawking radiation and its entanglement in an analogue black hole
-Authors: Jeff Steinhauer
-Published: 2015-10-02
-arXiv ID: http://arxiv.org/abs/1510.00621v3
-Categories: gr-qc
-Abstract:
-We observe spontaneous Hawking radiation, stimulated by quantum vacuum fluctuations, emanating from an analogue black hole in an atomic Bose-Einstein condensate. Correlations are observed between the Hawking particles outside the black hole and the partner particles inside. These correlations indicate an approximately thermal distribution of Hawking radiation. We find that the high energy pairs are entangled, while the low energy pairs are not, within the reasonable assumption that excitations with different frequencies are not correlated. The entanglement verifies the quantum nature of the Hawking radiation. The results are consistent with a driven oscillation experiment and a numerical simulation.

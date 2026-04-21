@@ -1,7 +1,0 @@
-Title: Energy Conservation and Hawking Radiation
-Authors: Maulik K. Parikh
-Published: 2004-02-23
-arXiv ID: http://arxiv.org/abs/hep-th/0402166v2
-Categories: hep-th, gr-qc
-Abstract:
-The conservation of energy implies that an isolated radiating black hole cannot have an emission spectrum that is precisely thermal. Moreover, the no-hair theorem is only approximately applicable. We consider the implications for the black hole information puzzle.

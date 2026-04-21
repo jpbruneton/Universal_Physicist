@@ -1,7 +1,0 @@
-Title: Black hole thermodynamics and information loss in two dimensions
-Authors: Thomas M. Fiola, John Preskill, Andrew Strominger, Sandip P. Trivedi
-Published: 1994-03-22
-arXiv ID: http://arxiv.org/abs/hep-th/9403137v1
-Categories: hep-th, gr-qc
-Abstract:
-Black hole evaporation is investigated in a (1+1)-dimensional model of quantum gravity. Quantum corrections to the black hole entropy are computed, and the fine-grained entropy of the Hawking radiation is studied. A generalized second law of thermodynamics is formulated, and shown to be valid under suitable conditions. It is also shown that, in this model, a black hole can consume an arbitrarily large amount of information.
