@@ -16,9 +16,11 @@ from pathlib import Path
 
 import anthropic
 
-from config import PAPERS_DIR, EXCLUDE_KEYWORDS, EXCLUDE_SAFELIST, ANTHROPIC_API_KEY
+from config import EXCLUDE_KEYWORDS, EXCLUDE_SAFELIST, ANTHROPIC_API_KEY, get_papers_dir
 
-PROCESSED_INDEX = os.path.join(PAPERS_DIR, "processed_index.json")
+
+def _processed_index_path() -> str:
+    return os.path.join(get_papers_dir(), "processed_index.json")
 
 SUMMARIZER_SYSTEM = """You are a scientific abstract analyzer. Given a physics paper abstract,
 return ONLY a valid JSON object (no markdown, no explanation) with exactly these fields:
@@ -61,7 +63,7 @@ def summarize_paper(client: anthropic.Anthropic, title: str, abstract: str) -> d
 
 
 def load_raw_index() -> list[dict]:
-    index_path = Path(PAPERS_DIR) / "index.json"
+    index_path = Path(get_papers_dir()) / "index.json"
     if not index_path.exists():
         return []
     return json.loads(index_path.read_text(encoding="utf-8"))
@@ -69,24 +71,25 @@ def load_raw_index() -> list[dict]:
 
 def load_processed_index() -> dict:
     """Load existing processed index keyed by paper ID."""
-    if not Path(PROCESSED_INDEX).exists():
+    path = _processed_index_path()
+    if not Path(path).exists():
         return {}
-    return {p["id"]: p for p in json.loads(Path(PROCESSED_INDEX).read_text(encoding="utf-8"))}
+    return {p["id"]: p for p in json.loads(Path(path).read_text(encoding="utf-8"))}
 
 
 def save_processed_index(processed: dict) -> None:
     entries = list(processed.values())
-    Path(PROCESSED_INDEX).write_text(
+    Path(_processed_index_path()).write_text(
         json.dumps(entries, indent=2, default=str),
         encoding="utf-8"
     )
 
 
-def extract_pdfs(papers_dir: str = PAPERS_DIR, force: bool = False) -> int:
-    """Extract and cache full text for all downloaded PDFs in the library directory."""
+def extract_pdfs(force: bool) -> int:
+    """Extract and cache full text for all downloaded PDFs in the active library directory."""
     try:
         from .pdf_reader import extract_library
-        n = extract_library(papers_dir, force=force)
+        n = extract_library(get_papers_dir(), force=force)
         print(f"Full-text extraction: {n} new files created.")
         return n
     except ImportError:
@@ -171,7 +174,7 @@ def process_all(force: bool = False) -> None:
     print(f"\nDone. {new_count} papers processed.")
     print(f"Library: {included} included, {excluded_count} excluded.")
     print(f"PDFs available: {pdf_count} (run with --extract-pdfs to cache full text for the whole folder)")
-    print(f"Index saved to: {PROCESSED_INDEX}")
+    print(f"Index saved to: {_processed_index_path()}")
 
     # Full-text only for PDFs whose metadata entries were processed in this run — not every PDF
     # left in papers/ from older projects (extract_library would scan the whole directory).
@@ -203,11 +206,21 @@ def show_index() -> None:
 
 
 if __name__ == "__main__":
+    from config import set_papers_project
+
     parser = argparse.ArgumentParser(description="Preprocess arXiv paper abstracts")
+    parser.add_argument(
+        "--project",
+        "-p",
+        default="default",
+        metavar="SLUG",
+        help="Paper library subfolder under papers/ (default: default)",
+    )
     parser.add_argument("--force", action="store_true", help="Reprocess all papers")
     parser.add_argument("--show", action="store_true", help="Show processed index")
     parser.add_argument("--extract-pdfs", action="store_true", help="Extract full text from all PDFs")
     args = parser.parse_args()
+    set_papers_project(args.project)
 
     if args.show:
         show_index()

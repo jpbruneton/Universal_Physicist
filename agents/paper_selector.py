@@ -6,11 +6,14 @@ This feeds into the literature_reviewer agent.
 
 import json
 import os
+import re
 from pathlib import Path
 from .base import call_agent
-from config import PAPERS_DIR
+from config import MAX_PAPER_CATALOGUE_ENTRIES, get_papers_dir
 
-PROCESSED_INDEX = os.path.join(PAPERS_DIR, "processed_index.json")
+
+def _processed_index_path() -> str:
+    return os.path.join(get_papers_dir(), "processed_index.json")
 
 SYSTEM = """You are a scientific paper selector for a quantum gravity research team.
 Given a theoretical proposal and a list of available papers (with titles, keywords, and summaries),
@@ -26,10 +29,34 @@ No explanation, just the JSON array."""
 
 
 def _load_processed_index() -> list[dict]:
-    if not Path(PROCESSED_INDEX).exists():
+    path = _processed_index_path()
+    if not Path(path).exists():
         return []
-    data = json.loads(Path(PROCESSED_INDEX).read_text(encoding="utf-8"))
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
     return [p for p in data if not p.get("excluded", False)]
+
+
+def narrow_papers_for_catalogue(papers: list[dict], query_text: str, max_papers: int) -> list[dict]:
+    """
+    When the library has more than max_papers entries, keep the top max_papers
+    by simple lexical overlap with query_text (title + summary + keywords).
+    Avoids sending the entire index to the LLM (hundreds of kB → 429s).
+    """
+    if len(papers) <= max_papers:
+        return papers
+    q = set(re.findall(r"[a-zA-Z][a-zA-Z\-]{2,}", query_text.lower()))
+    if not q:
+        return papers[-max_papers:]
+    scored: list[tuple[int, dict]] = []
+    for p in papers:
+        blob = (
+            f"{p.get('title', '')} {p.get('summary', '')} "
+            f"{' '.join(p.get('keywords') or [])}"
+        )
+        w = set(re.findall(r"[a-zA-Z][a-zA-Z\-]{2,}", blob.lower()))
+        scored.append((len(q & w), p))
+    scored.sort(key=lambda sp: sp[0], reverse=True)
+    return [p for _, p in scored[:max_papers]]
 
 
 def _format_catalogue(papers: list[dict]) -> str:
@@ -67,6 +94,7 @@ def select_relevant_papers(proposal: str, max_papers: int = 6) -> str:
             "Then: py -3 -m paper_tools.arxiv_downloader --core"
         )
 
+    papers = narrow_papers_for_catalogue(papers, proposal, MAX_PAPER_CATALOGUE_ENTRIES)
     catalogue = _format_catalogue(papers)
 
     # Ask the selector agent which papers to pick

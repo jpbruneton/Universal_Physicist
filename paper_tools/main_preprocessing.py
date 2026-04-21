@@ -33,9 +33,10 @@ from datetime import datetime
 from config import (
     ANTHROPIC_API_KEY,
     PAPERS_ARXIV_PDF,
-    PAPERS_DIR,
     PAPERS_INSPIRE,
     PAPERS_SEMANTIC_SCHOLAR,
+    get_papers_dir,
+    set_papers_project,
 )
 
 
@@ -51,8 +52,8 @@ def _step(n: int, total: int, msg: str) -> None:
 
 
 def _library_status() -> dict:
-    index  = Path(PAPERS_DIR) / "index.json"
-    pindex = Path(PAPERS_DIR) / "processed_index.json"
+    index  = Path(get_papers_dir()) / "index.json"
+    pindex = Path(get_papers_dir()) / "processed_index.json"
 
     raw_count  = len(json.loads(index.read_text())  ) if index.exists()  else 0
     proc_count = 0
@@ -81,13 +82,13 @@ def _library_status() -> dict:
 
 def show_status() -> None:
     s = _library_status()
-    print(f"\nLibrary status ({PAPERS_DIR}):")
+    print(f"\nLibrary status ({get_papers_dir()}):")
     print(f"  Papers in index:     {s['raw']}")
     print(f"  AI-preprocessed:     {s['processed']}  ({s['excluded']} excluded)")
     print(f"  PDFs downloaded:     {s['pdfs']}")
     print(f"  Full text cached:    {s['fulltext']}")
 
-    pindex = Path(PAPERS_DIR) / "processed_index.json"
+    pindex = Path(get_papers_dir()) / "processed_index.json"
     if pindex.exists():
         processed = json.loads(pindex.read_text())
         included  = [p for p in processed if not p.get("excluded")]
@@ -104,7 +105,10 @@ def run_pipeline(
     quick:          bool = False,
     force_preproc:  bool = False,
     s2_api_key:     str  = None,
+    papers_project: str  = "bulk_library",
 ) -> None:
+    set_papers_project(papers_project)
+    print(f"  Paper library folder: {get_papers_dir()}\n")
 
     total_steps = 2 if quick else (5 - skip_inspire - skip_semantic)
     step = 0
@@ -195,7 +199,7 @@ def run_pipeline(
     _step(step, total_steps, "Extracting full text from downloaded PDFs")
     try:
         from .pdf_reader import extract_library
-        n = extract_library(PAPERS_DIR, force=False)
+        n = extract_library(get_papers_dir(), force=False)
         print(f"  {n} new full-text files extracted.")
     except Exception as e:
         print(f"  PDF extraction error: {e}")
@@ -224,8 +228,8 @@ def run_pipeline(
     show_status()
     print("Next step:")
     print("  py -3 main.py --phrase 'short description of your topic'")
-    print("  py -3 quantum_gravity_project.py --question 'Your research question here'")
-    print("  run.bat  (interactive mode)\n")
+    print("  py -3 written_projects/quantum_gravity_project.py --question 'Your research question here'")
+    print("  scripts\\run.bat  (Windows: same as py -3 main.py)\n")
 
 
 if __name__ == "__main__":
@@ -252,12 +256,20 @@ if __name__ == "__main__":
                         help="Semantic Scholar API key")
     parser.add_argument("--status",        action="store_true",
                         help="Show library status and exit")
+    parser.add_argument(
+        "--project",
+        "-p",
+        default="bulk_library",
+        metavar="SLUG",
+        help="Paper library subfolder under papers/ for this pipeline (default: bulk_library)",
+    )
     args = parser.parse_args()
 
     if args.pdf and args.no_pdf:
         parser.error("Use either --pdf or --no-pdf, not both.")
 
     if args.status:
+        set_papers_project(args.project)
         show_status()
     else:
         if args.pdf:
@@ -276,4 +288,5 @@ if __name__ == "__main__":
             quick          = args.quick,
             force_preproc  = args.force,
             s2_api_key     = args.s2_key,
+            papers_project = args.project,
         )

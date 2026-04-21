@@ -15,14 +15,14 @@ By default the session runs without downloading papers. Use --download-papers to
 the curated arXiv set and preprocess first.
 
 Usage:
-    py -3 modified_gravity_project.py
-    py -3 modified_gravity_project.py --rounds 5
-    py -3 modified_gravity_project.py --no-latex
-    py -3 modified_gravity_project.py --resume SESSION_ID
-    py -3 modified_gravity_project.py --download-papers
-    py -3 modified_gravity_project.py --download-only
-    py -3 modified_gravity_project.py --dry-run-papers
-    py -3 modified_gravity_project.py --list-sessions
+    py -3 written_projects/modified_gravity_project.py
+    py -3 written_projects/modified_gravity_project.py --rounds 5
+    py -3 written_projects/modified_gravity_project.py --no-latex
+    py -3 written_projects/modified_gravity_project.py --resume SESSION_ID
+    py -3 written_projects/modified_gravity_project.py --download-papers
+    py -3 written_projects/modified_gravity_project.py --download-only
+    py -3 written_projects/modified_gravity_project.py --dry-run-papers
+    py -3 written_projects/modified_gravity_project.py --list-sessions
 """
 
 import os
@@ -34,6 +34,10 @@ import argparse
 import uuid
 from datetime import datetime
 from pathlib import Path
+
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
 # Pacing between Anthropic calls (conservative — reduces org-wide 429s)
 SLEEP_AFTER_AGENT_SEC = 28.0
@@ -56,7 +60,7 @@ if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR
+from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR, set_papers_project
 
 if not ANTHROPIC_API_KEY:
     print("ERROR: Set ANTHROPIC_API_KEY in the environment or .claude/settings.json (env.ANTHROPIC_API_KEY).")
@@ -324,7 +328,9 @@ def run_session(
             _pacing_sleep(SLEEP_AFTER_AGENT_SEC, "this agent call")
 
         print(f"  Synthesizing round {round_num}...")
-        synthesis = orchestrator.orchestrate(question, agent_responses, round_num)
+        synthesis = orchestrator.orchestrate(
+            question, agent_responses, round_num, "researcher"
+        )
         _pacing_sleep(SLEEP_AFTER_ORCHESTRATE_SEC, "round orchestration")
 
         round_data = {
@@ -361,7 +367,7 @@ def run_session(
     print(f"  FINAL SYNTHESIS")
     print(f"{'='*70}\n")
     _pacing_sleep(SLEEP_BEFORE_FINAL_SYNTHESIS_SEC, "last round — before final synthesis")
-    final = orchestrator.final_synthesis(question, all_rounds, title)
+    final = orchestrator.final_synthesis(question, all_rounds, title, "researcher")
     session_data["final_synthesis"] = final
 
     if verbose:
@@ -390,6 +396,7 @@ def run_session(
 # ─── CLI ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    set_papers_project("modified_gravity")
     parser = argparse.ArgumentParser(
         description="Modified Gravity / Covariant MOND Think Tank",
         formatter_class=argparse.RawDescriptionHelpFormatter,

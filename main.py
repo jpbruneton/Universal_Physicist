@@ -11,6 +11,7 @@ Pipeline:
 
 Usage:
     py -3 main.py --phrase "explore entropic gravity and black hole information"
+    py -3 main.py --phrase "..." --mode teacher
     py -3 main.py --use-instructions
     py -3 main.py --use-instructions --instructions path/to/instructions.json
     py -3 main.py -i
@@ -44,6 +45,8 @@ from config import (
     PAPERS_INSPIRE,
     PAPERS_SEMANTIC_SCHOLAR,
     SESSIONS_DIR,
+    get_papers_dir,
+    set_papers_project,
 )
 
 if not ANTHROPIC_API_KEY:
@@ -61,6 +64,7 @@ from agents import (
     lqg_expert,
     bh_expert,
     wild_theorist,
+    teacher,
     equation_verifier,
     physical_meaning,
     devil_advocate,
@@ -76,7 +80,7 @@ from research_instructions import (
     load_instructions_file,
     merge_arxiv_search_query,
 )
-from topic_project_writer import write_topic_project_file
+from topic_project_writer import slugify_papers_subdir, write_topic_project_file
 
 TOPIC = "universal-pipeline"
 
@@ -95,6 +99,7 @@ BASE_AGENT_REGISTRY = {
     "lqg":      ("LQG Expert",           lqg_expert.consult),
     "bh":       ("Black Hole Expert",    bh_expert.consult),
     "wild":     ("Wild Theorist",        wild_theorist.propose),
+    "teacher":  ("Teacher",              teacher.teach),
     "verifier": ("Equation Verifier",    equation_verifier.verify),
     "meaning":  ("Physical Meaning",     physical_meaning.interrogate),
     "devil":    ("Devil's Advocate",     devil_advocate.critique),
@@ -168,6 +173,7 @@ def run_pipeline_session(
     produce_latex: bool,
     verbose: bool,
 ) -> dict:
+    session_mode = planning.get("session_mode", "researcher")
     session_id = uuid.uuid4().hex[:8]
     session_start = datetime.now()
     all_rounds = []
@@ -179,13 +185,14 @@ def run_pipeline_session(
         "topic":           TOPIC,
         "question":        question,
         "title":             title,
+        "session_mode":    session_mode,
         "planning":          planning,
         "rounds":            all_rounds,
         "final_synthesis":   "",
     }
 
     print(f"\n{'='*70}")
-    print(f"  UNIVERSAL PHYSICIST  |  Session {session_id}")
+    print(f"  UNIVERSAL PHYSICIST  |  Session {session_id}  |  mode: {session_mode}")
     print(f"{'='*70}")
     print(f"\nTitle: {title}\n")
     print(f"Question:\n{question}\n")
@@ -217,7 +224,9 @@ def run_pipeline_session(
             _pacing_sleep(SLEEP_AFTER_AGENT_SEC, "this agent call")
 
         print(f"  Synthesizing round {round_num}...")
-        synthesis = orchestrator.orchestrate(question, agent_responses, round_num)
+        synthesis = orchestrator.orchestrate(
+            question, agent_responses, round_num, session_mode
+        )
         _pacing_sleep(SLEEP_AFTER_ORCHESTRATE_SEC, "round orchestration")
 
         round_data = {
@@ -252,7 +261,7 @@ def run_pipeline_session(
     print(f"\n{'='*70}")
     print("  FINAL SYNTHESIS")
     print(f"{'='*70}\n")
-    final = orchestrator.final_synthesis(question, all_rounds, title)
+    final = orchestrator.final_synthesis(question, all_rounds, title, session_mode)
     session_data["final_synthesis"] = final
 
     if verbose:
@@ -349,7 +358,18 @@ def main() -> None:
     parser.add_argument(
         "--no-topic-project",
         action="store_true",
-        help="Do not write <slug>_project.py with the frozen plan (default: write after planning)",
+        help="Do not write written_projects/<slug>_project.py with the frozen plan (default: write after planning)",
+    )
+    parser.add_argument(
+        "--mode",
+        type=str,
+        choices=("researcher", "teacher"),
+        default=None,
+        help=(
+            "Session mode: researcher (default) explores new ideas and may use the wild theorist; "
+            "teacher is expository only (no wild, uses the teacher agent). "
+            "Overrides the optional \"mode\" field in instructions JSON when set."
+        ),
     )
     args = parser.parse_args()
 
@@ -388,6 +408,13 @@ def main() -> None:
                 sys.exit(0)
         phrase_for_project = phrase
 
+    if args.mode is not None:
+        resolved_session_mode = args.mode
+    elif instr is not None:
+        resolved_session_mode = instr["mode"]
+    else:
+        resolved_session_mode = "researcher"
+
     print("\n  [1/4] Planning session (prompt, agents, arXiv query)...\n")
     try:
         if instr is not None:
@@ -395,29 +422,42 @@ def main() -> None:
                 instr["query"],
                 instr["keywords"],
                 instr["authors"],
+                instr["exclude_keywords"],
+                instr["exclude_authors"],
+                resolved_session_mode,
             )
             plan["arxiv_search_query"] = merge_arxiv_search_query(
                 plan["arxiv_search_query"],
                 instr["keywords"],
                 instr["authors"],
+                instr["exclude_keywords"],
+                instr["exclude_authors"],
             )
         else:
-            plan = session_planner.plan_session(phrase_for_project)
+            plan = session_planner.plan_session(phrase_for_project, resolved_session_mode)
     except (json.JSONDecodeError, ValueError) as e:
         print(f"ERROR: Session planner failed ({e}). Try a slightly different phrase or run again.")
         sys.exit(1)
 
+    plan["session_mode"] = resolved_session_mode
+
     if args.max_papers is not None:
         plan["max_papers"] = max(MIN_ARXIV_PAPERS, min(MAX_ARXIV_PAPERS, args.max_papers))
+
+    papers_slug = slugify_papers_subdir(plan["session_title"])
+    set_papers_project(papers_slug)
+    print(f"  Papers library: papers/{papers_slug}/")
 
     if not args.no_topic_project:
         root = Path(__file__).resolve().parent
         try:
             gen_path = write_topic_project_file(plan, phrase_for_project, root)
-            print(f"\n  Wrote session replay script: {gen_path.name}")
+            rel = gen_path.relative_to(root)
+            print(f"\n  Wrote session replay script: {rel.as_posix()}")
         except OSError as e:
             print(f"\n  WARNING: Could not write topic project file: {e}")
 
+    print(f"  Session mode: {resolved_session_mode}")
     print(f"  Title: {plan['session_title']}")
     print(f"  Refined question ({len(plan['refined_research_question'])} chars) — preview:\n")
     print(f"    {plan['refined_research_question'][:400]}...")
@@ -435,7 +475,7 @@ def main() -> None:
         sys.exit(0)
 
     if not args.skip_papers:
-        print("\n  [2/4] Searching arXiv and saving abstracts to papers/...\n")
+        print(f"\n  [2/4] Searching arXiv and saving abstracts...\n  → {get_papers_dir()}\n")
         from paper_tools.arxiv_downloader import search_and_download
 
         if args.pdf:

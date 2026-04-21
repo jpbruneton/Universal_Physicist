@@ -9,7 +9,7 @@ and the abstract alone is insufficient.
 import json
 from pathlib import Path
 from .base import call_agent
-from config import PAPERS_DIR
+from config import get_papers_dir
 
 SYSTEM = """You are a meticulous scientific reader specializing in quantum gravity and
 mathematical physics. You are given the full text (or a large excerpt) of a research paper
@@ -72,7 +72,7 @@ def read_by_id(
     from paper_tools.pdf_reader import get_excerpt
 
     # Find in index
-    index_path = Path(PAPERS_DIR) / "processed_index.json"
+    index_path = Path(get_papers_dir()) / "processed_index.json"
     if not index_path.exists():
         return "[No processed index — run py -3 -m paper_tools.preprocess_papers first]"
 

@@ -9,12 +9,12 @@ No literature retrieval. Agents work from first principles, focusing on:
   - Observable predictions and experimental tests
 
 Usage:
-    py -3 discrete_time_qm_project.py                         # run with default question
-    py -3 discrete_time_qm_project.py --rounds 5              # more rounds
-    py -3 discrete_time_qm_project.py --no-latex              # skip LaTeX output
-    py -3 discrete_time_qm_project.py --resume SESSION_ID     # resume a previous session
-    py -3 discrete_time_qm_project.py --input "Try finite-difference Dirac on a null lattice"
-    py -3 discrete_time_qm_project.py --list-sessions
+    py -3 written_projects/discrete_time_qm_project.py                         # run with default question
+    py -3 written_projects/discrete_time_qm_project.py --rounds 5              # more rounds
+    py -3 written_projects/discrete_time_qm_project.py --no-latex              # skip LaTeX output
+    py -3 written_projects/discrete_time_qm_project.py --resume SESSION_ID     # resume a previous session
+    py -3 written_projects/discrete_time_qm_project.py --input "Try finite-difference Dirac on a null lattice"
+    py -3 written_projects/discrete_time_qm_project.py --list-sessions
 """
 
 import os
@@ -26,12 +26,16 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
 # Force UTF-8 output on Windows (avoids cp1252 crashes on checkmarks, arrows, etc.)
 if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR
+from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR, set_papers_project
 
 if not ANTHROPIC_API_KEY:
     print("ERROR: Set ANTHROPIC_API_KEY in the environment or .claude/settings.json (env.ANTHROPIC_API_KEY).")
@@ -233,7 +237,9 @@ def run_session(
                 agent_responses[name] = f"[Error: {e}]"
 
         print(f"  Synthesizing round {round_num}...")
-        synthesis = orchestrator.orchestrate(question, agent_responses, round_num)
+        synthesis = orchestrator.orchestrate(
+            question, agent_responses, round_num, "researcher"
+        )
 
         round_data = {
             "round":     round_num,
@@ -267,7 +273,7 @@ def run_session(
     print(f"\n{'='*70}")
     print(f"  FINAL SYNTHESIS")
     print(f"{'='*70}\n")
-    final = orchestrator.final_synthesis(question, all_rounds, title)
+    final = orchestrator.final_synthesis(question, all_rounds, title, "researcher")
     session_data["final_synthesis"] = final
 
     if verbose:
@@ -295,6 +301,7 @@ def run_session(
 # ─── CLI ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    set_papers_project("discrete_time_qm")
     parser = argparse.ArgumentParser(description="Discrete-Time QM Agent Think Tank")
     parser.add_argument("--question",  "-q", type=str, default=DEFAULT_QUESTION)
     parser.add_argument("--title",     "-t", type=str, default=DEFAULT_TITLE)

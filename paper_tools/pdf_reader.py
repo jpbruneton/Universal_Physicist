@@ -220,19 +220,27 @@ def extract_library(papers_dir: str, force: bool = False, verbose: bool = True) 
 
 if __name__ == "__main__":
     import argparse, sys
-    from config import PAPERS_DIR
+    from config import get_papers_dir, set_papers_project
 
     parser = argparse.ArgumentParser(description="Extract text from downloaded PDFs")
+    parser.add_argument(
+        "--project",
+        "-p",
+        default="default",
+        metavar="SLUG",
+        help="Paper library subfolder under papers/ (default: default)",
+    )
     parser.add_argument("--force", action="store_true", help="Re-extract even if cache exists")
     parser.add_argument("--pdf",   help="Extract a single PDF and print excerpt")
     parser.add_argument("--query", default="", help="Query for smart excerpt relevance")
     parser.add_argument("--chars", type=int, default=4000, help="Max chars for excerpt")
     args = parser.parse_args()
+    set_papers_project(args.project)
 
     if args.pdf:
         excerpt = get_excerpt(args.pdf, query=args.query, max_chars=args.chars)
         print(excerpt or "(no text extracted)")
     else:
-        print(f"Extracting PDFs in {PAPERS_DIR} ...")
-        n = extract_library(PAPERS_DIR, force=args.force)
+        print(f"Extracting PDFs in {get_papers_dir()} ...")
+        n = extract_library(get_papers_dir(), force=args.force)
         print(f"Done. {n} new full-text files created.")

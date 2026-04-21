@@ -21,8 +21,13 @@ from pathlib import Path
 from datetime import datetime
 
 from .base import call_agent
-from .paper_selector import select_relevant_papers, _load_processed_index
-from config import OUTPUT_DIR
+from .context_limits import truncate_tail
+from .paper_selector import (
+    _format_catalogue,
+    _load_processed_index,
+    narrow_papers_for_catalogue,
+)
+from config import MAX_LATEX_SYNTHESIS_CHARS, MAX_PAPER_CATALOGUE_ENTRIES, OUTPUT_DIR
 
 try:
     from latex_tools.compile_latex import compile as _compile_tex, is_available as _compiler_is_available
@@ -98,11 +103,9 @@ def _get_relevant_papers_and_keys(text: str) -> tuple[list[dict], dict, str]:
     if not all_papers:
         return [], {}, ""
 
-    # Use selector to pick relevant subset
-    _ = select_relevant_papers(text)  # warms selector; we re-fetch for metadata
-    # Re-run selection logic directly to get paper objects, not just formatted text
-    from .paper_selector import _format_catalogue, SYSTEM as SEL_SYS
-    catalogue = _format_catalogue(all_papers)
+    candidates = narrow_papers_for_catalogue(all_papers, text, MAX_PAPER_CATALOGUE_ENTRIES)
+    catalogue = _format_catalogue(candidates)
+    from .paper_selector import SYSTEM as SEL_SYS
     from .base import call_agent as _ca
     import json as _json
     try:
@@ -114,11 +117,11 @@ def _get_relevant_papers_and_keys(text: str) -> tuple[list[dict], dict, str]:
             raw = raw.split("```")[1].lstrip("json").strip()
         selected_ids = set(_json.loads(raw))
     except Exception:
-        selected_ids = {p["id"] for p in all_papers[:6]}
+        selected_ids = {p["id"] for p in candidates[:6]}
 
-    papers = [p for p in all_papers if p["id"] in selected_ids][:8]
+    papers = [p for p in candidates if p["id"] in selected_ids][:8]
     if not papers:
-        papers = all_papers[:6]
+        papers = candidates[:6]
 
     cite_keys = _make_unique_keys(papers)
     bibliography = _build_bibliography(papers, cite_keys)
@@ -243,7 +246,8 @@ def format_checkpoint(
     agent_responses: dict,
 ) -> dict:
     """Format and optionally compile a per-round checkpoint."""
-    papers, cite_keys, bibliography = _get_relevant_papers_and_keys(synthesis)
+    syn_for_ctx = truncate_tail(synthesis, MAX_LATEX_SYNTHESIS_CHARS, "Round synthesis")
+    papers, cite_keys, bibliography = _get_relevant_papers_and_keys(syn_for_ctx)
 
     # Build agent summary for context
     agent_summary = "\n\n".join(
@@ -256,7 +260,7 @@ def format_checkpoint(
         "role": "user",
         "content": (
             f"Produce a LaTeX checkpoint document for ROUND {round_num}.\n\n"
-            f"Round synthesis:\n{synthesis}\n\n"
+            f"Round synthesis:\n{syn_for_ctx}\n\n"
             f"Agent responses summary:\n{agent_summary[:3000]}\n\n"
             f"Available cite keys (use these in \\cite{{}} commands):\n{cite_key_list}\n\n"
             f"Bibliography (include verbatim at end of document):\n{bibliography}"
@@ -281,7 +285,8 @@ def format_final(
     all_rounds: list[dict],
 ) -> dict:
     """Format and optionally compile the final paper."""
-    papers, cite_keys, bibliography = _get_relevant_papers_and_keys(synthesis)
+    syn_for_ctx = truncate_tail(synthesis, MAX_LATEX_SYNTHESIS_CHARS, "Final synthesis")
+    papers, cite_keys, bibliography = _get_relevant_papers_and_keys(syn_for_ctx)
 
     rounds_summary = "\n\n".join(
         f"=== ROUND {r['round']} ===\n{r['synthesis'][:800]}" for r in all_rounds
@@ -293,7 +298,7 @@ def format_final(
         "role": "user",
         "content": (
             f"Produce a complete LaTeX paper with title: {title}\n\n"
-            f"Final synthesis:\n{synthesis}\n\n"
+            f"Final synthesis:\n{syn_for_ctx}\n\n"
             f"Evolution across rounds:\n{rounds_summary[:4000]}\n\n"
             f"Available cite keys:\n{cite_key_list}\n\n"
             f"Bibliography (include verbatim):\n{bibliography}"

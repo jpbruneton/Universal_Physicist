@@ -13,7 +13,7 @@ from datetime import datetime
 
 import arxiv
 
-from config import PAPERS_DIR, ARXIV_CATEGORIES, ARXIV_SEARCH_TERMS
+from config import ARXIV_CATEGORIES, ARXIV_SEARCH_TERMS, get_papers_dir
 
 
 def search_and_download(
@@ -24,7 +24,7 @@ def search_and_download(
     start_date: str | None = None,  # format: "YYYYMMDD"
 ) -> list[dict]:
     """Search arXiv and save abstracts (and optionally PDFs) to papers/."""
-    os.makedirs(PAPERS_DIR, exist_ok=True)
+    os.makedirs(get_papers_dir(), exist_ok=True)
 
     search_query = query or " OR ".join(f'"{term}"' for term in ARXIV_SEARCH_TERMS[:5])
     if categories:
@@ -54,7 +54,7 @@ def search_and_download(
         base_name = f"{paper_id}_{safe_title}"
 
         # Save abstract as .txt
-        txt_path = Path(PAPERS_DIR) / f"{base_name}.txt"
+        txt_path = Path(get_papers_dir()) / f"{base_name}.txt"
         if not txt_path.exists():
             abstract_text = (
                 f"Title: {paper.title}\n"
@@ -81,11 +81,11 @@ def search_and_download(
 
         # Optionally download PDF
         if download_pdfs:
-            pdf_path = Path(PAPERS_DIR) / f"{base_name}.pdf"
+            pdf_path = Path(get_papers_dir()) / f"{base_name}.pdf"
             if not pdf_path.exists():
                 try:
                     print(f"    Downloading PDF...")
-                    paper.download_pdf(dirpath=str(PAPERS_DIR), filename=f"{base_name}.pdf")
+                    paper.download_pdf(dirpath=str(get_papers_dir()), filename=f"{base_name}.pdf")
                     meta["pdf_file"] = str(pdf_path)
                     time.sleep(2)  # be polite to arXiv
                 except Exception as e:
@@ -97,7 +97,7 @@ def search_and_download(
         index.append(meta)
 
     # Save index
-    index_path = Path(PAPERS_DIR) / "index.json"
+    index_path = Path(get_papers_dir()) / "index.json"
     existing = []
     if index_path.exists():
         try:
@@ -134,7 +134,7 @@ def _arxiv_fetch_with_backoff(client, search, arxiv_id: str, max_attempts: int =
 
 def download_by_id(arxiv_ids: list[str], download_pdfs: bool = True) -> list[dict]:
     """Download specific papers by arXiv ID (e.g., '2301.12345')."""
-    os.makedirs(PAPERS_DIR, exist_ok=True)
+    os.makedirs(get_papers_dir(), exist_ok=True)
     client = arxiv.Client(
         page_size=1,
         delay_seconds=3,
@@ -154,7 +154,7 @@ def download_by_id(arxiv_ids: list[str], download_pdfs: bool = True) -> list[dic
         safe_title = "".join(c if c.isalnum() or c in " _-" else "_" for c in paper.title)[:60]
         base_name = f"{paper_id}_{safe_title}"
 
-        txt_path = Path(PAPERS_DIR) / f"{base_name}.txt"
+        txt_path = Path(get_papers_dir()) / f"{base_name}.txt"
         abstract_text = (
             f"Title: {paper.title}\n"
             f"Authors: {', '.join(a.name for a in paper.authors)}\n"
@@ -168,7 +168,7 @@ def download_by_id(arxiv_ids: list[str], download_pdfs: bool = True) -> list[dic
 
         if download_pdfs:
             try:
-                paper.download_pdf(dirpath=str(PAPERS_DIR), filename=f"{base_name}.pdf")
+                paper.download_pdf(dirpath=str(get_papers_dir()), filename=f"{base_name}.pdf")
                 print(f"  PDF downloaded.")
                 time.sleep(2)
             except Exception as e:
@@ -187,7 +187,7 @@ def download_by_id(arxiv_ids: list[str], download_pdfs: bool = True) -> list[dic
         time.sleep(3)  # polite inter-paper delay to avoid 429
 
     # Update index.json
-    index_path = Path(PAPERS_DIR) / "index.json"
+    index_path = Path(get_papers_dir()) / "index.json"
     existing = []
     if index_path.exists():
         try:
@@ -205,7 +205,7 @@ def download_by_id(arxiv_ids: list[str], download_pdfs: bool = True) -> list[dic
 
 def list_library() -> None:
     """Print current library contents."""
-    index_path = Path(PAPERS_DIR) / "index.json"
+    index_path = Path(get_papers_dir()) / "index.json"
     if not index_path.exists():
         print("Library is empty. Run with --search to populate.")
         return
@@ -221,7 +221,16 @@ def list_library() -> None:
 
 
 if __name__ == "__main__":
+    from config import set_papers_project
+
     parser = argparse.ArgumentParser(description="Download quantum gravity papers from arXiv")
+    parser.add_argument(
+        "--project",
+        "-p",
+        default="default",
+        metavar="SLUG",
+        help="Paper library subfolder under papers/ (default: default)",
+    )
     parser.add_argument("--search", metavar="QUERY", help="Custom search query")
     parser.add_argument("--ids", nargs="+", metavar="ID", help="Specific arXiv IDs to download")
     parser.add_argument("--n", type=int, default=30, help="Max results (default 30)")
@@ -232,6 +241,7 @@ if __name__ == "__main__":
     parser.add_argument("--core", action="store_true",
                         help="Download a curated set of foundational QG papers by ID")
     args = parser.parse_args()
+    set_papers_project(args.project)
 
     if args.list:
         list_library()

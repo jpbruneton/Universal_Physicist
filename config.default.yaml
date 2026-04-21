@@ -16,6 +16,9 @@ context:
   max_final_round_synthesis_chars: 16000
   max_final_all_rounds_chars: 90000
   large_request_warn_input_chars: 120000
+  # Avoid multi‑100k token requests when the local paper index is huge (LaTeX + paper selector).
+  max_paper_catalogue_entries: 150
+  max_latex_synthesis_chars: 24000
 
 session:
   max_rounds: 3
@@ -26,7 +29,7 @@ paths:
   sessions: sessions
 
 # Paper sources and downloads (defaults: all enabled)
-# - arxiv_pdf: used by main.py and *_project.py replay (download PDFs from arXiv)
+# - arxiv_pdf: used by main.py and written_projects/*_project.py replay (download PDFs from arXiv)
 # - inspire / semantic_scholar: used by main.py (single-topic supplement after arXiv)
 #   and by paper_tools.main_preprocessing (full multi-topic sweeps)
 papers:

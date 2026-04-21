@@ -1,4 +1,5 @@
 {
+  "mode": "researcher",
   "query": "Explore quantum mechanics formulated over non-continuous fields (e.g. rationals, p-adics, or finite fields): algebraic constraints, Hilbert-space analogs, and testable predictions.",
   "keywords": [
     "finite field quantum",
@@ -8,5 +9,7 @@
   "authors": [
     "Volovich",
     "Dragovich"
-  ]
+  ],
+  "exclude_keywords": ["MOND", "dark matter"],
+  "exclude_authors": ["Smith"]
 }

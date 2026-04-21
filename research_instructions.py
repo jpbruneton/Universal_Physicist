@@ -1,10 +1,9 @@
 """
 Load and apply structured research instructions (JSON) for main.py.
 
-Schema (all keys required when using --use-instructions):
-  query: string — main research question / topic (drives the session planner).
-  keywords: list of strings — terms that must appear in the arXiv search query.
-  authors: list of strings — author names, each used in an arXiv au: clause.
+Required keys: query, keywords, authors.
+Optional keys: exclude_keywords, exclude_authors (plain names; code adds au:/all: and ANDNOT).
+Optional key: mode — "researcher" (default) or "teacher" (expository session; no wild theorist).
 """
 
 import json
@@ -13,7 +12,8 @@ from pathlib import Path
 
 def load_instructions_file(path: Path) -> dict:
     """
-    Read JSON from path and return a dict with keys query, keywords, authors.
+    Read JSON from path and return a dict with query, keywords, authors,
+    exclude_keywords, exclude_authors.
     """
     if not path.is_file():
         raise FileNotFoundError(f"Instructions file not found: {path}")
@@ -33,11 +33,34 @@ def load_instructions_file(path: Path) -> dict:
         raise ValueError('Instructions "keywords" must be a non-empty list of strings.')
     if not authors:
         raise ValueError('Instructions "authors" must be a non-empty list of strings.')
+    exclude_keywords = _normalize_optional_string_list(data.get("exclude_keywords"))
+    exclude_authors = _normalize_optional_string_list(data.get("exclude_authors"))
     return {
         "query": query.strip(),
         "keywords": keywords,
         "authors": authors,
+        "exclude_keywords": exclude_keywords,
+        "exclude_authors": exclude_authors,
     }
+
+
+def _normalize_optional_string_list(value: object) -> list[str]:
+    """Optional list: missing/null → []; comma string or list of non-empty strings."""
+    if value is None:
+        return []
+    if isinstance(value, str):
+        parts = [p.strip() for p in value.split(",")]
+        return [p for p in parts if p]
+    if not isinstance(value, list):
+        raise ValueError(
+            'Optional exclude fields must be a list of strings or a comma-separated string.'
+        )
+    out = []
+    for item in value:
+        if not isinstance(item, str) or not item.strip():
+            raise ValueError("exclude list entries must be non-empty strings.")
+        out.append(item.strip())
+    return out
 
 
 def _normalize_string_list(value: object, field_name: str) -> list[str]:
@@ -57,10 +80,32 @@ def _normalize_string_list(value: object, field_name: str) -> list[str]:
     return out
 
 
-def merge_arxiv_search_query(base_query: str, keywords: list[str], authors: list[str]) -> str:
+def _all_field_term(term: str) -> str:
+    t = term.strip()
+    if any(c.isspace() for c in t):
+        escaped = t.replace('"', '\\"')
+        return f'all:"{escaped}"'
+    return f"all:{t}"
+
+
+def _au_field_term(name: str) -> str:
+    a = name.strip()
+    if any(c.isspace() for c in a):
+        escaped = a.replace('"', '\\"')
+        return f'au:"{escaped}"'
+    return f"au:{a}"
+
+
+def merge_arxiv_search_query(
+    base_query: str,
+    keywords: list[str],
+    authors: list[str],
+    exclude_keywords: list[str],
+    exclude_authors: list[str],
+) -> str:
     """
-    Combine the planner's arXiv query with mandatory keyword and author clauses
-    so every instruction field affects the search string sent to arXiv.
+    Combine the planner's arXiv query with mandatory keyword and author clauses,
+    then apply ANDNOT for exclusions (arXiv boolean query).
     """
     parts = []
     b = base_query.strip()
@@ -71,11 +116,7 @@ def merge_arxiv_search_query(base_query: str, keywords: list[str], authors: list
         k = k.strip()
         if not k:
             continue
-        if any(c.isspace() for c in k):
-            escaped = k.replace('"', '\\"')
-            kw_terms.append(f'all:"{escaped}"')
-        else:
-            kw_terms.append(f"all:{k}")
+        kw_terms.append(_all_field_term(k))
     if kw_terms:
         parts.append("(" + " OR ".join(kw_terms) + ")")
     au_terms = []
@@ -83,19 +124,36 @@ def merge_arxiv_search_query(base_query: str, keywords: list[str], authors: list
         a = a.strip()
         if not a:
             continue
-        if any(c.isspace() for c in a):
-            escaped = a.replace('"', '\\"')
-            au_terms.append(f'au:"{escaped}"')
-        else:
-            au_terms.append(f"au:{a}")
+        au_terms.append(_au_field_term(a))
     if au_terms:
         parts.append("(" + " OR ".join(au_terms) + ")")
-    return " AND ".join(parts)
+    positive = " AND ".join(parts)
+    neg_chunks: list[str] = []
+    for k in exclude_keywords:
+        k = k.strip()
+        if not k:
+            continue
+        neg_chunks.append(f"ANDNOT {_all_field_term(k)}")
+    for a in exclude_authors:
+        a = a.strip()
+        if not a:
+            continue
+        neg_chunks.append(f"ANDNOT {_au_field_term(a)}")
+    if not neg_chunks:
+        return positive
+    return f"({positive}) " + " ".join(neg_chunks)
 
 
 def instructions_summary(instr: dict) -> str:
     """Short line for logs and generated topic project files."""
     return json.dumps(
-        {"query": instr["query"], "keywords": instr["keywords"], "authors": instr["authors"]},
+        {
+            "query": instr["query"],
+            "keywords": instr["keywords"],
+            "authors": instr["authors"],
+            "exclude_keywords": instr["exclude_keywords"],
+            "exclude_authors": instr["exclude_authors"],
+            "mode": instr["mode"],
+        },
         ensure_ascii=False,
     )

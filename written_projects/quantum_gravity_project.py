@@ -2,14 +2,14 @@
 Quantum Gravity Agent Team — main entry point.
 
 Usage:
-    py -3 quantum_gravity_project.py                              # interactive mode
-    py -3 quantum_gravity_project.py --question "..."             # one-shot
-    py -3 quantum_gravity_project.py --rounds 6                   # more rounds
-    py -3 quantum_gravity_project.py --resume SESSION_ID          # resume from last checkpoint
-    py -3 quantum_gravity_project.py --resume SESSION_ID --input "New direction: consider p-adic fields"
-    py -3 quantum_gravity_project.py --no-latex                   # skip LaTeX/PDF output
-    py -3 quantum_gravity_project.py --agents gr qm wild          # custom agent set (all rounds)
-    py -3 quantum_gravity_project.py --list-sessions              # show previous sessions
+    py -3 written_projects/quantum_gravity_project.py                              # interactive mode
+    py -3 written_projects/quantum_gravity_project.py --question "..."             # one-shot
+    py -3 written_projects/quantum_gravity_project.py --rounds 6                   # more rounds
+    py -3 written_projects/quantum_gravity_project.py --resume SESSION_ID          # resume from last checkpoint
+    py -3 written_projects/quantum_gravity_project.py --resume SESSION_ID --input "New direction: consider p-adic fields"
+    py -3 written_projects/quantum_gravity_project.py --no-latex                   # skip LaTeX/PDF output
+    py -3 written_projects/quantum_gravity_project.py --agents gr qm wild          # custom agent set (all rounds)
+    py -3 written_projects/quantum_gravity_project.py --list-sessions              # show previous sessions
 """
 
 import os
@@ -21,12 +21,16 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
 # Force UTF-8 output on Windows
 if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, MAX_ROUNDS, SESSIONS_DIR, OUTPUT_DIR
+from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, MAX_ROUNDS, SESSIONS_DIR, OUTPUT_DIR, set_papers_project
 
 if not ANTHROPIC_API_KEY:
     print("ERROR: Set ANTHROPIC_API_KEY in the environment or .claude/settings.json (env.ANTHROPIC_API_KEY).")
@@ -242,7 +246,9 @@ def run_session(
                 agent_responses[name] = f"[Error: {e}]"
 
         print(f"  Synthesizing round {round_num}...")
-        synthesis = orchestrator.orchestrate(question, agent_responses, round_num)
+        synthesis = orchestrator.orchestrate(
+            question, agent_responses, round_num, "researcher"
+        )
 
         round_data = {
             "round":     round_num,
@@ -278,7 +284,7 @@ def run_session(
     print(f"\n{'='*70}")
     print(f"  FINAL SYNTHESIS")
     print(f"{'='*70}\n")
-    final = orchestrator.final_synthesis(question, all_rounds, title)
+    final = orchestrator.final_synthesis(question, all_rounds, title, "researcher")
     session_data["final_synthesis"] = final
 
     if verbose:
@@ -317,6 +323,7 @@ def interactive_mode() -> None:
 
 
 if __name__ == "__main__":
+    set_papers_project("quantum_gravity")
     parser = argparse.ArgumentParser(description="Quantum Gravity Agent Think Tank")
     parser.add_argument("--question",  "-q", type=str)
     parser.add_argument("--title",     "-t", type=str, default="Towards a Plausible Theory of Quantum Gravity")

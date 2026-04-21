@@ -1,11 +1,15 @@
 """
 Emit a standalone `<slug>_project.py` script from a session plan (refined prompt + roster).
+
+Output directory: `<repo>/written_projects/` (keeps the repository root tidy).
 """
 
 import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+
+WRITTEN_PROJECTS_DIR = "written_projects"
 
 
 def slugify_session_title(session_title: str) -> str:
@@ -20,12 +24,19 @@ def slugify_session_title(session_title: str) -> str:
     return f"{s}_project"
 
 
+def slugify_papers_subdir(session_title: str) -> str:
+    """Subdirectory name under papers/ for this session (pairs with written_projects/<stem>_project.py)."""
+    return slugify_session_title(session_title).removesuffix("_project")
+
+
 def write_topic_project_file(plan: dict, user_phrase: str, project_root: Path) -> Path:
     """
-    Write `<slug>_project.py` under project_root. Embeds the full plan JSON for replay.
+    Write `written_projects/<slug>_project.py` under project_root. Embeds the full plan JSON for replay.
     """
     slug = slugify_session_title(plan["session_title"])
-    path = project_root / f"{slug}.py"
+    out_dir = project_root / WRITTEN_PROJECTS_DIR
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"{slug}.py"
     plan_json = json.dumps(plan, ensure_ascii=False)
     plan_repr = repr(plan_json)
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -40,9 +51,9 @@ def write_topic_project_file(plan: dict, user_phrase: str, project_root: Path) -
         doc_phrase_block,
         "",
         "Run from the repository root, for example:",
-        f"  py -3 {path.name}",
-        f"  py -3 {path.name} --fetch-papers",
-        f"  py -3 {path.name} --rounds 3 --quiet",
+        f"  py -3 {WRITTEN_PROJECTS_DIR}/{path.name}",
+        f"  py -3 {WRITTEN_PROJECTS_DIR}/{path.name} --fetch-papers",
+        f"  py -3 {WRITTEN_PROJECTS_DIR}/{path.name} --rounds 3 --quiet",
         "",
         "This file embeds the planner output (refined question, title, arXiv query, dynamic agents,",
         "and round roster). Re-running it repeats the expert discussion without calling the planner.",
@@ -56,11 +67,16 @@ def write_topic_project_file(plan: dict, user_phrase: str, project_root: Path) -
         "import sys",
         "from pathlib import Path",
         "",
+        "_REPO_ROOT = Path(__file__).resolve().parent.parent",
+        "if str(_REPO_ROOT) not in sys.path:",
+        "    sys.path.insert(0, str(_REPO_ROOT))",
+        "",
         "if sys.stdout.encoding.lower() != \"utf-8\":",
         "    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding=\"utf-8\", errors=\"replace\")",
         "    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding=\"utf-8\", errors=\"replace\")",
         "",
-        "from config import ANTHROPIC_API_KEY, PAPERS_ARXIV_PDF",
+        "from config import ANTHROPIC_API_KEY, PAPERS_ARXIV_PDF, get_papers_dir, set_papers_project",
+        "from topic_project_writer import slugify_papers_subdir",
         "",
         "if not ANTHROPIC_API_KEY:",
         "    print(",
@@ -77,6 +93,7 @@ def write_topic_project_file(plan: dict, user_phrase: str, project_root: Path) -
         ")",
         "",
         f"PLAN = json.loads({plan_repr})",
+        "set_papers_project(slugify_papers_subdir(PLAN[\"session_title\"]))",
         "",
         "",
         "def main() -> None:",
@@ -118,7 +135,7 @@ def write_topic_project_file(plan: dict, user_phrase: str, project_root: Path) -
         "        parser.error(\"Use either --pdf or --no-pdf, not both.\")",
         "",
         "    if args.fetch_papers:",
-        "        print(\"\\n  [2/4] Searching arXiv and saving abstracts to papers/...\\n\")",
+        "        print(f\"\\n  [2/4] Searching arXiv and saving abstracts...\\n  → {get_papers_dir()}\\n\")",
         "        from paper_tools.arxiv_downloader import search_and_download",
         "",
         "        if args.pdf:",

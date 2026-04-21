@@ -21,7 +21,7 @@ import argparse
 import requests
 from pathlib import Path
 from .arxiv_downloader import download_by_id, list_library
-from config import PAPERS_DIR
+from config import get_papers_dir
 
 INSPIRE_API = "https://inspirehep.net/api/literature"
 
@@ -174,7 +174,7 @@ def fetch_topic(topic: str, max_results: int, min_citations: int, dry_run: bool 
 
 def load_existing_arxiv_ids() -> set[str]:
     """Return set of arXiv IDs already in our library (to avoid re-downloading)."""
-    index_path = Path(PAPERS_DIR) / "index.json"
+    index_path = Path(get_papers_dir()) / "index.json"
     if not index_path.exists():
         return set()
     try:
@@ -282,8 +282,17 @@ def run_all_sweeps(
 
 
 if __name__ == "__main__":
+    from config import set_papers_project
+
     parser = argparse.ArgumentParser(
         description="Download top-cited QG papers from INSPIRE-HEP"
+    )
+    parser.add_argument(
+        "--project",
+        "-p",
+        default="default",
+        metavar="SLUG",
+        help="Paper library subfolder under papers/ (default: default)",
     )
     parser.add_argument("--topic", "-t", nargs="+",
                         help="Filter to topics containing these keywords")
@@ -296,6 +305,7 @@ if __name__ == "__main__":
     parser.add_argument("--list", action="store_true",
                         help="List current library")
     args = parser.parse_args()
+    set_papers_project(args.project)
 
     if args.list:
         list_library()

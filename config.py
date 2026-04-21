@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 
 _PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -108,15 +109,42 @@ MAX_FINAL_ALL_ROUNDS_CHARS = int(_y("context", "max_final_all_rounds_chars", def
 LARGE_REQUEST_WARN_INPUT_CHARS = int(
     _y("context", "large_request_warn_input_chars", default=120000)
 )
+# Paper library can grow to thousands of entries; LaTeX / selector agents only need a candidate subset.
+MAX_PAPER_CATALOGUE_ENTRIES = int(_y("context", "max_paper_catalogue_entries", default=150))
+# Bound synthesis length sent to LaTeX formatter (full text stays in session JSON).
+MAX_LATEX_SYNTHESIS_CHARS = int(_y("context", "max_latex_synthesis_chars", default=24000))
 
 MAX_ROUNDS = int(_y("session", "max_rounds", default=3))
 
 _papers_rel = _y("paths", "papers", default="papers")
 _output_rel = _y("paths", "output", default="output")
 _sessions_rel = _y("paths", "sessions", default="sessions")
-PAPERS_DIR = os.path.join(_PROJECT_ROOT, _papers_rel)
+_papers_base = os.path.join(_PROJECT_ROOT, _papers_rel)
+# Active project subfolder under papers/ (see set_papers_project).
+_papers_project_slug = "default"
 OUTPUT_DIR = os.path.join(_PROJECT_ROOT, _output_rel)
 SESSIONS_DIR = os.path.join(_PROJECT_ROOT, _sessions_rel)
+
+
+def _sanitize_papers_slug(slug: str) -> str:
+    s = slug.lower().strip()
+    s = re.sub(r"[^a-z0-9_]+", "_", s)
+    s = s.strip("_")
+    if len(s) > 50:
+        s = s[:50].rstrip("_")
+    return s or "default"
+
+
+def get_papers_dir() -> str:
+    """Current paper library directory: papers/<project_slug>/."""
+    return os.path.join(_papers_base, _papers_project_slug)
+
+
+def set_papers_project(slug: str) -> None:
+    """Route downloads, index.json, and preprocess to papers/<slug>/."""
+    global _papers_project_slug
+    _papers_project_slug = _sanitize_papers_slug(slug)
+    os.makedirs(get_papers_dir(), exist_ok=True)
 
 # Default arXiv category filter / search terms for paper_tools (not in YAML — edit here if needed).
 ARXIV_CATEGORIES = [

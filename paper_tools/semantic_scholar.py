@@ -23,7 +23,7 @@ import argparse
 import requests
 from pathlib import Path
 from .arxiv_downloader import download_by_id
-from config import PAPERS_DIR
+from config import get_papers_dir
 
 S2_API = "https://api.semanticscholar.org/graph/v1/paper/search"
 S2_FIELDS = "title,authors,year,citationCount,externalIds,abstract"
@@ -133,7 +133,7 @@ def fetch_topic(
 
 
 def load_existing_arxiv_ids() -> set[str]:
-    index_path = Path(PAPERS_DIR) / "index.json"
+    index_path = Path(get_papers_dir()) / "index.json"
     if not index_path.exists():
         return set()
     try:
@@ -230,13 +230,23 @@ def run_all_sweeps(
 
 
 if __name__ == "__main__":
+    from config import set_papers_project
+
     parser = argparse.ArgumentParser(description="Download top-cited QG papers from Semantic Scholar")
+    parser.add_argument(
+        "--project",
+        "-p",
+        default="default",
+        metavar="SLUG",
+        help="Paper library subfolder under papers/ (default: default)",
+    )
     parser.add_argument("--topic", "-t", nargs="+")
     parser.add_argument("--min-citations", "-c", type=int, default=None)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--pdf", action="store_true")
     parser.add_argument("--api-key", help="Semantic Scholar API key (free, raises rate limits)")
     args = parser.parse_args()
+    set_papers_project(args.project)
 
     run_all_sweeps(
         min_citations=args.min_citations,

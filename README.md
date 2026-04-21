@@ -33,7 +33,7 @@ Rounds (agent keys per round):
 arXiv: abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational field Hilbert space) OR t...
 Categories: ['quant-ph', 'hep-th', 'math-ph']  |  max papers: 28
 
-[2/4] Searching arXiv and saving abstracts to papers/...
+[2/4] Searching arXiv and saving abstracts...  → papers/<slug>/
 
 Searching arXiv: (abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational fiel...</pre>
 
@@ -73,27 +73,27 @@ py -3 main.py -i
 
 ### Structured instructions (JSON)
 
-For a **fixed research brief** with an explicit **literature focus**, copy [`instructions.example.json`](instructions.example.json) to `instructions.json` in the project root (or pass a path with `--instructions`) and edit all fields:
-
-| Field | Role in the pipeline |
-|--------|----------------------|
-| `query` | Sent to the **session planner** as the main research question. Drives `session_title`, `refined_research_question`, agent roster, and rounds (same role as a long `--phrase`). |
-| `keywords` | **Planner** must fold each term into `arxiv_search_query`; then `main.py` **merges** them again into the final arXiv query so every keyword appears in the string passed to the arXiv API. |
-| `authors` | **Planner** must use each name with an `au:` clause in `arxiv_search_query`; **merge** step adds an `au:` group again so author filters are always present in the downloaded search. |
-
-Run:
+Copy [`instructions.example.json`](instructions.example.json) → `instructions.json` (gitignored), or use `--instructions path\to\file.json`. Run:
 
 ```bash
 py -3 main.py --use-instructions
 ```
 
-Custom file path:
+Example file (required: `query`, `keywords`, `authors`; optional: `exclude_keywords`, `exclude_authors` — use **plain** words; the pipeline turns them into `all:` / `au:` and `ANDNOT` in the final arXiv query):
 
-```bash
-py -3 main.py --use-instructions --instructions C:\path\to\my_instructions.json
+```json
+{
+  "query": "QM on non-continuous fields; constraints and predictions.",
+  "keywords": ["p-adic quantum mechanics", "finite field"],
+  "authors": ["Volovich", "Dragovich"],
+  "exclude_keywords": ["MOND"],
+  "exclude_authors": ["Smith"]
+}
 ```
 
-Requirements: `query` is a non-empty string; `keywords` and `authors` are non-empty lists of strings (or a single comma-separated string per field). You cannot combine `--use-instructions` with `--phrase` or `-i`.
+The planner sees all fields; `main.py` then **merges** include terms and appends **ANDNOT** for exclusions. Do not use `--phrase` or `-i` with `--use-instructions`.
+
+**Layout:** generated session replays and older standalone project scripts live under [`written_projects/`](written_projects/). From the repo root, run e.g. `py -3 written_projects/quantum_gravity_project.py`. Windows helpers are in [`scripts/`](scripts/) (`run.bat` and `download_papers.bat` at the repo root are thin wrappers that call those).
 
 ### Concrete examples
 
@@ -130,11 +130,13 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
 1. **Plan** — A planner model turns your short phrase into a structured plan: a precise research question, an arXiv search query, categories, how many papers to pull, which **built-in** experts (GR, QM, QFT, math, literature, etc.) join each round, and how the discussion is staged. **Experts are also created on the fly when needed:** if your topic calls for niche skills (e.g. p-adic analysis, finite fields, a specific phenomenology), the planner invents one or more **dynamic specialists** for that run only—each gets its own system prompt and participates like any other agent. You do not configure them by hand.
 
-2. **Papers (in `main.py`)** — Step **arXiv**: relevance search using the planned query and categories; results merge into `papers/index.json` with **abstract** text and sidecar `.txt` files. If **`papers.inspire`** / **`papers.semantic_scholar`** are true in `config` (see `config.default.yaml`), `main.py` then runs a **single-topic** supplement on each: INSPIRE (top-cited) and Semantic Scholar, using the session title (or the refined question if the title is too short). That is **not** the same as `py -3 -m paper_tools.main_preprocessing`, which runs long **multi-topic** sweeps; turn off the YAML flags if you want arXiv only.
+2. **Papers (in `main.py`)** — The library is **per project** under `papers/<slug>/` (derived from the planned session title; CLI tools use `--project <slug>` or `papers/default/` until something sets it). Step **arXiv**: relevance search using the planned query and categories; results merge into `papers/<slug>/index.json` with **abstract** text and sidecar `.txt` files. If **`papers.inspire`** / **`papers.semantic_scholar`** are true in `config` (see `config.default.yaml`), `main.py` then runs a **single-topic** supplement on each: INSPIRE (top-cited) and Semantic Scholar, using the session title (or the refined question if the title is too short). That is **not** the same as `py -3 -m paper_tools.main_preprocessing`, which runs long **multi-topic** sweeps; turn off the YAML flags if you want arXiv only.
 
    PDF downloads follow **`papers.arxiv_pdf`** and `main.py --pdf` / `--no-pdf` (see config comments).
 
-3. **Preprocess** — `paper_tools.preprocess_papers` walks everything in `papers/index.json` that is not yet in `processed_index.json`. For each paper it uses **title + abstract only** (Claude Haiku) to build summaries, keywords, and simple tags—not the full PDF. If a PDF file exists for an entry, the script can optionally **extract full text** into a cached `.fulltext.txt` (for agents that read the library); that path is separate from the Haiku pass.
+   If you still have an old **flat** `papers/index.json` at the repo root, move it (and any sidecar files) into `papers/default/` yourself, or pick a slug and pass `--project` consistently.
+
+3. **Preprocess** — `paper_tools.preprocess_papers` walks everything in `papers/<slug>/index.json` that is not yet in `processed_index.json` in the same folder. For each paper it uses **title + abstract only** (Claude Haiku) to build summaries, keywords, and simple tags—not the full PDF. If a PDF file exists for an entry, the script can optionally **extract full text** into a cached `.fulltext.txt` (for agents that read the library); that path is separate from the Haiku pass.
 
 4. **Discussion** — Multiple rounds: specialists answer the refined question with shared context from prior round syntheses; an orchestrator synthesizes after each round; LaTeX checkpoints and a final write-up go under `output/<session_id>/`. Session state is stored in `sessions/session_<id>.json`.
 
@@ -147,4 +149,4 @@ Use `--plan-only` to preview the plan without papers or the expert session. Use 
 
 ## 5. Todos / future work
 
-- **Better paper integration** — Wire the literature reviewer and sessions more tightly to `papers/index.json` / `processed_index.json` (e.g. inject top-matching abstracts or summaries into context, retrieval by keywords, optional full-text snippets from PDFs). Today, papers are fetched and preprocessed mainly to grow the local library; deeper RAG-style use is still to be improved.
+- **Better paper integration** — Wire the literature reviewer and sessions more tightly to each project’s `papers/<slug>/index.json` / `processed_index.json` (e.g. inject top-matching abstracts or summaries into context, retrieval by keywords, optional full-text snippets from PDFs). Today, papers are fetched and preprocessed mainly to grow the local library; deeper RAG-style use is still to be improved.
