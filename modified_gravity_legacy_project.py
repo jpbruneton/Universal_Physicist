@@ -38,10 +38,11 @@ if sys.stdout.encoding.lower() != "utf-8":
 #    print("ERROR: Set ANTHROPIC_API_KEY environment variable first.")
 #    sys.exit(1)
 
-from config import SESSIONS_DIR, OUTPUT_DIR
+from config import MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR
 from agents import gr_expert, math_expert, physical_meaning, devil_advocate
 from agents import wild_theorist, equation_verifier, literature_reviewer
 from agents import orchestrator, latex_formatter
+from agents.context_limits import truncate_tail
 
 TOPIC = "modified-gravity"
 
@@ -255,12 +256,17 @@ def run_session(
         title           = resume_data.get("title", title)
         question        = resume_data.get("question", question)
         start_round     = len(all_rounds) + 1
-        current_context = "\n\n".join(
+        joined_ctx = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}" for r in all_rounds
         )
         if human_input:
-            current_context += f"\n\nHuman input / new direction:\n{human_input}"
+            joined_ctx += f"\n\nHuman input / new direction:\n{human_input}"
             print(f"  Injecting human input: {human_input[:120]}")
+        current_context = truncate_tail(
+            joined_ctx,
+            MAX_EXPERT_CONTEXT_CHARS,
+            "Prior round syntheses (expert context)",
+        )
     else:
         session_id      = uuid.uuid4().hex[:8]
         session_start   = datetime.now()
@@ -341,8 +347,13 @@ def run_session(
         _save_checkpoint(session_data, round_data, produce_latex)
         print(f"  Checkpoint saved (round {round_num}).")
 
-        current_context = "\n\n".join(
+        joined = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}" for r in all_rounds
+        )
+        current_context = truncate_tail(
+            joined,
+            MAX_EXPERT_CONTEXT_CHARS,
+            "Prior round syntheses (expert context)",
         )
 
     # ÔöÇÔöÇ Final synthesis ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ

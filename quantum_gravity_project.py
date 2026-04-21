@@ -26,7 +26,7 @@ if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, MAX_ROUNDS, SESSIONS_DIR, OUTPUT_DIR
+from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, MAX_ROUNDS, SESSIONS_DIR, OUTPUT_DIR
 
 if not ANTHROPIC_API_KEY:
     print("ERROR: Set ANTHROPIC_API_KEY in the environment or .claude/settings.json (env.ANTHROPIC_API_KEY).")
@@ -35,6 +35,7 @@ from agents import gr_expert, qm_expert, qft_expert, math_expert
 from agents import lqg_expert, bh_expert, wild_theorist
 from agents import equation_verifier, physical_meaning, devil_advocate
 from agents import literature_reviewer, deep_reader, orchestrator, latex_formatter
+from agents.context_limits import truncate_tail
 
 DEFAULT_QUESTION = (
     "We want to develop a plausible theory of quantum gravity. "
@@ -165,14 +166,18 @@ def run_session(
         question      = resume_data.get("question", question)
         start_round   = len(all_rounds) + 1
 
-        # Build context from all previous syntheses
-        current_context = "\n\n".join(
+        joined_ctx = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}"
             for r in all_rounds
         )
         if human_input:
-            current_context += f"\n\nHuman input / new direction:\n{human_input}"
+            joined_ctx += f"\n\nHuman input / new direction:\n{human_input}"
             print(f"  Injecting human input: {human_input[:120]}")
+        current_context = truncate_tail(
+            joined_ctx,
+            MAX_EXPERT_CONTEXT_CHARS,
+            "Prior round syntheses (expert context)",
+        )
     else:
         session_id    = uuid.uuid4().hex[:8]
         session_start = datetime.now()
@@ -259,9 +264,14 @@ def run_session(
         _save_round_checkpoint(session_data, round_data, produce_latex)
         print(f"  Checkpoint saved (round {round_num}).")
 
-        current_context = "\n\n".join(
+        joined = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}"
             for r in all_rounds
+        )
+        current_context = truncate_tail(
+            joined,
+            MAX_EXPERT_CONTEXT_CHARS,
+            "Prior round syntheses (expert context)",
         )
 
     # ── Final synthesis ──────────────────────────────────────────────────────

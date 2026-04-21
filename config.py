@@ -28,6 +28,15 @@ if not ANTHROPIC_API_KEY:
 # Model for all agents — Sonnet 4.6 is the default; swap to opus for deeper reasoning
 AGENT_MODEL = "claude-sonnet-4-6"
 
+# Bound prompt size (characters) per call site. Long sessions otherwise send huge
+# cumulative context and spike tokens-per-minute (429 risk). Truncation keeps the tail.
+MAX_EXPERT_CONTEXT_CHARS = 45000
+MAX_ORCHESTRATOR_AGENT_RESPONSE_CHARS = 14000
+MAX_FINAL_ROUND_SYNTHESIS_CHARS = 16000
+MAX_FINAL_ALL_ROUNDS_CHARS = 90000
+# Warn once per call_agent when estimated input exceeds this (characters, rough).
+LARGE_REQUEST_WARN_INPUT_CHARS = 120000
+
 # How many rounds of debate the orchestrator runs before synthesizing
 MAX_ROUNDS = 3
 

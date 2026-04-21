@@ -2,39 +2,42 @@
 
 Agent-powered theoretical physicist: describe a topic in one phrase, pull papers, preprocess the library, and run multi-round expert sessions with optional LaTeX output.
 
-Example run : 
-py -3 main.py --phrase "look for a theory of QM on non continous fields instead of C, maybe Q or finite fields, explore building constraints and testable predictions"
+<!-- Example block: bordered callout (renders on GitHub) -->
+<div align="left" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 14px 18px; background-color: #f6f8fa; margin: 12px 0 20px 0;">
 
-Outputs : 
-  [1/4] Planning session (prompt, agents, arXiv query)...
+<p><strong>Example</strong> — sample command and abbreviated console output (illustration only; your run will differ).</p>
 
-  Title: Quantum Mechanics over Discrete Algebraic Fields: Foundations, Constraints, and Phenomenology
-  Refined question (1051 chars) — preview:
+<pre style="margin: 10px 0 0 0; padding: 10px 12px; background: #fff; border: 1px solid #e1e4e8; border-radius: 6px; overflow-x: auto;"><code>py -3 main.py --phrase "look for a theory of QM on non continous fields instead of C, maybe Q or finite fields, explore building constraints and testable predictions"</code></pre>
 
-    Can a physically consistent and empirically distinguishable formulation of quantum mechanics be constructed over a non-continuous number field — specifically the rationals Q, p-adic fields Q_p, or finite fields F_q (with q = p^n) — replacing the standard Hilbert space H over C? Concretely: (1) What algebraic and structural constraints (inner-product positivity, spectral theorems, Born-rule analogs...
+<pre style="margin: 10px 0 0 0; padding: 10px 12px; background: #fff; border: 1px solid #e1e4e8; border-radius: 6px; overflow-x: auto; white-space: pre-wrap;">[1/4] Planning session (prompt, agents, arXiv query)...
 
-  Built-in + dynamic agents:
-    + dynamic: padic_expert — p-adic & Non-Archimedean Analysis Expert
-    + dynamic: finite_field_expert — Finite Field & Algebraic Geometry Specialist
-    + dynamic: phenomenology_expert — Quantum Foundations Phenomenologist
-    + dynamic: algebra_structures_expert — Operator Algebras & Representation Theory Expert
+Title: Quantum Mechanics over Discrete Algebraic Fields: Foundations, Constraints, and Phenomenology
+Refined question (1051 chars) — preview:
 
-  Rounds (agent keys per round):
-    Round 1: algebra_structures_expert, padic_expert, finite_field_expert, math
-    Round 2: padic_expert, finite_field_expert, qft, verifier
-    Round 3: algebra_structures_expert, qm, padic_expert, wild
-    Round 4: phenomenology_expert, qm, verifier, finite_field_expert
-    Round 5: devil, phenomenology_expert, algebra_structures_expert, padic_expert
-    Round 6: lit, meaning, wild, phenomenology_expert
+  Can a physically consistent and empirically distinguishable formulation of quantum mechanics be constructed over a non-continuous number field — specifically the rationals Q, p-adic fields Q_p, or finite fields F_q (with q = p^n) — replacing the standard Hilbert space H over C? Concretely: (1) What algebraic and structural constraints (inner-product positivity, spectral theorems, Born-rule analogs...
 
-  arXiv: abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational field Hilbert space) OR t...
-  Categories: ['quant-ph', 'hep-th', 'math-ph']  |  max papers: 28
+Built-in + dynamic agents:
+  + dynamic: padic_expert — p-adic & Non-Archimedean Analysis Expert
+  + dynamic: finite_field_expert — Finite Field & Algebraic Geometry Specialist
+  + dynamic: phenomenology_expert — Quantum Foundations Phenomenologist
+  + dynamic: algebra_structures_expert — Operator Algebras & Representation Theory Expert
 
-  [2/4] Searching arXiv and saving abstracts to papers/...
+Rounds (agent keys per round):
+  Round 1: algebra_structures_expert, padic_expert, finite_field_expert, math
+  Round 2: padic_expert, finite_field_expert, qft, verifier
+  Round 3: algebra_structures_expert, qm, padic_expert, wild
+  Round 4: phenomenology_expert, qm, verifier, finite_field_expert
+  Round 5: devil, phenomenology_expert, algebra_structures_expert, padic_expert
+  Round 6: lit, meaning, wild, phenomenology_expert
 
-Searching arXiv: (abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational fiel...
+arXiv: abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational field Hilbert space) OR t...
+Categories: ['quant-ph', 'hep-th', 'math-ph']  |  max papers: 28
 
-and running
+[2/4] Searching arXiv and saving abstracts to papers/...
+
+Searching arXiv: (abs:(quantum mechanics p-adic OR finite field OR discrete field OR non-archimedean OR rational fiel...</pre>
+
+</div>
 
 ## 1. API key setup
 
@@ -84,12 +87,18 @@ py -3 main.py --phrase "Discrete-time quantum mechanics that stays unitary and c
 
 These runs were produced in this project before the universal `main.py` pipeline; they use the same **output layout** as current sessions: LaTeX under `output/<session_id>/`, full state in `sessions/session_<id>.json`.
 
-| Session ID | Topic | Main LaTeX output | Checkpoints |
-|------------|--------|---------------------|-------------|
-| `74f0fded` | Quantum gravity — most promising path, nature of spacetime | [output/74f0fded/final_paper.tex](output/74f0fded/final_paper.tex) | `round_01_checkpoint.tex` … `round_03_checkpoint.tex` |
-| `969486d9` | Discrete-time QM — unitarity, Lorentz covariance, dispersion | [output/969486d9/final_paper.tex](output/969486d9/final_paper.tex) | `round_01_checkpoint.tex` … `round_04_checkpoint.tex` |
+| Session ID | Topic | Main LaTeX output | PDF (compiled) | Checkpoints |
+|------------|--------|---------------------|----------------|-------------|
+| `74f0fded` | Quantum gravity — most promising path, nature of spacetime | [output/74f0fded/final_paper.tex](output/74f0fded/final_paper.tex) | [session_74f0fded_quantum_gravity.pdf](assets/session_74f0fded_quantum_gravity.pdf) | `round_01_checkpoint.tex` … `round_03_checkpoint.tex` |
+| `969486d9` | Discrete-time QM — unitarity, Lorentz covariance, dispersion | [output/969486d9/final_paper.tex](output/969486d9/final_paper.tex) | [session_969486d9_discrete_time_qm.pdf](assets/session_969486d9_discrete_time_qm.pdf) | `round_01_checkpoint.tex` … `round_04_checkpoint.tex` |
 
-Each run always writes **`.tex`** files under `output/<session_id>/` (final paper and round checkpoints). You can copy those elsewhere and compile with your own TeX setup. A **PDF** is produced in that same folder **only if** `pdflatex` or `latexmk` is on your `PATH` when the session runs (via `latex_tools/`); otherwise you only get the sources. The examples above are checked in as `.tex` only.
+First-page previews (click to open the full PDF):
+
+| `74f0fded` — quantum gravity | `969486d9` — discrete-time QM |
+|:---:|:---:|
+| [![](assets/preview_74f0fded_quantum_gravity.png)](assets/session_74f0fded_quantum_gravity.pdf) | [![](assets/preview_969486d9_discrete_time_qm.png)](assets/session_969486d9_discrete_time_qm.pdf) |
+
+Each run writes **`.tex`** files under `output/<session_id>/` (final paper and round checkpoints). A **PDF** appears there **only if** `pdflatex` or `latexmk` is on your `PATH` when the session runs (via `latex_tools/`). The two example sessions above are checked in as **sources** under `output/`; **built PDFs** for the readme live in [`assets/`](assets/).
 
 ## 3. What the pipeline does (concise)
 

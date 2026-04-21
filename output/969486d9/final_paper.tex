@@ -1,6 +1,5 @@
-```latex
 \documentclass[12pt,a4paper]{article}
-\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype,graphicx}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,geometry,xcolor,microtype,graphicx}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 \usepackage{booktabs}
 \geometry{margin=2.5cm}
@@ -670,11 +669,12 @@ below the sensitivity floor and is therefore consistent with all existing bounds
 The GRB time delay for a photon of energy $E_\gamma = 10$~GeV propagating over
 $L = 10^{26}$~m is
 \begin{equation}
+  \label{eq:grb_delay}
   \Delta t_{\mathrm{GRB}} = \frac{L}{c} \cdot \frac{E_\gamma^2}{4E_P^2}
   \approx \frac{10^{26}}{3\times10^8}
   \cdot \frac{(10^{10} \times 1.6\times10^{-19})^2}%
              {4\times(1.22\times10^{19} \times 1.6\times10^{-10})^2}
-  \approx 5 \times 10^{-20}~\text{s},
-  \label{eq:gr
+  \approx 5 \times 10^{-20}~\text{s}.
+\end{equation}
 
 \end{document}

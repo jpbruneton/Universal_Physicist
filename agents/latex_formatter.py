@@ -147,7 +147,7 @@ not a finished paper. It should be honest about what is provisional.
 
 Use this exact preamble:
 \documentclass[11pt,a4paper]{article}
-\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,geometry,xcolor,microtype}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 \geometry{margin=2.5cm}
 \newtheorem{proposition}{Proposition}
@@ -177,7 +177,7 @@ Output ONLY valid LaTeX.
 
 Preamble:
 \documentclass[12pt,a4paper]{article}
-\usepackage{amsmath,amssymb,amsthm,physics,bm,hyperref,geometry,xcolor,microtype,graphicx}
+\usepackage{amsmath,amssymb,amsthm,physics,bm,geometry,xcolor,microtype,graphicx}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 \geometry{margin=2.5cm}
 \newtheorem{theorem}{Theorem}

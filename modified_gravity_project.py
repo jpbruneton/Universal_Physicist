@@ -35,19 +35,28 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 
-# Pacing between Anthropic calls (back-to-back agent + orchestrator + LaTeX hits rate limits)
-SLEEP_AFTER_AGENT_SEC = 8.0
-SLEEP_AFTER_ORCHESTRATE_SEC = 5.0
-SLEEP_AFTER_CHECKPOINT_SEC = 3.0
-SLEEP_AFTER_ROUND_SEC = 4.0
-SLEEP_BEFORE_FINAL_SYNTHESIS_SEC = 6.0
+# Pacing between Anthropic calls (conservative — reduces org-wide 429s)
+SLEEP_AFTER_AGENT_SEC = 28.0
+SLEEP_AFTER_ORCHESTRATE_SEC = 16.0
+SLEEP_AFTER_CHECKPOINT_SEC = 14.0
+SLEEP_AFTER_ROUND_SEC = 14.0
+SLEEP_BEFORE_FINAL_SYNTHESIS_SEC = 16.0
+
+
+def _pacing_sleep(seconds: float, after_what: str) -> None:
+    print(
+        f"  Pausing {seconds:.0f}s after {after_what} — spacing API calls to reduce Anthropic rate-limit risk.",
+        flush=True,
+    )
+    time.sleep(seconds)
+
 
 # Force UTF-8 output on Windows
 if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, SESSIONS_DIR, OUTPUT_DIR
+from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR
 
 if not ANTHROPIC_API_KEY:
     print("ERROR: Set ANTHROPIC_API_KEY in the environment or .claude/settings.json (env.ANTHROPIC_API_KEY).")
@@ -56,6 +65,7 @@ if not ANTHROPIC_API_KEY:
 from agents import gr_expert, math_expert, physical_meaning, devil_advocate
 from agents import wild_theorist, equation_verifier, literature_reviewer
 from agents import orchestrator, latex_formatter
+from agents.context_limits import truncate_tail
 
 TOPIC = "modified-gravity"
 
@@ -242,12 +252,17 @@ def run_session(
         title = resume_data.get("title", title)
         question = resume_data.get("question", question)
         start_round = len(all_rounds) + 1
-        current_context = "\n\n".join(
+        joined_ctx = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}" for r in all_rounds
         )
         if human_input:
-            current_context += f"\n\nHuman input / new direction:\n{human_input}"
+            joined_ctx += f"\n\nHuman input / new direction:\n{human_input}"
             print(f"  Injecting human input: {human_input[:120]}")
+        current_context = truncate_tail(
+            joined_ctx,
+            MAX_EXPERT_CONTEXT_CHARS,
+            "Prior round syntheses (expert context)",
+        )
     else:
         session_id = uuid.uuid4().hex[:8]
         session_start = datetime.now()
@@ -306,11 +321,11 @@ def run_session(
                 print(f"  ERROR from {name}: {e}")
                 agent_responses[name] = f"[Error: {e}]"
 
-            time.sleep(SLEEP_AFTER_AGENT_SEC)
+            _pacing_sleep(SLEEP_AFTER_AGENT_SEC, "this agent call")
 
         print(f"  Synthesizing round {round_num}...")
         synthesis = orchestrator.orchestrate(question, agent_responses, round_num)
-        time.sleep(SLEEP_AFTER_ORCHESTRATE_SEC)
+        _pacing_sleep(SLEEP_AFTER_ORCHESTRATE_SEC, "round orchestration")
 
         round_data = {
             "round":     round_num,
@@ -330,17 +345,22 @@ def run_session(
 
         _save_checkpoint(session_data, round_data, produce_latex)
         print(f"  Checkpoint saved (round {round_num}).")
-        time.sleep(SLEEP_AFTER_CHECKPOINT_SEC)
+        _pacing_sleep(SLEEP_AFTER_CHECKPOINT_SEC, "checkpoint / LaTeX")
 
-        current_context = "\n\n".join(
+        joined = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}" for r in all_rounds
         )
-        time.sleep(SLEEP_AFTER_ROUND_SEC)
+        current_context = truncate_tail(
+            joined,
+            MAX_EXPERT_CONTEXT_CHARS,
+            "Prior round syntheses (expert context)",
+        )
+        _pacing_sleep(SLEEP_AFTER_ROUND_SEC, "this round")
 
     print(f"\n{'='*70}")
     print(f"  FINAL SYNTHESIS")
     print(f"{'='*70}\n")
-    time.sleep(SLEEP_BEFORE_FINAL_SYNTHESIS_SEC)
+    _pacing_sleep(SLEEP_BEFORE_FINAL_SYNTHESIS_SEC, "last round — before final synthesis")
     final = orchestrator.final_synthesis(question, all_rounds, title)
     session_data["final_synthesis"] = final
 
@@ -354,7 +374,7 @@ def run_session(
             session_data["final_latex"] = result
         except Exception as e:
             print(f"  Final LaTeX failed: {e}")
-        time.sleep(SLEEP_AFTER_CHECKPOINT_SEC)
+        _pacing_sleep(SLEEP_AFTER_CHECKPOINT_SEC, "final LaTeX")
 
     save_session(session_data)
 

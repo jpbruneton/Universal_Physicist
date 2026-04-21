@@ -32,7 +32,7 @@ if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, SESSIONS_DIR, OUTPUT_DIR
+from config import ANTHROPIC_API_KEY, MAX_EXPERT_CONTEXT_CHARS, SESSIONS_DIR, OUTPUT_DIR
 
 if not ANTHROPIC_API_KEY:
     print(
@@ -58,13 +58,16 @@ from agents import (
 )
 from agents import dynamic_expert
 from agents import session_planner
+from agents.context_limits import truncate_tail
 
 TOPIC = "universal-pipeline"
 
-# Light pacing between Anthropic calls (planner + agents + orchestrator)
-SLEEP_AFTER_AGENT_SEC = 6.0
-SLEEP_AFTER_ORCHESTRATE_SEC = 4.0
-SLEEP_AFTER_CHECKPOINT_SEC = 2.0
+# Pacing between Anthropic calls — conservative defaults to reduce org-wide 429s
+# (many agents per round × orchestrator × LaTeX = bursty usage).
+SLEEP_AFTER_AGENT_SEC = 28.0
+SLEEP_AFTER_ORCHESTRATE_SEC = 16.0
+SLEEP_AFTER_CHECKPOINT_SEC = 14.0
+SLEEP_BEFORE_EXPERT_SESSION_SEC = 12.0
 
 BASE_AGENT_REGISTRY = {
     "gr":       ("GR Expert",            gr_expert.consult),
@@ -83,6 +86,15 @@ BASE_AGENT_REGISTRY = {
 
 def _session_path(session_id: str) -> Path:
     return Path(SESSIONS_DIR) / f"session_{session_id}.json"
+
+
+def _pacing_sleep(seconds: float, after_what: str) -> None:
+    """Proactive delay between Anthropic calls; explain why we pause."""
+    print(
+        f"  Pausing {seconds:.0f}s after {after_what} — spacing API calls to reduce Anthropic rate-limit risk.",
+        flush=True,
+    )
+    time.sleep(seconds)
 
 
 def save_session(session_data: dict) -> Path:
@@ -175,11 +187,11 @@ def run_pipeline_session(
             except Exception as e:
                 print(f"  ERROR from {name}: {e}")
                 agent_responses[name] = f"[Error: {e}]"
-            time.sleep(SLEEP_AFTER_AGENT_SEC)
+            _pacing_sleep(SLEEP_AFTER_AGENT_SEC, "this agent call")
 
         print(f"  Synthesizing round {round_num}...")
         synthesis = orchestrator.orchestrate(question, agent_responses, round_num)
-        time.sleep(SLEEP_AFTER_ORCHESTRATE_SEC)
+        _pacing_sleep(SLEEP_AFTER_ORCHESTRATE_SEC, "round orchestration")
 
         round_data = {
             "round":     round_num,
@@ -199,10 +211,15 @@ def run_pipeline_session(
 
         _save_round_checkpoint(session_data, round_data, produce_latex)
         print(f"  Checkpoint saved (round {round_num}).")
-        time.sleep(SLEEP_AFTER_CHECKPOINT_SEC)
+        _pacing_sleep(SLEEP_AFTER_CHECKPOINT_SEC, "checkpoint / LaTeX")
 
-        current_context = "\n\n".join(
+        joined = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}" for r in all_rounds
+        )
+        current_context = truncate_tail(
+            joined,
+            MAX_EXPERT_CONTEXT_CHARS,
+            "Prior round syntheses (expert context)",
         )
 
     print(f"\n{'='*70}")
@@ -350,6 +367,7 @@ def main() -> None:
     merged_registry = build_merged_registry(plan)
 
     print("\n  [4/4] Expert discussion...\n")
+    _pacing_sleep(SLEEP_BEFORE_EXPERT_SESSION_SEC, "preprocessing — before expert discussion")
     run_pipeline_session(
         question=plan["refined_research_question"],
         title=plan["session_title"],

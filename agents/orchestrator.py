@@ -4,10 +4,13 @@ Hub-and-spoke model: orchestrator decides which agents to call and in what order
 then synthesizes their contributions into a coherent theoretical proposal.
 """
 
-import json
-from datetime import datetime
-from .base import call_agent, get_client
-from config import AGENT_MODEL
+from .base import call_agent
+from .context_limits import cap_agent_responses, truncate_tail
+from config import (
+    MAX_ORCHESTRATOR_AGENT_RESPONSE_CHARS,
+    MAX_FINAL_ALL_ROUNDS_CHARS,
+    MAX_FINAL_ROUND_SYNTHESIS_CHARS,
+)
 
 SYSTEM = """You are the lead theoretical physicist and research coordinator for a quantum gravity
 think tank. Your team consists of:
@@ -43,9 +46,10 @@ def orchestrate(
     round_num: int,
 ) -> str:
     """Synthesize all agent responses into a coherent theoretical proposal."""
+    capped = cap_agent_responses(agent_responses, MAX_ORCHESTRATOR_AGENT_RESPONSE_CHARS)
     agent_summary = "\n\n".join(
         f"=== {name.upper()} ===\n{response}"
-        for name, response in agent_responses.items()
+        for name, response in capped.items()
     )
 
     messages = [
@@ -70,9 +74,18 @@ def final_synthesis(
     title: str,
 ) -> str:
     """Produce the final integrated synthesis across all rounds."""
-    rounds_text = "\n\n".join(
-        f"=== ROUND {i+1} SYNTHESIS ===\n{r['synthesis']}"
-        for i, r in enumerate(all_rounds)
+    parts = []
+    for i, r in enumerate(all_rounds):
+        syn = truncate_tail(
+            r["synthesis"],
+            MAX_FINAL_ROUND_SYNTHESIS_CHARS,
+            f"Round {i + 1} synthesis",
+        )
+        parts.append(f"=== ROUND {i + 1} SYNTHESIS ===\n{syn}")
+    rounds_text = truncate_tail(
+        "\n\n".join(parts),
+        MAX_FINAL_ALL_ROUNDS_CHARS,
+        "Combined round syntheses",
     )
 
     messages = [
