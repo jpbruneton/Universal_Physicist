@@ -1,5 +1,5 @@
-"""
-Modified Gravity / Dark Matter Think Tank — focused agent session.
+﻿"""
+Legacy archive — older modified-gravity / MOND think tank (use modified_gravity_project.py).
 
 Goal: find a covariant modified gravity theory compatible at ALL scales:
   - Solar system (GR recovery, PPN constraints)
@@ -11,48 +11,34 @@ Goal: find a covariant modified gravity theory compatible at ALL scales:
 No quantum framework. Classical field theory only.
 Key references: Milgrom, Bekenstein, Skordis, Famaey, Bruneton & Esposito-Farese.
 
-By default the session runs without downloading papers. Use --download-papers to fetch
-the curated arXiv set and preprocess first.
-
 Usage:
-    py -3 main3.py
-    py -3 main3.py --rounds 5
-    py -3 main3.py --no-latex
-    py -3 main3.py --resume SESSION_ID
-    py -3 main3.py --download-papers
-    py -3 main3.py --download-only
-    py -3 main3.py --dry-run-papers
-    py -3 main3.py --list-sessions
+    py -3 modified_gravity_legacy_project.py
+    py -3 modified_gravity_legacy_project.py --rounds 5
+    py -3 modified_gravity_legacy_project.py --no-latex
+    py -3 modified_gravity_legacy_project.py --resume SESSION_ID
+    py -3 modified_gravity_legacy_project.py --skip-download
+    py -3 modified_gravity_legacy_project.py --list-sessions
 """
 
 import os
 import sys
 import io
 import json
-import time
 import argparse
 import uuid
 from datetime import datetime
 from pathlib import Path
-
-# Pacing between Anthropic calls (back-to-back agent + orchestrator + LaTeX hits rate limits)
-SLEEP_AFTER_AGENT_SEC = 8.0
-SLEEP_AFTER_ORCHESTRATE_SEC = 5.0
-SLEEP_AFTER_CHECKPOINT_SEC = 3.0
-SLEEP_AFTER_ROUND_SEC = 4.0
-SLEEP_BEFORE_FINAL_SYNTHESIS_SEC = 6.0
 
 # Force UTF-8 output on Windows
 if sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-from config import ANTHROPIC_API_KEY, SESSIONS_DIR, OUTPUT_DIR
+#if not os.environ.get("ANTHROPIC_API_KEY"):
+#    print("ERROR: Set ANTHROPIC_API_KEY environment variable first.")
+#    sys.exit(1)
 
-if not ANTHROPIC_API_KEY:
-    print("ERROR: Set ANTHROPIC_API_KEY in the environment or .claude/settings.json (env.ANTHROPIC_API_KEY).")
-    sys.exit(1)
-
+from config import SESSIONS_DIR, OUTPUT_DIR
 from agents import gr_expert, math_expert, physical_meaning, devil_advocate
 from agents import wild_theorist, equation_verifier, literature_reviewer
 from agents import orchestrator, latex_formatter
@@ -67,10 +53,10 @@ DEFAULT_QUESTION = (
     "anomalies, correct perihelion precession. "
     "(2) GALAXIES: reproduce the Radial Acceleration Relation (RAR/MDAR), baryonic "
     "Tully-Fisher relation (v^4 ~ G M a0), flat rotation curves, with a0 ~ 1.2e-10 m/s^2. "
-    "(3) GALAXY CLUSTERS: explain cluster mass discrepancy without invoking CDM — "
+    "(3) GALAXY CLUSTERS: explain cluster mass discrepancy without invoking CDM ÔÇö "
     "or if sterile neutrino dark matter is needed, explain why and at what scale. "
     "(4) CMB: reproduce the acoustic peak positions and heights, and the matter power "
-    "spectrum P(k), without CDM — or specify precisely what supplementary matter component "
+    "spectrum P(k), without CDM ÔÇö or specify precisely what supplementary matter component "
     "is required and what are its properties. "
     "(5) LARGE-SCALE STRUCTURE: correct growth rate of structure, BAO scale, Hubble tension. "
     "The theory must be relativistically covariant. Candidate frameworks include: "
@@ -88,12 +74,16 @@ DEFAULT_TITLE = (
     "From Solar System to CMB"
 )
 
-# Rounds: no QM, no LQG, no BH specialist; Wild Theorist every round for speculative angles
+# Rounds: no QM, no LQG, no BH specialist
+# Round 1: GR + Math ÔÇö lay out the covariant frameworks, field equations, actions
+# Round 2: Meaning + Devil ÔÇö multi-scale constraints, what passes/fails
+# Round 3: Wild + Verifier ÔÇö bold proposals + equation checks
+# Round 4: GR + Devil + Lit ÔÇö sharpen, observational predictions, literature grounding
 DEFAULT_ROUND_AGENTS = [
-    ["gr", "math", "wild"],
-    ["meaning", "devil", "wild"],
-    ["wild", "verifier"],
-    ["gr", "devil", "lit", "wild"],
+    ["gr", "math"],                    # Round 1: covariant actions, field equations
+    ["meaning", "devil"],              # Round 2: scale-by-scale stress test
+    ["wild", "verifier"],              # Round 3: novel proposals + rigor check
+    ["gr", "devil", "lit"],            # Round 4: synthesis + literature grounding
 ]
 
 AGENT_REGISTRY = {
@@ -106,44 +96,68 @@ AGENT_REGISTRY = {
     "lit":      ("Literature Reviewer", literature_reviewer.review),
 }
 
-# ─── Curated paper list ───────────────────────────────────────────────────────
+# ÔöÇÔöÇÔöÇ Curated paper list ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+# Key papers for modified gravity / covariant MOND literature
 MODIFIED_GRAVITY_PAPERS = [
-    "astro-ph/0112528",
-    "astro-ph/0207231",
-    "0911.5464",
-    "1212.2152",
-    "2303.04368",
-    "astro-ph/0403694",
-    "astro-ph/0512011",
-    "astro-ph/0601099",
-    "astro-ph/0502222",
-    "astro-ph/0511591",
-    "0801.1985",
-    "2109.13287",
-    "1907.09003",
-    "2303.05023",
-    "gr-qc/0602051",
-    "0807.1567",
-    "1007.2483",
-    "1112.3960",
-    "1609.05917",
-    "1703.10309",
-    "2109.04781",
-    "astro-ph/0506582",
-    "astro-ph/0608407",
-    "astro-ph/0606216",
-    "0803.3089",
-    "1611.02269",
-    "1809.00840",
-    "astro-ph/0607246",
-    "1105.5815",
-    "1909.09218",
-    "2112.15218",
-    "gr-qc/0510072",
+    # --- MOND foundations ---
+    "astro-ph/0112528",   # Milgrom 2001 ÔÇö MOND review (Acta Astronomica)
+    "astro-ph/0207231",   # Milgrom 2002 ÔÇö MOND: the predictions
+    "0911.5464",          # Milgrom 2009 ÔÇö Bimetric MOND gravity
+    "1212.2152",          # Milgrom 2012 ÔÇö MOND laws of galactic dynamics
+    "2303.04368",         # Milgrom 2023 ÔÇö MOND vs dark matter in galaxy groups
+
+    # --- TeVeS (Bekenstein) ---
+    "astro-ph/0403694",   # Bekenstein 2004 ÔÇö Relativistic MOND (TeVeS)
+    "astro-ph/0512011",   # Bekenstein & Sagi 2008 ÔÇö New TeVeS and gravitational lensing
+    "astro-ph/0601099",   # Sanders 2006 ÔÇö TeVeS and galaxy clusters
+    "astro-ph/0502222",   # Sanders 2005 ÔÇö TeVeS and CMB
+    "astro-ph/0511591",   # Skordis et al. 2006 ÔÇö CMB power spectrum in TeVeS
+    "0801.1985",          # Skordis 2008 ÔÇö TeVeS cosmology
+
+    # --- RMOND / AMOND (Skordis & Zlosnik) ---
+    "2109.13287",         # Skordis & Zlosnik 2021 ÔÇö Relativistic MOND (RMOND)
+    "1907.09003",         # Skordis & Zlosnik 2019 ÔÇö RMOND precursor
+    "2303.05023",         # Skordis 2023 ÔÇö AMOND extension
+
+    # --- Bruneton & Esposito-Farese ---
+    "gr-qc/0602051",      # Bruneton & Esposito-Farese 2007 ÔÇö field-theoretical selfgravitation
+    "0807.1567",          # Bruneton et al. 2009 ÔÇö viable covariant MOND models
+    "1007.2483",          # Esposito-Farese 2011 ÔÇö comparing MOND and dark matter
+
+    # --- Famaey & McGaugh review ---
+    "1112.3960",          # Famaey & McGaugh 2012 ÔÇö Living Reviews: MOND
+
+    # --- Radial Acceleration Relation ---
+    "1609.05917",         # McGaugh, Lelli, Schombert 2016 ÔÇö RAR discovery
+    "1703.10309",         # Lelli et al. 2017 ÔÇö RAR with SPARC sample
+    "2109.04781",         # Chae et al. 2021 ÔÇö RAR in ellipticals
+
+    # --- Baryonic Tully-Fisher ---
+    "astro-ph/0506582",   # McGaugh 2005 ÔÇö baryonic Tully-Fisher
+
+    # --- Galaxy clusters / Bullet Cluster problem ---
+    "astro-ph/0608407",   # Clowe et al. 2006 ÔÇö Bullet Cluster direct evidence CDM
+    "astro-ph/0606216",   # Angus, Famaey, Buote 2008 ÔÇö clusters in MOND
+    "0803.3089",          # Angus et al. 2008 ÔÇö CMB and MOND with sterile neutrinos
+
+    # --- Emergent gravity (Verlinde) ---
+    "1611.02269",         # Verlinde 2016 ÔÇö emergent gravity and dark matter
+    "1809.00840",         # Hossenfelder & Mistele 2018 ÔÇö covariant emergent gravity
+
+    # --- Dipolar dark matter (Blanchet) ---
+    "astro-ph/0607246",   # Blanchet 2007 ÔÇö dipolar dark matter and MOND
+    "1105.5815",          # Blanchet & Heully 2012 ÔÇö gravitational polarization
+
+    # --- MOND and large-scale structure / Hubble ---
+    "1909.09218",         # Kroupa et al. 2019 ÔÇö MOND cosmological simulations
+    "2112.15218",         # Banik & Zhao 2021 ÔÇö MOND review (confrontation with data)
+
+    # --- PPN / Solar system constraints ---
+    "gr-qc/0510072",      # Will 2006 ÔÇö confrontation of GR with experiment (PPN)
 ]
 
 
-def download_modified_gravity_papers(dry_run: bool, download_pdfs: bool) -> None:
+def download_modified_gravity_papers(dry_run: bool = False) -> None:
     """Download curated modified gravity / MOND paper library."""
     print(f"\n  Downloading {len(MODIFIED_GRAVITY_PAPERS)} modified gravity papers...")
     print("  (Bekenstein, Milgrom, Skordis, Famaey, Bruneton & Esposito-Farese, ...)\n")
@@ -151,18 +165,17 @@ def download_modified_gravity_papers(dry_run: bool, download_pdfs: bool) -> None
     if dry_run:
         for pid in MODIFIED_GRAVITY_PAPERS:
             print(f"    {pid}")
-        print("  (dry run — not downloading)")
+        print("  (dry run ÔÇö not downloading)")
         return
 
     try:
         from arxiv_downloader import download_by_id
-
-        download_by_id(MODIFIED_GRAVITY_PAPERS, download_pdfs)
+        download_by_id(MODIFIED_GRAVITY_PAPERS, download_pdfs=False)
     except Exception as e:
         print(f"  Download error: {e}")
 
 
-# ─── Session persistence ──────────────────────────────────────────────────────
+# ÔöÇÔöÇÔöÇ Session persistence ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
 
 def _session_path(session_id: str) -> Path:
     return Path(SESSIONS_DIR) / f"session_{session_id}.json"
@@ -202,7 +215,7 @@ def list_sessions() -> None:
     print()
 
 
-# ─── Round checkpoint ─────────────────────────────────────────────────────────
+# ÔöÇÔöÇÔöÇ Round checkpoint ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
 
 def _save_checkpoint(session_data: dict, round_data: dict, produce_latex: bool) -> None:
     save_session(session_data)
@@ -222,7 +235,7 @@ def _save_checkpoint(session_data: dict, round_data: dict, produce_latex: bool) 
         print(f"  LaTeX checkpoint failed: {e}")
 
 
-# ─── Core runner ──────────────────────────────────────────────────────────────
+# ÔöÇÔöÇÔöÇ Core runner ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
 
 def run_session(
     question: str = DEFAULT_QUESTION,
@@ -236,12 +249,12 @@ def run_session(
 ) -> dict:
 
     if resume_data:
-        session_id = resume_data["session_id"]
-        session_start = datetime.fromisoformat(resume_data["timestamp"])
-        all_rounds = resume_data.get("rounds", [])
-        title = resume_data.get("title", title)
-        question = resume_data.get("question", question)
-        start_round = len(all_rounds) + 1
+        session_id      = resume_data["session_id"]
+        session_start   = datetime.fromisoformat(resume_data["timestamp"])
+        all_rounds      = resume_data.get("rounds", [])
+        title           = resume_data.get("title", title)
+        question        = resume_data.get("question", question)
+        start_round     = len(all_rounds) + 1
         current_context = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}" for r in all_rounds
         )
@@ -249,10 +262,10 @@ def run_session(
             current_context += f"\n\nHuman input / new direction:\n{human_input}"
             print(f"  Injecting human input: {human_input[:120]}")
     else:
-        session_id = uuid.uuid4().hex[:8]
-        session_start = datetime.now()
-        all_rounds = []
-        start_round = 1
+        session_id      = uuid.uuid4().hex[:8]
+        session_start   = datetime.now()
+        all_rounds      = []
+        start_round     = 1
         current_context = ""
 
     session_data = {
@@ -306,11 +319,8 @@ def run_session(
                 print(f"  ERROR from {name}: {e}")
                 agent_responses[name] = f"[Error: {e}]"
 
-            time.sleep(SLEEP_AFTER_AGENT_SEC)
-
         print(f"  Synthesizing round {round_num}...")
         synthesis = orchestrator.orchestrate(question, agent_responses, round_num)
-        time.sleep(SLEEP_AFTER_ORCHESTRATE_SEC)
 
         round_data = {
             "round":     round_num,
@@ -330,17 +340,15 @@ def run_session(
 
         _save_checkpoint(session_data, round_data, produce_latex)
         print(f"  Checkpoint saved (round {round_num}).")
-        time.sleep(SLEEP_AFTER_CHECKPOINT_SEC)
 
         current_context = "\n\n".join(
             f"Round {r['round']} synthesis:\n{r['synthesis']}" for r in all_rounds
         )
-        time.sleep(SLEEP_AFTER_ROUND_SEC)
 
+    # ÔöÇÔöÇ Final synthesis ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
     print(f"\n{'='*70}")
     print(f"  FINAL SYNTHESIS")
     print(f"{'='*70}\n")
-    time.sleep(SLEEP_BEFORE_FINAL_SYNTHESIS_SEC)
     final = orchestrator.final_synthesis(question, all_rounds, title)
     session_data["final_synthesis"] = final
 
@@ -354,7 +362,6 @@ def run_session(
             session_data["final_latex"] = result
         except Exception as e:
             print(f"  Final LaTeX failed: {e}")
-        time.sleep(SLEEP_AFTER_CHECKPOINT_SEC)
 
     save_session(session_data)
 
@@ -367,7 +374,7 @@ def run_session(
     return session_data
 
 
-# ─── CLI ──────────────────────────────────────────────────────────────────────
+# ÔöÇÔöÇÔöÇ CLI ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -385,20 +392,12 @@ if __name__ == "__main__":
     parser.add_argument("--input",           metavar="TEXT",
                         help="Human input injected when resuming")
     parser.add_argument("--list-sessions",   action="store_true")
-    parser.add_argument(
-        "--download-papers",
-        action="store_true",
-        help="Before a new session, download curated arXiv papers and preprocess (ignored with --resume)",
-    )
+    parser.add_argument("--skip-download",   action="store_true",
+                        help="Skip paper download step")
     parser.add_argument("--download-only",   action="store_true",
-                        help="Only download papers and preprocess; do not run a session")
+                        help="Only download papers, do not run session")
     parser.add_argument("--dry-run-papers",  action="store_true",
                         help="List papers that would be downloaded")
-    parser.add_argument(
-        "--pdf",
-        action="store_true",
-        help="With --download-papers / --download-only: also fetch PDFs (default: abstracts only)",
-    )
     args = parser.parse_args()
 
     if args.list_sessions:
@@ -406,26 +405,22 @@ if __name__ == "__main__":
         sys.exit(0)
 
     if args.dry_run_papers:
-        download_modified_gravity_papers(dry_run=True, download_pdfs=args.pdf)
+        download_modified_gravity_papers(dry_run=True)
         sys.exit(0)
 
-    def _maybe_download_and_preprocess() -> None:
-        download_modified_gravity_papers(dry_run=False, download_pdfs=args.pdf)
+    # Download papers first (unless skipped or resuming)
+    if not args.skip_download and not args.resume:
+        download_modified_gravity_papers(dry_run=False)
         print("\n  Preprocessing new papers...")
         try:
             from preprocess_papers import process_all
-
             process_all(force=False)
         except Exception as e:
             print(f"  Preprocessing error: {e}")
 
     if args.download_only:
-        _maybe_download_and_preprocess()
         print("Download complete.")
         sys.exit(0)
-
-    if args.download_papers and not args.resume:
-        _maybe_download_and_preprocess()
 
     if args.resume:
         data = load_session(args.resume)

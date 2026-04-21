@@ -1,15 +1,12 @@
 @echo off
-REM Quantum Gravity Think Tank launcher
-REM Usage: run.bat [--question "..."] [--rounds N] [--no-latex]
+REM Universal Physicist (main.py) — phrase to full session
+REM For the legacy QG-only entry point: py -3 quantum_gravity_project.py ...
 REM
-REM Before first use, set your API key:
-REM   setx ANTHROPIC_API_KEY "sk-ant-..."
-REM   (then open a new terminal)
+REM API key: environment, or .claude/settings.json (see settings.example.json)
 
 if "%ANTHROPIC_API_KEY%"=="" (
-    echo ERROR: ANTHROPIC_API_KEY is not set.
-    echo Run:  setx ANTHROPIC_API_KEY "sk-ant-..."
-    echo Then open a new terminal window.
-    exit /b 1
+    echo NOTE: ANTHROPIC_API_KEY is not set in this shell.
+    echo If config fails, set the key or use .claude\settings.json
 )
+
 py -3 main.py %*

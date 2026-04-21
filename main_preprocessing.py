@@ -217,7 +217,8 @@ def run_pipeline(
     _banner(f"Pipeline complete  ({elapsed/60:.1f} min)")
     show_status()
     print("Next step:")
-    print("  py -3 main.py --question 'Your research question here'")
+    print("  py -3 main.py --phrase 'short description of your topic'")
+    print("  py -3 quantum_gravity_project.py --question 'Your research question here'")
     print("  run.bat  (interactive mode)\n")
 
 
