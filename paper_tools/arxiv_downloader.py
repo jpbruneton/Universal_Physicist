@@ -27,11 +27,26 @@ def search_and_download(
     os.makedirs(get_papers_dir(), exist_ok=True)
 
     search_query = query or " OR ".join(f'"{term}"' for term in ARXIV_SEARCH_TERMS[:5])
+
+    # arXiv API returns HTTP 500 when the query URL exceeds ~4 kB.
+    # Hard-truncate to the last complete OR/AND clause boundary before the limit.
+    _MAX_QUERY_CHARS = 3000
+    if len(search_query) > _MAX_QUERY_CHARS:
+        truncated = search_query[:_MAX_QUERY_CHARS]
+        # Cut at last clean boundary so we don't leave a half-written term
+        for sep in (" AND ", " OR ", " ANDNOT "):
+            idx = truncated.rfind(sep)
+            if idx > _MAX_QUERY_CHARS // 2:
+                truncated = truncated[:idx]
+                break
+        print(f"  Query truncated from {len(search_query)} to {len(truncated)} chars (arXiv URL limit)")
+        search_query = truncated
+
     if categories:
         cat_filter = " OR ".join(f"cat:{c}" for c in categories)
         search_query = f"({search_query}) AND ({cat_filter})"
 
-    print(f"Searching arXiv: {search_query[:100]}...")
+    print(f"Searching arXiv: {search_query[:120]}...")
 
     client = arxiv.Client(
         page_size=100,

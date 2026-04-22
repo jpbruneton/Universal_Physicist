@@ -27,7 +27,13 @@ from .paper_selector import (
     _load_processed_index,
     narrow_papers_for_catalogue,
 )
-from config import MAX_LATEX_SYNTHESIS_CHARS, MAX_PAPER_CATALOGUE_ENTRIES, OUTPUT_DIR
+from config import (
+    MAX_LATEX_SYNTHESIS_CHARS,
+    MAX_PAPER_CATALOGUE_ENTRIES,
+    MAX_LATEX_CHECKPOINT_TOKENS,
+    MAX_LATEX_FINAL_TOKENS,
+    OUTPUT_DIR,
+)
 
 try:
     from latex_tools.compile_latex import compile as _compile_tex, is_available as _compiler_is_available
@@ -291,7 +297,7 @@ def format_checkpoint(
         ),
     }]
 
-    tex_content = call_agent(CHECKPOINT_SYSTEM, messages, max_tokens=8000)
+    tex_content = call_agent(CHECKPOINT_SYSTEM, messages, max_tokens=MAX_LATEX_CHECKPOINT_TOKENS)
     tex_content = _strip_markdown_fence(tex_content)
     tex_content = _inject_bibliography(tex_content, bibliography)
 
@@ -329,7 +335,7 @@ def format_final(
         ),
     }]
 
-    tex_content = call_agent(FINAL_SYSTEM, messages, max_tokens=14000)
+    tex_content = call_agent(FINAL_SYSTEM, messages, max_tokens=MAX_LATEX_FINAL_TOKENS)
     tex_content = _strip_markdown_fence(tex_content)
     tex_content = _inject_bibliography(tex_content, bibliography)
 

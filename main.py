@@ -621,7 +621,7 @@ def main() -> None:
                 state = None
             else:
                 sys.exit(0)
-        elif state and not pipeline_fully_done(state):
+        elif state and not pipeline_fully_done(state, out_root):
             print(
                 "ERROR: An incomplete checkpoint exists for this prompt.\n"
                 "Continue with:  py -3 main.py ... --resume\n"

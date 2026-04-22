@@ -18,17 +18,25 @@ agent:
   model: claude-sonnet-4-6
 
 arxiv:
+  # Minimum value the planner / CLI may use for how many arXiv results to pull.
   min_papers: 8
+  # Maximum cap on that count (also upper bound for `--max-papers`).
   max_papers: 120
 
 context:
+  # Max characters of shared history/context each expert sees in one call.
   max_expert_chars: 45000
+  # Max characters kept from each agent reply when the orchestrator compresses a round.
   max_orchestrator_agent_response_chars: 14000
+  # Max characters for the orchestrator’s synthesis after a single round.
   max_final_round_synthesis_chars: 16000
+  # Max characters when the orchestrator rolls up context across all rounds so far.
   max_final_all_rounds_chars: 90000
+  # Log a warning if an API request is estimated above this input size (chars).
   large_request_warn_input_chars: 120000
-  # Avoid multi‑100k token requests when the local paper index is huge (LaTeX + paper selector).
+  # Max papers from the library considered for the paper-selector LLM (avoids huge prompts).
   max_paper_catalogue_entries: 150
+  # Max characters of synthesis text passed into the LaTeX formatter.
   max_latex_synthesis_chars: 24000
 
 session:

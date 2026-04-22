@@ -120,6 +120,10 @@ def _au_field_term(name: str) -> str:
     return f"au:{a}"
 
 
+_MAX_QUERY_KEYWORDS = 10  # arXiv 500s on URLs >~4 kB
+_MAX_QUERY_AUTHORS = 8
+
+
 def merge_arxiv_search_query(
     base_query: str,
     keywords: list[str],
@@ -130,13 +134,15 @@ def merge_arxiv_search_query(
     """
     Combine the planner's arXiv query with mandatory keyword and author clauses,
     then apply ANDNOT for exclusions (arXiv boolean query).
+
+    Keywords and authors are capped to avoid HTTP 500 from URL-length overflow.
     """
     parts = []
     b = base_query.strip()
     if b:
         parts.append(f"({b})")
     kw_terms = []
-    for k in keywords:
+    for k in keywords[:_MAX_QUERY_KEYWORDS]:
         k = k.strip()
         if not k:
             continue
@@ -144,7 +150,7 @@ def merge_arxiv_search_query(
     if kw_terms:
         parts.append("(" + " OR ".join(kw_terms) + ")")
     au_terms = []
-    for a in authors:
+    for a in authors[:_MAX_QUERY_AUTHORS]:
         a = a.strip()
         if not a:
             continue
