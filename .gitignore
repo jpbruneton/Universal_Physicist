@@ -28,6 +28,12 @@ papers/
 # Pipeline resume checkpoints (per prompt fingerprint)
 pipeline_state/
 
+# written_projects: only these three are tracked; others stay local
+written_projects/*
+!written_projects/hawking_radiation_a_graduate_level_exposition_project.py
+!written_projects/quantum_gravity_project.py
+!written_projects/quantum_mechanics_over_non_continuous_fields_algeb_project.py
+
 # OS / editor
 .DS_Store
 Thumbs.db
