@@ -2,6 +2,17 @@
 
 Agent-powered theoretical physicist: describe a topic in one phrase, pull papers, preprocess the library, and run multi-round expert sessions with optional LaTeX output. Choose **researcher** mode (explore new ideas; may use a wild theorist) or **teacher** mode (expository only, pedagogical agent—no speculative new theories as the goal).
 
+### How to run `main.py`
+
+| What you want | Command |
+|----------------|---------|
+| **One phrase on the command line** | `py -3 main.py --phrase "your topic here"` (optional: `--mode teacher`, `--pdf` / `--no-pdf`, etc.) |
+| **Interactive phrase** (prompted after launch) | `py -3 main.py` or `py -3 main.py -i` — this does **not** read `instructions.json`. |
+| **Structured brief** (`query`, `keywords`, `authors`, exclusions, …) | `py -3 main.py --use-instructions` — loads **`instructions.json`** at the repo root (create it yourself; see [Structured instructions](#structured-instructions-json) below). |
+| **No new papers** (skip arXiv / INSPIRE / Semantic Scholar downloads) | Add **`--skip-papers`**. Often add **`--skip-preprocess`** too if you are not refreshing the library. Literature agents then use only whatever is already under `papers/<slug>/`. |
+
+API key and YAML settings: [section 1](#1-anthropic-api-and-configuration).
+
 <!-- Example block: bordered callout (renders on GitHub) -->
 <div align="left" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 14px 18px; background-color: #f6f8fa; margin: 12px 0 20px 0;">
 
