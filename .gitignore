@@ -11,7 +11,7 @@ __pycache__/
 venv/
 env/
 
-# Local session instructions (copy from instructions.example.json)
+# Session instructions for `main.py --use-instructions` (see README)
 instructions.json
 
 # Env files

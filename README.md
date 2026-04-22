@@ -148,7 +148,7 @@ py -3 main.py -i
 
 ### Structured instructions (JSON)
 
-Copy [`instructions.example.json`](instructions.example.json) → `instructions.json` (gitignored), or use `--instructions path\to\file.json`. Run:
+Create **`instructions.json`** at the repo root (gitignored), or pass **`--instructions path\to\file.json`**. Run:
 
 ```bash
 py -3 main.py --use-instructions
