@@ -11,9 +11,6 @@ __pycache__/
 venv/
 env/
 
-# Session instructions for `main.py --use-instructions` (see README)
-instructions.json
-
 # Env files
 .env
 .env.*

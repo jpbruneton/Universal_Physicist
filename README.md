@@ -8,7 +8,7 @@ Agent-powered theoretical physicist: describe a topic in one phrase, pull papers
 |----------------|---------|
 | **One phrase on the command line** | `py -3 main.py --phrase "your topic here"` (optional: `--mode teacher`, `--pdf` / `--no-pdf`, etc.) |
 | **Interactive phrase** (prompted after launch) | `py -3 main.py` or `py -3 main.py -i` — this does **not** read `instructions.json`. |
-| **Structured brief** (`query`, `keywords`, `authors`, exclusions, …) | `py -3 main.py --use-instructions` — loads **`instructions.json`** at the repo root (create it yourself; see [Structured instructions](#structured-instructions-json) below). |
+| **Structured brief** (`query`, `keywords`, `authors`, exclusions, …) | `py -3 main.py --use-instructions` — loads **[`instructions.json`](instructions.json)** at the repo root (tracked; default brief for a **new quantum-gravity-style** run). Use **`--instructions path\to\alt.json`** for a private copy without editing the repo file. Details: [Structured instructions](#structured-instructions-json). |
 | **No new papers** (skip arXiv / INSPIRE / Semantic Scholar downloads) | Add **`--skip-papers`**. Often add **`--skip-preprocess`** too if you are not refreshing the library. Literature agents then use only whatever is already under `papers/<slug>/`. |
 
 API key and YAML settings: [section 1](#1-anthropic-api-and-configuration).
@@ -157,21 +157,25 @@ py -3 main.py -i
 
 ### Structured instructions (JSON)
 
-Create **`instructions.json`** at the repo root, see example file. Required: `query`, `keywords`, `authors`; optional: `mode`, `session_name`, `exclude_keywords`, `exclude_authors :
+The repo includes **[`instructions.json`](instructions.json)** — a **researcher** brief with `session_name` **`quantum_gravity_base`**, keywords aimed at **emergent spacetime / entanglement** and similar QG angles, plus **`exclude_keywords`** that drop stringy, AdS/CFT, LQG/spinfoam, and causal-set dominated hits (same spirit as a focused `main.py` run, complementary to the older **[`written_projects/quantum_gravity_project.py`](written_projects/quantum_gravity_project.py)** phrase-style entry).
+
+**Required keys:** `query`, `keywords`, `authors`. **Optional:** `mode`, `session_name`, `exclude_keywords`, `exclude_authors` (plain words; the pipeline turns them into arXiv `all:` / `au:` and `ANDNOT`).
+
+Minimal shape (illustration only):
 
 ```json
 {
   "mode": "researcher",
-  "session_name": "p_adic_qm_run",
-  "query": "QM on non-continuous fields; constraints and predictions.",
-  "keywords": ["p-adic quantum mechanics", "finite field"],
-  "authors": ["Volovich", "Dragovich"],
-  "exclude_keywords": ["MOND"],
-  "exclude_authors": ["Smith"]
+  "session_name": "my_run",
+  "query": "Short research question.",
+  "keywords": ["keyword one", "keyword two"],
+  "authors": ["AuthorA", "AuthorB"],
+  "exclude_keywords": ["unwanted topic"],
+  "exclude_authors": []
 }
 ```
 
-Optional **`session_name`** is a human-readable label for **`output/<slug>/`** and **`sessions/session_<slug>.json`** (the value is slugified; if the folder already exists, a numeric suffix is added). It is included in the pipeline fingerprint and in `instructions_summary`.
+Optional **`session_name`** labels **`output/<slug>/`** and **`sessions/session_<slug>.json`** (slugified; numeric suffix if the folder exists). It is included in the pipeline fingerprint and in `instructions_summary`.
 
 Set `"mode": "teacher"` for an expository session (no wild theorist; teacher-style rounds). Omit `mode` to default to `researcher`.
 
