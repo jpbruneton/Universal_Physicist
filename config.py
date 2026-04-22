@@ -4,22 +4,7 @@ import re
 import sys
 
 _PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-_DEFAULT_YAML = os.path.join(_PROJECT_ROOT, "config.default.yaml")
-_LOCAL_YAML = os.path.join(_PROJECT_ROOT, "config.yaml")
-
-
-def _deep_merge(base: dict, override: dict) -> dict:
-    out = dict(base)
-    for key, val in override.items():
-        if (
-            key in out
-            and isinstance(out[key], dict)
-            and isinstance(val, dict)
-        ):
-            out[key] = _deep_merge(out[key], val)
-        else:
-            out[key] = val
-    return out
+_YAML_PATH = os.path.join(_PROJECT_ROOT, "config.yaml")
 
 
 def _load_yaml_config() -> dict:
@@ -27,24 +12,20 @@ def _load_yaml_config() -> dict:
         import yaml
     except ImportError:
         return {}
-    data: dict = {}
-    if os.path.isfile(_DEFAULT_YAML):
-        try:
-            with open(_DEFAULT_YAML, encoding="utf-8") as f:
-                loaded = yaml.safe_load(f)
-                if isinstance(loaded, dict):
-                    data = loaded
-        except (OSError, yaml.YAMLError):
-            pass
-    if os.path.isfile(_LOCAL_YAML):
-        try:
-            with open(_LOCAL_YAML, encoding="utf-8") as f:
-                local = yaml.safe_load(f)
-                if isinstance(local, dict):
-                    data = _deep_merge(data, local)
-        except (OSError, yaml.YAMLError):
-            pass
-    return data
+    if not os.path.isfile(_YAML_PATH):
+        print(
+            f"WARNING: {_YAML_PATH} not found — using built-in defaults from config.py for missing keys.",
+            file=sys.stderr,
+        )
+        return {}
+    try:
+        with open(_YAML_PATH, encoding="utf-8") as f:
+            loaded = yaml.safe_load(f)
+            if isinstance(loaded, dict):
+                return loaded
+    except (OSError, yaml.YAMLError):
+        pass
+    return {}
 
 
 _YAML = _load_yaml_config()
@@ -113,6 +94,8 @@ LARGE_REQUEST_WARN_INPUT_CHARS = int(
 MAX_PAPER_CATALOGUE_ENTRIES = int(_y("context", "max_paper_catalogue_entries", default=150))
 # Bound synthesis length sent to LaTeX formatter (full text stays in session JSON).
 MAX_LATEX_SYNTHESIS_CHARS = int(_y("context", "max_latex_synthesis_chars", default=24000))
+MAX_LATEX_CHECKPOINT_TOKENS = int(_y("context", "max_latex_checkpoint_tokens", default=8000))
+MAX_LATEX_FINAL_TOKENS = int(_y("context", "max_latex_final_tokens", default=14000))
 
 MAX_ROUNDS = int(_y("session", "max_rounds", default=3))
 

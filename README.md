@@ -47,10 +47,17 @@ Searching arXiv: (abs:(Hawking radiation derivation Bogoliubov transformation bl
 
 </div>
 
-## 1. API key setup
+## 1. Anthropic API and configuration
 
-Create **`.claude/settings.json`** yourself under the project root. 
-Put your Anthropic API key under `env`:
+### LLM provider (Anthropic only, for now)
+
+The codebase talks to **Anthropic’s Messages API** only (`anthropic` Python SDK). Session planning, every specialist and orchestrator turn, LaTeX formatting, and paper selection all go through that stack. **There is no OpenAI, Azure, or local-LLM backend wired in today**—adding one would require new client code paths.
+
+**Exception:** `paper_tools/preprocess_papers.py` also calls Anthropic, but uses a **fixed small model** (Haiku-class) in code for cheap per-abstract summaries. That preprocessor model is **not** controlled by [`config.yaml`](config.yaml); only **`agent.model`** there drives the main pipeline.
+
+### API key
+
+Create **`.claude/settings.json`** yourself under the project root, or set **`ANTHROPIC_API_KEY`** in your environment. The app also reads the key from `env` in that JSON file (see `config.py`).
 
 ```json
 {
@@ -62,6 +69,23 @@ Put your Anthropic API key under `env`:
   }
 }
 ```
+
+### `config.yaml`
+
+All YAML tunables live in **[`config.yaml`](config.yaml)** at the repo root. **`config.py` loads only this file** (no second “defaults” YAML). The file is **tracked in git** so clones work out of the box; change **`agent.model`**, paper limits, or flags here and commit if you want to share, or keep local edits uncommitted. **Do not put API keys in this file**—use the environment or `.claude/settings.json`.
+
+If `config.yaml` is missing, `config.py` falls back to built-in defaults for each setting and prints a warning.
+
+| Section | Role |
+|---------|------|
+| **`agent`** | **`model`** — Anthropic model id for the **main** pipeline (planner, experts, orchestrator, literature/selector/LaTeX agents). Example: `claude-sonnet-4-6`. |
+| **`arxiv`** | `min_papers` / `max_papers` — bounds used when planning or capping library size. |
+| **`context`** | Character budgets for expert context, orchestrator replies, final syntheses, warnings, paper-catalogue size, LaTeX-bound synthesis length. |
+| **`session`** | `max_rounds` — default cap on discussion rounds. |
+| **`paths`** | Root-relative directories: `papers`, `output`, `sessions`. |
+| **`papers`** | `arxiv_pdf`, `inspire`, `semantic_scholar` — downloads and supplements (see [Optional ArXiv PDF downloads](#optional-arxiv-pdf-downloads)). |
+
+The YAML header comments mirror this. Extra keys exist in code (e.g. LaTeX token caps) with fallbacks if omitted from YAML—see `config.py` for the full list.
 
 ## 2. Running `main.py`
 
@@ -89,6 +113,22 @@ Every run uses one of two **session modes** (default: **`researcher`**):
 - **Already finished:** if the checkpoint is **`completed`** and (when LaTeX is enabled) **`output/<session_id>/final_paper.tex`** exists, you are prompted to delete the checkpoint. **No** exits without changes. **Yes** deletes the checkpoint and immediately starts a **new** full pipeline in the same process (with **`--resume`**, after a completed run) or on the next normal run (without **`--resume`**). You can also pass **`--force-fresh`** once to discard the checkpoint before a normal run.
 
 `--plan-only` does not use checkpoints. **`--resume`** cannot be combined with **`--plan-only`** or **`--force-fresh`**.
+
+### Optional ArXiv PDF downloads
+
+By default, the paper step **always** saves each hit’s **metadata and abstract** (API + sidecar `.txt` under `papers/<slug>/`). Whether it also downloads the **full PDF** from arXiv is controlled separately (abstract-only vs abstract **plus** PDF):
+
+| Control | Effect |
+|--------|--------|
+| **`papers.arxiv_pdf`** in [`config.yaml`](config.yaml) | Default for a normal run when you pass neither PDF flag. |
+| **`--pdf`** | Force PDF downloads **on** for this run (overrides config). |
+| **`--no-pdf`** | Force PDF downloads **off** for this run (abstracts only; overrides config). |
+
+**Why turn PDFs on?** The preprocessing step (`paper_tools.preprocess_papers`) still summarizes from **title + abstract only**. PDFs matter for agents that can read the library in depth: they extract text into a cached **`.fulltext.txt`** (when extraction libraries are installed) and build **excerpts** from the body of the paper. Without a PDF, those agents fall back to the abstract only—enough for cataloguing and light context, not for equations or proofs in the main text.
+
+**Why turn PDFs off?** Faster runs, less disk, and less load on arXiv; the pipeline still builds `index.json` / `processed_index.json` from abstracts.
+
+The same **on/off** choice applies to **INSPIRE** and **Semantic Scholar** supplements in `main.py`: they resolve arXiv IDs, then reuse the same download path (abstracts always; PDFs when enabled). Replay scripts under `written_projects/` that fetch papers use the same **`--pdf` / `--no-pdf`** vs config pattern.
 
 ### Phrase mode (default)
 
@@ -173,9 +213,9 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
 1. **Plan** — A planner model turns your short phrase (or structured instructions) into a structured plan: a precise question, an arXiv search query, categories, how many papers to pull, which **built-in** experts join each round, and how the discussion is staged. The plan respects the **session mode** (`researcher` vs `teacher`): in teacher mode the question and rounds emphasize explanation and literature, and the **Wild Theorist** is not used. **Experts are also created on the fly when needed:** if your topic calls for niche skills (e.g. p-adic analysis, finite fields), the planner invents one or more **dynamic specialists** for that run only—each gets its own system prompt and participates like any other agent. You do not configure them by hand.
 
-2. **Papers (in `main.py`)** — The library is **per project** under `papers/<slug>/` (derived from the planned session title; CLI tools use `--project <slug>` or `papers/default/` until something sets it). Step **arXiv**: relevance search using the planned query and categories; results merge into `papers/<slug>/index.json` with **abstract** text and sidecar `.txt` files. If **`papers.inspire`** / **`papers.semantic_scholar`** are true in `config` (see `config.default.yaml`), `main.py` then runs a **single-topic** supplement on each: INSPIRE (top-cited) and Semantic Scholar, using the session title (or the refined question if the title is too short). That is **not** the same as `py -3 -m paper_tools.main_preprocessing`, which runs long **multi-topic** sweeps; turn off the YAML flags if you want arXiv only.
+2. **Papers (in `main.py`)** — The library is **per project** under `papers/<slug>/` (derived from the planned session title; CLI tools use `--project <slug>` or `papers/default/` until something sets it). Step **arXiv**: relevance search using the planned query and categories; results merge into `papers/<slug>/index.json` with **abstract** text and sidecar `.txt` files. If **`papers.inspire`** / **`papers.semantic_scholar`** are true in [`config.yaml`](config.yaml), `main.py` then runs a **single-topic** supplement on each: INSPIRE (top-cited) and Semantic Scholar, using the session title (or the refined question if the title is too short). That is **not** the same as `py -3 -m paper_tools.main_preprocessing`, which runs long **multi-topic** sweeps; turn off the YAML flags if you want arXiv only.
 
-   PDF downloads follow **`papers.arxiv_pdf`** and `main.py --pdf` / `--no-pdf` (see config comments).
+   **Optional PDFs:** see [Optional ArXiv PDF downloads](#optional-arxiv-pdf-downloads) above—`papers.arxiv_pdf`, **`--pdf`**, **`--no-pdf`**. Abstracts are always fetched; PDFs add full-text extraction and richer agent context at the cost of time and disk.
 
    If you still have an old **flat** `papers/index.json` at the repo root, move it (and any sidecar files) into `papers/default/` yourself, or pick a slug and pass `--project` consistently.
 
@@ -185,8 +225,10 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
 ## 4. Cost
 
-- **Papers** — arXiv access is free. Preprocessing uses a **small, fast** model (Haiku-class) per abstract; that part is relatively **cheap** compared to the main loop.
-- **Experts** — Each specialist and each orchestration step uses a **large** model (Sonnet-class). A full run with several rounds and many agents is **not** cheap; **roughly on the order of $5 USD per full run** is a reasonable ballpark, but actual cost depends on prompt length, rounds, and current API pricing—check your Anthropic usage dashboard.
+All **LLM usage is billed by Anthropic** (see **`agent.model`** and your org’s rates). arXiv and similar paper APIs are separate and typically free.
+
+- **Papers** — arXiv access is free. Preprocessing uses a **small, fast** Anthropic model (Haiku-class, fixed in code) per abstract; that part is relatively **cheap** compared to the main loop.
+- **Experts** — Each specialist and each orchestration step uses your configured **`agent.model`** (often Sonnet-class). A full run with several rounds and many agents is **not** cheap; **roughly on the order of $5 USD per full run** is a reasonable ballpark, but actual cost depends on prompt length, rounds, and current API pricing—check your **Anthropic** usage dashboard.
 
 Use `--plan-only` to preview the plan without papers or the expert session. Use `--skip-papers` / `--skip-preprocess` if you already have a library and only want the discussion.
 

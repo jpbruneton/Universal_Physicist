@@ -1,0 +1,49 @@
+# Universal Physicist — configuration (tracked; edit values here)
+#
+# Loaded by config.py as the single source of YAML settings.
+# API keys do not belong in this file — use ANTHROPIC_API_KEY or `.claude/settings.json`.
+#
+# --- Sections (see README section 1) ---
+#
+# agent      — LLM used for the main pipeline: session planner, every expert/orchestrator call,
+#              LaTeX formatter, paper selector, etc. (Anthropic model id string.)
+# arxiv      — Bounds passed into planning / CLI for how many papers to aim for or cap.
+# context    — Character/token budgets for prompts, syntheses, and paper-catalogue narrowing.
+# session    — Default maximum discussion rounds (planner may still propose fewer).
+# paths      — Root-relative folders for papers, LaTeX output, and session JSON.
+# papers     — Which supplemental sources run and whether to download arXiv PDFs (not just abstracts).
+
+agent:
+  # Anthropic model id — must be a model your API key can call.
+  model: claude-sonnet-4-6
+
+arxiv:
+  min_papers: 8
+  max_papers: 120
+
+context:
+  max_expert_chars: 45000
+  max_orchestrator_agent_response_chars: 14000
+  max_final_round_synthesis_chars: 16000
+  max_final_all_rounds_chars: 90000
+  large_request_warn_input_chars: 120000
+  # Avoid multi‑100k token requests when the local paper index is huge (LaTeX + paper selector).
+  max_paper_catalogue_entries: 150
+  max_latex_synthesis_chars: 24000
+
+session:
+  max_rounds: 3
+
+paths:
+  papers: papers
+  output: output
+  sessions: sessions
+
+# Paper sources and downloads (defaults: all enabled)
+# - arxiv_pdf: used by main.py and written_projects/*_project.py replay (download PDFs from arXiv)
+# - inspire / semantic_scholar: used by main.py (single-topic supplement after arXiv)
+#   and by paper_tools.main_preprocessing (full multi-topic sweeps)
+papers:
+  arxiv_pdf: true
+  inspire: true
+  semantic_scholar: true
