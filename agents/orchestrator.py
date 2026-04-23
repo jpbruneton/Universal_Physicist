@@ -68,6 +68,7 @@ def orchestrate(
     agent_responses: dict[str, str],
     round_num: int,
     session_mode: str,
+    guide_report: str = "",
 ) -> str:
     """Synthesize all agent responses into a coherent round summary (research or teaching)."""
     capped = cap_agent_responses(agent_responses, MAX_ORCHESTRATOR_AGENT_RESPONSE_CHARS)
@@ -76,6 +77,11 @@ def orchestrate(
         for name, response in capped.items()
     )
     sys = _orchestrator_system(session_mode)
+    guide_section = (
+        f"GUIDE QUALITY EVALUATION (use scores to weight your synthesis — "
+        f"prioritize high-scoring experts, downweight flagged ones):\n{guide_report}\n\n"
+        if guide_report else ""
+    )
     if session_mode == "teacher":
         user_content = (
             f"ROUND {round_num} TEACHING SYNTHESIS\n\n"
@@ -88,14 +94,17 @@ def orchestrate(
         user_content = (
             f"ROUND {round_num} SYNTHESIS REQUEST\n\n"
             f"Original research question: {research_question}\n\n"
+            f"{guide_section}"
             f"Team responses:\n{agent_summary}\n\n"
             f"Please synthesize these perspectives into a coherent theoretical proposal. "
             f"Identify the core idea, key equations, main tensions, and propose what to focus "
-            f"on in the next round. Be concrete and mathematically precise."
+            f"on in the next round. Be concrete and mathematically precise.\n\n"
+            f"STYLE REQUIREMENT: Define every symbol and geometric object when first used in this synthesis. "
+            f"Flag any term left undefined by the team experts so the next round can address it."
         )
 
     messages = [{"role": "user", "content": user_content}]
-    return call_agent(sys, messages, max_tokens=6000)
+    return call_agent(sys, messages, max_tokens=8000)
 
 
 def final_synthesis(

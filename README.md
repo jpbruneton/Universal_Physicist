@@ -224,7 +224,18 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
 3. **Preprocess** — `paper_tools.preprocess_papers` walks everything in `papers/<slug>/index.json` that is not yet in `processed_index.json` in the same folder. For each paper it uses **title + abstract only** (Claude Haiku) to build summaries, keywords, and simple tags—not the full PDF. If a PDF file exists for an entry, the script can optionally **extract full text** into a cached `.fulltext.txt` (for agents that read the library); that path is separate from the Haiku pass.
 
-4. **Discussion** — Multiple rounds: specialists answer the refined question with shared context from prior round syntheses; an **orchestrator** synthesizes after each round (wording depends on **researcher** vs **teacher** mode); LaTeX checkpoints and a final write-up go under `output/<session_id>/`. Session state is stored in `sessions/session_<id>.json` (including `session_mode`).
+4. **Discussion** — Multiple rounds with an SGS-inspired quality loop (researcher mode only):
+
+   - **Conjecturer** (`agents/conjecturer.py`) — Opens each round by generating one concrete, intermediate-difficulty *stepping-stone sub-problem*: more tractable than the full question, not trivially obvious, and chosen so that solving it would meaningfully advance the main research question. This sub-problem is injected into every expert's context for that round, focusing the team rather than letting each agent re-address the full open problem from scratch.
+   - **Experts** — Specialists answer the refined question (and the round's sub-problem) with shared context from prior round syntheses.
+   - **Guide** (`agents/guide.py`) — After all expert responses are collected, scores each contribution on **Relevance** (0–5), **Novelty** (0–3), and **Clarity** (0–3), flags PARAPHRASE / VAGUE / TRIVIAL contributions, and emits a brief `SYNTHESIS GUIDANCE` block naming which experts to prioritize and what has already been established (anti-paraphrase note).
+   - **Orchestrator** — Receives the Guide's scoring report alongside the expert responses and uses it to weight the round synthesis: high-scoring contributions are foregrounded, flagged ones are downweighted.
+   - LaTeX checkpoints and a final write-up go under `output/<session_id>/`. Session state (including `conjecturer_subproblem` and `guide_report` per round) is stored in `sessions/session_<id>.json`.
+
+   The Conjecturer / Guide loop is structurally inspired by the asymmetric self-play framework introduced in:
+
+   > **[SGS paper — please add full citation here]**
+   > Key ideas adapted: (1) a dedicated *Conjecturer* role that generates stepping-stone sub-problems of intermediate difficulty; (2) a *Guide* that scores contributions for relevance, novelty, and clarity to prevent collapse to paraphrase; (3) an explicit anti-paraphrase mechanism that tells the synthesizer what is already established and must not be repeated.
 
 ## 4. Cost
 

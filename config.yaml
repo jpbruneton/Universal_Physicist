@@ -27,17 +27,20 @@ context:
   # Max characters of shared history/context each expert sees in one call.
   max_expert_chars: 45000
   # Max characters kept from each agent reply when the orchestrator compresses a round.
-  max_orchestrator_agent_response_chars: 14000
+  max_orchestrator_agent_response_chars: 20000
   # Max characters for the orchestrator’s synthesis after a single round.
-  max_final_round_synthesis_chars: 16000
+  max_final_round_synthesis_chars: 22000
   # Max characters when the orchestrator rolls up context across all rounds so far.
-  max_final_all_rounds_chars: 90000
+  max_final_all_rounds_chars: 110000
   # Log a warning if an API request is estimated above this input size (chars).
-  large_request_warn_input_chars: 120000
+  large_request_warn_input_chars: 140000
   # Max papers from the library considered for the paper-selector LLM (avoids huge prompts).
   max_paper_catalogue_entries: 150
   # Max characters of synthesis text passed into the LaTeX formatter.
-  max_latex_synthesis_chars: 24000
+  max_latex_synthesis_chars: 30000
+  # Max tokens for LaTeX checkpoint and final paper calls.
+  max_latex_checkpoint_tokens: 11000
+  max_latex_final_tokens: 20000
 
 session:
   max_rounds: 3

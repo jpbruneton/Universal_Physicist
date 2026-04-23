@@ -57,7 +57,7 @@ Rules:
 - arxiv_search_query must target papers directly relevant to the phrase; prefer abs: or all: with key technical terms.
 - arxiv_categories: choose from gr-qc, hep-th, hep-ph, quant-ph, astro-ph, cond-mat, math-ph as appropriate (1-4 categories).
 - max_papers: pick based on breadth (narrow topic ~12, medium ~24, very broad literature sweeps up to ~{MAX_ARXIV_PAPERS}).
-- dynamic_agent_specs: 0 to 4 entries. Add NEW specialists ONLY when the topic needs expertise not covered by built-ins (e.g. plasma astrophysics, lattice QCD, biophysics). Each system_prompt must be 4-12 sentences, concrete.
+- dynamic_agent_specs: 0 to 4 entries. Add NEW specialists ONLY when the topic needs expertise not covered by built-ins (e.g. plasma astrophysics, lattice QCD, biophysics). Each system_prompt must be 4-12 sentences, concrete. Every system_prompt MUST include this instruction to the agent: "Define every symbol, tensor, and geometric object the first time you introduce it. State the type and transformation law of each new structure before using it."
 - round_agent_groups: 3 to 6 rounds. Each round is a list of 2-5 agents. Use built-in keys and/or ids from dynamic_agent_specs.
 - Built-in agent keys you may use: gr, qm, qft, math, lqg, bh, wild, teacher, verifier, meaning, devil, lit
   - gr: General Relativity / classical gravity
@@ -167,12 +167,17 @@ def plan_session_from_instructions(
     if exclude_keywords:
         exk = "\n".join(f"- {k}" for k in exclude_keywords)
         extra += (
-            f"\nExclude these keywords from relevance (use ANDNOT with all:, abs:, or ti: as appropriate):\n{exk}\n"
+            f"\nFORBIDDEN DIRECTIONS — these topics and approaches must be entirely absent from the session:\n{exk}\n"
+            f"This means:\n"
+            f"  • Do NOT include any of these as themes in refined_research_question.\n"
+            f"  • Do NOT create dynamic_agent_specs whose expertise centers on any of these.\n"
+            f"  • Do NOT design any round around these approaches.\n"
+            f"  • Do add them as ANDNOT clauses in arxiv_search_query to filter papers.\n"
         )
     if exclude_authors:
         exa = "\n".join(f"- {a}" for a in exclude_authors)
         extra += (
-            f"\nExclude these authors (use ANDNOT au: with each plain name as arXiv author search):\n{exa}\n"
+            f"\nExclude these authors (ANDNOT au: in arxiv_search_query):\n{exa}\n"
         )
     messages = [
         {
@@ -180,18 +185,13 @@ def plan_session_from_instructions(
             "content": (
                 "Structured research instructions (every field must be reflected in your JSON output):\n\n"
                 f"Main query (foundation for session_title and refined_research_question):\n{query}\n\n"
-                f"Keywords (each must appear in arxiv_search_query using abs:, ti:, or all: as appropriate):\n"
+                f"Keywords (incorporate in arxiv_search_query using abs:, ti:, or all: as appropriate):\n"
                 f"{kw_block}\n\n"
-                f"Authors (each must appear in arxiv_search_query using the arXiv au: prefix):\n"
+                f"Authors (incorporate in arxiv_search_query using the arXiv au: prefix):\n"
                 f"{au_block}\n"
                 f"{extra}\n"
                 "Produce the JSON plan. The refined_research_question must align with the main query. "
-                "arxiv_search_query must be relevant to the topic and must incorporate every keyword and every author."
-                + (
-                    " Exclusions must appear as ANDNOT clauses in arxiv_search_query."
-                    if (exclude_keywords or exclude_authors)
-                    else ""
-                )
+                "arxiv_search_query must incorporate the keywords and authors above."
             ),
         }
     ]

@@ -120,8 +120,9 @@ def _au_field_term(name: str) -> str:
     return f"au:{a}"
 
 
-_MAX_QUERY_KEYWORDS = 10  # arXiv 500s on URLs >~4 kB
-_MAX_QUERY_AUTHORS = 8
+_MAX_QUERY_KEYWORDS = 8   # arXiv 500s on URLs >~4 kB; keep these low
+_MAX_QUERY_AUTHORS = 6
+_MAX_QUERY_EXCLUDE = 5    # each ANDNOT adds ~25 chars; 5 is enough to filter noise
 
 
 def merge_arxiv_search_query(
@@ -132,43 +133,50 @@ def merge_arxiv_search_query(
     exclude_authors: list[str],
 ) -> str:
     """
-    Combine the planner's arXiv query with mandatory keyword and author clauses,
-    then apply ANDNOT for exclusions (arXiv boolean query).
-
-    Keywords and authors are capped to avoid HTTP 500 from URL-length overflow.
+    Build an arXiv boolean query from the instructions' keywords and authors.
+    The planner's base_query is intentionally ignored when keywords are provided —
+    stacking two full query strings produces malformed or overlong URLs (HTTP 400/500).
+    base_query is only used as a fallback when no keywords are given.
+    All counts are capped to keep the URL under arXiv's ~4 kB limit.
     """
-    parts = []
-    b = base_query.strip()
-    if b:
-        parts.append(f"({b})")
     kw_terms = []
     for k in keywords[:_MAX_QUERY_KEYWORDS]:
         k = k.strip()
         if not k:
             continue
         kw_terms.append(_all_field_term(k))
-    if kw_terms:
-        parts.append("(" + " OR ".join(kw_terms) + ")")
+
     au_terms = []
     for a in authors[:_MAX_QUERY_AUTHORS]:
         a = a.strip()
         if not a:
             continue
         au_terms.append(_au_field_term(a))
-    if au_terms:
-        parts.append("(" + " OR ".join(au_terms) + ")")
-    positive = " AND ".join(parts)
+
+    if kw_terms or au_terms:
+        # Build cleanly from controlled terms; ignore the planner's base_query
+        parts = []
+        if kw_terms:
+            parts.append("(" + " OR ".join(kw_terms) + ")")
+        if au_terms:
+            parts.append("(" + " OR ".join(au_terms) + ")")
+        positive = " AND ".join(parts)
+    else:
+        # Fallback: no keywords/authors, use planner's query directly
+        positive = base_query.strip()
+
     neg_chunks: list[str] = []
-    for k in exclude_keywords:
+    for k in exclude_keywords[:_MAX_QUERY_EXCLUDE]:
         k = k.strip()
         if not k:
             continue
         neg_chunks.append(f"ANDNOT {_all_field_term(k)}")
-    for a in exclude_authors:
+    for a in exclude_authors[:_MAX_QUERY_EXCLUDE]:
         a = a.strip()
         if not a:
             continue
         neg_chunks.append(f"ANDNOT {_au_field_term(a)}")
+
     if not neg_chunks:
         return positive
     return f"({positive}) " + " ".join(neg_chunks)

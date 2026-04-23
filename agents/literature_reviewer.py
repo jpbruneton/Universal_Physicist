@@ -5,7 +5,7 @@ then provides a thorough literature review grounded in those actual papers.
 """
 
 from .base import call_agent
-from .paper_selector import select_relevant_papers
+from .paper_selector import select_relevant_papers, _load_processed_index
 
 SYSTEM = """You are a systematic literature reviewer specializing in quantum gravity, quantum field
 theory in curved spacetime, and mathematical physics. You have read thousands of papers and can

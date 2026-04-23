@@ -74,6 +74,8 @@ from agents import (
     literature_reviewer,
     orchestrator,
     latex_formatter,
+    guide,
+    conjecturer,
 )
 from agents import dynamic_expert
 from agents import session_planner
@@ -262,6 +264,35 @@ def run_pipeline_session(
         print(f"  ROUND {round_num}  (session {session_id})")
         print(f"{'-'*70}\n")
 
+        # Conjecturer: generate a stepping-stone sub-problem (researcher mode only)
+        conjecturer_subproblem = ""
+        if session_mode == "researcher":
+            print(f"  [{round_num}] Conjecturer generating sub-problem...")
+            try:
+                conjecturer_subproblem = conjecturer.generate_subproblem(
+                    question, current_context, round_num
+                )
+                if verbose:
+                    print(f"\n  [CONJECTURER SUB-PROBLEM]\n  {'-'*40}")
+                    for line in conjecturer_subproblem.split("\n"):
+                        print(f"  {line}")
+                    print()
+                else:
+                    preview = conjecturer_subproblem.split("\n")[0][:100]
+                    print(f"    Sub-problem: {preview}")
+            except Exception as e:
+                print(f"  Conjecturer error (non-fatal): {e}")
+            _pacing_sleep(SLEEP_AFTER_AGENT_SEC, "Conjecturer call")
+
+        # Build per-round expert context augmented with the sub-problem
+        round_context = current_context
+        if conjecturer_subproblem:
+            round_context = (
+                (current_context + "\n\n" if current_context else "")
+                + "[STEPPING-STONE SUB-PROBLEM FOR THIS ROUND — direct your response toward this]\n"
+                + conjecturer_subproblem
+            )
+
         agent_responses = {}
         for agent_key in agent_keys:
             if agent_key not in agent_registry:
@@ -270,7 +301,7 @@ def run_pipeline_session(
             name, fn = agent_registry[agent_key]
             print(f"  [{round_num}] Consulting {name}...")
             try:
-                response = fn(question, context=current_context)
+                response = fn(question, context=round_context)
                 agent_responses[name] = response
                 if verbose:
                     print(f"\n  [{name}]\n  {'-'*40}")
@@ -283,17 +314,38 @@ def run_pipeline_session(
                 agent_responses[name] = f"[Error: {e}]"
             _pacing_sleep(SLEEP_AFTER_AGENT_SEC, "this agent call")
 
+        # Guide: evaluate expert responses before synthesis (researcher mode only)
+        guide_report = ""
+        if session_mode == "researcher" and agent_responses:
+            print(f"  [{round_num}] Guide evaluating expert contributions...")
+            try:
+                guide_report = guide.evaluate(
+                    question, agent_responses, current_context, round_num
+                )
+                if verbose:
+                    print(f"\n  [GUIDE EVALUATION]\n  {'-'*40}")
+                    for line in guide_report.split("\n"):
+                        print(f"  {line}")
+                    print()
+                else:
+                    print(f"    Guide report: {len(guide_report)} chars")
+            except Exception as e:
+                print(f"  Guide error (non-fatal): {e}")
+            _pacing_sleep(SLEEP_AFTER_AGENT_SEC, "Guide evaluation")
+
         print(f"  Synthesizing round {round_num}...")
         synthesis = orchestrator.orchestrate(
-            question, agent_responses, round_num, session_mode
+            question, agent_responses, round_num, session_mode, guide_report=guide_report
         )
         _pacing_sleep(SLEEP_AFTER_ORCHESTRATE_SEC, "round orchestration")
 
         round_data = {
-            "round":     round_num,
-            "agents":    list(agent_responses.keys()),
-            "responses": agent_responses,
-            "synthesis": synthesis,
+            "round":                  round_num,
+            "agents":                 list(agent_responses.keys()),
+            "responses":              agent_responses,
+            "synthesis":              synthesis,
+            "conjecturer_subproblem": conjecturer_subproblem,
+            "guide_report":           guide_report,
         }
         all_rounds.append(round_data)
         session_data["rounds"] = all_rounds

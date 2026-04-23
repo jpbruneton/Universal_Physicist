@@ -30,7 +30,7 @@ def search_and_download(
 
     # arXiv API returns HTTP 500 when the query URL exceeds ~4 kB.
     # Hard-truncate to the last complete OR/AND clause boundary before the limit.
-    _MAX_QUERY_CHARS = 3000
+    _MAX_QUERY_CHARS = 2000
     if len(search_query) > _MAX_QUERY_CHARS:
         truncated = search_query[:_MAX_QUERY_CHARS]
         # Cut at last clean boundary so we don't leave a half-written term
