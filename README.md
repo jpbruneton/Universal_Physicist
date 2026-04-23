@@ -234,7 +234,7 @@ Each run writes **`.tex`** files under `output/<session_id>/` (final paper and r
 
    The Conjecturer / Guide loop is structurally inspired by the asymmetric self-play framework introduced in:
 
-   > **[SGS paper — please add full citation here]**
+   > **Bailey et.al. https://arxiv.org/abs/2604.20209**
    > Key ideas adapted: (1) a dedicated *Conjecturer* role that generates stepping-stone sub-problems of intermediate difficulty; (2) a *Guide* that scores contributions for relevance, novelty, and clarity to prevent collapse to paraphrase; (3) an explicit anti-paraphrase mechanism that tells the synthesizer what is already established and must not be repeated.
 
 ## 4. Cost
